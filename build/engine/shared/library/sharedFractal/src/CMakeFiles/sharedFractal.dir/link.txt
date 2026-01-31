@@ -1,0 +1,2 @@
+/bin/ar qc libsharedFractal.a CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o
+/bin/ranlib libsharedFractal.a

@@ -1,0 +1,2 @@
+/bin/ar qc libserverBase.a CMakeFiles/serverBase.dir/shared/core/ServerBase.cpp.o CMakeFiles/serverBase.dir/shared/core/ConfigServerBase.cpp.o CMakeFiles/serverBase.dir/shared/core/ServerBaseImpl.cpp.o
+/bin/ranlib libserverBase.a

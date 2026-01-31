@@ -259,7 +259,7 @@ void TcpClient::flushPendingWrites()
 			    && ConfigSharedNetwork::getLogSendingTooMuchData()
 			    && !dynamic_cast<NetLogConnection const *>(c->m_connection))
 			{
-// 				WARNING(true, ("(%s) Failed to commit %d bytes this frame to %s:%d. This process is sending more data than the remote can receive!", c->m_connection->getConnectionDescription().c_str(), c->m_pendingSend.getSize(), c->getRemoteAddress().c_str(), c->getRemotePort()));
+				WARNING(true, ("(%s) Failed to commit %d bytes this frame to %s:%d. This process is sending more data than the remote can receive!", c->m_connection->getConnectionDescription().c_str(), c->m_pendingSend.getSize(), c->getRemoteAddress().c_str(), c->getRemotePort()));
 				LOG("Network", ("(%s) Failed to commit %d bytes this frame to %s:%d. This process is sending more data than the remote can receive!", c->m_connection->getConnectionDescription().c_str(), c->m_pendingSend.getSize(), c->getRemoteAddress().c_str(), c->getRemotePort()));
 			}
 		}

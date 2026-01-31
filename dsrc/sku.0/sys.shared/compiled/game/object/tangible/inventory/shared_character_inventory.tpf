@@ -18,7 +18,7 @@ snapToTerrain = true
 
 containerType = CT_volume
 
-containerVolumeLimit = 200
+containerVolumeLimit = 80
 
 tintPalette = "0"
 

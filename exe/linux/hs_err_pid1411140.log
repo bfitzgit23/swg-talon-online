@@ -1,0 +1,23 @@
+#
+# A fatal error has been detected by the Java Runtime Environment:
+#
+#  SIGSEGV (0xb) at pc=0xf78b7618, pid=1411140, tid=1411140
+#
+# JRE version: OpenJDK Runtime Environment Zulu17.50+19-CA (17.0.11+9) (build 17.0.11+9-LTS)
+# Java VM: OpenJDK Server VM Zulu17.50+19-CA (17.0.11+9-LTS, mixed mode, sharing, tiered, g1 gc, linux-x86)
+# Problematic frame:
+# C  [libc.so.6+0x84618]  cfree+0x28
+#
+# Core dump will be written. Default location: Core dumps may be processed with "/usr/lib/systemd/systemd-coredump %P %u %g %s %t %c %h %e" (or dumping to /home/almalinux/swg-returns-nge/exe/linux/core.1411140)
+#
+# If you would like to submit a bug report, please visit:
+#   http://www.azul.com/support/
+#
+
+---------------  S U M M A R Y ------------
+
+Command Line: -Xms128m -Xmx512m -Xss768k -XX:MaxMetaspaceSize=96m -Xrs -XX:-UsePerfData -XX:-AllowUserSignalHandlers -XX:UseSSE=3 -XX+DoEscapeAnalysis -XX:AutoBoxCacheMax:2000 -XX:+OptimizeStringConcat -XX:+OptimizeFill -XX:+EliminateAutoBox -XX:+UseCompressedStrings -XX:+UseCompressedOops -XX:+EliminateLocks -XX:UseFastAccessorMethods -XX:+UseStringCache -XgcPrio:throughput -XXkeepAreaRatio:1 -XXlazyUnlocking -XXcallProfiling -XXcompactRatio:1 
+
+Host: 
+[error occurred during error reporting (printing summary machine and OS info), id 0xb, SIGSEGV (0xb) at pc=0xf78b57fc]
+

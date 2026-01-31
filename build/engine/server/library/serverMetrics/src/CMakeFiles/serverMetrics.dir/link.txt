@@ -1,0 +1,2 @@
+/bin/ar qc libserverMetrics.a CMakeFiles/serverMetrics.dir/shared/ConfigServerMetrics.cpp.o CMakeFiles/serverMetrics.dir/shared/MetricsConnection.cpp.o CMakeFiles/serverMetrics.dir/shared/MetricsData.cpp.o CMakeFiles/serverMetrics.dir/shared/MetricsManager.cpp.o
+/bin/ranlib libserverMetrics.a

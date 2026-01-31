@@ -1,0 +1,410 @@
+game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgDatabaseServer.cpp.o: \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/src/shared/core/SwgDatabaseServer.cpp \
+ /usr/include/stdc-predef.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/FirstSwgDatabaseServer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/core/FirstSwgDatabaseServer.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
+ /usr/include/c++/8/cstdio \
+ /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
+ /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
+ /usr/include/features.h /usr/include/sys/cdefs.h \
+ /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
+ /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
+ /usr/include/c++/8/x86_64-redhat-linux/32/bits/cpu_defines.h \
+ /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
+ /usr/include/bits/types.h /usr/include/bits/typesizes.h \
+ /usr/include/bits/types/__fpos_t.h /usr/include/bits/types/__mbstate_t.h \
+ /usr/include/bits/types/__fpos64_t.h /usr/include/bits/types/__FILE.h \
+ /usr/include/bits/types/FILE.h /usr/include/bits/types/struct_FILE.h \
+ /usr/include/bits/types/cookie_io_functions_t.h \
+ /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
+ /usr/include/bits/stdio.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
+ /usr/include/c++/8/cstdlib /usr/include/stdlib.h \
+ /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
+ /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
+ /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
+ /usr/include/sys/types.h /usr/include/bits/types/clock_t.h \
+ /usr/include/bits/types/clockid_t.h /usr/include/bits/types/time_t.h \
+ /usr/include/bits/types/timer_t.h /usr/include/bits/stdint-intn.h \
+ /usr/include/endian.h /usr/include/bits/endian.h \
+ /usr/include/bits/byteswap.h /usr/include/bits/uintn-identity.h \
+ /usr/include/sys/select.h /usr/include/bits/select.h \
+ /usr/include/bits/types/sigset_t.h /usr/include/bits/types/__sigset_t.h \
+ /usr/include/bits/types/struct_timeval.h \
+ /usr/include/bits/types/struct_timespec.h \
+ /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
+ /usr/include/bits/pthreadtypes-arch.h /usr/include/alloca.h \
+ /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
+ /usr/include/c++/8/bits/std_abs.h \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/float.h \
+ /usr/include/c++/8/math.h /usr/include/c++/8/cmath \
+ /usr/include/c++/8/bits/cpp_type_traits.h \
+ /usr/include/c++/8/ext/type_traits.h /usr/include/math.h \
+ /usr/include/bits/math-vector.h /usr/include/bits/libm-simd-decl-stubs.h \
+ /usr/include/bits/flt-eval-method.h /usr/include/bits/fp-logb.h \
+ /usr/include/bits/fp-fast.h \
+ /usr/include/bits/mathcalls-helper-functions.h \
+ /usr/include/bits/mathcalls.h /usr/include/bits/mathcalls-narrow.h \
+ /usr/include/bits/iscanonical.h /usr/include/bits/mathinline.h \
+ /usr/include/c++/8/bits/specfun.h /usr/include/c++/8/bits/stl_algobase.h \
+ /usr/include/c++/8/bits/functexcept.h \
+ /usr/include/c++/8/bits/exception_defines.h \
+ /usr/include/c++/8/ext/numeric_traits.h \
+ /usr/include/c++/8/bits/stl_pair.h /usr/include/c++/8/bits/move.h \
+ /usr/include/c++/8/bits/concept_check.h /usr/include/c++/8/type_traits \
+ /usr/include/c++/8/bits/stl_iterator_base_types.h \
+ /usr/include/c++/8/bits/stl_iterator_base_funcs.h \
+ /usr/include/c++/8/debug/assertions.h \
+ /usr/include/c++/8/bits/stl_iterator.h \
+ /usr/include/c++/8/bits/ptr_traits.h /usr/include/c++/8/debug/debug.h \
+ /usr/include/c++/8/bits/predefined_ops.h /usr/include/c++/8/limits \
+ /usr/include/c++/8/tr1/gamma.tcc \
+ /usr/include/c++/8/tr1/special_function_util.h \
+ /usr/include/c++/8/tr1/bessel_function.tcc \
+ /usr/include/c++/8/tr1/special_function_util.h \
+ /usr/include/c++/8/tr1/beta_function.tcc \
+ /usr/include/c++/8/tr1/ell_integral.tcc \
+ /usr/include/c++/8/tr1/exp_integral.tcc \
+ /usr/include/c++/8/tr1/hypergeometric.tcc \
+ /usr/include/c++/8/tr1/legendre_function.tcc \
+ /usr/include/c++/8/tr1/modified_bessel_func.tcc \
+ /usr/include/c++/8/tr1/poly_hermite.tcc \
+ /usr/include/c++/8/tr1/poly_laguerre.tcc \
+ /usr/include/c++/8/tr1/riemann_zeta.tcc /usr/include/ctype.h \
+ /usr/include/pthread.h /usr/include/sched.h /usr/include/bits/sched.h \
+ /usr/include/bits/types/struct_sched_param.h /usr/include/bits/cpu-set.h \
+ /usr/include/time.h /usr/include/bits/time.h /usr/include/bits/timex.h \
+ /usr/include/bits/types/struct_tm.h \
+ /usr/include/bits/types/struct_itimerspec.h /usr/include/bits/setjmp.h \
+ /usr/include/semaphore.h /usr/include/bits/semaphore.h \
+ /usr/include/string.h /usr/include/strings.h /usr/include/wchar.h \
+ /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
+ /usr/include/bits/types/mbstate_t.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
+ /usr/include/netinet/in.h /usr/include/bits/stdint-uintn.h \
+ /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
+ /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
+ /usr/include/bits/sockaddr.h /usr/include/asm/socket.h \
+ /usr/include/asm-generic/socket.h /usr/include/asm/sockios.h \
+ /usr/include/asm-generic/sockios.h \
+ /usr/include/bits/types/struct_osockaddr.h /usr/include/bits/in.h \
+ /usr/include/sys/time.h /usr/include/errno.h /usr/include/bits/errno.h \
+ /usr/include/linux/errno.h /usr/include/asm/errno.h \
+ /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
+ /usr/include/bits/types/error_t.h /usr/include/fcntl.h \
+ /usr/include/bits/fcntl.h /usr/include/bits/fcntl-linux.h \
+ /usr/include/linux/falloc.h /usr/include/bits/stat.h \
+ /usr/include/unistd.h /usr/include/bits/posix_opt.h \
+ /usr/include/bits/environments.h /usr/include/bits/confname.h \
+ /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
+ /usr/include/sys/stat.h /usr/include/bits/statx.h \
+ /usr/include/linux/stat.h /usr/include/linux/types.h \
+ /usr/include/asm/types.h /usr/include/asm-generic/types.h \
+ /usr/include/asm-generic/int-ll64.h /usr/include/asm/bitsperlong.h \
+ /usr/include/asm-generic/bitsperlong.h /usr/include/linux/posix_types.h \
+ /usr/include/linux/stddef.h /usr/include/asm/posix_types.h \
+ /usr/include/asm/posix_types_32.h /usr/include/asm-generic/posix_types.h \
+ /usr/include/bits/statx-generic.h \
+ /usr/include/bits/types/struct_statx_timestamp.h \
+ /usr/include/bits/types/struct_statx.h /usr/include/c++/8/cfloat \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
+ /usr/include/c++/8/vector /usr/include/c++/8/bits/allocator.h \
+ /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++allocator.h \
+ /usr/include/c++/8/ext/new_allocator.h /usr/include/c++/8/new \
+ /usr/include/c++/8/exception /usr/include/c++/8/bits/exception.h \
+ /usr/include/c++/8/bits/exception_ptr.h \
+ /usr/include/c++/8/bits/cxxabi_init_exception.h \
+ /usr/include/c++/8/typeinfo /usr/include/c++/8/bits/hash_bytes.h \
+ /usr/include/c++/8/bits/nested_exception.h \
+ /usr/include/c++/8/bits/memoryfwd.h \
+ /usr/include/c++/8/bits/stl_construct.h \
+ /usr/include/c++/8/ext/alloc_traits.h \
+ /usr/include/c++/8/bits/alloc_traits.h \
+ /usr/include/c++/8/bits/stl_uninitialized.h /usr/include/c++/8/utility \
+ /usr/include/c++/8/bits/stl_relops.h /usr/include/c++/8/initializer_list \
+ /usr/include/c++/8/bits/stl_vector.h \
+ /usr/include/c++/8/bits/stl_bvector.h \
+ /usr/include/c++/8/bits/functional_hash.h \
+ /usr/include/c++/8/bits/range_access.h \
+ /usr/include/c++/8/bits/vector.tcc /usr/include/c++/8/map \
+ /usr/include/c++/8/bits/stl_tree.h \
+ /usr/include/c++/8/bits/stl_function.h \
+ /usr/include/c++/8/backward/binders.h \
+ /usr/include/c++/8/ext/aligned_buffer.h \
+ /usr/include/c++/8/bits/node_handle.h /usr/include/c++/8/optional \
+ /usr/include/c++/8/stdexcept /usr/include/c++/8/string \
+ /usr/include/c++/8/bits/stringfwd.h \
+ /usr/include/c++/8/bits/char_traits.h /usr/include/c++/8/bits/postypes.h \
+ /usr/include/c++/8/cwchar /usr/include/c++/8/cstdint \
+ /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
+ /usr/include/stdint.h /usr/include/c++/8/bits/localefwd.h \
+ /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++locale.h \
+ /usr/include/c++/8/clocale /usr/include/locale.h \
+ /usr/include/bits/locale.h /usr/include/c++/8/iosfwd \
+ /usr/include/c++/8/cctype /usr/include/c++/8/bits/ostream_insert.h \
+ /usr/include/c++/8/bits/cxxabi_forced.h \
+ /usr/include/c++/8/bits/basic_string.h \
+ /usr/include/c++/8/ext/atomicity.h \
+ /usr/include/c++/8/x86_64-redhat-linux/32/bits/gthr.h \
+ /usr/include/c++/8/x86_64-redhat-linux/32/bits/gthr-default.h \
+ /usr/include/c++/8/x86_64-redhat-linux/32/bits/atomic_word.h \
+ /usr/include/c++/8/string_view /usr/include/c++/8/bits/string_view.tcc \
+ /usr/include/c++/8/ext/string_conversions.h /usr/include/c++/8/cerrno \
+ /usr/include/c++/8/bits/basic_string.tcc \
+ /usr/include/c++/8/bits/enable_special_members.h \
+ /usr/include/c++/8/bits/stl_map.h /usr/include/c++/8/tuple \
+ /usr/include/c++/8/array /usr/include/c++/8/bits/uses_allocator.h \
+ /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
+ /usr/include/c++/8/unordered_map /usr/include/c++/8/bits/hashtable.h \
+ /usr/include/c++/8/bits/hashtable_policy.h \
+ /usr/include/c++/8/bits/unordered_map.h /usr/include/c++/8/unordered_set \
+ /usr/include/c++/8/bits/unordered_set.h /usr/include/c++/8/set \
+ /usr/include/c++/8/bits/stl_set.h /usr/include/c++/8/bits/stl_multiset.h \
+ /usr/include/c++/8/queue /usr/include/c++/8/deque \
+ /usr/include/c++/8/bits/stl_deque.h /usr/include/c++/8/bits/deque.tcc \
+ /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_queue.h \
+ /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
+ /usr/include/c++/8/bits/allocated_ptr.h /usr/include/c++/8/bits/list.tcc \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDebug/include/public/sharedDebug/FirstSharedDebug.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDebug/include/public/../../src/shared/FirstSharedDebug.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkIdArchive.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkIdArchive.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/src/shared/core/SwgDatabaseServer.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/DatabaseProcess.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/DatabaseProcess.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedMessageDispatch/include/public/sharedMessageDispatch/Receiver.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedMessageDispatch/include/public/../../src/shared/Receiver.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/DataCleanupManager.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/cleanup/DataCleanupManager.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ObjvarNameManager.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/core/ObjvarNameManager.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/SwgLoader.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/core/SwgLoader.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/Loader.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/Loader.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/singleton/include/Singleton/Singleton2.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/singleton/include/../src/shared/Singleton2.h \
+ /usr/include/assert.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/unicode/include/Unicode.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkId.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkId.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StationId.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StationId.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/SwgPersister.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/core/SwgPersister.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/Persister.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/Persister.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/MessageToPayload.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/centralGameServer/MessageToPayload.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbModeQuery.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbModeQuery.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbQuery.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbQuery.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbQueryImplementation.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbQueryImplementation.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbProtocol.def \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbProtocol.def \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbRow.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbRow.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Tag.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/ConfigServerDatabase.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/ConfigServerDatabase.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/DataLookup.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/DataLookup.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/localization/include/StringId.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/localization/include/../src/shared/StringId.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/LazyDeleter.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/LazyDeleter.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/MessageToManager.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/MessageToManager.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/CMLoader.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/core/CMLoader.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/dBAuctionRecord.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/dBAuctionRecord.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/dBBidRecord.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/dBBidRecord.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/dBLocationRecord.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/dBLocationRecord.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/include/public/sharedSynchronization/Mutex.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/include/public/../../src/linux/Mutex.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverMetrics/include/public/serverMetrics/MetricsData.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverMetrics/include/public/../../src/shared/MetricsData.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/MetricsDataMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/metricsMessages/MetricsDataMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/GameNetworkMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/common/GameNetworkMessage.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/AutoByteStream.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/../../src/shared/AutoByteStream.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/../../src/shared/Archive.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
+ /usr/include/c++/8/cassert \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedMessageDispatch/include/public/sharedMessageDispatch/Message.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedMessageDispatch/include/public/../../src/shared/Message.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedLog/include/public/sharedLog/Log.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedLog/include/public/../../src/shared/Log.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedLog/include/public/../../src/shared/LogManager.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/src/shared/core/SwgSnapshot.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/ByteStream.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/Snapshot.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/Snapshot.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/BaselinesMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/common/BaselinesMessage.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/AutoDeltaByteStream.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaByteStream.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/../../src/shared/AutoByteStream.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/BatchBaselinesMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/common/BatchBaselinesMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/DeltasMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/common/DeltasMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MemoryBlockManagerMacros.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MemoryBlockManagerMacros.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/TableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/TableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/AbstractTableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/AbstractTableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbSession.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbSession.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/BattlefieldParticipantBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/BattlefieldParticipantBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/BattlefieldParticipantQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/queries/BattlefieldParticipantQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/Schema.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/generated/Schema.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/Bindable.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/Bindable.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBase.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBase.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBitArray.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBitArray.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableString.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableString.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/unicode/include/UnicodeUtils.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
+ /usr/include/c++/8/cstring \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/unicode/include/../src/shared/utf8.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/BitArray.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/BitArray.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBool.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBool.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableDouble.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableDouble.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableInt64.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableInt64.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableLong.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableLong.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableUnicode.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableUnicode.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/BindableNetworkId.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/BindableNetworkId.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/BufferString.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/BufferString.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/BountyHunterTargetBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/BountyHunterTargetBuffer.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/BountyHunterTargetListMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/gameGameServer/BountyHunterTargetListMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/BountyHunterTargetMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/gameGameServer/BountyHunterTargetMessage.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/CreatureObjectBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/../../src/shared/buffers/CreatureObjectBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/IndexedNetworkTableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/IndexedNetworkTableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ObjectQueries.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/generated/ObjectQueries.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/serverDatabase/DatabaseProcessQuery.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverDatabase/include/public/../../src/shared/DatabaseProcessQuery.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableVarray.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src_oci/DbBindableVarray.h \
+ /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/include/public/swgSharedUtility/Attributes.def \
+ /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/include/public/../../src/shared/Attributes.def \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ExperienceBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/ExperienceBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ExperienceQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/queries/ExperienceQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/LocationBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/LocationBuffer.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverUtility/include/public/serverUtility/LocationData.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverUtility/include/public/../../src/shared/LocationData.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedMath/include/public/sharedMath/Sphere.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedMath/include/public/../../src/shared/Sphere.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedMath/include/public/sharedMath/Vector.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedMath/include/public/../../src/shared/Vector.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ManufactureSchematicAttributeBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/ManufactureSchematicAttributeBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ManufactureSchematicAttributeQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/queries/ManufactureSchematicAttributeQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/MessageBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/MessageBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ObjectTableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/ObjectTableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/IndexedNetworkTableBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ObjectsTableQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/queries/ObjectsTableQuery.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/DynamicVariableList.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/dynamicVariable/DynamicVariableList.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/AutoDeltaMap.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaMap.h \
+ /home/almalinux/swg-returns-nge/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaByteStream.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/DynamicVariable.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/dynamicVariable/DynamicVariable.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/DynamicVariableListNestedList.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/dynamicVariable/DynamicVariableListNestedList.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ObjvarBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/ObjvarBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ObjectVariableQueries.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/queries/ObjectVariableQueries.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/PropertyListBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/PropertyListBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/PropertyListQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/queries/PropertyListQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ResourceTypeBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/ResourceTypeBuffer.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/AddResourceTypeMessage.h \
+ /home/almalinux/swg-returns-nge/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/gameGameServer/AddResourceTypeMessage.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/ScriptBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/ScriptBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/WaypointBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/buffers/WaypointBuffer.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/PersistableWaypoint.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/persistable/PersistableWaypoint.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedUtility/include/public/sharedUtility/Location.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedUtility/include/public/../../src/shared/Location.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedUtility/include/public/sharedUtility/LocationArchive.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedUtility/include/public/../../src/shared/LocationArchive.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/WaypointQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/include/public/SwgDatabaseServer/../../../src/shared/queries/WaypointQuery.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/src/shared/core/../queries/CommoditiesSchema.h \
+ /home/almalinux/swg-returns-nge/src/game/server/application/SwgDatabaseServer/src/shared/core/../tasks/TaskLoadObjvarNames.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbTaskRequest.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/queue/DbTaskRequest.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Os.h \
+ /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/Os.h
