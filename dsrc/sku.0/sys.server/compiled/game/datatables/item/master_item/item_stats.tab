@@ -571,11 +571,11 @@ item_tow_schematic_rifle_03_01			string:loot_schematic.schematic=object/draft_sc
 item_tow_schematic_rifle_03_02			string:loot_schematic.schematic=object/draft_schematic/weapon/appearance/weapon_appearance_rifle_disrupter.iff,string:loot_schematic.skill_req=class_munitions_phase4_master								
 item_tow_schematic_vehicle_02_01			string:vehicle_attribs.object_ref=lava_skiff,float:hit_points=1500								
 item_tow_schematic_vehicle_02_02			string:vehicle_attribs.object_ref=desert_skiff,float:hit_points=1500								
-item_tow_buff_crystal_02_01				index_color_1=1	towCrystalOffenseBurst	long_reuse_3	900			appearance/pt_special_hit_concuss.prt	
-item_tow_buff_crystal_02_02				index_color_1=22	towCrystalDefenseBurst	long_reuse_3	900			appearance/pt_special_hit_concuss.prt	
-item_tow_buff_crystal_02_03				index_color_1=30	towCrystalDotImmunity	towCrystalDotImmunity	900			appearance/pt_special_hit_concuss.prt	
-item_tow_holocron_ab_immune_02_01					towCrystalABImmune	towCrystalABImmune	900			appearance/pt_special_hit_concuss.prt	
-item_tow_crystal_uber_05_01				index_color_1=16	towCrystalUberCombat	long_reuse_4	900			appearance/pt_special_hit_concuss.prt	
+item_tow_buff_crystal_02_01				index_color_1=1	towCrystalOffenseBurst	long_reuse_3	3600			appearance/pt_special_hit_concuss.prt	
+item_tow_buff_crystal_02_02				index_color_1=22	towCrystalDefenseBurst	long_reuse_3	3600			appearance/pt_special_hit_concuss.prt	
+item_tow_buff_crystal_02_03				index_color_1=30	towCrystalDotImmunity	towCrystalDotImmunity	3600			appearance/pt_special_hit_concuss.prt	
+item_tow_holocron_ab_immune_02_01					towCrystalABImmune	towCrystalABImmune	3600			appearance/pt_special_hit_concuss.prt	
+item_tow_crystal_uber_05_01				index_color_1=16	towCrystalUberCombat	long_reuse_4	3600			appearance/pt_special_hit_concuss.prt	
 item_tow_crystal_uber_05_02				index_color_1=4	towCrystalUberDs	long_reuse_4	900			appearance/pt_special_hit_concuss.prt	
 item_tow_gloves_microsensory_02_01					towGlovesHealEff						
 item_tow_schematic_reactor_02_01			string:loot_schematic.schematic=object/draft_schematic/space/reactor/mustafar_fusion_reactor.iff,int:loot_schematic.uses=25,string:loot_schematic.skill_req=class_structures_phase4_master								
@@ -625,16 +625,16 @@ item_tow_bracelet_survey_03_01	surveying=20
 item_tow_bracelet_proc_melee_03_01					proc_tow_proc_bracelet_melee			75			
 item_tow_bracelet_proc_rng_03_01					proc_tow_proc_bracelet_range			75			
 item_tow_bracelet_proc_combat_03_01					proc_tow_proc_bracelet_combo			75			
-item_tow_necklace_taming_03_01			int:skillmod.bonus.bm_creature_knowledge=2,int:skillmod.bonus.bm_xp_mod_boost=20								
-item_tow_necklace_taming_03_02			int:skillmod.bonus.bm_creature_knowledge=4,int:skillmod.bonus.bm_xp_mod_boost=40								
-item_tow_necklace_taming_03_03			int:skillmod.bonus.bm_creature_knowledge=6,int:skillmod.bonus.bm_xp_mod_boost=60								
-item_tow_necklace_taming_03_04			int:skillmod.bonus.bm_creature_knowledge=8,int:skillmod.bonus.bm_xp_mod_boost=80								
-item_tow_necklace_taming_03_05			int:skillmod.bonus.bm_creature_knowledge=10,int:skillmod.bonus.bm_xp_mod_boost=100								
-item_tow_ring_armorsmith_04_01			int:skillmod.bonus.armor_experimentation=5		towArmorAssembly						
-item_tow_ring_weaponsmith_04_01			int:skillmod.bonus.weapon_experimentation=5		towWeaponAssembly						
-item_tow_ring_droideng_04_01			int:skillmod.bonus.droid_experimentation=5		towDroidAssembly						
-item_tow_ring_bioeng_04_01			int:skillmod.bonus.bm_mutation_chance_increase=5,int:skillmod.bonus.expertise_bm_incubation_quality=10,int:skillmod.bonus.expertise_bm_genetic_engineering=5		towMedAssembly						
-item_tow_ring_chef_04_01			int:skillmod.bonus.food_experimentation=5		towFoodAssembly						
+item_tow_necklace_taming_03_01			int:skillmod.bonus.bm_creature_knowledge=2								
+item_tow_necklace_taming_03_02			int:skillmod.bonus.bm_creature_knowledge=4								
+item_tow_necklace_taming_03_03			int:skillmod.bonus.bm_creature_knowledge=6								
+item_tow_necklace_taming_03_04			int:skillmod.bonus.bm_creature_knowledge=8								
+item_tow_necklace_taming_03_05			int:skillmod.bonus.bm_creature_knowledge=10								
+item_tow_ring_armorsmith_04_01					towArmorAssembly						
+item_tow_ring_weaponsmith_04_01					towWeaponAssembly						
+item_tow_ring_droideng_04_01					towDroidAssembly						
+item_tow_ring_bioeng_04_01					towMedAssembly						
+item_tow_ring_chef_04_01					towFoodAssembly						
 item_tow_factory_gaurd_trinket_04_01					towFacGuardDefenseItem	long_reuse_4	1800				
 item_tow_foreman_fire_absorb_04_01					towForemanCoolingItem	long_reuse_4	1800				
 item_tow_foreman_burst_run_04_01				index_color_1=11	burstRun	long_reuse_4	1800				
@@ -1148,14 +1148,15 @@ item_power_crystal_04_18			int:jedi.crystal.stats.min_dmg=18,int:jedi.crystal.st
 item_power_crystal_04_19			int:jedi.crystal.stats.min_dmg=19,int:jedi.crystal.stats.max_dmg=20,int:jedi.crystal.stats.quality=6,int:jedi.crystal.stats.level=-1	index_color_1=31							
 item_power_crystal_04_20			int:jedi.crystal.stats.min_dmg=20,int:jedi.crystal.stats.max_dmg=22,int:jedi.crystal.stats.quality=6,int:jedi.crystal.stats.level=-1	index_color_1=31							
 item_power_crystal_04_21			int:jedi.crystal.stats.min_dmg=23,int:jedi.crystal.stats.max_dmg=25,int:jedi.crystal.stats.quality=7,int:jedi.crystal.stats.level=-1	index_color_1=31							
+item_power_crystal_04_99			int:jedi.crystal.stats.min_dmg=100000,int:jedi.crystal.stats.max_dmg=100000,int:jedi.crystal.stats.quality=7,int:jedi.crystal.stats.level=-1	index_color_1=31							
 item_npe_dance_prop_l_entertainer_02_01			int:nocert=1								
 item_npe_dance_prop_r_entertainer_02_01			int:nocert=1								
 item_npe_necklace_protection_02_01	agility_modified=3										
 item_npe_gen_craft_tool_trader_03_01	general_assembly=5		int:crafting.tool=1,int:crafting.type=4096,float:prototypeTime=0.0								
 item_respec_token_01_01											
 item_npe_uniform_crate_01_01											
-item_content_medic_ring_03_01	expertise_healing_all=3										
-item_content_trader_ring_03_01	general_assembly=5										
+item_content_medic_ring_03_01	constitution_modified=5										
+item_content_trader_ring_03_01	agility_modified=5										
 item_content_instrument_bandfill_03_01	stamina_modified=5										
 item_content_dance_prop_03_01	stamina_modified=5										
 item_junk_creature_1thru10_01_01											
@@ -2187,7 +2188,7 @@ item_content_slaver_ith_hat_04_01	agility_modified=10,precision_modified=10,stam
 item_content_slaver_twk_hat_04_01	agility_modified=10,precision_modified=10,stamina_modified=10			index_color_1=48,index_color_2=55							
 item_content_stimpack_high_04_01			int:healing.power=4500,int:healing.combat_level_required=30								
 item_content_binocs_detection_03_02					contentClickDetectionAcc2	long_reuse_4	1800				
-item_content_selonian_psg_04_01					selonianPSG	long_reuse_3	900	40			
+item_content_selonian_psg_04_01					selonianPSG	long_reuse_3	3600	40			
 item_content_selonian_necklace_04_01	stamina_modified=22										
 item_content_selonian_laser_scope_03_01					preConsumable40	short_reuse_4	60	40			
 item_restuss_schematic_saber_04_01			string:loot_schematic.schematic=object/draft_schematic/weapon/lightsaber_one_handed_gen4_restuss.iff,int:loot_schematic.uses=1,string:loot_schematic.skill_req=class_forcesensitive_phase4_05								
@@ -2563,15 +2564,15 @@ item_beast_holocron_04_03			int:loot_schematic.type=5,string:loot_schematic.beas
 item_beast_holocron_04_04			int:loot_schematic.type=5,string:loot_schematic.beast=bm_helper_monkey_structure,string:loot_schematic.skill_req=expertise_bm_incubation_base_1								
 item_beast_holocron_04_05			int:loot_schematic.type=5,string:loot_schematic.beast=bm_helper_monkey_munitions,string:loot_schematic.skill_req=expertise_bm_incubation_base_1								
 item_beast_holocron_04_06			int:loot_schematic.type=5,string:loot_schematic.beast=bm_helper_monkey_jedi,string:loot_schematic.skill_req=expertise_bm_incubation_base_1								
-item_treasure_map_bonus_buff_04_01					treasure_bonus_combat_strikethrough_chance	long_reuse_4	900			appearance/pt_jedi_tempt_hatred.prt	
-item_treasure_map_bonus_buff_04_02					treasure_bonus_combat_critical_hit	long_reuse_4	900			appearance/pt_atarufocus.prt	
-item_treasure_map_bonus_buff_04_03					treasure_bonus_combat_dodge	long_reuse_4	900			appearance/pt_vaapad_focus_disc2.prt	
-item_treasure_map_bonus_buff_04_04					treasure_bonus_combat_critical_hit_reduction	long_reuse_4	900			appearance/pt_jedi_alacrity.prt	
-item_treasure_map_bonus_buff_04_05					treasure_bonus_combat_parry	long_reuse_4	900			appearance/pt_medic_enhanced_dodge.prt	
-item_treasure_map_bonus_buff_04_06					treasure_bonus_heal_health_action	long_reuse_4	900			appearance/pt_heal_resuscitate.prt	
-item_treasure_map_bonus_consumable_04_01					treasure_bonus_combat_block_chance	itemBuffClick	900			appearance/pt_heal_health_buff_2.prt	
-item_treasure_map_bonus_consumable_04_02					treasure_bonus_combat_evasion_chance	itemBuffClick	900			appearance/pt_heal_health_buff_2.prt	
-item_treasure_map_bonus_consumable_04_03					treasure_bonus_snare_immunity	itemBuffClick	900			appearance/pt_heal_health_buff_2.prt	
+item_treasure_map_bonus_buff_04_01					treasure_bonus_combat_strikethrough_chance	long_reuse_4	3600			appearance/pt_jedi_tempt_hatred.prt	
+item_treasure_map_bonus_buff_04_02					treasure_bonus_combat_critical_hit	long_reuse_4	3600			appearance/pt_atarufocus.prt	
+item_treasure_map_bonus_buff_04_03					treasure_bonus_combat_dodge	long_reuse_4	3600			appearance/pt_vaapad_focus_disc2.prt	
+item_treasure_map_bonus_buff_04_04					treasure_bonus_combat_critical_hit_reduction	long_reuse_4	3600			appearance/pt_jedi_alacrity.prt	
+item_treasure_map_bonus_buff_04_05					treasure_bonus_combat_parry	long_reuse_4	3600			appearance/pt_medic_enhanced_dodge.prt	
+item_treasure_map_bonus_buff_04_06					treasure_bonus_heal_health_action	long_reuse_4	3600			appearance/pt_heal_resuscitate.prt	
+item_treasure_map_bonus_consumable_04_01					treasure_bonus_combat_block_chance	itemBuffClick	1800			appearance/pt_heal_health_buff_2.prt	
+item_treasure_map_bonus_consumable_04_02					treasure_bonus_combat_evasion_chance	itemBuffClick	1800			appearance/pt_heal_health_buff_2.prt	
+item_treasure_map_bonus_consumable_04_03					treasure_bonus_snare_immunity	itemBuffClick	1800			appearance/pt_heal_health_buff_2.prt	
 item_senator_robe				index_color_1=255,index_color_2=112							
 item_senator_gloves				index_color_1=255							
 item_senator_wookiee_robe				index_color_1=24							
@@ -2776,10 +2777,10 @@ item_set_test_02_03			int:item.set.set_id=2
 item_set_test_02_04			int:item.set.set_id=2								
 item_set_test_02_05			int:item.set.set_id=2								
 item_ring_set_bh_dps_01_01	expertise_action_line_dm=1,expertise_action_line_dm_crit=1,expertise_buff_duration_line_bh_return_fire=1,expertise_cooldown_line_dm=1		int:item.set.set_id=10001								
-item_ring_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30,detect_hidden=25		int:item.set.set_id=10002								
+item_ring_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30		int:item.set.set_id=10002								
 item_ring_set_bh_utility_b_01_01	fast_attack_line_dm_cc=2,bh_dire_snare=1,bh_dire_root=1		int:item.set.set_id=10003								
 item_ring_set_medic_dps_01_01	expertise_action_line_me_dm=1,expertise_action_line_me_burst=2,expertise_action_line_me_smash=2,fast_attack_line_me_dm=1,expertise_buff_duration_line_me_enhance=360		int:item.set.set_id=20001								
-item_ring_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1		int:item.set.set_id=20002								
+item_ring_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1,expertise_cooldown_line_me_evasion=6		int:item.set.set_id=20002								
 item_ring_set_medic_utility_b_01_01	expertise_cooldown_line_me_dot=2,fast_attack_line_me_debuff=1,expertise_freeshot_line_me_debuff=1		int:item.set.set_id=20003								
 item_ring_set_jedi_dps_01_01	expertise_action_line_fs_dm=1,expertise_action_line_fs_sweep=1,expertise_cooldown_line_fs_dm=1,expertise_cooldown_line_fs_sweep=2		int:item.set.set_id=30001								
 item_ring_set_jedi_utility_a_01_01	expertise_action_line_fs_cc_crit=2,expertise_action_line_fs_ae_dm_cc=2,expertise_cooldown_line_fs_cc_crit=3,expertise_cooldown_line_fs_ae_dm_cc=3		int:item.set.set_id=30002								
@@ -2789,19 +2790,19 @@ item_ring_set_commando_utility_a_01_01	constitution_modified=20,combat_block_cha
 item_ring_set_commando_utility_b_01_01	constitution_modified=10,strength_modified=15,expertise_devastation_bonus=5		int:item.set.set_id=40003								
 item_ring_set_smuggler_dps_01_01	expertise_action_line_sm_dm=2,fast_attack_line_sm_dm=2,expertise_freeshot_sm_dm=2,expertise_cooldown_line_sm_dm=1		int:item.set.set_id=50001								
 item_ring_set_smuggler_utility_a_01_01	luck_modified=30,bh_dire_snare=7,expertise_freeshot_sm_dm_cc=2,expertise_cooldown_line_sm_dm_cc=1		int:item.set.set_id=50002								
-item_ring_set_smuggler_utility_b_01_01	luck_modified=50,force_persuade=4,force_luck=4		int:item.set.set_id=50003								
+item_ring_set_smuggler_utility_b_01_01	luck_modified=30,expertise_cooldown_line_sm_false_hope=2		int:item.set.set_id=50003								
 item_ring_set_spy_dps_01_01	expertise_action_line_sp_dm=2,fast_attack_line_sp_dm=2,expertise_freeshot_sp_dm=1,expertise_cooldown_line_sp_dm=1,expertise_action_line_sp_dot=2		int:item.set.set_id=60001								
-item_ring_set_spy_utility_a_01_01	fast_attack_line_sp_smoke=1,strength_modified=25,camouflage=25		int:item.set.set_id=60002								
+item_ring_set_spy_utility_a_01_01	expertise_cooldown_line_sp_preparation=6,expertise_buff_duration_line_sp_preparation=1,fast_attack_line_sp_smoke=1,strength_modified=25		int:item.set.set_id=60002								
 item_ring_set_spy_utility_b_01_01	combat_strikethrough_chance=2,expertise_action_all=1,luck_modified=50		int:item.set.set_id=60003								
 item_ring_set_officer_dps_01_01	expertise_action_line_of_sure=1,expertise_action_line_of_paint=1,expertise_freeshot_of_sure=1,expertise_cooldown_line_of_sure=1,expertise_cooldown_line_of_paint=2		int:item.set.set_id=70001								
 item_ring_set_officer_utility_a_01_01	expertise_action_line_of_aoe=2,expertise_freeshot_of_aoe=2		int:item.set.set_id=70002								
-item_ring_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
-item_ring_set_hero_01_01	strength_modified=25,precision_modified=25,luck_modified=25		int:item.set.set_id=80001								
+item_ring_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,expertise_cooldown_line_of_purge=3,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
+item_ring_set_hero_01_01	strength_modified=30,precision_modified=30,luck_modified=30		int:item.set.set_id=80001								
 item_band_set_bh_dps_01_01	expertise_action_line_dm=1,expertise_action_line_dm_crit=1,expertise_buff_duration_line_bh_return_fire=1,expertise_cooldown_line_dm=1		int:item.set.set_id=10001								
-item_band_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30,detect_hidden=25		int:item.set.set_id=10002								
+item_band_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30		int:item.set.set_id=10002								
 item_band_set_bh_utility_b_01_01	fast_attack_line_dm_cc=2,bh_dire_snare=1,bh_dire_root=1		int:item.set.set_id=10003								
 item_band_set_medic_dps_01_01	expertise_action_line_me_dm=1,expertise_action_line_me_burst=2,expertise_action_line_me_smash=2,fast_attack_line_me_dm=1,expertise_buff_duration_line_me_enhance=360		int:item.set.set_id=20001								
-item_band_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1		int:item.set.set_id=20002								
+item_band_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1,expertise_cooldown_line_me_evasion=6		int:item.set.set_id=20002								
 item_band_set_medic_utility_b_01_01	expertise_cooldown_line_me_dot=2,fast_attack_line_me_debuff=1,expertise_freeshot_line_me_debuff=1		int:item.set.set_id=20003								
 item_band_set_jedi_dps_01_01	expertise_action_line_fs_dm=1,expertise_action_line_fs_sweep=1,expertise_cooldown_line_fs_dm=1,expertise_cooldown_line_fs_sweep=2		int:item.set.set_id=30001								
 item_band_set_jedi_utility_a_01_01	expertise_action_line_fs_cc_crit=2,expertise_action_line_fs_ae_dm_cc=2,expertise_cooldown_line_fs_cc_crit=3,expertise_cooldown_line_fs_ae_dm_cc=3		int:item.set.set_id=30002								
@@ -2811,19 +2812,19 @@ item_band_set_commando_utility_a_01_01	constitution_modified=20,combat_block_cha
 item_band_set_commando_utility_b_01_01	constitution_modified=10,strength_modified=15,expertise_devastation_bonus=5		int:item.set.set_id=40003								
 item_band_set_smuggler_dps_01_01	expertise_action_line_sm_dm=2,fast_attack_line_sm_dm=2,expertise_freeshot_sm_dm=2,expertise_cooldown_line_sm_dm=1		int:item.set.set_id=50001								
 item_band_set_smuggler_utility_a_01_01	luck_modified=30,bh_dire_snare=7,expertise_freeshot_sm_dm_cc=2,expertise_cooldown_line_sm_dm_cc=1		int:item.set.set_id=50002								
-item_band_set_smuggler_utility_b_01_01	luck_modified=50,force_persuade=4,force_luck=4		int:item.set.set_id=50003								
+item_band_set_smuggler_utility_b_01_01	luck_modified=30,expertise_cooldown_line_sm_false_hope=2		int:item.set.set_id=50003								
 item_band_set_spy_dps_01_01	expertise_action_line_sp_dm=2,fast_attack_line_sp_dm=2,expertise_freeshot_sp_dm=1,expertise_cooldown_line_sp_dm=1,expertise_action_line_sp_dot=2		int:item.set.set_id=60001								
-item_band_set_spy_utility_a_01_01	fast_attack_line_sp_smoke=1,strength_modified=25,camouflage=25		int:item.set.set_id=60002								
+item_band_set_spy_utility_a_01_01	expertise_cooldown_line_sp_preparation=6,expertise_buff_duration_line_sp_preparation=1,fast_attack_line_sp_smoke=1,strength_modified=25		int:item.set.set_id=60002								
 item_band_set_spy_utility_b_01_01	combat_strikethrough_chance=2,expertise_action_all=1,luck_modified=50		int:item.set.set_id=60003								
 item_band_set_officer_dps_01_01	expertise_action_line_of_sure=1,expertise_action_line_of_paint=1,expertise_freeshot_of_sure=1,expertise_cooldown_line_of_sure=1,expertise_cooldown_line_of_paint=2		int:item.set.set_id=70001								
 item_band_set_officer_utility_a_01_01	expertise_action_line_of_aoe=2,expertise_freeshot_of_aoe=2		int:item.set.set_id=70002								
-item_band_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
-item_band_set_hero_01_01	strength_modified=25,precision_modified=25,luck_modified=25		int:item.set.set_id=80001								
+item_band_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,expertise_cooldown_line_of_purge=3,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
+item_band_set_hero_01_01	strength_modified=30,precision_modified=30,luck_modified=30		int:item.set.set_id=80001								
 item_necklace_set_bh_dps_01_01	expertise_action_line_dm=1,expertise_action_line_dm_crit=1,expertise_buff_duration_line_bh_return_fire=1,expertise_cooldown_line_dm=1		int:item.set.set_id=10001								
-item_necklace_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30,detect_hidden=25		int:item.set.set_id=10002								
+item_necklace_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30		int:item.set.set_id=10002								
 item_necklace_set_bh_utility_b_01_01	fast_attack_line_dm_cc=2,bh_dire_snare=1,bh_dire_root=1		int:item.set.set_id=10003								
 item_necklace_set_medic_dps_01_01	expertise_action_line_me_dm=1,expertise_action_line_me_burst=2,expertise_action_line_me_smash=2,fast_attack_line_me_dm=1,expertise_buff_duration_line_me_enhance=360		int:item.set.set_id=20001								
-item_necklace_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1		int:item.set.set_id=20002								
+item_necklace_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1,expertise_cooldown_line_me_evasion=6		int:item.set.set_id=20002								
 item_necklace_set_medic_utility_b_01_01	expertise_cooldown_line_me_dot=2,fast_attack_line_me_debuff=1,expertise_freeshot_line_me_debuff=1		int:item.set.set_id=20003								
 item_necklace_set_jedi_dps_01_01	expertise_action_line_fs_dm=1,expertise_action_line_fs_sweep=1,expertise_cooldown_line_fs_dm=1,expertise_cooldown_line_fs_sweep=2		int:item.set.set_id=30001								
 item_necklace_set_jedi_utility_a_01_01	expertise_action_line_fs_cc_crit=2,expertise_action_line_fs_ae_dm_cc=2,expertise_cooldown_line_fs_cc_crit=3,expertise_cooldown_line_fs_ae_dm_cc=3		int:item.set.set_id=30002								
@@ -2833,19 +2834,19 @@ item_necklace_set_commando_utility_a_01_01	constitution_modified=20,combat_block
 item_necklace_set_commando_utility_b_01_01	constitution_modified=10,strength_modified=15,expertise_devastation_bonus=5		int:item.set.set_id=40003								
 item_necklace_set_smuggler_dps_01_01	expertise_action_line_sm_dm=2,fast_attack_line_sm_dm=2,expertise_freeshot_sm_dm=2,expertise_cooldown_line_sm_dm=1		int:item.set.set_id=50001								
 item_necklace_set_smuggler_utility_a_01_01	luck_modified=30,bh_dire_snare=7,expertise_freeshot_sm_dm_cc=2,expertise_cooldown_line_sm_dm_cc=1		int:item.set.set_id=50002								
-item_necklace_set_smuggler_utility_b_01_01	luck_modified=50,force_persuade=4,force_luck=4		int:item.set.set_id=50003								
+item_necklace_set_smuggler_utility_b_01_01	luck_modified=30,expertise_cooldown_line_sm_false_hope=2		int:item.set.set_id=50003								
 item_necklace_set_spy_dps_01_01	expertise_action_line_sp_dm=2,fast_attack_line_sp_dm=2,expertise_freeshot_sp_dm=1,expertise_cooldown_line_sp_dm=1,expertise_action_line_sp_dot=2		int:item.set.set_id=60001								
-item_necklace_set_spy_utility_a_01_01	fast_attack_line_sp_smoke=1,strength_modified=25,camouflage=25		int:item.set.set_id=60002								
+item_necklace_set_spy_utility_a_01_01	expertise_cooldown_line_sp_preparation=6,expertise_buff_duration_line_sp_preparation=1,fast_attack_line_sp_smoke=1,strength_modified=25		int:item.set.set_id=60002								
 item_necklace_set_spy_utility_b_01_01	combat_strikethrough_chance=2,expertise_action_all=1,luck_modified=50		int:item.set.set_id=60003								
 item_necklace_set_officer_dps_01_01	expertise_action_line_of_sure=1,expertise_action_line_of_paint=1,expertise_freeshot_of_sure=1,expertise_cooldown_line_of_sure=1,expertise_cooldown_line_of_paint=2		int:item.set.set_id=70001								
 item_necklace_set_officer_utility_a_01_01	expertise_action_line_of_aoe=2,expertise_freeshot_of_aoe=2		int:item.set.set_id=70002								
-item_necklace_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
-item_necklace_set_hero_01_01	strength_modified=25,precision_modified=25,luck_modified=25		int:item.set.set_id=80001								
+item_necklace_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,expertise_cooldown_line_of_purge=3,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
+item_necklace_set_hero_01_01	strength_modified=30,precision_modified=30,luck_modified=30		int:item.set.set_id=80001								
 item_bracelet_r_set_bh_dps_01_01	expertise_action_line_dm=1,expertise_action_line_dm_crit=1,expertise_buff_duration_line_bh_return_fire=1,expertise_cooldown_line_dm=1		int:item.set.set_id=10001								
-item_bracelet_r_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30,detect_hidden=25		int:item.set.set_id=10002								
+item_bracelet_r_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30		int:item.set.set_id=10002								
 item_bracelet_r_set_bh_utility_b_01_01	fast_attack_line_dm_cc=2,bh_dire_snare=1,bh_dire_root=1		int:item.set.set_id=10003								
 item_bracelet_r_set_medic_dps_01_01	expertise_action_line_me_dm=1,expertise_action_line_me_burst=2,expertise_action_line_me_smash=2,fast_attack_line_me_dm=1,expertise_buff_duration_line_me_enhance=360		int:item.set.set_id=20001								
-item_bracelet_r_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1		int:item.set.set_id=20002								
+item_bracelet_r_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1,expertise_cooldown_line_me_evasion=6		int:item.set.set_id=20002								
 item_bracelet_r_set_medic_utility_b_01_01	expertise_cooldown_line_me_dot=2,fast_attack_line_me_debuff=1,expertise_freeshot_line_me_debuff=1		int:item.set.set_id=20003								
 item_bracelet_r_set_jedi_dps_01_01	expertise_action_line_fs_dm=1,expertise_action_line_fs_sweep=1,expertise_cooldown_line_fs_dm=1,expertise_cooldown_line_fs_sweep=2		int:item.set.set_id=30001								
 item_bracelet_r_set_jedi_utility_a_01_01	expertise_action_line_fs_cc_crit=2,expertise_action_line_fs_ae_dm_cc=2,expertise_cooldown_line_fs_cc_crit=3,expertise_cooldown_line_fs_ae_dm_cc=3		int:item.set.set_id=30002								
@@ -2855,19 +2856,19 @@ item_bracelet_r_set_commando_utility_a_01_01	constitution_modified=20,combat_blo
 item_bracelet_r_set_commando_utility_b_01_01	constitution_modified=10,strength_modified=15,expertise_devastation_bonus=5		int:item.set.set_id=40003								
 item_bracelet_r_set_smuggler_dps_01_01	expertise_action_line_sm_dm=2,fast_attack_line_sm_dm=2,expertise_freeshot_sm_dm=2,expertise_cooldown_line_sm_dm=1		int:item.set.set_id=50001								
 item_bracelet_r_set_smuggler_utility_a_01_01	luck_modified=30,bh_dire_snare=7,expertise_freeshot_sm_dm_cc=2,expertise_cooldown_line_sm_dm_cc=1		int:item.set.set_id=50002								
-item_bracelet_r_set_smuggler_utility_b_01_01	luck_modified=50,force_persuade=4,force_luck=4		int:item.set.set_id=50003								
+item_bracelet_r_set_smuggler_utility_b_01_01	luck_modified=30,expertise_cooldown_line_sm_false_hope=2		int:item.set.set_id=50003								
 item_bracelet_r_set_spy_dps_01_01	expertise_action_line_sp_dm=2,fast_attack_line_sp_dm=2,expertise_freeshot_sp_dm=1,expertise_cooldown_line_sp_dm=1,expertise_action_line_sp_dot=2		int:item.set.set_id=60001								
-item_bracelet_r_set_spy_utility_a_01_01	fast_attack_line_sp_smoke=1,strength_modified=25,camouflage=25		int:item.set.set_id=60002								
+item_bracelet_r_set_spy_utility_a_01_01	expertise_cooldown_line_sp_preparation=6,expertise_buff_duration_line_sp_preparation=1,fast_attack_line_sp_smoke=1,strength_modified=25		int:item.set.set_id=60002								
 item_bracelet_r_set_spy_utility_b_01_01	combat_strikethrough_chance=2,expertise_action_all=1,luck_modified=50		int:item.set.set_id=60003								
 item_bracelet_r_set_officer_dps_01_01	expertise_action_line_of_sure=1,expertise_action_line_of_paint=1,expertise_freeshot_of_sure=1,expertise_cooldown_line_of_sure=1,expertise_cooldown_line_of_paint=2		int:item.set.set_id=70001								
 item_bracelet_r_set_officer_utility_a_01_01	expertise_action_line_of_aoe=2,expertise_freeshot_of_aoe=2		int:item.set.set_id=70002								
-item_bracelet_r_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
-item_bracelet_r_set_hero_01_01	strength_modified=25,precision_modified=25,luck_modified=25		int:item.set.set_id=80001								
+item_bracelet_r_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,expertise_cooldown_line_of_purge=3,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
+item_bracelet_r_set_hero_01_01	strength_modified=30,precision_modified=30,luck_modified=30		int:item.set.set_id=80001								
 item_bracelet_l_set_bh_dps_01_01	expertise_action_line_dm=1,expertise_action_line_dm_crit=1,expertise_buff_duration_line_bh_return_fire=1,expertise_cooldown_line_dm=1		int:item.set.set_id=10001								
-item_bracelet_l_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30,detect_hidden=25		int:item.set.set_id=10002								
+item_bracelet_l_set_bh_utility_a_01_01	precision_modified=50,luck_modified=30		int:item.set.set_id=10002								
 item_bracelet_l_set_bh_utility_b_01_01	fast_attack_line_dm_cc=2,bh_dire_snare=1,bh_dire_root=1		int:item.set.set_id=10003								
 item_bracelet_l_set_medic_dps_01_01	expertise_action_line_me_dm=1,expertise_action_line_me_burst=2,expertise_action_line_me_smash=2,fast_attack_line_me_dm=1,expertise_buff_duration_line_me_enhance=360		int:item.set.set_id=20001								
-item_bracelet_l_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1		int:item.set.set_id=20002								
+item_bracelet_l_set_medic_utility_a_01_01	fast_attack_line_me_heal=2,expertise_freeshot_me_heal=1,fast_attack_line_me_revive=1,expertise_cooldown_line_me_evasion=6		int:item.set.set_id=20002								
 item_bracelet_l_set_medic_utility_b_01_01	expertise_cooldown_line_me_dot=2,fast_attack_line_me_debuff=1,expertise_freeshot_line_me_debuff=1		int:item.set.set_id=20003								
 item_bracelet_l_set_jedi_dps_01_01	expertise_action_line_fs_dm=1,expertise_action_line_fs_sweep=1,expertise_cooldown_line_fs_dm=1,expertise_cooldown_line_fs_sweep=2		int:item.set.set_id=30001								
 item_bracelet_l_set_jedi_utility_a_01_01	expertise_action_line_fs_cc_crit=2,expertise_action_line_fs_ae_dm_cc=2,expertise_cooldown_line_fs_cc_crit=3,expertise_cooldown_line_fs_ae_dm_cc=3		int:item.set.set_id=30002								
@@ -2877,14 +2878,14 @@ item_bracelet_l_set_commando_utility_a_01_01	constitution_modified=20,combat_blo
 item_bracelet_l_set_commando_utility_b_01_01	constitution_modified=10,strength_modified=15,expertise_devastation_bonus=5		int:item.set.set_id=40003								
 item_bracelet_l_set_smuggler_dps_01_01	expertise_action_line_sm_dm=2,fast_attack_line_sm_dm=2,expertise_freeshot_sm_dm=2,expertise_cooldown_line_sm_dm=1		int:item.set.set_id=50001								
 item_bracelet_l_set_smuggler_utility_a_01_01	luck_modified=30,bh_dire_snare=7,expertise_freeshot_sm_dm_cc=2,expertise_cooldown_line_sm_dm_cc=1		int:item.set.set_id=50002								
-item_bracelet_l_set_smuggler_utility_b_01_01	luck_modified=50,force_persuade=4,force_luck=4		int:item.set.set_id=50003								
+item_bracelet_l_set_smuggler_utility_b_01_01	luck_modified=30,expertise_cooldown_line_sm_false_hope=2		int:item.set.set_id=50003								
 item_bracelet_l_set_spy_dps_01_01	expertise_action_line_sp_dm=2,fast_attack_line_sp_dm=2,expertise_freeshot_sp_dm=1,expertise_cooldown_line_sp_dm=1,expertise_action_line_sp_dot=2		int:item.set.set_id=60001								
-item_bracelet_l_set_spy_utility_a_01_01	fast_attack_line_sp_smoke=1,strength_modified=25,camouflage=25		int:item.set.set_id=60002								
+item_bracelet_l_set_spy_utility_a_01_01	expertise_cooldown_line_sp_preparation=6,expertise_buff_duration_line_sp_preparation=1,fast_attack_line_sp_smoke=1,strength_modified=25		int:item.set.set_id=60002								
 item_bracelet_l_set_spy_utility_b_01_01	combat_strikethrough_chance=2,expertise_action_all=1,luck_modified=50		int:item.set.set_id=60003								
 item_bracelet_l_set_officer_dps_01_01	expertise_action_line_of_sure=1,expertise_action_line_of_paint=1,expertise_freeshot_of_sure=1,expertise_cooldown_line_of_sure=1,expertise_cooldown_line_of_paint=2		int:item.set.set_id=70001								
 item_bracelet_l_set_officer_utility_a_01_01	expertise_action_line_of_aoe=2,expertise_freeshot_of_aoe=2		int:item.set.set_id=70002								
-item_bracelet_l_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
-item_bracelet_l_set_hero_01_01	strength_modified=25,precision_modified=25,luck_modified=25		int:item.set.set_id=80001								
+item_bracelet_l_set_officer_utility_b_01_01	expertise_action_line_of_group_buff=2,cooldown_percent_of_group_buff=4,expertise_cooldown_line_of_purge=3,fast_attack_line_of_heal=1,rally_point_duration=1		int:item.set.set_id=70003								
+item_bracelet_l_set_hero_01_01	strength_modified=30,precision_modified=30,luck_modified=30		int:item.set.set_id=80001								
 item_fannypack_04_01	luck_modified=50,strength_modified=50,precision_modified=50,constitution_modified=50		int:item.set.set_id=90001								
 item_heroic_token_axkva_01_01											
 item_heroic_token_tusken_01_01											
@@ -3408,8 +3409,8 @@ col_reward_feather_duster_02_04			int:nocert=1,int:allProfs=1	index_color_1=34
 col_reward_feather_duster_02_05			int:nocert=1,int:allProfs=1	index_color_1=51							
 item_katiara_gravestone_quest_item											
 item_schematic_pistol_heroic_exar_01_01			string:loot_schematic.schematic=object/draft_schematic/weapon/appearance/weapon_appearance_pistol_heroic_exar.iff,int:loot_schematic.uses=1,string:loot_schematic.skill_req=class_munitions_phase4_master								
-item_deed_pod_racer_06_01			string:vehicle_attribs.object_ref=pod_racer_one,float:hit_points=1500								
-item_deed_pod_racer_06_02			string:vehicle_attribs.object_ref=pod_racer_two,float:hit_points=1500								
+item_deed_pod_racer_06_01			string:vehicle_attribs.object_ref=pod_racer_one,float:hit_points=15000								
+item_deed_pod_racer_06_02			string:vehicle_attribs.object_ref=pod_racer_two,float:hit_points=15000								
 item_event_ewok_berry_01_01			int:item.lifespan=1209600								
 item_event_ewok_drink_01_01			float:duration=1.0,float:effectiveness=1.0,string:buff_name=event_ewok_drink,int:item.lifespan=1209600								
 item_event_ewok_berry_01_02			float:duration=1.0,float:effectiveness=1.0,string:buff_name=event_ewok_berry,int:item.lifespan=1209600								
@@ -3484,7 +3485,7 @@ col_rebel_rank_cpt_01_01			string:collection.slotName=col_rebel_rank_01:col_rebe
 col_rebel_rank_gen_01_01			string:collection.slotName=col_rebel_rank_01:col_rebel_rank_gen_01_01								
 col_rebel_rank_lt_01_01			string:collection.slotName=col_rebel_rank_01:col_rebel_rank_lt_01_01								
 col_rebel_rank_maj_01_01			string:collection.slotName=col_rebel_rank_01:col_rebel_rank_maj_01_01								
-heroic_minder_creature_knowledge_gloves_02_01			int:skillmod.bonus.bm_creature_knowledge=10,int:skillmod.bonus.bm_xp_mod_boost=100								
+heroic_minder_creature_knowledge_gloves_02_01			int:skillmod.bonus.bm_creature_knowledge=1								
 col_trophy_bane_back_spider_02_01											
 col_trophy_finned_blaggart_02_01											
 col_trophy_murra_blanca_02_01											
@@ -3503,7 +3504,7 @@ col_reward_forage_worm_trophy_02_01				index_color_1=7
 item_ice_cream_buff_health_01_01					ice_cream_heal_health	food_buff	601	0	1		survey
 item_ice_cream_buff_action_01_01					ice_cream_heal_action	food_buff	601	0	1		survey
 item_ice_cream_buff_remove_debuff_01_01					ice_cream_remove_debuff	food_buff	601	0	1		survey
-item_ice_cream_buff_xp_bonus_01_01					ice_cream_xp_bonus	food_buff	900	0	1		survey
+item_ice_cream_buff_xp_bonus_01_01					ice_cream_xp_bonus	food_buff	3600	0	1		survey
 item_ice_cream_buff_remove_weakened_01_01					ice_cream_remove_weaken_state	food_buff	603	0	1		survey
 item_ice_cream_buff_forage_buff_01_01					ice_cream_forage_buff	food_buff	1500	0	1		survey
 item_ice_cream_buff_debuff_01_01					ice_cream_debuff	food_buff	90	0	1		survey
@@ -3746,17 +3747,17 @@ item_tcg_loot_reward_series2_barn			string:player_structure.deed.template=object
 item_tcg_loot_reward_series1_housecleaning_kit			int:increaseAmount=50,int:nonGenericStorageItem=1							clienteffect/tcg_add_storage_house_cleaning.cef	
 item_tcg_loot_reward_series1_beru_whitesuns_cookbook			int:increaseAmount=100,int:nonGenericStorageItem=1							clienteffect/tcg_add_storage_cookbook.cef	
 item_tcg_loot_reward_series1_organizational_datapad			int:increaseAmount=100,int:nonGenericStorageItem=1							clienteffect/tcg_add_storage_datapad.cef	
-item_tcg_loot_reward_series1_gorax_ear					tcg_series1_gorax_ear	long_reuse_4	900			clienteffect/tcg_gorax_ear.cef	
-item_tcg_loot_reward_series1_morgukai_shadow_scroll					tcg_series1_morgukai_shadow_scroll	long_reuse_4	900			clienteffect/tcg_shadow_scroll.cef	
-item_tcg_loot_reward_series2_sanyassan_skull					tcg_series2_sanyassan_skull	long_reuse_4	900			clienteffect/tcg_sanyassan_skull.cef	
-item_tcg_loot_reward_series1_tusken_talisman					tcg_series1_tusken_talisman	long_reuse_4	900			clienteffect/tcg_talisman.cef	
+item_tcg_loot_reward_series1_gorax_ear					tcg_series1_gorax_ear	long_reuse_4	3600			clienteffect/tcg_gorax_ear.cef	
+item_tcg_loot_reward_series1_morgukai_shadow_scroll					tcg_series1_morgukai_shadow_scroll	long_reuse_4	3600			clienteffect/tcg_shadow_scroll.cef	
+item_tcg_loot_reward_series2_sanyassan_skull					tcg_series2_sanyassan_skull	long_reuse_4	3600			clienteffect/tcg_sanyassan_skull.cef	
+item_tcg_loot_reward_series1_tusken_talisman					tcg_series1_tusken_talisman	long_reuse_4	3600			clienteffect/tcg_talisman.cef	
 item_tcg_loot_reward_series1_hans_hydrospanner					tcg_series1_hans_hydrospanner					clienteffect/tcg_xp.cef	
 item_tcg_loot_reward_series2_keelkana_tooth					tcg_series2_keelkana_tooth					clienteffect/tcg_xp_keelkana_tooth.cef	
 item_tcg_loot_reward_series9_lepese_dictionary					tcg_series9_lepese_dictionary					clienteffect/tcg_xp_instant.cef	
 item_tcg_loot_reward_series2_mandalorian_strongbox					tcg_series2_mandalorian_strongbox					clienteffect/tcg_xp.cef	
 item_tcg_loot_reward_series1_nuna_ball_advertisement					tcg_series1_nuna_ball_advertisement					clienteffect/tcg_xp_instant_nuna_ball.cef	
 item_tcg_loot_reward_series1_radtrooper_badge					tcg_series1_radtrooper_badge					clienteffect/tcg_xp.cef	
-item_tcg_loot_reward_series2_versafunction88_datapad			int:increaseAmount=100,int:nonGenericStorageItem=1		tcg_series2_versafunction88_datapad					clienteffect/tcg_xp_instant.cef	
+item_tcg_loot_reward_series2_versafunction88_datapad					tcg_series2_versafunction88_datapad					clienteffect/tcg_xp_instant.cef	
 item_tcg_loot_reward_series2_chon_bust											
 item_tcg_loot_reward_series1_computer_console_01											
 item_tcg_loot_reward_series2_computer_console_02											
@@ -3787,8 +3788,8 @@ item_tcg_loot_reward_series9_vendor_serving_droid	special_vendor_tcg_series9_ser
 item_tcg_loot_reward_series1_target_creature			string:targetDummyCreatureName=tcg_target_creature_acklay								
 item_tcg_loot_reward_series2_video_game_table											
 item_tcg_loot_reward_series2_v_wing			boolean:ship_chassis.tcg_ship=true,boolean:ship_chassis.multifactional=true,string:ship_chassis.type=vwing,float:ship_chassis.hp=1850.0,float:ship_chassis.mass=66625.0								
-item_tcg_loot_reward_series2_podracer_mawhonic			string:vehicle_attribs.object_ref=pod_racer_two,float:hit_points=1500								
-item_tcg_loot_reward_series1_podracer_gasgano			string:vehicle_attribs.object_ref=pod_racer_one,float:hit_points=1500								
+item_tcg_loot_reward_series2_podracer_mawhonic			string:vehicle_attribs.object_ref=pod_racer_two,float:hit_points=15000								
+item_tcg_loot_reward_series1_podracer_gasgano			string:vehicle_attribs.object_ref=pod_racer_one,float:hit_points=15000								
 item_tcg_loot_reward_series1_mechno_chair			string:vehicle_attribs.object_ref=mechno_chair,float:hit_points=15000								
 item_tcg_loot_reward_series1_organa_speeder			string:vehicle_attribs.object_ref=organa_speeder,float:hit_points=15000								
 item_tcg_loot_reward_series1_sith_speeder			string:vehicle_attribs.object_ref=sith_speeder,float:hit_points=15000								
@@ -4094,7 +4095,7 @@ item_tcg_loot_reward_series3_jango_fett_memorial_statue
 item_tcg_loot_reward_series3_boba_fett_statue											
 item_tcg_loot_reward_series3_sith_meditation_room_deed			string:player_structure.deed.template=object/building/player/player_house_sith_meditation_room.iff,int:player_structure.deed.buildtime=90								
 item_tcg_loot_reward_series3_jedi_meditation_room_deed			string:player_structure.deed.template=object/building/player/player_house_jedi_meditation_room.iff,int:player_structure.deed.buildtime=90								
-item_tcg_loot_reward_series3_podracer_longtail			string:vehicle_attribs.object_ref=pod_racer_ipg_longtail,float:hit_points=1500								
+item_tcg_loot_reward_series3_podracer_longtail			string:vehicle_attribs.object_ref=pod_racer_ipg_longtail,float:hit_points=15000								
 item_tcg_loot_reward_series3_koro2_exodrive_airspeeder			string:vehicle_attribs.object_ref=koro2_speeder,float:hit_points=15000								
 item_tcg_loot_reward_series3_swamp_speeder			string:vehicle_attribs.object_ref=swamp_speeder,float:hit_points=15002								
 item_tcg_loot_reward_series3_armored_bantha			string:creatureName=tcg_armored_bantha								
@@ -4241,7 +4242,7 @@ item_tcg_loot_reward_series4_geonosian_speeder_02_01			string:vehicle_attribs.ob
 item_tcg_loot_reward_series4_senate_pod_02_01			string:vehicle_attribs.object_ref=senate_pod,float:hit_points=15000								
 item_tcg_loot_reward_series4_tauntaun_ride_02_01			int:money_total=0								
 item_tcg_loot_reward_series4_video_game_table_02_01			int:tcg_series=4								
-item_tcg_loot_reward_series4_balta_podracer_02_01			string:vehicle_attribs.object_ref=balta_podracer,float:hit_points=1500								
+item_tcg_loot_reward_series4_balta_podracer_02_01			string:vehicle_attribs.object_ref=balta_podracer,float:hit_points=15000								
 item_tcg_loot_reward_series4_peko_peko_mount_02_01			string:creatureName=tcg_peko_peko_mount								
 item_tcg_loot_reward_series4_falleens_fist_02_01					tcg_series4_falleens_fist						
 item_tcg_loot_reward_series4_ball_of_peace_02_01											
@@ -4266,11 +4267,11 @@ costume_spider_droid					costume_spider_droid
 item_prolog_content_decorative_science_datapad											
 item_mini_vehicle_terminal_barc			string:template=object/mobile/barc_mini.iff								
 item_mini_vehicle_terminal_awing			string:template=object/mobile/awing_mini.iff								
-item_auto_level_50_buddy_conversion			int:autoLevelTo=90
+item_auto_level_50_buddy_conversion			int:autoLevelTo=50								
 item_mini_vehicle_terminal_basilisk			string:template=object/mobile/basilisk_mini.iff								
-item_deed_pod_racer_06_03			string:vehicle_attribs.object_ref=lb_pod_racer_one,float:hit_points=1500								
+item_deed_pod_racer_06_03			string:vehicle_attribs.object_ref=lb_pod_racer_one,float:hit_points=15000								
 item_tcg_loot_reward_series5_xj6_air_speeder			string:vehicle_attribs.object_ref=xj6_air_speeder,float:hit_points=15000								
-item_tcg_loot_reward_series5_fg_8t8_podracer			string:vehicle_attribs.object_ref=fg_8t8_podracer,float:hit_points=1500								
+item_tcg_loot_reward_series5_fg_8t8_podracer			string:vehicle_attribs.object_ref=fg_8t8_podracer,float:hit_points=15000								
 item_tcg_loot_reward_series5_air2_swoop_speeder			string:vehicle_attribs.object_ref=air2_swoop_speeder,float:hit_points=15000								
 item_tcg_loot_reward_series5_player_house_hangar			string:player_structure.deed.template=object/building/player/player_house_hangar.iff,int:player_structure.deed.buildtime=90								
 item_tcg_loot_reward_series5_mustafar_diorama											
@@ -4281,7 +4282,7 @@ item_tcg_loot_reward_series5_tiefighter_chair
 item_tcg_loot_reward_series5_deathstar_hologram											
 item_tcg_loot_reward_series5_theater_poster											
 item_tcg_loot_reward_series5_galactic_hunters_poster											
-item_tcg_loot_reward_series5_jabbas_roasting_spit			int:crafting.creator.xpType=46,int:crafting.private=1,int:crafting.repair_type=512,int:crafting.station=1,float:crafting.stationMod=35.000000,int:crafting.type=8644								
+item_tcg_loot_reward_series5_jabbas_roasting_spit			int:crafting.creator.xpType=46,int:crafting.private=1,int:crafting.repair_type=512,int:crafting.station=1,float:crafting.stationMod=45.000000,int:crafting.type=8644								
 item_tcg_loot_reward_series5_house_sign	special_sign_tcg_series5=1		string:static_item=item_tcg_loot_reward_series5_house_sign								
 item_tcg_loot_reward_series5_atat_head_itv			string:tcg.combineItemTemplatePattern=object/tangible/tcg/series5/combine_object_,string:tcg.setName=set5_atat,int:returnObjectToOwner=1								
 item_tcg_loot_reward_series5_lcd_screen											
@@ -4303,7 +4304,7 @@ item_tcg_scurrier_final_palm_schematic			string:loot_schematic.schematic=object/
 item_tcg_loot_reward_series5_player_house_atat			string:player_structure.deed.template=object/building/player/player_house_atat.iff,int:player_structure.deed.buildtime=90								
 item_tcg_loot_reward_series5_armored_varactyl_statue			string:armored_creature_type=tcg5_armored_varactyl								
 item_deed_landspeeder_usv5_s02			string:vehicle_attribs.object_ref=landspeeder_usv5_s02,float:hit_points=15000								
-item_deed_podracer_anakin			string:vehicle_attribs.object_ref=podracer_anakin,float:hit_points=1500								
+item_deed_podracer_anakin			string:vehicle_attribs.object_ref=podracer_anakin,float:hit_points=15000								
 item_pgc_chronicle_master_robe											
 item_pgc_chronicle_master_sign											
 item_pgc_chronicle_master_sign_02											
@@ -4437,8 +4438,8 @@ item_tcg_loot_reward_series6_jabba_bed
 item_tcg_loot_reward_series6_ponda_baba_arm					tcg_series6_ponda_baba_arm					clienteffect/tcg_xp.cef	
 item_tcg_loot_reward_series6_lando_statuette											
 item_tcg_loot_reward_series6_house_lamp											
-item_tcg_loot_reward_series6_shock_collar					tcg_series6_shock_collar	beast_scale_buff	10				
-item_tcg_loot_reward_series6_beast_muzzle					tcg_series6_muzzle	beast_scale_buff	10				
+item_tcg_loot_reward_series6_shock_collar					tcg_series6_shock_collar	beast_scale_buff	300				
+item_tcg_loot_reward_series6_beast_muzzle					tcg_series6_muzzle	beast_scale_buff	300				
 item_lifeday_09_wookiee_cookie_decorative											
 item_lifeday_09_hoth_chocolate_decorative											
 item_lifeday_09_jacket_01											
@@ -4656,7 +4657,7 @@ item_schematic_gcw2_survey_tool_all			string:loot_schematic.schematic=object/dra
 item_player_house_deed_jabbas_sail_barge											
 item_tcg_loot_reward_series8_single_pod_airspeeder			string:vehicle_attribs.object_ref=single_pod_airspeeder,float:hit_points=15000								
 item_tcg_loot_reward_series8_snow_speeder_familiar			string:creatureName=item_tcg_loot_reward_series8_snow_speeder_familiar								
-item_tcg_loot_reward_series8_wampa_arm					tcg_series8_severed_wampa_arm	long_reuse_4	900			clienteffect/tcg_shadow_scroll.cef	
+item_tcg_loot_reward_series8_wampa_arm					tcg_series8_severed_wampa_arm	long_reuse_4	3600			clienteffect/tcg_shadow_scroll.cef	
 item_tcg_loot_reward_series8_bespin_lamp_off			string:type=lamp,string:status=off,string:tcg.combineItemTemplatePattern=object/tangible/tcg/series8/combine_decorative_,string:tcg.setName=set8_cloud_house								
 item_tcg_loot_reward_series8_bespin_lamp_on			string:type=lamp,string:status=off,string:tcg.combineItemTemplatePattern=object/tangible/tcg/series8/combine_decorative_,string:tcg.setName=set8_cloud_house								
 item_tcg_loot_reward_series8_bespin_shelves			string:tcg.combineItemTemplatePattern=object/tangible/tcg/series8/combine_decorative_,string:tcg.setName=set8_cloud_house								
@@ -4665,21 +4666,21 @@ item_tcg_loot_reward_series8_torture_table			string:tcg.combineItemTemplatePatte
 item_tcg_loot_reward_series8_armored_tauntaun_statue			string:armored_creature_type=tcg8_armored_tauntaun								
 item_imperial_station_token_01_01											
 item_rebel_station_token_01_01											
-item_schematic_spice_yarrock			string:loot_schematic.schematic=object/draft_schematic/spices/spice_yarrock.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_pyrepenol			string:loot_schematic.schematic=object/draft_schematic/spices/spice_pyrepenol.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_giggledust			string:loot_schematic.schematic=object/draft_schematic/spices/spice_giggledust.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_scramjet			string:loot_schematic.schematic=object/draft_schematic/spices/spice_scramjet.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_gunjack			string:loot_schematic.schematic=object/draft_schematic/spices/spice_gunjack.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_h4b			string:loot_schematic.schematic=object/draft_schematic/spices/spice_sedative_h4b.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_droid_lube			string:loot_schematic.schematic=object/draft_schematic/spices/spice_droid_lube.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_shadowpaw			string:loot_schematic.schematic=object/draft_schematic/spices/spice_shadowpaw.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_muon_gold			string:loot_schematic.schematic=object/draft_schematic/spices/spice_muon_gold.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_sweetblossom			string:loot_schematic.schematic=object/draft_schematic/spices/spice_sweetblossoom.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_crash_n_burn			string:loot_schematic.schematic=object/draft_schematic/spices/spice_crash_n_burn.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_thruster_head			string:loot_schematic.schematic=object/draft_schematic/spices/spice_thruster_head.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_grey_gabaki			string:loot_schematic.schematic=object/draft_schematic/spices/spice_grey_gabaki.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_neutron_pixey			string:loot_schematic.schematic=object/draft_schematic/spices/spice_neutron_pixey.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
-item_schematic_spice_booster_blue			string:loot_schematic.schematic=object/draft_schematic/spices/spice_booster_blue.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=1								
+item_schematic_spice_yarrock			string:loot_schematic.schematic=object/draft_schematic/spices/spice_yarrock.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_pyrepenol			string:loot_schematic.schematic=object/draft_schematic/spices/spice_pyrepenol.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_giggledust			string:loot_schematic.schematic=object/draft_schematic/spices/spice_giggledust.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_scramjet			string:loot_schematic.schematic=object/draft_schematic/spices/spice_scramjet.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_gunjack			string:loot_schematic.schematic=object/draft_schematic/spices/spice_gunjack.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_h4b			string:loot_schematic.schematic=object/draft_schematic/spices/spice_sedative_h4b.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_droid_lube			string:loot_schematic.schematic=object/draft_schematic/spices/spice_droid_lube.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_shadowpaw			string:loot_schematic.schematic=object/draft_schematic/spices/spice_shadowpaw.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_muon_gold			string:loot_schematic.schematic=object/draft_schematic/spices/spice_muon_gold.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_sweetblossom			string:loot_schematic.schematic=object/draft_schematic/spices/spice_sweetblossoom.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_crash_n_burn			string:loot_schematic.schematic=object/draft_schematic/spices/spice_crash_n_burn.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_thruster_head			string:loot_schematic.schematic=object/draft_schematic/spices/spice_thruster_head.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_grey_gabaki			string:loot_schematic.schematic=object/draft_schematic/spices/spice_grey_gabaki.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_neutron_pixey			string:loot_schematic.schematic=object/draft_schematic/spices/spice_neutron_pixey.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
+item_schematic_spice_booster_blue			string:loot_schematic.schematic=object/draft_schematic/spices/spice_booster_blue.iff,string:loot_schematic.skill_req=class_smuggler_phase4_master,int:loot_schematic.uses=10								
 item_cs_dna_mutated_narglatch			string:beast.dna.creature_template=object/mobile/beast_master/bm_mutated_narglatch.iff,float:beast.dna.quality=90.000000,int:beast.dna.cs_item=1								
 item_cs_dna_nexu			string:beast.dna.creature_template=object/mobile/beast_master/bm_nexu.iff,float:beast.dna.quality=90.000000,int:beast.dna.cs_item=1								
 item_cs_dna_reek			string:beast.dna.creature_template=object/mobile/beast_master/bm_reek.iff,float:beast.dna.quality=90.000000,int:beast.dna.cs_item=1								
@@ -4795,7 +4796,3 @@ item_ring_set_ent_01_01	strength_modified=30,agility_modified=30		int:item.set.s
 item_ring_set_trader_01_01	luck_modified=30,precision_modified=30,strength_modified=30		int:item.set.set_id=140001								
 rebel_trooper_hat_schematic			string:loot_schematic.schematic=object/draft_schematic/clothing/clothing_hat_rebel_trooper.iff,int:loot_schematic.uses=1,string:loot_schematic.skill_req=class_domestics_phase4_master								
 item_tauntaun_dna			string:beast.dna.creature_template=object/mobile/beast_master/bm_tauntaun.iff,float:beast.dna.quality=90.000000,int:beast.dna.cs_item=1								
-item_schematic_stardestroyer			int:loot_schematic.type=1,string:loot_schematic.skill_req=class_structures_phase4_novice,string:loot_schematic.schematic=object/draft_schematic/space/chassis/stardestroyer.iff,int:loot_schematic.uses=1								
-item_ship_deed_stardestroyer			float:ship_chassis.hp=9000.0,float:ship_chassis.mass=9600000.0,string:ship_chassis.type=stardestroyer								
-police_station			string:player_structure.deed.template=object/building/player/player_house_police_station.iff,int:player_structure.deed.buildtime=90								
-item_deed_tie_fighter			string:vehicle_attribs.object_ref=tie_fighter,float:hit_points=15000								

@@ -1,0 +1,25 @@
+# Compiled output
+#data/
+
+# Build artifacts
+*.class
+*.jar
+*.log
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temp files
+*.tmp
+*.bak
+
+#extra cruft
+swg-funserver
+build
+chat

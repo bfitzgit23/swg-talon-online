@@ -7,7 +7,7 @@ events:
       - "/usr/share/cmake/Modules/CMakeDetermineSystem.cmake:204 (message)"
       - "CMakeLists.txt:3 (project)"
     message: |
-      The system is: Linux - 4.18.0-553.81.1.el8_10.x86_64 - x86_64
+      The system is: Linux - 4.18.0-553.109.1.el8_10.x86_64 - x86_64
   -
     kind: "message-v1"
     backtrace:
@@ -61,20 +61,20 @@ events:
     checks:
       - "Detecting C compiler ABI info"
     directories:
-      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-54pN3y"
-      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-54pN3y"
+      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-Tjdqsx"
+      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-Tjdqsx"
     cmakeVariables:
       CMAKE_C_FLAGS: "-m32"
     buildResult:
       variable: "CMAKE_C_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-54pN3y
+        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-Tjdqsx
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_df013/fast && /bin/gmake  -f CMakeFiles/cmTC_df013.dir/build.make CMakeFiles/cmTC_df013.dir/build
-        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-54pN3y'
-        Building C object CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o
-        /bin/cc   -m32    -v -o CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_c6157/fast && /bin/gmake  -f CMakeFiles/cmTC_c6157.dir/build.make CMakeFiles/cmTC_c6157.dir/build
+        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-Tjdqsx'
+        Building C object CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o
+        /bin/cc   -m32    -v -o CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c
         Using built-in specs.
         COLLECT_GCC=/bin/cc
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -83,8 +83,8 @@ events:
         Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugs.almalinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
         Thread model: posix
         gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) 
-        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-         /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v -imultilib 32 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccO2IsF5.s
+        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v -imultilib 32 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccZ925As.s
         GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-28) (x86_64-redhat-linux)
         	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-28), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
         
@@ -102,15 +102,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: 9fb8df8ec8fe15dca3287c63d9ff7ff4
-        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-         as -v --32 -o CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o /tmp/ccO2IsF5.s
-        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-127.el8_10
+        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+         as -v --32 -o CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o /tmp/ccZ925As.s
+        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-128.el8_10
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/32/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
-        Linking C executable cmTC_df013
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df013.dir/link.txt --verbose=1
-        /bin/cc -m32  -L/usr/lib32 -v -rdynamic CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o -o cmTC_df013 
+        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+        Linking C executable cmTC_c6157
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6157.dir/link.txt --verbose=1
+        /bin/cc -m32  -L/usr/lib32 -v -rdynamic CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o -o cmTC_c6157 
         Using built-in specs.
         COLLECT_GCC=/bin/cc
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -122,10 +122,10 @@ events:
         gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/32/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_df013' '-mtune=generic' '-march=x86-64'
-         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc28xPqF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_df013 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o -L/usr/lib32 -L/usr/lib/gcc/x86_64-redhat-linux/8/32 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_df013' '-mtune=generic' '-march=x86-64'
-        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-54pN3y'
+        COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_c6157' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3j0OZk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c6157 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o -L/usr/lib32 -L/usr/lib/gcc/x86_64-redhat-linux/8/32 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_c6157' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-Tjdqsx'
         
       exitCode: 0
   -
@@ -157,12 +157,12 @@ events:
     message: |
       Parsed C implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-54pN3y]
+        ignore line: [Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-Tjdqsx]
         ignore line: []
-        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_df013/fast && /bin/gmake  -f CMakeFiles/cmTC_df013.dir/build.make CMakeFiles/cmTC_df013.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-54pN3y']
-        ignore line: [Building C object CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o]
-        ignore line: [/bin/cc   -m32    -v -o CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_c6157/fast && /bin/gmake  -f CMakeFiles/cmTC_c6157.dir/build.make CMakeFiles/cmTC_c6157.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-Tjdqsx']
+        ignore line: [Building C object CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/bin/cc   -m32    -v -o CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake/Modules/CMakeCCompilerABI.c]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/bin/cc]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -171,8 +171,8 @@ events:
         ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugs.almalinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v -imultilib 32 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccO2IsF5.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/cc1 -quiet -v -imultilib 32 /usr/share/cmake/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o -version -o /tmp/ccZ925As.s]
         ignore line: [GNU C17 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-28) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-28)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
         ignore line: []
@@ -190,15 +190,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: 9fb8df8ec8fe15dca3287c63d9ff7ff4]
-        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [ as -v --32 -o CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o /tmp/ccO2IsF5.s]
-        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-127.el8_10]
+        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --32 -o CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o /tmp/ccZ925As.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-128.el8_10]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/32/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking C executable cmTC_df013]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df013.dir/link.txt --verbose=1]
-        ignore line: [/bin/cc -m32  -L/usr/lib32 -v -rdynamic CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o -o cmTC_df013 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking C executable cmTC_c6157]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6157.dir/link.txt --verbose=1]
+        ignore line: [/bin/cc -m32  -L/usr/lib32 -v -rdynamic CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o -o cmTC_c6157 ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/bin/cc]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -210,13 +210,13 @@ events:
         ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/32/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_df013' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc28xPqF.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_df013 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o -L/usr/lib32 -L/usr/lib/gcc/x86_64-redhat-linux/8/32 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_c6157' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/cc3j0OZk.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_c6157 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o -L/usr/lib32 -L/usr/lib/gcc/x86_64-redhat-linux/8/32 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /usr/lib/gcc/x86_64-redhat-linux/8/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/cc28xPqF.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/cc3j0OZk.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -232,7 +232,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib/ld-linux.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_df013] ==> ignore
+          arg [cmTC_c6157] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o]
@@ -243,7 +243,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-          arg [CMakeFiles/cmTC_df013.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [CMakeFiles/cmTC_c6157.dir/CMakeCCompilerABI.c.o] ==> ignore
           arg [-lgcc] ==> lib [gcc]
           arg [--as-needed] ==> ignore
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -280,20 +280,20 @@ events:
     checks:
       - "Detecting CXX compiler ABI info"
     directories:
-      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-s61aJJ"
-      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-s61aJJ"
+      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-pTIsy4"
+      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-pTIsy4"
     cmakeVariables:
       CMAKE_CXX_FLAGS: "-m32"
     buildResult:
       variable: "CMAKE_CXX_ABI_COMPILED"
       cached: true
       stdout: |
-        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-s61aJJ
+        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-pTIsy4
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_70963/fast && /bin/gmake  -f CMakeFiles/cmTC_70963.dir/build.make CMakeFiles/cmTC_70963.dir/build
-        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-s61aJJ'
-        Building CXX object CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o
-        /bin/c++   -m32    -v -o CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_a43db/fast && /bin/gmake  -f CMakeFiles/cmTC_a43db.dir/build.make CMakeFiles/cmTC_a43db.dir/build
+        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-pTIsy4'
+        Building CXX object CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o
+        /bin/c++   -m32    -v -o CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp
         Using built-in specs.
         COLLECT_GCC=/bin/c++
         OFFLOAD_TARGET_NAMES=nvptx-none
@@ -302,8 +302,8 @@ events:
         Configured with: ../configure --enable-bootstrap --enable-languages=c,c++,fortran,lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugs.almalinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux
         Thread model: posix
         gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) 
-        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/libexec/gcc/x86_64-redhat-linux/8/cc1plus -quiet -v -imultilib 32 -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc0TyvfV.s
+        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/cc1plus -quiet -v -imultilib 32 -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccWpxHCl.s
         GNU C++14 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-28) (x86_64-redhat-linux)
         	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-28), GMP version 6.1.2, MPFR version 3.1.6-p2, MPC version 1.1.0, isl version isl-0.16.1-GMP
         
@@ -324,15 +324,15 @@ events:
         
         GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
         Compiler executable checksum: c1725d49d5500384a54ea6d1e027ad4d
-        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         as -v --32 -o CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc0TyvfV.s
-        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-127.el8_10
+        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         as -v --32 -o CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWpxHCl.s
+        GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-128.el8_10
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/32/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        Linking CXX executable cmTC_70963
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70963.dir/link.txt --verbose=1
-        /bin/c++ -m32  -L/usr/lib32 -v -rdynamic CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_70963 
+        COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        Linking CXX executable cmTC_a43db
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a43db.dir/link.txt --verbose=1
+        /bin/c++ -m32  -L/usr/lib32 -v -rdynamic CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a43db 
         Using built-in specs.
         COLLECT_GCC=/bin/c++
         COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper
@@ -344,10 +344,10 @@ events:
         gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) 
         COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/
         LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/32/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/
-        COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_70963' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVYnLtm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_70963 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o -L/usr/lib32 -L/usr/lib/gcc/x86_64-redhat-linux/8/32 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crtn.o
-        COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_70963' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
-        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-s61aJJ'
+        COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_a43db' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+         /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAwjs2n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_a43db /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o -L/usr/lib32 -L/usr/lib/gcc/x86_64-redhat-linux/8/32 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crtn.o
+        COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_a43db' '-shared-libgcc' '-mtune=generic' '-march=x86-64'
+        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-pTIsy4'
         
       exitCode: 0
   -
@@ -385,12 +385,12 @@ events:
     message: |
       Parsed CXX implicit link information:
         link line regex: [^( *|.*[/\\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
-        ignore line: [Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-s61aJJ]
+        ignore line: [Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-pTIsy4]
         ignore line: []
-        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_70963/fast && /bin/gmake  -f CMakeFiles/cmTC_70963.dir/build.make CMakeFiles/cmTC_70963.dir/build]
-        ignore line: [gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-s61aJJ']
-        ignore line: [Building CXX object CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o]
-        ignore line: [/bin/c++   -m32    -v -o CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_a43db/fast && /bin/gmake  -f CMakeFiles/cmTC_a43db.dir/build.make CMakeFiles/cmTC_a43db.dir/build]
+        ignore line: [gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-pTIsy4']
+        ignore line: [Building CXX object CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/bin/c++   -m32    -v -o CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/bin/c++]
         ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none]
@@ -399,8 +399,8 @@ events:
         ignore line: [Configured with: ../configure --enable-bootstrap --enable-languages=c c++ fortran lto --prefix=/usr --mandir=/usr/share/man --infodir=/usr/share/info --with-bugurl=http://bugs.almalinux.org/ --enable-shared --enable-threads=posix --enable-checking=release --enable-multilib --with-system-zlib --enable-__cxa_atexit --disable-libunwind-exceptions --enable-gnu-unique-object --enable-linker-build-id --with-gcc-major-version-only --with-linker-hash-style=gnu --enable-plugin --enable-initfini-array --with-isl --disable-libmpx --enable-offload-targets=nvptx-none --without-cuda-driver --enable-gnu-indirect-function --enable-cet --with-tune=generic --with-arch_32=x86-64 --build=x86_64-redhat-linux]
         ignore line: [Thread model: posix]
         ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) ]
-        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/cc1plus -quiet -v -imultilib 32 -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/cc0TyvfV.s]
+        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/cc1plus -quiet -v -imultilib 32 -D_GNU_SOURCE /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -m32 -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o -version -o /tmp/ccWpxHCl.s]
         ignore line: [GNU C++14 (GCC) version 8.5.0 20210514 (Red Hat 8.5.0-28) (x86_64-redhat-linux)]
         ignore line: [	compiled by GNU C version 8.5.0 20210514 (Red Hat 8.5.0-28)  GMP version 6.1.2  MPFR version 3.1.6-p2  MPC version 1.1.0  isl version isl-0.16.1-GMP]
         ignore line: []
@@ -421,15 +421,15 @@ events:
         ignore line: []
         ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
         ignore line: [Compiler executable checksum: c1725d49d5500384a54ea6d1e027ad4d]
-        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [ as -v --32 -o CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o /tmp/cc0TyvfV.s]
-        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-127.el8_10]
+        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [ as -v --32 -o CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o /tmp/ccWpxHCl.s]
+        ignore line: [GNU assembler version 2.30 (x86_64-redhat-linux) using BFD version version 2.30-128.el8_10]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/32/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        ignore line: [Linking CXX executable cmTC_70963]
-        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_70963.dir/link.txt --verbose=1]
-        ignore line: [/bin/c++ -m32  -L/usr/lib32 -v -rdynamic CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_70963 ]
+        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-v' '-o' 'CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        ignore line: [Linking CXX executable cmTC_a43db]
+        ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a43db.dir/link.txt --verbose=1]
+        ignore line: [/bin/c++ -m32  -L/usr/lib32 -v -rdynamic CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_a43db ]
         ignore line: [Using built-in specs.]
         ignore line: [COLLECT_GCC=/bin/c++]
         ignore line: [COLLECT_LTO_WRAPPER=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper]
@@ -441,13 +441,13 @@ events:
         ignore line: [gcc version 8.5.0 20210514 (Red Hat 8.5.0-28) (GCC) ]
         ignore line: [COMPILER_PATH=/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/8/:/usr/libexec/gcc/x86_64-redhat-linux/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/]
         ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-redhat-linux/8/32/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/:/lib/../lib/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-redhat-linux/8/:/usr/lib/gcc/x86_64-redhat-linux/8/../../../:/lib/:/usr/lib/]
-        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_70963' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
-        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVYnLtm.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_70963 /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o -L/usr/lib32 -L/usr/lib/gcc/x86_64-redhat-linux/8/32 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crtn.o]
+        ignore line: [COLLECT_GCC_OPTIONS='-m32' '-L/usr/lib32' '-v' '-rdynamic' '-o' 'cmTC_a43db' '-shared-libgcc' '-mtune=generic' '-march=x86-64']
+        link line: [ /usr/libexec/gcc/x86_64-redhat-linux/8/collect2 -plugin /usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so -plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper -plugin-opt=-fresolution=/tmp/ccAwjs2n.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --build-id --no-add-needed --eh-frame-hdr --hash-style=gnu -m elf_i386 -export-dynamic -dynamic-linker /lib/ld-linux.so.2 -o cmTC_a43db /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o /usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o -L/usr/lib32 -L/usr/lib/gcc/x86_64-redhat-linux/8/32 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib -L/lib/../lib -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-redhat-linux/8 -L/usr/lib/gcc/x86_64-redhat-linux/8/../../.. CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /usr/lib/gcc/x86_64-redhat-linux/8/32/crtend.o /usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crtn.o]
           arg [/usr/libexec/gcc/x86_64-redhat-linux/8/collect2] ==> ignore
           arg [-plugin] ==> ignore
           arg [/usr/libexec/gcc/x86_64-redhat-linux/8/liblto_plugin.so] ==> ignore
           arg [-plugin-opt=/usr/libexec/gcc/x86_64-redhat-linux/8/lto-wrapper] ==> ignore
-          arg [-plugin-opt=-fresolution=/tmp/ccVYnLtm.res] ==> ignore
+          arg [-plugin-opt=-fresolution=/tmp/ccAwjs2n.res] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
           arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
           arg [-plugin-opt=-pass-through=-lc] ==> ignore
@@ -463,7 +463,7 @@ events:
           arg [-dynamic-linker] ==> ignore
           arg [/lib/ld-linux.so.2] ==> ignore
           arg [-o] ==> ignore
-          arg [cmTC_70963] ==> ignore
+          arg [cmTC_a43db] ==> ignore
           arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crt1.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/../../../../lib/crti.o]
           arg [/usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o] ==> obj [/usr/lib/gcc/x86_64-redhat-linux/8/32/crtbegin.o]
@@ -474,7 +474,7 @@ events:
           arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/8] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8]
           arg [-L/usr/lib/gcc/x86_64-redhat-linux/8/../../..] ==> dir [/usr/lib/gcc/x86_64-redhat-linux/8/../../..]
-          arg [CMakeFiles/cmTC_70963.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [CMakeFiles/cmTC_a43db.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
           arg [-lstdc++] ==> lib [stdc++]
           arg [-lm] ==> lib [m]
           arg [-lgcc_s] ==> lib [gcc_s]
@@ -511,8 +511,8 @@ events:
     checks:
       - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
     directories:
-      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-QfqsoH"
-      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-QfqsoH"
+      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-AUWyLw"
+      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-AUWyLw"
     cmakeVariables:
       CMAKE_C_FLAGS: "-m32"
       CMAKE_MODULE_PATH: "/home/almalinux/swg-returns-nge/src/cmake/linux"
@@ -520,24 +520,24 @@ events:
       variable: "CMAKE_HAVE_LIBC_PTHREAD"
       cached: true
       stdout: |
-        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-QfqsoH
+        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-AUWyLw
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_28789/fast && /bin/gmake  -f CMakeFiles/cmTC_28789.dir/build.make CMakeFiles/cmTC_28789.dir/build
-        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-QfqsoH'
-        Building C object CMakeFiles/cmTC_28789.dir/src.c.o
-        /bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -m32  -o CMakeFiles/cmTC_28789.dir/src.c.o -c /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-QfqsoH/src.c
-        Linking C executable cmTC_28789
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28789.dir/link.txt --verbose=1
-        /bin/cc -m32  -L/usr/lib32  -rdynamic CMakeFiles/cmTC_28789.dir/src.c.o -o cmTC_28789 
-        CMakeFiles/cmTC_28789.dir/src.c.o: In function `main':
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_c02f4/fast && /bin/gmake  -f CMakeFiles/cmTC_c02f4.dir/build.make CMakeFiles/cmTC_c02f4.dir/build
+        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-AUWyLw'
+        Building C object CMakeFiles/cmTC_c02f4.dir/src.c.o
+        /bin/cc -DCMAKE_HAVE_LIBC_PTHREAD  -m32  -o CMakeFiles/cmTC_c02f4.dir/src.c.o -c /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-AUWyLw/src.c
+        Linking C executable cmTC_c02f4
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c02f4.dir/link.txt --verbose=1
+        /bin/cc -m32  -L/usr/lib32  -rdynamic CMakeFiles/cmTC_c02f4.dir/src.c.o -o cmTC_c02f4 
+        CMakeFiles/cmTC_c02f4.dir/src.c.o: In function `main':
         src.c:(.text+0x27): undefined reference to `pthread_create'
         src.c:(.text+0x36): undefined reference to `pthread_detach'
         src.c:(.text+0x45): undefined reference to `pthread_cancel'
         src.c:(.text+0x56): undefined reference to `pthread_join'
         collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_28789.dir/build.make:99: cmTC_28789] Error 1
-        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-QfqsoH'
-        gmake: *** [Makefile:127: cmTC_28789/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_c02f4.dir/build.make:99: cmTC_c02f4] Error 1
+        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-AUWyLw'
+        gmake: *** [Makefile:127: cmTC_c02f4/fast] Error 2
         
       exitCode: 2
   -
@@ -550,8 +550,8 @@ events:
     checks:
       - "Looking for pthread_create in pthreads"
     directories:
-      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-iueKzH"
-      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-iueKzH"
+      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-LaTjGa"
+      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-LaTjGa"
     cmakeVariables:
       CMAKE_C_FLAGS: "-m32"
       CMAKE_MODULE_PATH: "/home/almalinux/swg-returns-nge/src/cmake/linux"
@@ -559,20 +559,20 @@ events:
       variable: "CMAKE_HAVE_PTHREADS_CREATE"
       cached: true
       stdout: |
-        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-iueKzH
+        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-LaTjGa
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_a970b/fast && /bin/gmake  -f CMakeFiles/cmTC_a970b.dir/build.make CMakeFiles/cmTC_a970b.dir/build
-        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-iueKzH'
-        Building C object CMakeFiles/cmTC_a970b.dir/CheckFunctionExists.c.o
-        /bin/cc   -m32 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_a970b.dir/CheckFunctionExists.c.o -c /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-iueKzH/CheckFunctionExists.c
-        Linking C executable cmTC_a970b
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a970b.dir/link.txt --verbose=1
-        /bin/cc -m32 -DCHECK_FUNCTION_EXISTS=pthread_create -L/usr/lib32  -rdynamic CMakeFiles/cmTC_a970b.dir/CheckFunctionExists.c.o -o cmTC_a970b  -lpthreads 
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_900d5/fast && /bin/gmake  -f CMakeFiles/cmTC_900d5.dir/build.make CMakeFiles/cmTC_900d5.dir/build
+        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-LaTjGa'
+        Building C object CMakeFiles/cmTC_900d5.dir/CheckFunctionExists.c.o
+        /bin/cc   -m32 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_900d5.dir/CheckFunctionExists.c.o -c /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-LaTjGa/CheckFunctionExists.c
+        Linking C executable cmTC_900d5
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_900d5.dir/link.txt --verbose=1
+        /bin/cc -m32 -DCHECK_FUNCTION_EXISTS=pthread_create -L/usr/lib32  -rdynamic CMakeFiles/cmTC_900d5.dir/CheckFunctionExists.c.o -o cmTC_900d5  -lpthreads 
         /bin/ld: cannot find -lpthreads
         collect2: error: ld returned 1 exit status
-        gmake[1]: *** [CMakeFiles/cmTC_a970b.dir/build.make:99: cmTC_a970b] Error 1
-        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-iueKzH'
-        gmake: *** [Makefile:127: cmTC_a970b/fast] Error 2
+        gmake[1]: *** [CMakeFiles/cmTC_900d5.dir/build.make:99: cmTC_900d5] Error 1
+        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-LaTjGa'
+        gmake: *** [Makefile:127: cmTC_900d5/fast] Error 2
         
       exitCode: 2
   -
@@ -585,8 +585,8 @@ events:
     checks:
       - "Looking for pthread_create in pthread"
     directories:
-      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-qurUJV"
-      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-qurUJV"
+      source: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-ORLXlQ"
+      binary: "/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-ORLXlQ"
     cmakeVariables:
       CMAKE_C_FLAGS: "-m32"
       CMAKE_MODULE_PATH: "/home/almalinux/swg-returns-nge/src/cmake/linux"
@@ -594,16 +594,16 @@ events:
       variable: "CMAKE_HAVE_PTHREAD_CREATE"
       cached: true
       stdout: |
-        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-qurUJV
+        Change Dir: /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-ORLXlQ
         
-        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_7848f/fast && /bin/gmake  -f CMakeFiles/cmTC_7848f.dir/build.make CMakeFiles/cmTC_7848f.dir/build
-        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-qurUJV'
-        Building C object CMakeFiles/cmTC_7848f.dir/CheckFunctionExists.c.o
-        /bin/cc   -m32 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_7848f.dir/CheckFunctionExists.c.o -c /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-qurUJV/CheckFunctionExists.c
-        Linking C executable cmTC_7848f
-        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7848f.dir/link.txt --verbose=1
-        /bin/cc -m32 -DCHECK_FUNCTION_EXISTS=pthread_create -L/usr/lib32  -rdynamic CMakeFiles/cmTC_7848f.dir/CheckFunctionExists.c.o -o cmTC_7848f  -lpthread 
-        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-qurUJV'
+        Run Build Command(s):/usr/bin/cmake -E env VERBOSE=1 /bin/gmake -f Makefile cmTC_6b3c1/fast && /bin/gmake  -f CMakeFiles/cmTC_6b3c1.dir/build.make CMakeFiles/cmTC_6b3c1.dir/build
+        gmake[1]: Entering directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-ORLXlQ'
+        Building C object CMakeFiles/cmTC_6b3c1.dir/CheckFunctionExists.c.o
+        /bin/cc   -m32 -DCHECK_FUNCTION_EXISTS=pthread_create -o CMakeFiles/cmTC_6b3c1.dir/CheckFunctionExists.c.o -c /home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-ORLXlQ/CheckFunctionExists.c
+        Linking C executable cmTC_6b3c1
+        /usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6b3c1.dir/link.txt --verbose=1
+        /bin/cc -m32 -DCHECK_FUNCTION_EXISTS=pthread_create -L/usr/lib32  -rdynamic CMakeFiles/cmTC_6b3c1.dir/CheckFunctionExists.c.o -o cmTC_6b3c1  -lpthread 
+        gmake[1]: Leaving directory '/home/almalinux/swg-returns-nge/build/CMakeFiles/CMakeScratch/TryCompile-ORLXlQ'
         
       exitCode: 0
 ...

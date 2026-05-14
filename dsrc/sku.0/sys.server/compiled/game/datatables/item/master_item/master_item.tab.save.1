@@ -1,0 +1,920 @@
+name	template_name	type	unique	required_level	required_skill	creation_objvars	charges	tier	value	scripts	version	can_reverse_engineer	string_name	string_detail	comments
+
+s[unique]	s	e(weapon=1,armor=2,item=3,storyteller=4,object=5)[item]	i[0]	i	s	s	i	i	i[0]	s	i[1]	i[0]	c	c	c
+
+weapon_pistol_02_01	object/weapon/ranged/pistol/pistol_d18.iff	weapon						2	45			1	Basic D18 Pistol	A basic pistol in dire need of cleaning.	level 5 required
+
+weapon_rifle_02_01	object/weapon/ranged/rifle/rifle_dlt20.iff	weapon						2	45			1	Basic DLT-20 Rifle	A basic rifle in dire need of cleaning.	level 5 required
+
+weapon_carbine_02_01	object/weapon/ranged/carbine/carbine_dh17.iff	weapon						2	45			1	Basic DH-17 Carbine	A basic carbine in dire need of cleaning.	level 5 required
+
+weapon_polearm_02_01	object/weapon/melee/polearm/lance_staff_wood_s2.iff	weapon						2	45			1	Basic Wood Staff	A basic wood staff in dire need of cleaning.	level 5 required
+
+weapon_sword_1h_02_01	object/weapon/melee/sword/sword_01.iff	weapon						2	45			1	Basic Sword	A basic sword in dire need of cleaning.	level 5 required
+
+weapon_sword_2h_02_01	object/weapon/melee/2h_sword/2h_sword_battleaxe.iff	weapon						2	45			1	Basic Battleaxe	A basic axe in dire need of cleaning.	level 6 required
+
+armor_bone_chest_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_chest_plate.iff	armor						2	45			1	Filth Encrusted Bone Chest	A filthy piece of bone armor. Armor can have significantly different characteristics. Be sure to examine the armor closely to determine its protection abilities. To wear this armor, double click on it from your inventory.	
+
+armor_bone_leggings_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_leggings.iff	armor						2	45			1	Filth Encrusted Bone Leggings	A filthy piece of bone armor. Armor can have significantly different characteristics. Be sure to examine the armor closely to determine its protection abilities. To wear this armor, double click on it from your inventory.	
+
+armor_bone_helmet_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_helmet.iff	armor						2	45			1	Filth Encrusted Bone Helmet	A filthy piece of bone armor. Armor can have significantly different characteristics. Be sure to examine the armor closely to determine its protection abilities. To wear this armor, double click on it from your inventory.	
+
+armor_bone_bicep_l_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_bicep_l.iff	armor						2	45			1	Filth Encrusted Bone Left Bicep	A filthy piece of bone armor. Armor can have significantly different characteristics. Be sure to examine the armor closely to determine its protection abilities. To wear this armor, double click on it from your inventory.	
+
+armor_bone_bicep_r_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_bicep_r.iff	armor						2	45			1	Filth Encrusted Bone Right Bicep	A filthy piece of bone armor. Armor can have significantly different characteristics. Be sure to examine the armor closely to determine its protection abilities. To wear this armor, double click on it from your inventory.	
+
+armor_bone_bracer_l_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_bracer_l.iff	armor						2	45			1	Filth Encrusted Bone Left Bracer	A filthy piece of bone armor. Armor can have significantly different characteristics. Be sure to examine the armor closely to determine its protection abilities. To wear this armor, double click on it from your inventory.	
+
+armor_bone_bracer_r_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_bracer_r.iff	armor						2	45			1	Filth Encrusted Bone Right Bracer	A filthy piece of bone armor. Armor can have significantly different characteristics. Be sure to examine the armor closely to determine its protection abilities. To wear this armor, double click on it from your inventory.	
+
+armor_bone_gloves_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_gloves.iff	armor						2	45			1	Filth Encrusted Bone Gloves	A filthy piece of bone armor. Armor can have significantly different characteristics. Gloves have no protection statistics. To wear this armor, double click on it from your inventory.	
+
+armor_bone_boots_02_01	object/tangible/wearables/armor/bone/armor_bone_s01_boots.iff	armor						2	45			1	Filth Encrusted Bone Boots	A filthy piece of bone armor. Armor can have significantly different characteristics. Boots have no protection statistics. To wear this armor, double click on it from your inventory.	
+
+item_datapad_01_01	object/tangible/loot/tool/datapad_broken.iff							1	32	object.autostack		1	Datapad	A datapad.	
+
+item_tooth_01_01	object/tangible/loot/creature_loot/generic/carnivore_tooth.iff							1	34	object.autostack		1	Decayed Tooth	A tooth rotten with decay.	
+
+item_tooth_01_02	object/tangible/loot/creature_loot/generic/carnivore_tooth.iff							1	37	object.autostack		1	Decayed Tooth	A tooth full of decay.	
+
+item_feather_01_01	object/tangible/loot/creature_loot/generic/generic_feather.iff							1	40	object.autostack		1	Mottled Feather	A mottled feather.	
+
+item_holocron_06_01	object/tangible/jedi/jedi_holocron_generic.iff							6		item.armor.biolink_item_non_faction,item.buff_click_item			Holocron: Form Zero Lightsaber Combat	Form Zero:||Originally defined by Jedi Master Yoda to describe the lightsaber technique of Felanil Baaks, Form Zero became the basis for the instruction of lightsaber combat. In its simplest form, Form Zero is the art of wielding a lightsaber which had not been ignited. While it seemed silly to many padawan learners, the underlying message could not be ignored. In order for a Jedi to protect and serve the galaxy, they must know when to ignite their lightsaber for combat, and when to leave the weapon at his side. The understanding of another being's situation was key to the knowledge of right and wrong, and any student who could understand the necessity of Form Zero and use it to mediate a solution - without resorting to violence - was truly gifted with the Force.	mustafar expansion
+
+item_holocron_06_02	object/tangible/jedi/jedi_holocron_generic.iff							6		item.armor.biolink_item_non_faction,item.buff_click_item			Holocron: Form I Lightsaber Combat	Form I:||Known as Shii-Cho, this was the simplest form of lightsaber combat techniques studied by the Jedi Knights of the Old Republic, and was generally considered the first form used by the original creators of lightsabers. Sometimes called the ideal form, Form I used horizontal side-swipes and parries made with the blade of the lightsaber held upright to push the point of an enemy's blade away during a side-to-side attack. If the attack is a downward slash aimed at the head, Form I simply reversed the motion, with a horizontally-held lightsaber being moved up and down to deflect a blow. All the basic ideals of attack, parry, target zones, and practice drills were created with the Form I style.	mustafar expansion
+
+item_holocron_06_03	object/tangible/jedi/jedi_holocron_generic.iff							6		item.armor.biolink_item_non_faction,item.buff_click_item			Holocron: Form II Lightsaber Combat	Form II:||Known as Makashi, this ancient Jedi Knight lightsaber combat technique was developed when pikes and staves were more common in the galaxy. Form II emphasized fluid motion and anticipation of a weapon being swung at its target, allowing the Jedi to attack and defend with minimal effort. Although many Jedi historians considered Form II to be the ultimate refinement in lightsaber-to-lightsaber combat, it was dropped in favor of Form III combat when blaster weapons became prevalent in the galaxy.	mustafar expansion
+
+item_holocron_06_04	object/tangible/jedi/jedi_holocron_generic.iff							6		item.armor.biolink_item_non_faction,item.buff_click_item			Holocron: Form III Lightsaber Combat	Form III:||Known as Soresu, this was a lightsaber dueling technique developed by the Jedi Knights, after blaster weapons became the normal weapon of choice among criminals and underworld beings. Unlike Form II combat, which was developed to work against another lightsaber, Form III was most effective in anticipating and deflecting blaster fire. It stressed quick reflexes and fast positional transition, in order to overcome the rapidity with which a blaster could be fired. It was essentially a defensive technique, emphasizing the non-aggressive Jedi philosophy while reducing the exposed areas of their bodies. In the wake of the death of Qui-Gon Jinn at the hands of Darth Maul, many Jedi turned away from the Form IV style of open, acrobatic fighting and took up Form III in order to minimize the risk of injury or death at the hands of an opportunistic opponent.	mustafar expansion
+
+item_holocron_06_05	object/tangible/jedi/jedi_holocron_generic.iff							6		item.armor.biolink_item_non_faction,item.buff_click_item			Holocron: Form IV Lightsaber Combat	Form IV:||Known as Ataru, this was one of the more recent lightsaber combat techniques, developed by the Jedi Knights during the last decades of the Old Republic. It emphasized acrobatic strength and power in wielding the blade, attributes which were frowned upon by many traditional Jedi Knights and Masters. It found a niche among the eager padawan learners of the time, who believed that the Jedi needed to become more involved in rooting out crime and evil and eradicating it. This Form was practiced by Qui-Gon Jinn, although his death at the hands of Darth Maul exposed the weakness of Form IV in defending a Jedi's body. Yoda, however, practiced Form IV with such speed that, when coupled with his small size, left an enemy with no undefended parts of his body.	mustafar expansion
+
+item_holocron_06_06	object/tangible/jedi/jedi_holocron_generic.iff							6		item.armor.biolink_item_non_faction,item.buff_click_item			Holocron: Form V Lightsaber Combat	"Form V:||Known as Shien, this was one of the seven primary forms of lightsaber combat developed by the Jedi Knights of the Old Republic. Form V was developed by a group of Jedi Masters who felt that Form III was too passive, while Form IV was not powerful enough. It addressed the shortcomings of both forms, in which a Jedi Master may have proved to be undefeatable but could not overcome the enemy. Among the many unique aspects of Form V was the development of techniques in which the lightsaber was used to deflect a blaster bolt directly back at the firer, deliberately to cause harm to the opponent. Many Jedi Masters debated the philosophy of Form V, claiming that it directed inappropriate focus on hurting another being. Others claimed that Form V was simply a way to ""achieve peace through superior firepower."""	mustafar expansion
+
+item_holocron_06_07	object/tangible/jedi/jedi_holocron_generic.iff							6		item.armor.biolink_item_non_faction,item.buff_click_item			Holocron: Form VI Lightsaber Combat	"Form VI:||Known as Niman, this was one of the most advanced of the seven primary forms of lightsaber combat developed by the Jedi Knights of the Old Republic. At the time of the Battle of Geonosis, Form VI was the standard in Jedi fighting techniques, emphasizing the use of techniques from Forms I, II, IV, and V in overall moderation. Many Jedi Masters considered it the ""diplomat's form"", since the user used their knowledge of political strategy and negotiation - along with their own perceptions - to reach a peaceful decision with minimal bloodshed. Many Jedi skilled in Form VI techniques had already spent at least ten years studying the other four Forms, an aspect that many Masters felt was too demanding of the Jedi's time in regards to its benefits on the battlefield."	mustafar expansion
+
+item_holocron_06_08	object/tangible/jedi/jedi_holocron_generic.iff							6		item.armor.biolink_item_non_faction,item.buff_click_item			Holocron: Form VII Lightsaber Combat	Form VII:||Known as Juyo, this lightsaber combat technique was one of the most demanding of all the forms developed by the Jedi Knights. Only through the learning of several other forms can a Jedi begin to understand Form VII, which involved so much physical combat ability that its training brought a Jedi very close to the Dark Side of the Force. Jedi Master Mace Windu studied the Form VII technique. To master Form VII, a Jedi had to employ bold movements and be more kinetic than in any other form. Form VII employed the use of overwhelming power directed through unconnected, staccato movements that kept an opponent continually off-guard. 	mustafar expansion
+
+item_ultra_battery_10_01	object/tangible/loot/generic/battery_useable_generic.iff						100	6		item.armor.biolink_item_non_faction,item.buff_click_item			Blixtev's Ultra Body Spray 	A masculine scented body spray. Using it will place a Ultra Design Buff on you.	
+
+item_jedi_robe_padawan_04_01	object/tangible/wearables/robe/robe_jedi_padawan_generic.iff			20	force_sensitive			4		item.buff_worn_item,item.special.nomove	2	1	Padawan Robe	Designed for those who relish personal combat, these robes offer good protection with no hindrance to movement.	
+
+item_smuggler_shirt_02_01	object/tangible/wearables/shirt/shirt_s16.iff				smuggler			2	45			1	Issued Smuggler Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_smuggler_pants_02_01	object/tangible/wearables/pants/pants_s08.iff				smuggler			2	45			1	Issued Smuggler Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_smuggler_vest_02_01	object/tangible/wearables/vest/vest_s09.iff				smuggler			2	45			1	Issued Smuggler Vest	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_smuggler_boots_02_01	object/tangible/wearables/boots/boots_s12.iff				smuggler			2	45			1	Issued Smuggler Boots	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_trader_shirt_02_01	object/tangible/wearables/shirt/shirt_s15.iff				trader			2	45			1	Issued Trader Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_trader_pants_02_01	object/tangible/wearables/pants/pants_s13.iff				trader			2	45			1	Issued Trader Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_trader_vest_02_01	object/tangible/wearables/vest/vest_s01.iff				trader			2	45			1	Issued Trader Vest	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_trader_shoes_02_01	object/tangible/wearables/shoes/shoes_s01.iff				trader			2	45			1	Issued Trader Shoes	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_entertainer_shirt_02_01	object/tangible/wearables/shirt/shirt_s15.iff				entertainer			2	45			1	Issued Entertainer Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_entertainer_pants_02_01	object/tangible/wearables/pants/pants_s08.iff				entertainer			2	45			1	Issued Entertainer Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_entertainer_hat_02_01	object/tangible/wearables/hat/hat_s02.iff				entertainer			2	45			1	Issued Entertainer Hat	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_entertainer_boots_02_01	object/tangible/wearables/boots/boots_s05.iff				entertainer			2	45			1	Issued Entertainer Boots	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_entertainer_shirt_02_02	object/tangible/wearables/bikini/bikini_s03.iff				entertainer			2	45			1	Issued Entertainer Top	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_entertainer_skirt_02_01	object/tangible/wearables/skirt/skirt_s10.iff				entertainer			2	45			1	Issued Entertainer Skirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_entertainer_gloves_02_01	object/tangible/wearables/gloves/gloves_s02.iff				entertainer			2	45			1	Issued Entertainer Gloves	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_entertainer_shoes_02_01	object/tangible/wearables/shoes/shoes_s09.iff				entertainer			2	45			1	Issued Entertainer Shoes	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_force_sensitive_shirt_02_01	object/tangible/wearables/shirt/shirt_s14.iff				force_sensitive			2	45			1	Issued Force Sensitive Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_force_sensitive_pants_02_01	object/tangible/wearables/pants/pants_s15.iff				force_sensitive			2	45			1	Issued Force Sensitive Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_force_sensitive_jacket_02_01	object/tangible/wearables/jacket/jacket_s13.iff				force_sensitive			2	45			1	Issued Force Sensitive Jacket	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_force_sensitive_boots_02_01	object/tangible/wearables/boots/boots_s21.iff				force_sensitive			2	45			1	Issued Force Sensitive Boots	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_officer_shirt_02_01	object/tangible/wearables/shirt/shirt_s34.iff				officer			2	45			1	Issued Officer Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_officer_pants_02_01	object/tangible/wearables/pants/pants_s15.iff				officer			2	45			1	Issued Officer Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_officer_belt_02_01	object/tangible/wearables/belt/belt_s11.iff				officer			2	45			1	Issued Officer Belt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_officer_boots_02_01	object/tangible/wearables/boots/boots_s14.iff				officer			2	45			1	Issued Officer Boots	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_commando_shirt_02_01	object/tangible/wearables/armor/ubese/armor_ubese_shirt.iff				commando			2	45			1	Issued Commando Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_commando_pants_02_01	object/tangible/wearables/pants/pants_s14.iff				commando			2	45			1	Issued Commando Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_commando_vest_02_01	object/tangible/wearables/vest/vest_s04.iff				commando			2	45			1	Issued Commando Vest	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_commando_boots_02_01	object/tangible/wearables/boots/boots_s14.iff				commando			2	45			1	Issued Commando Boots	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_bounty_hunter_shirt_02_01	object/tangible/wearables/shirt/shirt_s38.iff				bounty_hunter			2	45			1	Issued Bounty Hunter Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_bounty_hunter_pants_02_01	object/tangible/wearables/pants/pants_s06.iff				bounty_hunter			2	45			1	Issued Bounty Hunter Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_bounty_hunter_vest_02_01	object/tangible/wearables/vest/vest_s15.iff				bounty_hunter			2	45			1	Issued Bounty Hunter Vest	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_bounty_hunter_boots_02_01	object/tangible/wearables/boots/boots_s04.iff				bounty_hunter			2	45			1	Issued Bounty Hunter Boots	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_medic_shirt_02_01	object/tangible/wearables/shirt/shirt_s27.iff				medic			2	45			1	Issued Medic Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_medic_pants_02_01	object/tangible/wearables/pants/pants_s05.iff				medic			2	45			1	Issued Medic Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_medic_vest_02_01	object/tangible/wearables/vest/vest_s05.iff				medic			2	45			1	Issued Medic Vest	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_medic_shoes_02_01	object/tangible/wearables/shoes/shoes_s02.iff				medic			2	45			1	Issued Medic Shoes	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_spy_shirt_02_01	object/tangible/wearables/shirt/shirt_s30.iff				spy			2	45			1	Issued Spy Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_spy_pants_02_01	object/tangible/wearables/pants/pants_s30.iff				spy			2	45			1	Issued Spy Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_spy_gloves_02_01	object/tangible/wearables/gloves/gloves_s06.iff				spy			2	45			1	Issued Spy Gloves	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_spy_boots_02_01	object/tangible/wearables/boots/boots_s14.iff				spy			2	45			1	Issued Spy Boots	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_wookiee_shirt_02_01	object/tangible/wearables/wookiee/wke_shirt_s02.iff							2	45			1	Issued Wookiee Tunic	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_wookiee_pants_02_01	object/tangible/wearables/wookiee/wke_skirt_s03.iff							2	45			1	Issued Wookiee Skirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_wookiee_hat_02_01	object/tangible/wearables/wookiee/wke_hood_s03.iff							2	45			1	Issued Wookiee Hat	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_wookiee_gloves_02_01	object/tangible/wearables/wookiee/wke_gloves_s04.iff							2	45			1	Issued Wookiee Gloves	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_ithorian_shirt_02_01	object/tangible/wearables/ithorian/ith_shirt_s09.iff							2	45			1	Issued Ithorian Shirt	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_ithorian_pants_02_01	object/tangible/wearables/ithorian/ith_pants_s19.iff							2	45			1	Issued Ithorian Pants	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_ithorian_vest_02_01	object/tangible/wearables/ithorian/ith_vest_s02.iff							2	45			1	Issued Ithorian Vest	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+item_ithorian_gloves_02_01	object/tangible/wearables/ithorian/ith_gloves_s02.iff							2	45			1	Issued Ithorian Gloves	A piece of issued clothing.  This clothing will provide you with a small defensive modifier in combat.	npe clothing
+
+weapon_pistol_02_02	object/weapon/ranged/pistol/pistol_cdef_npe.iff	weapon						2	45	item.special.nomove		1	Issued Pistol	A very basic Pistol.	
+
+weapon_rifle_02_02	object/weapon/ranged/rifle/rifle_cdef_npe.iff	weapon		1				2	45	item.special.nomove		1	Issued Rifle	A very basic Rifle.	
+
+weapon_carbine_02_02	object/weapon/ranged/carbine/carbine_cdef_npe.iff	weapon		1				2	45	item.special.nomove		1	Issued Carbine	A very basic Carbine.	
+
+weapon_polearm_02_02	object/weapon/melee/polearm/lance_staff_wood_s2_npe.iff	weapon		1				2	45	item.special.nomove		1	Issued Staff	A very basic Staff.	
+
+weapon_sword_1h_02_02	object/weapon/melee/sword/sword_01_npe.iff	weapon		1				2	45	item.special.nomove		1	Issued Sword	A very basic Sword.	
+
+weapon_sword_2h_02_02	object/weapon/melee/axe/axe_heavy_duty_npe.iff	weapon		1				2	45	item.special.nomove		1	Issued Axe	A very basic Axe.	
+
+weapon_pistol_02_03	object/weapon/ranged/pistol/pistol_cdef_npe.iff	weapon		3				2	45	item.special.nomove		1	Loche's Pistol	A reward for helping Loche on the Tansarii Point Station.	
+
+weapon_rifle_02_03	object/weapon/ranged/rifle/rifle_cdef_npe.iff	weapon		3				2	45	item.special.nomove		1	Loche's Rifle	A reward for helping Loche on the Tansarii Point Station.	
+
+weapon_carbine_02_03	object/weapon/ranged/carbine/carbine_cdef_npe.iff	weapon		3				2	45	item.special.nomove		1	Loche's Carbine	A reward for helping Loche on the Tansarii Point Station.	
+
+weapon_polearm_02_03	object/weapon/melee/polearm/polearm_vibro_axe_npe.iff	weapon		1				2	45	item.special.nomove		1	Jedi Training Polearm	A Polearm given to you by Han Solo.	
+
+weapon_sword_1h_02_03	object/weapon/melee/sword/sword_01_npe.iff	weapon		3				2	45	item.special.nomove		1	Rydel's Sword	A Sword given to you by Rydel Delan.	
+
+weapon_sword_2h_02_03	object/weapon/melee/axe/axe_heavy_duty_npe.iff	weapon		3				2	45	item.special.nomove		1	Rydel's Axe	An Axe given to you by Rydel Delan.	
+
+weapon_pistol_02_04	object/weapon/ranged/pistol/pistol_d18_npe.iff	weapon		6				2	200	item.special.nomove		1	D-18	A standard low power pistol, common through much of the universe.	
+
+weapon_rifle_02_04	object/weapon/ranged/rifle/rifle_dlt20_npe.iff	weapon		6				2	200	item.special.nomove		1	DLT-20	A standard low power rifle, common through much of the universe.	
+
+weapon_carbine_02_04	object/weapon/ranged/carbine/carbine_dh17_black_npe.iff	weapon		6				2	200	item.special.nomove		1	DH-17	A standard low power carbine, common through much of the universe.	
+
+weapon_polearm_02_04	object/weapon/melee/polearm/lance_staff_wood_s2_npe.iff	weapon		6				2	200	item.special.nomove		1	Reinforced Staff	A staff that has studs affixed to the end of it.	
+
+weapon_sword_1h_02_04	object/weapon/melee/sword/sword_01_npe.iff	weapon		6				2	200	item.special.nomove		1	Sword	A slashing weapon that is very common in parts of the galaxy that lack blasters.	
+
+weapon_sword_2h_02_04	object/weapon/melee/2h_sword/2h_sword_battleaxe_npe.iff	weapon		6				2	200	item.special.nomove		1	Battleaxe	A large two handed slashing weapon that is very common in parts of the galaxy that lack blasters.	
+
+weapon_pistol_02_05	object/weapon/ranged/pistol/pistol_d18_npe.iff	weapon		9				2	300	item.special.nomove		1	D-18	A standard low power pistol, common through much of the universe.	
+
+weapon_rifle_02_05	object/weapon/ranged/rifle/rifle_dlt20_npe.iff	weapon		9				2	300	item.special.nomove		1	DLT-20	A standard low power rifle, common through much of the universe.	
+
+weapon_carbine_02_05	object/weapon/ranged/carbine/carbine_dh17_black_npe.iff	weapon		9				2	300	item.special.nomove		1	DH-17	A standard low power carbine, common through much of the universe.	
+
+weapon_polearm_02_05	object/weapon/melee/polearm/lance_staff_wood_s2_npe.iff	weapon		9				2	300	item.special.nomove		1	Reinforced Staff	A staff that has studs affixed to the end of it.	
+
+weapon_sword_1h_02_05	object/weapon/melee/sword/sword_01_npe.iff	weapon		9				2	300	item.special.nomove		1	Sword	A slashing weapon that is very common in parts of the galaxy that lack blasters.	
+
+weapon_sword_2h_02_05	object/weapon/melee/2h_sword/2h_sword_battleaxe_npe.iff	weapon		9				2	300	item.special.nomove		1	Battleaxe	A large two handed slashing weapon that is very common in parts of the galaxy that lack blasters.	
+
+item_stimpack_a_02_01	object/tangible/medicine/instant_stimpack/stimpack_generic_a.iff						5	2	100	item.medicine.stimpack,item.special.nomove		1	Stimpack A	A needle infused with healing Bacta.  Double click this item to heal yourself.	
+
+item_stimpack_b_02_01	object/tangible/medicine/instant_stimpack/stimpack_generic_b.iff						5	2	200	item.medicine.stimpack,item.special.nomove		1	Stimpack B	A needle infused with healing Bacta.  Double click this item to heal yourself.	
+
+item_stimpack_c_02_01	object/tangible/medicine/instant_stimpack/stimpack_generic_c.iff						5	2	300	item.medicine.stimpack,item.special.nomove		1	Stimpack C	A needle infused with healing Bacta.  Double click this item to heal yourself.	
+
+item_stimpack_d_02_01	object/tangible/medicine/instant_stimpack/stimpack_generic_d.iff						5	2	400	item.medicine.stimpack,item.special.nomove		1	Stimpack D	A needle infused with healing Bacta.  Double click this item to heal yourself.	
+
+item_stimpack_e_02_01	object/tangible/medicine/instant_stimpack/stimpack_generic_e.iff						5	2	500	item.medicine.stimpack,item.special.nomove		1	Stimpack E	A needle infused with healing Bacta.  Double click this item to heal yourself.	
+
+item_npe_health_paste_01_01	object/tangible/loot/generic_usable/tube_paste_generic.iff						3	1	25	item.buff_click_item		1	Bio-Substantive Paste	This absolutely horrible tasting paste is concoction of substances found to be nutritious and beneficial to most sentients. The chemicals are blended into a sludge that is easily and readily absorbed by the body. When used this object will confer a small bonus to your constitution.	npe health buff clicky
+
+item_npe_action_ventilator_01_01	object/tangible/loot/generic_usable/rebreather_generic.iff						3	1	25	item.buff_click_item		1	Hyper Oxygenating Ventilator	A quick inhalation from this device will deliver a burst of hyper oxygenated air. For beings that breath oxygen, this will increase their stamina for a short period of time.	npe stamina clicky
+
+item_npe_static_shield_01_01	object/tangible/loot/generic_usable/building_repair_device_generic.iff						3	1	25	item.buff_click_item		1	Repulsor Field Generator	When activated, this device creates a weak repulsion field that will mitigate some of the damage caused by attacks. It is poorly made and won't last long.	npe defense buff clicky
+
+item_npe_melee_acc_bookchip_01_01	object/tangible/loot/generic_usable/handheld_viewscreen_2_generic.iff						5	1	25	item.buff_click_item		1	Mastering the Self by Anonymous	This bookchip contains the final message of an unknown Teras Kasi master to his students before he left to fight a long forgotten war. The screen is very dim, blurry and bordering on non-functional. However, the words are so confidence inspiring that hearing them will grant you a temporary bonus to your strength.	npe melee accuracy buff clicky
+
+item_npe_rang_acc_device_01_01	object/tangible/loot/generic_usable/survey_pad_adv_generic.iff						3	1	25	item.buff_click_item		1	Auditory Target Acquisition Beacon	When activated, this device infers the position of the arm in relation to the eyes and emits a tone that raises in pitch as the two come closer to intersecting. This device will increase your precision for a short period of time.	npe ranged accuracy buff clicky
+
+item_npe_junk_power_unit_01_01	object/tangible/loot/npc_loot/elect_power_unit_generic.iff							1	32	object.autostack		1	Power Unit	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_ampule_container_01_01	object/tangible/loot/npc_loot/bacta_ampules_generic.iff							1	34	object.autostack		1	Bacta Ampule Container	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_wire_blue_01_01	object/tangible/loot/npc_loot/blue_wiring_generic.iff							1	37	object.autostack		1	Wiring	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_briefcase_01_01	object/tangible/loot/npc_loot/briefcase_generic.iff							1	40	object.autostack		1	Briefcase	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_holo_recorder_01_01	object/tangible/loot/npc_loot/camera_generic.iff							1	45	object.autostack		1	Holorecorder	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_newsfilter_module_01_01	object/tangible/loot/npc_loot/chassis_blueprint_device_generic.iff							1	49	object.autostack		1	Newsfilter Module	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_chem_dispersal_01_01	object/tangible/loot/npc_loot/chem_dispersion_device_generic.iff							1	32	object.autostack		1	Chemical Dispersal Device	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_circuit_board_01_01	object/tangible/loot/npc_loot/circuit_board_generic.iff							1	34	object.autostack		1	Circuit Board	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_dirty_cloth_01_01	object/tangible/loot/npc_loot/cloth_box_generic.iff							1	37	object.autostack		1	Cloth Swatches	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_complex_module_01_01	object/tangible/loot/npc_loot/elect_module_complex_generic.iff							1	40	object.autostack		1	Electronics Module	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_copper_battery_01_01	object/tangible/loot/npc_loot/copper_battery_generic.iff							1	45	object.autostack		1	Platinite Copper Battery	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_blank_datadisk_01_01	object/tangible/loot/npc_loot/datadisk_generic.iff							1	49	object.autostack		1	Datadisk	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_decryptor_01_01	object/tangible/loot/npc_loot/decryptor_generic.iff							1	32	object.autostack		1	Decryptor	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_worklight_01_01	object/tangible/loot/npc_loot/worklight_generic.iff							1	34	object.autostack		1	Worklight	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_enigmatic_circuit_01_01	object/tangible/loot/npc_loot/engineer_analysis_board_generic.iff							1	37	object.autostack		1	Circuitry	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_frequency_jammer_01_01	object/tangible/loot/npc_loot/frequency_jammer_wire_generic.iff							1	40	object.autostack		1	Frequency Jamming Wired	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_bookchip_01_01	object/tangible/loot/npc_loot/handheld_viewscreen_1_generic.iff							1	45	object.autostack		1	Propaganda Bookchip	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_palm_diary_01_01	object/tangible/loot/npc_loot/ledger_generic.iff							1	49	object.autostack		1	Palm Diary	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_imitation_pearl_01_01	object/tangible/loot/npc_loot/pearl_generic.iff							1	45	object.autostack		1	Imitation Krayt Dragon Pearl	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_droid_circuitry_01_01	object/tangible/loot/npc_loot/elect_module_simple_generic.iff							1	49	object.autostack		1	Droid Memory Module	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_schematic_meat_jerky_01_01	object/tangible/loot/npc_loot/datapad_generic.iff							1		item.special.nomove,item.loot_schematic.loot_schematic		1	Meat Jerky Recipe	This schematic contains a recipe that allows artisans to make meat jerky.	npe food schematic
+
+item_npe_hunting_necklace_01_01	object/tangible/wearables/necklace/necklace_s01.iff							1	250	item.special.nomove		1	Hunting Necklace	A necklace crafted of bone.	
+
+item_npe_inaldras_bracelet_01_01	object/tangible/wearables/bracelet/bracelet_s04_r.iff							1	250	item.special.nomove		1	Inaldra's Bracelet	This bracelet offers a small amount of protection versus melee attacks.	
+
+item_npe_smooth_slitherhorn_01_01	object/tangible/instrument/slitherhorn.iff							1	250	item.special.nomove		1	Smooth Slitherhorn	A slitherhorn capable of producing exceptionally smooth tones.	
+
+weapon_pistol_04_01	object/weapon/ranged/pistol/pistol_scout_blaster_npe.iff	weapon		13				4	400			1	Modified Scout Blaster	A Scout Blaster that looks like it has been tampered with to improve the damage capabilities.	
+
+weapon_rifle_04_01	object/weapon/ranged/rifle/rifle_sg82_npe.iff	weapon		13				4	400			1	Modified SG-82	A SG-82 that looks like it has been tampered with to improve the damage capabilities.	
+
+weapon_carbine_04_01	object/weapon/ranged/carbine/carbine_dh17_snubnose_npe.iff	weapon		13				4	400			1	Modified DH-17 Snubnose	A DH-17 Snubnose that looks like it has been tampered with to improve the damage capabilities.	
+
+weapon_polearm_04_01	object/weapon/melee/polearm/lance_controllerfp_npe.iff	weapon		13				4	400			1	Modified Lance	A Lance that looks like it has been tampered with to improve the damage capabilities.	
+
+weapon_sword_1h_04_01	object/weapon/melee/baton/baton_gaderiffi_npe.iff	weapon		13				4	400			1	Modified Gaffi Stick	A Gaffi Stick that looks like it has been tampered with to improve the damage capabilities.	
+
+weapon_sword_2h_04_01	object/weapon/melee/2h_sword/2h_sword_cleaver_npe.iff	weapon		13				4	400			1	Modified Cleaver	A Cleaver that looks like it has been tampered with to improve the damage capabilities.	
+
+weapon_unarmed_04_01	object/weapon/melee/special/vibroknuckler_npe.iff	weapon		13				4	400			1	Modified Vibroblade	A Vibroblade that looks like it has been tampered with to improve the damage capabilities.	
+
+item_npe_bandolier_rng_acc_01_01	object/tangible/wearables/bandolier/bandolier_s05.iff			1				2	200	item.buff_worn_item		1	Worn Soldier's Bandolier	This bandolier provides a bonus to your precision.	
+
+item_npe_bandolier_pistol_acc_01_01	object/tangible/wearables/bandolier/bandolier_s02.iff			1				2	200	item.buff_worn_item		1	Worn Gunfighter's Bandolier	This bandolier provides a bonus to your precision.	
+
+item_npe_bandolier_carbine_acc_01_01	object/tangible/wearables/bandolier/bandolier_s03.iff			1				2	200	item.buff_worn_item		1	Worn Carbine Specialist's Bandolier	This bandolier provides a bonus to your precision.	
+
+item_npe_bandolier_rifle_acc_01_01	object/tangible/wearables/bandolier/bandolier_s04.iff			1				2	200	item.buff_worn_item		1	Worn Sharpshooter's Bandolier	This bandolier provides a bonus to your precision.	
+
+item_npe_belt_melee_acc_01_01	object/tangible/wearables/belt/belt_s01.iff			1				2	200	item.buff_worn_item		1	Frayed Pit-Fighter's Belt	This belt provides a bonus to your strength.	
+
+item_npe_belt_unarmed_acc_01_01	object/tangible/wearables/belt/belt_s02.iff			1				2	200	item.buff_worn_item		1	Frayed Teras Kasi Student's Belt	This belt provides a bonus to your strength.	
+
+item_npe_belt_polearm_acc_01_01	object/tangible/wearables/belt/belt_s03.iff			1				2	200	item.buff_worn_item		1	Frayed Apprentice Pikeman's Belt	This belt provides a bonus to your strength.	
+
+item_npe_belt_2h_acc_01_01	object/tangible/wearables/belt/belt_s04.iff			1				2	200	item.buff_worn_item		1	Frayed Heavy Swordsman's Belt	This belt provides a bonus to your strength.	
+
+item_npe_belt_1h_acc_01_01	object/tangible/wearables/belt/belt_s04.iff			1				2	200	item.buff_worn_item		1	Frayed Swordsman Belt	This belt provides a bonus to your strength.	
+
+item_npe_ring_rng_speed_01_01	object/tangible/wearables/ring/ring_s01.iff			1				2	200	item.buff_worn_item		1	Tarnished Soldier's Ring	This ring provides a bonus to your precision.	
+
+item_npe_ring_pistol_speed_01_01	object/tangible/wearables/ring/ring_s02.iff			1				2	200	item.buff_worn_item		1	Tarnished Gunfighter's Ring	This ring provides a bonus to your precision.	
+
+item_npe_ring_carbine_speed_01_01	object/tangible/wearables/ring/ring_s03.iff			1				2	200	item.buff_worn_item		1	Tarnished Carbine Specialist Ring	This ring provides a bonus to your precision.	
+
+item_npe_ring_rifle_speed_01_01	object/tangible/wearables/ring/ring_s04.iff			1				2	200	item.buff_worn_item		1	Tarnished Sharpshooter Ring	This ring provides a bonus to your precision.	
+
+item_npe_ring_melee_speed_01_01	object/tangible/wearables/ring/ring_s01.iff			1				2	200	item.buff_worn_item		1	Tarnished Brawling Champion Ring	This ring provides a bonus to strength.	
+
+item_npe_ring_unarmed_speed_01_01	object/tangible/wearables/ring/ring_s02.iff			1				2	200	item.buff_worn_item		1	Tarnished Teras Kasi Student Ring	This ring provides a bonus to your strength.	
+
+item_npe_ring_polearm_speed_01_01	object/tangible/wearables/ring/ring_s03.iff			1				2	200	item.buff_worn_item		1	Tarnished Polearm Specialist Ring	This ring provides a bonus to your strength.	
+
+item_npe_ring_2h_speed_01_01	object/tangible/wearables/ring/ring_s04.iff			1				2	200	item.buff_worn_item		1	Tarnished Heavy Swordsman Ring	This ring provides a bonus to your strength.	
+
+item_npe_ring_1h_speed_01_01	object/tangible/wearables/ring/ring_s02.iff			1				2	200	item.buff_worn_item		1	Tarnished Swordsman Ring	This ring provides a bonus to your strength.	
+
+item_npe_bracelet_ter_neg_01_01	object/tangible/wearables/bracelet/bracelet_s02_r.iff			1				2	200	item.buff_worn_item		1	Warped Traveler's Bracelet	This item provides a bonus to your terrain negotiation skill.	
+
+item_npe_bracelet_unarmed_damage_01_01	object/tangible/wearables/bracelet/bracelet_s03_r.iff			1				2	200	item.buff_worn_item		1	Warped Strongman's Bracer	This item increases your strength.	
+
+item_npe_bracelet_melee_defense_01_01	object/tangible/wearables/bracelet/bracelet_s04_r.iff			1				2	200	item.buff_worn_item		1	Warped Brawler's Bracelet	This item increases your agility.	
+
+item_npe_bracelet_rng_defense_01_01	object/tangible/wearables/bracelet/bracelet_s06_r.iff			1				2	200	item.buff_worn_item	2	1	Warped Soldier's Bracelet	This item increases your agility.	
+
+item_npe_necklace_resists_01_01	object/tangible/wearables/necklace/necklace_s02.iff			1				2	200	item.buff_worn_item		1	Simple Bio-suppression Defense Necklace	This item increases your resistance to the ill effects of chemical warfare.	
+
+item_npe_necklace_heal_eff_01_01	object/tangible/wearables/necklace/necklace_s03.iff			1				2	200	item.buff_worn_item		1	Simple Health Professional Necklace	This item increases your skill in healing.	
+
+item_npe_junk_creature_brain_01_01	object/tangible/loot/creature_loot/generic/generic_brain.iff							1	45	object.autostack		1	Brain	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_creature_eye_01_01	object/tangible/loot/creature_loot/generic/generic_eye.iff							1	49	object.autostack		1	Eye	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_creature_heart_01_01	object/tangible/loot/creature_loot/generic/generic_heart.iff							1	45	object.autostack		1	Heart	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_chance_cube_01_01	object/tangible/loot/npc_loot/chance_cube_8_generic.iff							1	49	object.autostack		1	Ritual Cube	This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_sacred_writings_01_01	object/tangible/loot/npc_loot/scroll_generic.iff							1	45	object.autostack		1	Sacred Writings	This item can be sold to a junk dealer.	
+
+item_npe_junk_bowl_01_01	object/tangible/loot/npc_loot/bowl_generic.iff							1	49	object.autostack		1	Simple Bowl	This item can be sold to a junk dealer.	
+
+item_force_sensitive_ring_01_02	object/tangible/wearables/ring/ring_s01.iff				force_sensitive			2	2500	item.special.nomove		1	Issued Force Sensitive Ring	This ring provides a bonus to your strength and constitution. 	
+
+item_bounty_hunter_ring_01_02	object/tangible/wearables/ring/ring_s02.iff				bounty_hunter			2	2500	item.special.nomove		1	Issued Bounty Hunter Ring	This ring provides a bonus to your precision and constitution. 	
+
+item_commando_ring_01_02	object/tangible/wearables/ring/ring_s03.iff				commando			2	2500	item.special.nomove		1	Issued Commando Ring	This ring provides a bonus to your precision and constitution. 	
+
+item_officer_ring_01_02	object/tangible/wearables/ring/ring_s04.iff				officer			2	2500	item.special.nomove		1	Issued Officer Ring	This ring provides a bonus to your precision and constitution. 	
+
+item_medic_ring_01_02	object/tangible/wearables/ring/ring_s01.iff				medic			2	2500	item.special.nomove		1	Issued Medic Ring	This ring provides a bonus to your precision and constitution. 	
+
+item_spy_ring_01_02	object/tangible/wearables/ring/ring_s02.iff				spy			2	2500	item.special.nomove		1	Issued Spy Ring	This ring provides a bonus to your precision and constitution. 	
+
+item_smuggler_ring_01_02	object/tangible/wearables/ring/ring_s03.iff				smuggler			2	2500	item.special.nomove		1	Issued Smuggler Ring	This ring provides a bonus to your precision and constitution. 	
+
+item_entertainer_ring_01_02	object/tangible/wearables/ring/ring_s04.iff				entertainer			2	2500	item.special.nomove		1	Issued Entertainer Ring	This ring provides a bonus to your Dancing Enhancement and health. 	
+
+item_trader_ring_01_02	object/tangible/wearables/ring/ring_s02.iff				trader			2	2500	item.special.nomove		1	Issued Trader Ring	This ring provides a bonus to your General Assembly and health. 	
+
+item_force_sensitive_backpack_01_02	object/tangible/wearables/backpack/backpack_s01.iff				force_sensitive			2	2500	item.special.nomove		1	Issued Force Sensitive Backpack	This backpack provides a bonus to your agility as well as strength.	
+
+item_bounty_hunter_backpack_01_02	object/tangible/wearables/backpack/backpack_s05.iff				bounty_hunter			2	2500	item.special.nomove		1	Issued Bounty Hunter Backpack	This backpack provides a bonus to your agility as well as your precision.	
+
+item_commando_backpack_01_02	object/tangible/wearables/backpack/backpack_s04.iff				commando			2	2500	item.special.nomove		1	Issued Commando Backpack	This backpack provides a bonus to your agility as well as your precision.	
+
+item_officer_backpack_01_02	object/tangible/wearables/backpack/backpack_s03.iff				officer			2	2500	item.special.nomove		1	Issued Officer Backpack	This backpack provides a bonus to your agility as well as your precision.	
+
+item_medic_backpack_01_02	object/tangible/wearables/backpack/backpack_s03.iff				medic			2	2500	item.special.nomove		1	Issued Medic Backpack	This backpack provides a bonus to your agility as well as your precision.	
+
+item_spy_backpack_01_02	object/tangible/wearables/backpack/backpack_s06.iff				spy			2	2500	item.special.nomove		1	Issued Spy Backpack	This backpack provides a bonus to your agility as well as your precision.	
+
+item_smuggler_backpack_01_02	object/tangible/wearables/backpack/backpack_s05.iff				smuggler			2	2500	item.special.nomove		1	Issued Smuggler Backpack	This backpack provides a bonus to your agility as well as your precision.	
+
+item_entertainer_backpack_01_02	object/tangible/wearables/backpack/backpack_s01.iff				entertainer			2	2500	item.special.nomove		1	Issued Entertainer's Pack	This backpack provides a bonus to your defense as well as Prop Assembly.	
+
+item_trader_backpack_01_02	object/tangible/wearables/backpack/backpack_s04.iff				trader			2	2500	item.special.nomove		1	Issued Trader Backpack	This backpack provides a bonus to your defense as well as Hiring Skill.	
+
+item_force_sensitive_pendant_01_02	object/tangible/wearables/necklace/necklace_s12.iff				force_sensitive			2	2500	item.special.nomove		1	Issued Force Sensitive Pendant	This pendant provides a bonus to your strength and agility.	
+
+item_bounty_hunter_pendant_01_02	object/tangible/wearables/necklace/necklace_s02.iff				bounty_hunter			2	2500	item.special.nomove		1	Issued Bounty Hunter Pendant	This pendant provides a bonus to your precision and agility.	
+
+item_commando_pendant_01_02	object/tangible/wearables/necklace/necklace_s07.iff				commando			2	2500	item.special.nomove		1	Issued Commando Pendant	This pendant provides a bonus to your precision and agility.	
+
+item_officer_pendant_01_02	object/tangible/wearables/necklace/necklace_s08.iff				officer			2	2500	item.special.nomove		1	Issued Officer Pendant	This pendant provides a bonus to your precision and agility.	
+
+item_medic_pendant_01_02	object/tangible/wearables/necklace/necklace_s09.iff				medic			2	2500	item.special.nomove		1	Issued Medic Pendant	This pendant provides a bonus to your precision and agility.	
+
+item_spy_pendant_01_02	object/tangible/wearables/necklace/necklace_s01.iff				spy			2	2500	item.special.nomove		1	Issued Spy Pendant	This pendant provides a bonus to your precision and agility.	
+
+item_smuggler_pendant_01_02	object/tangible/wearables/necklace/necklace_s11.iff				smuggler			2	2500	item.special.nomove		1	Issued Smuggler Pendant	This pendant provides a bonus to your precision and agility.	
+
+item_entertainer_pendant_01_02	object/tangible/wearables/necklace/necklace_s12.iff				entertainer			2	2500	item.special.nomove		1	Issued Entertainer Pendant	This pendant provides a bonus to your Musical Enhancement skill and Prop Assembly.	
+
+item_trader_pendant_01_02	object/tangible/wearables/necklace/necklace_s07.iff				trader			2	2500	item.special.nomove		1	Issued Trader Pendant	This pendant provides a bonus to your General Experimentation and Hiring skill.	
+
+item_force_sensitive_clicky_01_02	object/tangible/loot/generic_usable/generic_crystal.iff				force_sensitive			2	5000	item.special.nomove,item.buff_click_item		1	Meditation Crystal	When used this item will increase strength and stamina for a short period of time.	
+
+item_bounty_hunter_clicky_01_02	object/tangible/loot/generic_usable/survey_pad_adv_generic_lt_4.iff				bounty_hunter			2	5000	item.special.nomove,item.buff_click_item		1	Fugitive Tracking Droid Enhancer	When used this device will increase your precision and stamina for a short period of time.	
+
+item_commando_clicky_01_02	object/tangible/loot/generic_usable/tubed_device_generic.iff				commando			2	5000	item.special.nomove,item.buff_click_item		1	Heavy Weapons Cooling Module	When used this device will increase your precision and stamina for a short period of time.	
+
+item_officer_clicky_01_02	object/tangible/loot/generic_usable/frequency_jammer_wire_generic.iff				officer			2	5000	item.special.nomove,item.buff_click_item		1	High Gain Communications Antenna	When used this device will increase your precision and stamina for a short period of time.	
+
+item_medic_clicky_01_02	object/tangible/loot/generic_usable/chem_dispersion_device_generic.iff				medic			2	5000	item.special.nomove,item.buff_click_item		1	High Density Dispersal Unit	When used this device will increase your precision and stamina for a short period of time.	
+
+item_spy_clicky_01_02	object/tangible/loot/generic_usable/datadisk_generic.iff				spy			2	5000	item.special.nomove,item.buff_click_item		1	Plan Alpha	When used this device will increase your precision and stamina for a short period of time.	
+
+item_smuggler_clicky_01_02	object/tangible/loot/generic_usable/datadisk_generic.iff				smuggler			2	5000	item.special.nomove,item.buff_click_item		1	Plan Beta	When used this device will increase your precision and stamina for a short period of time.	
+
+item_entertainer_clicky_01_02	object/tangible/loot/generic_usable/speaker_generic.iff				entertainer			2	5000	item.special.nomove,item.buff_click_item		1	Portable Hypersound Speakers	When used this device will increase your Musical and Dance Enhancement for a short period of time.	
+
+weapon_knuckler_fs_roadmap_01_02	object/weapon/melee/special/vibroknuckler_static.iff	weapon		50	force_sensitive			2	4500	item.special.nomove	2	1	Precise Knuckler	This vibroknuckler allows for more precise striking.	
+
+weapon_rifle_bh_roadmap_01_02	object/weapon/ranged/rifle/rifle_lightning_heavy_static.iff	weapon		50	bounty_hunter			2	4500	item.special.nomove	2	1	Precise Lightning Cannon	This lightning cannon is specially designed to offer greater precision	
+
+weapon_acidbeam_commando_roadmap_01_02	object/weapon/ranged/rifle/rifle_e11_generic.iff	weapon		50	commando			2	4500	item.special.nomove	2	1	EZ Strike E-11 Rifle	This rifle is designed to offer a slight bonus to one's accuracy.	
+
+weapon_pistol_officer_roadmap_01_02	object/weapon/ranged/pistol/pistol_dl44_metal_static.iff	weapon		50	officer			2	4500	item.special.nomove	2	1	Precise DL 44	This personal side arm is designed to offer greater precision.	
+
+weapon_carbine_medic_roadmap_01_02	object/weapon/ranged/carbine/carbine_laser_static.iff	weapon		50	medic			2	4500	item.special.nomove	2	1	Precise Laser Carbine	This laser carbine was designed to offer greater precision.	
+
+weapon_carbine_spy_roadmap_01_02	object/weapon/ranged/carbine/carbine_e11_static.iff	weapon		50	spy			2	4500	item.special.nomove	2	1	Precise E-11 Carbine	This carbine was designed to offer greater precision.	
+
+weapon_pistol_smuggler_roadmap_01_02	object/weapon/ranged/pistol/pistol_striker_static.iff	weapon		50	smuggler			2	4500	item.special.nomove	2	1	Precise Striker Pistol	This personal side arm was designed to offer greater precision.	
+
+weapon_knuckler_fs_roadmap_02_02	object/weapon/melee/special/vibroknuckler_static.iff	weapon		30	force_sensitive			2	2200	item.special.nomove	2	1	Neophyte Vibroknuckler	This vibroknuckler allows for slightly more accurate striking.	
+
+weapon_carbine_bh_roadmap_01_02	object/weapon/ranged/carbine/carbine_ee3_static.iff	weapon		30	bounty_hunter			2	2200	item.special.nomove	2	1	Rookie Bounty Hunter's EE3	This carbine was designed to offer a slight bonus to one's accuracy.	
+
+weapon_lightningbeam_commando_roadmap_01_02	object/weapon/ranged/rifle/rifle_dlt20.iff	weapon		30	commando			2	2200	item.special.nomove	2	1	Precise DLT-20	This rifle is specially designed to offer greater precision.	
+
+weapon_1h_officer_roadmap_01_02	object/weapon/melee/sword/sword_01_static.iff	weapon		30	officer			2	2200	item.special.nomove	2	1	Captain's Sword	This melee weapon was designed to offer a slight bonus to one's melee accuracy.	
+
+weapon_pistol_medic_roadmap_01_02	object/weapon/ranged/pistol/pistol_scout_blaster_static.iff	weapon		30	medic			2	2200	item.special.nomove	2	1	Medic's Sidearm	This side arm was designed to offer a slight bonus to one's accuracy.	
+
+weapon_pistol_spy_roadmap_01_02	object/weapon/ranged/pistol/pistol_striker_static.iff	weapon		30	spy			2	2200	item.special.nomove	2	1	Agent's Pistol	This pistol is designed to offer a slight bonus to one's accuracy.	
+
+weapon_knuckler_smuggler_roadmap_01_02	object/weapon/ranged/pistol/pistol_scout_blaster_static.iff	weapon		30	smuggler			2	2200	item.special.nomove	2	1	Scoundrel's Scout Blaster	This easily concealable weapon could come in handy in a cantina brawl. This weapon gives a small increase to your accuracy.	
+
+weapon_pistol_trader_roadmap_01_02	object/weapon/ranged/pistol/pistol_scout_blaster_static.iff	weapon		50	trader			2	250	item.special.nomove		1	Trader's Friend	This small pistol packs enough punch to ward off small creatures and minor thugs.	
+
+weapon_pistol_entertainer_roadmap_01_02	object/weapon/ranged/pistol/pistol_striker_static.iff	weapon		50	entertainer			2	250	item.special.nomove		1	Entertainer's Friend	This small pistol packs enough punch to ward off small creatures and minor thugs.	
+
+weapon_knife_trader_roadmap_01_02	object/weapon/melee/knife/knife_dagger_static.iff	weapon		30	trader			2	250	item.special.nomove		1	Trader's Dagger	This rather sharp little dagger should be enough to convince small creatures and minor thugs that accosting you is a bad idea.	
+
+weapon_knife_entertainer_roadmap_01_02	object/weapon/melee/knife/knife_dagger_static.iff	weapon		30	entertainer			2	250	item.special.nomove		1	Entertainer's Dagger	This rather sharp little dagger should be enough to convince small creatures and minor thugs that accosting you is a bad idea.	
+
+item_trader_roadmap_jumpsuit_02_01	object/tangible/wearables/bodysuit/bodysuit_s13.iff				trader			2	200	item.special.nomove		1	Trader's Jumpsuit	This uniform offers a little bit of protection and a small bonus to your health.	roadmap reward
+
+item_trader_roadmap_boots_02_01	object/tangible/wearables/boots/boots_s14.iff				trader			2	200	item.special.nomove		1	Trader's Boots	These boots offer a small amount of protection and a bonus to your health.	roadmap reward
+
+item_trader_roadmap_gloves_02_01	object/tangible/wearables/gloves/gloves_s02.iff				trader			2	200	item.special.nomove		1	Trader's Gloves	Standard gloves often worn by traders.	roadmap reward
+
+item_trader_roadmap_jumpsuit_02_02	object/tangible/wearables/ithorian/ith_bodysuit_s06.iff				trader			2	200	item.special.nomove		1	Trader's Jumpsuit	This uniform offers a little bit of protection and a small bonus to your health.	roadmap reward
+
+item_trader_roadmap_hat_02_01	object/tangible/wearables/ithorian/ith_hat_s02.iff				trader			2	200	item.special.nomove		1	Trader's Hat	This hat offers a small bit of protection and bonus to your health.	roadmap reward
+
+item_trader_roadmap_shoulder_pad_02_01	object/tangible/wearables/wookiee/wke_shoulder_pad_s02.iff				trader			2	200	item.special.nomove		1	Trader's Shoulderpads	This piece of equipment offers a bit of protection for your arms as well as a small health bonus.	roadmap reward
+
+item_trader_roadmap_gloves_02_02	object/tangible/wearables/wookiee/wke_gloves_s04.iff				trader			2	200	item.special.nomove		1	Trader's Gloves	Standard gloves often worn by traders.	roadmap reward
+
+item_force_sensitive_roadmap_gloves_02_01	object/tangible/wearables/gloves/gloves_s06.iff				force_sensitive			2	200	item.special.nomove		1	Martial Gloves	These gloves offer a bit of protection for your hands and a small health bonus.	roadmap reward
+
+item_force_sensitive_roadmap_pants_02_01	object/tangible/wearables/pants/pants_s21.iff				force_sensitive			2	200	item.special.nomove		1	Martial Pants	These pants offer a small amount of protection for your legs and a small health bonus.	roadmap reward
+
+item_force_sensitive_roadmap_shirt_02_01	object/tangible/wearables/shirt/shirt_s34.iff				force_sensitive			2	200	item.special.nomove		1	Martial Shirt	This shirt offers a bit of protection for your body and a small health bonus.	roadmap reward
+
+item_force_sensitive_roadmap_boots_02_01	object/tangible/wearables/boots/boots_s04.iff				force_sensitive			2	200	item.special.nomove		1	Martial Boots	Boots often worn by beginning Teras Kasi practitioners.	roadmap reward
+
+item_force_sensitive_roadmap_jumpsuit_02_01	object/tangible/wearables/ithorian/ith_bodysuit_s02.iff				force_sensitive			2	200	item.special.nomove		1	Martial Jumpsuit	This jumpsuit offers a bit of body protection and a small health bonus.	roadmap reward
+
+item_force_sensitive_roadmap_hat_02_01	object/tangible/wearables/ithorian/ith_hat_s01.iff				force_sensitive			2	200	item.special.nomove		1	Martial Hat	This hat offers a small bit of protection and bonus to your health.	roadmap reward
+
+item_force_sensitive_roadmap_shoulder_pad_02_01	object/tangible/wearables/wookiee/wke_shoulder_pad_s01.iff				force_sensitive			2	200	item.special.nomove		1	Martial Shoulderguard	This piece of equipment offers a bit of protection for your arms as well as a small health bonus.	roadmap reward
+
+item_force_sensitive_roadmap_gloves_02_02	object/tangible/wearables/wookiee/wke_gloves_s04.iff				force_sensitive			2	200	item.special.nomove		1	Martial Gloves	Gloves often worn by beginning Teras Kasi practitioners.	roadmap reward
+
+item_entertainer_roadmap_cloak_02_01	object/tangible/wearables/robe/robe_s05.iff				entertainer			2	200	item.special.nomove		1	Captivator Cloak	This cloak offers a little bit of protection and a small bonus to your health.	roadmap reward
+
+item_entertainer_roadmap_boots_02_01	object/tangible/wearables/boots/boots_s03.iff				entertainer			2	200	item.special.nomove		1	Captivator Boots	Boots often worn by Entertainers.	roadmap reward
+
+item_entertainer_roadmap_gloves_02_01	object/tangible/wearables/gloves/gloves_s06.iff				entertainer			2	200	item.special.nomove		1	Captivator Gloves	Gloves often worn by Entertainers.	roadmap reward
+
+item_entertainer_roadmap_pants_02_01	object/tangible/wearables/pants/pants_s26.iff				entertainer			2	200	item.special.nomove		1	Captivator Pants	These pants offer a bit of leg protection and a small bonus to your health.	roadmap reward
+
+item_entertainer_roadmap_jumpsuit_02_01	object/tangible/wearables/ithorian/ith_bodysuit_s01.iff				entertainer			2	200	item.special.nomove		1	Captivator Jumpsuit	This jumpsuit offer a bit of body protection and a small bonus to your health.	roadmap reward
+
+item_entertainer_roadmap_hat_02_01	object/tangible/wearables/ithorian/ith_hat_s04.iff				entertainer			2	200	item.special.nomove		1	Captivator Hat	This hat offer a bit of head protection and a small bonus to your health.	roadmap reward
+
+item_entertainer_roadmap_robe_02_01	object/tangible/wearables/wookiee/wke_shirt_s01.iff				entertainer			2	200	item.special.nomove		1	Captivator Robe	This robe offers a little bit of protection and a small bonus to your health.	roadmap reward
+
+item_entertainer_roadmap_gloves_02_02	object/tangible/wearables/wookiee/wke_gloves_s04.iff				entertainer			2	200	item.special.nomove		1	Captivator Gloves	Gloves often worn by Entertainers.	roadmap reward
+
+armor_smuggler_roadmap_chest_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_chest_plate.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Chest Armor	This specially designed smuggler armor will help to protect your chest.	roadmap reward
+
+armor_smuggler_roadmap_leggings_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_leggings.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Leg Armor	This specially designed smuggler armor will help to protect your legs.	roadmap reward
+
+armor_smuggler_roadmap_helmet_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_helmet.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Helmet	This specially designed smuggler armor will help to protect your head.	roadmap reward
+
+armor_smuggler_roadmap_bicep_l_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_bicep_l.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Left Bicep	This specially designed smuggler armor will help to protect your left arm.	roadmap reward
+
+armor_smuggler_roadmap_bicep_r_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_bicep_r.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Right Bicep	This specially designed smuggler armor will help to protect your right arm.	roadmap reward
+
+armor_smuggler_roadmap_bracer_l_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_bracer_l.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Left Bracer	This specially designed smuggler armor will help to protect your left wrist.	roadmap reward
+
+armor_smuggler_roadmap_bracer_r_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_bracer_r.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Right Bracer	This specially designed smuggler armor will help to protect your right wrist.	roadmap reward
+
+armor_smuggler_roadmap_gloves_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_gloves.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Gloves	This specially designed smuggler armor will help to protect your hands.	roadmap reward
+
+armor_smuggler_roadmap_boots_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_boots.iff	armor			smuggler			2	200	item.special.nomove		1	Rogue Boots	This specially designed smuggler armor will help to protect your feet.	roadmap reward
+
+armor_officer_roadmap_chest_02_01	object/tangible/wearables/armor/composite/armor_composite_chest_plate.iff	armor			officer			2	200	item.special.nomove		1	Field Command Chestplate	This armor is issued to officers and will help to protect your chest.	roadmap reward
+
+armor_officer_roadmap_leggings_02_01	object/tangible/wearables/armor/composite/armor_composite_leggings.iff	armor			officer			2	200	item.special.nomove		1	Field Command Leg Armor	This armor is issued to officers and will help to protect your legs.	roadmap reward
+
+armor_officer_roadmap_helmet_02_01	object/tangible/wearables/armor/composite/armor_composite_helmet.iff	armor			officer			2	200	item.special.nomove		1	Field Command Helmet	This armor is issued to officers and will help to protect your head.	roadmap reward
+
+armor_officer_roadmap_bicep_l_02_01	object/tangible/wearables/armor/composite/armor_composite_bicep_l.iff	armor			officer			2	200	item.special.nomove		1	Field Command Left Arm	This armor is issued to officers and will help to protect your left arm.	roadmap reward
+
+armor_officer_roadmap_bicep_r_02_01	object/tangible/wearables/armor/composite/armor_composite_bicep_r.iff	armor			officer			2	200	item.special.nomove		1	Field Command Right Arm	This armor is issued to officers and will help to protect your right arm.	roadmap reward
+
+armor_officer_roadmap_bracer_l_02_01	object/tangible/wearables/armor/composite/armor_composite_bracer_l.iff	armor			officer			2	200	item.special.nomove		1	Field Command Left Wrist	This armor is issued to officers and will help to protect your left wrist.	roadmap reward
+
+armor_officer_roadmap_bracer_r_02_01	object/tangible/wearables/armor/composite/armor_composite_bracer_r.iff	armor			officer			2	200	item.special.nomove		1	Field Command Right Wrist	This armor is issued to officers and will help to protect your right wrist.	roadmap reward
+
+armor_officer_roadmap_gloves_02_01	object/tangible/wearables/armor/composite/armor_composite_gloves.iff	armor			officer			2	200	item.special.nomove		1	Field Command Gauntlet	This armor is issued to officers and will help to protect your hands.	roadmap reward
+
+armor_officer_roadmap_boots_02_01	object/tangible/wearables/armor/composite/armor_composite_boots.iff	armor			officer			2	200	item.special.nomove		1	Field Command Boots	This armor is issued to officers and will help to protect your feet.	roadmap reward
+
+armor_commando_roadmap_chest_02_01	object/tangible/wearables/armor/composite/armor_composite_chest_plate.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Body Armor	This armor is designed for use by commandos and will help to protect your chest.	roadmap reward
+
+armor_commando_roadmap_leggings_02_01	object/tangible/wearables/armor/composite/armor_composite_leggings.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Leg Armor	This armor is designed for use by commandos and will help to protect your legs.	roadmap reward
+
+armor_commando_roadmap_helmet_02_01	object/tangible/wearables/armor/composite/armor_composite_helmet.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Helmet	This armor is designed for use by commandos and will help to protect your head.	roadmap reward
+
+armor_commando_roadmap_bicep_l_02_01	object/tangible/wearables/armor/composite/armor_composite_bicep_l.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Left Arm	This armor is designed for use by commandos and will help to protect your left arm.	roadmap reward
+
+armor_commando_roadmap_bicep_r_02_01	object/tangible/wearables/armor/composite/armor_composite_bicep_r.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Right Arm	This armor is designed for use by commandos and will help to protect your right arm.	roadmap reward
+
+armor_commando_roadmap_bracer_l_02_01	object/tangible/wearables/armor/composite/armor_composite_bracer_l.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Left Bracer	This armor is designed for use by commandos and will help to protect your left wrist.	roadmap reward
+
+armor_commando_roadmap_bracer_r_02_01	object/tangible/wearables/armor/composite/armor_composite_bracer_r.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Right Bracer	This armor is designed for use by commandos and will help to protect your right wrist.	roadmap reward
+
+armor_commando_roadmap_gloves_02_01	object/tangible/wearables/armor/composite/armor_composite_gloves.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Gloves	This armor is designed for use by commandos and will help to protect your hands.	roadmap reward
+
+armor_commando_roadmap_boots_02_01	object/tangible/wearables/armor/composite/armor_composite_boots.iff	armor			commando			2	200	item.special.nomove		1	Demolitionist Boots	This armor is designed for use by commandos and will help to protect your feet.	roadmap reward
+
+armor_bounty_hunter_roadmap_chest_02_01	object/tangible/wearables/armor/composite/armor_composite_chest_plate.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Chestplate	This composite armor is created for Bounty Hunters and will help to protect your chest.	roadmap reward
+
+armor_bounty_hunter_roadmap_leggings_02_01	object/tangible/wearables/armor/composite/armor_composite_leggings.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Leggings	This composite armor is created for Bounty Hunters and will help to protect your legs.	roadmap reward
+
+armor_bounty_hunter_roadmap_helmet_02_01	object/tangible/wearables/armor/composite/armor_composite_helmet.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Helmet	This composite armor is created for Bounty Hunters and will help to protect your head.	roadmap reward
+
+armor_bounty_hunter_roadmap_bicep_l_02_01	object/tangible/wearables/armor/composite/armor_composite_bicep_l.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Left Arm	This composite armor is created for Bounty Hunters and will help to protect your left arm.	roadmap reward
+
+armor_bounty_hunter_roadmap_bicep_r_02_01	object/tangible/wearables/armor/composite/armor_composite_bicep_r.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Right Arm	This composite armor is created for Bounty Hunters and will help to protect your right arm.	roadmap reward
+
+armor_bounty_hunter_roadmap_bracer_l_02_01	object/tangible/wearables/armor/composite/armor_composite_bracer_l.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Left Wrist	This composite armor is created for Bounty Hunters and will help to protect your left wrist.	roadmap reward
+
+armor_bounty_hunter_roadmap_bracer_r_02_01	object/tangible/wearables/armor/composite/armor_composite_bracer_r.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Right Wrist	This composite armor is created for Bounty Hunters and will help to protect your right wrist.	roadmap reward
+
+armor_bounty_hunter_roadmap_gloves_02_01	object/tangible/wearables/armor/composite/armor_composite_gloves.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Gauntlets	This composite armor is created for Bounty Hunters and will help to protect your hands.	roadmap reward
+
+armor_bounty_hunter_roadmap_boots_02_01	object/tangible/wearables/armor/composite/armor_composite_boots.iff	armor			bounty_hunter			2	200	item.special.nomove		1	Stalker Boots	This composite armor is created for Bounty Hunters and will help to protect your feet.	roadmap reward
+
+armor_medic_roadmap_chest_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_chest_plate.iff	armor			medic			2	200	item.special.nomove		1	First Responder Body Armor	This recon armor is made specifically for Medics and will help to protect your chest.	roadmap reward
+
+armor_medic_roadmap_leggings_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_leggings.iff	armor			medic			2	200	item.special.nomove		1	First Responder Leggings	This recon armor is made specifically for Medics and will help to protect your legs.	roadmap reward
+
+armor_medic_roadmap_helmet_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_helmet.iff	armor			medic			2	200	item.special.nomove		1	First Responder Helmet	This recon armor is made specifically for Medics and will help to protect your head.	roadmap reward
+
+armor_medic_roadmap_bicep_l_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_bicep_l.iff	armor			medic			2	200	item.special.nomove		1	First Responder Left Bicep	This recon armor is made specifically for Medics and will help to protect your left arm.	roadmap reward
+
+armor_medic_roadmap_bicep_r_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_bicep_r.iff	armor			medic			2	200	item.special.nomove		1	First Responder Right Bicep	This recon armor is made specifically for Medics and will help to protect your right arm.	roadmap reward
+
+armor_medic_roadmap_bracer_l_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_bracer_l.iff	armor			medic			2	200	item.special.nomove		1	First Responder Left Bracer	This recon armor is made specifically for Medics and will help to protect your left wrist.	roadmap reward
+
+armor_medic_roadmap_bracer_r_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_bracer_r.iff	armor			medic			2	200	item.special.nomove		1	First Responder Right Bracer	This recon armor is made specifically for Medics and will help to protect your right wrist.	roadmap reward
+
+armor_medic_roadmap_gloves_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_gloves.iff	armor			medic			2	200	item.special.nomove		1	First Responder Gloves	This recon armor is made specifically for Medics and will help to protect your hands.	roadmap reward
+
+armor_medic_roadmap_boots_02_01	object/tangible/wearables/armor/tantel/armor_tantel_skreej_boots.iff	armor			medic			2	200	item.special.nomove		1	First Responder Boots	This recon armor is made specifically for Medics and will help to protect your feet.	roadmap reward
+
+armor_spy_roadmap_chest_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_chest_plate.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Body Armor	This light armor is designed for spies and will help to protect your chest.	roadmap reward
+
+armor_spy_roadmap_leggings_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_leggings.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Leg Armor	This light armor is designed for spies and will help to protect your legs.	roadmap reward
+
+armor_spy_roadmap_helmet_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_helmet.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Helmet	This light armor is designed for spies and will help to protect your head.	roadmap reward
+
+armor_spy_roadmap_bicep_l_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_bicep_l.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Left Bicep	This light armor is designed for spies and will help to protect your left arm.	roadmap reward
+
+armor_spy_roadmap_bicep_r_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_bicep_r.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Right Bicep	This light armor is designed for spies and will help to protect your right arm.	roadmap reward
+
+armor_spy_roadmap_bracer_l_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_bracer_l.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Left Bracer	This light armor is designed for spies and will help to protect your left wrist.	roadmap reward
+
+armor_spy_roadmap_bracer_r_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_bracer_r.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Right Bracer	This light armor is designed for spies and will help to protect your right wrist.	roadmap reward
+
+armor_spy_roadmap_gloves_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_gloves.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Gloves	This light armor is designed for spies and will help to protect your hands.	roadmap reward
+
+armor_spy_roadmap_boots_02_01	object/tangible/wearables/armor/padded/armor_padded_s01_boots.iff	armor			spy			2	200	item.special.nomove		1	Covert Ops Boots	This light armor is designed for spies and will help to protect your feet.	roadmap reward
+
+armor_ithorian_roadmap_chest_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_chest_plate.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Chestplate	This standard reconnaissance armor will help to protect your chest.	roadmap reward
+
+armor_ithorian_roadmap_leggings_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_leggings.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Leggings	This standard reconnaissance armor will help to protect your legs.	roadmap reward
+
+armor_ithorian_roadmap_helmet_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_helmet.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Helmet	This standard reconnaissance armor will help to protect your head.	roadmap reward
+
+armor_ithorian_roadmap_bicep_l_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_bicep_l.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Left Bicep	This standard reconnaissance armor will help to protect your left arm.	roadmap reward
+
+armor_ithorian_roadmap_bicep_r_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_bicep_r.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Right Bicep	This standard reconnaissance armor will help to protect your right arm.	roadmap reward
+
+armor_ithorian_roadmap_bracer_l_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_bracer_l.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Left Bracer	This standard reconnaissance armor will help to protect your left wrist.	roadmap reward
+
+armor_ithorian_roadmap_bracer_r_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_bracer_r.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Right Bracer	This standard reconnaissance armor will help to protect your right wrist,.	roadmap reward
+
+armor_ithorian_roadmap_gloves_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_gloves.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Gloves	This standard reconnaissance armor will help to protect your hands.	roadmap reward
+
+armor_ithorian_roadmap_boots_02_01	object/tangible/wearables/armor/ithorian_guardian/ith_armor_s02_boots.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Boots	This standard reconnaissance armor will help to protect your feet.	roadmap reward
+
+armor_ithorian_roadmap_chest_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_chest_plate.iff	armor						2	200	item.special.nomove		1	Standard Battle Body Armor	This standard battle armor will help to protect your chest.	roadmap reward
+
+armor_ithorian_roadmap_leggings_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_leggings.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Leggings	This standard battle armor will help to protect your legs.	roadmap reward
+
+armor_ithorian_roadmap_helmet_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_helmet.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Helmet	This standard battle armor will help to protect your head.	roadmap reward
+
+armor_ithorian_roadmap_bicep_l_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_bicep_l.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Left Bicep	This standard battle armor will help to protect your left arm.	roadmap reward
+
+armor_ithorian_roadmap_bicep_r_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_bicep_r.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Right Bicep	This standard battle armor will help to protect your right arm.	roadmap reward
+
+armor_ithorian_roadmap_bracer_l_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_bracer_l.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Left Bracer	This standard battle armor will help to protect your left wrist.	roadmap reward
+
+armor_ithorian_roadmap_bracer_r_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_bracer_r.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Right Bracer	This standard battle armor will help to protect your right wrist.	roadmap reward
+
+armor_ithorian_roadmap_gloves_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_gloves.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Gloves	This standard battle armor will help to protect your hands.	roadmap reward
+
+armor_ithorian_roadmap_boots_02_02	object/tangible/wearables/armor/ithorian_defender/ith_armor_s01_boots.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Boots	This standard battle armor will help to protect your feet.	roadmap reward
+
+armor_ithorian_roadmap_chest_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_chest_plate.iff	armor						2	200	item.special.nomove		1	Standard Assault Chestplate	This standard assault armor will help to protect your chest.	roadmap reward
+
+armor_ithorian_roadmap_leggings_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_leggings.iff	armor						2	200	item.special.nomove		1	Standard Assault Leggings	This standard assault armor will help to protect your legs.	roadmap reward
+
+armor_ithorian_roadmap_helmet_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_helmet.iff	armor						2	200	item.special.nomove		1	Standard Assault Helmet	This standard assault armor will help to protect your head.	roadmap reward
+
+armor_ithorian_roadmap_bicep_l_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bicep_l.iff	armor						2	200	item.special.nomove		1	Standard Assault Left Bicep	This standard assault armor will help to protect your left arm.	roadmap reward
+
+armor_ithorian_roadmap_bicep_r_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bicep_r.iff	armor						2	200	item.special.nomove		1	Standard Assault Right Bicep	This standard assault armor will help to protect your right arm.	roadmap reward
+
+armor_ithorian_roadmap_bracer_l_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bracer_l.iff	armor						2	200	item.special.nomove		1	Standard Assault Left Bracer	This standard assault armor will help to protect your left wrist.	roadmap reward
+
+armor_ithorian_roadmap_bracer_r_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_bracer_r.iff	armor						2	200	item.special.nomove		1	Standard Assault Right Bracer	This standard assault armor will help to protect your right wrist.	roadmap reward
+
+armor_ithorian_roadmap_gloves_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_gloves.iff	armor						2	200	item.special.nomove		1	Standard Assault Gloves	This standard assault armor will help to protect your hands.	roadmap reward
+
+armor_ithorian_roadmap_boots_02_03	object/tangible/wearables/armor/ithorian_sentinel/ith_armor_s03_boots.iff	armor						2	200	item.special.nomove		1	Standard Assault Boots	This standard assault armor will help to protect your feet.	roadmap reward
+
+armor_wookiee_roadmap_chest_02_01	object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_chestplate.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Chestplate	This standard reconnaissance armor will help to protect your chest.	roadmap reward
+
+armor_wookiee_roadmap_leggings_02_01	object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_leggings.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Leggings	This standard reconnaissance armor will help to protect your legs.	roadmap reward
+
+armor_wookiee_roadmap_bicep_l_02_01	object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_bicep_l.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Left Bicep	This standard reconnaissance armor will help to protect your left arm.	roadmap reward
+
+armor_wookiee_roadmap_bicep_r_02_01	object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_bicep_r.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Right Bicep	This standard reconnaissance armor will help to protect your right arm.	roadmap reward
+
+armor_wookiee_roadmap_bracer_l_02_01	object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_bracer_l.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Left Bracer	This standard reconnaissance armor will help to protect your left wrist.	roadmap reward
+
+armor_wookiee_roadmap_bracer_r_02_01	object/tangible/wearables/armor/kashyyykian_ceremonial/armor_kashyyykian_ceremonial_bracer_r.iff	armor						2	200	item.special.nomove		1	Standard Issue Recon Right Bracer	This standard reconnaissance armor will help to protect your right wrist,.	roadmap reward
+
+armor_wookiee_roadmap_chest_02_02	object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_chestplate.iff	armor						2	200	item.special.nomove		1	Standard Battle Body Armor	This standard battle armor will help to protect your chest.	roadmap reward
+
+armor_wookiee_roadmap_leggings_02_02	object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_leggings.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Leggings	This standard battle armor will help to protect your legs.	roadmap reward
+
+armor_wookiee_roadmap_bicep_l_02_02	object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_bicep_l.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Left Bicep	This standard battle armor will help to protect your left arm.	roadmap reward
+
+armor_wookiee_roadmap_bicep_r_02_02	object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_bicep_r.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Right Bicep	This standard battle armor will help to protect your right arm.	roadmap reward
+
+armor_wookiee_roadmap_bracer_l_02_02	object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_bracer_l.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Left Bracer	This standard battle armor will help to protect your left wrist.	roadmap reward
+
+armor_wookiee_roadmap_bracer_r_02_02	object/tangible/wearables/armor/kashyyykian_black_mtn/armor_kashyyykian_black_mtn_bracer_r.iff	armor						2	200	item.special.nomove		1	Standard Battle Armor Right Bracer	This standard battle armor will help to protect your right wrist.	roadmap reward
+
+armor_wookiee_roadmap_chest_02_03	object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_chestplate.iff	armor						2	200	item.special.nomove		1	Standard Assault Body Armor	This standard assault armor will help to protect your chest.	roadmap reward
+
+armor_wookiee_roadmap_leggings_02_03	object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_leggings.iff	armor						2	200	item.special.nomove		1	Standard Assault Leggings	This standard assault armor will help to protect your legs.	roadmap reward
+
+armor_wookiee_roadmap_bicep_l_02_03	object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bicep_l.iff	armor						2	200	item.special.nomove		1	Standard Assault Left Bicep	This standard assault armor will help to protect your left arm.	roadmap reward
+
+armor_wookiee_roadmap_bicep_r_02_03	object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bicep_r.iff	armor						2	200	item.special.nomove		1	Standard Assault Right Bicep	This standard assault armor will help to protect your right arm.	roadmap reward
+
+armor_wookiee_roadmap_bracer_l_02_03	object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bracer_l.iff	armor						2	200	item.special.nomove		1	Standard Assault Left Bracer	This standard assault armor will help to protect your left wrist.	roadmap reward
+
+armor_wookiee_roadmap_bracer_r_02_03	object/tangible/wearables/armor/kashyyykian_hunting/armor_kashyyykian_hunting_bracer_r.iff	armor						2	200	item.special.nomove		1	Standard Assault Right Bracer	This standard assault armor will help to protect your right wrist.	roadmap reward
+
+item_roadmap_belt_force_sensitive_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff			90	force_sensitive			2	200	item.special.nomove,item.buff_worn_item		1	Belt of the Force Sensitive	This belt is awarded to those who have completed the Force Sensitive Roadmap.	
+
+item_roadmap_belt_bounty_hunter_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff			90	bounty_hunter			2	200	item.special.nomove,item.buff_worn_item		1	Belt of the Bounty Hunter	This belt is awarded to those who have completed the Bounty Hunter Roadmap	
+
+item_roadmap_belt_commando_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff			90	commando			2	200	item.special.nomove,item.buff_worn_item		1	Commando's Belt	This belt is awarded to those who have completed the Commando Roadmap.	
+
+item_roadmap_belt_officer_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff			90	officer			2	200	item.special.nomove,item.buff_worn_item		1	Officer's Belt	This belt is awarded to those who have completed the Officer Roadmap.	
+
+item_roadmap_belt_medic_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff			90	medic			2	200	item.special.nomove,item.buff_worn_item		1	Medic's Belt	This belt is awarded to those who have completed the Medic Roadmap.	
+
+item_roadmap_belt_spy_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff			90	spy			2	200	item.special.nomove,item.buff_worn_item		1	Belt of the Spy	This belt is awarded to those who have completed the Spy Roadmap.	
+
+item_roadmap_belt_smuggler_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff			90	smuggler			2	200	item.special.nomove,item.buff_worn_item		1	Belt of the Smuggler	This belt is awarded to those who have completed the Smuggler Roadmap.	
+
+item_roadmap_belt_entertainer_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff				entertainer			2	200	item.special.nomove,item.buff_worn_item		1	Entertainer's Belt	This belt is awarded to those who have completed the Entertainer Roadmap.	
+
+item_roadmap_belt_trader_01_02	object/tangible/wearables/belt/belt_faux_mabari_generic.iff				trader			2	200	item.special.nomove,item.buff_worn_item		1	Trader's Belt	This belt is awarded to those who have completed the Trader Roadmap.	
+
+item_npe_junk_tooth_01_01	object/tangible/loot/creature_loot/generic/carnivore_tooth.iff							1	45	object.autostack		1	Tooth	A creature's tooth. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_lizard_scale_01_01	object/tangible/loot/creature_loot/generic/lizard_scale_generic.iff							1	49	object.autostack		1	Lizard Scale	Scales from a cold blooded creature. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_feather_01_01	object/tangible/loot/creature_loot/generic/generic_feather.iff							1	44	object.autostack		1	Feather	A feather. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_wing_bone_01_01	object/tangible/loot/creature_loot/generic/arm_bone_generic.iff							1	40	object.autostack		1	Wing Bone	This hollow bone was removed from a the wing of a flying creature. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_stomach_01_01	object/tangible/loot/creature_loot/generic/generic_stomach.iff							1	45	object.autostack		1	Stomach	A creature's stomach. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_paw_01_01	object/tangible/loot/creature_loot/generic/generic_paw.iff							1	49	object.autostack		1	Paw	A creature's paw. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_creature_blood_01_01	object/tangible/loot/npc_loot/serum_vial_generic.iff							1	44	object.autostack		1	Blood	A sample of blood taken from a creature. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_costume_jewel_01_01	object/tangible/loot/npc_loot/jewelry_setting_generic.iff							1	40	object.autostack		1	Faux Jewel	A jewelry setting. Though visually pleasing it's clearly a reproduction. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_blank_parchment_01_01	object/tangible/loot/npc_loot/scroll_generic.iff							1	45	object.autostack		1	Blank Parchment	A roll of parchment with nothing written on it. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_used_travel_ticket_01_01	object/tangible/loot/npc_loot/id_chip_generic.iff							1	49	object.autostack		1	Canceled Travel Ticket	This travel ticket is out of date. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_creature_cage_01_01	object/tangible/loot/npc_loot/cage_generic.iff							1	44	object.autostack		1	Small Cage	A cage designed to house small creatures. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_junk_rusty_case_01_01	object/tangible/loot/npc_loot/rusty_toolkit_generic.iff							1	40	object.autostack		1	Rusty Case	This metal case is slightly rusted with age. This item can be sold to a junk dealer.	npe junk loot
+
+item_npe_buff_ranged_01_01	object/tangible/loot/generic_usable/stim_a_generic_st_4.iff						2	1	45	item.buff_click_item		1	Ocular Acuity Enhancer	This personal use stim pack will increase your ranged accuracy and combat haste.	npe buff item
+
+item_npe_buff_melee_01_01	object/tangible/loot/generic_usable/stim_a_generic_st_4.iff						2	1	45	item.buff_click_item		1	Manual Dexterity Enhancer	This personal use stim pack will increase your melee accuracy and combat haste.	npe buff item
+
+item_npe_buff_healing_01_01	object/tangible/loot/generic_usable/bacta_ampules_generic.iff						2	1	45	item.buff_click_item		1	Enhanced Bacta Ampules	This item will increase your healing efficiency for a short period of time allow someone with medical skill to heal slightly more damage while it is in effect.	npe buff item
+
+weapon_npe_e11_quest_reward_01_01	object/weapon/ranged/carbine/carbine_e11_static.iff	weapon		7				2	400	item.special.nomove		1	Imperial Issue Carbine	Standard carbine issue for the Imperial Navy.	Quest reward for a GCW quest in the NPE
+
+weapon_npe_d44_quest_reward_01_01	object/weapon/ranged/pistol/pistol_dl44_metal_static.iff	weapon		7				2	400	item.special.nomove		1	Alliance DL44	DL44 pistol used by the Rebel Alliance.	Quest reward for a GCW quest in the NPE
+
+item_bactapack_01_01	object/tangible/medicine/instant_stimpack/bactapack_generic.iff						2	2		npe.bactapack,item.special.nomove		1	Bactapack	A medical pack containing various medical supplies.  Target an NPC and right click the NPC to heal your target.	
+
+item_npe_schematic_simple_tea_01_01	object/tangible/loot/npc_loot/datapad_generic.iff							2		item.special.nomove,item.loot_schematic.loot_schematic		1	Simple Tea Recipe	This schematic contains a recipe that allows artisans to make a simple tea out of the items at hand.	npe food schematic
+
+item_roadmap_food_dessert_bofa_treat_01_02	object/tangible/food/crafted/dessert_bofa_treat.iff						6	2		item.special.nomove,item.food		1	Bofa Treat	A sweet, dried, fruit based snackfood.	roadmap food
+
+item_roadmap_food_dish_travel_biscuits_01_02	object/tangible/food/crafted/dish_travel_biscuits.iff						6	2		item.special.nomove,item.food		1	Travel Biscuits	Hearty biscuits full of nutrients for long trips.	roadmap food
+
+item_roadmap_food_drink_spiced_tea_01_02	object/tangible/food/crafted/drink_spiced_tea.iff						3	2		item.special.nomove,item.food		1	Spiced Tea	A beverage consisting of water flavored by strong spices.||Drinking this beverage gives you a boost to your attributes.	roadmap food
+
+item_roadmap_food_dessert_blob_candy_01_02	object/tangible/food/crafted/dessert_blob_candy.iff						6	2		item.special.nomove,item.food		1	Blob Candy	A popular candy made from a filled blob of carbosyrup.||Eating this tasty dessert gives you a boost to your attributes.	roadmap food
+
+item_roadmap_food_dish_exo_protein_wafers_01_02	object/tangible/food/crafted/dish_exo_protein_wafers.iff						6	2		item.special.nomove,item.food		1	Exo-Protein Wafers	Enhanced protein wafers used by space farers during long trips.	roadmap food
+
+item_roadmap_food_drink_aitha_01_02	object/tangible/food/crafted/drink_aitha.iff						4	2		item.special.nomove,item.food		1	Aitha	A protein drink consumed by spacers to keep their bodies healthy during long runs.  Best served hot.	roadmap food
+
+item_roadmap_food_dish_rations_01_02	object/tangible/food/crafted/dish_rations.iff						6	2		item.special.nomove,item.food		1	Rations	Military quality rations often found on large starliners.	roadmap food
+
+item_roadmap_food_dish_crispic_01_02	object/tangible/food/crafted/dish_crispic.iff						6	2		item.special.nomove,item.food		1	Crispic	A fried snack roll...commonly found in cantinas.	roadmap food
+
+item_roadmap_food_drink_caf_01_02	object/tangible/food/crafted/drink_caf.iff						6	2		item.special.nomove,item.food		1	Caf	A stimulating beverage flavored with grains or bean extract.	roadmap food
+
+item_roadmap_food_dessert_pkneb_01_02	object/tangible/food/crafted/dessert_pkneb.iff						6	2		item.special.nomove,item.food		1	Pkneb	A sweet meat rolled in crushed bone and caramelized.	roadmap food
+
+item_roadmap_food_dish_kanali_wafers_01_02	object/tangible/food/crafted/dish_kanali_wafers.iff						6	2		item.special.nomove,item.food		1	Kanali Wafers	A sugary pastry pressed flat and served chilled.	roadmap food
+
+item_roadmap_food_drink_ruby_bliel_01_02	object/tangible/food/crafted/drink_ruby_bliel.iff						4	2		item.special.nomove,item.food		1	Ruby Bliel	A non-alcoholic fruit drink favored by children.	roadmap food
+
+item_roadmap_food_drink_jawa_beer_01_02	object/tangible/food/crafted/drink_jawa_beer.iff						5	2		item.special.nomove,item.food		1	Jawa Beer	A rough travel beer brewed from fermented grains and bantha hide.	roadmap food
+
+item_roadmap_food_drink_jaar_01_02	object/tangible/food/crafted/drink_jaar.iff						2	2		item.special.nomove,item.food		1	Jaar	A sweet drink of fermented milk and fruit, favored by Wookiees.	roadmap food
+
+item_roadmap_food_drink_starshine_surprise_01_02	object/tangible/food/crafted/drink_starshine_surprise.iff						2	2		item.special.nomove,item.food		1	Starshine Surprise	A strong alcoholic beverage infused with reactive gas. Often lit on fire before consumed.	roadmap food
+
+item_roadmap_food_dish_dustcrepe_01_02	object/tangible/food/crafted/dish_dustcrepe.iff						2	2		item.special.nomove,item.food		1	Dustcrepe	A light crepe native to Tatooine.	roadmap food
+
+item_roadmap_food_dish_teltier_noodles_01_02	object/tangible/food/crafted/dish_teltier_noodles.iff						6	2		item.special.nomove,item.food		1	Teltier Noodles	A vegetable and noodle dish served lukewarm.  The noodles are usually mushy and only slightly cooked.	roadmap food
+
+item_roadmap_food_dessert_air_cake_01_02	object/tangible/food/crafted/dessert_air_cake.iff						6	2		item.special.nomove,item.food		1	Air Cake	A simple Corellian dessert cake.	roadmap food
+
+item_roadmap_food_dessert_almond_kwevvu_crisp_munchies_01_02	object/tangible/food/crafted/dessert_almond_kwevvu_crisp_munchies.iff						3	2		item.special.nomove,item.food		1	Almond Kwevvu Crisp Munchies	A small pastry eaten by the handful.	roadmap food
+
+item_roadmap_food_dessert_blap_biscuit_01_02	object/tangible/food/crafted/dessert_blap_biscuit.iff						3	2		item.special.nomove,item.food		1	Blap Biscuit	A gooey biscuit served drenched in carbosyrup.	roadmap food
+
+item_roadmap_food_dish_synthsteak_01_02	object/tangible/food/crafted/dish_synthsteak.iff						4	2		item.special.nomove,item.food		1	Synthsteak	A tasty fortified steak substitute designed to withstand long space travel.	roadmap food
+
+item_roadmap_food_dish_cho_nor_hoola_01_02	object/tangible/food/crafted/dish_cho_nor_hoola.iff						6	2		item.special.nomove,item.food		1	Cho Nor Hoola	A vile smelling stew favored by members of the Hutt race.  Only those with willpower can stand to eat a full serving of Cho-Nor-Hoola.	roadmap food
+
+item_roadmap_food_dish_blood_chowder_01_02	object/tangible/food/crafted/dish_blood_chowder.iff						6	2		item.special.nomove,item.food		1	Blood Chowder	A healthy meal made of soypro cooked in purified animal blood.	roadmap food
+
+item_roadmap_food_dish_veghash_01_02	object/tangible/food/crafted/dish_veghash.iff						4	2		item.special.nomove,item.food		1	Veghash	A vegetable mush often served as a side dish in cantinas.	roadmap food
+
+item_roadmap_food_dish_karkan_ribenes_01_02	object/tangible/food/crafted/dish_karkan_ribenes.iff						2	2		item.special.nomove,item.food		1	Karkan Ribenes	Slow cooked meat ribs.	roadmap food
+
+item_roadmap_food_dish_trimpian_01_02	object/tangible/food/crafted/dish_trimpian.iff						6	2		item.special.nomove,item.food		1	Trimpian	Sliced meat served in a seasoned miasra sauce.	roadmap food
+
+item_roadmap_food_dish_ormachek_01_02	object/tangible/food/crafted/dish_ormachek.iff						1	2		item.special.nomove,item.food		1	Ormachek	A healthy wrapped meal favored by Mon Calamari for its memory enhancing properties.	roadmap food
+
+item_roadmap_food_dish_havla_01_02	object/tangible/food/crafted/dish_havla.iff						3	2		item.special.nomove,item.food		1	Havla	A spiced toast popular with nobility.	roadmap food
+
+item_roadmap_food_dish_gruuvan_shaal_01_02	object/tangible/food/crafted/dish_gruuvan_shaal.iff						3	2		item.special.nomove,item.food		1	Gruuvan Shaal	A traditional Twi'lek meal.	roadmap food
+
+item_roadmap_food_dish_scrimpi_01_02	object/tangible/food/crafted/dish_scrimpi.iff						3	2		item.special.nomove,item.food		1	Scrimpi	A meat dish common to cantina menus.	roadmap food
+
+item_roadmap_food_dish_ahrisa_01_02	object/tangible/food/crafted/dish_ahrisa.iff						3	2		item.special.nomove,item.food		1	Ahrisa	A spicy food commonly found in cafes on Coruscant.	roadmap food
+
+item_roadmap_food_dish_rakririan_burnout_sauce_01_02	object/tangible/food/crafted/dish_rakririan_burnout_sauce.iff						2	2		item.special.nomove,item.food		1	Rakririan Burnout Sauce	An extremely spicy sauce!  Be careful!	roadmap food
+
+item_roadmap_food_dish_vegeparsine_01_02	object/tangible/food/crafted/dish_vegeparsine.iff						2	2		item.special.nomove,item.food		1	Vegeparsine	A high quality version of veghash favored by the rich.	roadmap food
+
+item_roadmap_food_dish_bivoli_tempari_01_02	object/tangible/food/crafted/dish_bivoli_tempari.iff						2	2		item.special.nomove,item.food		1	Bivoli Tempari	A very expensive and sweet dish that features toughened meat in a syrupy sauce.	roadmap food
+
+item_roadmap_food_dish_terratta_01_02	object/tangible/food/crafted/dish_terratta.iff						2	2		item.special.nomove,item.food		1	Terratta	A dish made from hide strips smothered in oil and milk.	roadmap food
+
+item_roadmap_food_dessert_pastebread_01_02	object/tangible/food/crafted/dessert_pastebread.iff						3	2		item.special.nomove,item.food		1	Pastebread	A thin pastry bread.	roadmap food
+
+item_roadmap_food_dessert_won_won_01_02	object/tangible/food/crafted/dessert_won_won.iff						6	2		item.special.nomove,item.food		1	Won Won	A greasy dinner pastry common to the Wookiee diet.	roadmap food
+
+item_roadmap_food_dessert_chandad_01_02	object/tangible/food/crafted/dessert_chandad.iff						6	2		item.special.nomove,item.food		1	Chandad	A popular snack food filled with rice and fruit.	roadmap food
+
+item_roadmap_food_dessert_parwan_nutricake_01_02	object/tangible/food/crafted/dessert_parwan_nutricake.iff						4	2		item.special.nomove,item.food		1	Parwan Nutricake	A healthy bread-like dessert.	roadmap food
+
+item_roadmap_food_dessert_pyollian_cake_01_02	object/tangible/food/crafted/dessert_pyollian_cake.iff						4	2		item.special.nomove,item.food		1	Pyollia Cake	Extra sweet gooey cake made with carbosyrup.	roadmap food
+
+item_roadmap_food_dessert_dweezel_01_02	object/tangible/food/crafted/dessert_dweezel.iff						6	2		item.special.nomove,item.food		1	Dweezel	A gooey pastry common to Mos Espa.  Invented by the culinary genius Professor Umlaut.	roadmap food
+
+item_roadmap_food_dessert_felbar_01_02	object/tangible/food/crafted/dessert_felbar.iff						3	2		item.special.nomove,item.food		1	Felbar	A baked dessert made with flower fruit.	roadmap food
+
+item_roadmap_food_dessert_citros_snow_cake_01_02	object/tangible/food/crafted/dessert_citros_snow_cake.iff						4	2		item.special.nomove,item.food		1	Citros Snow Cake	A delicious pastry made with light fruits and sweet cake mix.	roadmap food
+
+item_roadmap_food_dessert_pikatta_pie_01_02	object/tangible/food/crafted/dessert_pikatta_pie.iff						4	2		item.special.nomove,item.food		1	Pikatta Pie	A rich and thick pie thought to have been invented by Baron Hodor of Teyr.	roadmap food
+
+item_roadmap_food_dessert_gorrnar_01_02	object/tangible/food/crafted/dessert_gorrnar.iff						2	2		item.special.nomove,item.food		1	Gorrnar	A frozen dessert favored by Wookiees.	roadmap food
+
+item_roadmap_food_dessert_kiwik_clusjo_swirl_01_02	object/tangible/food/crafted/dessert_kiwik_clusjo_swirl.iff						6	2		item.special.nomove,item.food		1	Kiwik Clusjo Swirl	An unusual mixture of fruits, served creamed.	roadmap food
+
+item_roadmap_food_dessert_cavaellin_creams_01_02	object/tangible/food/crafted/dessert_cavaellin_creams.iff						1	2		item.special.nomove,item.food		1	Cavaellin Creams	Delicious spiced candies.	roadmap food
+
+item_roadmap_food_dessert_vagnerian_canape_01_02	object/tangible/food/crafted/dessert_vagnerian_canape.iff						6	2		item.special.nomove,item.food		1	Vagnerian Canape	A sweet pastry often served at formal dinners.	roadmap food
+
+item_roadmap_food_dessert_sweesonberry_rolls_01_02	object/tangible/food/crafted/dessert_sweesonberry_rolls.iff						3	2		item.special.nomove,item.food		1	Sweesonberry Rolls	A sticky, sweet pastry.	roadmap food
+
+item_roadmap_food_dessert_smugglers_delight_01_02	object/tangible/food/crafted/dessert_smugglers_delight.iff						1	2		item.special.nomove,item.food		1	Smugglers Delight	A sweet pastry with a hollow center.	roadmap food
+
+item_roadmap_food_drink_gralinyn_juice_01_02	object/tangible/food/crafted/drink_gralinyn_juice.iff						6	2		item.special.nomove,item.food		1	Gralinyn Juice	A fermented Wookiee beverage.  Light by Wookiee standards.	roadmap food
+
+item_roadmap_food_drink_deuterium_pyro_01_02	object/tangible/food/crafted/drink_deuterium_pyro.iff						6	2		item.special.nomove,item.food		1	Deuterium Pyro	A favorite drink of ruffians, due to its terrible flavor and strong aftertaste.  You have to be tough to put down a Deuterium-pyro.	roadmap food
+
+item_roadmap_food_drink_corellian_ale_01_02	object/tangible/food/crafted/drink_corellian_ale.iff						6	2		item.special.nomove,item.food		1	Corellian Ale	Probably the most common alcoholic beverage in the galaxy.  Corellian Ale has a sweet flavor and a medium weight body.	roadmap food
+
+item_roadmap_food_drink_blue_milk_01_02	object/tangible/food/crafted/drink_blue_milk.iff						4	2		item.special.nomove,item.food		1	Blue Milk	A protein enhanced milk beverage.	roadmap food
+
+item_roadmap_food_drink_durindfire_01_02	object/tangible/food/crafted/drink_durindfire.iff						6	2		item.special.nomove,item.food		1	Durindfire 	A rare alcoholic beverage that lights up with a phosphorescent glow when exposed to oxygen.	roadmap food
+
+item_roadmap_food_drink_veronian_berry_wine_01_02	object/tangible/food/crafted/drink_veronian_berry_wine.iff						6	2		item.special.nomove,item.food		1	Veronian Berry Wine	A sweet berry wine with light flavors.  A great dessert wine.	roadmap food
+
+item_roadmap_food_drink_ithorian_mist_01_02	object/tangible/food/crafted/drink_ithorian_mist.iff						6	2		item.special.nomove,item.food		1	Ithorian Mist	A type of whiskey favored by the Ithorian race.	roadmap food
+
+item_roadmap_food_drink_corellian_brandy_01_02	object/tangible/food/crafted/drink_corellian_brandy.iff						6	2		item.special.nomove,item.food		1	Corellian Brandy	There is no brandy more flavorful and savory than Corellian Brandy.  Must be made with real Corellian fruits...otherwise it's just brandy.	roadmap food
+
+item_roadmap_food_drink_tssolok_01_02	object/tangible/food/crafted/drink_tssolok.iff						3	2		item.special.nomove,item.food		1	Tssolok	T'ssolok is an intense Twi'lek liquor that is always served in a decorative decanter.  While the standing flavor of T'ssolok is not particularly good, the aftertaste is delicious.	roadmap food
+
+item_roadmap_food_drink_vasarian_brandy_01_02	object/tangible/food/crafted/drink_vasarian_brandy.iff						6	2		item.special.nomove,item.food		1	Vasarian Brandy	A rare brandy made from the fruit and berries of Talus.	roadmap food
+
+item_roadmap_food_drink_accarragm_01_02	object/tangible/food/crafted/drink_accarragm.iff						6	2		item.special.nomove,item.food		1	Accarragm	A strong Wookiee beverage made from fungus and alcohol stock.	roadmap food
+
+item_roadmap_food_drink_garrmorl_01_02	object/tangible/food/crafted/drink_garrmorl.iff						6	2		item.special.nomove,item.food		1	Garrmorl	Another rough Wookiee beverage made from dried bone and hide mixed with alcohol stock.	roadmap food
+
+item_roadmap_food_drink_vayerbok_01_02	object/tangible/food/crafted/drink_vayerbok.iff						6	2		item.special.nomove,item.food		1	Vayerbok	A vegetable based beer that is as thick as it is green.	roadmap food
+
+item_roadmap_food_drink_bespin_port_01_02	object/tangible/food/crafted/drink_bespin_port.iff						5	2		item.special.nomove,item.food		1	Bespin Port	A sweet form of port native to Bespin.	roadmap food
+
+item_roadmap_food_drink_elshandruu_pica_thundercloud_01_02	object/tangible/food/crafted/drink_elshandruu_pica_thundercloud.iff						6	2		item.special.nomove,item.food		1	Elshandruu Pica Thundercloud	This drink is probably the strongest in the galaxy.  Highly dangerous.	roadmap food
+
+item_roadmap_food_drink_breath_of_heaven_01_02	object/tangible/food/crafted/drink_breath_of_heaven.iff						2	2		item.special.nomove,item.food		1	Breath of Heaven	The Galaxy's most potent fire water: this stuff is as strong as it comes.	roadmap food
+
+item_roadmap_food_drink_flameout_01_02	object/tangible/food/crafted/drink_flameout.iff						2	2		item.special.nomove,item.food		1	Flameout	A strange reactive beverage.  It burns the tongue while at the same time freezes the throat.	roadmap food
+
+item_roadmap_food_drink_mandalorian_wine_01_02	object/tangible/food/crafted/drink_mandalorian_wine.iff						2	2		item.special.nomove,item.food		1	Mandalorian Wine	A strong, bitter wine. This drink was made popular in the years following the Mandalorian Wars.	roadmap food
+
+item_roadmap_food_dish_thakitillo_01_02	object/tangible/food/crafted/dish_thakitillo.iff						2	2		item.special.nomove,item.food		1	Thakitillo	A curdled dish known for the tangy explosion of flavor experienced when mashed against the roof of the mouth.	roadmap food
+
+item_roadmap_food_dish_vercupti_of_agazza_boleruuee_01_02	object/tangible/food/crafted/dish_vercupti_of_agazza_boleruuee.iff						2	2		item.special.nomove,item.food		1	Vercupti of Agazza Boleruuee	An unidentifiable dish popularized by Dexter Jettster in the years following the Battle of Naboo.	roadmap food
+
+item_roadmap_food_dessert_deneelian_fizz_pudding_01_02	object/tangible/food/crafted/dessert_deneelian_fizz_pudding.iff						2	2		item.special.nomove,item.food		1	Deneelian Fizz Pudding	A rare pudding treat that crackles and pops as you eat it.	roadmap food
+
+item_powerup_ranged_actioncost_01_01	object/tangible/powerup/weapon/ranged_actioncost.iff							2		powerup.pup		1	Reinforced Stock	This powerup will decrease the action cost of specials, but will also decrease the accuracy of the weapon.  In addition, all powered up weapons decay at an increased rate.  Each shot fired has a chance to decrease the weapon's condition.	
+
+item_powerup_ranged_wound_01_01	object/tangible/powerup/weapon/ranged_wound.iff							2		powerup.pup		1	Burst Focusing Muzzle	This powerup will increase the wounds your weapon will generate, but will also increase the action cost for specials.  In addition, all powered up weapons decay at an increased rate.  Each shot fired has a chance to decrease the weapon's condition.	
+
+item_powerup_ranged_speed_01_01	object/tangible/powerup/weapon/ranged_speed.iff							2		powerup.pup		1	Tactical Grip	This powerup will increase the rate at which the weapon can fire, but will also decrease the accuracy of the weapon.  In addition, all powered up weapons decay at an increased rate.  Each shot fired has a chance to decrease the weapon's condition.	
+
+item_powerup_ranged_accuracy_01_01	object/tangible/powerup/weapon/ranged_accuracy.iff							2		powerup.pup		1	Tactical Scope	This powerup will increase the accuracy of your weapon, but will also decrease the rate at which it can fire.  In addition, all powered up weapons decay at an increased rate.  Each shot fired has a chance to decrease the weapon's condition.	
+
+item_powerup_ranged_eledamage_01_01	object/tangible/powerup/weapon/ranged_eledamage.iff							2		powerup.pup		1	Tuning Coupler	This powerup can only be applied to weapons with elemental damage.   This powerup will increase the amount of elemental damage a ranged weapon will do, but will also decrease the amount of normal damage done.  In addition, all powered up weapons decay at an increased rate.  Each shot fired has a chance to decrease the weapon's condition.	
+
+item_powerup_ranged_damage_01_01	object/tangible/powerup/weapon/ranged_damage.iff							2		powerup.pup		1	High Power Barrel	This powerup will increase the damage output of a ranged weapon, but will also decrease the speed at which you can fire it.  In addition, all powered up weapons decay at an increased rate.  Each shot fired has a chance to decrease the weapon's condition.	
+
+item_powerup_melee_eledamage_01_01	object/tangible/powerup/weapon/melee_eledamage.iff							2		powerup.pup		1	Element Dispersal Tuning Kit	This powerup can only be applied to weapons with elemental damage.   This powerup will increase the amount of elemental damage a melee will do, but will also decrease the amount of normal damage done.  In addition, all powered up weapons decay at an increased rate.  Each hit has a chance to decrease the weapon's condition.	
+
+item_powerup_melee_actioncost_01_01	object/tangible/powerup/weapon/melee_actioncost.iff							2		powerup.pup		1	Hilt Reinforcement Kit	This powerup will decrease the action cost of specials, but will also decrease the accuracy of the weapon.  In addition, all powered up weapons decay at an increased rate.  Each hit has a chance to decrease the weapon's condition.	
+
+item_powerup_melee_damage_01_01	object/tangible/powerup/weapon/melee_damage.iff							2		powerup.pup		1	Inertial Fluctuator Kit	This powerup will increase the damage output of a melee weapon, but will also decrease the speed at which you can swing it.  In addition, all powered up weapons decay at an increased rate.  Each hit has a chance to decrease the weapon's condition.	
+
+item_powerup_melee_wound_01_01	object/tangible/powerup/weapon/melee_wound.iff							2		powerup.pup		1	Surface Serration Kit	This powerup will increase the wounds your weapon will generate, but will also increase the action cost for specials.  In addition, all powered up weapons decay at an increased rate.  Each hit has a chance to decrease the weapon's condition.	
+
+item_powerup_melee_speed_01_01	object/tangible/powerup/weapon/melee_speed.iff							2		powerup.pup		1	Tactical Grip Kit	This powerup will increase the rate at which you can attack with this weapon, but will also decrease the accuracy of your attacks.  In addition, all powered up weapons decay at an increased rate.  Each hit has a chance to decrease the weapon's condition.	
+
+item_powerup_melee_accuracy_01_01	object/tangible/powerup/weapon/melee_accuracy.iff							2		powerup.pup		1	Weight Balancing Kit	This powerup will increase the accuracy of your weapon, but will also decrease the rate at which you can swing it.  In addition, all powered up weapons decay at an increased rate.  Each hit has a chance to decrease the weapon's condition.	
+
