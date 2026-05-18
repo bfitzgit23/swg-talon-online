@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedMath/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMath/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/rule
 .PHONY : engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedMath: engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/rule
 
 # fast build rule for target.
 sharedMath/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build
 .PHONY : sharedMath/fast
 
 shared/CatmullRomSpline.o: shared/CatmullRomSpline.cpp.o
@@ -135,7 +135,7 @@ shared/CatmullRomSpline.o: shared/CatmullRomSpline.cpp.o
 
 # target to build an object file
 shared/CatmullRomSpline.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CatmullRomSpline.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CatmullRomSpline.cpp.o
 .PHONY : shared/CatmullRomSpline.cpp.o
 
 shared/CatmullRomSpline.i: shared/CatmullRomSpline.cpp.i
@@ -143,7 +143,7 @@ shared/CatmullRomSpline.i: shared/CatmullRomSpline.cpp.i
 
 # target to preprocess a source file
 shared/CatmullRomSpline.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CatmullRomSpline.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CatmullRomSpline.cpp.i
 .PHONY : shared/CatmullRomSpline.cpp.i
 
 shared/CatmullRomSpline.s: shared/CatmullRomSpline.cpp.s
@@ -151,7 +151,7 @@ shared/CatmullRomSpline.s: shared/CatmullRomSpline.cpp.s
 
 # target to generate assembly for a file
 shared/CatmullRomSpline.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CatmullRomSpline.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CatmullRomSpline.cpp.s
 .PHONY : shared/CatmullRomSpline.cpp.s
 
 shared/CompressedQuaternion.o: shared/CompressedQuaternion.cpp.o
@@ -159,7 +159,7 @@ shared/CompressedQuaternion.o: shared/CompressedQuaternion.cpp.o
 
 # target to build an object file
 shared/CompressedQuaternion.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CompressedQuaternion.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CompressedQuaternion.cpp.o
 .PHONY : shared/CompressedQuaternion.cpp.o
 
 shared/CompressedQuaternion.i: shared/CompressedQuaternion.cpp.i
@@ -167,7 +167,7 @@ shared/CompressedQuaternion.i: shared/CompressedQuaternion.cpp.i
 
 # target to preprocess a source file
 shared/CompressedQuaternion.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CompressedQuaternion.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CompressedQuaternion.cpp.i
 .PHONY : shared/CompressedQuaternion.cpp.i
 
 shared/CompressedQuaternion.s: shared/CompressedQuaternion.cpp.s
@@ -175,7 +175,7 @@ shared/CompressedQuaternion.s: shared/CompressedQuaternion.cpp.s
 
 # target to generate assembly for a file
 shared/CompressedQuaternion.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CompressedQuaternion.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/CompressedQuaternion.cpp.s
 .PHONY : shared/CompressedQuaternion.cpp.s
 
 shared/ConfigSharedMath.o: shared/ConfigSharedMath.cpp.o
@@ -183,7 +183,7 @@ shared/ConfigSharedMath.o: shared/ConfigSharedMath.cpp.o
 
 # target to build an object file
 shared/ConfigSharedMath.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/ConfigSharedMath.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/ConfigSharedMath.cpp.o
 .PHONY : shared/ConfigSharedMath.cpp.o
 
 shared/ConfigSharedMath.i: shared/ConfigSharedMath.cpp.i
@@ -191,7 +191,7 @@ shared/ConfigSharedMath.i: shared/ConfigSharedMath.cpp.i
 
 # target to preprocess a source file
 shared/ConfigSharedMath.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/ConfigSharedMath.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/ConfigSharedMath.cpp.i
 .PHONY : shared/ConfigSharedMath.cpp.i
 
 shared/ConfigSharedMath.s: shared/ConfigSharedMath.cpp.s
@@ -199,7 +199,7 @@ shared/ConfigSharedMath.s: shared/ConfigSharedMath.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigSharedMath.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/ConfigSharedMath.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/ConfigSharedMath.cpp.s
 .PHONY : shared/ConfigSharedMath.cpp.s
 
 shared/IndexedTriangleList.o: shared/IndexedTriangleList.cpp.o
@@ -207,7 +207,7 @@ shared/IndexedTriangleList.o: shared/IndexedTriangleList.cpp.o
 
 # target to build an object file
 shared/IndexedTriangleList.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/IndexedTriangleList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/IndexedTriangleList.cpp.o
 .PHONY : shared/IndexedTriangleList.cpp.o
 
 shared/IndexedTriangleList.i: shared/IndexedTriangleList.cpp.i
@@ -215,7 +215,7 @@ shared/IndexedTriangleList.i: shared/IndexedTriangleList.cpp.i
 
 # target to preprocess a source file
 shared/IndexedTriangleList.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/IndexedTriangleList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/IndexedTriangleList.cpp.i
 .PHONY : shared/IndexedTriangleList.cpp.i
 
 shared/IndexedTriangleList.s: shared/IndexedTriangleList.cpp.s
@@ -223,7 +223,7 @@ shared/IndexedTriangleList.s: shared/IndexedTriangleList.cpp.s
 
 # target to generate assembly for a file
 shared/IndexedTriangleList.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/IndexedTriangleList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/IndexedTriangleList.cpp.s
 .PHONY : shared/IndexedTriangleList.cpp.s
 
 shared/MxCifQuadTree.o: shared/MxCifQuadTree.cpp.o
@@ -231,7 +231,7 @@ shared/MxCifQuadTree.o: shared/MxCifQuadTree.cpp.o
 
 # target to build an object file
 shared/MxCifQuadTree.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTree.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTree.cpp.o
 .PHONY : shared/MxCifQuadTree.cpp.o
 
 shared/MxCifQuadTree.i: shared/MxCifQuadTree.cpp.i
@@ -239,7 +239,7 @@ shared/MxCifQuadTree.i: shared/MxCifQuadTree.cpp.i
 
 # target to preprocess a source file
 shared/MxCifQuadTree.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTree.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTree.cpp.i
 .PHONY : shared/MxCifQuadTree.cpp.i
 
 shared/MxCifQuadTree.s: shared/MxCifQuadTree.cpp.s
@@ -247,7 +247,7 @@ shared/MxCifQuadTree.s: shared/MxCifQuadTree.cpp.s
 
 # target to generate assembly for a file
 shared/MxCifQuadTree.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTree.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTree.cpp.s
 .PHONY : shared/MxCifQuadTree.cpp.s
 
 shared/MxCifQuadTreeBounds.o: shared/MxCifQuadTreeBounds.cpp.o
@@ -255,7 +255,7 @@ shared/MxCifQuadTreeBounds.o: shared/MxCifQuadTreeBounds.cpp.o
 
 # target to build an object file
 shared/MxCifQuadTreeBounds.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTreeBounds.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTreeBounds.cpp.o
 .PHONY : shared/MxCifQuadTreeBounds.cpp.o
 
 shared/MxCifQuadTreeBounds.i: shared/MxCifQuadTreeBounds.cpp.i
@@ -263,7 +263,7 @@ shared/MxCifQuadTreeBounds.i: shared/MxCifQuadTreeBounds.cpp.i
 
 # target to preprocess a source file
 shared/MxCifQuadTreeBounds.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTreeBounds.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTreeBounds.cpp.i
 .PHONY : shared/MxCifQuadTreeBounds.cpp.i
 
 shared/MxCifQuadTreeBounds.s: shared/MxCifQuadTreeBounds.cpp.s
@@ -271,7 +271,7 @@ shared/MxCifQuadTreeBounds.s: shared/MxCifQuadTreeBounds.cpp.s
 
 # target to generate assembly for a file
 shared/MxCifQuadTreeBounds.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTreeBounds.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/MxCifQuadTreeBounds.cpp.s
 .PHONY : shared/MxCifQuadTreeBounds.cpp.s
 
 shared/PackedArgb.o: shared/PackedArgb.cpp.o
@@ -279,7 +279,7 @@ shared/PackedArgb.o: shared/PackedArgb.cpp.o
 
 # target to build an object file
 shared/PackedArgb.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedArgb.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedArgb.cpp.o
 .PHONY : shared/PackedArgb.cpp.o
 
 shared/PackedArgb.i: shared/PackedArgb.cpp.i
@@ -287,7 +287,7 @@ shared/PackedArgb.i: shared/PackedArgb.cpp.i
 
 # target to preprocess a source file
 shared/PackedArgb.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedArgb.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedArgb.cpp.i
 .PHONY : shared/PackedArgb.cpp.i
 
 shared/PackedArgb.s: shared/PackedArgb.cpp.s
@@ -295,7 +295,7 @@ shared/PackedArgb.s: shared/PackedArgb.cpp.s
 
 # target to generate assembly for a file
 shared/PackedArgb.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedArgb.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedArgb.cpp.s
 .PHONY : shared/PackedArgb.cpp.s
 
 shared/PackedRgb.o: shared/PackedRgb.cpp.o
@@ -303,7 +303,7 @@ shared/PackedRgb.o: shared/PackedRgb.cpp.o
 
 # target to build an object file
 shared/PackedRgb.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedRgb.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedRgb.cpp.o
 .PHONY : shared/PackedRgb.cpp.o
 
 shared/PackedRgb.i: shared/PackedRgb.cpp.i
@@ -311,7 +311,7 @@ shared/PackedRgb.i: shared/PackedRgb.cpp.i
 
 # target to preprocess a source file
 shared/PackedRgb.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedRgb.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedRgb.cpp.i
 .PHONY : shared/PackedRgb.cpp.i
 
 shared/PackedRgb.s: shared/PackedRgb.cpp.s
@@ -319,7 +319,7 @@ shared/PackedRgb.s: shared/PackedRgb.cpp.s
 
 # target to generate assembly for a file
 shared/PackedRgb.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedRgb.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PackedRgb.cpp.s
 .PHONY : shared/PackedRgb.cpp.s
 
 shared/PaletteArgb.o: shared/PaletteArgb.cpp.o
@@ -327,7 +327,7 @@ shared/PaletteArgb.o: shared/PaletteArgb.cpp.o
 
 # target to build an object file
 shared/PaletteArgb.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgb.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgb.cpp.o
 .PHONY : shared/PaletteArgb.cpp.o
 
 shared/PaletteArgb.i: shared/PaletteArgb.cpp.i
@@ -335,7 +335,7 @@ shared/PaletteArgb.i: shared/PaletteArgb.cpp.i
 
 # target to preprocess a source file
 shared/PaletteArgb.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgb.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgb.cpp.i
 .PHONY : shared/PaletteArgb.cpp.i
 
 shared/PaletteArgb.s: shared/PaletteArgb.cpp.s
@@ -343,7 +343,7 @@ shared/PaletteArgb.s: shared/PaletteArgb.cpp.s
 
 # target to generate assembly for a file
 shared/PaletteArgb.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgb.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgb.cpp.s
 .PHONY : shared/PaletteArgb.cpp.s
 
 shared/PaletteArgbList.o: shared/PaletteArgbList.cpp.o
@@ -351,7 +351,7 @@ shared/PaletteArgbList.o: shared/PaletteArgbList.cpp.o
 
 # target to build an object file
 shared/PaletteArgbList.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgbList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgbList.cpp.o
 .PHONY : shared/PaletteArgbList.cpp.o
 
 shared/PaletteArgbList.i: shared/PaletteArgbList.cpp.i
@@ -359,7 +359,7 @@ shared/PaletteArgbList.i: shared/PaletteArgbList.cpp.i
 
 # target to preprocess a source file
 shared/PaletteArgbList.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgbList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgbList.cpp.i
 .PHONY : shared/PaletteArgbList.cpp.i
 
 shared/PaletteArgbList.s: shared/PaletteArgbList.cpp.s
@@ -367,7 +367,7 @@ shared/PaletteArgbList.s: shared/PaletteArgbList.cpp.s
 
 # target to generate assembly for a file
 shared/PaletteArgbList.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgbList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PaletteArgbList.cpp.s
 .PHONY : shared/PaletteArgbList.cpp.s
 
 shared/Plane.o: shared/Plane.cpp.o
@@ -375,7 +375,7 @@ shared/Plane.o: shared/Plane.cpp.o
 
 # target to build an object file
 shared/Plane.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Plane.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Plane.cpp.o
 .PHONY : shared/Plane.cpp.o
 
 shared/Plane.i: shared/Plane.cpp.i
@@ -383,7 +383,7 @@ shared/Plane.i: shared/Plane.cpp.i
 
 # target to preprocess a source file
 shared/Plane.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Plane.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Plane.cpp.i
 .PHONY : shared/Plane.cpp.i
 
 shared/Plane.s: shared/Plane.cpp.s
@@ -391,7 +391,7 @@ shared/Plane.s: shared/Plane.cpp.s
 
 # target to generate assembly for a file
 shared/Plane.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Plane.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Plane.cpp.s
 .PHONY : shared/Plane.cpp.s
 
 shared/PolySolver.o: shared/PolySolver.cpp.o
@@ -399,7 +399,7 @@ shared/PolySolver.o: shared/PolySolver.cpp.o
 
 # target to build an object file
 shared/PolySolver.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PolySolver.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PolySolver.cpp.o
 .PHONY : shared/PolySolver.cpp.o
 
 shared/PolySolver.i: shared/PolySolver.cpp.i
@@ -407,7 +407,7 @@ shared/PolySolver.i: shared/PolySolver.cpp.i
 
 # target to preprocess a source file
 shared/PolySolver.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PolySolver.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PolySolver.cpp.i
 .PHONY : shared/PolySolver.cpp.i
 
 shared/PolySolver.s: shared/PolySolver.cpp.s
@@ -415,7 +415,7 @@ shared/PolySolver.s: shared/PolySolver.cpp.s
 
 # target to generate assembly for a file
 shared/PolySolver.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PolySolver.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/PolySolver.cpp.s
 .PHONY : shared/PolySolver.cpp.s
 
 shared/Quaternion.o: shared/Quaternion.cpp.o
@@ -423,7 +423,7 @@ shared/Quaternion.o: shared/Quaternion.cpp.o
 
 # target to build an object file
 shared/Quaternion.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Quaternion.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Quaternion.cpp.o
 .PHONY : shared/Quaternion.cpp.o
 
 shared/Quaternion.i: shared/Quaternion.cpp.i
@@ -431,7 +431,7 @@ shared/Quaternion.i: shared/Quaternion.cpp.i
 
 # target to preprocess a source file
 shared/Quaternion.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Quaternion.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Quaternion.cpp.i
 .PHONY : shared/Quaternion.cpp.i
 
 shared/Quaternion.s: shared/Quaternion.cpp.s
@@ -439,7 +439,7 @@ shared/Quaternion.s: shared/Quaternion.cpp.s
 
 # target to generate assembly for a file
 shared/Quaternion.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Quaternion.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Quaternion.cpp.s
 .PHONY : shared/Quaternion.cpp.s
 
 shared/Rectangle2d.o: shared/Rectangle2d.cpp.o
@@ -447,7 +447,7 @@ shared/Rectangle2d.o: shared/Rectangle2d.cpp.o
 
 # target to build an object file
 shared/Rectangle2d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Rectangle2d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Rectangle2d.cpp.o
 .PHONY : shared/Rectangle2d.cpp.o
 
 shared/Rectangle2d.i: shared/Rectangle2d.cpp.i
@@ -455,7 +455,7 @@ shared/Rectangle2d.i: shared/Rectangle2d.cpp.i
 
 # target to preprocess a source file
 shared/Rectangle2d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Rectangle2d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Rectangle2d.cpp.i
 .PHONY : shared/Rectangle2d.cpp.i
 
 shared/Rectangle2d.s: shared/Rectangle2d.cpp.s
@@ -463,7 +463,7 @@ shared/Rectangle2d.s: shared/Rectangle2d.cpp.s
 
 # target to generate assembly for a file
 shared/Rectangle2d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Rectangle2d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Rectangle2d.cpp.s
 .PHONY : shared/Rectangle2d.cpp.s
 
 shared/SetupSharedMath.o: shared/SetupSharedMath.cpp.o
@@ -471,7 +471,7 @@ shared/SetupSharedMath.o: shared/SetupSharedMath.cpp.o
 
 # target to build an object file
 shared/SetupSharedMath.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SetupSharedMath.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SetupSharedMath.cpp.o
 .PHONY : shared/SetupSharedMath.cpp.o
 
 shared/SetupSharedMath.i: shared/SetupSharedMath.cpp.i
@@ -479,7 +479,7 @@ shared/SetupSharedMath.i: shared/SetupSharedMath.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedMath.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SetupSharedMath.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SetupSharedMath.cpp.i
 .PHONY : shared/SetupSharedMath.cpp.i
 
 shared/SetupSharedMath.s: shared/SetupSharedMath.cpp.s
@@ -487,7 +487,7 @@ shared/SetupSharedMath.s: shared/SetupSharedMath.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedMath.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SetupSharedMath.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SetupSharedMath.cpp.s
 .PHONY : shared/SetupSharedMath.cpp.s
 
 shared/SpatialSubdivision.o: shared/SpatialSubdivision.cpp.o
@@ -495,7 +495,7 @@ shared/SpatialSubdivision.o: shared/SpatialSubdivision.cpp.o
 
 # target to build an object file
 shared/SpatialSubdivision.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SpatialSubdivision.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SpatialSubdivision.cpp.o
 .PHONY : shared/SpatialSubdivision.cpp.o
 
 shared/SpatialSubdivision.i: shared/SpatialSubdivision.cpp.i
@@ -503,7 +503,7 @@ shared/SpatialSubdivision.i: shared/SpatialSubdivision.cpp.i
 
 # target to preprocess a source file
 shared/SpatialSubdivision.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SpatialSubdivision.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SpatialSubdivision.cpp.i
 .PHONY : shared/SpatialSubdivision.cpp.i
 
 shared/SpatialSubdivision.s: shared/SpatialSubdivision.cpp.s
@@ -511,7 +511,7 @@ shared/SpatialSubdivision.s: shared/SpatialSubdivision.cpp.s
 
 # target to generate assembly for a file
 shared/SpatialSubdivision.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SpatialSubdivision.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/SpatialSubdivision.cpp.s
 .PHONY : shared/SpatialSubdivision.cpp.s
 
 shared/Sphere.o: shared/Sphere.cpp.o
@@ -519,7 +519,7 @@ shared/Sphere.o: shared/Sphere.cpp.o
 
 # target to build an object file
 shared/Sphere.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Sphere.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Sphere.cpp.o
 .PHONY : shared/Sphere.cpp.o
 
 shared/Sphere.i: shared/Sphere.cpp.i
@@ -527,7 +527,7 @@ shared/Sphere.i: shared/Sphere.cpp.i
 
 # target to preprocess a source file
 shared/Sphere.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Sphere.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Sphere.cpp.i
 .PHONY : shared/Sphere.cpp.i
 
 shared/Sphere.s: shared/Sphere.cpp.s
@@ -535,7 +535,7 @@ shared/Sphere.s: shared/Sphere.cpp.s
 
 # target to generate assembly for a file
 shared/Sphere.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Sphere.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Sphere.cpp.s
 .PHONY : shared/Sphere.cpp.s
 
 shared/Transform.o: shared/Transform.cpp.o
@@ -543,7 +543,7 @@ shared/Transform.o: shared/Transform.cpp.o
 
 # target to build an object file
 shared/Transform.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform.cpp.o
 .PHONY : shared/Transform.cpp.o
 
 shared/Transform.i: shared/Transform.cpp.i
@@ -551,7 +551,7 @@ shared/Transform.i: shared/Transform.cpp.i
 
 # target to preprocess a source file
 shared/Transform.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform.cpp.i
 .PHONY : shared/Transform.cpp.i
 
 shared/Transform.s: shared/Transform.cpp.s
@@ -559,7 +559,7 @@ shared/Transform.s: shared/Transform.cpp.s
 
 # target to generate assembly for a file
 shared/Transform.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform.cpp.s
 .PHONY : shared/Transform.cpp.s
 
 shared/Transform2d.o: shared/Transform2d.cpp.o
@@ -567,7 +567,7 @@ shared/Transform2d.o: shared/Transform2d.cpp.o
 
 # target to build an object file
 shared/Transform2d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform2d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform2d.cpp.o
 .PHONY : shared/Transform2d.cpp.o
 
 shared/Transform2d.i: shared/Transform2d.cpp.i
@@ -575,7 +575,7 @@ shared/Transform2d.i: shared/Transform2d.cpp.i
 
 # target to preprocess a source file
 shared/Transform2d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform2d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform2d.cpp.i
 .PHONY : shared/Transform2d.cpp.i
 
 shared/Transform2d.s: shared/Transform2d.cpp.s
@@ -583,7 +583,7 @@ shared/Transform2d.s: shared/Transform2d.cpp.s
 
 # target to generate assembly for a file
 shared/Transform2d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform2d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Transform2d.cpp.s
 .PHONY : shared/Transform2d.cpp.s
 
 shared/Vector.o: shared/Vector.cpp.o
@@ -591,7 +591,7 @@ shared/Vector.o: shared/Vector.cpp.o
 
 # target to build an object file
 shared/Vector.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Vector.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Vector.cpp.o
 .PHONY : shared/Vector.cpp.o
 
 shared/Vector.i: shared/Vector.cpp.i
@@ -599,7 +599,7 @@ shared/Vector.i: shared/Vector.cpp.i
 
 # target to preprocess a source file
 shared/Vector.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Vector.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Vector.cpp.i
 .PHONY : shared/Vector.cpp.i
 
 shared/Vector.s: shared/Vector.cpp.s
@@ -607,7 +607,7 @@ shared/Vector.s: shared/Vector.cpp.s
 
 # target to generate assembly for a file
 shared/Vector.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Vector.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Vector.cpp.s
 .PHONY : shared/Vector.cpp.s
 
 shared/VectorArgb.o: shared/VectorArgb.cpp.o
@@ -615,7 +615,7 @@ shared/VectorArgb.o: shared/VectorArgb.cpp.o
 
 # target to build an object file
 shared/VectorArgb.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/VectorArgb.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/VectorArgb.cpp.o
 .PHONY : shared/VectorArgb.cpp.o
 
 shared/VectorArgb.i: shared/VectorArgb.cpp.i
@@ -623,7 +623,7 @@ shared/VectorArgb.i: shared/VectorArgb.cpp.i
 
 # target to preprocess a source file
 shared/VectorArgb.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/VectorArgb.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/VectorArgb.cpp.i
 .PHONY : shared/VectorArgb.cpp.i
 
 shared/VectorArgb.s: shared/VectorArgb.cpp.s
@@ -631,7 +631,7 @@ shared/VectorArgb.s: shared/VectorArgb.cpp.s
 
 # target to generate assembly for a file
 shared/VectorArgb.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/VectorArgb.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/VectorArgb.cpp.s
 .PHONY : shared/VectorArgb.cpp.s
 
 shared/Volume.o: shared/Volume.cpp.o
@@ -639,7 +639,7 @@ shared/Volume.o: shared/Volume.cpp.o
 
 # target to build an object file
 shared/Volume.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Volume.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Volume.cpp.o
 .PHONY : shared/Volume.cpp.o
 
 shared/Volume.i: shared/Volume.cpp.i
@@ -647,7 +647,7 @@ shared/Volume.i: shared/Volume.cpp.i
 
 # target to preprocess a source file
 shared/Volume.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Volume.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Volume.cpp.i
 .PHONY : shared/Volume.cpp.i
 
 shared/Volume.s: shared/Volume.cpp.s
@@ -655,7 +655,7 @@ shared/Volume.s: shared/Volume.cpp.s
 
 # target to generate assembly for a file
 shared/Volume.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Volume.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/Volume.cpp.s
 .PHONY : shared/Volume.cpp.s
 
 shared/WaveForm.o: shared/WaveForm.cpp.o
@@ -663,7 +663,7 @@ shared/WaveForm.o: shared/WaveForm.cpp.o
 
 # target to build an object file
 shared/WaveForm.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm.cpp.o
 .PHONY : shared/WaveForm.cpp.o
 
 shared/WaveForm.i: shared/WaveForm.cpp.i
@@ -671,7 +671,7 @@ shared/WaveForm.i: shared/WaveForm.cpp.i
 
 # target to preprocess a source file
 shared/WaveForm.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm.cpp.i
 .PHONY : shared/WaveForm.cpp.i
 
 shared/WaveForm.s: shared/WaveForm.cpp.s
@@ -679,7 +679,7 @@ shared/WaveForm.s: shared/WaveForm.cpp.s
 
 # target to generate assembly for a file
 shared/WaveForm.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm.cpp.s
 .PHONY : shared/WaveForm.cpp.s
 
 shared/WaveForm3D.o: shared/WaveForm3D.cpp.o
@@ -687,7 +687,7 @@ shared/WaveForm3D.o: shared/WaveForm3D.cpp.o
 
 # target to build an object file
 shared/WaveForm3D.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm3D.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm3D.cpp.o
 .PHONY : shared/WaveForm3D.cpp.o
 
 shared/WaveForm3D.i: shared/WaveForm3D.cpp.i
@@ -695,7 +695,7 @@ shared/WaveForm3D.i: shared/WaveForm3D.cpp.i
 
 # target to preprocess a source file
 shared/WaveForm3D.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm3D.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm3D.cpp.i
 .PHONY : shared/WaveForm3D.cpp.i
 
 shared/WaveForm3D.s: shared/WaveForm3D.cpp.s
@@ -703,7 +703,7 @@ shared/WaveForm3D.s: shared/WaveForm3D.cpp.s
 
 # target to generate assembly for a file
 shared/WaveForm3D.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm3D.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/WaveForm3D.cpp.s
 .PHONY : shared/WaveForm3D.cpp.s
 
 shared/core/AxialBox.o: shared/core/AxialBox.cpp.o
@@ -711,7 +711,7 @@ shared/core/AxialBox.o: shared/core/AxialBox.cpp.o
 
 # target to build an object file
 shared/core/AxialBox.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/AxialBox.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/AxialBox.cpp.o
 .PHONY : shared/core/AxialBox.cpp.o
 
 shared/core/AxialBox.i: shared/core/AxialBox.cpp.i
@@ -719,7 +719,7 @@ shared/core/AxialBox.i: shared/core/AxialBox.cpp.i
 
 # target to preprocess a source file
 shared/core/AxialBox.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/AxialBox.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/AxialBox.cpp.i
 .PHONY : shared/core/AxialBox.cpp.i
 
 shared/core/AxialBox.s: shared/core/AxialBox.cpp.s
@@ -727,7 +727,7 @@ shared/core/AxialBox.s: shared/core/AxialBox.cpp.s
 
 # target to generate assembly for a file
 shared/core/AxialBox.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/AxialBox.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/AxialBox.cpp.s
 .PHONY : shared/core/AxialBox.cpp.s
 
 shared/core/Capsule.o: shared/core/Capsule.cpp.o
@@ -735,7 +735,7 @@ shared/core/Capsule.o: shared/core/Capsule.cpp.o
 
 # target to build an object file
 shared/core/Capsule.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Capsule.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Capsule.cpp.o
 .PHONY : shared/core/Capsule.cpp.o
 
 shared/core/Capsule.i: shared/core/Capsule.cpp.i
@@ -743,7 +743,7 @@ shared/core/Capsule.i: shared/core/Capsule.cpp.i
 
 # target to preprocess a source file
 shared/core/Capsule.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Capsule.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Capsule.cpp.i
 .PHONY : shared/core/Capsule.cpp.i
 
 shared/core/Capsule.s: shared/core/Capsule.cpp.s
@@ -751,7 +751,7 @@ shared/core/Capsule.s: shared/core/Capsule.cpp.s
 
 # target to generate assembly for a file
 shared/core/Capsule.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Capsule.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Capsule.cpp.s
 .PHONY : shared/core/Capsule.cpp.s
 
 shared/core/Circle.o: shared/core/Circle.cpp.o
@@ -759,7 +759,7 @@ shared/core/Circle.o: shared/core/Circle.cpp.o
 
 # target to build an object file
 shared/core/Circle.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Circle.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Circle.cpp.o
 .PHONY : shared/core/Circle.cpp.o
 
 shared/core/Circle.i: shared/core/Circle.cpp.i
@@ -767,7 +767,7 @@ shared/core/Circle.i: shared/core/Circle.cpp.i
 
 # target to preprocess a source file
 shared/core/Circle.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Circle.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Circle.cpp.i
 .PHONY : shared/core/Circle.cpp.i
 
 shared/core/Circle.s: shared/core/Circle.cpp.s
@@ -775,7 +775,7 @@ shared/core/Circle.s: shared/core/Circle.cpp.s
 
 # target to generate assembly for a file
 shared/core/Circle.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Circle.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Circle.cpp.s
 .PHONY : shared/core/Circle.cpp.s
 
 shared/core/Cylinder.o: shared/core/Cylinder.cpp.o
@@ -783,7 +783,7 @@ shared/core/Cylinder.o: shared/core/Cylinder.cpp.o
 
 # target to build an object file
 shared/core/Cylinder.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Cylinder.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Cylinder.cpp.o
 .PHONY : shared/core/Cylinder.cpp.o
 
 shared/core/Cylinder.i: shared/core/Cylinder.cpp.i
@@ -791,7 +791,7 @@ shared/core/Cylinder.i: shared/core/Cylinder.cpp.i
 
 # target to preprocess a source file
 shared/core/Cylinder.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Cylinder.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Cylinder.cpp.i
 .PHONY : shared/core/Cylinder.cpp.i
 
 shared/core/Cylinder.s: shared/core/Cylinder.cpp.s
@@ -799,7 +799,7 @@ shared/core/Cylinder.s: shared/core/Cylinder.cpp.s
 
 # target to generate assembly for a file
 shared/core/Cylinder.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Cylinder.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Cylinder.cpp.s
 .PHONY : shared/core/Cylinder.cpp.s
 
 shared/core/Line3d.o: shared/core/Line3d.cpp.o
@@ -807,7 +807,7 @@ shared/core/Line3d.o: shared/core/Line3d.cpp.o
 
 # target to build an object file
 shared/core/Line3d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Line3d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Line3d.cpp.o
 .PHONY : shared/core/Line3d.cpp.o
 
 shared/core/Line3d.i: shared/core/Line3d.cpp.i
@@ -815,7 +815,7 @@ shared/core/Line3d.i: shared/core/Line3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Line3d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Line3d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Line3d.cpp.i
 .PHONY : shared/core/Line3d.cpp.i
 
 shared/core/Line3d.s: shared/core/Line3d.cpp.s
@@ -823,7 +823,7 @@ shared/core/Line3d.s: shared/core/Line3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Line3d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Line3d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Line3d.cpp.s
 .PHONY : shared/core/Line3d.cpp.s
 
 shared/core/MultiShape.o: shared/core/MultiShape.cpp.o
@@ -831,7 +831,7 @@ shared/core/MultiShape.o: shared/core/MultiShape.cpp.o
 
 # target to build an object file
 shared/core/MultiShape.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/MultiShape.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/MultiShape.cpp.o
 .PHONY : shared/core/MultiShape.cpp.o
 
 shared/core/MultiShape.i: shared/core/MultiShape.cpp.i
@@ -839,7 +839,7 @@ shared/core/MultiShape.i: shared/core/MultiShape.cpp.i
 
 # target to preprocess a source file
 shared/core/MultiShape.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/MultiShape.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/MultiShape.cpp.i
 .PHONY : shared/core/MultiShape.cpp.i
 
 shared/core/MultiShape.s: shared/core/MultiShape.cpp.s
@@ -847,7 +847,7 @@ shared/core/MultiShape.s: shared/core/MultiShape.cpp.s
 
 # target to generate assembly for a file
 shared/core/MultiShape.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/MultiShape.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/MultiShape.cpp.s
 .PHONY : shared/core/MultiShape.cpp.s
 
 shared/core/OrientedBox.o: shared/core/OrientedBox.cpp.o
@@ -855,7 +855,7 @@ shared/core/OrientedBox.o: shared/core/OrientedBox.cpp.o
 
 # target to build an object file
 shared/core/OrientedBox.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedBox.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedBox.cpp.o
 .PHONY : shared/core/OrientedBox.cpp.o
 
 shared/core/OrientedBox.i: shared/core/OrientedBox.cpp.i
@@ -863,7 +863,7 @@ shared/core/OrientedBox.i: shared/core/OrientedBox.cpp.i
 
 # target to preprocess a source file
 shared/core/OrientedBox.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedBox.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedBox.cpp.i
 .PHONY : shared/core/OrientedBox.cpp.i
 
 shared/core/OrientedBox.s: shared/core/OrientedBox.cpp.s
@@ -871,7 +871,7 @@ shared/core/OrientedBox.s: shared/core/OrientedBox.cpp.s
 
 # target to generate assembly for a file
 shared/core/OrientedBox.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedBox.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedBox.cpp.s
 .PHONY : shared/core/OrientedBox.cpp.s
 
 shared/core/OrientedCircle.o: shared/core/OrientedCircle.cpp.o
@@ -879,7 +879,7 @@ shared/core/OrientedCircle.o: shared/core/OrientedCircle.cpp.o
 
 # target to build an object file
 shared/core/OrientedCircle.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCircle.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCircle.cpp.o
 .PHONY : shared/core/OrientedCircle.cpp.o
 
 shared/core/OrientedCircle.i: shared/core/OrientedCircle.cpp.i
@@ -887,7 +887,7 @@ shared/core/OrientedCircle.i: shared/core/OrientedCircle.cpp.i
 
 # target to preprocess a source file
 shared/core/OrientedCircle.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCircle.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCircle.cpp.i
 .PHONY : shared/core/OrientedCircle.cpp.i
 
 shared/core/OrientedCircle.s: shared/core/OrientedCircle.cpp.s
@@ -895,7 +895,7 @@ shared/core/OrientedCircle.s: shared/core/OrientedCircle.cpp.s
 
 # target to generate assembly for a file
 shared/core/OrientedCircle.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCircle.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCircle.cpp.s
 .PHONY : shared/core/OrientedCircle.cpp.s
 
 shared/core/OrientedCylinder.o: shared/core/OrientedCylinder.cpp.o
@@ -903,7 +903,7 @@ shared/core/OrientedCylinder.o: shared/core/OrientedCylinder.cpp.o
 
 # target to build an object file
 shared/core/OrientedCylinder.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCylinder.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCylinder.cpp.o
 .PHONY : shared/core/OrientedCylinder.cpp.o
 
 shared/core/OrientedCylinder.i: shared/core/OrientedCylinder.cpp.i
@@ -911,7 +911,7 @@ shared/core/OrientedCylinder.i: shared/core/OrientedCylinder.cpp.i
 
 # target to preprocess a source file
 shared/core/OrientedCylinder.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCylinder.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCylinder.cpp.i
 .PHONY : shared/core/OrientedCylinder.cpp.i
 
 shared/core/OrientedCylinder.s: shared/core/OrientedCylinder.cpp.s
@@ -919,7 +919,7 @@ shared/core/OrientedCylinder.s: shared/core/OrientedCylinder.cpp.s
 
 # target to generate assembly for a file
 shared/core/OrientedCylinder.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCylinder.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/OrientedCylinder.cpp.s
 .PHONY : shared/core/OrientedCylinder.cpp.s
 
 shared/core/Plane3d.o: shared/core/Plane3d.cpp.o
@@ -927,7 +927,7 @@ shared/core/Plane3d.o: shared/core/Plane3d.cpp.o
 
 # target to build an object file
 shared/core/Plane3d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Plane3d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Plane3d.cpp.o
 .PHONY : shared/core/Plane3d.cpp.o
 
 shared/core/Plane3d.i: shared/core/Plane3d.cpp.i
@@ -935,7 +935,7 @@ shared/core/Plane3d.i: shared/core/Plane3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Plane3d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Plane3d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Plane3d.cpp.i
 .PHONY : shared/core/Plane3d.cpp.i
 
 shared/core/Plane3d.s: shared/core/Plane3d.cpp.s
@@ -943,7 +943,7 @@ shared/core/Plane3d.s: shared/core/Plane3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Plane3d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Plane3d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Plane3d.cpp.s
 .PHONY : shared/core/Plane3d.cpp.s
 
 shared/core/Quadratic.o: shared/core/Quadratic.cpp.o
@@ -951,7 +951,7 @@ shared/core/Quadratic.o: shared/core/Quadratic.cpp.o
 
 # target to build an object file
 shared/core/Quadratic.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Quadratic.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Quadratic.cpp.o
 .PHONY : shared/core/Quadratic.cpp.o
 
 shared/core/Quadratic.i: shared/core/Quadratic.cpp.i
@@ -959,7 +959,7 @@ shared/core/Quadratic.i: shared/core/Quadratic.cpp.i
 
 # target to preprocess a source file
 shared/core/Quadratic.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Quadratic.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Quadratic.cpp.i
 .PHONY : shared/core/Quadratic.cpp.i
 
 shared/core/Quadratic.s: shared/core/Quadratic.cpp.s
@@ -967,7 +967,7 @@ shared/core/Quadratic.s: shared/core/Quadratic.cpp.s
 
 # target to generate assembly for a file
 shared/core/Quadratic.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Quadratic.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Quadratic.cpp.s
 .PHONY : shared/core/Quadratic.cpp.s
 
 shared/core/Range.o: shared/core/Range.cpp.o
@@ -975,7 +975,7 @@ shared/core/Range.o: shared/core/Range.cpp.o
 
 # target to build an object file
 shared/core/Range.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Range.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Range.cpp.o
 .PHONY : shared/core/Range.cpp.o
 
 shared/core/Range.i: shared/core/Range.cpp.i
@@ -983,7 +983,7 @@ shared/core/Range.i: shared/core/Range.cpp.i
 
 # target to preprocess a source file
 shared/core/Range.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Range.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Range.cpp.i
 .PHONY : shared/core/Range.cpp.i
 
 shared/core/Range.s: shared/core/Range.cpp.s
@@ -991,7 +991,7 @@ shared/core/Range.s: shared/core/Range.cpp.s
 
 # target to generate assembly for a file
 shared/core/Range.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Range.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Range.cpp.s
 .PHONY : shared/core/Range.cpp.s
 
 shared/core/RangeLoop.o: shared/core/RangeLoop.cpp.o
@@ -999,7 +999,7 @@ shared/core/RangeLoop.o: shared/core/RangeLoop.cpp.o
 
 # target to build an object file
 shared/core/RangeLoop.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/RangeLoop.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/RangeLoop.cpp.o
 .PHONY : shared/core/RangeLoop.cpp.o
 
 shared/core/RangeLoop.i: shared/core/RangeLoop.cpp.i
@@ -1007,7 +1007,7 @@ shared/core/RangeLoop.i: shared/core/RangeLoop.cpp.i
 
 # target to preprocess a source file
 shared/core/RangeLoop.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/RangeLoop.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/RangeLoop.cpp.i
 .PHONY : shared/core/RangeLoop.cpp.i
 
 shared/core/RangeLoop.s: shared/core/RangeLoop.cpp.s
@@ -1015,7 +1015,7 @@ shared/core/RangeLoop.s: shared/core/RangeLoop.cpp.s
 
 # target to generate assembly for a file
 shared/core/RangeLoop.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/RangeLoop.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/RangeLoop.cpp.s
 .PHONY : shared/core/RangeLoop.cpp.s
 
 shared/core/Ray3d.o: shared/core/Ray3d.cpp.o
@@ -1023,7 +1023,7 @@ shared/core/Ray3d.o: shared/core/Ray3d.cpp.o
 
 # target to build an object file
 shared/core/Ray3d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ray3d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ray3d.cpp.o
 .PHONY : shared/core/Ray3d.cpp.o
 
 shared/core/Ray3d.i: shared/core/Ray3d.cpp.i
@@ -1031,7 +1031,7 @@ shared/core/Ray3d.i: shared/core/Ray3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Ray3d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ray3d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ray3d.cpp.i
 .PHONY : shared/core/Ray3d.cpp.i
 
 shared/core/Ray3d.s: shared/core/Ray3d.cpp.s
@@ -1039,7 +1039,7 @@ shared/core/Ray3d.s: shared/core/Ray3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Ray3d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ray3d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ray3d.cpp.s
 .PHONY : shared/core/Ray3d.cpp.s
 
 shared/core/Ribbon3d.o: shared/core/Ribbon3d.cpp.o
@@ -1047,7 +1047,7 @@ shared/core/Ribbon3d.o: shared/core/Ribbon3d.cpp.o
 
 # target to build an object file
 shared/core/Ribbon3d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ribbon3d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ribbon3d.cpp.o
 .PHONY : shared/core/Ribbon3d.cpp.o
 
 shared/core/Ribbon3d.i: shared/core/Ribbon3d.cpp.i
@@ -1055,7 +1055,7 @@ shared/core/Ribbon3d.i: shared/core/Ribbon3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Ribbon3d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ribbon3d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ribbon3d.cpp.i
 .PHONY : shared/core/Ribbon3d.cpp.i
 
 shared/core/Ribbon3d.s: shared/core/Ribbon3d.cpp.s
@@ -1063,7 +1063,7 @@ shared/core/Ribbon3d.s: shared/core/Ribbon3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Ribbon3d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ribbon3d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ribbon3d.cpp.s
 .PHONY : shared/core/Ribbon3d.cpp.s
 
 shared/core/Ring.o: shared/core/Ring.cpp.o
@@ -1071,7 +1071,7 @@ shared/core/Ring.o: shared/core/Ring.cpp.o
 
 # target to build an object file
 shared/core/Ring.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ring.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ring.cpp.o
 .PHONY : shared/core/Ring.cpp.o
 
 shared/core/Ring.i: shared/core/Ring.cpp.i
@@ -1079,7 +1079,7 @@ shared/core/Ring.i: shared/core/Ring.cpp.i
 
 # target to preprocess a source file
 shared/core/Ring.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ring.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ring.cpp.i
 .PHONY : shared/core/Ring.cpp.i
 
 shared/core/Ring.s: shared/core/Ring.cpp.s
@@ -1087,7 +1087,7 @@ shared/core/Ring.s: shared/core/Ring.cpp.s
 
 # target to generate assembly for a file
 shared/core/Ring.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ring.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Ring.cpp.s
 .PHONY : shared/core/Ring.cpp.s
 
 shared/core/Segment3d.o: shared/core/Segment3d.cpp.o
@@ -1095,7 +1095,7 @@ shared/core/Segment3d.o: shared/core/Segment3d.cpp.o
 
 # target to build an object file
 shared/core/Segment3d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Segment3d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Segment3d.cpp.o
 .PHONY : shared/core/Segment3d.cpp.o
 
 shared/core/Segment3d.i: shared/core/Segment3d.cpp.i
@@ -1103,7 +1103,7 @@ shared/core/Segment3d.i: shared/core/Segment3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Segment3d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Segment3d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Segment3d.cpp.i
 .PHONY : shared/core/Segment3d.cpp.i
 
 shared/core/Segment3d.s: shared/core/Segment3d.cpp.s
@@ -1111,7 +1111,7 @@ shared/core/Segment3d.s: shared/core/Segment3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Segment3d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Segment3d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Segment3d.cpp.s
 .PHONY : shared/core/Segment3d.cpp.s
 
 shared/core/ShapeUtils.o: shared/core/ShapeUtils.cpp.o
@@ -1119,7 +1119,7 @@ shared/core/ShapeUtils.o: shared/core/ShapeUtils.cpp.o
 
 # target to build an object file
 shared/core/ShapeUtils.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/ShapeUtils.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/ShapeUtils.cpp.o
 .PHONY : shared/core/ShapeUtils.cpp.o
 
 shared/core/ShapeUtils.i: shared/core/ShapeUtils.cpp.i
@@ -1127,7 +1127,7 @@ shared/core/ShapeUtils.i: shared/core/ShapeUtils.cpp.i
 
 # target to preprocess a source file
 shared/core/ShapeUtils.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/ShapeUtils.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/ShapeUtils.cpp.i
 .PHONY : shared/core/ShapeUtils.cpp.i
 
 shared/core/ShapeUtils.s: shared/core/ShapeUtils.cpp.s
@@ -1135,7 +1135,7 @@ shared/core/ShapeUtils.s: shared/core/ShapeUtils.cpp.s
 
 # target to generate assembly for a file
 shared/core/ShapeUtils.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/ShapeUtils.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/ShapeUtils.cpp.s
 .PHONY : shared/core/ShapeUtils.cpp.s
 
 shared/core/Torus.o: shared/core/Torus.cpp.o
@@ -1143,7 +1143,7 @@ shared/core/Torus.o: shared/core/Torus.cpp.o
 
 # target to build an object file
 shared/core/Torus.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Torus.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Torus.cpp.o
 .PHONY : shared/core/Torus.cpp.o
 
 shared/core/Torus.i: shared/core/Torus.cpp.i
@@ -1151,7 +1151,7 @@ shared/core/Torus.i: shared/core/Torus.cpp.i
 
 # target to preprocess a source file
 shared/core/Torus.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Torus.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Torus.cpp.i
 .PHONY : shared/core/Torus.cpp.i
 
 shared/core/Torus.s: shared/core/Torus.cpp.s
@@ -1159,7 +1159,7 @@ shared/core/Torus.s: shared/core/Torus.cpp.s
 
 # target to generate assembly for a file
 shared/core/Torus.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Torus.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Torus.cpp.s
 .PHONY : shared/core/Torus.cpp.s
 
 shared/core/Triangle2d.o: shared/core/Triangle2d.cpp.o
@@ -1167,7 +1167,7 @@ shared/core/Triangle2d.o: shared/core/Triangle2d.cpp.o
 
 # target to build an object file
 shared/core/Triangle2d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle2d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle2d.cpp.o
 .PHONY : shared/core/Triangle2d.cpp.o
 
 shared/core/Triangle2d.i: shared/core/Triangle2d.cpp.i
@@ -1175,7 +1175,7 @@ shared/core/Triangle2d.i: shared/core/Triangle2d.cpp.i
 
 # target to preprocess a source file
 shared/core/Triangle2d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle2d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle2d.cpp.i
 .PHONY : shared/core/Triangle2d.cpp.i
 
 shared/core/Triangle2d.s: shared/core/Triangle2d.cpp.s
@@ -1183,7 +1183,7 @@ shared/core/Triangle2d.s: shared/core/Triangle2d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Triangle2d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle2d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle2d.cpp.s
 .PHONY : shared/core/Triangle2d.cpp.s
 
 shared/core/Triangle3d.o: shared/core/Triangle3d.cpp.o
@@ -1191,7 +1191,7 @@ shared/core/Triangle3d.o: shared/core/Triangle3d.cpp.o
 
 # target to build an object file
 shared/core/Triangle3d.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle3d.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle3d.cpp.o
 .PHONY : shared/core/Triangle3d.cpp.o
 
 shared/core/Triangle3d.i: shared/core/Triangle3d.cpp.i
@@ -1199,7 +1199,7 @@ shared/core/Triangle3d.i: shared/core/Triangle3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Triangle3d.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle3d.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle3d.cpp.i
 .PHONY : shared/core/Triangle3d.cpp.i
 
 shared/core/Triangle3d.s: shared/core/Triangle3d.cpp.s
@@ -1207,7 +1207,7 @@ shared/core/Triangle3d.s: shared/core/Triangle3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Triangle3d.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle3d.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/Triangle3d.cpp.s
 .PHONY : shared/core/Triangle3d.cpp.s
 
 shared/core/YawedBox.o: shared/core/YawedBox.cpp.o
@@ -1215,7 +1215,7 @@ shared/core/YawedBox.o: shared/core/YawedBox.cpp.o
 
 # target to build an object file
 shared/core/YawedBox.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/YawedBox.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/YawedBox.cpp.o
 .PHONY : shared/core/YawedBox.cpp.o
 
 shared/core/YawedBox.i: shared/core/YawedBox.cpp.i
@@ -1223,7 +1223,7 @@ shared/core/YawedBox.i: shared/core/YawedBox.cpp.i
 
 # target to preprocess a source file
 shared/core/YawedBox.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/YawedBox.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/YawedBox.cpp.i
 .PHONY : shared/core/YawedBox.cpp.i
 
 shared/core/YawedBox.s: shared/core/YawedBox.cpp.s
@@ -1231,7 +1231,7 @@ shared/core/YawedBox.s: shared/core/YawedBox.cpp.s
 
 # target to generate assembly for a file
 shared/core/YawedBox.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/YawedBox.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/core/YawedBox.cpp.s
 .PHONY : shared/core/YawedBox.cpp.s
 
 shared/debug/DebugShapeRenderer.o: shared/debug/DebugShapeRenderer.cpp.o
@@ -1239,7 +1239,7 @@ shared/debug/DebugShapeRenderer.o: shared/debug/DebugShapeRenderer.cpp.o
 
 # target to build an object file
 shared/debug/DebugShapeRenderer.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/debug/DebugShapeRenderer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/debug/DebugShapeRenderer.cpp.o
 .PHONY : shared/debug/DebugShapeRenderer.cpp.o
 
 shared/debug/DebugShapeRenderer.i: shared/debug/DebugShapeRenderer.cpp.i
@@ -1247,7 +1247,7 @@ shared/debug/DebugShapeRenderer.i: shared/debug/DebugShapeRenderer.cpp.i
 
 # target to preprocess a source file
 shared/debug/DebugShapeRenderer.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/debug/DebugShapeRenderer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/debug/DebugShapeRenderer.cpp.i
 .PHONY : shared/debug/DebugShapeRenderer.cpp.i
 
 shared/debug/DebugShapeRenderer.s: shared/debug/DebugShapeRenderer.cpp.s
@@ -1255,7 +1255,7 @@ shared/debug/DebugShapeRenderer.s: shared/debug/DebugShapeRenderer.cpp.s
 
 # target to generate assembly for a file
 shared/debug/DebugShapeRenderer.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/debug/DebugShapeRenderer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/shared/debug/DebugShapeRenderer.cpp.s
 .PHONY : shared/debug/DebugShapeRenderer.cpp.s
 
 # Help Target
@@ -1419,6 +1419,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

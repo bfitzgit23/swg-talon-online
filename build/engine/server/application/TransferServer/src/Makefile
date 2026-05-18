@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/rule
 .PHONY : engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ TransferServer: engine/server/application/TransferServer/src/CMakeFiles/Transfer
 
 # fast build rule for target.
 TransferServer/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build
 .PHONY : TransferServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/CTSAPIClient.o: shared/CTSAPIClient.cpp.o
@@ -159,7 +159,7 @@ shared/CTSAPIClient.o: shared/CTSAPIClient.cpp.o
 
 # target to build an object file
 shared/CTSAPIClient.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o
 .PHONY : shared/CTSAPIClient.cpp.o
 
 shared/CTSAPIClient.i: shared/CTSAPIClient.cpp.i
@@ -167,7 +167,7 @@ shared/CTSAPIClient.i: shared/CTSAPIClient.cpp.i
 
 # target to preprocess a source file
 shared/CTSAPIClient.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.i
 .PHONY : shared/CTSAPIClient.cpp.i
 
 shared/CTSAPIClient.s: shared/CTSAPIClient.cpp.s
@@ -175,7 +175,7 @@ shared/CTSAPIClient.s: shared/CTSAPIClient.cpp.s
 
 # target to generate assembly for a file
 shared/CTSAPIClient.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.s
 .PHONY : shared/CTSAPIClient.cpp.s
 
 shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
@@ -183,7 +183,7 @@ shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
 
 # target to build an object file
 shared/CentralServerConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o
 .PHONY : shared/CentralServerConnection.cpp.o
 
 shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
@@ -191,7 +191,7 @@ shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/CentralServerConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.i
 .PHONY : shared/CentralServerConnection.cpp.i
 
 shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
@@ -199,7 +199,7 @@ shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CentralServerConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.s
 .PHONY : shared/CentralServerConnection.cpp.s
 
 shared/ConfigTransferServer.o: shared/ConfigTransferServer.cpp.o
@@ -207,7 +207,7 @@ shared/ConfigTransferServer.o: shared/ConfigTransferServer.cpp.o
 
 # target to build an object file
 shared/ConfigTransferServer.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o
 .PHONY : shared/ConfigTransferServer.cpp.o
 
 shared/ConfigTransferServer.i: shared/ConfigTransferServer.cpp.i
@@ -215,7 +215,7 @@ shared/ConfigTransferServer.i: shared/ConfigTransferServer.cpp.i
 
 # target to preprocess a source file
 shared/ConfigTransferServer.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.i
 .PHONY : shared/ConfigTransferServer.cpp.i
 
 shared/ConfigTransferServer.s: shared/ConfigTransferServer.cpp.s
@@ -223,7 +223,7 @@ shared/ConfigTransferServer.s: shared/ConfigTransferServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigTransferServer.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.s
 .PHONY : shared/ConfigTransferServer.cpp.s
 
 shared/ConsoleCommandParser.o: shared/ConsoleCommandParser.cpp.o
@@ -231,7 +231,7 @@ shared/ConsoleCommandParser.o: shared/ConsoleCommandParser.cpp.o
 
 # target to build an object file
 shared/ConsoleCommandParser.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o
 .PHONY : shared/ConsoleCommandParser.cpp.o
 
 shared/ConsoleCommandParser.i: shared/ConsoleCommandParser.cpp.i
@@ -239,7 +239,7 @@ shared/ConsoleCommandParser.i: shared/ConsoleCommandParser.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleCommandParser.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.i
 .PHONY : shared/ConsoleCommandParser.cpp.i
 
 shared/ConsoleCommandParser.s: shared/ConsoleCommandParser.cpp.s
@@ -247,7 +247,7 @@ shared/ConsoleCommandParser.s: shared/ConsoleCommandParser.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleCommandParser.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.s
 .PHONY : shared/ConsoleCommandParser.cpp.s
 
 shared/ConsoleManager.o: shared/ConsoleManager.cpp.o
@@ -255,7 +255,7 @@ shared/ConsoleManager.o: shared/ConsoleManager.cpp.o
 
 # target to build an object file
 shared/ConsoleManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o
 .PHONY : shared/ConsoleManager.cpp.o
 
 shared/ConsoleManager.i: shared/ConsoleManager.cpp.i
@@ -263,7 +263,7 @@ shared/ConsoleManager.i: shared/ConsoleManager.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.i
 .PHONY : shared/ConsoleManager.cpp.i
 
 shared/ConsoleManager.s: shared/ConsoleManager.cpp.s
@@ -271,7 +271,7 @@ shared/ConsoleManager.s: shared/ConsoleManager.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.s
 .PHONY : shared/ConsoleManager.cpp.s
 
 shared/TransferServer.o: shared/TransferServer.cpp.o
@@ -279,7 +279,7 @@ shared/TransferServer.o: shared/TransferServer.cpp.o
 
 # target to build an object file
 shared/TransferServer.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o
 .PHONY : shared/TransferServer.cpp.o
 
 shared/TransferServer.i: shared/TransferServer.cpp.i
@@ -287,7 +287,7 @@ shared/TransferServer.i: shared/TransferServer.cpp.i
 
 # target to preprocess a source file
 shared/TransferServer.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.i
 .PHONY : shared/TransferServer.cpp.i
 
 shared/TransferServer.s: shared/TransferServer.cpp.s
@@ -295,7 +295,7 @@ shared/TransferServer.s: shared/TransferServer.cpp.s
 
 # target to generate assembly for a file
 shared/TransferServer.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.s
 .PHONY : shared/TransferServer.cpp.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

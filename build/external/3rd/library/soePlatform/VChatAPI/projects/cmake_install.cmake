@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects
+# Install script for directory: /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-returns-nge/build/external/3rd/library/soePlatform/VChatAPI/projects/VChat/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/external/3rd/library/soePlatform/VChatAPI/projects/VChat/cmake_install.cmake")
 
 endif()
 

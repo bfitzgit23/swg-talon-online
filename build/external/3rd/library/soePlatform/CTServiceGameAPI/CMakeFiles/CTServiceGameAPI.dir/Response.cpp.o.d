@@ -1,8 +1,8 @@
 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Response.cpp.o: \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/Response.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/Response.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/Response.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/CTGenericAPI/GenericMessage.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/Response.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/CTGenericAPI/GenericMessage.h \
  /usr/include/time.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
@@ -16,7 +16,7 @@ external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.di
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/Archive.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/Archive.h \
  /usr/include/assert.h /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -103,8 +103,8 @@ external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.di
  /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/Platform.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/linux/Platform.h \
  /usr/include/sys/errno.h /usr/include/resolv.h /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -149,11 +149,11 @@ external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.di
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/linux/Archive.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/CTCommon/RequestStrings.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/CTCommon/CTEnum.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/Base/linux/Archive.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/CTCommon/RequestStrings.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/CTCommon/CTEnum.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/ext/aligned_buffer.h \
  /usr/include/c++/8/bits/node_handle.h /usr/include/c++/8/optional \

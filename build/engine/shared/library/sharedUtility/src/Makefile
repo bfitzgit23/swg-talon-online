@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedUtility/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedUtility/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/rule
 .PHONY : engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedUtility: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.
 
 # fast build rule for target.
 sharedUtility/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build
 .PHONY : sharedUtility/fast
 
 shared/BakedTerrain.o: shared/BakedTerrain.cpp.o
@@ -135,7 +135,7 @@ shared/BakedTerrain.o: shared/BakedTerrain.cpp.o
 
 # target to build an object file
 shared/BakedTerrain.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrain.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrain.cpp.o
 .PHONY : shared/BakedTerrain.cpp.o
 
 shared/BakedTerrain.i: shared/BakedTerrain.cpp.i
@@ -143,7 +143,7 @@ shared/BakedTerrain.i: shared/BakedTerrain.cpp.i
 
 # target to preprocess a source file
 shared/BakedTerrain.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrain.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrain.cpp.i
 .PHONY : shared/BakedTerrain.cpp.i
 
 shared/BakedTerrain.s: shared/BakedTerrain.cpp.s
@@ -151,7 +151,7 @@ shared/BakedTerrain.s: shared/BakedTerrain.cpp.s
 
 # target to generate assembly for a file
 shared/BakedTerrain.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrain.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrain.cpp.s
 .PHONY : shared/BakedTerrain.cpp.s
 
 shared/BakedTerrainReader.o: shared/BakedTerrainReader.cpp.o
@@ -159,7 +159,7 @@ shared/BakedTerrainReader.o: shared/BakedTerrainReader.cpp.o
 
 # target to build an object file
 shared/BakedTerrainReader.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrainReader.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrainReader.cpp.o
 .PHONY : shared/BakedTerrainReader.cpp.o
 
 shared/BakedTerrainReader.i: shared/BakedTerrainReader.cpp.i
@@ -167,7 +167,7 @@ shared/BakedTerrainReader.i: shared/BakedTerrainReader.cpp.i
 
 # target to preprocess a source file
 shared/BakedTerrainReader.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrainReader.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrainReader.cpp.i
 .PHONY : shared/BakedTerrainReader.cpp.i
 
 shared/BakedTerrainReader.s: shared/BakedTerrainReader.cpp.s
@@ -175,7 +175,7 @@ shared/BakedTerrainReader.s: shared/BakedTerrainReader.cpp.s
 
 # target to generate assembly for a file
 shared/BakedTerrainReader.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrainReader.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/BakedTerrainReader.cpp.s
 .PHONY : shared/BakedTerrainReader.cpp.s
 
 shared/CachedFileManager.o: shared/CachedFileManager.cpp.o
@@ -183,7 +183,7 @@ shared/CachedFileManager.o: shared/CachedFileManager.cpp.o
 
 # target to build an object file
 shared/CachedFileManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CachedFileManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CachedFileManager.cpp.o
 .PHONY : shared/CachedFileManager.cpp.o
 
 shared/CachedFileManager.i: shared/CachedFileManager.cpp.i
@@ -191,7 +191,7 @@ shared/CachedFileManager.i: shared/CachedFileManager.cpp.i
 
 # target to preprocess a source file
 shared/CachedFileManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CachedFileManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CachedFileManager.cpp.i
 .PHONY : shared/CachedFileManager.cpp.i
 
 shared/CachedFileManager.s: shared/CachedFileManager.cpp.s
@@ -199,7 +199,7 @@ shared/CachedFileManager.s: shared/CachedFileManager.cpp.s
 
 # target to generate assembly for a file
 shared/CachedFileManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CachedFileManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CachedFileManager.cpp.s
 .PHONY : shared/CachedFileManager.cpp.s
 
 shared/Callback.o: shared/Callback.cpp.o
@@ -207,7 +207,7 @@ shared/Callback.o: shared/Callback.cpp.o
 
 # target to build an object file
 shared/Callback.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Callback.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Callback.cpp.o
 .PHONY : shared/Callback.cpp.o
 
 shared/Callback.i: shared/Callback.cpp.i
@@ -215,7 +215,7 @@ shared/Callback.i: shared/Callback.cpp.i
 
 # target to preprocess a source file
 shared/Callback.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Callback.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Callback.cpp.i
 .PHONY : shared/Callback.cpp.i
 
 shared/Callback.s: shared/Callback.cpp.s
@@ -223,7 +223,7 @@ shared/Callback.s: shared/Callback.cpp.s
 
 # target to generate assembly for a file
 shared/Callback.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Callback.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Callback.cpp.s
 .PHONY : shared/Callback.cpp.s
 
 shared/ConfigSharedUtility.o: shared/ConfigSharedUtility.cpp.o
@@ -231,7 +231,7 @@ shared/ConfigSharedUtility.o: shared/ConfigSharedUtility.cpp.o
 
 # target to build an object file
 shared/ConfigSharedUtility.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ConfigSharedUtility.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ConfigSharedUtility.cpp.o
 .PHONY : shared/ConfigSharedUtility.cpp.o
 
 shared/ConfigSharedUtility.i: shared/ConfigSharedUtility.cpp.i
@@ -239,7 +239,7 @@ shared/ConfigSharedUtility.i: shared/ConfigSharedUtility.cpp.i
 
 # target to preprocess a source file
 shared/ConfigSharedUtility.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ConfigSharedUtility.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ConfigSharedUtility.cpp.i
 .PHONY : shared/ConfigSharedUtility.cpp.i
 
 shared/ConfigSharedUtility.s: shared/ConfigSharedUtility.cpp.s
@@ -247,7 +247,7 @@ shared/ConfigSharedUtility.s: shared/ConfigSharedUtility.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigSharedUtility.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ConfigSharedUtility.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ConfigSharedUtility.cpp.s
 .PHONY : shared/ConfigSharedUtility.cpp.s
 
 shared/CurrentUserOptionManager.o: shared/CurrentUserOptionManager.cpp.o
@@ -255,7 +255,7 @@ shared/CurrentUserOptionManager.o: shared/CurrentUserOptionManager.cpp.o
 
 # target to build an object file
 shared/CurrentUserOptionManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CurrentUserOptionManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CurrentUserOptionManager.cpp.o
 .PHONY : shared/CurrentUserOptionManager.cpp.o
 
 shared/CurrentUserOptionManager.i: shared/CurrentUserOptionManager.cpp.i
@@ -263,7 +263,7 @@ shared/CurrentUserOptionManager.i: shared/CurrentUserOptionManager.cpp.i
 
 # target to preprocess a source file
 shared/CurrentUserOptionManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CurrentUserOptionManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CurrentUserOptionManager.cpp.i
 .PHONY : shared/CurrentUserOptionManager.cpp.i
 
 shared/CurrentUserOptionManager.s: shared/CurrentUserOptionManager.cpp.s
@@ -271,7 +271,7 @@ shared/CurrentUserOptionManager.s: shared/CurrentUserOptionManager.cpp.s
 
 # target to generate assembly for a file
 shared/CurrentUserOptionManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CurrentUserOptionManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/CurrentUserOptionManager.cpp.s
 .PHONY : shared/CurrentUserOptionManager.cpp.s
 
 shared/DataTable.o: shared/DataTable.cpp.o
@@ -279,7 +279,7 @@ shared/DataTable.o: shared/DataTable.cpp.o
 
 # target to build an object file
 shared/DataTable.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTable.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTable.cpp.o
 .PHONY : shared/DataTable.cpp.o
 
 shared/DataTable.i: shared/DataTable.cpp.i
@@ -287,7 +287,7 @@ shared/DataTable.i: shared/DataTable.cpp.i
 
 # target to preprocess a source file
 shared/DataTable.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTable.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTable.cpp.i
 .PHONY : shared/DataTable.cpp.i
 
 shared/DataTable.s: shared/DataTable.cpp.s
@@ -295,7 +295,7 @@ shared/DataTable.s: shared/DataTable.cpp.s
 
 # target to generate assembly for a file
 shared/DataTable.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTable.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTable.cpp.s
 .PHONY : shared/DataTable.cpp.s
 
 shared/DataTableCell.o: shared/DataTableCell.cpp.o
@@ -303,7 +303,7 @@ shared/DataTableCell.o: shared/DataTableCell.cpp.o
 
 # target to build an object file
 shared/DataTableCell.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableCell.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableCell.cpp.o
 .PHONY : shared/DataTableCell.cpp.o
 
 shared/DataTableCell.i: shared/DataTableCell.cpp.i
@@ -311,7 +311,7 @@ shared/DataTableCell.i: shared/DataTableCell.cpp.i
 
 # target to preprocess a source file
 shared/DataTableCell.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableCell.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableCell.cpp.i
 .PHONY : shared/DataTableCell.cpp.i
 
 shared/DataTableCell.s: shared/DataTableCell.cpp.s
@@ -319,7 +319,7 @@ shared/DataTableCell.s: shared/DataTableCell.cpp.s
 
 # target to generate assembly for a file
 shared/DataTableCell.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableCell.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableCell.cpp.s
 .PHONY : shared/DataTableCell.cpp.s
 
 shared/DataTableColumnType.o: shared/DataTableColumnType.cpp.o
@@ -327,7 +327,7 @@ shared/DataTableColumnType.o: shared/DataTableColumnType.cpp.o
 
 # target to build an object file
 shared/DataTableColumnType.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableColumnType.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableColumnType.cpp.o
 .PHONY : shared/DataTableColumnType.cpp.o
 
 shared/DataTableColumnType.i: shared/DataTableColumnType.cpp.i
@@ -335,7 +335,7 @@ shared/DataTableColumnType.i: shared/DataTableColumnType.cpp.i
 
 # target to preprocess a source file
 shared/DataTableColumnType.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableColumnType.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableColumnType.cpp.i
 .PHONY : shared/DataTableColumnType.cpp.i
 
 shared/DataTableColumnType.s: shared/DataTableColumnType.cpp.s
@@ -343,7 +343,7 @@ shared/DataTableColumnType.s: shared/DataTableColumnType.cpp.s
 
 # target to generate assembly for a file
 shared/DataTableColumnType.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableColumnType.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableColumnType.cpp.s
 .PHONY : shared/DataTableColumnType.cpp.s
 
 shared/DataTableManager.o: shared/DataTableManager.cpp.o
@@ -351,7 +351,7 @@ shared/DataTableManager.o: shared/DataTableManager.cpp.o
 
 # target to build an object file
 shared/DataTableManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableManager.cpp.o
 .PHONY : shared/DataTableManager.cpp.o
 
 shared/DataTableManager.i: shared/DataTableManager.cpp.i
@@ -359,7 +359,7 @@ shared/DataTableManager.i: shared/DataTableManager.cpp.i
 
 # target to preprocess a source file
 shared/DataTableManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableManager.cpp.i
 .PHONY : shared/DataTableManager.cpp.i
 
 shared/DataTableManager.s: shared/DataTableManager.cpp.s
@@ -367,7 +367,7 @@ shared/DataTableManager.s: shared/DataTableManager.cpp.s
 
 # target to generate assembly for a file
 shared/DataTableManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableManager.cpp.s
 .PHONY : shared/DataTableManager.cpp.s
 
 shared/DataTableWriter.o: shared/DataTableWriter.cpp.o
@@ -375,7 +375,7 @@ shared/DataTableWriter.o: shared/DataTableWriter.cpp.o
 
 # target to build an object file
 shared/DataTableWriter.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableWriter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableWriter.cpp.o
 .PHONY : shared/DataTableWriter.cpp.o
 
 shared/DataTableWriter.i: shared/DataTableWriter.cpp.i
@@ -383,7 +383,7 @@ shared/DataTableWriter.i: shared/DataTableWriter.cpp.i
 
 # target to preprocess a source file
 shared/DataTableWriter.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableWriter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableWriter.cpp.i
 .PHONY : shared/DataTableWriter.cpp.i
 
 shared/DataTableWriter.s: shared/DataTableWriter.cpp.s
@@ -391,7 +391,7 @@ shared/DataTableWriter.s: shared/DataTableWriter.cpp.s
 
 # target to generate assembly for a file
 shared/DataTableWriter.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableWriter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/DataTableWriter.cpp.s
 .PHONY : shared/DataTableWriter.cpp.s
 
 shared/FileName.o: shared/FileName.cpp.o
@@ -399,7 +399,7 @@ shared/FileName.o: shared/FileName.cpp.o
 
 # target to build an object file
 shared/FileName.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/FileName.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/FileName.cpp.o
 .PHONY : shared/FileName.cpp.o
 
 shared/FileName.i: shared/FileName.cpp.i
@@ -407,7 +407,7 @@ shared/FileName.i: shared/FileName.cpp.i
 
 # target to preprocess a source file
 shared/FileName.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/FileName.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/FileName.cpp.i
 .PHONY : shared/FileName.cpp.i
 
 shared/FileName.s: shared/FileName.cpp.s
@@ -415,7 +415,7 @@ shared/FileName.s: shared/FileName.cpp.s
 
 # target to generate assembly for a file
 shared/FileName.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/FileName.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/FileName.cpp.s
 .PHONY : shared/FileName.cpp.s
 
 shared/HttpGetEncoder.o: shared/HttpGetEncoder.cpp.o
@@ -423,7 +423,7 @@ shared/HttpGetEncoder.o: shared/HttpGetEncoder.cpp.o
 
 # target to build an object file
 shared/HttpGetEncoder.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/HttpGetEncoder.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/HttpGetEncoder.cpp.o
 .PHONY : shared/HttpGetEncoder.cpp.o
 
 shared/HttpGetEncoder.i: shared/HttpGetEncoder.cpp.i
@@ -431,7 +431,7 @@ shared/HttpGetEncoder.i: shared/HttpGetEncoder.cpp.i
 
 # target to preprocess a source file
 shared/HttpGetEncoder.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/HttpGetEncoder.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/HttpGetEncoder.cpp.i
 .PHONY : shared/HttpGetEncoder.cpp.i
 
 shared/HttpGetEncoder.s: shared/HttpGetEncoder.cpp.s
@@ -439,7 +439,7 @@ shared/HttpGetEncoder.s: shared/HttpGetEncoder.cpp.s
 
 # target to generate assembly for a file
 shared/HttpGetEncoder.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/HttpGetEncoder.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/HttpGetEncoder.cpp.s
 .PHONY : shared/HttpGetEncoder.cpp.s
 
 shared/IndexedCache.o: shared/IndexedCache.cpp.o
@@ -447,7 +447,7 @@ shared/IndexedCache.o: shared/IndexedCache.cpp.o
 
 # target to build an object file
 shared/IndexedCache.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/IndexedCache.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/IndexedCache.cpp.o
 .PHONY : shared/IndexedCache.cpp.o
 
 shared/IndexedCache.i: shared/IndexedCache.cpp.i
@@ -455,7 +455,7 @@ shared/IndexedCache.i: shared/IndexedCache.cpp.i
 
 # target to preprocess a source file
 shared/IndexedCache.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/IndexedCache.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/IndexedCache.cpp.i
 .PHONY : shared/IndexedCache.cpp.i
 
 shared/IndexedCache.s: shared/IndexedCache.cpp.s
@@ -463,7 +463,7 @@ shared/IndexedCache.s: shared/IndexedCache.cpp.s
 
 # target to generate assembly for a file
 shared/IndexedCache.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/IndexedCache.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/IndexedCache.cpp.s
 .PHONY : shared/IndexedCache.cpp.s
 
 shared/InteriorLayoutReaderWriter.o: shared/InteriorLayoutReaderWriter.cpp.o
@@ -471,7 +471,7 @@ shared/InteriorLayoutReaderWriter.o: shared/InteriorLayoutReaderWriter.cpp.o
 
 # target to build an object file
 shared/InteriorLayoutReaderWriter.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/InteriorLayoutReaderWriter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/InteriorLayoutReaderWriter.cpp.o
 .PHONY : shared/InteriorLayoutReaderWriter.cpp.o
 
 shared/InteriorLayoutReaderWriter.i: shared/InteriorLayoutReaderWriter.cpp.i
@@ -479,7 +479,7 @@ shared/InteriorLayoutReaderWriter.i: shared/InteriorLayoutReaderWriter.cpp.i
 
 # target to preprocess a source file
 shared/InteriorLayoutReaderWriter.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/InteriorLayoutReaderWriter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/InteriorLayoutReaderWriter.cpp.i
 .PHONY : shared/InteriorLayoutReaderWriter.cpp.i
 
 shared/InteriorLayoutReaderWriter.s: shared/InteriorLayoutReaderWriter.cpp.s
@@ -487,7 +487,7 @@ shared/InteriorLayoutReaderWriter.s: shared/InteriorLayoutReaderWriter.cpp.s
 
 # target to generate assembly for a file
 shared/InteriorLayoutReaderWriter.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/InteriorLayoutReaderWriter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/InteriorLayoutReaderWriter.cpp.s
 .PHONY : shared/InteriorLayoutReaderWriter.cpp.s
 
 shared/LocalMachineOptionManager.o: shared/LocalMachineOptionManager.cpp.o
@@ -495,7 +495,7 @@ shared/LocalMachineOptionManager.o: shared/LocalMachineOptionManager.cpp.o
 
 # target to build an object file
 shared/LocalMachineOptionManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocalMachineOptionManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocalMachineOptionManager.cpp.o
 .PHONY : shared/LocalMachineOptionManager.cpp.o
 
 shared/LocalMachineOptionManager.i: shared/LocalMachineOptionManager.cpp.i
@@ -503,7 +503,7 @@ shared/LocalMachineOptionManager.i: shared/LocalMachineOptionManager.cpp.i
 
 # target to preprocess a source file
 shared/LocalMachineOptionManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocalMachineOptionManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocalMachineOptionManager.cpp.i
 .PHONY : shared/LocalMachineOptionManager.cpp.i
 
 shared/LocalMachineOptionManager.s: shared/LocalMachineOptionManager.cpp.s
@@ -511,7 +511,7 @@ shared/LocalMachineOptionManager.s: shared/LocalMachineOptionManager.cpp.s
 
 # target to generate assembly for a file
 shared/LocalMachineOptionManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocalMachineOptionManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocalMachineOptionManager.cpp.s
 .PHONY : shared/LocalMachineOptionManager.cpp.s
 
 shared/Location.o: shared/Location.cpp.o
@@ -519,7 +519,7 @@ shared/Location.o: shared/Location.cpp.o
 
 # target to build an object file
 shared/Location.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Location.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Location.cpp.o
 .PHONY : shared/Location.cpp.o
 
 shared/Location.i: shared/Location.cpp.i
@@ -527,7 +527,7 @@ shared/Location.i: shared/Location.cpp.i
 
 # target to preprocess a source file
 shared/Location.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Location.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Location.cpp.i
 .PHONY : shared/Location.cpp.i
 
 shared/Location.s: shared/Location.cpp.s
@@ -535,7 +535,7 @@ shared/Location.s: shared/Location.cpp.s
 
 # target to generate assembly for a file
 shared/Location.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Location.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/Location.cpp.s
 .PHONY : shared/Location.cpp.s
 
 shared/LocationArchive.o: shared/LocationArchive.cpp.o
@@ -543,7 +543,7 @@ shared/LocationArchive.o: shared/LocationArchive.cpp.o
 
 # target to build an object file
 shared/LocationArchive.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationArchive.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationArchive.cpp.o
 .PHONY : shared/LocationArchive.cpp.o
 
 shared/LocationArchive.i: shared/LocationArchive.cpp.i
@@ -551,7 +551,7 @@ shared/LocationArchive.i: shared/LocationArchive.cpp.i
 
 # target to preprocess a source file
 shared/LocationArchive.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationArchive.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationArchive.cpp.i
 .PHONY : shared/LocationArchive.cpp.i
 
 shared/LocationArchive.s: shared/LocationArchive.cpp.s
@@ -559,7 +559,7 @@ shared/LocationArchive.s: shared/LocationArchive.cpp.s
 
 # target to generate assembly for a file
 shared/LocationArchive.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationArchive.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationArchive.cpp.s
 .PHONY : shared/LocationArchive.cpp.s
 
 shared/LocationManager.o: shared/LocationManager.cpp.o
@@ -567,7 +567,7 @@ shared/LocationManager.o: shared/LocationManager.cpp.o
 
 # target to build an object file
 shared/LocationManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationManager.cpp.o
 .PHONY : shared/LocationManager.cpp.o
 
 shared/LocationManager.i: shared/LocationManager.cpp.i
@@ -575,7 +575,7 @@ shared/LocationManager.i: shared/LocationManager.cpp.i
 
 # target to preprocess a source file
 shared/LocationManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationManager.cpp.i
 .PHONY : shared/LocationManager.cpp.i
 
 shared/LocationManager.s: shared/LocationManager.cpp.s
@@ -583,7 +583,7 @@ shared/LocationManager.s: shared/LocationManager.cpp.s
 
 # target to generate assembly for a file
 shared/LocationManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/LocationManager.cpp.s
 .PHONY : shared/LocationManager.cpp.s
 
 shared/NameGenerator.o: shared/NameGenerator.cpp.o
@@ -591,7 +591,7 @@ shared/NameGenerator.o: shared/NameGenerator.cpp.o
 
 # target to build an object file
 shared/NameGenerator.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NameGenerator.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NameGenerator.cpp.o
 .PHONY : shared/NameGenerator.cpp.o
 
 shared/NameGenerator.i: shared/NameGenerator.cpp.i
@@ -599,7 +599,7 @@ shared/NameGenerator.i: shared/NameGenerator.cpp.i
 
 # target to preprocess a source file
 shared/NameGenerator.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NameGenerator.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NameGenerator.cpp.i
 .PHONY : shared/NameGenerator.cpp.i
 
 shared/NameGenerator.s: shared/NameGenerator.cpp.s
@@ -607,7 +607,7 @@ shared/NameGenerator.s: shared/NameGenerator.cpp.s
 
 # target to generate assembly for a file
 shared/NameGenerator.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NameGenerator.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NameGenerator.cpp.s
 .PHONY : shared/NameGenerator.cpp.s
 
 shared/NetworkIdAutoDeltaPackedMap.o: shared/NetworkIdAutoDeltaPackedMap.cpp.o
@@ -615,7 +615,7 @@ shared/NetworkIdAutoDeltaPackedMap.o: shared/NetworkIdAutoDeltaPackedMap.cpp.o
 
 # target to build an object file
 shared/NetworkIdAutoDeltaPackedMap.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NetworkIdAutoDeltaPackedMap.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NetworkIdAutoDeltaPackedMap.cpp.o
 .PHONY : shared/NetworkIdAutoDeltaPackedMap.cpp.o
 
 shared/NetworkIdAutoDeltaPackedMap.i: shared/NetworkIdAutoDeltaPackedMap.cpp.i
@@ -623,7 +623,7 @@ shared/NetworkIdAutoDeltaPackedMap.i: shared/NetworkIdAutoDeltaPackedMap.cpp.i
 
 # target to preprocess a source file
 shared/NetworkIdAutoDeltaPackedMap.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NetworkIdAutoDeltaPackedMap.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NetworkIdAutoDeltaPackedMap.cpp.i
 .PHONY : shared/NetworkIdAutoDeltaPackedMap.cpp.i
 
 shared/NetworkIdAutoDeltaPackedMap.s: shared/NetworkIdAutoDeltaPackedMap.cpp.s
@@ -631,7 +631,7 @@ shared/NetworkIdAutoDeltaPackedMap.s: shared/NetworkIdAutoDeltaPackedMap.cpp.s
 
 # target to generate assembly for a file
 shared/NetworkIdAutoDeltaPackedMap.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NetworkIdAutoDeltaPackedMap.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/NetworkIdAutoDeltaPackedMap.cpp.s
 .PHONY : shared/NetworkIdAutoDeltaPackedMap.cpp.s
 
 shared/OptionManager.o: shared/OptionManager.cpp.o
@@ -639,7 +639,7 @@ shared/OptionManager.o: shared/OptionManager.cpp.o
 
 # target to build an object file
 shared/OptionManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/OptionManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/OptionManager.cpp.o
 .PHONY : shared/OptionManager.cpp.o
 
 shared/OptionManager.i: shared/OptionManager.cpp.i
@@ -647,7 +647,7 @@ shared/OptionManager.i: shared/OptionManager.cpp.i
 
 # target to preprocess a source file
 shared/OptionManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/OptionManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/OptionManager.cpp.i
 .PHONY : shared/OptionManager.cpp.i
 
 shared/OptionManager.s: shared/OptionManager.cpp.s
@@ -655,7 +655,7 @@ shared/OptionManager.s: shared/OptionManager.cpp.s
 
 # target to generate assembly for a file
 shared/OptionManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/OptionManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/OptionManager.cpp.s
 .PHONY : shared/OptionManager.cpp.s
 
 shared/PackedFixedPointMap.o: shared/PackedFixedPointMap.cpp.o
@@ -663,7 +663,7 @@ shared/PackedFixedPointMap.o: shared/PackedFixedPointMap.cpp.o
 
 # target to build an object file
 shared/PackedFixedPointMap.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedFixedPointMap.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedFixedPointMap.cpp.o
 .PHONY : shared/PackedFixedPointMap.cpp.o
 
 shared/PackedFixedPointMap.i: shared/PackedFixedPointMap.cpp.i
@@ -671,7 +671,7 @@ shared/PackedFixedPointMap.i: shared/PackedFixedPointMap.cpp.i
 
 # target to preprocess a source file
 shared/PackedFixedPointMap.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedFixedPointMap.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedFixedPointMap.cpp.i
 .PHONY : shared/PackedFixedPointMap.cpp.i
 
 shared/PackedFixedPointMap.s: shared/PackedFixedPointMap.cpp.s
@@ -679,7 +679,7 @@ shared/PackedFixedPointMap.s: shared/PackedFixedPointMap.cpp.s
 
 # target to generate assembly for a file
 shared/PackedFixedPointMap.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedFixedPointMap.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedFixedPointMap.cpp.s
 .PHONY : shared/PackedFixedPointMap.cpp.s
 
 shared/PackedIntegerMap.o: shared/PackedIntegerMap.cpp.o
@@ -687,7 +687,7 @@ shared/PackedIntegerMap.o: shared/PackedIntegerMap.cpp.o
 
 # target to build an object file
 shared/PackedIntegerMap.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedIntegerMap.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedIntegerMap.cpp.o
 .PHONY : shared/PackedIntegerMap.cpp.o
 
 shared/PackedIntegerMap.i: shared/PackedIntegerMap.cpp.i
@@ -695,7 +695,7 @@ shared/PackedIntegerMap.i: shared/PackedIntegerMap.cpp.i
 
 # target to preprocess a source file
 shared/PackedIntegerMap.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedIntegerMap.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedIntegerMap.cpp.i
 .PHONY : shared/PackedIntegerMap.cpp.i
 
 shared/PackedIntegerMap.s: shared/PackedIntegerMap.cpp.s
@@ -703,7 +703,7 @@ shared/PackedIntegerMap.s: shared/PackedIntegerMap.cpp.s
 
 # target to generate assembly for a file
 shared/PackedIntegerMap.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedIntegerMap.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PackedIntegerMap.cpp.s
 .PHONY : shared/PackedIntegerMap.cpp.s
 
 shared/PooledString.o: shared/PooledString.cpp.o
@@ -711,7 +711,7 @@ shared/PooledString.o: shared/PooledString.cpp.o
 
 # target to build an object file
 shared/PooledString.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PooledString.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PooledString.cpp.o
 .PHONY : shared/PooledString.cpp.o
 
 shared/PooledString.i: shared/PooledString.cpp.i
@@ -719,7 +719,7 @@ shared/PooledString.i: shared/PooledString.cpp.i
 
 # target to preprocess a source file
 shared/PooledString.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PooledString.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PooledString.cpp.i
 .PHONY : shared/PooledString.cpp.i
 
 shared/PooledString.s: shared/PooledString.cpp.s
@@ -727,7 +727,7 @@ shared/PooledString.s: shared/PooledString.cpp.s
 
 # target to generate assembly for a file
 shared/PooledString.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PooledString.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/PooledString.cpp.s
 .PHONY : shared/PooledString.cpp.s
 
 shared/RotaryCache.o: shared/RotaryCache.cpp.o
@@ -735,7 +735,7 @@ shared/RotaryCache.o: shared/RotaryCache.cpp.o
 
 # target to build an object file
 shared/RotaryCache.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/RotaryCache.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/RotaryCache.cpp.o
 .PHONY : shared/RotaryCache.cpp.o
 
 shared/RotaryCache.i: shared/RotaryCache.cpp.i
@@ -743,7 +743,7 @@ shared/RotaryCache.i: shared/RotaryCache.cpp.i
 
 # target to preprocess a source file
 shared/RotaryCache.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/RotaryCache.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/RotaryCache.cpp.i
 .PHONY : shared/RotaryCache.cpp.i
 
 shared/RotaryCache.s: shared/RotaryCache.cpp.s
@@ -751,7 +751,7 @@ shared/RotaryCache.s: shared/RotaryCache.cpp.s
 
 # target to generate assembly for a file
 shared/RotaryCache.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/RotaryCache.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/RotaryCache.cpp.s
 .PHONY : shared/RotaryCache.cpp.s
 
 shared/SetupSharedUtility.o: shared/SetupSharedUtility.cpp.o
@@ -759,7 +759,7 @@ shared/SetupSharedUtility.o: shared/SetupSharedUtility.cpp.o
 
 # target to build an object file
 shared/SetupSharedUtility.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SetupSharedUtility.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SetupSharedUtility.cpp.o
 .PHONY : shared/SetupSharedUtility.cpp.o
 
 shared/SetupSharedUtility.i: shared/SetupSharedUtility.cpp.i
@@ -767,7 +767,7 @@ shared/SetupSharedUtility.i: shared/SetupSharedUtility.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedUtility.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SetupSharedUtility.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SetupSharedUtility.cpp.i
 .PHONY : shared/SetupSharedUtility.cpp.i
 
 shared/SetupSharedUtility.s: shared/SetupSharedUtility.cpp.s
@@ -775,7 +775,7 @@ shared/SetupSharedUtility.s: shared/SetupSharedUtility.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedUtility.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SetupSharedUtility.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SetupSharedUtility.cpp.s
 .PHONY : shared/SetupSharedUtility.cpp.s
 
 shared/StartingLocationData.o: shared/StartingLocationData.cpp.o
@@ -783,7 +783,7 @@ shared/StartingLocationData.o: shared/StartingLocationData.cpp.o
 
 # target to build an object file
 shared/StartingLocationData.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationData.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationData.cpp.o
 .PHONY : shared/StartingLocationData.cpp.o
 
 shared/StartingLocationData.i: shared/StartingLocationData.cpp.i
@@ -791,7 +791,7 @@ shared/StartingLocationData.i: shared/StartingLocationData.cpp.i
 
 # target to preprocess a source file
 shared/StartingLocationData.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationData.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationData.cpp.i
 .PHONY : shared/StartingLocationData.cpp.i
 
 shared/StartingLocationData.s: shared/StartingLocationData.cpp.s
@@ -799,7 +799,7 @@ shared/StartingLocationData.s: shared/StartingLocationData.cpp.s
 
 # target to generate assembly for a file
 shared/StartingLocationData.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationData.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationData.cpp.s
 .PHONY : shared/StartingLocationData.cpp.s
 
 shared/StartingLocationDataArchive.o: shared/StartingLocationDataArchive.cpp.o
@@ -807,7 +807,7 @@ shared/StartingLocationDataArchive.o: shared/StartingLocationDataArchive.cpp.o
 
 # target to build an object file
 shared/StartingLocationDataArchive.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationDataArchive.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationDataArchive.cpp.o
 .PHONY : shared/StartingLocationDataArchive.cpp.o
 
 shared/StartingLocationDataArchive.i: shared/StartingLocationDataArchive.cpp.i
@@ -815,7 +815,7 @@ shared/StartingLocationDataArchive.i: shared/StartingLocationDataArchive.cpp.i
 
 # target to preprocess a source file
 shared/StartingLocationDataArchive.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationDataArchive.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationDataArchive.cpp.i
 .PHONY : shared/StartingLocationDataArchive.cpp.i
 
 shared/StartingLocationDataArchive.s: shared/StartingLocationDataArchive.cpp.s
@@ -823,7 +823,7 @@ shared/StartingLocationDataArchive.s: shared/StartingLocationDataArchive.cpp.s
 
 # target to generate assembly for a file
 shared/StartingLocationDataArchive.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationDataArchive.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationDataArchive.cpp.s
 .PHONY : shared/StartingLocationDataArchive.cpp.s
 
 shared/StartingLocationManager.o: shared/StartingLocationManager.cpp.o
@@ -831,7 +831,7 @@ shared/StartingLocationManager.o: shared/StartingLocationManager.cpp.o
 
 # target to build an object file
 shared/StartingLocationManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationManager.cpp.o
 .PHONY : shared/StartingLocationManager.cpp.o
 
 shared/StartingLocationManager.i: shared/StartingLocationManager.cpp.i
@@ -839,7 +839,7 @@ shared/StartingLocationManager.i: shared/StartingLocationManager.cpp.i
 
 # target to preprocess a source file
 shared/StartingLocationManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationManager.cpp.i
 .PHONY : shared/StartingLocationManager.cpp.i
 
 shared/StartingLocationManager.s: shared/StartingLocationManager.cpp.s
@@ -847,7 +847,7 @@ shared/StartingLocationManager.s: shared/StartingLocationManager.cpp.s
 
 # target to generate assembly for a file
 shared/StartingLocationManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/StartingLocationManager.cpp.s
 .PHONY : shared/StartingLocationManager.cpp.s
 
 shared/SynchronizedWeatherGenerator.o: shared/SynchronizedWeatherGenerator.cpp.o
@@ -855,7 +855,7 @@ shared/SynchronizedWeatherGenerator.o: shared/SynchronizedWeatherGenerator.cpp.o
 
 # target to build an object file
 shared/SynchronizedWeatherGenerator.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SynchronizedWeatherGenerator.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SynchronizedWeatherGenerator.cpp.o
 .PHONY : shared/SynchronizedWeatherGenerator.cpp.o
 
 shared/SynchronizedWeatherGenerator.i: shared/SynchronizedWeatherGenerator.cpp.i
@@ -863,7 +863,7 @@ shared/SynchronizedWeatherGenerator.i: shared/SynchronizedWeatherGenerator.cpp.i
 
 # target to preprocess a source file
 shared/SynchronizedWeatherGenerator.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SynchronizedWeatherGenerator.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SynchronizedWeatherGenerator.cpp.i
 .PHONY : shared/SynchronizedWeatherGenerator.cpp.i
 
 shared/SynchronizedWeatherGenerator.s: shared/SynchronizedWeatherGenerator.cpp.s
@@ -871,7 +871,7 @@ shared/SynchronizedWeatherGenerator.s: shared/SynchronizedWeatherGenerator.cpp.s
 
 # target to generate assembly for a file
 shared/SynchronizedWeatherGenerator.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SynchronizedWeatherGenerator.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/SynchronizedWeatherGenerator.cpp.s
 .PHONY : shared/SynchronizedWeatherGenerator.cpp.s
 
 shared/TemplateParameter.o: shared/TemplateParameter.cpp.o
@@ -879,7 +879,7 @@ shared/TemplateParameter.o: shared/TemplateParameter.cpp.o
 
 # target to build an object file
 shared/TemplateParameter.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/TemplateParameter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/TemplateParameter.cpp.o
 .PHONY : shared/TemplateParameter.cpp.o
 
 shared/TemplateParameter.i: shared/TemplateParameter.cpp.i
@@ -887,7 +887,7 @@ shared/TemplateParameter.i: shared/TemplateParameter.cpp.i
 
 # target to preprocess a source file
 shared/TemplateParameter.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/TemplateParameter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/TemplateParameter.cpp.i
 .PHONY : shared/TemplateParameter.cpp.i
 
 shared/TemplateParameter.s: shared/TemplateParameter.cpp.s
@@ -895,7 +895,7 @@ shared/TemplateParameter.s: shared/TemplateParameter.cpp.s
 
 # target to generate assembly for a file
 shared/TemplateParameter.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/TemplateParameter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/TemplateParameter.cpp.s
 .PHONY : shared/TemplateParameter.cpp.s
 
 shared/UniqueNameList.o: shared/UniqueNameList.cpp.o
@@ -903,7 +903,7 @@ shared/UniqueNameList.o: shared/UniqueNameList.cpp.o
 
 # target to build an object file
 shared/UniqueNameList.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/UniqueNameList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/UniqueNameList.cpp.o
 .PHONY : shared/UniqueNameList.cpp.o
 
 shared/UniqueNameList.i: shared/UniqueNameList.cpp.i
@@ -911,7 +911,7 @@ shared/UniqueNameList.i: shared/UniqueNameList.cpp.i
 
 # target to preprocess a source file
 shared/UniqueNameList.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/UniqueNameList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/UniqueNameList.cpp.i
 .PHONY : shared/UniqueNameList.cpp.i
 
 shared/UniqueNameList.s: shared/UniqueNameList.cpp.s
@@ -919,7 +919,7 @@ shared/UniqueNameList.s: shared/UniqueNameList.cpp.s
 
 # target to generate assembly for a file
 shared/UniqueNameList.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/UniqueNameList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/UniqueNameList.cpp.s
 .PHONY : shared/UniqueNameList.cpp.s
 
 shared/ValueDictionary.o: shared/ValueDictionary.cpp.o
@@ -927,7 +927,7 @@ shared/ValueDictionary.o: shared/ValueDictionary.cpp.o
 
 # target to build an object file
 shared/ValueDictionary.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionary.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionary.cpp.o
 .PHONY : shared/ValueDictionary.cpp.o
 
 shared/ValueDictionary.i: shared/ValueDictionary.cpp.i
@@ -935,7 +935,7 @@ shared/ValueDictionary.i: shared/ValueDictionary.cpp.i
 
 # target to preprocess a source file
 shared/ValueDictionary.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionary.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionary.cpp.i
 .PHONY : shared/ValueDictionary.cpp.i
 
 shared/ValueDictionary.s: shared/ValueDictionary.cpp.s
@@ -943,7 +943,7 @@ shared/ValueDictionary.s: shared/ValueDictionary.cpp.s
 
 # target to generate assembly for a file
 shared/ValueDictionary.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionary.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionary.cpp.s
 .PHONY : shared/ValueDictionary.cpp.s
 
 shared/ValueDictionaryArchive.o: shared/ValueDictionaryArchive.cpp.o
@@ -951,7 +951,7 @@ shared/ValueDictionaryArchive.o: shared/ValueDictionaryArchive.cpp.o
 
 # target to build an object file
 shared/ValueDictionaryArchive.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionaryArchive.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionaryArchive.cpp.o
 .PHONY : shared/ValueDictionaryArchive.cpp.o
 
 shared/ValueDictionaryArchive.i: shared/ValueDictionaryArchive.cpp.i
@@ -959,7 +959,7 @@ shared/ValueDictionaryArchive.i: shared/ValueDictionaryArchive.cpp.i
 
 # target to preprocess a source file
 shared/ValueDictionaryArchive.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionaryArchive.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionaryArchive.cpp.i
 .PHONY : shared/ValueDictionaryArchive.cpp.i
 
 shared/ValueDictionaryArchive.s: shared/ValueDictionaryArchive.cpp.s
@@ -967,7 +967,7 @@ shared/ValueDictionaryArchive.s: shared/ValueDictionaryArchive.cpp.s
 
 # target to generate assembly for a file
 shared/ValueDictionaryArchive.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionaryArchive.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueDictionaryArchive.cpp.s
 .PHONY : shared/ValueDictionaryArchive.cpp.s
 
 shared/ValueTypeBase.o: shared/ValueTypeBase.cpp.o
@@ -975,7 +975,7 @@ shared/ValueTypeBase.o: shared/ValueTypeBase.cpp.o
 
 # target to build an object file
 shared/ValueTypeBase.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBase.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBase.cpp.o
 .PHONY : shared/ValueTypeBase.cpp.o
 
 shared/ValueTypeBase.i: shared/ValueTypeBase.cpp.i
@@ -983,7 +983,7 @@ shared/ValueTypeBase.i: shared/ValueTypeBase.cpp.i
 
 # target to preprocess a source file
 shared/ValueTypeBase.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBase.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBase.cpp.i
 .PHONY : shared/ValueTypeBase.cpp.i
 
 shared/ValueTypeBase.s: shared/ValueTypeBase.cpp.s
@@ -991,7 +991,7 @@ shared/ValueTypeBase.s: shared/ValueTypeBase.cpp.s
 
 # target to generate assembly for a file
 shared/ValueTypeBase.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBase.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBase.cpp.s
 .PHONY : shared/ValueTypeBase.cpp.s
 
 shared/ValueTypeBool.o: shared/ValueTypeBool.cpp.o
@@ -999,7 +999,7 @@ shared/ValueTypeBool.o: shared/ValueTypeBool.cpp.o
 
 # target to build an object file
 shared/ValueTypeBool.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBool.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBool.cpp.o
 .PHONY : shared/ValueTypeBool.cpp.o
 
 shared/ValueTypeBool.i: shared/ValueTypeBool.cpp.i
@@ -1007,7 +1007,7 @@ shared/ValueTypeBool.i: shared/ValueTypeBool.cpp.i
 
 # target to preprocess a source file
 shared/ValueTypeBool.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBool.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBool.cpp.i
 .PHONY : shared/ValueTypeBool.cpp.i
 
 shared/ValueTypeBool.s: shared/ValueTypeBool.cpp.s
@@ -1015,7 +1015,7 @@ shared/ValueTypeBool.s: shared/ValueTypeBool.cpp.s
 
 # target to generate assembly for a file
 shared/ValueTypeBool.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBool.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeBool.cpp.s
 .PHONY : shared/ValueTypeBool.cpp.s
 
 shared/ValueTypeFloat.o: shared/ValueTypeFloat.cpp.o
@@ -1023,7 +1023,7 @@ shared/ValueTypeFloat.o: shared/ValueTypeFloat.cpp.o
 
 # target to build an object file
 shared/ValueTypeFloat.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeFloat.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeFloat.cpp.o
 .PHONY : shared/ValueTypeFloat.cpp.o
 
 shared/ValueTypeFloat.i: shared/ValueTypeFloat.cpp.i
@@ -1031,7 +1031,7 @@ shared/ValueTypeFloat.i: shared/ValueTypeFloat.cpp.i
 
 # target to preprocess a source file
 shared/ValueTypeFloat.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeFloat.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeFloat.cpp.i
 .PHONY : shared/ValueTypeFloat.cpp.i
 
 shared/ValueTypeFloat.s: shared/ValueTypeFloat.cpp.s
@@ -1039,7 +1039,7 @@ shared/ValueTypeFloat.s: shared/ValueTypeFloat.cpp.s
 
 # target to generate assembly for a file
 shared/ValueTypeFloat.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeFloat.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeFloat.cpp.s
 .PHONY : shared/ValueTypeFloat.cpp.s
 
 shared/ValueTypeObjId.o: shared/ValueTypeObjId.cpp.o
@@ -1047,7 +1047,7 @@ shared/ValueTypeObjId.o: shared/ValueTypeObjId.cpp.o
 
 # target to build an object file
 shared/ValueTypeObjId.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeObjId.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeObjId.cpp.o
 .PHONY : shared/ValueTypeObjId.cpp.o
 
 shared/ValueTypeObjId.i: shared/ValueTypeObjId.cpp.i
@@ -1055,7 +1055,7 @@ shared/ValueTypeObjId.i: shared/ValueTypeObjId.cpp.i
 
 # target to preprocess a source file
 shared/ValueTypeObjId.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeObjId.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeObjId.cpp.i
 .PHONY : shared/ValueTypeObjId.cpp.i
 
 shared/ValueTypeObjId.s: shared/ValueTypeObjId.cpp.s
@@ -1063,7 +1063,7 @@ shared/ValueTypeObjId.s: shared/ValueTypeObjId.cpp.s
 
 # target to generate assembly for a file
 shared/ValueTypeObjId.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeObjId.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeObjId.cpp.s
 .PHONY : shared/ValueTypeObjId.cpp.s
 
 shared/ValueTypeSignedInt.o: shared/ValueTypeSignedInt.cpp.o
@@ -1071,7 +1071,7 @@ shared/ValueTypeSignedInt.o: shared/ValueTypeSignedInt.cpp.o
 
 # target to build an object file
 shared/ValueTypeSignedInt.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeSignedInt.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeSignedInt.cpp.o
 .PHONY : shared/ValueTypeSignedInt.cpp.o
 
 shared/ValueTypeSignedInt.i: shared/ValueTypeSignedInt.cpp.i
@@ -1079,7 +1079,7 @@ shared/ValueTypeSignedInt.i: shared/ValueTypeSignedInt.cpp.i
 
 # target to preprocess a source file
 shared/ValueTypeSignedInt.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeSignedInt.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeSignedInt.cpp.i
 .PHONY : shared/ValueTypeSignedInt.cpp.i
 
 shared/ValueTypeSignedInt.s: shared/ValueTypeSignedInt.cpp.s
@@ -1087,7 +1087,7 @@ shared/ValueTypeSignedInt.s: shared/ValueTypeSignedInt.cpp.s
 
 # target to generate assembly for a file
 shared/ValueTypeSignedInt.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeSignedInt.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeSignedInt.cpp.s
 .PHONY : shared/ValueTypeSignedInt.cpp.s
 
 shared/ValueTypeString.o: shared/ValueTypeString.cpp.o
@@ -1095,7 +1095,7 @@ shared/ValueTypeString.o: shared/ValueTypeString.cpp.o
 
 # target to build an object file
 shared/ValueTypeString.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeString.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeString.cpp.o
 .PHONY : shared/ValueTypeString.cpp.o
 
 shared/ValueTypeString.i: shared/ValueTypeString.cpp.i
@@ -1103,7 +1103,7 @@ shared/ValueTypeString.i: shared/ValueTypeString.cpp.i
 
 # target to preprocess a source file
 shared/ValueTypeString.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeString.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeString.cpp.i
 .PHONY : shared/ValueTypeString.cpp.i
 
 shared/ValueTypeString.s: shared/ValueTypeString.cpp.s
@@ -1111,7 +1111,7 @@ shared/ValueTypeString.s: shared/ValueTypeString.cpp.s
 
 # target to generate assembly for a file
 shared/ValueTypeString.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeString.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/ValueTypeString.cpp.s
 .PHONY : shared/ValueTypeString.cpp.s
 
 shared/WeatherData.o: shared/WeatherData.cpp.o
@@ -1119,7 +1119,7 @@ shared/WeatherData.o: shared/WeatherData.cpp.o
 
 # target to build an object file
 shared/WeatherData.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WeatherData.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WeatherData.cpp.o
 .PHONY : shared/WeatherData.cpp.o
 
 shared/WeatherData.i: shared/WeatherData.cpp.i
@@ -1127,7 +1127,7 @@ shared/WeatherData.i: shared/WeatherData.cpp.i
 
 # target to preprocess a source file
 shared/WeatherData.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WeatherData.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WeatherData.cpp.i
 .PHONY : shared/WeatherData.cpp.i
 
 shared/WeatherData.s: shared/WeatherData.cpp.s
@@ -1135,7 +1135,7 @@ shared/WeatherData.s: shared/WeatherData.cpp.s
 
 # target to generate assembly for a file
 shared/WeatherData.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WeatherData.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WeatherData.cpp.s
 .PHONY : shared/WeatherData.cpp.s
 
 shared/WorldSnapshotReaderWriter.o: shared/WorldSnapshotReaderWriter.cpp.o
@@ -1143,7 +1143,7 @@ shared/WorldSnapshotReaderWriter.o: shared/WorldSnapshotReaderWriter.cpp.o
 
 # target to build an object file
 shared/WorldSnapshotReaderWriter.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WorldSnapshotReaderWriter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WorldSnapshotReaderWriter.cpp.o
 .PHONY : shared/WorldSnapshotReaderWriter.cpp.o
 
 shared/WorldSnapshotReaderWriter.i: shared/WorldSnapshotReaderWriter.cpp.i
@@ -1151,7 +1151,7 @@ shared/WorldSnapshotReaderWriter.i: shared/WorldSnapshotReaderWriter.cpp.i
 
 # target to preprocess a source file
 shared/WorldSnapshotReaderWriter.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WorldSnapshotReaderWriter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WorldSnapshotReaderWriter.cpp.i
 .PHONY : shared/WorldSnapshotReaderWriter.cpp.i
 
 shared/WorldSnapshotReaderWriter.s: shared/WorldSnapshotReaderWriter.cpp.s
@@ -1159,7 +1159,7 @@ shared/WorldSnapshotReaderWriter.s: shared/WorldSnapshotReaderWriter.cpp.s
 
 # target to generate assembly for a file
 shared/WorldSnapshotReaderWriter.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WorldSnapshotReaderWriter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/shared/WorldSnapshotReaderWriter.cpp.s
 .PHONY : shared/WorldSnapshotReaderWriter.cpp.s
 
 # Help Target
@@ -1311,6 +1311,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

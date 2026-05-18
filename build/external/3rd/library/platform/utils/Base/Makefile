@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/rule
 .PHONY : external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Base: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/rule
 
 # fast build rule for target.
 Base/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build
 .PHONY : Base/fast
 
 Archive.o: Archive.cpp.o
@@ -135,7 +135,7 @@ Archive.o: Archive.cpp.o
 
 # target to build an object file
 Archive.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o
 .PHONY : Archive.cpp.o
 
 Archive.i: Archive.cpp.i
@@ -143,7 +143,7 @@ Archive.i: Archive.cpp.i
 
 # target to preprocess a source file
 Archive.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.i
 .PHONY : Archive.cpp.i
 
 Archive.s: Archive.cpp.s
@@ -151,7 +151,7 @@ Archive.s: Archive.cpp.s
 
 # target to generate assembly for a file
 Archive.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.s
 .PHONY : Archive.cpp.s
 
 AutoLog.o: AutoLog.cpp.o
@@ -159,7 +159,7 @@ AutoLog.o: AutoLog.cpp.o
 
 # target to build an object file
 AutoLog.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o
 .PHONY : AutoLog.cpp.o
 
 AutoLog.i: AutoLog.cpp.i
@@ -167,7 +167,7 @@ AutoLog.i: AutoLog.cpp.i
 
 # target to preprocess a source file
 AutoLog.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.i
 .PHONY : AutoLog.cpp.i
 
 AutoLog.s: AutoLog.cpp.s
@@ -175,7 +175,7 @@ AutoLog.s: AutoLog.cpp.s
 
 # target to generate assembly for a file
 AutoLog.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.s
 .PHONY : AutoLog.cpp.s
 
 Base.o: Base.cpp.o
@@ -183,7 +183,7 @@ Base.o: Base.cpp.o
 
 # target to build an object file
 Base.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o
 .PHONY : Base.cpp.o
 
 Base.i: Base.cpp.i
@@ -191,7 +191,7 @@ Base.i: Base.cpp.i
 
 # target to preprocess a source file
 Base.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.i
 .PHONY : Base.cpp.i
 
 Base.s: Base.cpp.s
@@ -199,7 +199,7 @@ Base.s: Base.cpp.s
 
 # target to generate assembly for a file
 Base.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.s
 .PHONY : Base.cpp.s
 
 Config.o: Config.cpp.o
@@ -207,7 +207,7 @@ Config.o: Config.cpp.o
 
 # target to build an object file
 Config.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o
 .PHONY : Config.cpp.o
 
 Config.i: Config.cpp.i
@@ -215,7 +215,7 @@ Config.i: Config.cpp.i
 
 # target to preprocess a source file
 Config.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.i
 .PHONY : Config.cpp.i
 
 Config.s: Config.cpp.s
@@ -223,7 +223,7 @@ Config.s: Config.cpp.s
 
 # target to generate assembly for a file
 Config.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.s
 .PHONY : Config.cpp.s
 
 MD5.o: MD5.cpp.o
@@ -231,7 +231,7 @@ MD5.o: MD5.cpp.o
 
 # target to build an object file
 MD5.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o
 .PHONY : MD5.cpp.o
 
 MD5.i: MD5.cpp.i
@@ -239,7 +239,7 @@ MD5.i: MD5.cpp.i
 
 # target to preprocess a source file
 MD5.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.i
 .PHONY : MD5.cpp.i
 
 MD5.s: MD5.cpp.s
@@ -247,7 +247,7 @@ MD5.s: MD5.cpp.s
 
 # target to generate assembly for a file
 MD5.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.s
 .PHONY : MD5.cpp.s
 
 ScopeLock.o: ScopeLock.cpp.o
@@ -255,7 +255,7 @@ ScopeLock.o: ScopeLock.cpp.o
 
 # target to build an object file
 ScopeLock.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o
 .PHONY : ScopeLock.cpp.o
 
 ScopeLock.i: ScopeLock.cpp.i
@@ -263,7 +263,7 @@ ScopeLock.i: ScopeLock.cpp.i
 
 # target to preprocess a source file
 ScopeLock.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.i
 .PHONY : ScopeLock.cpp.i
 
 ScopeLock.s: ScopeLock.cpp.s
@@ -271,7 +271,7 @@ ScopeLock.s: ScopeLock.cpp.s
 
 # target to generate assembly for a file
 ScopeLock.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.s
 .PHONY : ScopeLock.cpp.s
 
 Statistics.o: Statistics.cpp.o
@@ -279,7 +279,7 @@ Statistics.o: Statistics.cpp.o
 
 # target to build an object file
 Statistics.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o
 .PHONY : Statistics.cpp.o
 
 Statistics.i: Statistics.cpp.i
@@ -287,7 +287,7 @@ Statistics.i: Statistics.cpp.i
 
 # target to preprocess a source file
 Statistics.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.i
 .PHONY : Statistics.cpp.i
 
 Statistics.s: Statistics.cpp.s
@@ -295,7 +295,7 @@ Statistics.s: Statistics.cpp.s
 
 # target to generate assembly for a file
 Statistics.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.s
 .PHONY : Statistics.cpp.s
 
 linux/BlockAllocator.o: linux/BlockAllocator.cpp.o
@@ -303,7 +303,7 @@ linux/BlockAllocator.o: linux/BlockAllocator.cpp.o
 
 # target to build an object file
 linux/BlockAllocator.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o
 .PHONY : linux/BlockAllocator.cpp.o
 
 linux/BlockAllocator.i: linux/BlockAllocator.cpp.i
@@ -311,7 +311,7 @@ linux/BlockAllocator.i: linux/BlockAllocator.cpp.i
 
 # target to preprocess a source file
 linux/BlockAllocator.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.i
 .PHONY : linux/BlockAllocator.cpp.i
 
 linux/BlockAllocator.s: linux/BlockAllocator.cpp.s
@@ -319,7 +319,7 @@ linux/BlockAllocator.s: linux/BlockAllocator.cpp.s
 
 # target to generate assembly for a file
 linux/BlockAllocator.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.s
 .PHONY : linux/BlockAllocator.cpp.s
 
 linux/Event.o: linux/Event.cpp.o
@@ -327,7 +327,7 @@ linux/Event.o: linux/Event.cpp.o
 
 # target to build an object file
 linux/Event.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o
 .PHONY : linux/Event.cpp.o
 
 linux/Event.i: linux/Event.cpp.i
@@ -335,7 +335,7 @@ linux/Event.i: linux/Event.cpp.i
 
 # target to preprocess a source file
 linux/Event.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.i
 .PHONY : linux/Event.cpp.i
 
 linux/Event.s: linux/Event.cpp.s
@@ -343,7 +343,7 @@ linux/Event.s: linux/Event.cpp.s
 
 # target to generate assembly for a file
 linux/Event.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.s
 .PHONY : linux/Event.cpp.s
 
 linux/Logger.o: linux/Logger.cpp.o
@@ -351,7 +351,7 @@ linux/Logger.o: linux/Logger.cpp.o
 
 # target to build an object file
 linux/Logger.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o
 .PHONY : linux/Logger.cpp.o
 
 linux/Logger.i: linux/Logger.cpp.i
@@ -359,7 +359,7 @@ linux/Logger.i: linux/Logger.cpp.i
 
 # target to preprocess a source file
 linux/Logger.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.i
 .PHONY : linux/Logger.cpp.i
 
 linux/Logger.s: linux/Logger.cpp.s
@@ -367,7 +367,7 @@ linux/Logger.s: linux/Logger.cpp.s
 
 # target to generate assembly for a file
 linux/Logger.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.s
 .PHONY : linux/Logger.cpp.s
 
 linux/Mutex.o: linux/Mutex.cpp.o
@@ -375,7 +375,7 @@ linux/Mutex.o: linux/Mutex.cpp.o
 
 # target to build an object file
 linux/Mutex.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o
 .PHONY : linux/Mutex.cpp.o
 
 linux/Mutex.i: linux/Mutex.cpp.i
@@ -383,7 +383,7 @@ linux/Mutex.i: linux/Mutex.cpp.i
 
 # target to preprocess a source file
 linux/Mutex.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.i
 .PHONY : linux/Mutex.cpp.i
 
 linux/Mutex.s: linux/Mutex.cpp.s
@@ -391,7 +391,7 @@ linux/Mutex.s: linux/Mutex.cpp.s
 
 # target to generate assembly for a file
 linux/Mutex.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.s
 .PHONY : linux/Mutex.cpp.s
 
 linux/Platform.o: linux/Platform.cpp.o
@@ -399,7 +399,7 @@ linux/Platform.o: linux/Platform.cpp.o
 
 # target to build an object file
 linux/Platform.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o
 .PHONY : linux/Platform.cpp.o
 
 linux/Platform.i: linux/Platform.cpp.i
@@ -407,7 +407,7 @@ linux/Platform.i: linux/Platform.cpp.i
 
 # target to preprocess a source file
 linux/Platform.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.i
 .PHONY : linux/Platform.cpp.i
 
 linux/Platform.s: linux/Platform.cpp.s
@@ -415,7 +415,7 @@ linux/Platform.s: linux/Platform.cpp.s
 
 # target to generate assembly for a file
 linux/Platform.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.s
 .PHONY : linux/Platform.cpp.s
 
 linux/Thread.o: linux/Thread.cpp.o
@@ -423,7 +423,7 @@ linux/Thread.o: linux/Thread.cpp.o
 
 # target to build an object file
 linux/Thread.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o
 .PHONY : linux/Thread.cpp.o
 
 linux/Thread.i: linux/Thread.cpp.i
@@ -431,7 +431,7 @@ linux/Thread.i: linux/Thread.cpp.i
 
 # target to preprocess a source file
 linux/Thread.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.i
 .PHONY : linux/Thread.cpp.i
 
 linux/Thread.s: linux/Thread.cpp.s
@@ -439,7 +439,7 @@ linux/Thread.s: linux/Thread.cpp.s
 
 # target to generate assembly for a file
 linux/Thread.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.s
 .PHONY : linux/Thread.cpp.s
 
 # Help Target
@@ -501,6 +501,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

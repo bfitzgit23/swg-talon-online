@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/Clock.cpp.o: \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/Clock.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/Clock.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/Clock.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/Clock.h \
  /usr/include/time.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \

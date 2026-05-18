@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/depend.make
@@ -70,102 +70,102 @@ include game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir
 include game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/flags.make
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/flags.make
-game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o: /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Attributes.cpp
+game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o: /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Attributes.cpp
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o -c /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Attributes.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.o -c /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Attributes.cpp
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Attributes.cpp > CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.i
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Attributes.cpp > CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.i
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Attributes.cpp -o CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.s
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Attributes.cpp -o CMakeFiles/swgSharedUtility.dir/shared/Attributes.cpp.s
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/flags.make
-game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o: /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/CombatEngineData.cpp
+game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o: /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/CombatEngineData.cpp
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o -c /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/CombatEngineData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.o -c /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/CombatEngineData.cpp
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/CombatEngineData.cpp > CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.i
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/CombatEngineData.cpp > CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.i
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/CombatEngineData.cpp -o CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.s
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/CombatEngineData.cpp -o CMakeFiles/swgSharedUtility.dir/shared/CombatEngineData.cpp.s
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/flags.make
-game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o: /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/JediConstants.cpp
+game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o: /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/JediConstants.cpp
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o -c /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/JediConstants.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.o -c /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/JediConstants.cpp
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/JediConstants.cpp > CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.i
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/JediConstants.cpp > CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.i
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/JediConstants.cpp -o CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.s
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/JediConstants.cpp -o CMakeFiles/swgSharedUtility.dir/shared/JediConstants.cpp.s
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/flags.make
-game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o: /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Locomotions.cpp
+game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o: /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Locomotions.cpp
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o -c /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Locomotions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.o -c /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Locomotions.cpp
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Locomotions.cpp > CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.i
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Locomotions.cpp > CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.i
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Locomotions.cpp -o CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.s
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Locomotions.cpp -o CMakeFiles/swgSharedUtility.dir/shared/Locomotions.cpp.s
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/flags.make
-game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o: /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Postures.cpp
+game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o: /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Postures.cpp
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o -c /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Postures.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.o -c /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Postures.cpp
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Postures.cpp > CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.i
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Postures.cpp > CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.i
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/Postures.cpp -o CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.s
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/Postures.cpp -o CMakeFiles/swgSharedUtility.dir/shared/Postures.cpp.s
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/flags.make
-game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o: /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/SpeciesRestrictions.cpp
+game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o: /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/SpeciesRestrictions.cpp
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o -c /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/SpeciesRestrictions.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.o -c /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/SpeciesRestrictions.cpp
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/SpeciesRestrictions.cpp > CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.i
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/SpeciesRestrictions.cpp > CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.i
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/SpeciesRestrictions.cpp -o CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.s
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/SpeciesRestrictions.cpp -o CMakeFiles/swgSharedUtility.dir/shared/SpeciesRestrictions.cpp.s
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/flags.make
-game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o: /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/States.cpp
+game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o: /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/States.cpp
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o -c /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/States.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o -MF CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o.d -o CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o -c /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/States.cpp
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/swgSharedUtility.dir/shared/States.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/States.cpp > CMakeFiles/swgSharedUtility.dir/shared/States.cpp.i
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/States.cpp > CMakeFiles/swgSharedUtility.dir/shared/States.cpp.i
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/swgSharedUtility.dir/shared/States.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src/shared/States.cpp -o CMakeFiles/swgSharedUtility.dir/shared/States.cpp.s
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src/shared/States.cpp -o CMakeFiles/swgSharedUtility.dir/shared/States.cpp.s
 
 # Object files for target swgSharedUtility
 swgSharedUtility_OBJECTS = \
@@ -189,19 +189,19 @@ game/shared/library/swgSharedUtility/src/libswgSharedUtility.a: game/shared/libr
 game/shared/library/swgSharedUtility/src/libswgSharedUtility.a: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/shared/States.cpp.o
 game/shared/library/swgSharedUtility/src/libswgSharedUtility.a: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/build.make
 game/shared/library/swgSharedUtility/src/libswgSharedUtility.a: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libswgSharedUtility.a"
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && $(CMAKE_COMMAND) -P CMakeFiles/swgSharedUtility.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/swgSharedUtility.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libswgSharedUtility.a"
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && $(CMAKE_COMMAND) -P CMakeFiles/swgSharedUtility.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/swgSharedUtility.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/build: game/shared/library/swgSharedUtility/src/libswgSharedUtility.a
 .PHONY : game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/build
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src && $(CMAKE_COMMAND) -P CMakeFiles/swgSharedUtility.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src && $(CMAKE_COMMAND) -P CMakeFiles/swgSharedUtility.dir/cmake_clean.cmake
 .PHONY : game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/clean
 
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/game/shared/library/swgSharedUtility/src /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src /home/almalinux/swg-returns-nge/build/game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src /home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/depend
 

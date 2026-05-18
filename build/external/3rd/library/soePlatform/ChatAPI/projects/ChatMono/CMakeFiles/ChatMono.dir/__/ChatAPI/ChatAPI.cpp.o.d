@@ -1,5 +1,5 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPI.cpp.o: \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAPI.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAPI.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -14,7 +14,7 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAPICore.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAPICore.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
@@ -106,17 +106,17 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
  /usr/include/c++/8/set /usr/include/c++/8/bits/stl_set.h \
  /usr/include/c++/8/bits/stl_multiset.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeUtils.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Archive.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeUtils.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Archive.h \
  /usr/include/assert.h /usr/include/c++/8/vector \
  /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
  /usr/include/sys/errno.h /usr/include/resolv.h /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -161,40 +161,40 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Archive.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/GenericAPI/GenericApiCore.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Archive.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/GenericAPI/GenericApiCore.h \
  /usr/include/c++/8/queue /usr/include/c++/8/deque \
  /usr/include/c++/8/bits/stl_deque.h /usr/include/c++/8/bits/deque.tcc \
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_queue.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAPI.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatEnum.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/Response.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/GenericAPI/GenericMessage.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAvatarCore.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoomCore.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoom.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatFriendStatus.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatIgnoreStatus.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/AvatarListItem.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/Request.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAvatar.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/PersistentMessage.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/GenericAPI/GenericConnection.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLibrary.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHandler.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpTypes.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpDriver.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHelper.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLogicalPacket.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLinkedList.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpMisc.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpManager.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpPriority.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHashTable.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpConnection.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHandler.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAPI.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatEnum.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/Response.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/GenericAPI/GenericMessage.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAvatarCore.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoomCore.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoom.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatFriendStatus.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatIgnoreStatus.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/AvatarListItem.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/Request.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAvatar.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/PersistentMessage.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/GenericAPI/GenericConnection.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLibrary.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHandler.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpTypes.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpDriver.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHelper.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLogicalPacket.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLinkedList.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpMisc.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpManager.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpPriority.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHashTable.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpConnection.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHandler.h

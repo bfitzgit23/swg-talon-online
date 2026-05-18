@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/rule
 .PHONY : engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedSynchronization: engine/shared/library/sharedSynchronization/src/CMakeFile
 
 # fast build rule for target.
 sharedSynchronization/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build
 .PHONY : sharedSynchronization/fast
 
 linux/ConditionVariable.o: linux/ConditionVariable.cpp.o
@@ -135,7 +135,7 @@ linux/ConditionVariable.o: linux/ConditionVariable.cpp.o
 
 # target to build an object file
 linux/ConditionVariable.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o
 .PHONY : linux/ConditionVariable.cpp.o
 
 linux/ConditionVariable.i: linux/ConditionVariable.cpp.i
@@ -143,7 +143,7 @@ linux/ConditionVariable.i: linux/ConditionVariable.cpp.i
 
 # target to preprocess a source file
 linux/ConditionVariable.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.i
 .PHONY : linux/ConditionVariable.cpp.i
 
 linux/ConditionVariable.s: linux/ConditionVariable.cpp.s
@@ -151,7 +151,7 @@ linux/ConditionVariable.s: linux/ConditionVariable.cpp.s
 
 # target to generate assembly for a file
 linux/ConditionVariable.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.s
 .PHONY : linux/ConditionVariable.cpp.s
 
 linux/Gate.o: linux/Gate.cpp.o
@@ -159,7 +159,7 @@ linux/Gate.o: linux/Gate.cpp.o
 
 # target to build an object file
 linux/Gate.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o
 .PHONY : linux/Gate.cpp.o
 
 linux/Gate.i: linux/Gate.cpp.i
@@ -167,7 +167,7 @@ linux/Gate.i: linux/Gate.cpp.i
 
 # target to preprocess a source file
 linux/Gate.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.i
 .PHONY : linux/Gate.cpp.i
 
 linux/Gate.s: linux/Gate.cpp.s
@@ -175,7 +175,7 @@ linux/Gate.s: linux/Gate.cpp.s
 
 # target to generate assembly for a file
 linux/Gate.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.s
 .PHONY : linux/Gate.cpp.s
 
 linux/Mutex.o: linux/Mutex.cpp.o
@@ -183,7 +183,7 @@ linux/Mutex.o: linux/Mutex.cpp.o
 
 # target to build an object file
 linux/Mutex.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o
 .PHONY : linux/Mutex.cpp.o
 
 linux/Mutex.i: linux/Mutex.cpp.i
@@ -191,7 +191,7 @@ linux/Mutex.i: linux/Mutex.cpp.i
 
 # target to preprocess a source file
 linux/Mutex.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.i
 .PHONY : linux/Mutex.cpp.i
 
 linux/Mutex.s: linux/Mutex.cpp.s
@@ -199,7 +199,7 @@ linux/Mutex.s: linux/Mutex.cpp.s
 
 # target to generate assembly for a file
 linux/Mutex.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.s
 .PHONY : linux/Mutex.cpp.s
 
 linux/RecursiveMutex.o: linux/RecursiveMutex.cpp.o
@@ -207,7 +207,7 @@ linux/RecursiveMutex.o: linux/RecursiveMutex.cpp.o
 
 # target to build an object file
 linux/RecursiveMutex.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o
 .PHONY : linux/RecursiveMutex.cpp.o
 
 linux/RecursiveMutex.i: linux/RecursiveMutex.cpp.i
@@ -215,7 +215,7 @@ linux/RecursiveMutex.i: linux/RecursiveMutex.cpp.i
 
 # target to preprocess a source file
 linux/RecursiveMutex.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.i
 .PHONY : linux/RecursiveMutex.cpp.i
 
 linux/RecursiveMutex.s: linux/RecursiveMutex.cpp.s
@@ -223,7 +223,7 @@ linux/RecursiveMutex.s: linux/RecursiveMutex.cpp.s
 
 # target to generate assembly for a file
 linux/RecursiveMutex.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.s
 .PHONY : linux/RecursiveMutex.cpp.s
 
 linux/Semaphore.o: linux/Semaphore.cpp.o
@@ -231,7 +231,7 @@ linux/Semaphore.o: linux/Semaphore.cpp.o
 
 # target to build an object file
 linux/Semaphore.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o
 .PHONY : linux/Semaphore.cpp.o
 
 linux/Semaphore.i: linux/Semaphore.cpp.i
@@ -239,7 +239,7 @@ linux/Semaphore.i: linux/Semaphore.cpp.i
 
 # target to preprocess a source file
 linux/Semaphore.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.i
 .PHONY : linux/Semaphore.cpp.i
 
 linux/Semaphore.s: linux/Semaphore.cpp.s
@@ -247,7 +247,7 @@ linux/Semaphore.s: linux/Semaphore.cpp.s
 
 # target to generate assembly for a file
 linux/Semaphore.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.s
 .PHONY : linux/Semaphore.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -54,10 +54,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Directory level rules for the build root directory
@@ -3114,14 +3114,14 @@ game/shared/library/swgSharedUtility/src/clean: game/shared/library/swgSharedUti
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/webAPI/CMakeFiles/webAPI.dir/build.make external/3rd/library/webAPI/CMakeFiles/webAPI.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/webAPI/CMakeFiles/webAPI.dir/build.make external/3rd/library/webAPI/CMakeFiles/webAPI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=100 "Built target webAPI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=100 "Built target webAPI"
 .PHONY : external/3rd/library/webAPI/CMakeFiles/webAPI.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/webAPI/CMakeFiles/webAPI.dir/rule
 
 # Convenience name for target.
@@ -3140,14 +3140,14 @@ external/3rd/library/webAPI/CMakeFiles/webAPI.dir/clean:
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target MonAPI2"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target MonAPI2"
 .PHONY : external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/rule
 
 # Convenience name for target.
@@ -3166,14 +3166,14 @@ external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/clean:
 external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/build.make external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/build.make external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=8 "Built target CommonAPI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=8 "Built target CommonAPI"
 .PHONY : external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/rule
 
 # Convenience name for target.
@@ -3193,14 +3193,14 @@ external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/
 external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/all: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/all
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target LoginAPI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target LoginAPI"
 .PHONY : external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/rule
 
 # Convenience name for target.
@@ -3219,14 +3219,14 @@ external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target Base"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target Base"
 .PHONY : external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/rule
 
 # Convenience name for target.
@@ -3245,14 +3245,14 @@ external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/clean:
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=1 "Built target CSAssist"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=1 "Built target CSAssist"
 .PHONY : external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/rule
 
 # Convenience name for target.
@@ -3271,14 +3271,14 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=2 "Built target CTServiceGameAPI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=2 "Built target CTServiceGameAPI"
 .PHONY : external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/rule
 
 # Convenience name for target.
@@ -3297,14 +3297,14 @@ external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.di
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=5,6 "Built target ChatMono"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=5,6 "Built target ChatMono"
 .PHONY : external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/rule
 
 # Convenience name for target.
@@ -3323,14 +3323,14 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=20 "Built target VChatAPI"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=20 "Built target VChatAPI"
 .PHONY : external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/rule
 
 # Convenience name for target.
@@ -3349,14 +3349,14 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target udplibrary"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target udplibrary"
 .PHONY : external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/all
 
 # Build rule for subdir invocation for target.
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/rule
 
 # Convenience name for target.
@@ -3375,14 +3375,14 @@ external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/clean:
 external/ours/library/archive/src/CMakeFiles/archive.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target archive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target archive"
 .PHONY : external/ours/library/archive/src/CMakeFiles/archive.dir/all
 
 # Build rule for subdir invocation for target.
 external/ours/library/archive/src/CMakeFiles/archive.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/CMakeFiles/archive.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/ours/library/archive/src/CMakeFiles/archive.dir/rule
 
 # Convenience name for target.
@@ -3401,14 +3401,14 @@ external/ours/library/archive/src/CMakeFiles/archive.dir/clean:
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=21 "Built target crypto"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=21 "Built target crypto"
 .PHONY : external/ours/library/crypto/src/CMakeFiles/crypto.dir/all
 
 # Build rule for subdir invocation for target.
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/CMakeFiles/crypto.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/ours/library/crypto/src/CMakeFiles/crypto.dir/rule
 
 # Convenience name for target.
@@ -3427,14 +3427,14 @@ external/ours/library/crypto/src/CMakeFiles/crypto.dir/clean:
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/build.make external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/build.make external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target fileInterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target fileInterface"
 .PHONY : external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/all
 
 # Build rule for subdir invocation for target.
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/rule
 
 # Convenience name for target.
@@ -3453,14 +3453,14 @@ external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/clean:
 external/ours/library/localization/src/CMakeFiles/localization.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target localization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target localization"
 .PHONY : external/ours/library/localization/src/CMakeFiles/localization.dir/all
 
 # Build rule for subdir invocation for target.
 external/ours/library/localization/src/CMakeFiles/localization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/CMakeFiles/localization.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/ours/library/localization/src/CMakeFiles/localization.dir/rule
 
 # Convenience name for target.
@@ -3479,14 +3479,14 @@ external/ours/library/localization/src/CMakeFiles/localization.dir/clean:
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/build.make external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/build.make external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target localizationArchive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target localizationArchive"
 .PHONY : external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/all
 
 # Build rule for subdir invocation for target.
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/rule
 
 # Convenience name for target.
@@ -3505,14 +3505,14 @@ external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir
 external/ours/library/singleton/src/CMakeFiles/singleton.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/ours/library/singleton/src/CMakeFiles/singleton.dir/build.make external/ours/library/singleton/src/CMakeFiles/singleton.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/ours/library/singleton/src/CMakeFiles/singleton.dir/build.make external/ours/library/singleton/src/CMakeFiles/singleton.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target singleton"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target singleton"
 .PHONY : external/ours/library/singleton/src/CMakeFiles/singleton.dir/all
 
 # Build rule for subdir invocation for target.
 external/ours/library/singleton/src/CMakeFiles/singleton.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/singleton/src/CMakeFiles/singleton.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/ours/library/singleton/src/CMakeFiles/singleton.dir/rule
 
 # Convenience name for target.
@@ -3531,14 +3531,14 @@ external/ours/library/singleton/src/CMakeFiles/singleton.dir/clean:
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/ours/library/unicode/src/CMakeFiles/unicode.dir/build.make external/ours/library/unicode/src/CMakeFiles/unicode.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/ours/library/unicode/src/CMakeFiles/unicode.dir/build.make external/ours/library/unicode/src/CMakeFiles/unicode.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target unicode"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target unicode"
 .PHONY : external/ours/library/unicode/src/CMakeFiles/unicode.dir/all
 
 # Build rule for subdir invocation for target.
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/unicode/src/CMakeFiles/unicode.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/ours/library/unicode/src/CMakeFiles/unicode.dir/rule
 
 # Convenience name for target.
@@ -3557,14 +3557,14 @@ external/ours/library/unicode/src/CMakeFiles/unicode.dir/clean:
 external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/all:
 	$(MAKE) $(MAKESILENT) -f external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/build.make external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/depend
 	$(MAKE) $(MAKESILENT) -f external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/build.make external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target unicodeArchive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target unicodeArchive"
 .PHONY : external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/all
 
 # Build rule for subdir invocation for target.
 external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/rule
 
 # Convenience name for target.
@@ -3598,14 +3598,14 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/all: engine/shared/librar
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=12 "Built target Miff"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=12 "Built target Miff"
 .PHONY : engine/client/application/Miff/src/CMakeFiles/Miff.dir/all
 
 # Build rule for subdir invocation for target.
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 24
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 24
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/CMakeFiles/Miff.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/client/application/Miff/src/CMakeFiles/Miff.dir/rule
 
 # Convenience name for target.
@@ -3651,14 +3651,14 @@ engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/all: en
 engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=3,4 "Built target CentralServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=3,4 "Built target CentralServer"
 .PHONY : engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 52
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 52
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/rule
 
 # Convenience name for target.
@@ -3699,14 +3699,14 @@ engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/all: engine/s
 engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=7 "Built target ChatServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=7 "Built target ChatServer"
 .PHONY : engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 38
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/rule
 
 # Convenience name for target.
@@ -3754,14 +3754,14 @@ engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/a
 engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target ConnectionServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target ConnectionServer"
 .PHONY : engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 51
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 51
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/rule
 
 # Convenience name for target.
@@ -3800,14 +3800,14 @@ engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/all: engine/sha
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target LogServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target LogServer"
 .PHONY : engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/rule
 
 # Convenience name for target.
@@ -3858,14 +3858,14 @@ engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/all: engine
 engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=11 "Built target LoginServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=11 "Built target LoginServer"
 .PHONY : engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 54
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 54
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/rule
 
 # Convenience name for target.
@@ -3904,14 +3904,14 @@ engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/all: en
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target MetricsServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target MetricsServer"
 .PHONY : engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 34
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/rule
 
 # Convenience name for target.
@@ -3952,14 +3952,14 @@ engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/all: engi
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/build.make engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/build.make engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target PlanetServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target PlanetServer"
 .PHONY : engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/rule
 
 # Convenience name for target.
@@ -3995,14 +3995,14 @@ engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/all: en
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=13 "Built target ServerConsole"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=13 "Built target ServerConsole"
 .PHONY : engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 25
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 25
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/rule
 
 # Convenience name for target.
@@ -4040,14 +4040,14 @@ engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/all: engine
 engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=18 "Built target TaskManager"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=18 "Built target TaskManager"
 .PHONY : engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/rule
 
 # Convenience name for target.
@@ -4087,14 +4087,14 @@ engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/all: 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build.make engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=19 "Built target TransferServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=19 "Built target TransferServer"
 .PHONY : engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/rule
 
 # Convenience name for target.
@@ -4136,14 +4136,14 @@ engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir
 engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target CommoditiesServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target CommoditiesServer"
 .PHONY : engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 48
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 48
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/rule
 
 # Convenience name for target.
@@ -4184,14 +4184,14 @@ engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceSe
 engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/all: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/build.make engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/build.make engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=9 "Built target CustomerServiceServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=9 "Built target CustomerServiceServer"
 .PHONY : engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/rule
 
 # Convenience name for target.
@@ -4228,14 +4228,14 @@ engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/all: engine/sha
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=10 "Built target LoginPing"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=10 "Built target LoginPing"
 .PHONY : engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/rule
 
 # Convenience name for target.
@@ -4276,14 +4276,14 @@ engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersC
 engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target StationPlayersCollector"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target StationPlayersCollector"
 .PHONY : engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 36
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/rule
 
 # Convenience name for target.
@@ -4302,14 +4302,14 @@ engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersC
 engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/build.make engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/build.make engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target serverBase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target serverBase"
 .PHONY : engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/rule
 
 # Convenience name for target.
@@ -4328,14 +4328,14 @@ engine/server/library/serverBase/src/CMakeFiles/serverBase.dir/clean:
 engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/all: engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/build.make engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/build.make engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=22,23,24 "Built target serverDatabase"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=22,23,24 "Built target serverDatabase"
 .PHONY : engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverDatabase/src/CMakeFiles/serverDatabase.dir/rule
 
 # Convenience name for target.
@@ -4370,14 +4370,14 @@ engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/all: engine/share
 engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/build.make engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/build.make engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target serverGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=25,26,27,28,29,30,31,32,33,34,35,36,37,38,39 "Built target serverGame"
 .PHONY : engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 37
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 37
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/rule
 
 # Convenience name for target.
@@ -4396,14 +4396,14 @@ engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/clean:
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/build.make engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/build.make engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target serverKeyShare"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target serverKeyShare"
 .PHONY : engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/rule
 
 # Convenience name for target.
@@ -4422,14 +4422,14 @@ engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/clean:
 engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/build.make engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/build.make engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target serverMetrics"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target serverMetrics"
 .PHONY : engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/rule
 
 # Convenience name for target.
@@ -4457,14 +4457,14 @@ engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages
 engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/all: engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49 "Built target serverNetworkMessages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=40,41,42,43,44,45,46,47,48,49 "Built target serverNetworkMessages"
 .PHONY : engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 15
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 15
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/rule
 
 # Convenience name for target.
@@ -4483,14 +4483,14 @@ engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages
 engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target serverPathfinding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target serverPathfinding"
 .PHONY : engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/rule
 
 # Convenience name for target.
@@ -4509,14 +4509,14 @@ engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/cle
 engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=50,51,52,53 "Built target serverScript"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=50,51,52,53 "Built target serverScript"
 .PHONY : engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/rule
 
 # Convenience name for target.
@@ -4548,14 +4548,14 @@ engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/all: engine
 engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/build.make engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/build.make engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target serverUtility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target serverUtility"
 .PHONY : engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/all
 
 # Build rule for subdir invocation for target.
 engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 31
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 31
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/server/library/serverUtility/src/CMakeFiles/serverUtility.dir/rule
 
 # Convenience name for target.
@@ -4597,14 +4597,14 @@ engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/all: en
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/build.make engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/build.make engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target DataTableTool"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target DataTableTool"
 .PHONY : engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/rule
 
 # Convenience name for target.
@@ -4644,14 +4644,14 @@ engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/a
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/build.make engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/build.make engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target TemplateCompiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target TemplateCompiler"
 .PHONY : engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/rule
 
 # Convenience name for target.
@@ -4691,14 +4691,14 @@ engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefi
 engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target TemplateDefinitionCompiler"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target TemplateDefinitionCompiler"
 .PHONY : engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 40
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/rule
 
 # Convenience name for target.
@@ -4717,14 +4717,14 @@ engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefi
 engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/all: engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=54,55,56 "Built target sharedCollision"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=54,55,56 "Built target sharedCollision"
 .PHONY : engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/rule
 
 # Convenience name for target.
@@ -4743,14 +4743,14 @@ engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/clean:
 engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedCommandParser"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedCommandParser"
 .PHONY : engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/rule
 
 # Convenience name for target.
@@ -4769,14 +4769,14 @@ engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/build.make engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/build.make engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedCompression"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedCompression"
 .PHONY : engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/rule
 
 # Convenience name for target.
@@ -4795,14 +4795,14 @@ engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/cle
 engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=57 "Built target sharedDatabaseInterface"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=57 "Built target sharedDatabaseInterface"
 .PHONY : engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/rule
 
 # Convenience name for target.
@@ -4821,14 +4821,14 @@ engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInter
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/all: engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=58 "Built target sharedDatabaseInterface_oci"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=58 "Built target sharedDatabaseInterface_oci"
 .PHONY : engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/rule
 
 # Convenience name for target.
@@ -4847,14 +4847,14 @@ engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseI
 engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedDebug"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedDebug"
 .PHONY : engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/rule
 
 # Convenience name for target.
@@ -4873,14 +4873,14 @@ engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/clean:
 engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/all: engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/build.make engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/build.make engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=59 "Built target sharedFile"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=59 "Built target sharedFile"
 .PHONY : engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 5
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 5
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/rule
 
 # Convenience name for target.
@@ -4899,14 +4899,14 @@ engine/shared/library/sharedFile/src/CMakeFiles/sharedFile.dir/clean:
 engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/all: engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/build.make engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/build.make engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=60,61 "Built target sharedFoundation"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=60,61 "Built target sharedFoundation"
 .PHONY : engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 4
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/rule
 
 # Convenience name for target.
@@ -4925,14 +4925,14 @@ engine/shared/library/sharedFoundation/src/CMakeFiles/sharedFoundation.dir/clean
 engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/build.make engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/build.make engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedFoundationTypes"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedFoundationTypes"
 .PHONY : engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes.dir/rule
 
 # Convenience name for target.
@@ -4951,14 +4951,14 @@ engine/shared/library/sharedFoundationTypes/src/CMakeFiles/sharedFoundationTypes
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedFractal"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedFractal"
 .PHONY : engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/rule
 
 # Convenience name for target.
@@ -4977,14 +4977,14 @@ engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/clean:
 engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/all: engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=62,63,64,65,66,67 "Built target sharedGame"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=62,63,64,65,66,67 "Built target sharedGame"
 .PHONY : engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 18
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 18
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/rule
 
 # Convenience name for target.
@@ -5003,14 +5003,14 @@ engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/clean:
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedImage"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedImage"
 .PHONY : engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/rule
 
 # Convenience name for target.
@@ -5029,14 +5029,14 @@ engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/clean:
 engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedIoWin"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedIoWin"
 .PHONY : engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/rule
 
 # Convenience name for target.
@@ -5066,14 +5066,14 @@ engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/all: engine/shared/
 engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=68 "Built target sharedLog"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=68 "Built target sharedLog"
 .PHONY : engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/rule
 
 # Convenience name for target.
@@ -5100,14 +5100,14 @@ engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/all: engine/share
 engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/all: engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build.make engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=69,70 "Built target sharedMath"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=69,70 "Built target sharedMath"
 .PHONY : engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 2
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 2
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/rule
 
 # Convenience name for target.
@@ -5126,14 +5126,14 @@ engine/shared/library/sharedMath/src/CMakeFiles/sharedMath.dir/clean:
 engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/build.make engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/build.make engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedMathArchive"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedMathArchive"
 .PHONY : engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/rule
 
 # Convenience name for target.
@@ -5152,14 +5152,14 @@ engine/shared/library/sharedMathArchive/src/CMakeFiles/sharedMathArchive.dir/cle
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedMessageDispatch"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedMessageDispatch"
 .PHONY : engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/rule
 
 # Convenience name for target.
@@ -5192,14 +5192,14 @@ engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/all: engine
 engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=71 "Built target sharedNetwork"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=71 "Built target sharedNetwork"
 .PHONY : engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 23
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 23
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/rule
 
 # Convenience name for target.
@@ -5228,14 +5228,14 @@ engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages
 engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/all: engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/build.make engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/build.make engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84,85 "Built target sharedNetworkMessages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=72,73,74,75,76,77,78,79,80,81,82,83,84,85 "Built target sharedNetworkMessages"
 .PHONY : engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 21
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 21
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages.dir/rule
 
 # Convenience name for target.
@@ -5254,14 +5254,14 @@ engine/shared/library/sharedNetworkMessages/src/CMakeFiles/sharedNetworkMessages
 engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/all: engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/build.make engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/build.make engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=86,87,88 "Built target sharedObject"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=86,87,88 "Built target sharedObject"
 .PHONY : engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 12
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 12
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/rule
 
 # Convenience name for target.
@@ -5280,14 +5280,14 @@ engine/shared/library/sharedObject/src/CMakeFiles/sharedObject.dir/clean:
 engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=89 "Built target sharedPathfinding"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=89 "Built target sharedPathfinding"
 .PHONY : engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/rule
 
 # Convenience name for target.
@@ -5306,14 +5306,14 @@ engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/cle
 engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/build.make engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/build.make engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedRandom"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedRandom"
 .PHONY : engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/rule
 
 # Convenience name for target.
@@ -5332,14 +5332,14 @@ engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/clean:
 engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedRegex"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedRegex"
 .PHONY : engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/rule
 
 # Convenience name for target.
@@ -5358,14 +5358,14 @@ engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/clean:
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedRemoteDebugServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedRemoteDebugServer"
 .PHONY : engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/rule
 
 # Convenience name for target.
@@ -5384,14 +5384,14 @@ engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugSe
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedSkillSystem"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedSkillSystem"
 .PHONY : engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/rule
 
 # Convenience name for target.
@@ -5410,14 +5410,14 @@ engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/cle
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=90 "Built target sharedSynchronization"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=90 "Built target sharedSynchronization"
 .PHONY : engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/rule
 
 # Convenience name for target.
@@ -5436,14 +5436,14 @@ engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization
 engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/build.make engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/build.make engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=91,92,93 "Built target sharedTemplate"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=91,92,93 "Built target sharedTemplate"
 .PHONY : engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 3
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 3
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/rule
 
 # Convenience name for target.
@@ -5462,14 +5462,14 @@ engine/shared/library/sharedTemplate/src/CMakeFiles/sharedTemplate.dir/clean:
 engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedTemplateDefinition"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedTemplateDefinition"
 .PHONY : engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/rule
 
 # Convenience name for target.
@@ -5500,14 +5500,14 @@ engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/all: engine
 engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=94,95 "Built target sharedTerrain"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=94,95 "Built target sharedTerrain"
 .PHONY : engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 9
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 9
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/rule
 
 # Convenience name for target.
@@ -5526,14 +5526,14 @@ engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/clean:
 engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/all: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/build.make engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/build.make engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedThread"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedThread"
 .PHONY : engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedThread/src/CMakeFiles/sharedThread.dir/rule
 
 # Convenience name for target.
@@ -5561,14 +5561,14 @@ engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all: engine
 engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all: engine/shared/library/sharedRandom/src/CMakeFiles/sharedRandom.dir/all
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build.make engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=96,97 "Built target sharedUtility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=96,97 "Built target sharedUtility"
 .PHONY : engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 7
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 7
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/rule
 
 # Convenience name for target.
@@ -5587,14 +5587,14 @@ engine/shared/library/sharedUtility/src/CMakeFiles/sharedUtility.dir/clean:
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/all:
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/depend
 	$(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target sharedXml"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target sharedXml"
 .PHONY : engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/all
 
 # Build rule for subdir invocation for target.
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/rule
 
 # Convenience name for target.
@@ -5646,14 +5646,14 @@ game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/a
 game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=14,15,16 "Built target SwgDatabaseServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=14,15,16 "Built target SwgDatabaseServer"
 .PHONY : game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/all
 
 # Build rule for subdir invocation for target.
 game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 75
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 75
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/rule
 
 # Convenience name for target.
@@ -5709,14 +5709,14 @@ game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/all: game
 game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/build.make game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/depend
 	$(MAKE) $(MAKESILENT) -f game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/build.make game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=17 "Built target SwgGameServer"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=17 "Built target SwgGameServer"
 .PHONY : game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/all
 
 # Build rule for subdir invocation for target.
 game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 72
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 72
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/rule
 
 # Convenience name for target.
@@ -5735,14 +5735,14 @@ game/server/application/SwgGameServer/src/CMakeFiles/SwgGameServer.dir/clean:
 game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/all:
 	$(MAKE) $(MAKESILENT) -f game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/build.make game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/depend
 	$(MAKE) $(MAKESILENT) -f game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/build.make game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=98 "Built target swgServerNetworkMessages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=98 "Built target swgServerNetworkMessages"
 .PHONY : game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/all
 
 # Build rule for subdir invocation for target.
 game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 1
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 1
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : game/server/library/swgServerNetworkMessages/src/CMakeFiles/swgServerNetworkMessages.dir/rule
 
 # Convenience name for target.
@@ -5774,14 +5774,14 @@ game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMess
 game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/all: game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 	$(MAKE) $(MAKESILENT) -f game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/build.make game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/depend
 	$(MAKE) $(MAKESILENT) -f game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/build.make game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=99 "Built target swgSharedNetworkMessages"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=99 "Built target swgSharedNetworkMessages"
 .PHONY : game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/all
 
 # Build rule for subdir invocation for target.
 game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 22
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 22
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMessages.dir/rule
 
 # Convenience name for target.
@@ -5800,14 +5800,14 @@ game/shared/library/swgSharedNetworkMessages/src/CMakeFiles/swgSharedNetworkMess
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all:
 	$(MAKE) $(MAKESILENT) -f game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/build.make game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/depend
 	$(MAKE) $(MAKESILENT) -f game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/build.make game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num= "Built target swgSharedUtility"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num= "Built target swgSharedUtility"
 .PHONY : game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
 
 # Build rule for subdir invocation for target.
 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : game/shared/library/swgSharedUtility/src/CMakeFiles/swgSharedUtility.dir/rule
 
 # Convenience name for target.

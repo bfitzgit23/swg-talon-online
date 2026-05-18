@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include external/3rd/library/webAPI/CMakeFiles/webAPI.dir/depend.make
@@ -70,32 +70,32 @@ include external/3rd/library/webAPI/CMakeFiles/webAPI.dir/progress.make
 include external/3rd/library/webAPI/CMakeFiles/webAPI.dir/flags.make
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o: external/3rd/library/webAPI/CMakeFiles/webAPI.dir/flags.make
-external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/webAPI.cpp
+external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/webAPI.cpp
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o: external/3rd/library/webAPI/CMakeFiles/webAPI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o -MF CMakeFiles/webAPI.dir/webAPI.cpp.o.d -o CMakeFiles/webAPI.dir/webAPI.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/webAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o -MF CMakeFiles/webAPI.dir/webAPI.cpp.o.d -o CMakeFiles/webAPI.dir/webAPI.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/webAPI.cpp
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webAPI.dir/webAPI.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/webAPI.cpp > CMakeFiles/webAPI.dir/webAPI.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/webAPI.cpp > CMakeFiles/webAPI.dir/webAPI.cpp.i
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webAPI.dir/webAPI.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/webAPI.cpp -o CMakeFiles/webAPI.dir/webAPI.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/webAPI.cpp -o CMakeFiles/webAPI.dir/webAPI.cpp.s
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o: external/3rd/library/webAPI/CMakeFiles/webAPI.dir/flags.make
-external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/jsonWebAPI.cpp
+external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/jsonWebAPI.cpp
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o: external/3rd/library/webAPI/CMakeFiles/webAPI.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o -MF CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o.d -o CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/jsonWebAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o -MF CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o.d -o CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/jsonWebAPI.cpp
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/webAPI.dir/jsonWebAPI.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/jsonWebAPI.cpp > CMakeFiles/webAPI.dir/jsonWebAPI.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/jsonWebAPI.cpp > CMakeFiles/webAPI.dir/jsonWebAPI.cpp.i
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/webAPI.dir/jsonWebAPI.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/jsonWebAPI.cpp -o CMakeFiles/webAPI.dir/jsonWebAPI.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/jsonWebAPI.cpp -o CMakeFiles/webAPI.dir/jsonWebAPI.cpp.s
 
 # Object files for target webAPI
 webAPI_OBJECTS = \
@@ -109,19 +109,19 @@ external/3rd/library/webAPI/libwebAPI.a: external/3rd/library/webAPI/CMakeFiles/
 external/3rd/library/webAPI/libwebAPI.a: external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o
 external/3rd/library/webAPI/libwebAPI.a: external/3rd/library/webAPI/CMakeFiles/webAPI.dir/build.make
 external/3rd/library/webAPI/libwebAPI.a: external/3rd/library/webAPI/CMakeFiles/webAPI.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libwebAPI.a"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && $(CMAKE_COMMAND) -P CMakeFiles/webAPI.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webAPI.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libwebAPI.a"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && $(CMAKE_COMMAND) -P CMakeFiles/webAPI.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/webAPI.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/build: external/3rd/library/webAPI/libwebAPI.a
 .PHONY : external/3rd/library/webAPI/CMakeFiles/webAPI.dir/build
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI && $(CMAKE_COMMAND) -P CMakeFiles/webAPI.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI && $(CMAKE_COMMAND) -P CMakeFiles/webAPI.dir/cmake_clean.cmake
 .PHONY : external/3rd/library/webAPI/CMakeFiles/webAPI.dir/clean
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI /home/almalinux/swg-returns-nge/build/external/3rd/library/webAPI/CMakeFiles/webAPI.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI /home/almalinux/swg-talon-online/build/external/3rd/library/webAPI/CMakeFiles/webAPI.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/3rd/library/webAPI/CMakeFiles/webAPI.dir/depend
 

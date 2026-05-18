@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/rule
 .PHONY : external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ udplibrary: external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/rule
 
 # fast build rule for target.
 udplibrary/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build
 .PHONY : udplibrary/fast
 
 UdpLibrary.o: UdpLibrary.cpp.o
@@ -135,7 +135,7 @@ UdpLibrary.o: UdpLibrary.cpp.o
 
 # target to build an object file
 UdpLibrary.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o
 .PHONY : UdpLibrary.cpp.o
 
 UdpLibrary.i: UdpLibrary.cpp.i
@@ -143,7 +143,7 @@ UdpLibrary.i: UdpLibrary.cpp.i
 
 # target to preprocess a source file
 UdpLibrary.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.i
 .PHONY : UdpLibrary.cpp.i
 
 UdpLibrary.s: UdpLibrary.cpp.s
@@ -151,7 +151,7 @@ UdpLibrary.s: UdpLibrary.cpp.s
 
 # target to generate assembly for a file
 UdpLibrary.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.s
 .PHONY : UdpLibrary.cpp.s
 
 # Help Target
@@ -177,6 +177,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

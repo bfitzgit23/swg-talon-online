@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary
+# Install script for directory: /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

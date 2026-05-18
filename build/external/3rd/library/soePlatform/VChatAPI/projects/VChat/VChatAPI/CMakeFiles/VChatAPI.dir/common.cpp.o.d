@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/common.cpp.o: \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/common.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/common.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/common.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/common.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -101,19 +101,19 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/date.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/date.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeClasses.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeClasses.h \
  /usr/include/c++/8/cassert /usr/include/assert.h \
  /usr/include/c++/8/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h \
  /usr/include/c++/8/ext/aligned_buffer.h /usr/include/c++/8/bits/list.tcc \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/Base64.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/Base32.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/Base64.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/Base32.h \
  /usr/include/c++/8/algorithm /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \
  /usr/include/c++/8/bits/uniform_int_dist.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/stringutils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/stringutils.h

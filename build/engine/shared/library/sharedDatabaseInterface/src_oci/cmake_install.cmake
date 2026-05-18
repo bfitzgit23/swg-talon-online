@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci
+# Install script for directory: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

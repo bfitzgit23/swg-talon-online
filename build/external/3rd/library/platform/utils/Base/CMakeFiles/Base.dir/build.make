@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/depend.make
@@ -70,186 +70,186 @@ include external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/progress.ma
 include external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Archive.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Archive.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o -MF CMakeFiles/Base.dir/Archive.cpp.o.d -o CMakeFiles/Base.dir/Archive.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Archive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.o -MF CMakeFiles/Base.dir/Archive.cpp.o.d -o CMakeFiles/Base.dir/Archive.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Archive.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/Archive.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Archive.cpp > CMakeFiles/Base.dir/Archive.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Archive.cpp > CMakeFiles/Base.dir/Archive.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Archive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/Archive.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Archive.cpp -o CMakeFiles/Base.dir/Archive.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Archive.cpp -o CMakeFiles/Base.dir/Archive.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/AutoLog.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/AutoLog.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o -MF CMakeFiles/Base.dir/AutoLog.cpp.o.d -o CMakeFiles/Base.dir/AutoLog.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/AutoLog.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o -MF CMakeFiles/Base.dir/AutoLog.cpp.o.d -o CMakeFiles/Base.dir/AutoLog.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/AutoLog.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/AutoLog.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/AutoLog.cpp > CMakeFiles/Base.dir/AutoLog.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/AutoLog.cpp > CMakeFiles/Base.dir/AutoLog.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/AutoLog.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/AutoLog.cpp -o CMakeFiles/Base.dir/AutoLog.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/AutoLog.cpp -o CMakeFiles/Base.dir/AutoLog.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Base.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Base.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o -MF CMakeFiles/Base.dir/Base.cpp.o.d -o CMakeFiles/Base.dir/Base.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Base.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.o -MF CMakeFiles/Base.dir/Base.cpp.o.d -o CMakeFiles/Base.dir/Base.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Base.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/Base.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Base.cpp > CMakeFiles/Base.dir/Base.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Base.cpp > CMakeFiles/Base.dir/Base.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Base.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/Base.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Base.cpp -o CMakeFiles/Base.dir/Base.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Base.cpp -o CMakeFiles/Base.dir/Base.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Config.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Config.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o -MF CMakeFiles/Base.dir/Config.cpp.o.d -o CMakeFiles/Base.dir/Config.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Config.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o -MF CMakeFiles/Base.dir/Config.cpp.o.d -o CMakeFiles/Base.dir/Config.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Config.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/Config.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Config.cpp > CMakeFiles/Base.dir/Config.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Config.cpp > CMakeFiles/Base.dir/Config.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/Config.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Config.cpp -o CMakeFiles/Base.dir/Config.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Config.cpp -o CMakeFiles/Base.dir/Config.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/MD5.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/MD5.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o -MF CMakeFiles/Base.dir/MD5.cpp.o.d -o CMakeFiles/Base.dir/MD5.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/MD5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.o -MF CMakeFiles/Base.dir/MD5.cpp.o.d -o CMakeFiles/Base.dir/MD5.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/MD5.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/MD5.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/MD5.cpp > CMakeFiles/Base.dir/MD5.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/MD5.cpp > CMakeFiles/Base.dir/MD5.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/MD5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/MD5.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/MD5.cpp -o CMakeFiles/Base.dir/MD5.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/MD5.cpp -o CMakeFiles/Base.dir/MD5.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/ScopeLock.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/ScopeLock.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o -MF CMakeFiles/Base.dir/ScopeLock.cpp.o.d -o CMakeFiles/Base.dir/ScopeLock.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/ScopeLock.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.o -MF CMakeFiles/Base.dir/ScopeLock.cpp.o.d -o CMakeFiles/Base.dir/ScopeLock.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/ScopeLock.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/ScopeLock.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/ScopeLock.cpp > CMakeFiles/Base.dir/ScopeLock.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/ScopeLock.cpp > CMakeFiles/Base.dir/ScopeLock.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/ScopeLock.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/ScopeLock.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/ScopeLock.cpp -o CMakeFiles/Base.dir/ScopeLock.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/ScopeLock.cpp -o CMakeFiles/Base.dir/ScopeLock.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Statistics.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Statistics.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o -MF CMakeFiles/Base.dir/Statistics.cpp.o.d -o CMakeFiles/Base.dir/Statistics.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Statistics.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.o -MF CMakeFiles/Base.dir/Statistics.cpp.o.d -o CMakeFiles/Base.dir/Statistics.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Statistics.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/Statistics.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Statistics.cpp > CMakeFiles/Base.dir/Statistics.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Statistics.cpp > CMakeFiles/Base.dir/Statistics.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Statistics.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/Statistics.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Statistics.cpp -o CMakeFiles/Base.dir/Statistics.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Statistics.cpp -o CMakeFiles/Base.dir/Statistics.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/BlockAllocator.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/BlockAllocator.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o -MF CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o.d -o CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/BlockAllocator.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o -MF CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o.d -o CMakeFiles/Base.dir/linux/BlockAllocator.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/BlockAllocator.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/linux/BlockAllocator.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/BlockAllocator.cpp > CMakeFiles/Base.dir/linux/BlockAllocator.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/BlockAllocator.cpp > CMakeFiles/Base.dir/linux/BlockAllocator.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/BlockAllocator.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/linux/BlockAllocator.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/BlockAllocator.cpp -o CMakeFiles/Base.dir/linux/BlockAllocator.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/BlockAllocator.cpp -o CMakeFiles/Base.dir/linux/BlockAllocator.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Event.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Event.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o -MF CMakeFiles/Base.dir/linux/Event.cpp.o.d -o CMakeFiles/Base.dir/linux/Event.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Event.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.o -MF CMakeFiles/Base.dir/linux/Event.cpp.o.d -o CMakeFiles/Base.dir/linux/Event.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Event.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/linux/Event.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Event.cpp > CMakeFiles/Base.dir/linux/Event.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Event.cpp > CMakeFiles/Base.dir/linux/Event.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Event.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/linux/Event.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Event.cpp -o CMakeFiles/Base.dir/linux/Event.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Event.cpp -o CMakeFiles/Base.dir/linux/Event.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Logger.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Logger.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o -MF CMakeFiles/Base.dir/linux/Logger.cpp.o.d -o CMakeFiles/Base.dir/linux/Logger.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Logger.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.o -MF CMakeFiles/Base.dir/linux/Logger.cpp.o.d -o CMakeFiles/Base.dir/linux/Logger.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Logger.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/linux/Logger.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Logger.cpp > CMakeFiles/Base.dir/linux/Logger.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Logger.cpp > CMakeFiles/Base.dir/linux/Logger.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Logger.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/linux/Logger.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Logger.cpp -o CMakeFiles/Base.dir/linux/Logger.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Logger.cpp -o CMakeFiles/Base.dir/linux/Logger.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Mutex.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Mutex.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o -MF CMakeFiles/Base.dir/linux/Mutex.cpp.o.d -o CMakeFiles/Base.dir/linux/Mutex.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.o -MF CMakeFiles/Base.dir/linux/Mutex.cpp.o.d -o CMakeFiles/Base.dir/linux/Mutex.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Mutex.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/linux/Mutex.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Mutex.cpp > CMakeFiles/Base.dir/linux/Mutex.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Mutex.cpp > CMakeFiles/Base.dir/linux/Mutex.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/linux/Mutex.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Mutex.cpp -o CMakeFiles/Base.dir/linux/Mutex.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Mutex.cpp -o CMakeFiles/Base.dir/linux/Mutex.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Platform.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o -MF CMakeFiles/Base.dir/linux/Platform.cpp.o.d -o CMakeFiles/Base.dir/linux/Platform.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Platform.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.o -MF CMakeFiles/Base.dir/linux/Platform.cpp.o.d -o CMakeFiles/Base.dir/linux/Platform.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/linux/Platform.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Platform.cpp > CMakeFiles/Base.dir/linux/Platform.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.cpp > CMakeFiles/Base.dir/linux/Platform.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Platform.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/linux/Platform.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Platform.cpp -o CMakeFiles/Base.dir/linux/Platform.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.cpp -o CMakeFiles/Base.dir/linux/Platform.cpp.s
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/flags.make
-external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp
+external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o -MF CMakeFiles/Base.dir/linux/Thread.cpp.o.d -o CMakeFiles/Base.dir/linux/Thread.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o -MF CMakeFiles/Base.dir/linux/Thread.cpp.o.d -o CMakeFiles/Base.dir/linux/Thread.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Base.dir/linux/Thread.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp > CMakeFiles/Base.dir/linux/Thread.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp > CMakeFiles/Base.dir/linux/Thread.cpp.i
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Base.dir/linux/Thread.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp -o CMakeFiles/Base.dir/linux/Thread.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp -o CMakeFiles/Base.dir/linux/Thread.cpp.s
 
 # Object files for target Base
 Base_OBJECTS = \
@@ -285,19 +285,19 @@ external/3rd/library/platform/utils/Base/libBase.a: external/3rd/library/platfor
 external/3rd/library/platform/utils/Base/libBase.a: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o
 external/3rd/library/platform/utils/Base/libBase.a: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build.make
 external/3rd/library/platform/utils/Base/libBase.a: external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libBase.a"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && $(CMAKE_COMMAND) -P CMakeFiles/Base.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Base.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Linking CXX static library libBase.a"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && $(CMAKE_COMMAND) -P CMakeFiles/Base.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Base.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build: external/3rd/library/platform/utils/Base/libBase.a
 .PHONY : external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/build
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base && $(CMAKE_COMMAND) -P CMakeFiles/Base.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base && $(CMAKE_COMMAND) -P CMakeFiles/Base.dir/cmake_clean.cmake
 .PHONY : external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/clean
 
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base /home/almalinux/swg-returns-nge/build/external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base /home/almalinux/swg-talon-online/build/external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/depend
 

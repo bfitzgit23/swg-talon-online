@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/external/ours/library/unicode/src
+# Install script for directory: /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

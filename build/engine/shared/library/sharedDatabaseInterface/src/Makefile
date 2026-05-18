@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/rule
 .PHONY : engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedDatabaseInterface: engine/shared/library/sharedDatabaseInterface/src/CMake
 
 # fast build rule for target.
 sharedDatabaseInterface/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build
 .PHONY : sharedDatabaseInterface/fast
 
 shared/core/Bindable.o: shared/core/Bindable.cpp.o
@@ -135,7 +135,7 @@ shared/core/Bindable.o: shared/core/Bindable.cpp.o
 
 # target to build an object file
 shared/core/Bindable.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/Bindable.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/Bindable.cpp.o
 .PHONY : shared/core/Bindable.cpp.o
 
 shared/core/Bindable.i: shared/core/Bindable.cpp.i
@@ -143,7 +143,7 @@ shared/core/Bindable.i: shared/core/Bindable.cpp.i
 
 # target to preprocess a source file
 shared/core/Bindable.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/Bindable.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/Bindable.cpp.i
 .PHONY : shared/core/Bindable.cpp.i
 
 shared/core/Bindable.s: shared/core/Bindable.cpp.s
@@ -151,7 +151,7 @@ shared/core/Bindable.s: shared/core/Bindable.cpp.s
 
 # target to generate assembly for a file
 shared/core/Bindable.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/Bindable.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/Bindable.cpp.s
 .PHONY : shared/core/Bindable.cpp.s
 
 shared/core/BindableNetworkId.o: shared/core/BindableNetworkId.cpp.o
@@ -159,7 +159,7 @@ shared/core/BindableNetworkId.o: shared/core/BindableNetworkId.cpp.o
 
 # target to build an object file
 shared/core/BindableNetworkId.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BindableNetworkId.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BindableNetworkId.cpp.o
 .PHONY : shared/core/BindableNetworkId.cpp.o
 
 shared/core/BindableNetworkId.i: shared/core/BindableNetworkId.cpp.i
@@ -167,7 +167,7 @@ shared/core/BindableNetworkId.i: shared/core/BindableNetworkId.cpp.i
 
 # target to preprocess a source file
 shared/core/BindableNetworkId.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BindableNetworkId.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BindableNetworkId.cpp.i
 .PHONY : shared/core/BindableNetworkId.cpp.i
 
 shared/core/BindableNetworkId.s: shared/core/BindableNetworkId.cpp.s
@@ -175,7 +175,7 @@ shared/core/BindableNetworkId.s: shared/core/BindableNetworkId.cpp.s
 
 # target to generate assembly for a file
 shared/core/BindableNetworkId.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BindableNetworkId.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BindableNetworkId.cpp.s
 .PHONY : shared/core/BindableNetworkId.cpp.s
 
 shared/core/BufferString.o: shared/core/BufferString.cpp.o
@@ -183,7 +183,7 @@ shared/core/BufferString.o: shared/core/BufferString.cpp.o
 
 # target to build an object file
 shared/core/BufferString.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BufferString.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BufferString.cpp.o
 .PHONY : shared/core/BufferString.cpp.o
 
 shared/core/BufferString.i: shared/core/BufferString.cpp.i
@@ -191,7 +191,7 @@ shared/core/BufferString.i: shared/core/BufferString.cpp.i
 
 # target to preprocess a source file
 shared/core/BufferString.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BufferString.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BufferString.cpp.i
 .PHONY : shared/core/BufferString.cpp.i
 
 shared/core/BufferString.s: shared/core/BufferString.cpp.s
@@ -199,7 +199,7 @@ shared/core/BufferString.s: shared/core/BufferString.cpp.s
 
 # target to generate assembly for a file
 shared/core/BufferString.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BufferString.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/BufferString.cpp.s
 .PHONY : shared/core/BufferString.cpp.s
 
 shared/core/DbBindableBase.o: shared/core/DbBindableBase.cpp.o
@@ -207,7 +207,7 @@ shared/core/DbBindableBase.o: shared/core/DbBindableBase.cpp.o
 
 # target to build an object file
 shared/core/DbBindableBase.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBase.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBase.cpp.o
 .PHONY : shared/core/DbBindableBase.cpp.o
 
 shared/core/DbBindableBase.i: shared/core/DbBindableBase.cpp.i
@@ -215,7 +215,7 @@ shared/core/DbBindableBase.i: shared/core/DbBindableBase.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBindableBase.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBase.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBase.cpp.i
 .PHONY : shared/core/DbBindableBase.cpp.i
 
 shared/core/DbBindableBase.s: shared/core/DbBindableBase.cpp.s
@@ -223,7 +223,7 @@ shared/core/DbBindableBase.s: shared/core/DbBindableBase.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBindableBase.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBase.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBase.cpp.s
 .PHONY : shared/core/DbBindableBase.cpp.s
 
 shared/core/DbBindableBitArray.o: shared/core/DbBindableBitArray.cpp.o
@@ -231,7 +231,7 @@ shared/core/DbBindableBitArray.o: shared/core/DbBindableBitArray.cpp.o
 
 # target to build an object file
 shared/core/DbBindableBitArray.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBitArray.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBitArray.cpp.o
 .PHONY : shared/core/DbBindableBitArray.cpp.o
 
 shared/core/DbBindableBitArray.i: shared/core/DbBindableBitArray.cpp.i
@@ -239,7 +239,7 @@ shared/core/DbBindableBitArray.i: shared/core/DbBindableBitArray.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBindableBitArray.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBitArray.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBitArray.cpp.i
 .PHONY : shared/core/DbBindableBitArray.cpp.i
 
 shared/core/DbBindableBitArray.s: shared/core/DbBindableBitArray.cpp.s
@@ -247,7 +247,7 @@ shared/core/DbBindableBitArray.s: shared/core/DbBindableBitArray.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBindableBitArray.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBitArray.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBitArray.cpp.s
 .PHONY : shared/core/DbBindableBitArray.cpp.s
 
 shared/core/DbBindableBool.o: shared/core/DbBindableBool.cpp.o
@@ -255,7 +255,7 @@ shared/core/DbBindableBool.o: shared/core/DbBindableBool.cpp.o
 
 # target to build an object file
 shared/core/DbBindableBool.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBool.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBool.cpp.o
 .PHONY : shared/core/DbBindableBool.cpp.o
 
 shared/core/DbBindableBool.i: shared/core/DbBindableBool.cpp.i
@@ -263,7 +263,7 @@ shared/core/DbBindableBool.i: shared/core/DbBindableBool.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBindableBool.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBool.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBool.cpp.i
 .PHONY : shared/core/DbBindableBool.cpp.i
 
 shared/core/DbBindableBool.s: shared/core/DbBindableBool.cpp.s
@@ -271,7 +271,7 @@ shared/core/DbBindableBool.s: shared/core/DbBindableBool.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBindableBool.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBool.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableBool.cpp.s
 .PHONY : shared/core/DbBindableBool.cpp.s
 
 shared/core/DbBindableDouble.o: shared/core/DbBindableDouble.cpp.o
@@ -279,7 +279,7 @@ shared/core/DbBindableDouble.o: shared/core/DbBindableDouble.cpp.o
 
 # target to build an object file
 shared/core/DbBindableDouble.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableDouble.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableDouble.cpp.o
 .PHONY : shared/core/DbBindableDouble.cpp.o
 
 shared/core/DbBindableDouble.i: shared/core/DbBindableDouble.cpp.i
@@ -287,7 +287,7 @@ shared/core/DbBindableDouble.i: shared/core/DbBindableDouble.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBindableDouble.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableDouble.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableDouble.cpp.i
 .PHONY : shared/core/DbBindableDouble.cpp.i
 
 shared/core/DbBindableDouble.s: shared/core/DbBindableDouble.cpp.s
@@ -295,7 +295,7 @@ shared/core/DbBindableDouble.s: shared/core/DbBindableDouble.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBindableDouble.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableDouble.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableDouble.cpp.s
 .PHONY : shared/core/DbBindableDouble.cpp.s
 
 shared/core/DbBindableInt64.o: shared/core/DbBindableInt64.cpp.o
@@ -303,7 +303,7 @@ shared/core/DbBindableInt64.o: shared/core/DbBindableInt64.cpp.o
 
 # target to build an object file
 shared/core/DbBindableInt64.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableInt64.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableInt64.cpp.o
 .PHONY : shared/core/DbBindableInt64.cpp.o
 
 shared/core/DbBindableInt64.i: shared/core/DbBindableInt64.cpp.i
@@ -311,7 +311,7 @@ shared/core/DbBindableInt64.i: shared/core/DbBindableInt64.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBindableInt64.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableInt64.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableInt64.cpp.i
 .PHONY : shared/core/DbBindableInt64.cpp.i
 
 shared/core/DbBindableInt64.s: shared/core/DbBindableInt64.cpp.s
@@ -319,7 +319,7 @@ shared/core/DbBindableInt64.s: shared/core/DbBindableInt64.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBindableInt64.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableInt64.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableInt64.cpp.s
 .PHONY : shared/core/DbBindableInt64.cpp.s
 
 shared/core/DbBindableLong.o: shared/core/DbBindableLong.cpp.o
@@ -327,7 +327,7 @@ shared/core/DbBindableLong.o: shared/core/DbBindableLong.cpp.o
 
 # target to build an object file
 shared/core/DbBindableLong.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableLong.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableLong.cpp.o
 .PHONY : shared/core/DbBindableLong.cpp.o
 
 shared/core/DbBindableLong.i: shared/core/DbBindableLong.cpp.i
@@ -335,7 +335,7 @@ shared/core/DbBindableLong.i: shared/core/DbBindableLong.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBindableLong.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableLong.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableLong.cpp.i
 .PHONY : shared/core/DbBindableLong.cpp.i
 
 shared/core/DbBindableLong.s: shared/core/DbBindableLong.cpp.s
@@ -343,7 +343,7 @@ shared/core/DbBindableLong.s: shared/core/DbBindableLong.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBindableLong.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableLong.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableLong.cpp.s
 .PHONY : shared/core/DbBindableLong.cpp.s
 
 shared/core/DbBindableString.o: shared/core/DbBindableString.cpp.o
@@ -351,7 +351,7 @@ shared/core/DbBindableString.o: shared/core/DbBindableString.cpp.o
 
 # target to build an object file
 shared/core/DbBindableString.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableString.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableString.cpp.o
 .PHONY : shared/core/DbBindableString.cpp.o
 
 shared/core/DbBindableString.i: shared/core/DbBindableString.cpp.i
@@ -359,7 +359,7 @@ shared/core/DbBindableString.i: shared/core/DbBindableString.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBindableString.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableString.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableString.cpp.i
 .PHONY : shared/core/DbBindableString.cpp.i
 
 shared/core/DbBindableString.s: shared/core/DbBindableString.cpp.s
@@ -367,7 +367,7 @@ shared/core/DbBindableString.s: shared/core/DbBindableString.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBindableString.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableString.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableString.cpp.s
 .PHONY : shared/core/DbBindableString.cpp.s
 
 shared/core/DbBindableUnicode.o: shared/core/DbBindableUnicode.cpp.o
@@ -375,7 +375,7 @@ shared/core/DbBindableUnicode.o: shared/core/DbBindableUnicode.cpp.o
 
 # target to build an object file
 shared/core/DbBindableUnicode.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableUnicode.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableUnicode.cpp.o
 .PHONY : shared/core/DbBindableUnicode.cpp.o
 
 shared/core/DbBindableUnicode.i: shared/core/DbBindableUnicode.cpp.i
@@ -383,7 +383,7 @@ shared/core/DbBindableUnicode.i: shared/core/DbBindableUnicode.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBindableUnicode.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableUnicode.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableUnicode.cpp.i
 .PHONY : shared/core/DbBindableUnicode.cpp.i
 
 shared/core/DbBindableUnicode.s: shared/core/DbBindableUnicode.cpp.s
@@ -391,7 +391,7 @@ shared/core/DbBindableUnicode.s: shared/core/DbBindableUnicode.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBindableUnicode.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableUnicode.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBindableUnicode.cpp.s
 .PHONY : shared/core/DbBindableUnicode.cpp.s
 
 shared/core/DbBufferRow.o: shared/core/DbBufferRow.cpp.o
@@ -399,7 +399,7 @@ shared/core/DbBufferRow.o: shared/core/DbBufferRow.cpp.o
 
 # target to build an object file
 shared/core/DbBufferRow.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBufferRow.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBufferRow.cpp.o
 .PHONY : shared/core/DbBufferRow.cpp.o
 
 shared/core/DbBufferRow.i: shared/core/DbBufferRow.cpp.i
@@ -407,7 +407,7 @@ shared/core/DbBufferRow.i: shared/core/DbBufferRow.cpp.i
 
 # target to preprocess a source file
 shared/core/DbBufferRow.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBufferRow.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBufferRow.cpp.i
 .PHONY : shared/core/DbBufferRow.cpp.i
 
 shared/core/DbBufferRow.s: shared/core/DbBufferRow.cpp.s
@@ -415,7 +415,7 @@ shared/core/DbBufferRow.s: shared/core/DbBufferRow.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbBufferRow.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBufferRow.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbBufferRow.cpp.s
 .PHONY : shared/core/DbBufferRow.cpp.s
 
 shared/core/DbException.o: shared/core/DbException.cpp.o
@@ -423,7 +423,7 @@ shared/core/DbException.o: shared/core/DbException.cpp.o
 
 # target to build an object file
 shared/core/DbException.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbException.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbException.cpp.o
 .PHONY : shared/core/DbException.cpp.o
 
 shared/core/DbException.i: shared/core/DbException.cpp.i
@@ -431,7 +431,7 @@ shared/core/DbException.i: shared/core/DbException.cpp.i
 
 # target to preprocess a source file
 shared/core/DbException.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbException.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbException.cpp.i
 .PHONY : shared/core/DbException.cpp.i
 
 shared/core/DbException.s: shared/core/DbException.cpp.s
@@ -439,7 +439,7 @@ shared/core/DbException.s: shared/core/DbException.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbException.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbException.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbException.cpp.s
 .PHONY : shared/core/DbException.cpp.s
 
 shared/core/DbModeQuery.o: shared/core/DbModeQuery.cpp.o
@@ -447,7 +447,7 @@ shared/core/DbModeQuery.o: shared/core/DbModeQuery.cpp.o
 
 # target to build an object file
 shared/core/DbModeQuery.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbModeQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbModeQuery.cpp.o
 .PHONY : shared/core/DbModeQuery.cpp.o
 
 shared/core/DbModeQuery.i: shared/core/DbModeQuery.cpp.i
@@ -455,7 +455,7 @@ shared/core/DbModeQuery.i: shared/core/DbModeQuery.cpp.i
 
 # target to preprocess a source file
 shared/core/DbModeQuery.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbModeQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbModeQuery.cpp.i
 .PHONY : shared/core/DbModeQuery.cpp.i
 
 shared/core/DbModeQuery.s: shared/core/DbModeQuery.cpp.s
@@ -463,7 +463,7 @@ shared/core/DbModeQuery.s: shared/core/DbModeQuery.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbModeQuery.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbModeQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbModeQuery.cpp.s
 .PHONY : shared/core/DbModeQuery.cpp.s
 
 shared/core/DbProfiler.o: shared/core/DbProfiler.cpp.o
@@ -471,7 +471,7 @@ shared/core/DbProfiler.o: shared/core/DbProfiler.cpp.o
 
 # target to build an object file
 shared/core/DbProfiler.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbProfiler.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbProfiler.cpp.o
 .PHONY : shared/core/DbProfiler.cpp.o
 
 shared/core/DbProfiler.i: shared/core/DbProfiler.cpp.i
@@ -479,7 +479,7 @@ shared/core/DbProfiler.i: shared/core/DbProfiler.cpp.i
 
 # target to preprocess a source file
 shared/core/DbProfiler.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbProfiler.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbProfiler.cpp.i
 .PHONY : shared/core/DbProfiler.cpp.i
 
 shared/core/DbProfiler.s: shared/core/DbProfiler.cpp.s
@@ -487,7 +487,7 @@ shared/core/DbProfiler.s: shared/core/DbProfiler.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbProfiler.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbProfiler.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbProfiler.cpp.s
 .PHONY : shared/core/DbProfiler.cpp.s
 
 shared/core/DbQuery.o: shared/core/DbQuery.cpp.o
@@ -495,7 +495,7 @@ shared/core/DbQuery.o: shared/core/DbQuery.cpp.o
 
 # target to build an object file
 shared/core/DbQuery.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbQuery.cpp.o
 .PHONY : shared/core/DbQuery.cpp.o
 
 shared/core/DbQuery.i: shared/core/DbQuery.cpp.i
@@ -503,7 +503,7 @@ shared/core/DbQuery.i: shared/core/DbQuery.cpp.i
 
 # target to preprocess a source file
 shared/core/DbQuery.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbQuery.cpp.i
 .PHONY : shared/core/DbQuery.cpp.i
 
 shared/core/DbQuery.s: shared/core/DbQuery.cpp.s
@@ -511,7 +511,7 @@ shared/core/DbQuery.s: shared/core/DbQuery.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbQuery.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbQuery.cpp.s
 .PHONY : shared/core/DbQuery.cpp.s
 
 shared/core/DbRow.o: shared/core/DbRow.cpp.o
@@ -519,7 +519,7 @@ shared/core/DbRow.o: shared/core/DbRow.cpp.o
 
 # target to build an object file
 shared/core/DbRow.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbRow.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbRow.cpp.o
 .PHONY : shared/core/DbRow.cpp.o
 
 shared/core/DbRow.i: shared/core/DbRow.cpp.i
@@ -527,7 +527,7 @@ shared/core/DbRow.i: shared/core/DbRow.cpp.i
 
 # target to preprocess a source file
 shared/core/DbRow.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbRow.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbRow.cpp.i
 .PHONY : shared/core/DbRow.cpp.i
 
 shared/core/DbRow.s: shared/core/DbRow.cpp.s
@@ -535,7 +535,7 @@ shared/core/DbRow.s: shared/core/DbRow.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbRow.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbRow.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbRow.cpp.s
 .PHONY : shared/core/DbRow.cpp.s
 
 shared/core/DbServer.o: shared/core/DbServer.cpp.o
@@ -543,7 +543,7 @@ shared/core/DbServer.o: shared/core/DbServer.cpp.o
 
 # target to build an object file
 shared/core/DbServer.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbServer.cpp.o
 .PHONY : shared/core/DbServer.cpp.o
 
 shared/core/DbServer.i: shared/core/DbServer.cpp.i
@@ -551,7 +551,7 @@ shared/core/DbServer.i: shared/core/DbServer.cpp.i
 
 # target to preprocess a source file
 shared/core/DbServer.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbServer.cpp.i
 .PHONY : shared/core/DbServer.cpp.i
 
 shared/core/DbServer.s: shared/core/DbServer.cpp.s
@@ -559,7 +559,7 @@ shared/core/DbServer.s: shared/core/DbServer.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbServer.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbServer.cpp.s
 .PHONY : shared/core/DbServer.cpp.s
 
 shared/core/DbSession.o: shared/core/DbSession.cpp.o
@@ -567,7 +567,7 @@ shared/core/DbSession.o: shared/core/DbSession.cpp.o
 
 # target to build an object file
 shared/core/DbSession.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbSession.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbSession.cpp.o
 .PHONY : shared/core/DbSession.cpp.o
 
 shared/core/DbSession.i: shared/core/DbSession.cpp.i
@@ -575,7 +575,7 @@ shared/core/DbSession.i: shared/core/DbSession.cpp.i
 
 # target to preprocess a source file
 shared/core/DbSession.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbSession.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbSession.cpp.i
 .PHONY : shared/core/DbSession.cpp.i
 
 shared/core/DbSession.s: shared/core/DbSession.cpp.s
@@ -583,7 +583,7 @@ shared/core/DbSession.s: shared/core/DbSession.cpp.s
 
 # target to generate assembly for a file
 shared/core/DbSession.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbSession.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/DbSession.cpp.s
 .PHONY : shared/core/DbSession.cpp.s
 
 shared/core/NullEncodedStandardString.o: shared/core/NullEncodedStandardString.cpp.o
@@ -591,7 +591,7 @@ shared/core/NullEncodedStandardString.o: shared/core/NullEncodedStandardString.c
 
 # target to build an object file
 shared/core/NullEncodedStandardString.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedStandardString.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedStandardString.cpp.o
 .PHONY : shared/core/NullEncodedStandardString.cpp.o
 
 shared/core/NullEncodedStandardString.i: shared/core/NullEncodedStandardString.cpp.i
@@ -599,7 +599,7 @@ shared/core/NullEncodedStandardString.i: shared/core/NullEncodedStandardString.c
 
 # target to preprocess a source file
 shared/core/NullEncodedStandardString.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedStandardString.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedStandardString.cpp.i
 .PHONY : shared/core/NullEncodedStandardString.cpp.i
 
 shared/core/NullEncodedStandardString.s: shared/core/NullEncodedStandardString.cpp.s
@@ -607,7 +607,7 @@ shared/core/NullEncodedStandardString.s: shared/core/NullEncodedStandardString.c
 
 # target to generate assembly for a file
 shared/core/NullEncodedStandardString.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedStandardString.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedStandardString.cpp.s
 .PHONY : shared/core/NullEncodedStandardString.cpp.s
 
 shared/core/NullEncodedUnicodeString.o: shared/core/NullEncodedUnicodeString.cpp.o
@@ -615,7 +615,7 @@ shared/core/NullEncodedUnicodeString.o: shared/core/NullEncodedUnicodeString.cpp
 
 # target to build an object file
 shared/core/NullEncodedUnicodeString.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedUnicodeString.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedUnicodeString.cpp.o
 .PHONY : shared/core/NullEncodedUnicodeString.cpp.o
 
 shared/core/NullEncodedUnicodeString.i: shared/core/NullEncodedUnicodeString.cpp.i
@@ -623,7 +623,7 @@ shared/core/NullEncodedUnicodeString.i: shared/core/NullEncodedUnicodeString.cpp
 
 # target to preprocess a source file
 shared/core/NullEncodedUnicodeString.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedUnicodeString.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedUnicodeString.cpp.i
 .PHONY : shared/core/NullEncodedUnicodeString.cpp.i
 
 shared/core/NullEncodedUnicodeString.s: shared/core/NullEncodedUnicodeString.cpp.s
@@ -631,7 +631,7 @@ shared/core/NullEncodedUnicodeString.s: shared/core/NullEncodedUnicodeString.cpp
 
 # target to generate assembly for a file
 shared/core/NullEncodedUnicodeString.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedUnicodeString.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/core/NullEncodedUnicodeString.cpp.s
 .PHONY : shared/core/NullEncodedUnicodeString.cpp.s
 
 shared/logger/DbLogEvent.o: shared/logger/DbLogEvent.cpp.o
@@ -639,7 +639,7 @@ shared/logger/DbLogEvent.o: shared/logger/DbLogEvent.cpp.o
 
 # target to build an object file
 shared/logger/DbLogEvent.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogEvent.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogEvent.cpp.o
 .PHONY : shared/logger/DbLogEvent.cpp.o
 
 shared/logger/DbLogEvent.i: shared/logger/DbLogEvent.cpp.i
@@ -647,7 +647,7 @@ shared/logger/DbLogEvent.i: shared/logger/DbLogEvent.cpp.i
 
 # target to preprocess a source file
 shared/logger/DbLogEvent.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogEvent.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogEvent.cpp.i
 .PHONY : shared/logger/DbLogEvent.cpp.i
 
 shared/logger/DbLogEvent.s: shared/logger/DbLogEvent.cpp.s
@@ -655,7 +655,7 @@ shared/logger/DbLogEvent.s: shared/logger/DbLogEvent.cpp.s
 
 # target to generate assembly for a file
 shared/logger/DbLogEvent.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogEvent.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogEvent.cpp.s
 .PHONY : shared/logger/DbLogEvent.cpp.s
 
 shared/logger/DbLogger.o: shared/logger/DbLogger.cpp.o
@@ -663,7 +663,7 @@ shared/logger/DbLogger.o: shared/logger/DbLogger.cpp.o
 
 # target to build an object file
 shared/logger/DbLogger.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogger.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogger.cpp.o
 .PHONY : shared/logger/DbLogger.cpp.o
 
 shared/logger/DbLogger.i: shared/logger/DbLogger.cpp.i
@@ -671,7 +671,7 @@ shared/logger/DbLogger.i: shared/logger/DbLogger.cpp.i
 
 # target to preprocess a source file
 shared/logger/DbLogger.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogger.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogger.cpp.i
 .PHONY : shared/logger/DbLogger.cpp.i
 
 shared/logger/DbLogger.s: shared/logger/DbLogger.cpp.s
@@ -679,7 +679,7 @@ shared/logger/DbLogger.s: shared/logger/DbLogger.cpp.s
 
 # target to generate assembly for a file
 shared/logger/DbLogger.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogger.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbLogger.cpp.s
 .PHONY : shared/logger/DbLogger.cpp.s
 
 shared/logger/DbTaskSaveLog.o: shared/logger/DbTaskSaveLog.cpp.o
@@ -687,7 +687,7 @@ shared/logger/DbTaskSaveLog.o: shared/logger/DbTaskSaveLog.cpp.o
 
 # target to build an object file
 shared/logger/DbTaskSaveLog.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbTaskSaveLog.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbTaskSaveLog.cpp.o
 .PHONY : shared/logger/DbTaskSaveLog.cpp.o
 
 shared/logger/DbTaskSaveLog.i: shared/logger/DbTaskSaveLog.cpp.i
@@ -695,7 +695,7 @@ shared/logger/DbTaskSaveLog.i: shared/logger/DbTaskSaveLog.cpp.i
 
 # target to preprocess a source file
 shared/logger/DbTaskSaveLog.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbTaskSaveLog.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbTaskSaveLog.cpp.i
 .PHONY : shared/logger/DbTaskSaveLog.cpp.i
 
 shared/logger/DbTaskSaveLog.s: shared/logger/DbTaskSaveLog.cpp.s
@@ -703,7 +703,7 @@ shared/logger/DbTaskSaveLog.s: shared/logger/DbTaskSaveLog.cpp.s
 
 # target to generate assembly for a file
 shared/logger/DbTaskSaveLog.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbTaskSaveLog.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/logger/DbTaskSaveLog.cpp.s
 .PHONY : shared/logger/DbTaskSaveLog.cpp.s
 
 shared/queue/DbTaskQueue.o: shared/queue/DbTaskQueue.cpp.o
@@ -711,7 +711,7 @@ shared/queue/DbTaskQueue.o: shared/queue/DbTaskQueue.cpp.o
 
 # target to build an object file
 shared/queue/DbTaskQueue.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskQueue.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskQueue.cpp.o
 .PHONY : shared/queue/DbTaskQueue.cpp.o
 
 shared/queue/DbTaskQueue.i: shared/queue/DbTaskQueue.cpp.i
@@ -719,7 +719,7 @@ shared/queue/DbTaskQueue.i: shared/queue/DbTaskQueue.cpp.i
 
 # target to preprocess a source file
 shared/queue/DbTaskQueue.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskQueue.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskQueue.cpp.i
 .PHONY : shared/queue/DbTaskQueue.cpp.i
 
 shared/queue/DbTaskQueue.s: shared/queue/DbTaskQueue.cpp.s
@@ -727,7 +727,7 @@ shared/queue/DbTaskQueue.s: shared/queue/DbTaskQueue.cpp.s
 
 # target to generate assembly for a file
 shared/queue/DbTaskQueue.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskQueue.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskQueue.cpp.s
 .PHONY : shared/queue/DbTaskQueue.cpp.s
 
 shared/queue/DbTaskRequest.o: shared/queue/DbTaskRequest.cpp.o
@@ -735,7 +735,7 @@ shared/queue/DbTaskRequest.o: shared/queue/DbTaskRequest.cpp.o
 
 # target to build an object file
 shared/queue/DbTaskRequest.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskRequest.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskRequest.cpp.o
 .PHONY : shared/queue/DbTaskRequest.cpp.o
 
 shared/queue/DbTaskRequest.i: shared/queue/DbTaskRequest.cpp.i
@@ -743,7 +743,7 @@ shared/queue/DbTaskRequest.i: shared/queue/DbTaskRequest.cpp.i
 
 # target to preprocess a source file
 shared/queue/DbTaskRequest.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskRequest.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskRequest.cpp.i
 .PHONY : shared/queue/DbTaskRequest.cpp.i
 
 shared/queue/DbTaskRequest.s: shared/queue/DbTaskRequest.cpp.s
@@ -751,7 +751,7 @@ shared/queue/DbTaskRequest.s: shared/queue/DbTaskRequest.cpp.s
 
 # target to generate assembly for a file
 shared/queue/DbTaskRequest.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskRequest.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTaskRequest.cpp.s
 .PHONY : shared/queue/DbTaskRequest.cpp.s
 
 shared/queue/DbTestQuery.o: shared/queue/DbTestQuery.cpp.o
@@ -759,7 +759,7 @@ shared/queue/DbTestQuery.o: shared/queue/DbTestQuery.cpp.o
 
 # target to build an object file
 shared/queue/DbTestQuery.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTestQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTestQuery.cpp.o
 .PHONY : shared/queue/DbTestQuery.cpp.o
 
 shared/queue/DbTestQuery.i: shared/queue/DbTestQuery.cpp.i
@@ -767,7 +767,7 @@ shared/queue/DbTestQuery.i: shared/queue/DbTestQuery.cpp.i
 
 # target to preprocess a source file
 shared/queue/DbTestQuery.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTestQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTestQuery.cpp.i
 .PHONY : shared/queue/DbTestQuery.cpp.i
 
 shared/queue/DbTestQuery.s: shared/queue/DbTestQuery.cpp.s
@@ -775,7 +775,7 @@ shared/queue/DbTestQuery.s: shared/queue/DbTestQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queue/DbTestQuery.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTestQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/build.make engine/shared/library/sharedDatabaseInterface/src/CMakeFiles/sharedDatabaseInterface.dir/shared/queue/DbTestQuery.cpp.s
 .PHONY : shared/queue/DbTestQuery.cpp.s
 
 # Help Target
@@ -879,6 +879,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

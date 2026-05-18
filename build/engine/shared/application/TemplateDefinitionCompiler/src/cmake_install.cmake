@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/engine/shared/application/TemplateDefinitionCompiler/src
+# Install script for directory: /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateDefinitionCompiler/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

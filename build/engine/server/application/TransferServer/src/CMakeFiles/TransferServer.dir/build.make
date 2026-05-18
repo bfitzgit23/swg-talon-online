@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/depend.make
@@ -70,102 +70,102 @@ include engine/server/application/TransferServer/src/CMakeFiles/TransferServer.d
 include engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/flags.make
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/flags.make
-engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/CentralServerConnection.cpp
+engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/CentralServerConnection.cpp
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o -MF CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/CentralServerConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o -MF CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/CentralServerConnection.cpp
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/CentralServerConnection.cpp > CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/CentralServerConnection.cpp > CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.i
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/CentralServerConnection.cpp -o CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/CentralServerConnection.cpp -o CMakeFiles/TransferServer.dir/shared/CentralServerConnection.cpp.s
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/flags.make
-engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConfigTransferServer.cpp
+engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConfigTransferServer.cpp
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o -MF CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConfigTransferServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o -MF CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConfigTransferServer.cpp
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConfigTransferServer.cpp > CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConfigTransferServer.cpp > CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.i
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConfigTransferServer.cpp -o CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConfigTransferServer.cpp -o CMakeFiles/TransferServer.dir/shared/ConfigTransferServer.cpp.s
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/flags.make
-engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConsoleCommandParser.cpp
+engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConsoleCommandParser.cpp
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o -MF CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConsoleCommandParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o -MF CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConsoleCommandParser.cpp
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConsoleCommandParser.cpp > CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConsoleCommandParser.cpp > CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.i
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConsoleCommandParser.cpp -o CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConsoleCommandParser.cpp -o CMakeFiles/TransferServer.dir/shared/ConsoleCommandParser.cpp.s
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/flags.make
-engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConsoleManager.cpp
+engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConsoleManager.cpp
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o -MF CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConsoleManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o -MF CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConsoleManager.cpp
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConsoleManager.cpp > CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConsoleManager.cpp > CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.i
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/ConsoleManager.cpp -o CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/ConsoleManager.cpp -o CMakeFiles/TransferServer.dir/shared/ConsoleManager.cpp.s
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/flags.make
-engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/CTSAPIClient.cpp
+engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/CTSAPIClient.cpp
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o -MF CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/CTSAPIClient.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o -MF CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/CTSAPIClient.cpp
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/CTSAPIClient.cpp > CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/CTSAPIClient.cpp > CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.i
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/CTSAPIClient.cpp -o CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/CTSAPIClient.cpp -o CMakeFiles/TransferServer.dir/shared/CTSAPIClient.cpp.s
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/flags.make
-engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/TransferServer.cpp
+engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/TransferServer.cpp
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o -MF CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/TransferServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o -MF CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o.d -o CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/TransferServer.cpp
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/TransferServer.cpp > CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/TransferServer.cpp > CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.i
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/shared/TransferServer.cpp -o CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/shared/TransferServer.cpp -o CMakeFiles/TransferServer.dir/shared/TransferServer.cpp.s
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/flags.make
-engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/linux/main.cpp
+engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/linux/main.cpp
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o -MF CMakeFiles/TransferServer.dir/linux/main.cpp.o.d -o CMakeFiles/TransferServer.dir/linux/main.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/linux/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.o -MF CMakeFiles/TransferServer.dir/linux/main.cpp.o.d -o CMakeFiles/TransferServer.dir/linux/main.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/linux/main.cpp
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TransferServer.dir/linux/main.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/linux/main.cpp > CMakeFiles/TransferServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/linux/main.cpp > CMakeFiles/TransferServer.dir/linux/main.cpp.i
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/linux/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TransferServer.dir/linux/main.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src/linux/main.cpp -o CMakeFiles/TransferServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src/linux/main.cpp -o CMakeFiles/TransferServer.dir/linux/main.cpp.s
 
 # Object files for target TransferServer
 TransferServer_OBJECTS = \
@@ -236,18 +236,18 @@ bin/TransferServer: external/ours/library/localizationArchive/src/liblocalizatio
 bin/TransferServer: external/ours/library/unicode/src/libunicode.a
 bin/TransferServer: external/ours/library/unicodeArchive/src/libunicodeArchive.a
 bin/TransferServer: engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../../../bin/TransferServer"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TransferServer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../../../bin/TransferServer"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TransferServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build: bin/TransferServer
 .PHONY : engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/build
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src && $(CMAKE_COMMAND) -P CMakeFiles/TransferServer.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src && $(CMAKE_COMMAND) -P CMakeFiles/TransferServer.dir/cmake_clean.cmake
 .PHONY : engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/clean
 
 engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/engine/server/application/TransferServer/src /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src /home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/server/application/TransferServer/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src /home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/server/application/TransferServer/src/CMakeFiles/TransferServer.dir/depend
 

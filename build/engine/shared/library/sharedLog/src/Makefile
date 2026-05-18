@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedLog/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedLog/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/rule
 .PHONY : engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedLog: engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/rule
 
 # fast build rule for target.
 sharedLog/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build
 .PHONY : sharedLog/fast
 
 linux/StderrLogger.o: linux/StderrLogger.cpp.o
@@ -135,7 +135,7 @@ linux/StderrLogger.o: linux/StderrLogger.cpp.o
 
 # target to build an object file
 linux/StderrLogger.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/linux/StderrLogger.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/linux/StderrLogger.cpp.o
 .PHONY : linux/StderrLogger.cpp.o
 
 linux/StderrLogger.i: linux/StderrLogger.cpp.i
@@ -143,7 +143,7 @@ linux/StderrLogger.i: linux/StderrLogger.cpp.i
 
 # target to preprocess a source file
 linux/StderrLogger.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/linux/StderrLogger.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/linux/StderrLogger.cpp.i
 .PHONY : linux/StderrLogger.cpp.i
 
 linux/StderrLogger.s: linux/StderrLogger.cpp.s
@@ -151,7 +151,7 @@ linux/StderrLogger.s: linux/StderrLogger.cpp.s
 
 # target to generate assembly for a file
 linux/StderrLogger.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/linux/StderrLogger.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/linux/StderrLogger.cpp.s
 .PHONY : linux/StderrLogger.cpp.s
 
 shared/ConfigSharedLog.o: shared/ConfigSharedLog.cpp.o
@@ -159,7 +159,7 @@ shared/ConfigSharedLog.o: shared/ConfigSharedLog.cpp.o
 
 # target to build an object file
 shared/ConfigSharedLog.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/ConfigSharedLog.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/ConfigSharedLog.cpp.o
 .PHONY : shared/ConfigSharedLog.cpp.o
 
 shared/ConfigSharedLog.i: shared/ConfigSharedLog.cpp.i
@@ -167,7 +167,7 @@ shared/ConfigSharedLog.i: shared/ConfigSharedLog.cpp.i
 
 # target to preprocess a source file
 shared/ConfigSharedLog.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/ConfigSharedLog.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/ConfigSharedLog.cpp.i
 .PHONY : shared/ConfigSharedLog.cpp.i
 
 shared/ConfigSharedLog.s: shared/ConfigSharedLog.cpp.s
@@ -175,7 +175,7 @@ shared/ConfigSharedLog.s: shared/ConfigSharedLog.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigSharedLog.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/ConfigSharedLog.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/ConfigSharedLog.cpp.s
 .PHONY : shared/ConfigSharedLog.cpp.s
 
 shared/FileLogObserver.o: shared/FileLogObserver.cpp.o
@@ -183,7 +183,7 @@ shared/FileLogObserver.o: shared/FileLogObserver.cpp.o
 
 # target to build an object file
 shared/FileLogObserver.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FileLogObserver.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FileLogObserver.cpp.o
 .PHONY : shared/FileLogObserver.cpp.o
 
 shared/FileLogObserver.i: shared/FileLogObserver.cpp.i
@@ -191,7 +191,7 @@ shared/FileLogObserver.i: shared/FileLogObserver.cpp.i
 
 # target to preprocess a source file
 shared/FileLogObserver.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FileLogObserver.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FileLogObserver.cpp.i
 .PHONY : shared/FileLogObserver.cpp.i
 
 shared/FileLogObserver.s: shared/FileLogObserver.cpp.s
@@ -199,7 +199,7 @@ shared/FileLogObserver.s: shared/FileLogObserver.cpp.s
 
 # target to generate assembly for a file
 shared/FileLogObserver.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FileLogObserver.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FileLogObserver.cpp.s
 .PHONY : shared/FileLogObserver.cpp.s
 
 shared/FirstSharedLog.o: shared/FirstSharedLog.cpp.o
@@ -207,7 +207,7 @@ shared/FirstSharedLog.o: shared/FirstSharedLog.cpp.o
 
 # target to build an object file
 shared/FirstSharedLog.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FirstSharedLog.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FirstSharedLog.cpp.o
 .PHONY : shared/FirstSharedLog.cpp.o
 
 shared/FirstSharedLog.i: shared/FirstSharedLog.cpp.i
@@ -215,7 +215,7 @@ shared/FirstSharedLog.i: shared/FirstSharedLog.cpp.i
 
 # target to preprocess a source file
 shared/FirstSharedLog.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FirstSharedLog.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FirstSharedLog.cpp.i
 .PHONY : shared/FirstSharedLog.cpp.i
 
 shared/FirstSharedLog.s: shared/FirstSharedLog.cpp.s
@@ -223,7 +223,7 @@ shared/FirstSharedLog.s: shared/FirstSharedLog.cpp.s
 
 # target to generate assembly for a file
 shared/FirstSharedLog.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FirstSharedLog.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/FirstSharedLog.cpp.s
 .PHONY : shared/FirstSharedLog.cpp.s
 
 shared/LogManager.o: shared/LogManager.cpp.o
@@ -231,7 +231,7 @@ shared/LogManager.o: shared/LogManager.cpp.o
 
 # target to build an object file
 shared/LogManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogManager.cpp.o
 .PHONY : shared/LogManager.cpp.o
 
 shared/LogManager.i: shared/LogManager.cpp.i
@@ -239,7 +239,7 @@ shared/LogManager.i: shared/LogManager.cpp.i
 
 # target to preprocess a source file
 shared/LogManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogManager.cpp.i
 .PHONY : shared/LogManager.cpp.i
 
 shared/LogManager.s: shared/LogManager.cpp.s
@@ -247,7 +247,7 @@ shared/LogManager.s: shared/LogManager.cpp.s
 
 # target to generate assembly for a file
 shared/LogManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogManager.cpp.s
 .PHONY : shared/LogManager.cpp.s
 
 shared/LogObserver.o: shared/LogObserver.cpp.o
@@ -255,7 +255,7 @@ shared/LogObserver.o: shared/LogObserver.cpp.o
 
 # target to build an object file
 shared/LogObserver.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogObserver.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogObserver.cpp.o
 .PHONY : shared/LogObserver.cpp.o
 
 shared/LogObserver.i: shared/LogObserver.cpp.i
@@ -263,7 +263,7 @@ shared/LogObserver.i: shared/LogObserver.cpp.i
 
 # target to preprocess a source file
 shared/LogObserver.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogObserver.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogObserver.cpp.i
 .PHONY : shared/LogObserver.cpp.i
 
 shared/LogObserver.s: shared/LogObserver.cpp.s
@@ -271,7 +271,7 @@ shared/LogObserver.s: shared/LogObserver.cpp.s
 
 # target to generate assembly for a file
 shared/LogObserver.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogObserver.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/LogObserver.cpp.s
 .PHONY : shared/LogObserver.cpp.s
 
 shared/NetLogConnection.o: shared/NetLogConnection.cpp.o
@@ -279,7 +279,7 @@ shared/NetLogConnection.o: shared/NetLogConnection.cpp.o
 
 # target to build an object file
 shared/NetLogConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogConnection.cpp.o
 .PHONY : shared/NetLogConnection.cpp.o
 
 shared/NetLogConnection.i: shared/NetLogConnection.cpp.i
@@ -287,7 +287,7 @@ shared/NetLogConnection.i: shared/NetLogConnection.cpp.i
 
 # target to preprocess a source file
 shared/NetLogConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogConnection.cpp.i
 .PHONY : shared/NetLogConnection.cpp.i
 
 shared/NetLogConnection.s: shared/NetLogConnection.cpp.s
@@ -295,7 +295,7 @@ shared/NetLogConnection.s: shared/NetLogConnection.cpp.s
 
 # target to generate assembly for a file
 shared/NetLogConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogConnection.cpp.s
 .PHONY : shared/NetLogConnection.cpp.s
 
 shared/NetLogObserver.o: shared/NetLogObserver.cpp.o
@@ -303,7 +303,7 @@ shared/NetLogObserver.o: shared/NetLogObserver.cpp.o
 
 # target to build an object file
 shared/NetLogObserver.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogObserver.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogObserver.cpp.o
 .PHONY : shared/NetLogObserver.cpp.o
 
 shared/NetLogObserver.i: shared/NetLogObserver.cpp.i
@@ -311,7 +311,7 @@ shared/NetLogObserver.i: shared/NetLogObserver.cpp.i
 
 # target to preprocess a source file
 shared/NetLogObserver.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogObserver.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogObserver.cpp.i
 .PHONY : shared/NetLogObserver.cpp.i
 
 shared/NetLogObserver.s: shared/NetLogObserver.cpp.s
@@ -319,7 +319,7 @@ shared/NetLogObserver.s: shared/NetLogObserver.cpp.s
 
 # target to generate assembly for a file
 shared/NetLogObserver.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogObserver.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/NetLogObserver.cpp.s
 .PHONY : shared/NetLogObserver.cpp.s
 
 shared/SetupSharedLog.o: shared/SetupSharedLog.cpp.o
@@ -327,7 +327,7 @@ shared/SetupSharedLog.o: shared/SetupSharedLog.cpp.o
 
 # target to build an object file
 shared/SetupSharedLog.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/SetupSharedLog.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/SetupSharedLog.cpp.o
 .PHONY : shared/SetupSharedLog.cpp.o
 
 shared/SetupSharedLog.i: shared/SetupSharedLog.cpp.i
@@ -335,7 +335,7 @@ shared/SetupSharedLog.i: shared/SetupSharedLog.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedLog.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/SetupSharedLog.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/SetupSharedLog.cpp.i
 .PHONY : shared/SetupSharedLog.cpp.i
 
 shared/SetupSharedLog.s: shared/SetupSharedLog.cpp.s
@@ -343,7 +343,7 @@ shared/SetupSharedLog.s: shared/SetupSharedLog.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedLog.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/SetupSharedLog.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/SetupSharedLog.cpp.s
 .PHONY : shared/SetupSharedLog.cpp.s
 
 shared/TailFileLogObserver.o: shared/TailFileLogObserver.cpp.o
@@ -351,7 +351,7 @@ shared/TailFileLogObserver.o: shared/TailFileLogObserver.cpp.o
 
 # target to build an object file
 shared/TailFileLogObserver.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/TailFileLogObserver.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/TailFileLogObserver.cpp.o
 .PHONY : shared/TailFileLogObserver.cpp.o
 
 shared/TailFileLogObserver.i: shared/TailFileLogObserver.cpp.i
@@ -359,7 +359,7 @@ shared/TailFileLogObserver.i: shared/TailFileLogObserver.cpp.i
 
 # target to preprocess a source file
 shared/TailFileLogObserver.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/TailFileLogObserver.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/TailFileLogObserver.cpp.i
 .PHONY : shared/TailFileLogObserver.cpp.i
 
 shared/TailFileLogObserver.s: shared/TailFileLogObserver.cpp.s
@@ -367,7 +367,7 @@ shared/TailFileLogObserver.s: shared/TailFileLogObserver.cpp.s
 
 # target to generate assembly for a file
 shared/TailFileLogObserver.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/TailFileLogObserver.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/build.make engine/shared/library/sharedLog/src/CMakeFiles/sharedLog.dir/shared/TailFileLogObserver.cpp.s
 .PHONY : shared/TailFileLogObserver.cpp.s
 
 # Help Target
@@ -420,6 +420,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

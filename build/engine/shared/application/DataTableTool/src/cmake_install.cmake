@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/engine/shared/application/DataTableTool/src
+# Install script for directory: /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

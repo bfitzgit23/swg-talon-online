@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/depend.make
@@ -70,74 +70,74 @@ include engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir
 include engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/flags.make
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/flags.make
-engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ConfigServerConsole.cpp
+engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ConfigServerConsole.cpp
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o -MF CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o.d -o CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ConfigServerConsole.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o -MF CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o.d -o CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ConfigServerConsole.cpp
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ConfigServerConsole.cpp > CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ConfigServerConsole.cpp > CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.i
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ConfigServerConsole.cpp -o CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ConfigServerConsole.cpp -o CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.s
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/flags.make
-engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/FirstServerConsole.cpp
+engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/FirstServerConsole.cpp
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o -MF CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o.d -o CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/FirstServerConsole.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o -MF CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o.d -o CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/FirstServerConsole.cpp
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/FirstServerConsole.cpp > CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/FirstServerConsole.cpp > CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.i
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/FirstServerConsole.cpp -o CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/FirstServerConsole.cpp -o CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.s
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/flags.make
-engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ServerConsoleConnection.cpp
+engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ServerConsoleConnection.cpp
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o -MF CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o.d -o CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ServerConsoleConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o -MF CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o.d -o CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ServerConsoleConnection.cpp
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ServerConsoleConnection.cpp > CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ServerConsoleConnection.cpp > CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.i
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ServerConsoleConnection.cpp -o CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ServerConsoleConnection.cpp -o CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.s
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/flags.make
-engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ServerConsole.cpp
+engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ServerConsole.cpp
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o -MF CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o.d -o CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ServerConsole.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o -MF CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o.d -o CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ServerConsole.cpp
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ServerConsole.cpp > CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ServerConsole.cpp > CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.i
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/shared/ServerConsole.cpp -o CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/shared/ServerConsole.cpp -o CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.s
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/flags.make
-engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o: /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/linux/main.cpp
+engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/linux/main.cpp
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o -MF CMakeFiles/ServerConsole.dir/linux/main.cpp.o.d -o CMakeFiles/ServerConsole.dir/linux/main.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/linux/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o -MF CMakeFiles/ServerConsole.dir/linux/main.cpp.o.d -o CMakeFiles/ServerConsole.dir/linux/main.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/linux/main.cpp
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/ServerConsole.dir/linux/main.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/linux/main.cpp > CMakeFiles/ServerConsole.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/linux/main.cpp > CMakeFiles/ServerConsole.dir/linux/main.cpp.i
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/ServerConsole.dir/linux/main.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src/linux/main.cpp -o CMakeFiles/ServerConsole.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src/linux/main.cpp -o CMakeFiles/ServerConsole.dir/linux/main.cpp.s
 
 # Object files for target ServerConsole
 ServerConsole_OBJECTS = \
@@ -188,18 +188,18 @@ bin/ServerConsole: engine/shared/library/sharedRandom/src/libsharedRandom.a
 bin/ServerConsole: external/3rd/library/udplibrary/libudplibrary.a
 bin/ServerConsole: engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a
 bin/ServerConsole: engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../../../bin/ServerConsole"
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ServerConsole.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../../../bin/ServerConsole"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/ServerConsole.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build: bin/ServerConsole
 .PHONY : engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src && $(CMAKE_COMMAND) -P CMakeFiles/ServerConsole.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src && $(CMAKE_COMMAND) -P CMakeFiles/ServerConsole.dir/cmake_clean.cmake
 .PHONY : engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/clean
 
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/engine/server/application/ServerConsole/src /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src /home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/server/application/ServerConsole/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/depend
 

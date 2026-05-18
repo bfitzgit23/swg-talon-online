@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/external/ours/library/unicodeArchive
+# Install script for directory: /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-returns-nge/build/external/ours/library/unicodeArchive/src/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/external/ours/library/unicodeArchive/src/cmake_install.cmake")
 
 endif()
 

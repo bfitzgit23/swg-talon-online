@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/depend.make
@@ -70,60 +70,60 @@ include engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedD
 include engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/flags.make
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/flags.make
-engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/DbBindableVarray.cpp
+engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/DbBindableVarray.cpp
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o -MF CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o.d -o CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/DbBindableVarray.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o -MF CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o.d -o CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/DbBindableVarray.cpp
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/DbBindableVarray.cpp > CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/DbBindableVarray.cpp > CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.i
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/DbBindableVarray.cpp -o CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/DbBindableVarray.cpp -o CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.s
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/flags.make
-engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp
+engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o -MF CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o.d -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o -MF CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o.d -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp > CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp > CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.i
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.s
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/flags.make
-engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.cpp
+engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.cpp
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o -MF CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o.d -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o -MF CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o.d -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.cpp
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.cpp > CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.cpp > CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.i
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.cpp -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.cpp -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.s
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/flags.make
-engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.cpp
+engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.cpp
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o -MF CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o.d -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o -MF CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o.d -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.cpp
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.cpp > CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.cpp > CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.i
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.cpp -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.cpp -o CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.s
 
 # Object files for target sharedDatabaseInterface_oci
 sharedDatabaseInterface_oci_OBJECTS = \
@@ -141,19 +141,19 @@ engine/shared/library/sharedDatabaseInterface/src_oci/libsharedDatabaseInterface
 engine/shared/library/sharedDatabaseInterface/src_oci/libsharedDatabaseInterface_oci.a: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o
 engine/shared/library/sharedDatabaseInterface/src_oci/libsharedDatabaseInterface_oci.a: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make
 engine/shared/library/sharedDatabaseInterface/src_oci/libsharedDatabaseInterface_oci.a: engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsharedDatabaseInterface_oci.a"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && $(CMAKE_COMMAND) -P CMakeFiles/sharedDatabaseInterface_oci.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedDatabaseInterface_oci.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsharedDatabaseInterface_oci.a"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && $(CMAKE_COMMAND) -P CMakeFiles/sharedDatabaseInterface_oci.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedDatabaseInterface_oci.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build: engine/shared/library/sharedDatabaseInterface/src_oci/libsharedDatabaseInterface_oci.a
 .PHONY : engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci && $(CMAKE_COMMAND) -P CMakeFiles/sharedDatabaseInterface_oci.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci && $(CMAKE_COMMAND) -P CMakeFiles/sharedDatabaseInterface_oci.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/clean
 
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedDatabaseInterface/src_oci /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/depend
 

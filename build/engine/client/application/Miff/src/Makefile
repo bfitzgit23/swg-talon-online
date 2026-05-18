@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/client/application/Miff/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/CMakeFiles/Miff.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/client/application/Miff/src/CMakeFiles/Miff.dir/rule
 .PHONY : engine/client/application/Miff/src/CMakeFiles/Miff.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ Miff: engine/client/application/Miff/src/CMakeFiles/Miff.dir/rule
 
 # fast build rule for target.
 Miff/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/build
 .PHONY : Miff/fast
 
 lex_yy.o: lex_yy.c.o
@@ -135,7 +135,7 @@ lex_yy.o: lex_yy.c.o
 
 # target to build an object file
 lex_yy.c.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o
 .PHONY : lex_yy.c.o
 
 lex_yy.i: lex_yy.c.i
@@ -143,7 +143,7 @@ lex_yy.i: lex_yy.c.i
 
 # target to preprocess a source file
 lex_yy.c.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.i
 .PHONY : lex_yy.c.i
 
 lex_yy.s: lex_yy.c.s
@@ -151,7 +151,7 @@ lex_yy.s: lex_yy.c.s
 
 # target to generate assembly for a file
 lex_yy.c.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.s
 .PHONY : lex_yy.c.s
 
 linux/InputFileHandler.o: linux/InputFileHandler.cpp.o
@@ -159,7 +159,7 @@ linux/InputFileHandler.o: linux/InputFileHandler.cpp.o
 
 # target to build an object file
 linux/InputFileHandler.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o
 .PHONY : linux/InputFileHandler.cpp.o
 
 linux/InputFileHandler.i: linux/InputFileHandler.cpp.i
@@ -167,7 +167,7 @@ linux/InputFileHandler.i: linux/InputFileHandler.cpp.i
 
 # target to preprocess a source file
 linux/InputFileHandler.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.i
 .PHONY : linux/InputFileHandler.cpp.i
 
 linux/InputFileHandler.s: linux/InputFileHandler.cpp.s
@@ -175,7 +175,7 @@ linux/InputFileHandler.s: linux/InputFileHandler.cpp.s
 
 # target to generate assembly for a file
 linux/InputFileHandler.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.s
 .PHONY : linux/InputFileHandler.cpp.s
 
 linux/OutputFileHandler.o: linux/OutputFileHandler.cpp.o
@@ -183,7 +183,7 @@ linux/OutputFileHandler.o: linux/OutputFileHandler.cpp.o
 
 # target to build an object file
 linux/OutputFileHandler.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o
 .PHONY : linux/OutputFileHandler.cpp.o
 
 linux/OutputFileHandler.i: linux/OutputFileHandler.cpp.i
@@ -191,7 +191,7 @@ linux/OutputFileHandler.i: linux/OutputFileHandler.cpp.i
 
 # target to preprocess a source file
 linux/OutputFileHandler.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.i
 .PHONY : linux/OutputFileHandler.cpp.i
 
 linux/OutputFileHandler.s: linux/OutputFileHandler.cpp.s
@@ -199,7 +199,7 @@ linux/OutputFileHandler.s: linux/OutputFileHandler.cpp.s
 
 # target to generate assembly for a file
 linux/OutputFileHandler.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.s
 .PHONY : linux/OutputFileHandler.cpp.s
 
 linux/miff.o: linux/miff.cpp.o
@@ -207,7 +207,7 @@ linux/miff.o: linux/miff.cpp.o
 
 # target to build an object file
 linux/miff.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o
 .PHONY : linux/miff.cpp.o
 
 linux/miff.i: linux/miff.cpp.i
@@ -215,7 +215,7 @@ linux/miff.i: linux/miff.cpp.i
 
 # target to preprocess a source file
 linux/miff.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.i
 .PHONY : linux/miff.cpp.i
 
 linux/miff.s: linux/miff.cpp.s
@@ -223,7 +223,7 @@ linux/miff.s: linux/miff.cpp.s
 
 # target to generate assembly for a file
 linux/miff.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.s
 .PHONY : linux/miff.cpp.s
 
 parser.o: parser.c.o
@@ -231,7 +231,7 @@ parser.o: parser.c.o
 
 # target to build an object file
 parser.c.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o
 .PHONY : parser.c.o
 
 parser.i: parser.c.i
@@ -239,7 +239,7 @@ parser.i: parser.c.i
 
 # target to preprocess a source file
 parser.c.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.i
 .PHONY : parser.c.i
 
 parser.s: parser.c.s
@@ -247,7 +247,7 @@ parser.s: parser.c.s
 
 # target to generate assembly for a file
 parser.c.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/client/application/Miff/src/CMakeFiles/Miff.dir/build.make engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.s
 .PHONY : parser.c.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

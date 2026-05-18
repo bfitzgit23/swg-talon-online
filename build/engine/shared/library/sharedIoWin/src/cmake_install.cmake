@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedIoWin/src
+# Install script for directory: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedIoWin/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

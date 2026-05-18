@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedRegex/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRegex/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/rule
 .PHONY : engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedRegex: engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/ru
 
 # fast build rule for target.
 sharedRegex/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build
 .PHONY : sharedRegex/fast
 
 linux/RegexServices.o: linux/RegexServices.cpp.o
@@ -135,7 +135,7 @@ linux/RegexServices.o: linux/RegexServices.cpp.o
 
 # target to build an object file
 linux/RegexServices.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/linux/RegexServices.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/linux/RegexServices.cpp.o
 .PHONY : linux/RegexServices.cpp.o
 
 linux/RegexServices.i: linux/RegexServices.cpp.i
@@ -143,7 +143,7 @@ linux/RegexServices.i: linux/RegexServices.cpp.i
 
 # target to preprocess a source file
 linux/RegexServices.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/linux/RegexServices.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/linux/RegexServices.cpp.i
 .PHONY : linux/RegexServices.cpp.i
 
 linux/RegexServices.s: linux/RegexServices.cpp.s
@@ -151,7 +151,7 @@ linux/RegexServices.s: linux/RegexServices.cpp.s
 
 # target to generate assembly for a file
 linux/RegexServices.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/linux/RegexServices.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/linux/RegexServices.cpp.s
 .PHONY : linux/RegexServices.cpp.s
 
 shared/ConfigSharedRegex.o: shared/ConfigSharedRegex.cpp.o
@@ -159,7 +159,7 @@ shared/ConfigSharedRegex.o: shared/ConfigSharedRegex.cpp.o
 
 # target to build an object file
 shared/ConfigSharedRegex.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/ConfigSharedRegex.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/ConfigSharedRegex.cpp.o
 .PHONY : shared/ConfigSharedRegex.cpp.o
 
 shared/ConfigSharedRegex.i: shared/ConfigSharedRegex.cpp.i
@@ -167,7 +167,7 @@ shared/ConfigSharedRegex.i: shared/ConfigSharedRegex.cpp.i
 
 # target to preprocess a source file
 shared/ConfigSharedRegex.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/ConfigSharedRegex.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/ConfigSharedRegex.cpp.i
 .PHONY : shared/ConfigSharedRegex.cpp.i
 
 shared/ConfigSharedRegex.s: shared/ConfigSharedRegex.cpp.s
@@ -175,7 +175,7 @@ shared/ConfigSharedRegex.s: shared/ConfigSharedRegex.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigSharedRegex.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/ConfigSharedRegex.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/ConfigSharedRegex.cpp.s
 .PHONY : shared/ConfigSharedRegex.cpp.s
 
 shared/SetupSharedRegex.o: shared/SetupSharedRegex.cpp.o
@@ -183,7 +183,7 @@ shared/SetupSharedRegex.o: shared/SetupSharedRegex.cpp.o
 
 # target to build an object file
 shared/SetupSharedRegex.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/SetupSharedRegex.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/SetupSharedRegex.cpp.o
 .PHONY : shared/SetupSharedRegex.cpp.o
 
 shared/SetupSharedRegex.i: shared/SetupSharedRegex.cpp.i
@@ -191,7 +191,7 @@ shared/SetupSharedRegex.i: shared/SetupSharedRegex.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedRegex.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/SetupSharedRegex.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/SetupSharedRegex.cpp.i
 .PHONY : shared/SetupSharedRegex.cpp.i
 
 shared/SetupSharedRegex.s: shared/SetupSharedRegex.cpp.s
@@ -199,7 +199,7 @@ shared/SetupSharedRegex.s: shared/SetupSharedRegex.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedRegex.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/SetupSharedRegex.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/build.make engine/shared/library/sharedRegex/src/CMakeFiles/sharedRegex.dir/shared/SetupSharedRegex.cpp.s
 .PHONY : shared/SetupSharedRegex.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

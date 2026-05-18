@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/engine/server/application/LogServer/src
+# Install script for directory: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

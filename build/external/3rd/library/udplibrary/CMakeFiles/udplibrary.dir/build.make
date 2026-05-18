@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/depend.make
@@ -70,18 +70,18 @@ include external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/progress.make
 include external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/flags.make
 
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o: external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/flags.make
-external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o: /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpLibrary.cpp
+external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.cpp
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o: external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o -MF CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o.d -o CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o -c /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpLibrary.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o -MF CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o.d -o CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.cpp
 
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/udplibrary.dir/UdpLibrary.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpLibrary.cpp > CMakeFiles/udplibrary.dir/UdpLibrary.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.cpp > CMakeFiles/udplibrary.dir/UdpLibrary.cpp.i
 
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/udplibrary.dir/UdpLibrary.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpLibrary.cpp -o CMakeFiles/udplibrary.dir/UdpLibrary.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.cpp -o CMakeFiles/udplibrary.dir/UdpLibrary.cpp.s
 
 # Object files for target udplibrary
 udplibrary_OBJECTS = \
@@ -93,19 +93,19 @@ udplibrary_EXTERNAL_OBJECTS =
 external/3rd/library/udplibrary/libudplibrary.a: external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o
 external/3rd/library/udplibrary/libudplibrary.a: external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build.make
 external/3rd/library/udplibrary/libudplibrary.a: external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libudplibrary.a"
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary && $(CMAKE_COMMAND) -P CMakeFiles/udplibrary.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/udplibrary.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library libudplibrary.a"
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary && $(CMAKE_COMMAND) -P CMakeFiles/udplibrary.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/udplibrary.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build: external/3rd/library/udplibrary/libudplibrary.a
 .PHONY : external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/build
 
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary && $(CMAKE_COMMAND) -P CMakeFiles/udplibrary.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary && $(CMAKE_COMMAND) -P CMakeFiles/udplibrary.dir/cmake_clean.cmake
 .PHONY : external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/clean
 
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary /home/almalinux/swg-returns-nge/build/external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary /home/almalinux/swg-talon-online/build/external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/depend
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/depend.make
@@ -70,102 +70,102 @@ include engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/progres
 include engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/flags.make
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/flags.make
-engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ConfigSharedImage.cpp
+engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ConfigSharedImage.cpp
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o -MF CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ConfigSharedImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o -MF CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ConfigSharedImage.cpp
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ConfigSharedImage.cpp > CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ConfigSharedImage.cpp > CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.i
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ConfigSharedImage.cpp -o CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ConfigSharedImage.cpp -o CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.s
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/flags.make
-engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/Image.cpp
+engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/Image.cpp
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o -MF CMakeFiles/sharedImage.dir/shared/Image.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/Image.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/Image.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o -MF CMakeFiles/sharedImage.dir/shared/Image.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/Image.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/Image.cpp
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedImage.dir/shared/Image.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/Image.cpp > CMakeFiles/sharedImage.dir/shared/Image.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/Image.cpp > CMakeFiles/sharedImage.dir/shared/Image.cpp.i
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedImage.dir/shared/Image.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/Image.cpp -o CMakeFiles/sharedImage.dir/shared/Image.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/Image.cpp -o CMakeFiles/sharedImage.dir/shared/Image.cpp.s
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/flags.make
-engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageFormat.cpp
+engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageFormat.cpp
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o -MF CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageFormat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o -MF CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageFormat.cpp
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageFormat.cpp > CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageFormat.cpp > CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.i
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageFormat.cpp -o CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageFormat.cpp -o CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.s
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/flags.make
-engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageFormatList.cpp
+engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageFormatList.cpp
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o -MF CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageFormatList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o -MF CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageFormatList.cpp
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageFormatList.cpp > CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageFormatList.cpp > CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.i
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageFormatList.cpp -o CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageFormatList.cpp -o CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.s
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/flags.make
-engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageManipulation.cpp
+engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageManipulation.cpp
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o -MF CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageManipulation.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o -MF CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageManipulation.cpp
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageManipulation.cpp > CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageManipulation.cpp > CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.i
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/ImageManipulation.cpp -o CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/ImageManipulation.cpp -o CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.s
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/flags.make
-engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/SetupSharedImage.cpp
+engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/SetupSharedImage.cpp
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o -MF CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/SetupSharedImage.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o -MF CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/SetupSharedImage.cpp
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/SetupSharedImage.cpp > CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/SetupSharedImage.cpp > CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.i
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/SetupSharedImage.cpp -o CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/SetupSharedImage.cpp -o CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.s
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/flags.make
-engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/TargaFormat.cpp
+engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/TargaFormat.cpp
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o -MF CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/TargaFormat.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o -MF CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o.d -o CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/TargaFormat.cpp
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/TargaFormat.cpp > CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/TargaFormat.cpp > CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.i
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src/shared/TargaFormat.cpp -o CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src/shared/TargaFormat.cpp -o CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.s
 
 # Object files for target sharedImage
 sharedImage_OBJECTS = \
@@ -189,19 +189,19 @@ engine/shared/library/sharedImage/src/libsharedImage.a: engine/shared/library/sh
 engine/shared/library/sharedImage/src/libsharedImage.a: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o
 engine/shared/library/sharedImage/src/libsharedImage.a: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make
 engine/shared/library/sharedImage/src/libsharedImage.a: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libsharedImage.a"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedImage.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedImage.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX static library libsharedImage.a"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedImage.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedImage.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build: engine/shared/library/sharedImage/src/libsharedImage.a
 .PHONY : engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedImage.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedImage.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/clean
 
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedImage/src /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedImage/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/depend
 

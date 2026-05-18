@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/depend.make
@@ -70,74 +70,74 @@ include engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem
 include engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/flags.make
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/flags.make
-engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/ExpertiseManager.cpp
+engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/ExpertiseManager.cpp
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/ExpertiseManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/ExpertiseManager.cpp
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/ExpertiseManager.cpp > CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/ExpertiseManager.cpp > CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.i
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/ExpertiseManager.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/ExpertiseManager.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.s
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/flags.make
-engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/LevelManager.cpp
+engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/LevelManager.cpp
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/LevelManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/LevelManager.cpp
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/LevelManager.cpp > CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/LevelManager.cpp > CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.i
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/LevelManager.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/LevelManager.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.s
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/flags.make
-engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillManager.cpp
+engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillManager.cpp
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillManager.cpp
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillManager.cpp > CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillManager.cpp > CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.i
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillManager.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillManager.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.s
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/flags.make
-engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObjectArchive.cpp
+engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObjectArchive.cpp
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObjectArchive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObjectArchive.cpp
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObjectArchive.cpp > CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObjectArchive.cpp > CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.i
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObjectArchive.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObjectArchive.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.s
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/flags.make
-engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObject.cpp
+engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObject.cpp
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o -MF CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o.d -o CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObject.cpp
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObject.cpp > CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObject.cpp > CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.i
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObject.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src/shared/SkillObject.cpp -o CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.s
 
 # Object files for target sharedSkillSystem
 sharedSkillSystem_OBJECTS = \
@@ -157,19 +157,19 @@ engine/shared/library/sharedSkillSystem/src/libsharedSkillSystem.a: engine/share
 engine/shared/library/sharedSkillSystem/src/libsharedSkillSystem.a: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o
 engine/shared/library/sharedSkillSystem/src/libsharedSkillSystem.a: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make
 engine/shared/library/sharedSkillSystem/src/libsharedSkillSystem.a: engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsharedSkillSystem.a"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedSkillSystem.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedSkillSystem.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsharedSkillSystem.a"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedSkillSystem.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedSkillSystem.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build: engine/shared/library/sharedSkillSystem/src/libsharedSkillSystem.a
 .PHONY : engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedSkillSystem.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedSkillSystem.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/clean
 
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSkillSystem/src /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSkillSystem/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/depend
 

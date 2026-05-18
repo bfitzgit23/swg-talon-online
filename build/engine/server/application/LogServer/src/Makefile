@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/server/application/LogServer/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/rule
 .PHONY : engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ LogServer: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/rule
 
 # fast build rule for target.
 LogServer/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build
 .PHONY : LogServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/ConfigLogServer.o: shared/ConfigLogServer.cpp.o
@@ -159,7 +159,7 @@ shared/ConfigLogServer.o: shared/ConfigLogServer.cpp.o
 
 # target to build an object file
 shared/ConfigLogServer.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o
 .PHONY : shared/ConfigLogServer.cpp.o
 
 shared/ConfigLogServer.i: shared/ConfigLogServer.cpp.i
@@ -167,7 +167,7 @@ shared/ConfigLogServer.i: shared/ConfigLogServer.cpp.i
 
 # target to preprocess a source file
 shared/ConfigLogServer.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.i
 .PHONY : shared/ConfigLogServer.cpp.i
 
 shared/ConfigLogServer.s: shared/ConfigLogServer.cpp.s
@@ -175,7 +175,7 @@ shared/ConfigLogServer.s: shared/ConfigLogServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigLogServer.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.s
 .PHONY : shared/ConfigLogServer.cpp.s
 
 shared/DatabaseLogObserver.o: shared/DatabaseLogObserver.cpp.o
@@ -183,7 +183,7 @@ shared/DatabaseLogObserver.o: shared/DatabaseLogObserver.cpp.o
 
 # target to build an object file
 shared/DatabaseLogObserver.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o
 .PHONY : shared/DatabaseLogObserver.cpp.o
 
 shared/DatabaseLogObserver.i: shared/DatabaseLogObserver.cpp.i
@@ -191,7 +191,7 @@ shared/DatabaseLogObserver.i: shared/DatabaseLogObserver.cpp.i
 
 # target to preprocess a source file
 shared/DatabaseLogObserver.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.i
 .PHONY : shared/DatabaseLogObserver.cpp.i
 
 shared/DatabaseLogObserver.s: shared/DatabaseLogObserver.cpp.s
@@ -199,7 +199,7 @@ shared/DatabaseLogObserver.s: shared/DatabaseLogObserver.cpp.s
 
 # target to generate assembly for a file
 shared/DatabaseLogObserver.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.s
 .PHONY : shared/DatabaseLogObserver.cpp.s
 
 shared/FirstLogServer.o: shared/FirstLogServer.cpp.o
@@ -207,7 +207,7 @@ shared/FirstLogServer.o: shared/FirstLogServer.cpp.o
 
 # target to build an object file
 shared/FirstLogServer.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o
 .PHONY : shared/FirstLogServer.cpp.o
 
 shared/FirstLogServer.i: shared/FirstLogServer.cpp.i
@@ -215,7 +215,7 @@ shared/FirstLogServer.i: shared/FirstLogServer.cpp.i
 
 # target to preprocess a source file
 shared/FirstLogServer.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.i
 .PHONY : shared/FirstLogServer.cpp.i
 
 shared/FirstLogServer.s: shared/FirstLogServer.cpp.s
@@ -223,7 +223,7 @@ shared/FirstLogServer.s: shared/FirstLogServer.cpp.s
 
 # target to generate assembly for a file
 shared/FirstLogServer.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.s
 .PHONY : shared/FirstLogServer.cpp.s
 
 shared/LogServer.o: shared/LogServer.cpp.o
@@ -231,7 +231,7 @@ shared/LogServer.o: shared/LogServer.cpp.o
 
 # target to build an object file
 shared/LogServer.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o
 .PHONY : shared/LogServer.cpp.o
 
 shared/LogServer.i: shared/LogServer.cpp.i
@@ -239,7 +239,7 @@ shared/LogServer.i: shared/LogServer.cpp.i
 
 # target to preprocess a source file
 shared/LogServer.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.i
 .PHONY : shared/LogServer.cpp.i
 
 shared/LogServer.s: shared/LogServer.cpp.s
@@ -247,7 +247,7 @@ shared/LogServer.s: shared/LogServer.cpp.s
 
 # target to generate assembly for a file
 shared/LogServer.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.s
 .PHONY : shared/LogServer.cpp.s
 
 shared/LoggerConnection.o: shared/LoggerConnection.cpp.o
@@ -255,7 +255,7 @@ shared/LoggerConnection.o: shared/LoggerConnection.cpp.o
 
 # target to build an object file
 shared/LoggerConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o
 .PHONY : shared/LoggerConnection.cpp.o
 
 shared/LoggerConnection.i: shared/LoggerConnection.cpp.i
@@ -263,7 +263,7 @@ shared/LoggerConnection.i: shared/LoggerConnection.cpp.i
 
 # target to preprocess a source file
 shared/LoggerConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.i
 .PHONY : shared/LoggerConnection.cpp.i
 
 shared/LoggerConnection.s: shared/LoggerConnection.cpp.s
@@ -271,7 +271,7 @@ shared/LoggerConnection.s: shared/LoggerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/LoggerConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.s
 .PHONY : shared/LoggerConnection.cpp.s
 
 shared/LoggingServerApi.o: shared/LoggingServerApi.cpp.o
@@ -279,7 +279,7 @@ shared/LoggingServerApi.o: shared/LoggingServerApi.cpp.o
 
 # target to build an object file
 shared/LoggingServerApi.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o
 .PHONY : shared/LoggingServerApi.cpp.o
 
 shared/LoggingServerApi.i: shared/LoggingServerApi.cpp.i
@@ -287,7 +287,7 @@ shared/LoggingServerApi.i: shared/LoggingServerApi.cpp.i
 
 # target to preprocess a source file
 shared/LoggingServerApi.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.i
 .PHONY : shared/LoggingServerApi.cpp.i
 
 shared/LoggingServerApi.s: shared/LoggingServerApi.cpp.s
@@ -295,7 +295,7 @@ shared/LoggingServerApi.s: shared/LoggingServerApi.cpp.s
 
 # target to generate assembly for a file
 shared/LoggingServerApi.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.s
 .PHONY : shared/LoggingServerApi.cpp.s
 
 shared/LoggingServerApiObserver.o: shared/LoggingServerApiObserver.cpp.o
@@ -303,7 +303,7 @@ shared/LoggingServerApiObserver.o: shared/LoggingServerApiObserver.cpp.o
 
 # target to build an object file
 shared/LoggingServerApiObserver.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o
 .PHONY : shared/LoggingServerApiObserver.cpp.o
 
 shared/LoggingServerApiObserver.i: shared/LoggingServerApiObserver.cpp.i
@@ -311,7 +311,7 @@ shared/LoggingServerApiObserver.i: shared/LoggingServerApiObserver.cpp.i
 
 # target to preprocess a source file
 shared/LoggingServerApiObserver.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.i
 .PHONY : shared/LoggingServerApiObserver.cpp.i
 
 shared/LoggingServerApiObserver.s: shared/LoggingServerApiObserver.cpp.s
@@ -319,7 +319,7 @@ shared/LoggingServerApiObserver.s: shared/LoggingServerApiObserver.cpp.s
 
 # target to generate assembly for a file
 shared/LoggingServerApiObserver.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build.make engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.s
 .PHONY : shared/LoggingServerApiObserver.cpp.s
 
 # Help Target
@@ -366,6 +366,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

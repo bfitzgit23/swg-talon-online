@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/server/application/TaskManager/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/TaskManager/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/rule
 .PHONY : engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ TaskManager: engine/server/application/TaskManager/src/CMakeFiles/TaskManager.di
 
 # fast build rule for target.
 TaskManager/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build
 .PHONY : TaskManager/fast
 
 linux/ConsoleInput.o: linux/ConsoleInput.cpp.o
@@ -135,7 +135,7 @@ linux/ConsoleInput.o: linux/ConsoleInput.cpp.o
 
 # target to build an object file
 linux/ConsoleInput.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ConsoleInput.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ConsoleInput.cpp.o
 .PHONY : linux/ConsoleInput.cpp.o
 
 linux/ConsoleInput.i: linux/ConsoleInput.cpp.i
@@ -143,7 +143,7 @@ linux/ConsoleInput.i: linux/ConsoleInput.cpp.i
 
 # target to preprocess a source file
 linux/ConsoleInput.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ConsoleInput.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ConsoleInput.cpp.i
 .PHONY : linux/ConsoleInput.cpp.i
 
 linux/ConsoleInput.s: linux/ConsoleInput.cpp.s
@@ -151,7 +151,7 @@ linux/ConsoleInput.s: linux/ConsoleInput.cpp.s
 
 # target to generate assembly for a file
 linux/ConsoleInput.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ConsoleInput.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ConsoleInput.cpp.s
 .PHONY : linux/ConsoleInput.cpp.s
 
 linux/EnvironmentVariable.o: linux/EnvironmentVariable.cpp.o
@@ -159,7 +159,7 @@ linux/EnvironmentVariable.o: linux/EnvironmentVariable.cpp.o
 
 # target to build an object file
 linux/EnvironmentVariable.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/EnvironmentVariable.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/EnvironmentVariable.cpp.o
 .PHONY : linux/EnvironmentVariable.cpp.o
 
 linux/EnvironmentVariable.i: linux/EnvironmentVariable.cpp.i
@@ -167,7 +167,7 @@ linux/EnvironmentVariable.i: linux/EnvironmentVariable.cpp.i
 
 # target to preprocess a source file
 linux/EnvironmentVariable.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/EnvironmentVariable.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/EnvironmentVariable.cpp.i
 .PHONY : linux/EnvironmentVariable.cpp.i
 
 linux/EnvironmentVariable.s: linux/EnvironmentVariable.cpp.s
@@ -175,7 +175,7 @@ linux/EnvironmentVariable.s: linux/EnvironmentVariable.cpp.s
 
 # target to generate assembly for a file
 linux/EnvironmentVariable.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/EnvironmentVariable.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/EnvironmentVariable.cpp.s
 .PHONY : linux/EnvironmentVariable.cpp.s
 
 linux/ProcessSpawner.o: linux/ProcessSpawner.cpp.o
@@ -183,7 +183,7 @@ linux/ProcessSpawner.o: linux/ProcessSpawner.cpp.o
 
 # target to build an object file
 linux/ProcessSpawner.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ProcessSpawner.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ProcessSpawner.cpp.o
 .PHONY : linux/ProcessSpawner.cpp.o
 
 linux/ProcessSpawner.i: linux/ProcessSpawner.cpp.i
@@ -191,7 +191,7 @@ linux/ProcessSpawner.i: linux/ProcessSpawner.cpp.i
 
 # target to preprocess a source file
 linux/ProcessSpawner.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ProcessSpawner.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ProcessSpawner.cpp.i
 .PHONY : linux/ProcessSpawner.cpp.i
 
 linux/ProcessSpawner.s: linux/ProcessSpawner.cpp.s
@@ -199,7 +199,7 @@ linux/ProcessSpawner.s: linux/ProcessSpawner.cpp.s
 
 # target to generate assembly for a file
 linux/ProcessSpawner.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ProcessSpawner.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/ProcessSpawner.cpp.s
 .PHONY : linux/ProcessSpawner.cpp.s
 
 linux/TaskManagerSysInfo.o: linux/TaskManagerSysInfo.cpp.o
@@ -207,7 +207,7 @@ linux/TaskManagerSysInfo.o: linux/TaskManagerSysInfo.cpp.o
 
 # target to build an object file
 linux/TaskManagerSysInfo.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/TaskManagerSysInfo.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/TaskManagerSysInfo.cpp.o
 .PHONY : linux/TaskManagerSysInfo.cpp.o
 
 linux/TaskManagerSysInfo.i: linux/TaskManagerSysInfo.cpp.i
@@ -215,7 +215,7 @@ linux/TaskManagerSysInfo.i: linux/TaskManagerSysInfo.cpp.i
 
 # target to preprocess a source file
 linux/TaskManagerSysInfo.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/TaskManagerSysInfo.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/TaskManagerSysInfo.cpp.i
 .PHONY : linux/TaskManagerSysInfo.cpp.i
 
 linux/TaskManagerSysInfo.s: linux/TaskManagerSysInfo.cpp.s
@@ -223,7 +223,7 @@ linux/TaskManagerSysInfo.s: linux/TaskManagerSysInfo.cpp.s
 
 # target to generate assembly for a file
 linux/TaskManagerSysInfo.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/TaskManagerSysInfo.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/TaskManagerSysInfo.cpp.s
 .PHONY : linux/TaskManagerSysInfo.cpp.s
 
 linux/main.o: linux/main.cpp.o
@@ -231,7 +231,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/main.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -239,7 +239,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -247,7 +247,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/CentralConnection.o: shared/CentralConnection.cpp.o
@@ -255,7 +255,7 @@ shared/CentralConnection.o: shared/CentralConnection.cpp.o
 
 # target to build an object file
 shared/CentralConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/CentralConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/CentralConnection.cpp.o
 .PHONY : shared/CentralConnection.cpp.o
 
 shared/CentralConnection.i: shared/CentralConnection.cpp.i
@@ -263,7 +263,7 @@ shared/CentralConnection.i: shared/CentralConnection.cpp.i
 
 # target to preprocess a source file
 shared/CentralConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/CentralConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/CentralConnection.cpp.i
 .PHONY : shared/CentralConnection.cpp.i
 
 shared/CentralConnection.s: shared/CentralConnection.cpp.s
@@ -271,7 +271,7 @@ shared/CentralConnection.s: shared/CentralConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CentralConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/CentralConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/CentralConnection.cpp.s
 .PHONY : shared/CentralConnection.cpp.s
 
 shared/ConfigTaskManager.o: shared/ConfigTaskManager.cpp.o
@@ -279,7 +279,7 @@ shared/ConfigTaskManager.o: shared/ConfigTaskManager.cpp.o
 
 # target to build an object file
 shared/ConfigTaskManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConfigTaskManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConfigTaskManager.cpp.o
 .PHONY : shared/ConfigTaskManager.cpp.o
 
 shared/ConfigTaskManager.i: shared/ConfigTaskManager.cpp.i
@@ -287,7 +287,7 @@ shared/ConfigTaskManager.i: shared/ConfigTaskManager.cpp.i
 
 # target to preprocess a source file
 shared/ConfigTaskManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConfigTaskManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConfigTaskManager.cpp.i
 .PHONY : shared/ConfigTaskManager.cpp.i
 
 shared/ConfigTaskManager.s: shared/ConfigTaskManager.cpp.s
@@ -295,7 +295,7 @@ shared/ConfigTaskManager.s: shared/ConfigTaskManager.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigTaskManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConfigTaskManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConfigTaskManager.cpp.s
 .PHONY : shared/ConfigTaskManager.cpp.s
 
 shared/Console.o: shared/Console.cpp.o
@@ -303,7 +303,7 @@ shared/Console.o: shared/Console.cpp.o
 
 # target to build an object file
 shared/Console.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Console.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Console.cpp.o
 .PHONY : shared/Console.cpp.o
 
 shared/Console.i: shared/Console.cpp.i
@@ -311,7 +311,7 @@ shared/Console.i: shared/Console.cpp.i
 
 # target to preprocess a source file
 shared/Console.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Console.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Console.cpp.i
 .PHONY : shared/Console.cpp.i
 
 shared/Console.s: shared/Console.cpp.s
@@ -319,7 +319,7 @@ shared/Console.s: shared/Console.cpp.s
 
 # target to generate assembly for a file
 shared/Console.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Console.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Console.cpp.s
 .PHONY : shared/Console.cpp.s
 
 shared/ConsoleConnection.o: shared/ConsoleConnection.cpp.o
@@ -327,7 +327,7 @@ shared/ConsoleConnection.o: shared/ConsoleConnection.cpp.o
 
 # target to build an object file
 shared/ConsoleConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleConnection.cpp.o
 .PHONY : shared/ConsoleConnection.cpp.o
 
 shared/ConsoleConnection.i: shared/ConsoleConnection.cpp.i
@@ -335,7 +335,7 @@ shared/ConsoleConnection.i: shared/ConsoleConnection.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleConnection.cpp.i
 .PHONY : shared/ConsoleConnection.cpp.i
 
 shared/ConsoleConnection.s: shared/ConsoleConnection.cpp.s
@@ -343,7 +343,7 @@ shared/ConsoleConnection.s: shared/ConsoleConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleConnection.cpp.s
 .PHONY : shared/ConsoleConnection.cpp.s
 
 shared/ConsoleImplementation.o: shared/ConsoleImplementation.cpp.o
@@ -351,7 +351,7 @@ shared/ConsoleImplementation.o: shared/ConsoleImplementation.cpp.o
 
 # target to build an object file
 shared/ConsoleImplementation.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleImplementation.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleImplementation.cpp.o
 .PHONY : shared/ConsoleImplementation.cpp.o
 
 shared/ConsoleImplementation.i: shared/ConsoleImplementation.cpp.i
@@ -359,7 +359,7 @@ shared/ConsoleImplementation.i: shared/ConsoleImplementation.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleImplementation.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleImplementation.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleImplementation.cpp.i
 .PHONY : shared/ConsoleImplementation.cpp.i
 
 shared/ConsoleImplementation.s: shared/ConsoleImplementation.cpp.s
@@ -367,7 +367,7 @@ shared/ConsoleImplementation.s: shared/ConsoleImplementation.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleImplementation.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleImplementation.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ConsoleImplementation.cpp.s
 .PHONY : shared/ConsoleImplementation.cpp.s
 
 shared/DatabaseConnection.o: shared/DatabaseConnection.cpp.o
@@ -375,7 +375,7 @@ shared/DatabaseConnection.o: shared/DatabaseConnection.cpp.o
 
 # target to build an object file
 shared/DatabaseConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/DatabaseConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/DatabaseConnection.cpp.o
 .PHONY : shared/DatabaseConnection.cpp.o
 
 shared/DatabaseConnection.i: shared/DatabaseConnection.cpp.i
@@ -383,7 +383,7 @@ shared/DatabaseConnection.i: shared/DatabaseConnection.cpp.i
 
 # target to preprocess a source file
 shared/DatabaseConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/DatabaseConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/DatabaseConnection.cpp.i
 .PHONY : shared/DatabaseConnection.cpp.i
 
 shared/DatabaseConnection.s: shared/DatabaseConnection.cpp.s
@@ -391,7 +391,7 @@ shared/DatabaseConnection.s: shared/DatabaseConnection.cpp.s
 
 # target to generate assembly for a file
 shared/DatabaseConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/DatabaseConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/DatabaseConnection.cpp.s
 .PHONY : shared/DatabaseConnection.cpp.s
 
 shared/FirstTaskManager.o: shared/FirstTaskManager.cpp.o
@@ -399,7 +399,7 @@ shared/FirstTaskManager.o: shared/FirstTaskManager.cpp.o
 
 # target to build an object file
 shared/FirstTaskManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/FirstTaskManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/FirstTaskManager.cpp.o
 .PHONY : shared/FirstTaskManager.cpp.o
 
 shared/FirstTaskManager.i: shared/FirstTaskManager.cpp.i
@@ -407,7 +407,7 @@ shared/FirstTaskManager.i: shared/FirstTaskManager.cpp.i
 
 # target to preprocess a source file
 shared/FirstTaskManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/FirstTaskManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/FirstTaskManager.cpp.i
 .PHONY : shared/FirstTaskManager.cpp.i
 
 shared/FirstTaskManager.s: shared/FirstTaskManager.cpp.s
@@ -415,7 +415,7 @@ shared/FirstTaskManager.s: shared/FirstTaskManager.cpp.s
 
 # target to generate assembly for a file
 shared/FirstTaskManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/FirstTaskManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/FirstTaskManager.cpp.s
 .PHONY : shared/FirstTaskManager.cpp.s
 
 shared/GameConnection.o: shared/GameConnection.cpp.o
@@ -423,7 +423,7 @@ shared/GameConnection.o: shared/GameConnection.cpp.o
 
 # target to build an object file
 shared/GameConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/GameConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/GameConnection.cpp.o
 .PHONY : shared/GameConnection.cpp.o
 
 shared/GameConnection.i: shared/GameConnection.cpp.i
@@ -431,7 +431,7 @@ shared/GameConnection.i: shared/GameConnection.cpp.i
 
 # target to preprocess a source file
 shared/GameConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/GameConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/GameConnection.cpp.i
 .PHONY : shared/GameConnection.cpp.i
 
 shared/GameConnection.s: shared/GameConnection.cpp.s
@@ -439,7 +439,7 @@ shared/GameConnection.s: shared/GameConnection.cpp.s
 
 # target to generate assembly for a file
 shared/GameConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/GameConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/GameConnection.cpp.s
 .PHONY : shared/GameConnection.cpp.s
 
 shared/Locator.o: shared/Locator.cpp.o
@@ -447,7 +447,7 @@ shared/Locator.o: shared/Locator.cpp.o
 
 # target to build an object file
 shared/Locator.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Locator.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Locator.cpp.o
 .PHONY : shared/Locator.cpp.o
 
 shared/Locator.i: shared/Locator.cpp.i
@@ -455,7 +455,7 @@ shared/Locator.i: shared/Locator.cpp.i
 
 # target to preprocess a source file
 shared/Locator.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Locator.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Locator.cpp.i
 .PHONY : shared/Locator.cpp.i
 
 shared/Locator.s: shared/Locator.cpp.s
@@ -463,7 +463,7 @@ shared/Locator.s: shared/Locator.cpp.s
 
 # target to generate assembly for a file
 shared/Locator.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Locator.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/Locator.cpp.s
 .PHONY : shared/Locator.cpp.s
 
 shared/ManagerConnection.o: shared/ManagerConnection.cpp.o
@@ -471,7 +471,7 @@ shared/ManagerConnection.o: shared/ManagerConnection.cpp.o
 
 # target to build an object file
 shared/ManagerConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ManagerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ManagerConnection.cpp.o
 .PHONY : shared/ManagerConnection.cpp.o
 
 shared/ManagerConnection.i: shared/ManagerConnection.cpp.i
@@ -479,7 +479,7 @@ shared/ManagerConnection.i: shared/ManagerConnection.cpp.i
 
 # target to preprocess a source file
 shared/ManagerConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ManagerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ManagerConnection.cpp.i
 .PHONY : shared/ManagerConnection.cpp.i
 
 shared/ManagerConnection.s: shared/ManagerConnection.cpp.s
@@ -487,7 +487,7 @@ shared/ManagerConnection.s: shared/ManagerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ManagerConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ManagerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/ManagerConnection.cpp.s
 .PHONY : shared/ManagerConnection.cpp.s
 
 shared/MetricsServerConnection.o: shared/MetricsServerConnection.cpp.o
@@ -495,7 +495,7 @@ shared/MetricsServerConnection.o: shared/MetricsServerConnection.cpp.o
 
 # target to build an object file
 shared/MetricsServerConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/MetricsServerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/MetricsServerConnection.cpp.o
 .PHONY : shared/MetricsServerConnection.cpp.o
 
 shared/MetricsServerConnection.i: shared/MetricsServerConnection.cpp.i
@@ -503,7 +503,7 @@ shared/MetricsServerConnection.i: shared/MetricsServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/MetricsServerConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/MetricsServerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/MetricsServerConnection.cpp.i
 .PHONY : shared/MetricsServerConnection.cpp.i
 
 shared/MetricsServerConnection.s: shared/MetricsServerConnection.cpp.s
@@ -511,7 +511,7 @@ shared/MetricsServerConnection.s: shared/MetricsServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/MetricsServerConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/MetricsServerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/MetricsServerConnection.cpp.s
 .PHONY : shared/MetricsServerConnection.cpp.s
 
 shared/PlanetConnection.o: shared/PlanetConnection.cpp.o
@@ -519,7 +519,7 @@ shared/PlanetConnection.o: shared/PlanetConnection.cpp.o
 
 # target to build an object file
 shared/PlanetConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/PlanetConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/PlanetConnection.cpp.o
 .PHONY : shared/PlanetConnection.cpp.o
 
 shared/PlanetConnection.i: shared/PlanetConnection.cpp.i
@@ -527,7 +527,7 @@ shared/PlanetConnection.i: shared/PlanetConnection.cpp.i
 
 # target to preprocess a source file
 shared/PlanetConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/PlanetConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/PlanetConnection.cpp.i
 .PHONY : shared/PlanetConnection.cpp.i
 
 shared/PlanetConnection.s: shared/PlanetConnection.cpp.s
@@ -535,7 +535,7 @@ shared/PlanetConnection.s: shared/PlanetConnection.cpp.s
 
 # target to generate assembly for a file
 shared/PlanetConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/PlanetConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/PlanetConnection.cpp.s
 .PHONY : shared/PlanetConnection.cpp.s
 
 shared/TaskConnection.o: shared/TaskConnection.cpp.o
@@ -543,7 +543,7 @@ shared/TaskConnection.o: shared/TaskConnection.cpp.o
 
 # target to build an object file
 shared/TaskConnection.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskConnection.cpp.o
 .PHONY : shared/TaskConnection.cpp.o
 
 shared/TaskConnection.i: shared/TaskConnection.cpp.i
@@ -551,7 +551,7 @@ shared/TaskConnection.i: shared/TaskConnection.cpp.i
 
 # target to preprocess a source file
 shared/TaskConnection.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskConnection.cpp.i
 .PHONY : shared/TaskConnection.cpp.i
 
 shared/TaskConnection.s: shared/TaskConnection.cpp.s
@@ -559,7 +559,7 @@ shared/TaskConnection.s: shared/TaskConnection.cpp.s
 
 # target to generate assembly for a file
 shared/TaskConnection.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskConnection.cpp.s
 .PHONY : shared/TaskConnection.cpp.s
 
 shared/TaskHandler.o: shared/TaskHandler.cpp.o
@@ -567,7 +567,7 @@ shared/TaskHandler.o: shared/TaskHandler.cpp.o
 
 # target to build an object file
 shared/TaskHandler.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskHandler.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskHandler.cpp.o
 .PHONY : shared/TaskHandler.cpp.o
 
 shared/TaskHandler.i: shared/TaskHandler.cpp.i
@@ -575,7 +575,7 @@ shared/TaskHandler.i: shared/TaskHandler.cpp.i
 
 # target to preprocess a source file
 shared/TaskHandler.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskHandler.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskHandler.cpp.i
 .PHONY : shared/TaskHandler.cpp.i
 
 shared/TaskHandler.s: shared/TaskHandler.cpp.s
@@ -583,7 +583,7 @@ shared/TaskHandler.s: shared/TaskHandler.cpp.s
 
 # target to generate assembly for a file
 shared/TaskHandler.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskHandler.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskHandler.cpp.s
 .PHONY : shared/TaskHandler.cpp.s
 
 shared/TaskManager.o: shared/TaskManager.cpp.o
@@ -591,7 +591,7 @@ shared/TaskManager.o: shared/TaskManager.cpp.o
 
 # target to build an object file
 shared/TaskManager.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskManager.cpp.o
 .PHONY : shared/TaskManager.cpp.o
 
 shared/TaskManager.i: shared/TaskManager.cpp.i
@@ -599,7 +599,7 @@ shared/TaskManager.i: shared/TaskManager.cpp.i
 
 # target to preprocess a source file
 shared/TaskManager.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskManager.cpp.i
 .PHONY : shared/TaskManager.cpp.i
 
 shared/TaskManager.s: shared/TaskManager.cpp.s
@@ -607,7 +607,7 @@ shared/TaskManager.s: shared/TaskManager.cpp.s
 
 # target to generate assembly for a file
 shared/TaskManager.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/build.make engine/server/application/TaskManager/src/CMakeFiles/TaskManager.dir/shared/TaskManager.cpp.s
 .PHONY : shared/TaskManager.cpp.s
 
 # Help Target
@@ -690,6 +690,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

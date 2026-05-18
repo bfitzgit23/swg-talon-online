@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/depend.make
@@ -70,74 +70,74 @@ include engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchro
 include engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/flags.make
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/flags.make
-engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/ConditionVariable.cpp
+engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/ConditionVariable.cpp
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/ConditionVariable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/ConditionVariable.cpp
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/ConditionVariable.cpp > CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/ConditionVariable.cpp > CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.i
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/ConditionVariable.cpp -o CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/ConditionVariable.cpp -o CMakeFiles/sharedSynchronization.dir/linux/ConditionVariable.cpp.s
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/flags.make
-engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Gate.cpp
+engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Gate.cpp
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Gate.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Gate.cpp
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Gate.cpp > CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Gate.cpp > CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.i
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Gate.cpp -o CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Gate.cpp -o CMakeFiles/sharedSynchronization.dir/linux/Gate.cpp.s
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/flags.make
-engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Mutex.cpp
+engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Mutex.cpp
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Mutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Mutex.cpp
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Mutex.cpp > CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Mutex.cpp > CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.i
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Mutex.cpp -o CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Mutex.cpp -o CMakeFiles/sharedSynchronization.dir/linux/Mutex.cpp.s
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/flags.make
-engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/RecursiveMutex.cpp
+engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/RecursiveMutex.cpp
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/RecursiveMutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/RecursiveMutex.cpp
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/RecursiveMutex.cpp > CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/RecursiveMutex.cpp > CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.i
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/RecursiveMutex.cpp -o CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/RecursiveMutex.cpp -o CMakeFiles/sharedSynchronization.dir/linux/RecursiveMutex.cpp.s
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/flags.make
-engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o: /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Semaphore.cpp
+engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Semaphore.cpp
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o -c /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Semaphore.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o -MF CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o.d -o CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Semaphore.cpp
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.i"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Semaphore.cpp > CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Semaphore.cpp > CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.i
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.s"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src/linux/Semaphore.cpp -o CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src/linux/Semaphore.cpp -o CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.s
 
 # Object files for target sharedSynchronization
 sharedSynchronization_OBJECTS = \
@@ -157,19 +157,19 @@ engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a: engi
 engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/linux/Semaphore.cpp.o
 engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build.make
 engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a: engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-returns-nge/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsharedSynchronization.a"
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedSynchronization.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedSynchronization.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsharedSynchronization.a"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedSynchronization.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedSynchronization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build: engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a
 .PHONY : engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/build
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/clean:
-	cd /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedSynchronization.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedSynchronization.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/clean
 
 engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-returns-nge/src /home/almalinux/swg-returns-nge/src/engine/shared/library/sharedSynchronization/src /home/almalinux/swg-returns-nge/build /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedSynchronization/src/CMakeFiles/sharedSynchronization.dir/depend
 

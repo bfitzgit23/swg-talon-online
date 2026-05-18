@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/engine/server/application
+# Install script for directory: /home/almalinux/swg-talon-online/src/engine/server/application
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,20 +44,20 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/CentralServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/ChatServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/ConnectionServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/LogServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/LoginServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/MetricsServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/PlanetServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/ServerConsole/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/TaskManager/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/TransferServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/CommoditiesServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/CustomerServiceServer/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/LoginPing/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/engine/server/application/StationPlayersCollector/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/CentralServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/ChatServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/ConnectionServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/LogServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/LoginServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/TaskManager/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/TransferServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/CommoditiesServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/CustomerServiceServer/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/StationPlayersCollector/cmake_install.cmake")
 
 endif()
 

@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-returns-nge/src/game/server
+# Install script for directory: /home/almalinux/swg-talon-online/src/game/server
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,8 +44,8 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-returns-nge/build/game/server/application/cmake_install.cmake")
-  include("/home/almalinux/swg-returns-nge/build/game/server/library/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/game/server/application/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/game/server/library/cmake_install.cmake")
 
 endif()
 

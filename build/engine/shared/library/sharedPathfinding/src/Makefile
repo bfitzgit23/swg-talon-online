@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-returns-nge/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-returns-nge/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles /home/almalinux/swg-returns-nge/build/engine/shared/library/sharedPathfinding/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-returns-nge/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedPathfinding/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/rule:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/rule
 .PHONY : engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedPathfinding: engine/shared/library/sharedPathfinding/src/CMakeFiles/shared
 
 # fast build rule for target.
 sharedPathfinding/fast:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build
 .PHONY : sharedPathfinding/fast
 
 shared/ConfigSharedPathfinding.o: shared/ConfigSharedPathfinding.cpp.o
@@ -135,7 +135,7 @@ shared/ConfigSharedPathfinding.o: shared/ConfigSharedPathfinding.cpp.o
 
 # target to build an object file
 shared/ConfigSharedPathfinding.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/ConfigSharedPathfinding.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/ConfigSharedPathfinding.cpp.o
 .PHONY : shared/ConfigSharedPathfinding.cpp.o
 
 shared/ConfigSharedPathfinding.i: shared/ConfigSharedPathfinding.cpp.i
@@ -143,7 +143,7 @@ shared/ConfigSharedPathfinding.i: shared/ConfigSharedPathfinding.cpp.i
 
 # target to preprocess a source file
 shared/ConfigSharedPathfinding.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/ConfigSharedPathfinding.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/ConfigSharedPathfinding.cpp.i
 .PHONY : shared/ConfigSharedPathfinding.cpp.i
 
 shared/ConfigSharedPathfinding.s: shared/ConfigSharedPathfinding.cpp.s
@@ -151,7 +151,7 @@ shared/ConfigSharedPathfinding.s: shared/ConfigSharedPathfinding.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigSharedPathfinding.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/ConfigSharedPathfinding.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/ConfigSharedPathfinding.cpp.s
 .PHONY : shared/ConfigSharedPathfinding.cpp.s
 
 shared/DynamicPathGraph.o: shared/DynamicPathGraph.cpp.o
@@ -159,7 +159,7 @@ shared/DynamicPathGraph.o: shared/DynamicPathGraph.cpp.o
 
 # target to build an object file
 shared/DynamicPathGraph.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathGraph.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathGraph.cpp.o
 .PHONY : shared/DynamicPathGraph.cpp.o
 
 shared/DynamicPathGraph.i: shared/DynamicPathGraph.cpp.i
@@ -167,7 +167,7 @@ shared/DynamicPathGraph.i: shared/DynamicPathGraph.cpp.i
 
 # target to preprocess a source file
 shared/DynamicPathGraph.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathGraph.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathGraph.cpp.i
 .PHONY : shared/DynamicPathGraph.cpp.i
 
 shared/DynamicPathGraph.s: shared/DynamicPathGraph.cpp.s
@@ -175,7 +175,7 @@ shared/DynamicPathGraph.s: shared/DynamicPathGraph.cpp.s
 
 # target to generate assembly for a file
 shared/DynamicPathGraph.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathGraph.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathGraph.cpp.s
 .PHONY : shared/DynamicPathGraph.cpp.s
 
 shared/DynamicPathNode.o: shared/DynamicPathNode.cpp.o
@@ -183,7 +183,7 @@ shared/DynamicPathNode.o: shared/DynamicPathNode.cpp.o
 
 # target to build an object file
 shared/DynamicPathNode.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathNode.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathNode.cpp.o
 .PHONY : shared/DynamicPathNode.cpp.o
 
 shared/DynamicPathNode.i: shared/DynamicPathNode.cpp.i
@@ -191,7 +191,7 @@ shared/DynamicPathNode.i: shared/DynamicPathNode.cpp.i
 
 # target to preprocess a source file
 shared/DynamicPathNode.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathNode.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathNode.cpp.i
 .PHONY : shared/DynamicPathNode.cpp.i
 
 shared/DynamicPathNode.s: shared/DynamicPathNode.cpp.s
@@ -199,7 +199,7 @@ shared/DynamicPathNode.s: shared/DynamicPathNode.cpp.s
 
 # target to generate assembly for a file
 shared/DynamicPathNode.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathNode.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/DynamicPathNode.cpp.s
 .PHONY : shared/DynamicPathNode.cpp.s
 
 shared/PathEdge.o: shared/PathEdge.cpp.o
@@ -207,7 +207,7 @@ shared/PathEdge.o: shared/PathEdge.cpp.o
 
 # target to build an object file
 shared/PathEdge.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathEdge.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathEdge.cpp.o
 .PHONY : shared/PathEdge.cpp.o
 
 shared/PathEdge.i: shared/PathEdge.cpp.i
@@ -215,7 +215,7 @@ shared/PathEdge.i: shared/PathEdge.cpp.i
 
 # target to preprocess a source file
 shared/PathEdge.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathEdge.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathEdge.cpp.i
 .PHONY : shared/PathEdge.cpp.i
 
 shared/PathEdge.s: shared/PathEdge.cpp.s
@@ -223,7 +223,7 @@ shared/PathEdge.s: shared/PathEdge.cpp.s
 
 # target to generate assembly for a file
 shared/PathEdge.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathEdge.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathEdge.cpp.s
 .PHONY : shared/PathEdge.cpp.s
 
 shared/PathGraph.o: shared/PathGraph.cpp.o
@@ -231,7 +231,7 @@ shared/PathGraph.o: shared/PathGraph.cpp.o
 
 # target to build an object file
 shared/PathGraph.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraph.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraph.cpp.o
 .PHONY : shared/PathGraph.cpp.o
 
 shared/PathGraph.i: shared/PathGraph.cpp.i
@@ -239,7 +239,7 @@ shared/PathGraph.i: shared/PathGraph.cpp.i
 
 # target to preprocess a source file
 shared/PathGraph.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraph.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraph.cpp.i
 .PHONY : shared/PathGraph.cpp.i
 
 shared/PathGraph.s: shared/PathGraph.cpp.s
@@ -247,7 +247,7 @@ shared/PathGraph.s: shared/PathGraph.cpp.s
 
 # target to generate assembly for a file
 shared/PathGraph.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraph.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraph.cpp.s
 .PHONY : shared/PathGraph.cpp.s
 
 shared/PathGraphIterator.o: shared/PathGraphIterator.cpp.o
@@ -255,7 +255,7 @@ shared/PathGraphIterator.o: shared/PathGraphIterator.cpp.o
 
 # target to build an object file
 shared/PathGraphIterator.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraphIterator.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraphIterator.cpp.o
 .PHONY : shared/PathGraphIterator.cpp.o
 
 shared/PathGraphIterator.i: shared/PathGraphIterator.cpp.i
@@ -263,7 +263,7 @@ shared/PathGraphIterator.i: shared/PathGraphIterator.cpp.i
 
 # target to preprocess a source file
 shared/PathGraphIterator.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraphIterator.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraphIterator.cpp.i
 .PHONY : shared/PathGraphIterator.cpp.i
 
 shared/PathGraphIterator.s: shared/PathGraphIterator.cpp.s
@@ -271,7 +271,7 @@ shared/PathGraphIterator.s: shared/PathGraphIterator.cpp.s
 
 # target to generate assembly for a file
 shared/PathGraphIterator.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraphIterator.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathGraphIterator.cpp.s
 .PHONY : shared/PathGraphIterator.cpp.s
 
 shared/PathNode.o: shared/PathNode.cpp.o
@@ -279,7 +279,7 @@ shared/PathNode.o: shared/PathNode.cpp.o
 
 # target to build an object file
 shared/PathNode.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathNode.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathNode.cpp.o
 .PHONY : shared/PathNode.cpp.o
 
 shared/PathNode.i: shared/PathNode.cpp.i
@@ -287,7 +287,7 @@ shared/PathNode.i: shared/PathNode.cpp.i
 
 # target to preprocess a source file
 shared/PathNode.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathNode.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathNode.cpp.i
 .PHONY : shared/PathNode.cpp.i
 
 shared/PathNode.s: shared/PathNode.cpp.s
@@ -295,7 +295,7 @@ shared/PathNode.s: shared/PathNode.cpp.s
 
 # target to generate assembly for a file
 shared/PathNode.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathNode.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathNode.cpp.s
 .PHONY : shared/PathNode.cpp.s
 
 shared/PathSearch.o: shared/PathSearch.cpp.o
@@ -303,7 +303,7 @@ shared/PathSearch.o: shared/PathSearch.cpp.o
 
 # target to build an object file
 shared/PathSearch.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathSearch.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathSearch.cpp.o
 .PHONY : shared/PathSearch.cpp.o
 
 shared/PathSearch.i: shared/PathSearch.cpp.i
@@ -311,7 +311,7 @@ shared/PathSearch.i: shared/PathSearch.cpp.i
 
 # target to preprocess a source file
 shared/PathSearch.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathSearch.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathSearch.cpp.i
 .PHONY : shared/PathSearch.cpp.i
 
 shared/PathSearch.s: shared/PathSearch.cpp.s
@@ -319,7 +319,7 @@ shared/PathSearch.s: shared/PathSearch.cpp.s
 
 # target to generate assembly for a file
 shared/PathSearch.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathSearch.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/PathSearch.cpp.s
 .PHONY : shared/PathSearch.cpp.s
 
 shared/Pathfinding.o: shared/Pathfinding.cpp.o
@@ -327,7 +327,7 @@ shared/Pathfinding.o: shared/Pathfinding.cpp.o
 
 # target to build an object file
 shared/Pathfinding.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/Pathfinding.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/Pathfinding.cpp.o
 .PHONY : shared/Pathfinding.cpp.o
 
 shared/Pathfinding.i: shared/Pathfinding.cpp.i
@@ -335,7 +335,7 @@ shared/Pathfinding.i: shared/Pathfinding.cpp.i
 
 # target to preprocess a source file
 shared/Pathfinding.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/Pathfinding.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/Pathfinding.cpp.i
 .PHONY : shared/Pathfinding.cpp.i
 
 shared/Pathfinding.s: shared/Pathfinding.cpp.s
@@ -343,7 +343,7 @@ shared/Pathfinding.s: shared/Pathfinding.cpp.s
 
 # target to generate assembly for a file
 shared/Pathfinding.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/Pathfinding.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/Pathfinding.cpp.s
 .PHONY : shared/Pathfinding.cpp.s
 
 shared/SetupSharedPathfinding.o: shared/SetupSharedPathfinding.cpp.o
@@ -351,7 +351,7 @@ shared/SetupSharedPathfinding.o: shared/SetupSharedPathfinding.cpp.o
 
 # target to build an object file
 shared/SetupSharedPathfinding.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SetupSharedPathfinding.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SetupSharedPathfinding.cpp.o
 .PHONY : shared/SetupSharedPathfinding.cpp.o
 
 shared/SetupSharedPathfinding.i: shared/SetupSharedPathfinding.cpp.i
@@ -359,7 +359,7 @@ shared/SetupSharedPathfinding.i: shared/SetupSharedPathfinding.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedPathfinding.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SetupSharedPathfinding.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SetupSharedPathfinding.cpp.i
 .PHONY : shared/SetupSharedPathfinding.cpp.i
 
 shared/SetupSharedPathfinding.s: shared/SetupSharedPathfinding.cpp.s
@@ -367,7 +367,7 @@ shared/SetupSharedPathfinding.s: shared/SetupSharedPathfinding.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedPathfinding.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SetupSharedPathfinding.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SetupSharedPathfinding.cpp.s
 .PHONY : shared/SetupSharedPathfinding.cpp.s
 
 shared/SimplePathGraph.o: shared/SimplePathGraph.cpp.o
@@ -375,7 +375,7 @@ shared/SimplePathGraph.o: shared/SimplePathGraph.cpp.o
 
 # target to build an object file
 shared/SimplePathGraph.cpp.o:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SimplePathGraph.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SimplePathGraph.cpp.o
 .PHONY : shared/SimplePathGraph.cpp.o
 
 shared/SimplePathGraph.i: shared/SimplePathGraph.cpp.i
@@ -383,7 +383,7 @@ shared/SimplePathGraph.i: shared/SimplePathGraph.cpp.i
 
 # target to preprocess a source file
 shared/SimplePathGraph.cpp.i:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SimplePathGraph.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SimplePathGraph.cpp.i
 .PHONY : shared/SimplePathGraph.cpp.i
 
 shared/SimplePathGraph.s: shared/SimplePathGraph.cpp.s
@@ -391,7 +391,7 @@ shared/SimplePathGraph.s: shared/SimplePathGraph.cpp.s
 
 # target to generate assembly for a file
 shared/SimplePathGraph.cpp.s:
-	cd /home/almalinux/swg-returns-nge/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SimplePathGraph.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/build.make engine/shared/library/sharedPathfinding/src/CMakeFiles/sharedPathfinding.dir/shared/SimplePathGraph.cpp.s
 .PHONY : shared/SimplePathGraph.cpp.s
 
 # Help Target
@@ -447,6 +447,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-returns-nge/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 
