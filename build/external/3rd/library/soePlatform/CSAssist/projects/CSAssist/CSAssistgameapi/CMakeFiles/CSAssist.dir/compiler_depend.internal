@@ -3,9 +3,8 @@
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapi.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
  /usr/include/time.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -28,7 +27,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/types/struct_itimerspec.h
  /usr/include/bits/types/locale_t.h
  /usr/include/bits/types/__locale_t.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.h
  /usr/include/stdio.h
  /usr/include/bits/libc-header-start.h
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h
@@ -187,14 +186,14 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/set
  /usr/include/c++/8/bits/stl_set.h
  /usr/include/c++/8/bits/stl_multiset.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
  /usr/include/string.h
  /usr/include/strings.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
  /usr/include/arpa/inet.h
  /usr/include/netinet/in.h
  /usr/include/sys/socket.h
@@ -229,12 +228,12 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/confname.h
  /usr/include/bits/getopt_posix.h
  /usr/include/bits/getopt_core.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -294,21 +293,20 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapicore.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.h
  /usr/include/stdio.h
  /usr/include/bits/libc-header-start.h
  /usr/include/features.h
@@ -489,14 +487,14 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/set
  /usr/include/c++/8/bits/stl_set.h
  /usr/include/c++/8/bits/stl_multiset.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
  /usr/include/string.h
  /usr/include/strings.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
  /usr/include/arpa/inet.h
  /usr/include/netinet/in.h
  /usr/include/sys/socket.h
@@ -531,12 +529,12 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/confname.h
  /usr/include/bits/getopt_posix.h
  /usr/include/bits/getopt_core.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -596,30 +594,29 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistreceiver.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/response.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistreceiver.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/response.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/wctype.h
  /usr/include/bits/wctype-wchar.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameobjects.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
  /usr/include/time.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -657,8 +654,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/stdio.h
  /usr/include/string.h
  /usr/include/strings.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/c++/8/string
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h
@@ -769,7 +766,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/asm-generic/errno-base.h
  /usr/include/bits/types/error_t.h
  /usr/include/c++/8/bits/basic_string.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
  /usr/include/c++/8/vector
  /usr/include/c++/8/bits/stl_construct.h
@@ -779,8 +776,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -862,20 +859,19 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
  /usr/include/wctype.h
  /usr/include/bits/wctype-wchar.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistreceiver.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistreceiver.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistreceiver.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.h
  /usr/include/stdio.h
  /usr/include/bits/libc-header-start.h
  /usr/include/features.h
@@ -1056,14 +1052,14 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/set
  /usr/include/c++/8/bits/stl_set.h
  /usr/include/c++/8/bits/stl_multiset.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
  /usr/include/string.h
  /usr/include/strings.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
  /usr/include/arpa/inet.h
  /usr/include/netinet/in.h
  /usr/include/sys/socket.h
@@ -1098,12 +1094,12 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/confname.h
  /usr/include/bits/getopt_posix.h
  /usr/include/bits/getopt_core.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -1163,29 +1159,28 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistreceiver.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/response.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistreceiver.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/response.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/wctype.h
  /usr/include/bits/wctype-wchar.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Archive.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -1340,8 +1335,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -1425,18 +1420,17 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/AutoLog.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/AutoLog.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/AutoLog.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/AutoLog.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/AutoLog.h
  /usr/include/stdio.h
  /usr/include/bits/libc-header-start.h
  /usr/include/features.h
@@ -1522,10 +1516,9 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Base.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Base.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Base.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Base.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Base.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/errno.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -1688,13 +1681,13 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Thread.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Thread.h
  /usr/include/c++/8/list
  /usr/include/c++/8/bits/stl_algobase.h
  /usr/include/c++/8/bits/functexcept.h
@@ -1777,10 +1770,10 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/enable_special_members.h
  /usr/include/c++/8/bits/stl_set.h
  /usr/include/c++/8/bits/stl_multiset.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Logger.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Logger.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
  /usr/include/c++/8/map
  /usr/include/c++/8/bits/stl_map.h
  /usr/include/c++/8/tuple
@@ -1788,22 +1781,21 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/uses_allocator.h
  /usr/include/c++/8/bits/invoke.h
  /usr/include/c++/8/bits/stl_multimap.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
  /usr/include/syslog.h
  /usr/include/sys/syslog.h
  /usr/include/bits/syslog-path.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Config.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/ScopeLock.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Statistics.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/TemplateObjectAllocator.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Types.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/BlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Config.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/ScopeLock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Statistics.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/TemplateObjectAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/BlockAllocator.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Config.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Config.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Config.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Config.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Config.h
  /usr/include/stdio.h
  /usr/include/bits/libc-header-start.h
  /usr/include/features.h
@@ -1833,9 +1825,9 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/uintn-identity.h
  /usr/include/bits/types/locale_t.h
  /usr/include/bits/types/__locale_t.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
  /usr/include/assert.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/errno.h
  /usr/include/bits/errno.h
  /usr/include/linux/errno.h
@@ -1969,15 +1961,14 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Logger.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Logger.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Logger.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Logger.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Logger.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
  /usr/include/assert.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -1985,7 +1976,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/long-double.h
  /usr/include/gnu/stubs.h
  /usr/include/gnu/stubs-32.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/errno.h
  /usr/include/bits/errno.h
  /usr/include/linux/errno.h
@@ -2141,7 +2132,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
  /usr/include/c++/8/string
  /usr/include/c++/8/bits/stringfwd.h
@@ -2225,18 +2216,17 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/uses_allocator.h
  /usr/include/c++/8/bits/invoke.h
  /usr/include/c++/8/bits/stl_multimap.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/syslog.h
  /usr/include/sys/syslog.h
  /usr/include/bits/syslog-path.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/MD5.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/MD5.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/MD5.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/MD5.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/MD5.h
  /usr/include/c++/8/string
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h
@@ -2390,18 +2380,17 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Types.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/ScopeLock.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/ScopeLock.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/ScopeLock.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/ScopeLock.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/ScopeLock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/errno.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -2564,14 +2553,13 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Statistics.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Statistics.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Statistics.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Statistics.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Statistics.h
  /usr/include/time.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -2594,9 +2582,9 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/types/struct_itimerspec.h
  /usr/include/bits/types/locale_t.h
  /usr/include/bits/types/__locale_t.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
  /usr/include/assert.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/errno.h
  /usr/include/bits/errno.h
  /usr/include/linux/errno.h
@@ -2736,12 +2724,11 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/BlockAllocator.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/BlockAllocator.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/BlockAllocator.cpp
  /usr/include/stdc-predef.h
  /usr/include/c++/8/cstdint
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
@@ -2761,7 +2748,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/wchar.h
  /usr/include/bits/stdint-intn.h
  /usr/include/bits/stdint-uintn.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/BlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/BlockAllocator.h
  /usr/include/stdio.h
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h
@@ -2809,9 +2796,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Event.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.h
  /usr/include/pthread.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -2847,7 +2833,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/thread-shared-types.h
  /usr/include/bits/pthreadtypes-arch.h
  /usr/include/bits/setjmp.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/errno.h
  /usr/include/bits/errno.h
  /usr/include/linux/errno.h
@@ -2975,15 +2961,14 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Mutex.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/errno.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -3146,12 +3131,11 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Platform.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.cpp
  /usr/include/stdc-predef.h
  /usr/include/ctype.h
  /usr/include/features.h
@@ -3168,7 +3152,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/uintn-identity.h
  /usr/include/bits/types/locale_t.h
  /usr/include/bits/types/__locale_t.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/errno.h
  /usr/include/bits/errno.h
  /usr/include/linux/errno.h
@@ -3317,12 +3301,11 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Thread.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Thread.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Thread.cpp
  /usr/include/stdc-predef.h
  /usr/include/pthread.h
  /usr/include/features.h
@@ -3359,7 +3342,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/thread-shared-types.h
  /usr/include/bits/pthreadtypes-arch.h
  /usr/include/bits/setjmp.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Thread.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Thread.h
  /usr/include/c++/8/list
  /usr/include/c++/8/bits/stl_algobase.h
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
@@ -3485,7 +3468,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/enable_special_members.h
  /usr/include/c++/8/bits/stl_set.h
  /usr/include/c++/8/bits/stl_multiset.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/assert.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
@@ -3570,16 +3553,15 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Event.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/Clock.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
  /usr/include/time.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -3637,9 +3619,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/IPAddress.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
  /usr/include/arpa/inet.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -3690,9 +3671,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
  /usr/include/string.h
  /usr/include/bits/libc-header-start.h
  /usr/include/features.h
@@ -3708,12 +3688,11 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpConnection.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
  /usr/include/string.h
  /usr/include/bits/libc-header-start.h
  /usr/include/features.h
@@ -3726,8 +3705,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/types/locale_t.h
  /usr/include/bits/types/__locale_t.h
  /usr/include/strings.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
  /usr/include/arpa/inet.h
  /usr/include/netinet/in.h
  /usr/include/bits/stdint-uintn.h
@@ -3794,11 +3773,10 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpManager.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
  /usr/include/string.h
  /usr/include/bits/libc-header-start.h
  /usr/include/features.h
@@ -3811,8 +3789,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/types/locale_t.h
  /usr/include/bits/types/__locale_t.h
  /usr/include/strings.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
  /usr/include/arpa/inet.h
  /usr/include/netinet/in.h
  /usr/include/bits/stdint-uintn.h
@@ -3870,22 +3848,20 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/getopt_posix.h
  /usr/include/bits/getopt_core.h
  /usr/include/assert.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
  /usr/include/sys/poll.h
  /usr/include/bits/poll.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/FirstUnicode.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/Unicode.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/c++/8/string
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h
@@ -4034,11 +4010,10 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeBlocks.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeBlocks.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeBlocks.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeBlocks.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeBlocks.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/c++/8/string
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h
@@ -4211,17 +4186,15 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterData.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterData.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterData.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterData.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterData.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterDataMap.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterDataMap.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterDataMap.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterDataMap.h
  /usr/include/c++/8/map
  /usr/include/c++/8/bits/stl_tree.h
  /usr/include/c++/8/bits/stl_algobase.h
@@ -4385,25 +4358,24 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/set
  /usr/include/c++/8/bits/stl_set.h
  /usr/include/c++/8/bits/stl_multiset.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeBlocks.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeBlocks.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/c++/8/vector
  /usr/include/c++/8/bits/stl_construct.h
  /usr/include/c++/8/bits/stl_uninitialized.h
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterData.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeCharacterData.h
  /usr/include/c++/8/cassert
  /usr/include/assert.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeUtils.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/c++/8/string
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h
@@ -4549,7 +4521,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/asm-generic/errno-base.h
  /usr/include/bits/types/error_t.h
  /usr/include/c++/8/bits/basic_string.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
  /usr/include/c++/8/vector
  /usr/include/c++/8/bits/stl_construct.h
@@ -4559,8 +4531,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -4644,12 +4616,12 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
  /usr/include/wctype.h
  /usr/include/bits/wctype-wchar.h
  /usr/include/c++/8/algorithm
@@ -4661,7 +4633,6 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/utf8.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/utf8.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/utf8.cpp
  /usr/include/stdc-predef.h
  /usr/include/string.h
  /usr/include/bits/libc-header-start.h
@@ -4675,7 +4646,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/types/locale_t.h
  /usr/include/bits/types/__locale_t.h
  /usr/include/strings.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/utf8.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/utf8.h
  /usr/include/stdio.h
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h
  /usr/include/bits/types.h
@@ -4690,7 +4661,7 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/stdio_lim.h
  /usr/include/bits/sys_errlist.h
  /usr/include/bits/stdio.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/c++/8/string
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h
@@ -4812,8 +4783,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/asm-generic/errno-base.h
  /usr/include/bits/types/error_t.h
  /usr/include/c++/8/bits/basic_string.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
  /usr/include/c++/8/vector
  /usr/include/c++/8/bits/stl_construct.h
@@ -4823,8 +4794,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -4906,20 +4877,19 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
  /usr/include/wctype.h
  /usr/include/bits/wctype-wchar.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/packdata.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -5074,8 +5044,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -5159,26 +5129,25 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/wctype.h
  /usr/include/bits/wctype-wchar.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/request.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -5333,8 +5302,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -5418,26 +5387,25 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/wctype.h
  /usr/include/bits/wctype-wchar.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
 
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/response.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/response.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/response.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/response.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/response.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Archive.h
  /usr/include/assert.h
  /usr/include/features.h
  /usr/include/sys/cdefs.h
@@ -5592,8 +5560,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/bits/stl_vector.h
  /usr/include/c++/8/bits/stl_bvector.h
  /usr/include/c++/8/bits/vector.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
  /usr/include/sys/errno.h
  /usr/include/resolv.h
  /usr/include/sys/param.h
@@ -5677,13 +5645,13 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/bits/fcntl.h
  /usr/include/bits/fcntl-linux.h
  /usr/include/linux/falloc.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Types.h
  /usr/include/sys/bitypes.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Mutex.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Platform.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Base/linux/Archive.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapicore.h
  /usr/include/c++/8/list
  /usr/include/c++/8/bits/stl_list.h
  /usr/include/c++/8/bits/allocated_ptr.h
@@ -5710,12 +5678,12 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/c++/8/set
  /usr/include/c++/8/bits/stl_set.h
  /usr/include/c++/8/bits/stl_multiset.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h
  /usr/include/arpa/inet.h
  /usr/include/netdb.h
  /usr/include/rpc/netdb.h
@@ -5729,15 +5697,15 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/include/asm-generic/ioctl.h
  /usr/include/bits/ioctl-types.h
  /usr/include/sys/ttydefaults.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/packdata.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/request.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/UnicodeUtils.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h
  /usr/include/wctype.h
  /usr/include/bits/wctype-wchar.h
 

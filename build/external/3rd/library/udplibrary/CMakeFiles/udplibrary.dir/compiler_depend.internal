@@ -3,7 +3,6 @@
 
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpLibrary.cpp
  /usr/include/stdc-predef.h
  /usr/include/assert.h
  /usr/include/features.h
@@ -191,10 +190,10 @@ external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/basic_file.h
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++io.h
  /usr/include/c++/8/bits/fstream.tcc
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpLibrary.hpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpHandler.hpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/priority.hpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/hashtable.hpp
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.hpp
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpHandler.hpp
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/priority.hpp
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/hashtable.hpp
  /usr/include/memory.h
  /usr/include/arpa/inet.h
  /usr/include/netinet/in.h

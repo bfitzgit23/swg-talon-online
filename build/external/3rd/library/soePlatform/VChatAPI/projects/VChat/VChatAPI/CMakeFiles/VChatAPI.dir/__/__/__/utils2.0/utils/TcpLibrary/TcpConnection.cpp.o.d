@@ -1,10 +1,10 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.o: \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpConnection.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpConnection.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpConnection.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpHandlers.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpManager.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpBlockAllocator.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpConnection.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpHandlers.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpManager.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/TcpBlockAllocator.h \
  /usr/include/string.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -12,8 +12,8 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/IPAddress.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/Clock.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/IPAddress.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/Clock.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \

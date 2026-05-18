@@ -1,5 +1,5 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorAPI.cpp.o: \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/monitorAPI.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/monitorAPI.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -38,11 +38,11 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/strings.h /usr/include/time.h /usr/include/bits/time.h \
  /usr/include/bits/timex.h /usr/include/bits/types/struct_tm.h \
  /usr/include/bits/types/struct_itimerspec.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/monitorAPI.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/UdpLibrary/UdpHandler.hpp \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/UdpLibrary/UdpLibrary.hpp \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/UdpLibrary/UdpHandler.hpp \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/priority.hpp \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/hashtable.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/monitorAPI.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/UdpLibrary/UdpHandler.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/UdpLibrary/UdpLibrary.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/UdpLibrary/UdpHandler.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/priority.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/hashtable.hpp \
  /usr/include/memory.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/monitorData.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/monitorData.h

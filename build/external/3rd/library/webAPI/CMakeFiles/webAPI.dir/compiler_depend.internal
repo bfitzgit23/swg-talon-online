@@ -3,10 +3,9 @@
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/jsonWebAPI.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/jsonWebAPI.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/jsonWebAPI.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/json.hpp
+ /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/jsonWebAPI.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/json.hpp
  /usr/include/c++/8/algorithm
  /usr/include/c++/8/utility
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h
@@ -297,14 +296,13 @@ external/3rd/library/webAPI/CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o
  /usr/include/curl/multi.h
  /usr/include/curl/curl.h
  /usr/include/curl/urlapi.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/libLeff/libLeff.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/libLeff/libLeff.h
 
 external/3rd/library/webAPI/CMakeFiles/webAPI.dir/webAPI.cpp.o
  /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/webAPI.cpp
- /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/webAPI.cpp
  /usr/include/stdc-predef.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/webAPI.h
- /home/almalinux/swg-returns-nge/src/external/3rd/library/webAPI/json.hpp
+ /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/webAPI.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/webAPI/json.hpp
  /usr/include/c++/8/algorithm
  /usr/include/c++/8/utility
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h

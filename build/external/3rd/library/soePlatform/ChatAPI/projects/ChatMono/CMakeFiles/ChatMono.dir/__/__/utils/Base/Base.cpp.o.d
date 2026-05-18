@@ -1,8 +1,8 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base.cpp.o: \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Base.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Base.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Base.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Base.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
  /usr/include/errno.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
@@ -90,13 +90,13 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Event.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Thread.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Event.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Thread.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/bits/functexcept.h \
  /usr/include/c++/8/bits/exception_defines.h \
@@ -155,20 +155,20 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/c++/8/cerrno /usr/include/c++/8/bits/basic_string.tcc \
  /usr/include/c++/8/bits/enable_special_members.h \
  /usr/include/c++/8/bits/stl_set.h /usr/include/c++/8/bits/stl_multiset.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Event.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Logger.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Event.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Logger.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_map.h \
  /usr/include/c++/8/tuple /usr/include/c++/8/array \
  /usr/include/c++/8/bits/uses_allocator.h \
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
  /usr/include/syslog.h /usr/include/sys/syslog.h \
  /usr/include/bits/syslog-path.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Config.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ScopeLock.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Statistics.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/TemplateObjectAllocator.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Types.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/BlockAllocator.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Config.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ScopeLock.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Statistics.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/TemplateObjectAllocator.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/BlockAllocator.h

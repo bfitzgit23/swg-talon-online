@@ -1,7 +1,7 @@
 external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Client.cpp.o: \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/projects/Session/LoginAPI/Client.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/LoginAPI/Client.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/projects/Session/LoginAPI/Client.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/LoginAPI/Client.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -96,9 +96,9 @@ external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/8/bits/basic_string.tcc \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/projects/Session/LoginAPI/ClientCore.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonClient.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/LoginAPI/ClientCore.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonClient.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h \
  /usr/include/c++/8/ext/aligned_buffer.h /usr/include/c++/8/bits/list.tcc \
@@ -112,14 +112,14 @@ external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/
  /usr/include/c++/8/tuple /usr/include/c++/8/array \
  /usr/include/c++/8/bits/uses_allocator.h \
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Archive.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Archive.h \
  /usr/include/assert.h /usr/include/c++/8/vector \
  /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Platform.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
  /usr/include/sys/errno.h /usr/include/resolv.h /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -164,16 +164,16 @@ external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/Mutex.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Mutex.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/utils/Base/linux/Archive.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpLibrary.hpp \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/UdpHandler.hpp \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/priority.hpp \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/udplibrary/hashtable.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Archive.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpHandler.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/priority.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/hashtable.hpp \
  /usr/include/memory.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.h \
- /home/almalinux/swg-returns-nge/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.h
