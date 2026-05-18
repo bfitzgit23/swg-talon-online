@@ -1,7 +1,7 @@
 external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp \
+ /home/swg1/swg-main/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/linux/ArchiveMutex.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/src/linux/ArchiveMutex.h \
  /usr/include/pthread.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \

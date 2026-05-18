@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 # Include any dependencies generated for this target.
 include external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/depend.make
@@ -70,18 +70,18 @@ include external/ours/library/localizationArchive/src/CMakeFiles/localizationArc
 include external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/flags.make
 
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o: external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/flags.make
-external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp
+external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o: /home/swg1/swg-main/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o: external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o -MF CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o.d -o CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o"
+	cd /home/swg1/swg-main/build/external/ours/library/localizationArchive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o -MF CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o.d -o CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o -c /home/swg1/swg-main/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp
 
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp > CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.i
+	cd /home/swg1/swg-main/build/external/ours/library/localizationArchive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp > CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.i
 
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp -o CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.s
+	cd /home/swg1/swg-main/build/external/ours/library/localizationArchive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp -o CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.s
 
 # Object files for target localizationArchive
 localizationArchive_OBJECTS = \
@@ -93,19 +93,19 @@ localizationArchive_EXTERNAL_OBJECTS =
 external/ours/library/localizationArchive/src/liblocalizationArchive.a: external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o
 external/ours/library/localizationArchive/src/liblocalizationArchive.a: external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/build.make
 external/ours/library/localizationArchive/src/liblocalizationArchive.a: external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblocalizationArchive.a"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/src && $(CMAKE_COMMAND) -P CMakeFiles/localizationArchive.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/localizationArchive.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX static library liblocalizationArchive.a"
+	cd /home/swg1/swg-main/build/external/ours/library/localizationArchive/src && $(CMAKE_COMMAND) -P CMakeFiles/localizationArchive.dir/cmake_clean_target.cmake
+	cd /home/swg1/swg-main/build/external/ours/library/localizationArchive/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/localizationArchive.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/build: external/ours/library/localizationArchive/src/liblocalizationArchive.a
 .PHONY : external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/build
 
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/src && $(CMAKE_COMMAND) -P CMakeFiles/localizationArchive.dir/cmake_clean.cmake
+	cd /home/swg1/swg-main/build/external/ours/library/localizationArchive/src && $(CMAKE_COMMAND) -P CMakeFiles/localizationArchive.dir/cmake_clean.cmake
 .PHONY : external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/clean
 
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/src /home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/external/ours/library/localizationArchive/src /home/swg1/swg-main/build /home/swg1/swg-main/build/external/ours/library/localizationArchive/src /home/swg1/swg-main/build/external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/depend
 

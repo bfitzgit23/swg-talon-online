@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCommandParser/src
+# Install script for directory: /home/swg1/swg-main/src/engine/shared/library/sharedCommandParser/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

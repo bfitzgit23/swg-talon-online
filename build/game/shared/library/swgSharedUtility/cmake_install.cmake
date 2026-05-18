@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/game/shared/library/swgSharedUtility
+# Install script for directory: /home/swg1/swg-main/src/game/shared/library/swgSharedUtility
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-talon-online/build/game/shared/library/swgSharedUtility/src/cmake_install.cmake")
+  include("/home/swg1/swg-main/build/game/shared/library/swgSharedUtility/src/cmake_install.cmake")
 
 endif()
 

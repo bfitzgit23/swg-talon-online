@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI
+# Install script for directory: /home/swg1/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

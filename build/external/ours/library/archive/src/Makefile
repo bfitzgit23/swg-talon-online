@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/ours/library/archive/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/external/ours/library/archive/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/ours/library/archive/src/CMakeFiles/archive.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/CMakeFiles/archive.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/archive/src/CMakeFiles/archive.dir/rule
 .PHONY : external/ours/library/archive/src/CMakeFiles/archive.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ archive: external/ours/library/archive/src/CMakeFiles/archive.dir/rule
 
 # fast build rule for target.
 archive/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/build
 .PHONY : archive/fast
 
 linux/ArchiveMutex.o: linux/ArchiveMutex.cpp.o
@@ -135,7 +135,7 @@ linux/ArchiveMutex.o: linux/ArchiveMutex.cpp.o
 
 # target to build an object file
 linux/ArchiveMutex.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o
 .PHONY : linux/ArchiveMutex.cpp.o
 
 linux/ArchiveMutex.i: linux/ArchiveMutex.cpp.i
@@ -143,7 +143,7 @@ linux/ArchiveMutex.i: linux/ArchiveMutex.cpp.i
 
 # target to preprocess a source file
 linux/ArchiveMutex.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.i
 .PHONY : linux/ArchiveMutex.cpp.i
 
 linux/ArchiveMutex.s: linux/ArchiveMutex.cpp.s
@@ -151,7 +151,7 @@ linux/ArchiveMutex.s: linux/ArchiveMutex.cpp.s
 
 # target to generate assembly for a file
 linux/ArchiveMutex.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.s
 .PHONY : linux/ArchiveMutex.cpp.s
 
 shared/AutoByteStream.o: shared/AutoByteStream.cpp.o
@@ -159,7 +159,7 @@ shared/AutoByteStream.o: shared/AutoByteStream.cpp.o
 
 # target to build an object file
 shared/AutoByteStream.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o
 .PHONY : shared/AutoByteStream.cpp.o
 
 shared/AutoByteStream.i: shared/AutoByteStream.cpp.i
@@ -167,7 +167,7 @@ shared/AutoByteStream.i: shared/AutoByteStream.cpp.i
 
 # target to preprocess a source file
 shared/AutoByteStream.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.i
 .PHONY : shared/AutoByteStream.cpp.i
 
 shared/AutoByteStream.s: shared/AutoByteStream.cpp.s
@@ -175,7 +175,7 @@ shared/AutoByteStream.s: shared/AutoByteStream.cpp.s
 
 # target to generate assembly for a file
 shared/AutoByteStream.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.s
 .PHONY : shared/AutoByteStream.cpp.s
 
 shared/AutoDeltaByteStream.o: shared/AutoDeltaByteStream.cpp.o
@@ -183,7 +183,7 @@ shared/AutoDeltaByteStream.o: shared/AutoDeltaByteStream.cpp.o
 
 # target to build an object file
 shared/AutoDeltaByteStream.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o
 .PHONY : shared/AutoDeltaByteStream.cpp.o
 
 shared/AutoDeltaByteStream.i: shared/AutoDeltaByteStream.cpp.i
@@ -191,7 +191,7 @@ shared/AutoDeltaByteStream.i: shared/AutoDeltaByteStream.cpp.i
 
 # target to preprocess a source file
 shared/AutoDeltaByteStream.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.i
 .PHONY : shared/AutoDeltaByteStream.cpp.i
 
 shared/AutoDeltaByteStream.s: shared/AutoDeltaByteStream.cpp.s
@@ -199,7 +199,7 @@ shared/AutoDeltaByteStream.s: shared/AutoDeltaByteStream.cpp.s
 
 # target to generate assembly for a file
 shared/AutoDeltaByteStream.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.s
 .PHONY : shared/AutoDeltaByteStream.cpp.s
 
 shared/AutoDeltaPackedMap.o: shared/AutoDeltaPackedMap.cpp.o
@@ -207,7 +207,7 @@ shared/AutoDeltaPackedMap.o: shared/AutoDeltaPackedMap.cpp.o
 
 # target to build an object file
 shared/AutoDeltaPackedMap.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o
 .PHONY : shared/AutoDeltaPackedMap.cpp.o
 
 shared/AutoDeltaPackedMap.i: shared/AutoDeltaPackedMap.cpp.i
@@ -215,7 +215,7 @@ shared/AutoDeltaPackedMap.i: shared/AutoDeltaPackedMap.cpp.i
 
 # target to preprocess a source file
 shared/AutoDeltaPackedMap.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.i
 .PHONY : shared/AutoDeltaPackedMap.cpp.i
 
 shared/AutoDeltaPackedMap.s: shared/AutoDeltaPackedMap.cpp.s
@@ -223,7 +223,7 @@ shared/AutoDeltaPackedMap.s: shared/AutoDeltaPackedMap.cpp.s
 
 # target to generate assembly for a file
 shared/AutoDeltaPackedMap.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.s
 .PHONY : shared/AutoDeltaPackedMap.cpp.s
 
 shared/ByteStream.o: shared/ByteStream.cpp.o
@@ -231,7 +231,7 @@ shared/ByteStream.o: shared/ByteStream.cpp.o
 
 # target to build an object file
 shared/ByteStream.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o
 .PHONY : shared/ByteStream.cpp.o
 
 shared/ByteStream.i: shared/ByteStream.cpp.i
@@ -239,7 +239,7 @@ shared/ByteStream.i: shared/ByteStream.cpp.i
 
 # target to preprocess a source file
 shared/ByteStream.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.i
 .PHONY : shared/ByteStream.cpp.i
 
 shared/ByteStream.s: shared/ByteStream.cpp.s
@@ -247,7 +247,7 @@ shared/ByteStream.s: shared/ByteStream.cpp.s
 
 # target to generate assembly for a file
 shared/ByteStream.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/archive/src/CMakeFiles/archive.dir/build.make external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.s
 .PHONY : shared/ByteStream.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

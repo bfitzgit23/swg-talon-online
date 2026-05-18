@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatMono
+# Install script for directory: /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatMono
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

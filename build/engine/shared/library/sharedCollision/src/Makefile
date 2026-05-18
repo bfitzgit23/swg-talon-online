@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCollision/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedCollision/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/rule
 .PHONY : engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedCollision: engine/shared/library/sharedCollision/src/CMakeFiles/sharedColl
 
 # fast build rule for target.
 sharedCollision/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build
 .PHONY : sharedCollision/fast
 
 shared/core/BarrierObject.o: shared/core/BarrierObject.cpp.o
@@ -135,7 +135,7 @@ shared/core/BarrierObject.o: shared/core/BarrierObject.cpp.o
 
 # target to build an object file
 shared/core/BarrierObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BarrierObject.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BarrierObject.cpp.o
 .PHONY : shared/core/BarrierObject.cpp.o
 
 shared/core/BarrierObject.i: shared/core/BarrierObject.cpp.i
@@ -143,7 +143,7 @@ shared/core/BarrierObject.i: shared/core/BarrierObject.cpp.i
 
 # target to preprocess a source file
 shared/core/BarrierObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BarrierObject.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BarrierObject.cpp.i
 .PHONY : shared/core/BarrierObject.cpp.i
 
 shared/core/BarrierObject.s: shared/core/BarrierObject.cpp.s
@@ -151,7 +151,7 @@ shared/core/BarrierObject.s: shared/core/BarrierObject.cpp.s
 
 # target to generate assembly for a file
 shared/core/BarrierObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BarrierObject.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BarrierObject.cpp.s
 .PHONY : shared/core/BarrierObject.cpp.s
 
 shared/core/BoxTree.o: shared/core/BoxTree.cpp.o
@@ -159,7 +159,7 @@ shared/core/BoxTree.o: shared/core/BoxTree.cpp.o
 
 # target to build an object file
 shared/core/BoxTree.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BoxTree.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BoxTree.cpp.o
 .PHONY : shared/core/BoxTree.cpp.o
 
 shared/core/BoxTree.i: shared/core/BoxTree.cpp.i
@@ -167,7 +167,7 @@ shared/core/BoxTree.i: shared/core/BoxTree.cpp.i
 
 # target to preprocess a source file
 shared/core/BoxTree.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BoxTree.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BoxTree.cpp.i
 .PHONY : shared/core/BoxTree.cpp.i
 
 shared/core/BoxTree.s: shared/core/BoxTree.cpp.s
@@ -175,7 +175,7 @@ shared/core/BoxTree.s: shared/core/BoxTree.cpp.s
 
 # target to generate assembly for a file
 shared/core/BoxTree.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BoxTree.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/BoxTree.cpp.s
 .PHONY : shared/core/BoxTree.cpp.s
 
 shared/core/Bresenham.o: shared/core/Bresenham.cpp.o
@@ -183,7 +183,7 @@ shared/core/Bresenham.o: shared/core/Bresenham.cpp.o
 
 # target to build an object file
 shared/core/Bresenham.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Bresenham.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Bresenham.cpp.o
 .PHONY : shared/core/Bresenham.cpp.o
 
 shared/core/Bresenham.i: shared/core/Bresenham.cpp.i
@@ -191,7 +191,7 @@ shared/core/Bresenham.i: shared/core/Bresenham.cpp.i
 
 # target to preprocess a source file
 shared/core/Bresenham.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Bresenham.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Bresenham.cpp.i
 .PHONY : shared/core/Bresenham.cpp.i
 
 shared/core/Bresenham.s: shared/core/Bresenham.cpp.s
@@ -199,7 +199,7 @@ shared/core/Bresenham.s: shared/core/Bresenham.cpp.s
 
 # target to generate assembly for a file
 shared/core/Bresenham.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Bresenham.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Bresenham.cpp.s
 .PHONY : shared/core/Bresenham.cpp.s
 
 shared/core/CollideParameters.o: shared/core/CollideParameters.cpp.o
@@ -207,7 +207,7 @@ shared/core/CollideParameters.o: shared/core/CollideParameters.cpp.o
 
 # target to build an object file
 shared/core/CollideParameters.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollideParameters.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollideParameters.cpp.o
 .PHONY : shared/core/CollideParameters.cpp.o
 
 shared/core/CollideParameters.i: shared/core/CollideParameters.cpp.i
@@ -215,7 +215,7 @@ shared/core/CollideParameters.i: shared/core/CollideParameters.cpp.i
 
 # target to preprocess a source file
 shared/core/CollideParameters.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollideParameters.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollideParameters.cpp.i
 .PHONY : shared/core/CollideParameters.cpp.i
 
 shared/core/CollideParameters.s: shared/core/CollideParameters.cpp.s
@@ -223,7 +223,7 @@ shared/core/CollideParameters.s: shared/core/CollideParameters.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollideParameters.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollideParameters.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollideParameters.cpp.s
 .PHONY : shared/core/CollideParameters.cpp.s
 
 shared/core/Collision2d.o: shared/core/Collision2d.cpp.o
@@ -231,7 +231,7 @@ shared/core/Collision2d.o: shared/core/Collision2d.cpp.o
 
 # target to build an object file
 shared/core/Collision2d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Collision2d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Collision2d.cpp.o
 .PHONY : shared/core/Collision2d.cpp.o
 
 shared/core/Collision2d.i: shared/core/Collision2d.cpp.i
@@ -239,7 +239,7 @@ shared/core/Collision2d.i: shared/core/Collision2d.cpp.i
 
 # target to preprocess a source file
 shared/core/Collision2d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Collision2d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Collision2d.cpp.i
 .PHONY : shared/core/Collision2d.cpp.i
 
 shared/core/Collision2d.s: shared/core/Collision2d.cpp.s
@@ -247,7 +247,7 @@ shared/core/Collision2d.s: shared/core/Collision2d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Collision2d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Collision2d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Collision2d.cpp.s
 .PHONY : shared/core/Collision2d.cpp.s
 
 shared/core/CollisionBuckets.o: shared/core/CollisionBuckets.cpp.o
@@ -255,7 +255,7 @@ shared/core/CollisionBuckets.o: shared/core/CollisionBuckets.cpp.o
 
 # target to build an object file
 shared/core/CollisionBuckets.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionBuckets.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionBuckets.cpp.o
 .PHONY : shared/core/CollisionBuckets.cpp.o
 
 shared/core/CollisionBuckets.i: shared/core/CollisionBuckets.cpp.i
@@ -263,7 +263,7 @@ shared/core/CollisionBuckets.i: shared/core/CollisionBuckets.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionBuckets.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionBuckets.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionBuckets.cpp.i
 .PHONY : shared/core/CollisionBuckets.cpp.i
 
 shared/core/CollisionBuckets.s: shared/core/CollisionBuckets.cpp.s
@@ -271,7 +271,7 @@ shared/core/CollisionBuckets.s: shared/core/CollisionBuckets.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionBuckets.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionBuckets.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionBuckets.cpp.s
 .PHONY : shared/core/CollisionBuckets.cpp.s
 
 shared/core/CollisionEnums.o: shared/core/CollisionEnums.cpp.o
@@ -279,7 +279,7 @@ shared/core/CollisionEnums.o: shared/core/CollisionEnums.cpp.o
 
 # target to build an object file
 shared/core/CollisionEnums.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionEnums.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionEnums.cpp.o
 .PHONY : shared/core/CollisionEnums.cpp.o
 
 shared/core/CollisionEnums.i: shared/core/CollisionEnums.cpp.i
@@ -287,7 +287,7 @@ shared/core/CollisionEnums.i: shared/core/CollisionEnums.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionEnums.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionEnums.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionEnums.cpp.i
 .PHONY : shared/core/CollisionEnums.cpp.i
 
 shared/core/CollisionEnums.s: shared/core/CollisionEnums.cpp.s
@@ -295,7 +295,7 @@ shared/core/CollisionEnums.s: shared/core/CollisionEnums.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionEnums.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionEnums.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionEnums.cpp.s
 .PHONY : shared/core/CollisionEnums.cpp.s
 
 shared/core/CollisionMesh.o: shared/core/CollisionMesh.cpp.o
@@ -303,7 +303,7 @@ shared/core/CollisionMesh.o: shared/core/CollisionMesh.cpp.o
 
 # target to build an object file
 shared/core/CollisionMesh.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionMesh.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionMesh.cpp.o
 .PHONY : shared/core/CollisionMesh.cpp.o
 
 shared/core/CollisionMesh.i: shared/core/CollisionMesh.cpp.i
@@ -311,7 +311,7 @@ shared/core/CollisionMesh.i: shared/core/CollisionMesh.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionMesh.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionMesh.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionMesh.cpp.i
 .PHONY : shared/core/CollisionMesh.cpp.i
 
 shared/core/CollisionMesh.s: shared/core/CollisionMesh.cpp.s
@@ -319,7 +319,7 @@ shared/core/CollisionMesh.s: shared/core/CollisionMesh.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionMesh.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionMesh.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionMesh.cpp.s
 .PHONY : shared/core/CollisionMesh.cpp.s
 
 shared/core/CollisionNotification.o: shared/core/CollisionNotification.cpp.o
@@ -327,7 +327,7 @@ shared/core/CollisionNotification.o: shared/core/CollisionNotification.cpp.o
 
 # target to build an object file
 shared/core/CollisionNotification.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionNotification.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionNotification.cpp.o
 .PHONY : shared/core/CollisionNotification.cpp.o
 
 shared/core/CollisionNotification.i: shared/core/CollisionNotification.cpp.i
@@ -335,7 +335,7 @@ shared/core/CollisionNotification.i: shared/core/CollisionNotification.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionNotification.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionNotification.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionNotification.cpp.i
 .PHONY : shared/core/CollisionNotification.cpp.i
 
 shared/core/CollisionNotification.s: shared/core/CollisionNotification.cpp.s
@@ -343,7 +343,7 @@ shared/core/CollisionNotification.s: shared/core/CollisionNotification.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionNotification.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionNotification.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionNotification.cpp.s
 .PHONY : shared/core/CollisionNotification.cpp.s
 
 shared/core/CollisionProperty.o: shared/core/CollisionProperty.cpp.o
@@ -351,7 +351,7 @@ shared/core/CollisionProperty.o: shared/core/CollisionProperty.cpp.o
 
 # target to build an object file
 shared/core/CollisionProperty.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionProperty.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionProperty.cpp.o
 .PHONY : shared/core/CollisionProperty.cpp.o
 
 shared/core/CollisionProperty.i: shared/core/CollisionProperty.cpp.i
@@ -359,7 +359,7 @@ shared/core/CollisionProperty.i: shared/core/CollisionProperty.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionProperty.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionProperty.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionProperty.cpp.i
 .PHONY : shared/core/CollisionProperty.cpp.i
 
 shared/core/CollisionProperty.s: shared/core/CollisionProperty.cpp.s
@@ -367,7 +367,7 @@ shared/core/CollisionProperty.s: shared/core/CollisionProperty.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionProperty.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionProperty.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionProperty.cpp.s
 .PHONY : shared/core/CollisionProperty.cpp.s
 
 shared/core/CollisionResolve.o: shared/core/CollisionResolve.cpp.o
@@ -375,7 +375,7 @@ shared/core/CollisionResolve.o: shared/core/CollisionResolve.cpp.o
 
 # target to build an object file
 shared/core/CollisionResolve.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionResolve.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionResolve.cpp.o
 .PHONY : shared/core/CollisionResolve.cpp.o
 
 shared/core/CollisionResolve.i: shared/core/CollisionResolve.cpp.i
@@ -383,7 +383,7 @@ shared/core/CollisionResolve.i: shared/core/CollisionResolve.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionResolve.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionResolve.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionResolve.cpp.i
 .PHONY : shared/core/CollisionResolve.cpp.i
 
 shared/core/CollisionResolve.s: shared/core/CollisionResolve.cpp.s
@@ -391,7 +391,7 @@ shared/core/CollisionResolve.s: shared/core/CollisionResolve.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionResolve.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionResolve.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionResolve.cpp.s
 .PHONY : shared/core/CollisionResolve.cpp.s
 
 shared/core/CollisionSurface.o: shared/core/CollisionSurface.cpp.o
@@ -399,7 +399,7 @@ shared/core/CollisionSurface.o: shared/core/CollisionSurface.cpp.o
 
 # target to build an object file
 shared/core/CollisionSurface.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionSurface.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionSurface.cpp.o
 .PHONY : shared/core/CollisionSurface.cpp.o
 
 shared/core/CollisionSurface.i: shared/core/CollisionSurface.cpp.i
@@ -407,7 +407,7 @@ shared/core/CollisionSurface.i: shared/core/CollisionSurface.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionSurface.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionSurface.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionSurface.cpp.i
 .PHONY : shared/core/CollisionSurface.cpp.i
 
 shared/core/CollisionSurface.s: shared/core/CollisionSurface.cpp.s
@@ -415,7 +415,7 @@ shared/core/CollisionSurface.s: shared/core/CollisionSurface.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionSurface.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionSurface.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionSurface.cpp.s
 .PHONY : shared/core/CollisionSurface.cpp.s
 
 shared/core/CollisionUtils.o: shared/core/CollisionUtils.cpp.o
@@ -423,7 +423,7 @@ shared/core/CollisionUtils.o: shared/core/CollisionUtils.cpp.o
 
 # target to build an object file
 shared/core/CollisionUtils.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionUtils.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionUtils.cpp.o
 .PHONY : shared/core/CollisionUtils.cpp.o
 
 shared/core/CollisionUtils.i: shared/core/CollisionUtils.cpp.i
@@ -431,7 +431,7 @@ shared/core/CollisionUtils.i: shared/core/CollisionUtils.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionUtils.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionUtils.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionUtils.cpp.i
 .PHONY : shared/core/CollisionUtils.cpp.i
 
 shared/core/CollisionUtils.s: shared/core/CollisionUtils.cpp.s
@@ -439,7 +439,7 @@ shared/core/CollisionUtils.s: shared/core/CollisionUtils.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionUtils.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionUtils.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionUtils.cpp.s
 .PHONY : shared/core/CollisionUtils.cpp.s
 
 shared/core/CollisionVolume.o: shared/core/CollisionVolume.cpp.o
@@ -447,7 +447,7 @@ shared/core/CollisionVolume.o: shared/core/CollisionVolume.cpp.o
 
 # target to build an object file
 shared/core/CollisionVolume.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionVolume.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionVolume.cpp.o
 .PHONY : shared/core/CollisionVolume.cpp.o
 
 shared/core/CollisionVolume.i: shared/core/CollisionVolume.cpp.i
@@ -455,7 +455,7 @@ shared/core/CollisionVolume.i: shared/core/CollisionVolume.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionVolume.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionVolume.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionVolume.cpp.i
 .PHONY : shared/core/CollisionVolume.cpp.i
 
 shared/core/CollisionVolume.s: shared/core/CollisionVolume.cpp.s
@@ -463,7 +463,7 @@ shared/core/CollisionVolume.s: shared/core/CollisionVolume.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionVolume.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionVolume.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionVolume.cpp.s
 .PHONY : shared/core/CollisionVolume.cpp.s
 
 shared/core/CollisionWorld.o: shared/core/CollisionWorld.cpp.o
@@ -471,7 +471,7 @@ shared/core/CollisionWorld.o: shared/core/CollisionWorld.cpp.o
 
 # target to build an object file
 shared/core/CollisionWorld.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionWorld.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionWorld.cpp.o
 .PHONY : shared/core/CollisionWorld.cpp.o
 
 shared/core/CollisionWorld.i: shared/core/CollisionWorld.cpp.i
@@ -479,7 +479,7 @@ shared/core/CollisionWorld.i: shared/core/CollisionWorld.cpp.i
 
 # target to preprocess a source file
 shared/core/CollisionWorld.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionWorld.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionWorld.cpp.i
 .PHONY : shared/core/CollisionWorld.cpp.i
 
 shared/core/CollisionWorld.s: shared/core/CollisionWorld.cpp.s
@@ -487,7 +487,7 @@ shared/core/CollisionWorld.s: shared/core/CollisionWorld.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollisionWorld.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionWorld.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/CollisionWorld.cpp.s
 .PHONY : shared/core/CollisionWorld.cpp.s
 
 shared/core/ConfigSharedCollision.o: shared/core/ConfigSharedCollision.cpp.o
@@ -495,7 +495,7 @@ shared/core/ConfigSharedCollision.o: shared/core/ConfigSharedCollision.cpp.o
 
 # target to build an object file
 shared/core/ConfigSharedCollision.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ConfigSharedCollision.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ConfigSharedCollision.cpp.o
 .PHONY : shared/core/ConfigSharedCollision.cpp.o
 
 shared/core/ConfigSharedCollision.i: shared/core/ConfigSharedCollision.cpp.i
@@ -503,7 +503,7 @@ shared/core/ConfigSharedCollision.i: shared/core/ConfigSharedCollision.cpp.i
 
 # target to preprocess a source file
 shared/core/ConfigSharedCollision.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ConfigSharedCollision.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ConfigSharedCollision.cpp.i
 .PHONY : shared/core/ConfigSharedCollision.cpp.i
 
 shared/core/ConfigSharedCollision.s: shared/core/ConfigSharedCollision.cpp.s
@@ -511,7 +511,7 @@ shared/core/ConfigSharedCollision.s: shared/core/ConfigSharedCollision.cpp.s
 
 # target to generate assembly for a file
 shared/core/ConfigSharedCollision.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ConfigSharedCollision.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ConfigSharedCollision.cpp.s
 .PHONY : shared/core/ConfigSharedCollision.cpp.s
 
 shared/core/Contact3d.o: shared/core/Contact3d.cpp.o
@@ -519,7 +519,7 @@ shared/core/Contact3d.o: shared/core/Contact3d.cpp.o
 
 # target to build an object file
 shared/core/Contact3d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Contact3d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Contact3d.cpp.o
 .PHONY : shared/core/Contact3d.cpp.o
 
 shared/core/Contact3d.i: shared/core/Contact3d.cpp.i
@@ -527,7 +527,7 @@ shared/core/Contact3d.i: shared/core/Contact3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Contact3d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Contact3d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Contact3d.cpp.i
 .PHONY : shared/core/Contact3d.cpp.i
 
 shared/core/Contact3d.s: shared/core/Contact3d.cpp.s
@@ -535,7 +535,7 @@ shared/core/Contact3d.s: shared/core/Contact3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Contact3d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Contact3d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Contact3d.cpp.s
 .PHONY : shared/core/Contact3d.cpp.s
 
 shared/core/ContactPoint.o: shared/core/ContactPoint.cpp.o
@@ -543,7 +543,7 @@ shared/core/ContactPoint.o: shared/core/ContactPoint.cpp.o
 
 # target to build an object file
 shared/core/ContactPoint.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ContactPoint.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ContactPoint.cpp.o
 .PHONY : shared/core/ContactPoint.cpp.o
 
 shared/core/ContactPoint.i: shared/core/ContactPoint.cpp.i
@@ -551,7 +551,7 @@ shared/core/ContactPoint.i: shared/core/ContactPoint.cpp.i
 
 # target to preprocess a source file
 shared/core/ContactPoint.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ContactPoint.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ContactPoint.cpp.i
 .PHONY : shared/core/ContactPoint.cpp.i
 
 shared/core/ContactPoint.s: shared/core/ContactPoint.cpp.s
@@ -559,7 +559,7 @@ shared/core/ContactPoint.s: shared/core/ContactPoint.cpp.s
 
 # target to generate assembly for a file
 shared/core/ContactPoint.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ContactPoint.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/ContactPoint.cpp.s
 .PHONY : shared/core/ContactPoint.cpp.s
 
 shared/core/Containment1d.o: shared/core/Containment1d.cpp.o
@@ -567,7 +567,7 @@ shared/core/Containment1d.o: shared/core/Containment1d.cpp.o
 
 # target to build an object file
 shared/core/Containment1d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment1d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment1d.cpp.o
 .PHONY : shared/core/Containment1d.cpp.o
 
 shared/core/Containment1d.i: shared/core/Containment1d.cpp.i
@@ -575,7 +575,7 @@ shared/core/Containment1d.i: shared/core/Containment1d.cpp.i
 
 # target to preprocess a source file
 shared/core/Containment1d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment1d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment1d.cpp.i
 .PHONY : shared/core/Containment1d.cpp.i
 
 shared/core/Containment1d.s: shared/core/Containment1d.cpp.s
@@ -583,7 +583,7 @@ shared/core/Containment1d.s: shared/core/Containment1d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Containment1d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment1d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment1d.cpp.s
 .PHONY : shared/core/Containment1d.cpp.s
 
 shared/core/Containment2d.o: shared/core/Containment2d.cpp.o
@@ -591,7 +591,7 @@ shared/core/Containment2d.o: shared/core/Containment2d.cpp.o
 
 # target to build an object file
 shared/core/Containment2d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment2d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment2d.cpp.o
 .PHONY : shared/core/Containment2d.cpp.o
 
 shared/core/Containment2d.i: shared/core/Containment2d.cpp.i
@@ -599,7 +599,7 @@ shared/core/Containment2d.i: shared/core/Containment2d.cpp.i
 
 # target to preprocess a source file
 shared/core/Containment2d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment2d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment2d.cpp.i
 .PHONY : shared/core/Containment2d.cpp.i
 
 shared/core/Containment2d.s: shared/core/Containment2d.cpp.s
@@ -607,7 +607,7 @@ shared/core/Containment2d.s: shared/core/Containment2d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Containment2d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment2d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment2d.cpp.s
 .PHONY : shared/core/Containment2d.cpp.s
 
 shared/core/Containment3d.o: shared/core/Containment3d.cpp.o
@@ -615,7 +615,7 @@ shared/core/Containment3d.o: shared/core/Containment3d.cpp.o
 
 # target to build an object file
 shared/core/Containment3d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment3d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment3d.cpp.o
 .PHONY : shared/core/Containment3d.cpp.o
 
 shared/core/Containment3d.i: shared/core/Containment3d.cpp.i
@@ -623,7 +623,7 @@ shared/core/Containment3d.i: shared/core/Containment3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Containment3d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment3d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment3d.cpp.i
 .PHONY : shared/core/Containment3d.cpp.i
 
 shared/core/Containment3d.s: shared/core/Containment3d.cpp.s
@@ -631,7 +631,7 @@ shared/core/Containment3d.s: shared/core/Containment3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Containment3d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment3d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Containment3d.cpp.s
 .PHONY : shared/core/Containment3d.cpp.s
 
 shared/core/Distance2d.o: shared/core/Distance2d.cpp.o
@@ -639,7 +639,7 @@ shared/core/Distance2d.o: shared/core/Distance2d.cpp.o
 
 # target to build an object file
 shared/core/Distance2d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance2d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance2d.cpp.o
 .PHONY : shared/core/Distance2d.cpp.o
 
 shared/core/Distance2d.i: shared/core/Distance2d.cpp.i
@@ -647,7 +647,7 @@ shared/core/Distance2d.i: shared/core/Distance2d.cpp.i
 
 # target to preprocess a source file
 shared/core/Distance2d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance2d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance2d.cpp.i
 .PHONY : shared/core/Distance2d.cpp.i
 
 shared/core/Distance2d.s: shared/core/Distance2d.cpp.s
@@ -655,7 +655,7 @@ shared/core/Distance2d.s: shared/core/Distance2d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Distance2d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance2d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance2d.cpp.s
 .PHONY : shared/core/Distance2d.cpp.s
 
 shared/core/Distance3d.o: shared/core/Distance3d.cpp.o
@@ -663,7 +663,7 @@ shared/core/Distance3d.o: shared/core/Distance3d.cpp.o
 
 # target to build an object file
 shared/core/Distance3d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance3d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance3d.cpp.o
 .PHONY : shared/core/Distance3d.cpp.o
 
 shared/core/Distance3d.i: shared/core/Distance3d.cpp.i
@@ -671,7 +671,7 @@ shared/core/Distance3d.i: shared/core/Distance3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Distance3d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance3d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance3d.cpp.i
 .PHONY : shared/core/Distance3d.cpp.i
 
 shared/core/Distance3d.s: shared/core/Distance3d.cpp.s
@@ -679,7 +679,7 @@ shared/core/Distance3d.s: shared/core/Distance3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Distance3d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance3d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Distance3d.cpp.s
 .PHONY : shared/core/Distance3d.cpp.s
 
 shared/core/DoorHelper.o: shared/core/DoorHelper.cpp.o
@@ -687,7 +687,7 @@ shared/core/DoorHelper.o: shared/core/DoorHelper.cpp.o
 
 # target to build an object file
 shared/core/DoorHelper.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorHelper.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorHelper.cpp.o
 .PHONY : shared/core/DoorHelper.cpp.o
 
 shared/core/DoorHelper.i: shared/core/DoorHelper.cpp.i
@@ -695,7 +695,7 @@ shared/core/DoorHelper.i: shared/core/DoorHelper.cpp.i
 
 # target to preprocess a source file
 shared/core/DoorHelper.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorHelper.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorHelper.cpp.i
 .PHONY : shared/core/DoorHelper.cpp.i
 
 shared/core/DoorHelper.s: shared/core/DoorHelper.cpp.s
@@ -703,7 +703,7 @@ shared/core/DoorHelper.s: shared/core/DoorHelper.cpp.s
 
 # target to generate assembly for a file
 shared/core/DoorHelper.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorHelper.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorHelper.cpp.s
 .PHONY : shared/core/DoorHelper.cpp.s
 
 shared/core/DoorObject.o: shared/core/DoorObject.cpp.o
@@ -711,7 +711,7 @@ shared/core/DoorObject.o: shared/core/DoorObject.cpp.o
 
 # target to build an object file
 shared/core/DoorObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorObject.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorObject.cpp.o
 .PHONY : shared/core/DoorObject.cpp.o
 
 shared/core/DoorObject.i: shared/core/DoorObject.cpp.i
@@ -719,7 +719,7 @@ shared/core/DoorObject.i: shared/core/DoorObject.cpp.i
 
 # target to preprocess a source file
 shared/core/DoorObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorObject.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorObject.cpp.i
 .PHONY : shared/core/DoorObject.cpp.i
 
 shared/core/DoorObject.s: shared/core/DoorObject.cpp.s
@@ -727,7 +727,7 @@ shared/core/DoorObject.s: shared/core/DoorObject.cpp.s
 
 # target to generate assembly for a file
 shared/core/DoorObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorObject.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/DoorObject.cpp.s
 .PHONY : shared/core/DoorObject.cpp.s
 
 shared/core/Floor.o: shared/core/Floor.cpp.o
@@ -735,7 +735,7 @@ shared/core/Floor.o: shared/core/Floor.cpp.o
 
 # target to build an object file
 shared/core/Floor.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Floor.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Floor.cpp.o
 .PHONY : shared/core/Floor.cpp.o
 
 shared/core/Floor.i: shared/core/Floor.cpp.i
@@ -743,7 +743,7 @@ shared/core/Floor.i: shared/core/Floor.cpp.i
 
 # target to preprocess a source file
 shared/core/Floor.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Floor.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Floor.cpp.i
 .PHONY : shared/core/Floor.cpp.i
 
 shared/core/Floor.s: shared/core/Floor.cpp.s
@@ -751,7 +751,7 @@ shared/core/Floor.s: shared/core/Floor.cpp.s
 
 # target to generate assembly for a file
 shared/core/Floor.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Floor.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Floor.cpp.s
 .PHONY : shared/core/Floor.cpp.s
 
 shared/core/FloorContactShape.o: shared/core/FloorContactShape.cpp.o
@@ -759,7 +759,7 @@ shared/core/FloorContactShape.o: shared/core/FloorContactShape.cpp.o
 
 # target to build an object file
 shared/core/FloorContactShape.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorContactShape.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorContactShape.cpp.o
 .PHONY : shared/core/FloorContactShape.cpp.o
 
 shared/core/FloorContactShape.i: shared/core/FloorContactShape.cpp.i
@@ -767,7 +767,7 @@ shared/core/FloorContactShape.i: shared/core/FloorContactShape.cpp.i
 
 # target to preprocess a source file
 shared/core/FloorContactShape.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorContactShape.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorContactShape.cpp.i
 .PHONY : shared/core/FloorContactShape.cpp.i
 
 shared/core/FloorContactShape.s: shared/core/FloorContactShape.cpp.s
@@ -775,7 +775,7 @@ shared/core/FloorContactShape.s: shared/core/FloorContactShape.cpp.s
 
 # target to generate assembly for a file
 shared/core/FloorContactShape.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorContactShape.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorContactShape.cpp.s
 .PHONY : shared/core/FloorContactShape.cpp.s
 
 shared/core/FloorLocator.o: shared/core/FloorLocator.cpp.o
@@ -783,7 +783,7 @@ shared/core/FloorLocator.o: shared/core/FloorLocator.cpp.o
 
 # target to build an object file
 shared/core/FloorLocator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorLocator.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorLocator.cpp.o
 .PHONY : shared/core/FloorLocator.cpp.o
 
 shared/core/FloorLocator.i: shared/core/FloorLocator.cpp.i
@@ -791,7 +791,7 @@ shared/core/FloorLocator.i: shared/core/FloorLocator.cpp.i
 
 # target to preprocess a source file
 shared/core/FloorLocator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorLocator.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorLocator.cpp.i
 .PHONY : shared/core/FloorLocator.cpp.i
 
 shared/core/FloorLocator.s: shared/core/FloorLocator.cpp.s
@@ -799,7 +799,7 @@ shared/core/FloorLocator.s: shared/core/FloorLocator.cpp.s
 
 # target to generate assembly for a file
 shared/core/FloorLocator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorLocator.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorLocator.cpp.s
 .PHONY : shared/core/FloorLocator.cpp.s
 
 shared/core/FloorManager.o: shared/core/FloorManager.cpp.o
@@ -807,7 +807,7 @@ shared/core/FloorManager.o: shared/core/FloorManager.cpp.o
 
 # target to build an object file
 shared/core/FloorManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorManager.cpp.o
 .PHONY : shared/core/FloorManager.cpp.o
 
 shared/core/FloorManager.i: shared/core/FloorManager.cpp.i
@@ -815,7 +815,7 @@ shared/core/FloorManager.i: shared/core/FloorManager.cpp.i
 
 # target to preprocess a source file
 shared/core/FloorManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorManager.cpp.i
 .PHONY : shared/core/FloorManager.cpp.i
 
 shared/core/FloorManager.s: shared/core/FloorManager.cpp.s
@@ -823,7 +823,7 @@ shared/core/FloorManager.s: shared/core/FloorManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/FloorManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorManager.cpp.s
 .PHONY : shared/core/FloorManager.cpp.s
 
 shared/core/FloorMesh.o: shared/core/FloorMesh.cpp.o
@@ -831,7 +831,7 @@ shared/core/FloorMesh.o: shared/core/FloorMesh.cpp.o
 
 # target to build an object file
 shared/core/FloorMesh.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorMesh.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorMesh.cpp.o
 .PHONY : shared/core/FloorMesh.cpp.o
 
 shared/core/FloorMesh.i: shared/core/FloorMesh.cpp.i
@@ -839,7 +839,7 @@ shared/core/FloorMesh.i: shared/core/FloorMesh.cpp.i
 
 # target to preprocess a source file
 shared/core/FloorMesh.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorMesh.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorMesh.cpp.i
 .PHONY : shared/core/FloorMesh.cpp.i
 
 shared/core/FloorMesh.s: shared/core/FloorMesh.cpp.s
@@ -847,7 +847,7 @@ shared/core/FloorMesh.s: shared/core/FloorMesh.cpp.s
 
 # target to generate assembly for a file
 shared/core/FloorMesh.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorMesh.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorMesh.cpp.s
 .PHONY : shared/core/FloorMesh.cpp.s
 
 shared/core/FloorTri.o: shared/core/FloorTri.cpp.o
@@ -855,7 +855,7 @@ shared/core/FloorTri.o: shared/core/FloorTri.cpp.o
 
 # target to build an object file
 shared/core/FloorTri.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorTri.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorTri.cpp.o
 .PHONY : shared/core/FloorTri.cpp.o
 
 shared/core/FloorTri.i: shared/core/FloorTri.cpp.i
@@ -863,7 +863,7 @@ shared/core/FloorTri.i: shared/core/FloorTri.cpp.i
 
 # target to preprocess a source file
 shared/core/FloorTri.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorTri.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorTri.cpp.i
 .PHONY : shared/core/FloorTri.cpp.i
 
 shared/core/FloorTri.s: shared/core/FloorTri.cpp.s
@@ -871,7 +871,7 @@ shared/core/FloorTri.s: shared/core/FloorTri.cpp.s
 
 # target to generate assembly for a file
 shared/core/FloorTri.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorTri.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FloorTri.cpp.s
 .PHONY : shared/core/FloorTri.cpp.s
 
 shared/core/Footprint.o: shared/core/Footprint.cpp.o
@@ -879,7 +879,7 @@ shared/core/Footprint.o: shared/core/Footprint.cpp.o
 
 # target to build an object file
 shared/core/Footprint.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Footprint.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Footprint.cpp.o
 .PHONY : shared/core/Footprint.cpp.o
 
 shared/core/Footprint.i: shared/core/Footprint.cpp.i
@@ -887,7 +887,7 @@ shared/core/Footprint.i: shared/core/Footprint.cpp.i
 
 # target to preprocess a source file
 shared/core/Footprint.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Footprint.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Footprint.cpp.i
 .PHONY : shared/core/Footprint.cpp.i
 
 shared/core/Footprint.s: shared/core/Footprint.cpp.s
@@ -895,7 +895,7 @@ shared/core/Footprint.s: shared/core/Footprint.cpp.s
 
 # target to generate assembly for a file
 shared/core/Footprint.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Footprint.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Footprint.cpp.s
 .PHONY : shared/core/Footprint.cpp.s
 
 shared/core/FootprintForceReattachManager.o: shared/core/FootprintForceReattachManager.cpp.o
@@ -903,7 +903,7 @@ shared/core/FootprintForceReattachManager.o: shared/core/FootprintForceReattachM
 
 # target to build an object file
 shared/core/FootprintForceReattachManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FootprintForceReattachManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FootprintForceReattachManager.cpp.o
 .PHONY : shared/core/FootprintForceReattachManager.cpp.o
 
 shared/core/FootprintForceReattachManager.i: shared/core/FootprintForceReattachManager.cpp.i
@@ -911,7 +911,7 @@ shared/core/FootprintForceReattachManager.i: shared/core/FootprintForceReattachM
 
 # target to preprocess a source file
 shared/core/FootprintForceReattachManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FootprintForceReattachManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FootprintForceReattachManager.cpp.i
 .PHONY : shared/core/FootprintForceReattachManager.cpp.i
 
 shared/core/FootprintForceReattachManager.s: shared/core/FootprintForceReattachManager.cpp.s
@@ -919,7 +919,7 @@ shared/core/FootprintForceReattachManager.s: shared/core/FootprintForceReattachM
 
 # target to generate assembly for a file
 shared/core/FootprintForceReattachManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FootprintForceReattachManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/FootprintForceReattachManager.cpp.s
 .PHONY : shared/core/FootprintForceReattachManager.cpp.s
 
 shared/core/Intersect1d.o: shared/core/Intersect1d.cpp.o
@@ -927,7 +927,7 @@ shared/core/Intersect1d.o: shared/core/Intersect1d.cpp.o
 
 # target to build an object file
 shared/core/Intersect1d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect1d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect1d.cpp.o
 .PHONY : shared/core/Intersect1d.cpp.o
 
 shared/core/Intersect1d.i: shared/core/Intersect1d.cpp.i
@@ -935,7 +935,7 @@ shared/core/Intersect1d.i: shared/core/Intersect1d.cpp.i
 
 # target to preprocess a source file
 shared/core/Intersect1d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect1d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect1d.cpp.i
 .PHONY : shared/core/Intersect1d.cpp.i
 
 shared/core/Intersect1d.s: shared/core/Intersect1d.cpp.s
@@ -943,7 +943,7 @@ shared/core/Intersect1d.s: shared/core/Intersect1d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Intersect1d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect1d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect1d.cpp.s
 .PHONY : shared/core/Intersect1d.cpp.s
 
 shared/core/Intersect2d.o: shared/core/Intersect2d.cpp.o
@@ -951,7 +951,7 @@ shared/core/Intersect2d.o: shared/core/Intersect2d.cpp.o
 
 # target to build an object file
 shared/core/Intersect2d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect2d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect2d.cpp.o
 .PHONY : shared/core/Intersect2d.cpp.o
 
 shared/core/Intersect2d.i: shared/core/Intersect2d.cpp.i
@@ -959,7 +959,7 @@ shared/core/Intersect2d.i: shared/core/Intersect2d.cpp.i
 
 # target to preprocess a source file
 shared/core/Intersect2d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect2d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect2d.cpp.i
 .PHONY : shared/core/Intersect2d.cpp.i
 
 shared/core/Intersect2d.s: shared/core/Intersect2d.cpp.s
@@ -967,7 +967,7 @@ shared/core/Intersect2d.s: shared/core/Intersect2d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Intersect2d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect2d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect2d.cpp.s
 .PHONY : shared/core/Intersect2d.cpp.s
 
 shared/core/Intersect3d.o: shared/core/Intersect3d.cpp.o
@@ -975,7 +975,7 @@ shared/core/Intersect3d.o: shared/core/Intersect3d.cpp.o
 
 # target to build an object file
 shared/core/Intersect3d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect3d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect3d.cpp.o
 .PHONY : shared/core/Intersect3d.cpp.o
 
 shared/core/Intersect3d.i: shared/core/Intersect3d.cpp.i
@@ -983,7 +983,7 @@ shared/core/Intersect3d.i: shared/core/Intersect3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Intersect3d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect3d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect3d.cpp.i
 .PHONY : shared/core/Intersect3d.cpp.i
 
 shared/core/Intersect3d.s: shared/core/Intersect3d.cpp.s
@@ -991,7 +991,7 @@ shared/core/Intersect3d.s: shared/core/Intersect3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Intersect3d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect3d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Intersect3d.cpp.s
 .PHONY : shared/core/Intersect3d.cpp.s
 
 shared/core/MultiList.o: shared/core/MultiList.cpp.o
@@ -999,7 +999,7 @@ shared/core/MultiList.o: shared/core/MultiList.cpp.o
 
 # target to build an object file
 shared/core/MultiList.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/MultiList.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/MultiList.cpp.o
 .PHONY : shared/core/MultiList.cpp.o
 
 shared/core/MultiList.i: shared/core/MultiList.cpp.i
@@ -1007,7 +1007,7 @@ shared/core/MultiList.i: shared/core/MultiList.cpp.i
 
 # target to preprocess a source file
 shared/core/MultiList.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/MultiList.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/MultiList.cpp.i
 .PHONY : shared/core/MultiList.cpp.i
 
 shared/core/MultiList.s: shared/core/MultiList.cpp.s
@@ -1015,7 +1015,7 @@ shared/core/MultiList.s: shared/core/MultiList.cpp.s
 
 # target to generate assembly for a file
 shared/core/MultiList.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/MultiList.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/MultiList.cpp.s
 .PHONY : shared/core/MultiList.cpp.s
 
 shared/core/NeighborObject.o: shared/core/NeighborObject.cpp.o
@@ -1023,7 +1023,7 @@ shared/core/NeighborObject.o: shared/core/NeighborObject.cpp.o
 
 # target to build an object file
 shared/core/NeighborObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/NeighborObject.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/NeighborObject.cpp.o
 .PHONY : shared/core/NeighborObject.cpp.o
 
 shared/core/NeighborObject.i: shared/core/NeighborObject.cpp.i
@@ -1031,7 +1031,7 @@ shared/core/NeighborObject.i: shared/core/NeighborObject.cpp.i
 
 # target to preprocess a source file
 shared/core/NeighborObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/NeighborObject.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/NeighborObject.cpp.i
 .PHONY : shared/core/NeighborObject.cpp.i
 
 shared/core/NeighborObject.s: shared/core/NeighborObject.cpp.s
@@ -1039,7 +1039,7 @@ shared/core/NeighborObject.s: shared/core/NeighborObject.cpp.s
 
 # target to generate assembly for a file
 shared/core/NeighborObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/NeighborObject.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/NeighborObject.cpp.s
 .PHONY : shared/core/NeighborObject.cpp.s
 
 shared/core/Overlap2d.o: shared/core/Overlap2d.cpp.o
@@ -1047,7 +1047,7 @@ shared/core/Overlap2d.o: shared/core/Overlap2d.cpp.o
 
 # target to build an object file
 shared/core/Overlap2d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap2d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap2d.cpp.o
 .PHONY : shared/core/Overlap2d.cpp.o
 
 shared/core/Overlap2d.i: shared/core/Overlap2d.cpp.i
@@ -1055,7 +1055,7 @@ shared/core/Overlap2d.i: shared/core/Overlap2d.cpp.i
 
 # target to preprocess a source file
 shared/core/Overlap2d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap2d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap2d.cpp.i
 .PHONY : shared/core/Overlap2d.cpp.i
 
 shared/core/Overlap2d.s: shared/core/Overlap2d.cpp.s
@@ -1063,7 +1063,7 @@ shared/core/Overlap2d.s: shared/core/Overlap2d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Overlap2d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap2d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap2d.cpp.s
 .PHONY : shared/core/Overlap2d.cpp.s
 
 shared/core/Overlap3d.o: shared/core/Overlap3d.cpp.o
@@ -1071,7 +1071,7 @@ shared/core/Overlap3d.o: shared/core/Overlap3d.cpp.o
 
 # target to build an object file
 shared/core/Overlap3d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap3d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap3d.cpp.o
 .PHONY : shared/core/Overlap3d.cpp.o
 
 shared/core/Overlap3d.i: shared/core/Overlap3d.cpp.i
@@ -1079,7 +1079,7 @@ shared/core/Overlap3d.i: shared/core/Overlap3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Overlap3d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap3d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap3d.cpp.i
 .PHONY : shared/core/Overlap3d.cpp.i
 
 shared/core/Overlap3d.s: shared/core/Overlap3d.cpp.s
@@ -1087,7 +1087,7 @@ shared/core/Overlap3d.s: shared/core/Overlap3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Overlap3d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap3d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Overlap3d.cpp.s
 .PHONY : shared/core/Overlap3d.cpp.s
 
 shared/core/Resolve3d.o: shared/core/Resolve3d.cpp.o
@@ -1095,7 +1095,7 @@ shared/core/Resolve3d.o: shared/core/Resolve3d.cpp.o
 
 # target to build an object file
 shared/core/Resolve3d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Resolve3d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Resolve3d.cpp.o
 .PHONY : shared/core/Resolve3d.cpp.o
 
 shared/core/Resolve3d.i: shared/core/Resolve3d.cpp.i
@@ -1103,7 +1103,7 @@ shared/core/Resolve3d.i: shared/core/Resolve3d.cpp.i
 
 # target to preprocess a source file
 shared/core/Resolve3d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Resolve3d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Resolve3d.cpp.i
 .PHONY : shared/core/Resolve3d.cpp.i
 
 shared/core/Resolve3d.s: shared/core/Resolve3d.cpp.s
@@ -1111,7 +1111,7 @@ shared/core/Resolve3d.s: shared/core/Resolve3d.cpp.s
 
 # target to generate assembly for a file
 shared/core/Resolve3d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Resolve3d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/Resolve3d.cpp.s
 .PHONY : shared/core/Resolve3d.cpp.s
 
 shared/core/SetupSharedCollision.o: shared/core/SetupSharedCollision.cpp.o
@@ -1119,7 +1119,7 @@ shared/core/SetupSharedCollision.o: shared/core/SetupSharedCollision.cpp.o
 
 # target to build an object file
 shared/core/SetupSharedCollision.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SetupSharedCollision.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SetupSharedCollision.cpp.o
 .PHONY : shared/core/SetupSharedCollision.cpp.o
 
 shared/core/SetupSharedCollision.i: shared/core/SetupSharedCollision.cpp.i
@@ -1127,7 +1127,7 @@ shared/core/SetupSharedCollision.i: shared/core/SetupSharedCollision.cpp.i
 
 # target to preprocess a source file
 shared/core/SetupSharedCollision.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SetupSharedCollision.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SetupSharedCollision.cpp.i
 .PHONY : shared/core/SetupSharedCollision.cpp.i
 
 shared/core/SetupSharedCollision.s: shared/core/SetupSharedCollision.cpp.s
@@ -1135,7 +1135,7 @@ shared/core/SetupSharedCollision.s: shared/core/SetupSharedCollision.cpp.s
 
 # target to generate assembly for a file
 shared/core/SetupSharedCollision.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SetupSharedCollision.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SetupSharedCollision.cpp.s
 .PHONY : shared/core/SetupSharedCollision.cpp.s
 
 shared/core/SimpleCollisionMesh.o: shared/core/SimpleCollisionMesh.cpp.o
@@ -1143,7 +1143,7 @@ shared/core/SimpleCollisionMesh.o: shared/core/SimpleCollisionMesh.cpp.o
 
 # target to build an object file
 shared/core/SimpleCollisionMesh.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SimpleCollisionMesh.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SimpleCollisionMesh.cpp.o
 .PHONY : shared/core/SimpleCollisionMesh.cpp.o
 
 shared/core/SimpleCollisionMesh.i: shared/core/SimpleCollisionMesh.cpp.i
@@ -1151,7 +1151,7 @@ shared/core/SimpleCollisionMesh.i: shared/core/SimpleCollisionMesh.cpp.i
 
 # target to preprocess a source file
 shared/core/SimpleCollisionMesh.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SimpleCollisionMesh.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SimpleCollisionMesh.cpp.i
 .PHONY : shared/core/SimpleCollisionMesh.cpp.i
 
 shared/core/SimpleCollisionMesh.s: shared/core/SimpleCollisionMesh.cpp.s
@@ -1159,7 +1159,7 @@ shared/core/SimpleCollisionMesh.s: shared/core/SimpleCollisionMesh.cpp.s
 
 # target to generate assembly for a file
 shared/core/SimpleCollisionMesh.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SimpleCollisionMesh.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SimpleCollisionMesh.cpp.s
 .PHONY : shared/core/SimpleCollisionMesh.cpp.s
 
 shared/core/SpaceAvoidanceManager.o: shared/core/SpaceAvoidanceManager.cpp.o
@@ -1167,7 +1167,7 @@ shared/core/SpaceAvoidanceManager.o: shared/core/SpaceAvoidanceManager.cpp.o
 
 # target to build an object file
 shared/core/SpaceAvoidanceManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpaceAvoidanceManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpaceAvoidanceManager.cpp.o
 .PHONY : shared/core/SpaceAvoidanceManager.cpp.o
 
 shared/core/SpaceAvoidanceManager.i: shared/core/SpaceAvoidanceManager.cpp.i
@@ -1175,7 +1175,7 @@ shared/core/SpaceAvoidanceManager.i: shared/core/SpaceAvoidanceManager.cpp.i
 
 # target to preprocess a source file
 shared/core/SpaceAvoidanceManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpaceAvoidanceManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpaceAvoidanceManager.cpp.i
 .PHONY : shared/core/SpaceAvoidanceManager.cpp.i
 
 shared/core/SpaceAvoidanceManager.s: shared/core/SpaceAvoidanceManager.cpp.s
@@ -1183,7 +1183,7 @@ shared/core/SpaceAvoidanceManager.s: shared/core/SpaceAvoidanceManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/SpaceAvoidanceManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpaceAvoidanceManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpaceAvoidanceManager.cpp.s
 .PHONY : shared/core/SpaceAvoidanceManager.cpp.s
 
 shared/core/SpatialDatabase.o: shared/core/SpatialDatabase.cpp.o
@@ -1191,7 +1191,7 @@ shared/core/SpatialDatabase.o: shared/core/SpatialDatabase.cpp.o
 
 # target to build an object file
 shared/core/SpatialDatabase.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpatialDatabase.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpatialDatabase.cpp.o
 .PHONY : shared/core/SpatialDatabase.cpp.o
 
 shared/core/SpatialDatabase.i: shared/core/SpatialDatabase.cpp.i
@@ -1199,7 +1199,7 @@ shared/core/SpatialDatabase.i: shared/core/SpatialDatabase.cpp.i
 
 # target to preprocess a source file
 shared/core/SpatialDatabase.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpatialDatabase.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpatialDatabase.cpp.i
 .PHONY : shared/core/SpatialDatabase.cpp.i
 
 shared/core/SpatialDatabase.s: shared/core/SpatialDatabase.cpp.s
@@ -1207,7 +1207,7 @@ shared/core/SpatialDatabase.s: shared/core/SpatialDatabase.cpp.s
 
 # target to generate assembly for a file
 shared/core/SpatialDatabase.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpatialDatabase.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/core/SpatialDatabase.cpp.s
 .PHONY : shared/core/SpatialDatabase.cpp.s
 
 shared/extent/BaseExtent.o: shared/extent/BaseExtent.cpp.o
@@ -1215,7 +1215,7 @@ shared/extent/BaseExtent.o: shared/extent/BaseExtent.cpp.o
 
 # target to build an object file
 shared/extent/BaseExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BaseExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BaseExtent.cpp.o
 .PHONY : shared/extent/BaseExtent.cpp.o
 
 shared/extent/BaseExtent.i: shared/extent/BaseExtent.cpp.i
@@ -1223,7 +1223,7 @@ shared/extent/BaseExtent.i: shared/extent/BaseExtent.cpp.i
 
 # target to preprocess a source file
 shared/extent/BaseExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BaseExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BaseExtent.cpp.i
 .PHONY : shared/extent/BaseExtent.cpp.i
 
 shared/extent/BaseExtent.s: shared/extent/BaseExtent.cpp.s
@@ -1231,7 +1231,7 @@ shared/extent/BaseExtent.s: shared/extent/BaseExtent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/BaseExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BaseExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BaseExtent.cpp.s
 .PHONY : shared/extent/BaseExtent.cpp.s
 
 shared/extent/BoxExtent.o: shared/extent/BoxExtent.cpp.o
@@ -1239,7 +1239,7 @@ shared/extent/BoxExtent.o: shared/extent/BoxExtent.cpp.o
 
 # target to build an object file
 shared/extent/BoxExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BoxExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BoxExtent.cpp.o
 .PHONY : shared/extent/BoxExtent.cpp.o
 
 shared/extent/BoxExtent.i: shared/extent/BoxExtent.cpp.i
@@ -1247,7 +1247,7 @@ shared/extent/BoxExtent.i: shared/extent/BoxExtent.cpp.i
 
 # target to preprocess a source file
 shared/extent/BoxExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BoxExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BoxExtent.cpp.i
 .PHONY : shared/extent/BoxExtent.cpp.i
 
 shared/extent/BoxExtent.s: shared/extent/BoxExtent.cpp.s
@@ -1255,7 +1255,7 @@ shared/extent/BoxExtent.s: shared/extent/BoxExtent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/BoxExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BoxExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/BoxExtent.cpp.s
 .PHONY : shared/extent/BoxExtent.cpp.s
 
 shared/extent/CollisionDetect.o: shared/extent/CollisionDetect.cpp.o
@@ -1263,7 +1263,7 @@ shared/extent/CollisionDetect.o: shared/extent/CollisionDetect.cpp.o
 
 # target to build an object file
 shared/extent/CollisionDetect.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CollisionDetect.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CollisionDetect.cpp.o
 .PHONY : shared/extent/CollisionDetect.cpp.o
 
 shared/extent/CollisionDetect.i: shared/extent/CollisionDetect.cpp.i
@@ -1271,7 +1271,7 @@ shared/extent/CollisionDetect.i: shared/extent/CollisionDetect.cpp.i
 
 # target to preprocess a source file
 shared/extent/CollisionDetect.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CollisionDetect.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CollisionDetect.cpp.i
 .PHONY : shared/extent/CollisionDetect.cpp.i
 
 shared/extent/CollisionDetect.s: shared/extent/CollisionDetect.cpp.s
@@ -1279,7 +1279,7 @@ shared/extent/CollisionDetect.s: shared/extent/CollisionDetect.cpp.s
 
 # target to generate assembly for a file
 shared/extent/CollisionDetect.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CollisionDetect.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CollisionDetect.cpp.s
 .PHONY : shared/extent/CollisionDetect.cpp.s
 
 shared/extent/ComponentExtent.o: shared/extent/ComponentExtent.cpp.o
@@ -1287,7 +1287,7 @@ shared/extent/ComponentExtent.o: shared/extent/ComponentExtent.cpp.o
 
 # target to build an object file
 shared/extent/ComponentExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ComponentExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ComponentExtent.cpp.o
 .PHONY : shared/extent/ComponentExtent.cpp.o
 
 shared/extent/ComponentExtent.i: shared/extent/ComponentExtent.cpp.i
@@ -1295,7 +1295,7 @@ shared/extent/ComponentExtent.i: shared/extent/ComponentExtent.cpp.i
 
 # target to preprocess a source file
 shared/extent/ComponentExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ComponentExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ComponentExtent.cpp.i
 .PHONY : shared/extent/ComponentExtent.cpp.i
 
 shared/extent/ComponentExtent.s: shared/extent/ComponentExtent.cpp.s
@@ -1303,7 +1303,7 @@ shared/extent/ComponentExtent.s: shared/extent/ComponentExtent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/ComponentExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ComponentExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ComponentExtent.cpp.s
 .PHONY : shared/extent/ComponentExtent.cpp.s
 
 shared/extent/CompositeExtent.o: shared/extent/CompositeExtent.cpp.o
@@ -1311,7 +1311,7 @@ shared/extent/CompositeExtent.o: shared/extent/CompositeExtent.cpp.o
 
 # target to build an object file
 shared/extent/CompositeExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CompositeExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CompositeExtent.cpp.o
 .PHONY : shared/extent/CompositeExtent.cpp.o
 
 shared/extent/CompositeExtent.i: shared/extent/CompositeExtent.cpp.i
@@ -1319,7 +1319,7 @@ shared/extent/CompositeExtent.i: shared/extent/CompositeExtent.cpp.i
 
 # target to preprocess a source file
 shared/extent/CompositeExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CompositeExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CompositeExtent.cpp.i
 .PHONY : shared/extent/CompositeExtent.cpp.i
 
 shared/extent/CompositeExtent.s: shared/extent/CompositeExtent.cpp.s
@@ -1327,7 +1327,7 @@ shared/extent/CompositeExtent.s: shared/extent/CompositeExtent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/CompositeExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CompositeExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CompositeExtent.cpp.s
 .PHONY : shared/extent/CompositeExtent.cpp.s
 
 shared/extent/CylinderExtent.o: shared/extent/CylinderExtent.cpp.o
@@ -1335,7 +1335,7 @@ shared/extent/CylinderExtent.o: shared/extent/CylinderExtent.cpp.o
 
 # target to build an object file
 shared/extent/CylinderExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CylinderExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CylinderExtent.cpp.o
 .PHONY : shared/extent/CylinderExtent.cpp.o
 
 shared/extent/CylinderExtent.i: shared/extent/CylinderExtent.cpp.i
@@ -1343,7 +1343,7 @@ shared/extent/CylinderExtent.i: shared/extent/CylinderExtent.cpp.i
 
 # target to preprocess a source file
 shared/extent/CylinderExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CylinderExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CylinderExtent.cpp.i
 .PHONY : shared/extent/CylinderExtent.cpp.i
 
 shared/extent/CylinderExtent.s: shared/extent/CylinderExtent.cpp.s
@@ -1351,7 +1351,7 @@ shared/extent/CylinderExtent.s: shared/extent/CylinderExtent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/CylinderExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CylinderExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/CylinderExtent.cpp.s
 .PHONY : shared/extent/CylinderExtent.cpp.s
 
 shared/extent/DetailExtent.o: shared/extent/DetailExtent.cpp.o
@@ -1359,7 +1359,7 @@ shared/extent/DetailExtent.o: shared/extent/DetailExtent.cpp.o
 
 # target to build an object file
 shared/extent/DetailExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/DetailExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/DetailExtent.cpp.o
 .PHONY : shared/extent/DetailExtent.cpp.o
 
 shared/extent/DetailExtent.i: shared/extent/DetailExtent.cpp.i
@@ -1367,7 +1367,7 @@ shared/extent/DetailExtent.i: shared/extent/DetailExtent.cpp.i
 
 # target to preprocess a source file
 shared/extent/DetailExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/DetailExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/DetailExtent.cpp.i
 .PHONY : shared/extent/DetailExtent.cpp.i
 
 shared/extent/DetailExtent.s: shared/extent/DetailExtent.cpp.s
@@ -1375,7 +1375,7 @@ shared/extent/DetailExtent.s: shared/extent/DetailExtent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/DetailExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/DetailExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/DetailExtent.cpp.s
 .PHONY : shared/extent/DetailExtent.cpp.s
 
 shared/extent/Extent.o: shared/extent/Extent.cpp.o
@@ -1383,7 +1383,7 @@ shared/extent/Extent.o: shared/extent/Extent.cpp.o
 
 # target to build an object file
 shared/extent/Extent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/Extent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/Extent.cpp.o
 .PHONY : shared/extent/Extent.cpp.o
 
 shared/extent/Extent.i: shared/extent/Extent.cpp.i
@@ -1391,7 +1391,7 @@ shared/extent/Extent.i: shared/extent/Extent.cpp.i
 
 # target to preprocess a source file
 shared/extent/Extent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/Extent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/Extent.cpp.i
 .PHONY : shared/extent/Extent.cpp.i
 
 shared/extent/Extent.s: shared/extent/Extent.cpp.s
@@ -1399,7 +1399,7 @@ shared/extent/Extent.s: shared/extent/Extent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/Extent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/Extent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/Extent.cpp.s
 .PHONY : shared/extent/Extent.cpp.s
 
 shared/extent/ExtentList.o: shared/extent/ExtentList.cpp.o
@@ -1407,7 +1407,7 @@ shared/extent/ExtentList.o: shared/extent/ExtentList.cpp.o
 
 # target to build an object file
 shared/extent/ExtentList.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ExtentList.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ExtentList.cpp.o
 .PHONY : shared/extent/ExtentList.cpp.o
 
 shared/extent/ExtentList.i: shared/extent/ExtentList.cpp.i
@@ -1415,7 +1415,7 @@ shared/extent/ExtentList.i: shared/extent/ExtentList.cpp.i
 
 # target to preprocess a source file
 shared/extent/ExtentList.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ExtentList.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ExtentList.cpp.i
 .PHONY : shared/extent/ExtentList.cpp.i
 
 shared/extent/ExtentList.s: shared/extent/ExtentList.cpp.s
@@ -1423,7 +1423,7 @@ shared/extent/ExtentList.s: shared/extent/ExtentList.cpp.s
 
 # target to generate assembly for a file
 shared/extent/ExtentList.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ExtentList.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/ExtentList.cpp.s
 .PHONY : shared/extent/ExtentList.cpp.s
 
 shared/extent/MeshExtent.o: shared/extent/MeshExtent.cpp.o
@@ -1431,7 +1431,7 @@ shared/extent/MeshExtent.o: shared/extent/MeshExtent.cpp.o
 
 # target to build an object file
 shared/extent/MeshExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/MeshExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/MeshExtent.cpp.o
 .PHONY : shared/extent/MeshExtent.cpp.o
 
 shared/extent/MeshExtent.i: shared/extent/MeshExtent.cpp.i
@@ -1439,7 +1439,7 @@ shared/extent/MeshExtent.i: shared/extent/MeshExtent.cpp.i
 
 # target to preprocess a source file
 shared/extent/MeshExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/MeshExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/MeshExtent.cpp.i
 .PHONY : shared/extent/MeshExtent.cpp.i
 
 shared/extent/MeshExtent.s: shared/extent/MeshExtent.cpp.s
@@ -1447,7 +1447,7 @@ shared/extent/MeshExtent.s: shared/extent/MeshExtent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/MeshExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/MeshExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/MeshExtent.cpp.s
 .PHONY : shared/extent/MeshExtent.cpp.s
 
 shared/extent/OrientedCylinderExtent.o: shared/extent/OrientedCylinderExtent.cpp.o
@@ -1455,7 +1455,7 @@ shared/extent/OrientedCylinderExtent.o: shared/extent/OrientedCylinderExtent.cpp
 
 # target to build an object file
 shared/extent/OrientedCylinderExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/OrientedCylinderExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/OrientedCylinderExtent.cpp.o
 .PHONY : shared/extent/OrientedCylinderExtent.cpp.o
 
 shared/extent/OrientedCylinderExtent.i: shared/extent/OrientedCylinderExtent.cpp.i
@@ -1463,7 +1463,7 @@ shared/extent/OrientedCylinderExtent.i: shared/extent/OrientedCylinderExtent.cpp
 
 # target to preprocess a source file
 shared/extent/OrientedCylinderExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/OrientedCylinderExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/OrientedCylinderExtent.cpp.i
 .PHONY : shared/extent/OrientedCylinderExtent.cpp.i
 
 shared/extent/OrientedCylinderExtent.s: shared/extent/OrientedCylinderExtent.cpp.s
@@ -1471,7 +1471,7 @@ shared/extent/OrientedCylinderExtent.s: shared/extent/OrientedCylinderExtent.cpp
 
 # target to generate assembly for a file
 shared/extent/OrientedCylinderExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/OrientedCylinderExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/OrientedCylinderExtent.cpp.s
 .PHONY : shared/extent/OrientedCylinderExtent.cpp.s
 
 shared/extent/SimpleExtent.o: shared/extent/SimpleExtent.cpp.o
@@ -1479,7 +1479,7 @@ shared/extent/SimpleExtent.o: shared/extent/SimpleExtent.cpp.o
 
 # target to build an object file
 shared/extent/SimpleExtent.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/SimpleExtent.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/SimpleExtent.cpp.o
 .PHONY : shared/extent/SimpleExtent.cpp.o
 
 shared/extent/SimpleExtent.i: shared/extent/SimpleExtent.cpp.i
@@ -1487,7 +1487,7 @@ shared/extent/SimpleExtent.i: shared/extent/SimpleExtent.cpp.i
 
 # target to preprocess a source file
 shared/extent/SimpleExtent.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/SimpleExtent.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/SimpleExtent.cpp.i
 .PHONY : shared/extent/SimpleExtent.cpp.i
 
 shared/extent/SimpleExtent.s: shared/extent/SimpleExtent.cpp.s
@@ -1495,7 +1495,7 @@ shared/extent/SimpleExtent.s: shared/extent/SimpleExtent.cpp.s
 
 # target to generate assembly for a file
 shared/extent/SimpleExtent.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/SimpleExtent.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/build.make engine/shared/library/sharedCollision/src/CMakeFiles/sharedCollision.dir/shared/extent/SimpleExtent.cpp.s
 .PHONY : shared/extent/SimpleExtent.cpp.s
 
 # Help Target
@@ -1689,6 +1689,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

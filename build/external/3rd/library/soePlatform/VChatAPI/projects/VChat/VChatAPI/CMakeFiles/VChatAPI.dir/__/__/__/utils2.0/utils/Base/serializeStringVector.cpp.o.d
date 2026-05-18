@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/serializeStringVector.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/serializeStringVector.cpp \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/serializeStringVector.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/serializeClasses.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/serializeClasses.h \
  /usr/include/c++/8/cassert \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -107,6 +107,6 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/types.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/serializeStringVector.h
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/serializeStringVector.h

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedXml/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/rule
 .PHONY : engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedXml: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/rule
 
 # fast build rule for target.
 sharedXml/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build
 .PHONY : sharedXml/fast
 
 shared/core/SetupSharedXml.o: shared/core/SetupSharedXml.cpp.o
@@ -135,7 +135,7 @@ shared/core/SetupSharedXml.o: shared/core/SetupSharedXml.cpp.o
 
 # target to build an object file
 shared/core/SetupSharedXml.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o
 .PHONY : shared/core/SetupSharedXml.cpp.o
 
 shared/core/SetupSharedXml.i: shared/core/SetupSharedXml.cpp.i
@@ -143,7 +143,7 @@ shared/core/SetupSharedXml.i: shared/core/SetupSharedXml.cpp.i
 
 # target to preprocess a source file
 shared/core/SetupSharedXml.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.i
 .PHONY : shared/core/SetupSharedXml.cpp.i
 
 shared/core/SetupSharedXml.s: shared/core/SetupSharedXml.cpp.s
@@ -151,7 +151,7 @@ shared/core/SetupSharedXml.s: shared/core/SetupSharedXml.cpp.s
 
 # target to generate assembly for a file
 shared/core/SetupSharedXml.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.s
 .PHONY : shared/core/SetupSharedXml.cpp.s
 
 shared/tree/XmlTreeDocument.o: shared/tree/XmlTreeDocument.cpp.o
@@ -159,7 +159,7 @@ shared/tree/XmlTreeDocument.o: shared/tree/XmlTreeDocument.cpp.o
 
 # target to build an object file
 shared/tree/XmlTreeDocument.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o
 .PHONY : shared/tree/XmlTreeDocument.cpp.o
 
 shared/tree/XmlTreeDocument.i: shared/tree/XmlTreeDocument.cpp.i
@@ -167,7 +167,7 @@ shared/tree/XmlTreeDocument.i: shared/tree/XmlTreeDocument.cpp.i
 
 # target to preprocess a source file
 shared/tree/XmlTreeDocument.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.i
 .PHONY : shared/tree/XmlTreeDocument.cpp.i
 
 shared/tree/XmlTreeDocument.s: shared/tree/XmlTreeDocument.cpp.s
@@ -175,7 +175,7 @@ shared/tree/XmlTreeDocument.s: shared/tree/XmlTreeDocument.cpp.s
 
 # target to generate assembly for a file
 shared/tree/XmlTreeDocument.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.s
 .PHONY : shared/tree/XmlTreeDocument.cpp.s
 
 shared/tree/XmlTreeDocumentList.o: shared/tree/XmlTreeDocumentList.cpp.o
@@ -183,7 +183,7 @@ shared/tree/XmlTreeDocumentList.o: shared/tree/XmlTreeDocumentList.cpp.o
 
 # target to build an object file
 shared/tree/XmlTreeDocumentList.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o
 .PHONY : shared/tree/XmlTreeDocumentList.cpp.o
 
 shared/tree/XmlTreeDocumentList.i: shared/tree/XmlTreeDocumentList.cpp.i
@@ -191,7 +191,7 @@ shared/tree/XmlTreeDocumentList.i: shared/tree/XmlTreeDocumentList.cpp.i
 
 # target to preprocess a source file
 shared/tree/XmlTreeDocumentList.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.i
 .PHONY : shared/tree/XmlTreeDocumentList.cpp.i
 
 shared/tree/XmlTreeDocumentList.s: shared/tree/XmlTreeDocumentList.cpp.s
@@ -199,7 +199,7 @@ shared/tree/XmlTreeDocumentList.s: shared/tree/XmlTreeDocumentList.cpp.s
 
 # target to generate assembly for a file
 shared/tree/XmlTreeDocumentList.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.s
 .PHONY : shared/tree/XmlTreeDocumentList.cpp.s
 
 shared/tree/XmlTreeNode.o: shared/tree/XmlTreeNode.cpp.o
@@ -207,7 +207,7 @@ shared/tree/XmlTreeNode.o: shared/tree/XmlTreeNode.cpp.o
 
 # target to build an object file
 shared/tree/XmlTreeNode.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o
 .PHONY : shared/tree/XmlTreeNode.cpp.o
 
 shared/tree/XmlTreeNode.i: shared/tree/XmlTreeNode.cpp.i
@@ -215,7 +215,7 @@ shared/tree/XmlTreeNode.i: shared/tree/XmlTreeNode.cpp.i
 
 # target to preprocess a source file
 shared/tree/XmlTreeNode.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.i
 .PHONY : shared/tree/XmlTreeNode.cpp.i
 
 shared/tree/XmlTreeNode.s: shared/tree/XmlTreeNode.cpp.s
@@ -223,7 +223,7 @@ shared/tree/XmlTreeNode.s: shared/tree/XmlTreeNode.cpp.s
 
 # target to generate assembly for a file
 shared/tree/XmlTreeNode.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.s
 .PHONY : shared/tree/XmlTreeNode.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

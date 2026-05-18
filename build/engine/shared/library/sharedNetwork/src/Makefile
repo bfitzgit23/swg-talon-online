@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedNetwork/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedNetwork/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/rule
 .PHONY : engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedNetwork: engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.
 
 # fast build rule for target.
 sharedNetwork/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build
 .PHONY : sharedNetwork/fast
 
 linux/Address.o: linux/Address.cpp.o
@@ -135,7 +135,7 @@ linux/Address.o: linux/Address.cpp.o
 
 # target to build an object file
 linux/Address.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Address.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Address.cpp.o
 .PHONY : linux/Address.cpp.o
 
 linux/Address.i: linux/Address.cpp.i
@@ -143,7 +143,7 @@ linux/Address.i: linux/Address.cpp.i
 
 # target to preprocess a source file
 linux/Address.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Address.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Address.cpp.i
 .PHONY : linux/Address.cpp.i
 
 linux/Address.s: linux/Address.cpp.s
@@ -151,7 +151,7 @@ linux/Address.s: linux/Address.cpp.s
 
 # target to generate assembly for a file
 linux/Address.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Address.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Address.cpp.s
 .PHONY : linux/Address.cpp.s
 
 linux/NetworkGetHostName.o: linux/NetworkGetHostName.cpp.o
@@ -159,7 +159,7 @@ linux/NetworkGetHostName.o: linux/NetworkGetHostName.cpp.o
 
 # target to build an object file
 linux/NetworkGetHostName.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/NetworkGetHostName.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/NetworkGetHostName.cpp.o
 .PHONY : linux/NetworkGetHostName.cpp.o
 
 linux/NetworkGetHostName.i: linux/NetworkGetHostName.cpp.i
@@ -167,7 +167,7 @@ linux/NetworkGetHostName.i: linux/NetworkGetHostName.cpp.i
 
 # target to preprocess a source file
 linux/NetworkGetHostName.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/NetworkGetHostName.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/NetworkGetHostName.cpp.i
 .PHONY : linux/NetworkGetHostName.cpp.i
 
 linux/NetworkGetHostName.s: linux/NetworkGetHostName.cpp.s
@@ -175,7 +175,7 @@ linux/NetworkGetHostName.s: linux/NetworkGetHostName.cpp.s
 
 # target to generate assembly for a file
 linux/NetworkGetHostName.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/NetworkGetHostName.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/NetworkGetHostName.cpp.s
 .PHONY : linux/NetworkGetHostName.cpp.s
 
 linux/Sock.o: linux/Sock.cpp.o
@@ -183,7 +183,7 @@ linux/Sock.o: linux/Sock.cpp.o
 
 # target to build an object file
 linux/Sock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Sock.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Sock.cpp.o
 .PHONY : linux/Sock.cpp.o
 
 linux/Sock.i: linux/Sock.cpp.i
@@ -191,7 +191,7 @@ linux/Sock.i: linux/Sock.cpp.i
 
 # target to preprocess a source file
 linux/Sock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Sock.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Sock.cpp.i
 .PHONY : linux/Sock.cpp.i
 
 linux/Sock.s: linux/Sock.cpp.s
@@ -199,7 +199,7 @@ linux/Sock.s: linux/Sock.cpp.s
 
 # target to generate assembly for a file
 linux/Sock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Sock.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/Sock.cpp.s
 .PHONY : linux/Sock.cpp.s
 
 linux/TcpClient.o: linux/TcpClient.cpp.o
@@ -207,7 +207,7 @@ linux/TcpClient.o: linux/TcpClient.cpp.o
 
 # target to build an object file
 linux/TcpClient.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpClient.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpClient.cpp.o
 .PHONY : linux/TcpClient.cpp.o
 
 linux/TcpClient.i: linux/TcpClient.cpp.i
@@ -215,7 +215,7 @@ linux/TcpClient.i: linux/TcpClient.cpp.i
 
 # target to preprocess a source file
 linux/TcpClient.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpClient.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpClient.cpp.i
 .PHONY : linux/TcpClient.cpp.i
 
 linux/TcpClient.s: linux/TcpClient.cpp.s
@@ -223,7 +223,7 @@ linux/TcpClient.s: linux/TcpClient.cpp.s
 
 # target to generate assembly for a file
 linux/TcpClient.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpClient.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpClient.cpp.s
 .PHONY : linux/TcpClient.cpp.s
 
 linux/TcpServer.o: linux/TcpServer.cpp.o
@@ -231,7 +231,7 @@ linux/TcpServer.o: linux/TcpServer.cpp.o
 
 # target to build an object file
 linux/TcpServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpServer.cpp.o
 .PHONY : linux/TcpServer.cpp.o
 
 linux/TcpServer.i: linux/TcpServer.cpp.i
@@ -239,7 +239,7 @@ linux/TcpServer.i: linux/TcpServer.cpp.i
 
 # target to preprocess a source file
 linux/TcpServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpServer.cpp.i
 .PHONY : linux/TcpServer.cpp.i
 
 linux/TcpServer.s: linux/TcpServer.cpp.s
@@ -247,7 +247,7 @@ linux/TcpServer.s: linux/TcpServer.cpp.s
 
 # target to generate assembly for a file
 linux/TcpServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/TcpServer.cpp.s
 .PHONY : linux/TcpServer.cpp.s
 
 linux/UdpSock.o: linux/UdpSock.cpp.o
@@ -255,7 +255,7 @@ linux/UdpSock.o: linux/UdpSock.cpp.o
 
 # target to build an object file
 linux/UdpSock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/UdpSock.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/UdpSock.cpp.o
 .PHONY : linux/UdpSock.cpp.o
 
 linux/UdpSock.i: linux/UdpSock.cpp.i
@@ -263,7 +263,7 @@ linux/UdpSock.i: linux/UdpSock.cpp.i
 
 # target to preprocess a source file
 linux/UdpSock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/UdpSock.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/UdpSock.cpp.i
 .PHONY : linux/UdpSock.cpp.i
 
 linux/UdpSock.s: linux/UdpSock.cpp.s
@@ -271,7 +271,7 @@ linux/UdpSock.s: linux/UdpSock.cpp.s
 
 # target to generate assembly for a file
 linux/UdpSock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/UdpSock.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/linux/UdpSock.cpp.s
 .PHONY : linux/UdpSock.cpp.s
 
 shared/BroadcastSock.o: shared/BroadcastSock.cpp.o
@@ -279,7 +279,7 @@ shared/BroadcastSock.o: shared/BroadcastSock.cpp.o
 
 # target to build an object file
 shared/BroadcastSock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/BroadcastSock.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/BroadcastSock.cpp.o
 .PHONY : shared/BroadcastSock.cpp.o
 
 shared/BroadcastSock.i: shared/BroadcastSock.cpp.i
@@ -287,7 +287,7 @@ shared/BroadcastSock.i: shared/BroadcastSock.cpp.i
 
 # target to preprocess a source file
 shared/BroadcastSock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/BroadcastSock.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/BroadcastSock.cpp.i
 .PHONY : shared/BroadcastSock.cpp.i
 
 shared/BroadcastSock.s: shared/BroadcastSock.cpp.s
@@ -295,7 +295,7 @@ shared/BroadcastSock.s: shared/BroadcastSock.cpp.s
 
 # target to generate assembly for a file
 shared/BroadcastSock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/BroadcastSock.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/BroadcastSock.cpp.s
 .PHONY : shared/BroadcastSock.cpp.s
 
 shared/ConfigSharedNetwork.o: shared/ConfigSharedNetwork.cpp.o
@@ -303,7 +303,7 @@ shared/ConfigSharedNetwork.o: shared/ConfigSharedNetwork.cpp.o
 
 # target to build an object file
 shared/ConfigSharedNetwork.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConfigSharedNetwork.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConfigSharedNetwork.cpp.o
 .PHONY : shared/ConfigSharedNetwork.cpp.o
 
 shared/ConfigSharedNetwork.i: shared/ConfigSharedNetwork.cpp.i
@@ -311,7 +311,7 @@ shared/ConfigSharedNetwork.i: shared/ConfigSharedNetwork.cpp.i
 
 # target to preprocess a source file
 shared/ConfigSharedNetwork.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConfigSharedNetwork.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConfigSharedNetwork.cpp.i
 .PHONY : shared/ConfigSharedNetwork.cpp.i
 
 shared/ConfigSharedNetwork.s: shared/ConfigSharedNetwork.cpp.s
@@ -319,7 +319,7 @@ shared/ConfigSharedNetwork.s: shared/ConfigSharedNetwork.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigSharedNetwork.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConfigSharedNetwork.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConfigSharedNetwork.cpp.s
 .PHONY : shared/ConfigSharedNetwork.cpp.s
 
 shared/Connection.o: shared/Connection.cpp.o
@@ -327,7 +327,7 @@ shared/Connection.o: shared/Connection.cpp.o
 
 # target to build an object file
 shared/Connection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Connection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Connection.cpp.o
 .PHONY : shared/Connection.cpp.o
 
 shared/Connection.i: shared/Connection.cpp.i
@@ -335,7 +335,7 @@ shared/Connection.i: shared/Connection.cpp.i
 
 # target to preprocess a source file
 shared/Connection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Connection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Connection.cpp.i
 .PHONY : shared/Connection.cpp.i
 
 shared/Connection.s: shared/Connection.cpp.s
@@ -343,7 +343,7 @@ shared/Connection.s: shared/Connection.cpp.s
 
 # target to generate assembly for a file
 shared/Connection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Connection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Connection.cpp.s
 .PHONY : shared/Connection.cpp.s
 
 shared/ConnectionHandler.o: shared/ConnectionHandler.cpp.o
@@ -351,7 +351,7 @@ shared/ConnectionHandler.o: shared/ConnectionHandler.cpp.o
 
 # target to build an object file
 shared/ConnectionHandler.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConnectionHandler.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConnectionHandler.cpp.o
 .PHONY : shared/ConnectionHandler.cpp.o
 
 shared/ConnectionHandler.i: shared/ConnectionHandler.cpp.i
@@ -359,7 +359,7 @@ shared/ConnectionHandler.i: shared/ConnectionHandler.cpp.i
 
 # target to preprocess a source file
 shared/ConnectionHandler.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConnectionHandler.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConnectionHandler.cpp.i
 .PHONY : shared/ConnectionHandler.cpp.i
 
 shared/ConnectionHandler.s: shared/ConnectionHandler.cpp.s
@@ -367,7 +367,7 @@ shared/ConnectionHandler.s: shared/ConnectionHandler.cpp.s
 
 # target to generate assembly for a file
 shared/ConnectionHandler.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConnectionHandler.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ConnectionHandler.cpp.s
 .PHONY : shared/ConnectionHandler.cpp.s
 
 shared/ManagerHandler.o: shared/ManagerHandler.cpp.o
@@ -375,7 +375,7 @@ shared/ManagerHandler.o: shared/ManagerHandler.cpp.o
 
 # target to build an object file
 shared/ManagerHandler.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ManagerHandler.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ManagerHandler.cpp.o
 .PHONY : shared/ManagerHandler.cpp.o
 
 shared/ManagerHandler.i: shared/ManagerHandler.cpp.i
@@ -383,7 +383,7 @@ shared/ManagerHandler.i: shared/ManagerHandler.cpp.i
 
 # target to preprocess a source file
 shared/ManagerHandler.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ManagerHandler.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ManagerHandler.cpp.i
 .PHONY : shared/ManagerHandler.cpp.i
 
 shared/ManagerHandler.s: shared/ManagerHandler.cpp.s
@@ -391,7 +391,7 @@ shared/ManagerHandler.s: shared/ManagerHandler.cpp.s
 
 # target to generate assembly for a file
 shared/ManagerHandler.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ManagerHandler.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/ManagerHandler.cpp.s
 .PHONY : shared/ManagerHandler.cpp.s
 
 shared/NetworkHandler.o: shared/NetworkHandler.cpp.o
@@ -399,7 +399,7 @@ shared/NetworkHandler.o: shared/NetworkHandler.cpp.o
 
 # target to build an object file
 shared/NetworkHandler.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkHandler.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkHandler.cpp.o
 .PHONY : shared/NetworkHandler.cpp.o
 
 shared/NetworkHandler.i: shared/NetworkHandler.cpp.i
@@ -407,7 +407,7 @@ shared/NetworkHandler.i: shared/NetworkHandler.cpp.i
 
 # target to preprocess a source file
 shared/NetworkHandler.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkHandler.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkHandler.cpp.i
 .PHONY : shared/NetworkHandler.cpp.i
 
 shared/NetworkHandler.s: shared/NetworkHandler.cpp.s
@@ -415,7 +415,7 @@ shared/NetworkHandler.s: shared/NetworkHandler.cpp.s
 
 # target to generate assembly for a file
 shared/NetworkHandler.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkHandler.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkHandler.cpp.s
 .PHONY : shared/NetworkHandler.cpp.s
 
 shared/NetworkSetupData.o: shared/NetworkSetupData.cpp.o
@@ -423,7 +423,7 @@ shared/NetworkSetupData.o: shared/NetworkSetupData.cpp.o
 
 # target to build an object file
 shared/NetworkSetupData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkSetupData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkSetupData.cpp.o
 .PHONY : shared/NetworkSetupData.cpp.o
 
 shared/NetworkSetupData.i: shared/NetworkSetupData.cpp.i
@@ -431,7 +431,7 @@ shared/NetworkSetupData.i: shared/NetworkSetupData.cpp.i
 
 # target to preprocess a source file
 shared/NetworkSetupData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkSetupData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkSetupData.cpp.i
 .PHONY : shared/NetworkSetupData.cpp.i
 
 shared/NetworkSetupData.s: shared/NetworkSetupData.cpp.s
@@ -439,7 +439,7 @@ shared/NetworkSetupData.s: shared/NetworkSetupData.cpp.s
 
 # target to generate assembly for a file
 shared/NetworkSetupData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkSetupData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/NetworkSetupData.cpp.s
 .PHONY : shared/NetworkSetupData.cpp.s
 
 shared/Service.o: shared/Service.cpp.o
@@ -447,7 +447,7 @@ shared/Service.o: shared/Service.cpp.o
 
 # target to build an object file
 shared/Service.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Service.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Service.cpp.o
 .PHONY : shared/Service.cpp.o
 
 shared/Service.i: shared/Service.cpp.i
@@ -455,7 +455,7 @@ shared/Service.i: shared/Service.cpp.i
 
 # target to preprocess a source file
 shared/Service.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Service.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Service.cpp.i
 .PHONY : shared/Service.cpp.i
 
 shared/Service.s: shared/Service.cpp.s
@@ -463,7 +463,7 @@ shared/Service.s: shared/Service.cpp.s
 
 # target to generate assembly for a file
 shared/Service.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Service.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/Service.cpp.s
 .PHONY : shared/Service.cpp.s
 
 shared/SetupSharedNetwork.o: shared/SetupSharedNetwork.cpp.o
@@ -471,7 +471,7 @@ shared/SetupSharedNetwork.o: shared/SetupSharedNetwork.cpp.o
 
 # target to build an object file
 shared/SetupSharedNetwork.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/SetupSharedNetwork.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/SetupSharedNetwork.cpp.o
 .PHONY : shared/SetupSharedNetwork.cpp.o
 
 shared/SetupSharedNetwork.i: shared/SetupSharedNetwork.cpp.i
@@ -479,7 +479,7 @@ shared/SetupSharedNetwork.i: shared/SetupSharedNetwork.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedNetwork.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/SetupSharedNetwork.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/SetupSharedNetwork.cpp.i
 .PHONY : shared/SetupSharedNetwork.cpp.i
 
 shared/SetupSharedNetwork.s: shared/SetupSharedNetwork.cpp.s
@@ -487,7 +487,7 @@ shared/SetupSharedNetwork.s: shared/SetupSharedNetwork.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedNetwork.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/SetupSharedNetwork.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/SetupSharedNetwork.cpp.s
 .PHONY : shared/SetupSharedNetwork.cpp.s
 
 shared/UdpLibraryMT/Events.o: shared/UdpLibraryMT/Events.cpp.o
@@ -495,7 +495,7 @@ shared/UdpLibraryMT/Events.o: shared/UdpLibraryMT/Events.cpp.o
 
 # target to build an object file
 shared/UdpLibraryMT/Events.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/Events.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/Events.cpp.o
 .PHONY : shared/UdpLibraryMT/Events.cpp.o
 
 shared/UdpLibraryMT/Events.i: shared/UdpLibraryMT/Events.cpp.i
@@ -503,7 +503,7 @@ shared/UdpLibraryMT/Events.i: shared/UdpLibraryMT/Events.cpp.i
 
 # target to preprocess a source file
 shared/UdpLibraryMT/Events.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/Events.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/Events.cpp.i
 .PHONY : shared/UdpLibraryMT/Events.cpp.i
 
 shared/UdpLibraryMT/Events.s: shared/UdpLibraryMT/Events.cpp.s
@@ -511,7 +511,7 @@ shared/UdpLibraryMT/Events.s: shared/UdpLibraryMT/Events.cpp.s
 
 # target to generate assembly for a file
 shared/UdpLibraryMT/Events.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/Events.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/Events.cpp.s
 .PHONY : shared/UdpLibraryMT/Events.cpp.s
 
 shared/UdpLibraryMT/UdpConnectionHandlerMT.o: shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.o
@@ -519,7 +519,7 @@ shared/UdpLibraryMT/UdpConnectionHandlerMT.o: shared/UdpLibraryMT/UdpConnectionH
 
 # target to build an object file
 shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.o
 .PHONY : shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.o
 
 shared/UdpLibraryMT/UdpConnectionHandlerMT.i: shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.i
@@ -527,7 +527,7 @@ shared/UdpLibraryMT/UdpConnectionHandlerMT.i: shared/UdpLibraryMT/UdpConnectionH
 
 # target to preprocess a source file
 shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.i
 .PHONY : shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.i
 
 shared/UdpLibraryMT/UdpConnectionHandlerMT.s: shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.s
@@ -535,7 +535,7 @@ shared/UdpLibraryMT/UdpConnectionHandlerMT.s: shared/UdpLibraryMT/UdpConnectionH
 
 # target to generate assembly for a file
 shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.s
 .PHONY : shared/UdpLibraryMT/UdpConnectionHandlerMT.cpp.s
 
 shared/UdpLibraryMT/UdpConnectionMT.o: shared/UdpLibraryMT/UdpConnectionMT.cpp.o
@@ -543,7 +543,7 @@ shared/UdpLibraryMT/UdpConnectionMT.o: shared/UdpLibraryMT/UdpConnectionMT.cpp.o
 
 # target to build an object file
 shared/UdpLibraryMT/UdpConnectionMT.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionMT.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionMT.cpp.o
 .PHONY : shared/UdpLibraryMT/UdpConnectionMT.cpp.o
 
 shared/UdpLibraryMT/UdpConnectionMT.i: shared/UdpLibraryMT/UdpConnectionMT.cpp.i
@@ -551,7 +551,7 @@ shared/UdpLibraryMT/UdpConnectionMT.i: shared/UdpLibraryMT/UdpConnectionMT.cpp.i
 
 # target to preprocess a source file
 shared/UdpLibraryMT/UdpConnectionMT.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionMT.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionMT.cpp.i
 .PHONY : shared/UdpLibraryMT/UdpConnectionMT.cpp.i
 
 shared/UdpLibraryMT/UdpConnectionMT.s: shared/UdpLibraryMT/UdpConnectionMT.cpp.s
@@ -559,7 +559,7 @@ shared/UdpLibraryMT/UdpConnectionMT.s: shared/UdpLibraryMT/UdpConnectionMT.cpp.s
 
 # target to generate assembly for a file
 shared/UdpLibraryMT/UdpConnectionMT.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionMT.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpConnectionMT.cpp.s
 .PHONY : shared/UdpLibraryMT/UdpConnectionMT.cpp.s
 
 shared/UdpLibraryMT/UdpLibraryMT.o: shared/UdpLibraryMT/UdpLibraryMT.cpp.o
@@ -567,7 +567,7 @@ shared/UdpLibraryMT/UdpLibraryMT.o: shared/UdpLibraryMT/UdpLibraryMT.cpp.o
 
 # target to build an object file
 shared/UdpLibraryMT/UdpLibraryMT.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpLibraryMT.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpLibraryMT.cpp.o
 .PHONY : shared/UdpLibraryMT/UdpLibraryMT.cpp.o
 
 shared/UdpLibraryMT/UdpLibraryMT.i: shared/UdpLibraryMT/UdpLibraryMT.cpp.i
@@ -575,7 +575,7 @@ shared/UdpLibraryMT/UdpLibraryMT.i: shared/UdpLibraryMT/UdpLibraryMT.cpp.i
 
 # target to preprocess a source file
 shared/UdpLibraryMT/UdpLibraryMT.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpLibraryMT.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpLibraryMT.cpp.i
 .PHONY : shared/UdpLibraryMT/UdpLibraryMT.cpp.i
 
 shared/UdpLibraryMT/UdpLibraryMT.s: shared/UdpLibraryMT/UdpLibraryMT.cpp.s
@@ -583,7 +583,7 @@ shared/UdpLibraryMT/UdpLibraryMT.s: shared/UdpLibraryMT/UdpLibraryMT.cpp.s
 
 # target to generate assembly for a file
 shared/UdpLibraryMT/UdpLibraryMT.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpLibraryMT.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpLibraryMT.cpp.s
 .PHONY : shared/UdpLibraryMT/UdpLibraryMT.cpp.s
 
 shared/UdpLibraryMT/UdpManagerHandlerMT.o: shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.o
@@ -591,7 +591,7 @@ shared/UdpLibraryMT/UdpManagerHandlerMT.o: shared/UdpLibraryMT/UdpManagerHandler
 
 # target to build an object file
 shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.o
 .PHONY : shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.o
 
 shared/UdpLibraryMT/UdpManagerHandlerMT.i: shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.i
@@ -599,7 +599,7 @@ shared/UdpLibraryMT/UdpManagerHandlerMT.i: shared/UdpLibraryMT/UdpManagerHandler
 
 # target to preprocess a source file
 shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.i
 .PHONY : shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.i
 
 shared/UdpLibraryMT/UdpManagerHandlerMT.s: shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.s
@@ -607,7 +607,7 @@ shared/UdpLibraryMT/UdpManagerHandlerMT.s: shared/UdpLibraryMT/UdpManagerHandler
 
 # target to generate assembly for a file
 shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.s
 .PHONY : shared/UdpLibraryMT/UdpManagerHandlerMT.cpp.s
 
 shared/UdpLibraryMT/UdpManagerMT.o: shared/UdpLibraryMT/UdpManagerMT.cpp.o
@@ -615,7 +615,7 @@ shared/UdpLibraryMT/UdpManagerMT.o: shared/UdpLibraryMT/UdpManagerMT.cpp.o
 
 # target to build an object file
 shared/UdpLibraryMT/UdpManagerMT.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerMT.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerMT.cpp.o
 .PHONY : shared/UdpLibraryMT/UdpManagerMT.cpp.o
 
 shared/UdpLibraryMT/UdpManagerMT.i: shared/UdpLibraryMT/UdpManagerMT.cpp.i
@@ -623,7 +623,7 @@ shared/UdpLibraryMT/UdpManagerMT.i: shared/UdpLibraryMT/UdpManagerMT.cpp.i
 
 # target to preprocess a source file
 shared/UdpLibraryMT/UdpManagerMT.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerMT.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerMT.cpp.i
 .PHONY : shared/UdpLibraryMT/UdpManagerMT.cpp.i
 
 shared/UdpLibraryMT/UdpManagerMT.s: shared/UdpLibraryMT/UdpManagerMT.cpp.s
@@ -631,7 +631,7 @@ shared/UdpLibraryMT/UdpManagerMT.s: shared/UdpLibraryMT/UdpManagerMT.cpp.s
 
 # target to generate assembly for a file
 shared/UdpLibraryMT/UdpManagerMT.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerMT.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpManagerMT.cpp.s
 .PHONY : shared/UdpLibraryMT/UdpManagerMT.cpp.s
 
 shared/UdpLibraryMT/UdpMiscMT.o: shared/UdpLibraryMT/UdpMiscMT.cpp.o
@@ -639,7 +639,7 @@ shared/UdpLibraryMT/UdpMiscMT.o: shared/UdpLibraryMT/UdpMiscMT.cpp.o
 
 # target to build an object file
 shared/UdpLibraryMT/UdpMiscMT.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpMiscMT.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpMiscMT.cpp.o
 .PHONY : shared/UdpLibraryMT/UdpMiscMT.cpp.o
 
 shared/UdpLibraryMT/UdpMiscMT.i: shared/UdpLibraryMT/UdpMiscMT.cpp.i
@@ -647,7 +647,7 @@ shared/UdpLibraryMT/UdpMiscMT.i: shared/UdpLibraryMT/UdpMiscMT.cpp.i
 
 # target to preprocess a source file
 shared/UdpLibraryMT/UdpMiscMT.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpMiscMT.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpMiscMT.cpp.i
 .PHONY : shared/UdpLibraryMT/UdpMiscMT.cpp.i
 
 shared/UdpLibraryMT/UdpMiscMT.s: shared/UdpLibraryMT/UdpMiscMT.cpp.s
@@ -655,7 +655,7 @@ shared/UdpLibraryMT/UdpMiscMT.s: shared/UdpLibraryMT/UdpMiscMT.cpp.s
 
 # target to generate assembly for a file
 shared/UdpLibraryMT/UdpMiscMT.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpMiscMT.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/build.make engine/shared/library/sharedNetwork/src/CMakeFiles/sharedNetwork.dir/shared/UdpLibraryMT/UdpMiscMT.cpp.s
 .PHONY : shared/UdpLibraryMT/UdpMiscMT.cpp.s
 
 # Help Target
@@ -744,6 +744,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,10 +1,10 @@
 engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.o: \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpHandlers.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpHandlers.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.h \
  /usr/include/string.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -12,8 +12,8 @@ engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/Clock.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/TcpLibrary/Clock.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/sys/socket.h \

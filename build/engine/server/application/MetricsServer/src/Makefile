@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/server/application/MetricsServer/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/rule
 .PHONY : engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ MetricsServer: engine/server/application/MetricsServer/src/CMakeFiles/MetricsSer
 
 # fast build rule for target.
 MetricsServer/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build
 .PHONY : MetricsServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/ConfigMetricsServer.o: shared/ConfigMetricsServer.cpp.o
@@ -159,7 +159,7 @@ shared/ConfigMetricsServer.o: shared/ConfigMetricsServer.cpp.o
 
 # target to build an object file
 shared/ConfigMetricsServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o
 .PHONY : shared/ConfigMetricsServer.cpp.o
 
 shared/ConfigMetricsServer.i: shared/ConfigMetricsServer.cpp.i
@@ -167,7 +167,7 @@ shared/ConfigMetricsServer.i: shared/ConfigMetricsServer.cpp.i
 
 # target to preprocess a source file
 shared/ConfigMetricsServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.i
 .PHONY : shared/ConfigMetricsServer.cpp.i
 
 shared/ConfigMetricsServer.s: shared/ConfigMetricsServer.cpp.s
@@ -175,7 +175,7 @@ shared/ConfigMetricsServer.s: shared/ConfigMetricsServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigMetricsServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.s
 .PHONY : shared/ConfigMetricsServer.cpp.s
 
 shared/FirstMetricsServer.o: shared/FirstMetricsServer.cpp.o
@@ -183,7 +183,7 @@ shared/FirstMetricsServer.o: shared/FirstMetricsServer.cpp.o
 
 # target to build an object file
 shared/FirstMetricsServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o
 .PHONY : shared/FirstMetricsServer.cpp.o
 
 shared/FirstMetricsServer.i: shared/FirstMetricsServer.cpp.i
@@ -191,7 +191,7 @@ shared/FirstMetricsServer.i: shared/FirstMetricsServer.cpp.i
 
 # target to preprocess a source file
 shared/FirstMetricsServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.i
 .PHONY : shared/FirstMetricsServer.cpp.i
 
 shared/FirstMetricsServer.s: shared/FirstMetricsServer.cpp.s
@@ -199,7 +199,7 @@ shared/FirstMetricsServer.s: shared/FirstMetricsServer.cpp.s
 
 # target to generate assembly for a file
 shared/FirstMetricsServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.s
 .PHONY : shared/FirstMetricsServer.cpp.s
 
 shared/MetricsGatheringConnection.o: shared/MetricsGatheringConnection.cpp.o
@@ -207,7 +207,7 @@ shared/MetricsGatheringConnection.o: shared/MetricsGatheringConnection.cpp.o
 
 # target to build an object file
 shared/MetricsGatheringConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o
 .PHONY : shared/MetricsGatheringConnection.cpp.o
 
 shared/MetricsGatheringConnection.i: shared/MetricsGatheringConnection.cpp.i
@@ -215,7 +215,7 @@ shared/MetricsGatheringConnection.i: shared/MetricsGatheringConnection.cpp.i
 
 # target to preprocess a source file
 shared/MetricsGatheringConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.i
 .PHONY : shared/MetricsGatheringConnection.cpp.i
 
 shared/MetricsGatheringConnection.s: shared/MetricsGatheringConnection.cpp.s
@@ -223,7 +223,7 @@ shared/MetricsGatheringConnection.s: shared/MetricsGatheringConnection.cpp.s
 
 # target to generate assembly for a file
 shared/MetricsGatheringConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.s
 .PHONY : shared/MetricsGatheringConnection.cpp.s
 
 shared/MetricsServer.o: shared/MetricsServer.cpp.o
@@ -231,7 +231,7 @@ shared/MetricsServer.o: shared/MetricsServer.cpp.o
 
 # target to build an object file
 shared/MetricsServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o
 .PHONY : shared/MetricsServer.cpp.o
 
 shared/MetricsServer.i: shared/MetricsServer.cpp.i
@@ -239,7 +239,7 @@ shared/MetricsServer.i: shared/MetricsServer.cpp.i
 
 # target to preprocess a source file
 shared/MetricsServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.i
 .PHONY : shared/MetricsServer.cpp.i
 
 shared/MetricsServer.s: shared/MetricsServer.cpp.s
@@ -247,7 +247,7 @@ shared/MetricsServer.s: shared/MetricsServer.cpp.s
 
 # target to generate assembly for a file
 shared/MetricsServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.s
 .PHONY : shared/MetricsServer.cpp.s
 
 shared/TaskConnection.o: shared/TaskConnection.cpp.o
@@ -255,7 +255,7 @@ shared/TaskConnection.o: shared/TaskConnection.cpp.o
 
 # target to build an object file
 shared/TaskConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o
 .PHONY : shared/TaskConnection.cpp.o
 
 shared/TaskConnection.i: shared/TaskConnection.cpp.i
@@ -263,7 +263,7 @@ shared/TaskConnection.i: shared/TaskConnection.cpp.i
 
 # target to preprocess a source file
 shared/TaskConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.i
 .PHONY : shared/TaskConnection.cpp.i
 
 shared/TaskConnection.s: shared/TaskConnection.cpp.s
@@ -271,7 +271,7 @@ shared/TaskConnection.s: shared/TaskConnection.cpp.s
 
 # target to generate assembly for a file
 shared/TaskConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build.make engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.s
 .PHONY : shared/TaskConnection.cpp.s
 
 # Help Target
@@ -312,6 +312,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

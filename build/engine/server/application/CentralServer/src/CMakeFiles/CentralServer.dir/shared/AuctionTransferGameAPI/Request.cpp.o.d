@@ -1,8 +1,8 @@
 engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Request.cpp.o: \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Request.cpp \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Request.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Request.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Request.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.h \
  /usr/include/time.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
@@ -16,7 +16,7 @@ engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/Archive.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/Archive.h \
  /usr/include/assert.h /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -103,8 +103,8 @@ engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/
  /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/Platform.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Platform.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/Platform.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Platform.h \
  /usr/include/sys/errno.h /usr/include/resolv.h /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -149,12 +149,12 @@ engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Types.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Mutex.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Platform.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Archive.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/AuctionTransferEnum.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Mutex.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Platform.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/linux/Archive.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/AuctionTransferEnum.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/ext/aligned_buffer.h \
  /usr/include/c++/8/bits/node_handle.h /usr/include/c++/8/optional \
@@ -163,5 +163,5 @@ engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/
  /usr/include/c++/8/bits/stl_map.h /usr/include/c++/8/tuple \
  /usr/include/c++/8/array /usr/include/c++/8/bits/uses_allocator.h \
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Character.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/Archive.h
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Character.h \
+ /home/swg1/swg-main/src/engine/server/application/CentralServer/src/shared/AuctionTransferGameAPI/Base/Archive.h

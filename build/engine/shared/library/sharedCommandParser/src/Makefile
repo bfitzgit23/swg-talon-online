@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCommandParser/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedCommandParser/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/rule
 .PHONY : engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedCommandParser: engine/shared/library/sharedCommandParser/src/CMakeFiles/sh
 
 # fast build rule for target.
 sharedCommandParser/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build
 .PHONY : sharedCommandParser/fast
 
 shared/CommandParser.o: shared/CommandParser.cpp.o
@@ -135,7 +135,7 @@ shared/CommandParser.o: shared/CommandParser.cpp.o
 
 # target to build an object file
 shared/CommandParser.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParser.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParser.cpp.o
 .PHONY : shared/CommandParser.cpp.o
 
 shared/CommandParser.i: shared/CommandParser.cpp.i
@@ -143,7 +143,7 @@ shared/CommandParser.i: shared/CommandParser.cpp.i
 
 # target to preprocess a source file
 shared/CommandParser.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParser.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParser.cpp.i
 .PHONY : shared/CommandParser.cpp.i
 
 shared/CommandParser.s: shared/CommandParser.cpp.s
@@ -151,7 +151,7 @@ shared/CommandParser.s: shared/CommandParser.cpp.s
 
 # target to generate assembly for a file
 shared/CommandParser.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParser.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParser.cpp.s
 .PHONY : shared/CommandParser.cpp.s
 
 shared/CommandParserHistory.o: shared/CommandParserHistory.cpp.o
@@ -159,7 +159,7 @@ shared/CommandParserHistory.o: shared/CommandParserHistory.cpp.o
 
 # target to build an object file
 shared/CommandParserHistory.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParserHistory.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParserHistory.cpp.o
 .PHONY : shared/CommandParserHistory.cpp.o
 
 shared/CommandParserHistory.i: shared/CommandParserHistory.cpp.i
@@ -167,7 +167,7 @@ shared/CommandParserHistory.i: shared/CommandParserHistory.cpp.i
 
 # target to preprocess a source file
 shared/CommandParserHistory.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParserHistory.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParserHistory.cpp.i
 .PHONY : shared/CommandParserHistory.cpp.i
 
 shared/CommandParserHistory.s: shared/CommandParserHistory.cpp.s
@@ -175,7 +175,7 @@ shared/CommandParserHistory.s: shared/CommandParserHistory.cpp.s
 
 # target to generate assembly for a file
 shared/CommandParserHistory.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParserHistory.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandParserHistory.cpp.s
 .PHONY : shared/CommandParserHistory.cpp.s
 
 shared/CommandPermissionManager.o: shared/CommandPermissionManager.cpp.o
@@ -183,7 +183,7 @@ shared/CommandPermissionManager.o: shared/CommandPermissionManager.cpp.o
 
 # target to build an object file
 shared/CommandPermissionManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandPermissionManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandPermissionManager.cpp.o
 .PHONY : shared/CommandPermissionManager.cpp.o
 
 shared/CommandPermissionManager.i: shared/CommandPermissionManager.cpp.i
@@ -191,7 +191,7 @@ shared/CommandPermissionManager.i: shared/CommandPermissionManager.cpp.i
 
 # target to preprocess a source file
 shared/CommandPermissionManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandPermissionManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandPermissionManager.cpp.i
 .PHONY : shared/CommandPermissionManager.cpp.i
 
 shared/CommandPermissionManager.s: shared/CommandPermissionManager.cpp.s
@@ -199,7 +199,7 @@ shared/CommandPermissionManager.s: shared/CommandPermissionManager.cpp.s
 
 # target to generate assembly for a file
 shared/CommandPermissionManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandPermissionManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/build.make engine/shared/library/sharedCommandParser/src/CMakeFiles/sharedCommandParser.dir/shared/CommandPermissionManager.cpp.s
 .PHONY : shared/CommandPermissionManager.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

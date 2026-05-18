@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/rule
 .PHONY : external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ VChatAPI: external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMak
 
 # fast build rule for target.
 VChatAPI/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build
 .PHONY : VChatAPI/fast
 
 VChatAPI.o: VChatAPI.cpp.o
@@ -135,7 +135,7 @@ VChatAPI.o: VChatAPI.cpp.o
 
 # target to build an object file
 VChatAPI.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPI.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPI.cpp.o
 .PHONY : VChatAPI.cpp.o
 
 VChatAPI.i: VChatAPI.cpp.i
@@ -143,7 +143,7 @@ VChatAPI.i: VChatAPI.cpp.i
 
 # target to preprocess a source file
 VChatAPI.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPI.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPI.cpp.i
 .PHONY : VChatAPI.cpp.i
 
 VChatAPI.s: VChatAPI.cpp.s
@@ -151,7 +151,7 @@ VChatAPI.s: VChatAPI.cpp.s
 
 # target to generate assembly for a file
 VChatAPI.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPI.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPI.cpp.s
 .PHONY : VChatAPI.cpp.s
 
 VChatAPICore.o: VChatAPICore.cpp.o
@@ -159,7 +159,7 @@ VChatAPICore.o: VChatAPICore.cpp.o
 
 # target to build an object file
 VChatAPICore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPICore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPICore.cpp.o
 .PHONY : VChatAPICore.cpp.o
 
 VChatAPICore.i: VChatAPICore.cpp.i
@@ -167,7 +167,7 @@ VChatAPICore.i: VChatAPICore.cpp.i
 
 # target to preprocess a source file
 VChatAPICore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPICore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPICore.cpp.i
 .PHONY : VChatAPICore.cpp.i
 
 VChatAPICore.s: VChatAPICore.cpp.s
@@ -175,7 +175,7 @@ VChatAPICore.s: VChatAPICore.cpp.s
 
 # target to generate assembly for a file
 VChatAPICore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPICore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/VChatAPICore.cpp.s
 .PHONY : VChatAPICore.cpp.s
 
 __/__/__/utils2.0/utils/Api/api.o: __/__/__/utils2.0/utils/Api/api.cpp.o
@@ -183,7 +183,7 @@ __/__/__/utils2.0/utils/Api/api.o: __/__/__/utils2.0/utils/Api/api.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Api/api.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/api.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/api.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Api/api.cpp.o
 
 __/__/__/utils2.0/utils/Api/api.i: __/__/__/utils2.0/utils/Api/api.cpp.i
@@ -191,7 +191,7 @@ __/__/__/utils2.0/utils/Api/api.i: __/__/__/utils2.0/utils/Api/api.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Api/api.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/api.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/api.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Api/api.cpp.i
 
 __/__/__/utils2.0/utils/Api/api.s: __/__/__/utils2.0/utils/Api/api.cpp.s
@@ -199,7 +199,7 @@ __/__/__/utils2.0/utils/Api/api.s: __/__/__/utils2.0/utils/Api/api.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Api/api.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/api.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/api.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Api/api.cpp.s
 
 __/__/__/utils2.0/utils/Api/apiMessages.o: __/__/__/utils2.0/utils/Api/apiMessages.cpp.o
@@ -207,7 +207,7 @@ __/__/__/utils2.0/utils/Api/apiMessages.o: __/__/__/utils2.0/utils/Api/apiMessag
 
 # target to build an object file
 __/__/__/utils2.0/utils/Api/apiMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiMessages.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiMessages.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Api/apiMessages.cpp.o
 
 __/__/__/utils2.0/utils/Api/apiMessages.i: __/__/__/utils2.0/utils/Api/apiMessages.cpp.i
@@ -215,7 +215,7 @@ __/__/__/utils2.0/utils/Api/apiMessages.i: __/__/__/utils2.0/utils/Api/apiMessag
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Api/apiMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiMessages.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiMessages.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Api/apiMessages.cpp.i
 
 __/__/__/utils2.0/utils/Api/apiMessages.s: __/__/__/utils2.0/utils/Api/apiMessages.cpp.s
@@ -223,7 +223,7 @@ __/__/__/utils2.0/utils/Api/apiMessages.s: __/__/__/utils2.0/utils/Api/apiMessag
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Api/apiMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiMessages.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiMessages.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Api/apiMessages.cpp.s
 
 __/__/__/utils2.0/utils/Api/apiPinned.o: __/__/__/utils2.0/utils/Api/apiPinned.cpp.o
@@ -231,7 +231,7 @@ __/__/__/utils2.0/utils/Api/apiPinned.o: __/__/__/utils2.0/utils/Api/apiPinned.c
 
 # target to build an object file
 __/__/__/utils2.0/utils/Api/apiPinned.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiPinned.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiPinned.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Api/apiPinned.cpp.o
 
 __/__/__/utils2.0/utils/Api/apiPinned.i: __/__/__/utils2.0/utils/Api/apiPinned.cpp.i
@@ -239,7 +239,7 @@ __/__/__/utils2.0/utils/Api/apiPinned.i: __/__/__/utils2.0/utils/Api/apiPinned.c
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Api/apiPinned.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiPinned.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiPinned.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Api/apiPinned.cpp.i
 
 __/__/__/utils2.0/utils/Api/apiPinned.s: __/__/__/utils2.0/utils/Api/apiPinned.cpp.s
@@ -247,7 +247,7 @@ __/__/__/utils2.0/utils/Api/apiPinned.s: __/__/__/utils2.0/utils/Api/apiPinned.c
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Api/apiPinned.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiPinned.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/apiPinned.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Api/apiPinned.cpp.s
 
 __/__/__/utils2.0/utils/Base/Base32.o: __/__/__/utils2.0/utils/Base/Base32.cpp.o
@@ -255,7 +255,7 @@ __/__/__/utils2.0/utils/Base/Base32.o: __/__/__/utils2.0/utils/Base/Base32.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/Base32.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base32.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base32.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/Base32.cpp.o
 
 __/__/__/utils2.0/utils/Base/Base32.i: __/__/__/utils2.0/utils/Base/Base32.cpp.i
@@ -263,7 +263,7 @@ __/__/__/utils2.0/utils/Base/Base32.i: __/__/__/utils2.0/utils/Base/Base32.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/Base32.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base32.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base32.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/Base32.cpp.i
 
 __/__/__/utils2.0/utils/Base/Base32.s: __/__/__/utils2.0/utils/Base/Base32.cpp.s
@@ -271,7 +271,7 @@ __/__/__/utils2.0/utils/Base/Base32.s: __/__/__/utils2.0/utils/Base/Base32.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/Base32.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base32.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base32.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/Base32.cpp.s
 
 __/__/__/utils2.0/utils/Base/Base64.o: __/__/__/utils2.0/utils/Base/Base64.cpp.o
@@ -279,7 +279,7 @@ __/__/__/utils2.0/utils/Base/Base64.o: __/__/__/utils2.0/utils/Base/Base64.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/Base64.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base64.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base64.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/Base64.cpp.o
 
 __/__/__/utils2.0/utils/Base/Base64.i: __/__/__/utils2.0/utils/Base/Base64.cpp.i
@@ -287,7 +287,7 @@ __/__/__/utils2.0/utils/Base/Base64.i: __/__/__/utils2.0/utils/Base/Base64.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/Base64.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base64.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base64.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/Base64.cpp.i
 
 __/__/__/utils2.0/utils/Base/Base64.s: __/__/__/utils2.0/utils/Base/Base64.cpp.s
@@ -295,7 +295,7 @@ __/__/__/utils2.0/utils/Base/Base64.s: __/__/__/utils2.0/utils/Base/Base64.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/Base64.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base64.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/Base64.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/Base64.cpp.s
 
 __/__/__/utils2.0/utils/Base/MD5.o: __/__/__/utils2.0/utils/Base/MD5.cpp.o
@@ -303,7 +303,7 @@ __/__/__/utils2.0/utils/Base/MD5.o: __/__/__/utils2.0/utils/Base/MD5.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/MD5.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/MD5.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/MD5.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/MD5.cpp.o
 
 __/__/__/utils2.0/utils/Base/MD5.i: __/__/__/utils2.0/utils/Base/MD5.cpp.i
@@ -311,7 +311,7 @@ __/__/__/utils2.0/utils/Base/MD5.i: __/__/__/utils2.0/utils/Base/MD5.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/MD5.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/MD5.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/MD5.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/MD5.cpp.i
 
 __/__/__/utils2.0/utils/Base/MD5.s: __/__/__/utils2.0/utils/Base/MD5.cpp.s
@@ -319,7 +319,7 @@ __/__/__/utils2.0/utils/Base/MD5.s: __/__/__/utils2.0/utils/Base/MD5.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/MD5.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/MD5.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/MD5.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/MD5.cpp.s
 
 __/__/__/utils2.0/utils/Base/basicConfig.o: __/__/__/utils2.0/utils/Base/basicConfig.cpp.o
@@ -327,7 +327,7 @@ __/__/__/utils2.0/utils/Base/basicConfig.o: __/__/__/utils2.0/utils/Base/basicCo
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/basicConfig.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/basicConfig.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/basicConfig.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/basicConfig.cpp.o
 
 __/__/__/utils2.0/utils/Base/basicConfig.i: __/__/__/utils2.0/utils/Base/basicConfig.cpp.i
@@ -335,7 +335,7 @@ __/__/__/utils2.0/utils/Base/basicConfig.i: __/__/__/utils2.0/utils/Base/basicCo
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/basicConfig.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/basicConfig.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/basicConfig.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/basicConfig.cpp.i
 
 __/__/__/utils2.0/utils/Base/basicConfig.s: __/__/__/utils2.0/utils/Base/basicConfig.cpp.s
@@ -343,7 +343,7 @@ __/__/__/utils2.0/utils/Base/basicConfig.s: __/__/__/utils2.0/utils/Base/basicCo
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/basicConfig.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/basicConfig.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/basicConfig.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/basicConfig.cpp.s
 
 __/__/__/utils2.0/utils/Base/cmdLine.o: __/__/__/utils2.0/utils/Base/cmdLine.cpp.o
@@ -351,7 +351,7 @@ __/__/__/utils2.0/utils/Base/cmdLine.o: __/__/__/utils2.0/utils/Base/cmdLine.cpp
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/cmdLine.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/cmdLine.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/cmdLine.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/cmdLine.cpp.o
 
 __/__/__/utils2.0/utils/Base/cmdLine.i: __/__/__/utils2.0/utils/Base/cmdLine.cpp.i
@@ -359,7 +359,7 @@ __/__/__/utils2.0/utils/Base/cmdLine.i: __/__/__/utils2.0/utils/Base/cmdLine.cpp
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/cmdLine.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/cmdLine.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/cmdLine.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/cmdLine.cpp.i
 
 __/__/__/utils2.0/utils/Base/cmdLine.s: __/__/__/utils2.0/utils/Base/cmdLine.cpp.s
@@ -367,7 +367,7 @@ __/__/__/utils2.0/utils/Base/cmdLine.s: __/__/__/utils2.0/utils/Base/cmdLine.cpp
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/cmdLine.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/cmdLine.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/cmdLine.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/cmdLine.cpp.s
 
 __/__/__/utils2.0/utils/Base/date.o: __/__/__/utils2.0/utils/Base/date.cpp.o
@@ -375,7 +375,7 @@ __/__/__/utils2.0/utils/Base/date.o: __/__/__/utils2.0/utils/Base/date.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/date.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/date.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/date.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/date.cpp.o
 
 __/__/__/utils2.0/utils/Base/date.i: __/__/__/utils2.0/utils/Base/date.cpp.i
@@ -383,7 +383,7 @@ __/__/__/utils2.0/utils/Base/date.i: __/__/__/utils2.0/utils/Base/date.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/date.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/date.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/date.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/date.cpp.i
 
 __/__/__/utils2.0/utils/Base/date.s: __/__/__/utils2.0/utils/Base/date.cpp.s
@@ -391,7 +391,7 @@ __/__/__/utils2.0/utils/Base/date.s: __/__/__/utils2.0/utils/Base/date.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/date.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/date.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/date.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/date.cpp.s
 
 __/__/__/utils2.0/utils/Base/log.o: __/__/__/utils2.0/utils/Base/log.cpp.o
@@ -399,7 +399,7 @@ __/__/__/utils2.0/utils/Base/log.o: __/__/__/utils2.0/utils/Base/log.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/log.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/log.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/log.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/log.cpp.o
 
 __/__/__/utils2.0/utils/Base/log.i: __/__/__/utils2.0/utils/Base/log.cpp.i
@@ -407,7 +407,7 @@ __/__/__/utils2.0/utils/Base/log.i: __/__/__/utils2.0/utils/Base/log.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/log.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/log.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/log.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/log.cpp.i
 
 __/__/__/utils2.0/utils/Base/log.s: __/__/__/utils2.0/utils/Base/log.cpp.s
@@ -415,7 +415,7 @@ __/__/__/utils2.0/utils/Base/log.s: __/__/__/utils2.0/utils/Base/log.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/log.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/log.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/log.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/log.cpp.s
 
 __/__/__/utils2.0/utils/Base/monitorAPI.o: __/__/__/utils2.0/utils/Base/monitorAPI.cpp.o
@@ -423,7 +423,7 @@ __/__/__/utils2.0/utils/Base/monitorAPI.o: __/__/__/utils2.0/utils/Base/monitorA
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/monitorAPI.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorAPI.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorAPI.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/monitorAPI.cpp.o
 
 __/__/__/utils2.0/utils/Base/monitorAPI.i: __/__/__/utils2.0/utils/Base/monitorAPI.cpp.i
@@ -431,7 +431,7 @@ __/__/__/utils2.0/utils/Base/monitorAPI.i: __/__/__/utils2.0/utils/Base/monitorA
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/monitorAPI.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorAPI.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorAPI.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/monitorAPI.cpp.i
 
 __/__/__/utils2.0/utils/Base/monitorAPI.s: __/__/__/utils2.0/utils/Base/monitorAPI.cpp.s
@@ -439,7 +439,7 @@ __/__/__/utils2.0/utils/Base/monitorAPI.s: __/__/__/utils2.0/utils/Base/monitorA
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/monitorAPI.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorAPI.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorAPI.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/monitorAPI.cpp.s
 
 __/__/__/utils2.0/utils/Base/monitorData.o: __/__/__/utils2.0/utils/Base/monitorData.cpp.o
@@ -447,7 +447,7 @@ __/__/__/utils2.0/utils/Base/monitorData.o: __/__/__/utils2.0/utils/Base/monitor
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/monitorData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorData.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/monitorData.cpp.o
 
 __/__/__/utils2.0/utils/Base/monitorData.i: __/__/__/utils2.0/utils/Base/monitorData.cpp.i
@@ -455,7 +455,7 @@ __/__/__/utils2.0/utils/Base/monitorData.i: __/__/__/utils2.0/utils/Base/monitor
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/monitorData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorData.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/monitorData.cpp.i
 
 __/__/__/utils2.0/utils/Base/monitorData.s: __/__/__/utils2.0/utils/Base/monitorData.cpp.s
@@ -463,7 +463,7 @@ __/__/__/utils2.0/utils/Base/monitorData.s: __/__/__/utils2.0/utils/Base/monitor
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/monitorData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/monitorData.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/monitorData.cpp.s
 
 __/__/__/utils2.0/utils/Base/pid.o: __/__/__/utils2.0/utils/Base/pid.cpp.o
@@ -471,7 +471,7 @@ __/__/__/utils2.0/utils/Base/pid.o: __/__/__/utils2.0/utils/Base/pid.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/pid.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/pid.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/pid.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/pid.cpp.o
 
 __/__/__/utils2.0/utils/Base/pid.i: __/__/__/utils2.0/utils/Base/pid.cpp.i
@@ -479,7 +479,7 @@ __/__/__/utils2.0/utils/Base/pid.i: __/__/__/utils2.0/utils/Base/pid.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/pid.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/pid.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/pid.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/pid.cpp.i
 
 __/__/__/utils2.0/utils/Base/pid.s: __/__/__/utils2.0/utils/Base/pid.cpp.s
@@ -487,7 +487,7 @@ __/__/__/utils2.0/utils/Base/pid.s: __/__/__/utils2.0/utils/Base/pid.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/pid.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/pid.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/pid.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/pid.cpp.s
 
 __/__/__/utils2.0/utils/Base/profile.o: __/__/__/utils2.0/utils/Base/profile.cpp.o
@@ -495,7 +495,7 @@ __/__/__/utils2.0/utils/Base/profile.o: __/__/__/utils2.0/utils/Base/profile.cpp
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/profile.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/profile.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/profile.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/profile.cpp.o
 
 __/__/__/utils2.0/utils/Base/profile.i: __/__/__/utils2.0/utils/Base/profile.cpp.i
@@ -503,7 +503,7 @@ __/__/__/utils2.0/utils/Base/profile.i: __/__/__/utils2.0/utils/Base/profile.cpp
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/profile.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/profile.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/profile.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/profile.cpp.i
 
 __/__/__/utils2.0/utils/Base/profile.s: __/__/__/utils2.0/utils/Base/profile.cpp.s
@@ -511,7 +511,7 @@ __/__/__/utils2.0/utils/Base/profile.s: __/__/__/utils2.0/utils/Base/profile.cpp
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/profile.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/profile.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/profile.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/profile.cpp.s
 
 __/__/__/utils2.0/utils/Base/serializeStringVector.o: __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.o
@@ -519,7 +519,7 @@ __/__/__/utils2.0/utils/Base/serializeStringVector.o: __/__/__/utils2.0/utils/Ba
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/serializeStringVector.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/serializeStringVector.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.o
 
 __/__/__/utils2.0/utils/Base/serializeStringVector.i: __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.i
@@ -527,7 +527,7 @@ __/__/__/utils2.0/utils/Base/serializeStringVector.i: __/__/__/utils2.0/utils/Ba
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/serializeStringVector.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/serializeStringVector.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.i
 
 __/__/__/utils2.0/utils/Base/serializeStringVector.s: __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.s
@@ -535,7 +535,7 @@ __/__/__/utils2.0/utils/Base/serializeStringVector.s: __/__/__/utils2.0/utils/Ba
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/serializeStringVector.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/serializeStringVector.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/serializeStringVector.cpp.s
 
 __/__/__/utils2.0/utils/Base/stringutils.o: __/__/__/utils2.0/utils/Base/stringutils.cpp.o
@@ -543,7 +543,7 @@ __/__/__/utils2.0/utils/Base/stringutils.o: __/__/__/utils2.0/utils/Base/stringu
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/stringutils.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/stringutils.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/stringutils.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/stringutils.cpp.o
 
 __/__/__/utils2.0/utils/Base/stringutils.i: __/__/__/utils2.0/utils/Base/stringutils.cpp.i
@@ -551,7 +551,7 @@ __/__/__/utils2.0/utils/Base/stringutils.i: __/__/__/utils2.0/utils/Base/stringu
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/stringutils.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/stringutils.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/stringutils.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/stringutils.cpp.i
 
 __/__/__/utils2.0/utils/Base/stringutils.s: __/__/__/utils2.0/utils/Base/stringutils.cpp.s
@@ -559,7 +559,7 @@ __/__/__/utils2.0/utils/Base/stringutils.s: __/__/__/utils2.0/utils/Base/stringu
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/stringutils.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/stringutils.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/stringutils.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/stringutils.cpp.s
 
 __/__/__/utils2.0/utils/Base/systemLog.o: __/__/__/utils2.0/utils/Base/systemLog.cpp.o
@@ -567,7 +567,7 @@ __/__/__/utils2.0/utils/Base/systemLog.o: __/__/__/utils2.0/utils/Base/systemLog
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/systemLog.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/systemLog.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/systemLog.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/systemLog.cpp.o
 
 __/__/__/utils2.0/utils/Base/systemLog.i: __/__/__/utils2.0/utils/Base/systemLog.cpp.i
@@ -575,7 +575,7 @@ __/__/__/utils2.0/utils/Base/systemLog.i: __/__/__/utils2.0/utils/Base/systemLog
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/systemLog.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/systemLog.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/systemLog.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/systemLog.cpp.i
 
 __/__/__/utils2.0/utils/Base/systemLog.s: __/__/__/utils2.0/utils/Base/systemLog.cpp.s
@@ -583,7 +583,7 @@ __/__/__/utils2.0/utils/Base/systemLog.s: __/__/__/utils2.0/utils/Base/systemLog
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/systemLog.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/systemLog.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/systemLog.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/systemLog.cpp.s
 
 __/__/__/utils2.0/utils/Base/thread.o: __/__/__/utils2.0/utils/Base/thread.cpp.o
@@ -591,7 +591,7 @@ __/__/__/utils2.0/utils/Base/thread.o: __/__/__/utils2.0/utils/Base/thread.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/thread.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/thread.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/thread.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/thread.cpp.o
 
 __/__/__/utils2.0/utils/Base/thread.i: __/__/__/utils2.0/utils/Base/thread.cpp.i
@@ -599,7 +599,7 @@ __/__/__/utils2.0/utils/Base/thread.i: __/__/__/utils2.0/utils/Base/thread.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/thread.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/thread.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/thread.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/thread.cpp.i
 
 __/__/__/utils2.0/utils/Base/thread.s: __/__/__/utils2.0/utils/Base/thread.cpp.s
@@ -607,7 +607,7 @@ __/__/__/utils2.0/utils/Base/thread.s: __/__/__/utils2.0/utils/Base/thread.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/thread.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/thread.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/thread.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/thread.cpp.s
 
 __/__/__/utils2.0/utils/Base/trackMessageFailures.o: __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.o
@@ -615,7 +615,7 @@ __/__/__/utils2.0/utils/Base/trackMessageFailures.o: __/__/__/utils2.0/utils/Bas
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.o
 
 __/__/__/utils2.0/utils/Base/trackMessageFailures.i: __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.i
@@ -623,7 +623,7 @@ __/__/__/utils2.0/utils/Base/trackMessageFailures.i: __/__/__/utils2.0/utils/Bas
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.i
 
 __/__/__/utils2.0/utils/Base/trackMessageFailures.s: __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.s
@@ -631,7 +631,7 @@ __/__/__/utils2.0/utils/Base/trackMessageFailures.s: __/__/__/utils2.0/utils/Bas
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/trackMessageFailures.cpp.s
 
 __/__/__/utils2.0/utils/Base/utf8.o: __/__/__/utils2.0/utils/Base/utf8.cpp.o
@@ -639,7 +639,7 @@ __/__/__/utils2.0/utils/Base/utf8.o: __/__/__/utils2.0/utils/Base/utf8.cpp.o
 
 # target to build an object file
 __/__/__/utils2.0/utils/Base/utf8.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/utf8.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/utf8.cpp.o
 .PHONY : __/__/__/utils2.0/utils/Base/utf8.cpp.o
 
 __/__/__/utils2.0/utils/Base/utf8.i: __/__/__/utils2.0/utils/Base/utf8.cpp.i
@@ -647,7 +647,7 @@ __/__/__/utils2.0/utils/Base/utf8.i: __/__/__/utils2.0/utils/Base/utf8.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/Base/utf8.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/utf8.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/utf8.cpp.i
 .PHONY : __/__/__/utils2.0/utils/Base/utf8.cpp.i
 
 __/__/__/utils2.0/utils/Base/utf8.s: __/__/__/utils2.0/utils/Base/utf8.cpp.s
@@ -655,7 +655,7 @@ __/__/__/utils2.0/utils/Base/utf8.s: __/__/__/utils2.0/utils/Base/utf8.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/Base/utf8.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/utf8.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/utf8.cpp.s
 .PHONY : __/__/__/utils2.0/utils/Base/utf8.cpp.s
 
 __/__/__/utils2.0/utils/TcpLibrary/Clock.o: __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.o
@@ -663,7 +663,7 @@ __/__/__/utils2.0/utils/TcpLibrary/Clock.o: __/__/__/utils2.0/utils/TcpLibrary/C
 
 # target to build an object file
 __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.o
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.o
 
 __/__/__/utils2.0/utils/TcpLibrary/Clock.i: __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.i
@@ -671,7 +671,7 @@ __/__/__/utils2.0/utils/TcpLibrary/Clock.i: __/__/__/utils2.0/utils/TcpLibrary/C
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.i
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.i
 
 __/__/__/utils2.0/utils/TcpLibrary/Clock.s: __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.s
@@ -679,7 +679,7 @@ __/__/__/utils2.0/utils/TcpLibrary/Clock.s: __/__/__/utils2.0/utils/TcpLibrary/C
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.s
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/Clock.cpp.s
 
 __/__/__/utils2.0/utils/TcpLibrary/IPAddress.o: __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.o
@@ -687,7 +687,7 @@ __/__/__/utils2.0/utils/TcpLibrary/IPAddress.o: __/__/__/utils2.0/utils/TcpLibra
 
 # target to build an object file
 __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.o
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.o
 
 __/__/__/utils2.0/utils/TcpLibrary/IPAddress.i: __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.i
@@ -695,7 +695,7 @@ __/__/__/utils2.0/utils/TcpLibrary/IPAddress.i: __/__/__/utils2.0/utils/TcpLibra
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.i
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.i
 
 __/__/__/utils2.0/utils/TcpLibrary/IPAddress.s: __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.s
@@ -703,7 +703,7 @@ __/__/__/utils2.0/utils/TcpLibrary/IPAddress.s: __/__/__/utils2.0/utils/TcpLibra
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.s
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.s
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.o: __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.o
@@ -711,7 +711,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.o: __/__/__/utils2.0/utils/
 
 # target to build an object file
 __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.o
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.o
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.i: __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.i
@@ -719,7 +719,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.i: __/__/__/utils2.0/utils/
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.i
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.i
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.s: __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.s
@@ -727,7 +727,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.s: __/__/__/utils2.0/utils/
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.s
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpBlockAllocator.cpp.s
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.o: __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.o
@@ -735,7 +735,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.o: __/__/__/utils2.0/utils/TcpL
 
 # target to build an object file
 __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.o
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.o
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.i: __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.i
@@ -743,7 +743,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.i: __/__/__/utils2.0/utils/TcpL
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.i
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.i
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.s: __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.s
@@ -751,7 +751,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.s: __/__/__/utils2.0/utils/TcpL
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.s
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpConnection.cpp.s
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpManager.o: __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.o
@@ -759,7 +759,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpManager.o: __/__/__/utils2.0/utils/TcpLibr
 
 # target to build an object file
 __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.o
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.o
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpManager.i: __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.i
@@ -767,7 +767,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpManager.i: __/__/__/utils2.0/utils/TcpLibr
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.i
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.i
 
 __/__/__/utils2.0/utils/TcpLibrary/TcpManager.s: __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.s
@@ -775,7 +775,7 @@ __/__/__/utils2.0/utils/TcpLibrary/TcpManager.s: __/__/__/utils2.0/utils/TcpLibr
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.s
 .PHONY : __/__/__/utils2.0/utils/TcpLibrary/TcpManager.cpp.s
 
 __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.o: __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.o
@@ -783,7 +783,7 @@ __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.o: __/__/__/utils2.0/utils/UdpLibr
 
 # target to build an object file
 __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.o
 .PHONY : __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.o
 
 __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.i: __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.i
@@ -791,7 +791,7 @@ __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.i: __/__/__/utils2.0/utils/UdpLibr
 
 # target to preprocess a source file
 __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.i
 .PHONY : __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.i
 
 __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.s: __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.s
@@ -799,7 +799,7 @@ __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.s: __/__/__/utils2.0/utils/UdpLibr
 
 # target to generate assembly for a file
 __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.s
 .PHONY : __/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.s
 
 common.o: common.cpp.o
@@ -807,7 +807,7 @@ common.o: common.cpp.o
 
 # target to build an object file
 common.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/common.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/common.cpp.o
 .PHONY : common.cpp.o
 
 common.i: common.cpp.i
@@ -815,7 +815,7 @@ common.i: common.cpp.i
 
 # target to preprocess a source file
 common.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/common.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/common.cpp.i
 .PHONY : common.cpp.i
 
 common.s: common.cpp.s
@@ -823,7 +823,7 @@ common.s: common.cpp.s
 
 # target to generate assembly for a file
 common.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/common.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/common.cpp.s
 .PHONY : common.cpp.s
 
 messages.o: messages.cpp.o
@@ -831,7 +831,7 @@ messages.o: messages.cpp.o
 
 # target to build an object file
 messages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/messages.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/messages.cpp.o
 .PHONY : messages.cpp.o
 
 messages.i: messages.cpp.i
@@ -839,7 +839,7 @@ messages.i: messages.cpp.i
 
 # target to preprocess a source file
 messages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/messages.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/messages.cpp.i
 .PHONY : messages.cpp.i
 
 messages.s: messages.cpp.s
@@ -847,7 +847,7 @@ messages.s: messages.cpp.s
 
 # target to generate assembly for a file
 messages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/messages.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/build.make external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/messages.cpp.s
 .PHONY : messages.cpp.s
 
 # Help Target
@@ -960,6 +960,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/log.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/log.cpp \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/log.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/log.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/log.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -105,7 +105,7 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/c++/8/bits/stl_map.h /usr/include/c++/8/tuple \
  /usr/include/c++/8/array /usr/include/c++/8/bits/uses_allocator.h \
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/thread.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/thread.h \
  /usr/include/sys/errno.h /usr/include/syslog.h /usr/include/sys/syslog.h \
  /usr/include/bits/syslog-path.h /usr/include/sys/stat.h \
  /usr/include/bits/stat.h /usr/include/bits/statx.h \
@@ -118,7 +118,7 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/types.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/types.h \
  /usr/include/sys/bitypes.h /usr/include/assert.h /usr/include/resolv.h \
  /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \

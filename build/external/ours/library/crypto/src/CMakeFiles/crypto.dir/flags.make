@@ -4,7 +4,7 @@
 # compile CXX with /bin/c++
 CXX_DEFINES = -DLINUX -D_GNU_SOURCE -D_REENTRANT -D_USING_STL -D_XOPEN_SOURCE=500 -Dlinux
 
-CXX_INCLUDES = -I/usr/include/i386-linux-gnu -I/home/almalinux/swg-talon-online/src/external/ours/library/crypto/include -I/home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared
+CXX_INCLUDES = -I/usr/include/i386-linux-gnu -I/home/swg1/swg-main/src/external/ours/library/crypto/include -I/home/swg1/swg-main/src/external/ours/library/crypto/src/shared
 
 CXX_FLAGS = -m32 -pipe -march=native -mtune=native 		-Wformat -Wno-overloaded-virtual -Wno-missing-braces -Wno-format 		-Wno-write-strings -Wno-unknown-pragmas 		-Wno-uninitialized -Wno-reorder -Wno-tautological-constant-out-of-range-compare -Wno-stringop-overflow -Wno-address-of-packed-member -DDEBUG_LEVEL=0 -DPRODUCTION=1 -O2 -fno-signed-zeros -freciprocal-math -fno-unroll-loops -fno-tree-loop-optimize -fno-plt -std=c++17   -U_FORTIFY_SOURCE
 

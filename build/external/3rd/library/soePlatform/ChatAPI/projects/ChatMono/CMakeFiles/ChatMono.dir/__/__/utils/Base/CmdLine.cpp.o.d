@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/CmdLine.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/CmdLine.cpp \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/CmdLine.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/CmdLine.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/CmdLine.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \

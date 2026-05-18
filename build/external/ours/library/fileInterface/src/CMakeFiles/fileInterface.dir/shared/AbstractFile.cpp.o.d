@@ -1,10 +1,10 @@
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp \
+ /home/swg1/swg-main/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/fileInterface/FirstFileInterface.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/../../src/shared/FirstFileInterface.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/../../src/shared/AbstractFile.h \
+ /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/fileInterface/FirstFileInterface.h \
+ /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/../../src/shared/FirstFileInterface.h \
+ /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
+ /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/../../src/shared/AbstractFile.h \
  /usr/include/assert.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \

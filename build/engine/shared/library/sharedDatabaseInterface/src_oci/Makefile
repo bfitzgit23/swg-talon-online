@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDatabaseInterface/src_oci//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedDatabaseInterface/src_oci//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/rule
 .PHONY : engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedDatabaseInterface_oci: engine/shared/library/sharedDatabaseInterface/src_o
 
 # fast build rule for target.
 sharedDatabaseInterface_oci/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build
 .PHONY : sharedDatabaseInterface_oci/fast
 
 DbBindableVarray.o: DbBindableVarray.cpp.o
@@ -135,7 +135,7 @@ DbBindableVarray.o: DbBindableVarray.cpp.o
 
 # target to build an object file
 DbBindableVarray.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.o
 .PHONY : DbBindableVarray.cpp.o
 
 DbBindableVarray.i: DbBindableVarray.cpp.i
@@ -143,7 +143,7 @@ DbBindableVarray.i: DbBindableVarray.cpp.i
 
 # target to preprocess a source file
 DbBindableVarray.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.i
 .PHONY : DbBindableVarray.cpp.i
 
 DbBindableVarray.s: DbBindableVarray.cpp.s
@@ -151,7 +151,7 @@ DbBindableVarray.s: DbBindableVarray.cpp.s
 
 # target to generate assembly for a file
 DbBindableVarray.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/DbBindableVarray.cpp.s
 .PHONY : DbBindableVarray.cpp.s
 
 OciQueryImplementation.o: OciQueryImplementation.cpp.o
@@ -159,7 +159,7 @@ OciQueryImplementation.o: OciQueryImplementation.cpp.o
 
 # target to build an object file
 OciQueryImplementation.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o
 .PHONY : OciQueryImplementation.cpp.o
 
 OciQueryImplementation.i: OciQueryImplementation.cpp.i
@@ -167,7 +167,7 @@ OciQueryImplementation.i: OciQueryImplementation.cpp.i
 
 # target to preprocess a source file
 OciQueryImplementation.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.i
 .PHONY : OciQueryImplementation.cpp.i
 
 OciQueryImplementation.s: OciQueryImplementation.cpp.s
@@ -175,7 +175,7 @@ OciQueryImplementation.s: OciQueryImplementation.cpp.s
 
 # target to generate assembly for a file
 OciQueryImplementation.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.s
 .PHONY : OciQueryImplementation.cpp.s
 
 OciServer.o: OciServer.cpp.o
@@ -183,7 +183,7 @@ OciServer.o: OciServer.cpp.o
 
 # target to build an object file
 OciServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.o
 .PHONY : OciServer.cpp.o
 
 OciServer.i: OciServer.cpp.i
@@ -191,7 +191,7 @@ OciServer.i: OciServer.cpp.i
 
 # target to preprocess a source file
 OciServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.i
 .PHONY : OciServer.cpp.i
 
 OciServer.s: OciServer.cpp.s
@@ -199,7 +199,7 @@ OciServer.s: OciServer.cpp.s
 
 # target to generate assembly for a file
 OciServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciServer.cpp.s
 .PHONY : OciServer.cpp.s
 
 OciSession.o: OciSession.cpp.o
@@ -207,7 +207,7 @@ OciSession.o: OciSession.cpp.o
 
 # target to build an object file
 OciSession.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.o
 .PHONY : OciSession.cpp.o
 
 OciSession.i: OciSession.cpp.i
@@ -215,7 +215,7 @@ OciSession.i: OciSession.cpp.i
 
 # target to preprocess a source file
 OciSession.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.i
 .PHONY : OciSession.cpp.i
 
 OciSession.s: OciSession.cpp.s
@@ -223,7 +223,7 @@ OciSession.s: OciSession.cpp.s
 
 # target to generate assembly for a file
 OciSession.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/build.make engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciSession.cpp.s
 .PHONY : OciSession.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

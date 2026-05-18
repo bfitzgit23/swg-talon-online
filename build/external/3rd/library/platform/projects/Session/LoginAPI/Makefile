@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/Session/LoginAPI//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/external/3rd/library/platform/projects/Session/LoginAPI//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/rule
 .PHONY : external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ LoginAPI: external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/Log
 
 # fast build rule for target.
 LoginAPI/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build
 .PHONY : LoginAPI/fast
 
 Client.o: Client.cpp.o
@@ -135,7 +135,7 @@ Client.o: Client.cpp.o
 
 # target to build an object file
 Client.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Client.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Client.cpp.o
 .PHONY : Client.cpp.o
 
 Client.i: Client.cpp.i
@@ -143,7 +143,7 @@ Client.i: Client.cpp.i
 
 # target to preprocess a source file
 Client.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Client.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Client.cpp.i
 .PHONY : Client.cpp.i
 
 Client.s: Client.cpp.s
@@ -151,7 +151,7 @@ Client.s: Client.cpp.s
 
 # target to generate assembly for a file
 Client.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Client.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Client.cpp.s
 .PHONY : Client.cpp.s
 
 ClientCore.o: ClientCore.cpp.o
@@ -159,7 +159,7 @@ ClientCore.o: ClientCore.cpp.o
 
 # target to build an object file
 ClientCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/ClientCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/ClientCore.cpp.o
 .PHONY : ClientCore.cpp.o
 
 ClientCore.i: ClientCore.cpp.i
@@ -167,7 +167,7 @@ ClientCore.i: ClientCore.cpp.i
 
 # target to preprocess a source file
 ClientCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/ClientCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/ClientCore.cpp.i
 .PHONY : ClientCore.cpp.i
 
 ClientCore.s: ClientCore.cpp.s
@@ -175,7 +175,7 @@ ClientCore.s: ClientCore.cpp.s
 
 # target to generate assembly for a file
 ClientCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/ClientCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/ClientCore.cpp.s
 .PHONY : ClientCore.cpp.s
 
 Messages.o: Messages.cpp.o
@@ -183,7 +183,7 @@ Messages.o: Messages.cpp.o
 
 # target to build an object file
 Messages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Messages.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Messages.cpp.o
 .PHONY : Messages.cpp.o
 
 Messages.i: Messages.cpp.i
@@ -191,7 +191,7 @@ Messages.i: Messages.cpp.i
 
 # target to preprocess a source file
 Messages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Messages.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Messages.cpp.i
 .PHONY : Messages.cpp.i
 
 Messages.s: Messages.cpp.s
@@ -199,7 +199,7 @@ Messages.s: Messages.cpp.s
 
 # target to generate assembly for a file
 Messages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Messages.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/build.make external/3rd/library/platform/projects/Session/LoginAPI/CMakeFiles/LoginAPI.dir/Messages.cpp.s
 .PHONY : Messages.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/depend.make
@@ -70,74 +70,74 @@ include engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression
 include engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/flags.make
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/flags.make
-engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/BitStream.cpp
+engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/BitStream.cpp
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/BitStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/BitStream.cpp
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/BitStream.cpp > CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/BitStream.cpp > CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.i
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/BitStream.cpp -o CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/BitStream.cpp -o CMakeFiles/sharedCompression.dir/shared/BitStream.cpp.s
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/flags.make
-engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/Compressor.cpp
+engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/Compressor.cpp
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/Compressor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/Compressor.cpp
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/Compressor.cpp > CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/Compressor.cpp > CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.i
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/Compressor.cpp -o CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/Compressor.cpp -o CMakeFiles/sharedCompression.dir/shared/Compressor.cpp.s
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/flags.make
-engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/Lz77.cpp
+engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/Lz77.cpp
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/Lz77.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/Lz77.cpp
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/Lz77.cpp > CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/Lz77.cpp > CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.i
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/Lz77.cpp -o CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/Lz77.cpp -o CMakeFiles/sharedCompression.dir/shared/Lz77.cpp.s
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/flags.make
-engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.cpp
+engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.cpp
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.cpp
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.cpp > CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.cpp > CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.i
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.cpp -o CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.cpp -o CMakeFiles/sharedCompression.dir/shared/SetupSharedCompression.cpp.s
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/flags.make
-engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/ZlibCompressor.cpp
+engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/ZlibCompressor.cpp
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/ZlibCompressor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o -MF CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o.d -o CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/ZlibCompressor.cpp
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/ZlibCompressor.cpp > CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/ZlibCompressor.cpp > CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.i
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/ZlibCompressor.cpp -o CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/ZlibCompressor.cpp -o CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.s
 
 # Object files for target sharedCompression
 sharedCompression_OBJECTS = \
@@ -157,19 +157,19 @@ engine/shared/library/sharedCompression/src/libsharedCompression.a: engine/share
 engine/shared/library/sharedCompression/src/libsharedCompression.a: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/shared/ZlibCompressor.cpp.o
 engine/shared/library/sharedCompression/src/libsharedCompression.a: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/build.make
 engine/shared/library/sharedCompression/src/libsharedCompression.a: engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsharedCompression.a"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedCompression.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedCompression.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsharedCompression.a"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedCompression.dir/cmake_clean_target.cmake
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedCompression.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/build: engine/shared/library/sharedCompression/src/libsharedCompression.a
 .PHONY : engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/build
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedCompression.dir/cmake_clean.cmake
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedCompression.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/clean
 
 engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src /home/almalinux/swg-talon-online/build/engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src /home/swg1/swg-main/build /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src /home/swg1/swg-main/build/engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedCompression/src/CMakeFiles/sharedCompression.dir/depend
 

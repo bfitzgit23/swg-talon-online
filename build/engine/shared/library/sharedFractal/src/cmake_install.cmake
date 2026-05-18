@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src
+# Install script for directory: /home/swg1/swg-main/src/engine/shared/library/sharedFractal/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

@@ -966,9 +966,86 @@ public class cmd extends script.base_script
         if (params == null || params.equalsIgnoreCase(""))
         {
             sendSystemMessageTestingOnly(self, "[Syntax] /setName [-target] <name>");
+            sendSystemMessageTestingOnly(self, "[Syntax] /setName --chatcolor <#RRGGBB> <display name>  (set colored chat name)");
+            sendSystemMessageTestingOnly(self, "[Syntax] /setName --chatcolor clear  (remove colored chat name)");
+            sendSystemMessageTestingOnly(self, "[Syntax] /setName --viptitle <title>  (set VIP title shown in chat)");
+            sendSystemMessageTestingOnly(self, "[Syntax] /setName --viptitle clear  (remove VIP title)");
+            sendSystemMessageTestingOnly(self, "[Syntax] /setName --rainbow  (set rainbow colored chat name using player's real name)");
+            return SCRIPT_CONTINUE;
+        }
+        if (params.startsWith("--chatcolor "))
+        {
+            String colorParams = params.substring("--chatcolor ".length()).trim();
+            if (!isIdValid(target) || !isPlayer(target))
+            {
+                sendSystemMessageTestingOnly(self, "[setName --chatcolor] Target must be a player.");
+                return SCRIPT_CONTINUE;
+            }
+            if (colorParams.equalsIgnoreCase("clear"))
+            {
+                removeObjVar(target, "special.chatDisplayName");
+                sendSystemMessageTestingOnly(self, "[setName] Cleared custom chat name for " + getName(target) + ".");
+            }
+            else
+            {
+                String displayName = colorParams.startsWith("#") ? "\\" + colorParams : colorParams;
+                setObjVar(target, "special.chatDisplayName", displayName);
+                sendSystemMessageTestingOnly(self, "[setName] Chat name for " + getName(target) + " set to: " + displayName);
+            }
+            return SCRIPT_CONTINUE;
+        }
+        if (params.equalsIgnoreCase("--rainbow") || params.startsWith("--rainbow "))
+        {
+            if (!isIdValid(target) || !isPlayer(target))
+            {
+                sendSystemMessageTestingOnly(self, "[setName --rainbow] Target must be a player.");
+                return SCRIPT_CONTINUE;
+            }
+            String baseName = getName(target);
+            String[] rainbowColors = {"#FF0000", "#FF7700", "#FFFF00", "#00FF00", "#00AAFF", "#AA00FF"};
+            StringBuilder rainbow = new StringBuilder();
+            int colorIdx = 0;
+            for (int i = 0; i < baseName.length(); i++)
+            {
+                char c = baseName.charAt(i);
+                if (c == ' ')
+                {
+                    rainbow.append(' ');
+                }
+                else
+                {
+                    rainbow.append("\\").append(rainbowColors[colorIdx % rainbowColors.length]);
+                    rainbow.append(c);
+                    colorIdx++;
+                }
+            }
+            rainbow.append("\\#FFFFFF");
+            setObjVar(target, "special.chatDisplayName", rainbow.toString());
+            sendSystemMessageTestingOnly(self, "[setName] Rainbow chat name set for " + baseName + ".");
+            return SCRIPT_CONTINUE;
+        }
+        if (params.startsWith("--viptitle "))
+        {
+            String titleParam = params.substring("--viptitle ".length()).trim();
+            if (!isIdValid(target) || !isPlayer(target))
+            {
+                sendSystemMessageTestingOnly(self, "[setName --viptitle] Target must be a player.");
+                return SCRIPT_CONTINUE;
+            }
+            if (titleParam.equalsIgnoreCase("clear"))
+            {
+                removeObjVar(target, "special.vipTitle");
+                sendSystemMessageTestingOnly(self, "[setName] Cleared VIP title for " + getName(target) + ".");
+            }
+            else
+            {
+                setObjVar(target, "special.vipTitle", titleParam);
+                sendSystemMessageTestingOnly(self, "[setName] VIP title for " + getName(target) + " set to: " + titleParam);
+            }
             return SCRIPT_CONTINUE;
         }
         setName(target, params);
+        sendSystemMessageTestingOnly(self, "[setName] Name for (" + target + ") " + getName(target) + " set to: " + params);
         return SCRIPT_CONTINUE;
     }
     public int cmdSetFirstName(obj_id self, obj_id target, String params, float defaultTime) throws InterruptedException
@@ -1609,7 +1686,7 @@ public class cmd extends script.base_script
         dictionary d = new dictionary();
         if (params == null || params.equalsIgnoreCase(""))
         {
-            sendSystemMessageTestingOnly(self, "[Syntax] /goto <target>");
+            sendSystemMessageTestingOnly(self, "[Syntax] /goto <objectId>");
         }
         else
         {
@@ -1624,21 +1701,13 @@ public class cmd extends script.base_script
                 }
                 catch(NumberFormatException err)
                 {
-                    debugServerConsoleMsg(self, "Long Conversion Failed, Continuing to next onArrivedAtLocation");
+                    sendSystemMessageTestingOnly(self, "[goto] Invalid object id: " + oid);
                     return SCRIPT_CONTINUE;
                 }
                 obj_id obj = obj_id.getObjId(id.longValue());
+                gm.attachHandlerScript(self);
                 locateObject(obj, "onObjectLocateResponseForCmdGoto", d);
             }
-        }
-        return SCRIPT_CONTINUE;
-    }
-    public int onObjectLocateResponseForCmdGoto(obj_id self, dictionary params) throws InterruptedException
-    {
-        location l = params.getLocation("location");
-        if (l != null)
-        {
-            setLocation(self, l);
         }
         return SCRIPT_CONTINUE;
     }
@@ -4508,6 +4577,40 @@ public class cmd extends script.base_script
             CustomerServiceLog("generateCraftedItem", "Object obj_id " + item + " was created of type " + schematic + ". It was created in the inventory of object " + creationTarget + " which is named " + getName(creationTarget) + ".");
             debugServerConsoleMsg(self, "Object obj_id " + item + " was created of type " + schematic + ". It was created in the inventory of object " + creationTarget + " which is named " + getName(creationTarget) + ".");
         }
+        return SCRIPT_CONTINUE;
+    }
+
+    // /setChatDisplayName <colorCode> <name>
+    // e.g. /setChatDisplayName #FFD700 Jess Tortie
+    // Use "clear" to remove: /setChatDisplayName clear
+    // Target the player first.
+    public int cmdSetChatDisplayName(obj_id self, obj_id target, String params, float defaultTime) throws InterruptedException
+    {
+        if (!isIdValid(target) || !isPlayer(target))
+        {
+            sendSystemMessageTestingOnly(self, "[setChatDisplayName] Target must be a player.");
+            return SCRIPT_CONTINUE;
+        }
+        if (params == null || params.equalsIgnoreCase(""))
+        {
+            sendSystemMessageTestingOnly(self, "[Syntax] /setChatDisplayName <#RRGGBB> <display name>  OR  /setChatDisplayName clear");
+            return SCRIPT_CONTINUE;
+        }
+        if (params.equalsIgnoreCase("clear"))
+        {
+            removeObjVar(target, "special.chatDisplayName");
+            sendSystemMessageTestingOnly(self, "[setChatDisplayName] Cleared custom chat name for " + getName(target) + ".");
+            return SCRIPT_CONTINUE;
+        }
+        // params format: "#FFD700 Jess Tortie"  or  "#FF0000#00FF00J#0000FFe..." for multi-colour
+        // Strip leading '#' if present so the user can type either form
+        String displayName;
+        if (params.startsWith("#"))
+            displayName = "\\" + params;
+        else
+            displayName = params;
+        setObjVar(target, "special.chatDisplayName", displayName);
+        sendSystemMessageTestingOnly(self, "[setChatDisplayName] Set chat name for " + getName(target) + " to: " + displayName);
         return SCRIPT_CONTINUE;
     }
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedGame/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedGame/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/rule
 .PHONY : engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedGame: engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/rule
 
 # fast build rule for target.
 sharedGame/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build
 .PHONY : sharedGame/fast
 
 shared/appearance/WearableAppearanceMap.o: shared/appearance/WearableAppearanceMap.cpp.o
@@ -135,7 +135,7 @@ shared/appearance/WearableAppearanceMap.o: shared/appearance/WearableAppearanceM
 
 # target to build an object file
 shared/appearance/WearableAppearanceMap.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/appearance/WearableAppearanceMap.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/appearance/WearableAppearanceMap.cpp.o
 .PHONY : shared/appearance/WearableAppearanceMap.cpp.o
 
 shared/appearance/WearableAppearanceMap.i: shared/appearance/WearableAppearanceMap.cpp.i
@@ -143,7 +143,7 @@ shared/appearance/WearableAppearanceMap.i: shared/appearance/WearableAppearanceM
 
 # target to preprocess a source file
 shared/appearance/WearableAppearanceMap.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/appearance/WearableAppearanceMap.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/appearance/WearableAppearanceMap.cpp.i
 .PHONY : shared/appearance/WearableAppearanceMap.cpp.i
 
 shared/appearance/WearableAppearanceMap.s: shared/appearance/WearableAppearanceMap.cpp.s
@@ -151,7 +151,7 @@ shared/appearance/WearableAppearanceMap.s: shared/appearance/WearableAppearanceM
 
 # target to generate assembly for a file
 shared/appearance/WearableAppearanceMap.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/appearance/WearableAppearanceMap.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/appearance/WearableAppearanceMap.cpp.s
 .PHONY : shared/appearance/WearableAppearanceMap.cpp.s
 
 shared/collision/CollisionCallbackManager.o: shared/collision/CollisionCallbackManager.cpp.o
@@ -159,7 +159,7 @@ shared/collision/CollisionCallbackManager.o: shared/collision/CollisionCallbackM
 
 # target to build an object file
 shared/collision/CollisionCallbackManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/collision/CollisionCallbackManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/collision/CollisionCallbackManager.cpp.o
 .PHONY : shared/collision/CollisionCallbackManager.cpp.o
 
 shared/collision/CollisionCallbackManager.i: shared/collision/CollisionCallbackManager.cpp.i
@@ -167,7 +167,7 @@ shared/collision/CollisionCallbackManager.i: shared/collision/CollisionCallbackM
 
 # target to preprocess a source file
 shared/collision/CollisionCallbackManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/collision/CollisionCallbackManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/collision/CollisionCallbackManager.cpp.i
 .PHONY : shared/collision/CollisionCallbackManager.cpp.i
 
 shared/collision/CollisionCallbackManager.s: shared/collision/CollisionCallbackManager.cpp.s
@@ -175,7 +175,7 @@ shared/collision/CollisionCallbackManager.s: shared/collision/CollisionCallbackM
 
 # target to generate assembly for a file
 shared/collision/CollisionCallbackManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/collision/CollisionCallbackManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/collision/CollisionCallbackManager.cpp.s
 .PHONY : shared/collision/CollisionCallbackManager.cpp.s
 
 shared/combat/CombatDataTable.o: shared/combat/CombatDataTable.cpp.o
@@ -183,7 +183,7 @@ shared/combat/CombatDataTable.o: shared/combat/CombatDataTable.cpp.o
 
 # target to build an object file
 shared/combat/CombatDataTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatDataTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatDataTable.cpp.o
 .PHONY : shared/combat/CombatDataTable.cpp.o
 
 shared/combat/CombatDataTable.i: shared/combat/CombatDataTable.cpp.i
@@ -191,7 +191,7 @@ shared/combat/CombatDataTable.i: shared/combat/CombatDataTable.cpp.i
 
 # target to preprocess a source file
 shared/combat/CombatDataTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatDataTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatDataTable.cpp.i
 .PHONY : shared/combat/CombatDataTable.cpp.i
 
 shared/combat/CombatDataTable.s: shared/combat/CombatDataTable.cpp.s
@@ -199,7 +199,7 @@ shared/combat/CombatDataTable.s: shared/combat/CombatDataTable.cpp.s
 
 # target to generate assembly for a file
 shared/combat/CombatDataTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatDataTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatDataTable.cpp.s
 .PHONY : shared/combat/CombatDataTable.cpp.s
 
 shared/combat/CombatTimingTable.o: shared/combat/CombatTimingTable.cpp.o
@@ -207,7 +207,7 @@ shared/combat/CombatTimingTable.o: shared/combat/CombatTimingTable.cpp.o
 
 # target to build an object file
 shared/combat/CombatTimingTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatTimingTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatTimingTable.cpp.o
 .PHONY : shared/combat/CombatTimingTable.cpp.o
 
 shared/combat/CombatTimingTable.i: shared/combat/CombatTimingTable.cpp.i
@@ -215,7 +215,7 @@ shared/combat/CombatTimingTable.i: shared/combat/CombatTimingTable.cpp.i
 
 # target to preprocess a source file
 shared/combat/CombatTimingTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatTimingTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatTimingTable.cpp.i
 .PHONY : shared/combat/CombatTimingTable.cpp.i
 
 shared/combat/CombatTimingTable.s: shared/combat/CombatTimingTable.cpp.s
@@ -223,7 +223,7 @@ shared/combat/CombatTimingTable.s: shared/combat/CombatTimingTable.cpp.s
 
 # target to generate assembly for a file
 shared/combat/CombatTimingTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatTimingTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/combat/CombatTimingTable.cpp.s
 .PHONY : shared/combat/CombatTimingTable.cpp.s
 
 shared/command/Command.o: shared/command/Command.cpp.o
@@ -231,7 +231,7 @@ shared/command/Command.o: shared/command/Command.cpp.o
 
 # target to build an object file
 shared/command/Command.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/Command.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/Command.cpp.o
 .PHONY : shared/command/Command.cpp.o
 
 shared/command/Command.i: shared/command/Command.cpp.i
@@ -239,7 +239,7 @@ shared/command/Command.i: shared/command/Command.cpp.i
 
 # target to preprocess a source file
 shared/command/Command.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/Command.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/Command.cpp.i
 .PHONY : shared/command/Command.cpp.i
 
 shared/command/Command.s: shared/command/Command.cpp.s
@@ -247,7 +247,7 @@ shared/command/Command.s: shared/command/Command.cpp.s
 
 # target to generate assembly for a file
 shared/command/Command.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/Command.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/Command.cpp.s
 .PHONY : shared/command/Command.cpp.s
 
 shared/command/CommandChecks.o: shared/command/CommandChecks.cpp.o
@@ -255,7 +255,7 @@ shared/command/CommandChecks.o: shared/command/CommandChecks.cpp.o
 
 # target to build an object file
 shared/command/CommandChecks.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandChecks.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandChecks.cpp.o
 .PHONY : shared/command/CommandChecks.cpp.o
 
 shared/command/CommandChecks.i: shared/command/CommandChecks.cpp.i
@@ -263,7 +263,7 @@ shared/command/CommandChecks.i: shared/command/CommandChecks.cpp.i
 
 # target to preprocess a source file
 shared/command/CommandChecks.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandChecks.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandChecks.cpp.i
 .PHONY : shared/command/CommandChecks.cpp.i
 
 shared/command/CommandChecks.s: shared/command/CommandChecks.cpp.s
@@ -271,7 +271,7 @@ shared/command/CommandChecks.s: shared/command/CommandChecks.cpp.s
 
 # target to generate assembly for a file
 shared/command/CommandChecks.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandChecks.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandChecks.cpp.s
 .PHONY : shared/command/CommandChecks.cpp.s
 
 shared/command/CommandTable.o: shared/command/CommandTable.cpp.o
@@ -279,7 +279,7 @@ shared/command/CommandTable.o: shared/command/CommandTable.cpp.o
 
 # target to build an object file
 shared/command/CommandTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandTable.cpp.o
 .PHONY : shared/command/CommandTable.cpp.o
 
 shared/command/CommandTable.i: shared/command/CommandTable.cpp.i
@@ -287,7 +287,7 @@ shared/command/CommandTable.i: shared/command/CommandTable.cpp.i
 
 # target to preprocess a source file
 shared/command/CommandTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandTable.cpp.i
 .PHONY : shared/command/CommandTable.cpp.i
 
 shared/command/CommandTable.s: shared/command/CommandTable.cpp.s
@@ -295,7 +295,7 @@ shared/command/CommandTable.s: shared/command/CommandTable.cpp.s
 
 # target to generate assembly for a file
 shared/command/CommandTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/command/CommandTable.cpp.s
 .PHONY : shared/command/CommandTable.cpp.s
 
 shared/core/AiDebugString.o: shared/core/AiDebugString.cpp.o
@@ -303,7 +303,7 @@ shared/core/AiDebugString.o: shared/core/AiDebugString.cpp.o
 
 # target to build an object file
 shared/core/AiDebugString.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AiDebugString.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AiDebugString.cpp.o
 .PHONY : shared/core/AiDebugString.cpp.o
 
 shared/core/AiDebugString.i: shared/core/AiDebugString.cpp.i
@@ -311,7 +311,7 @@ shared/core/AiDebugString.i: shared/core/AiDebugString.cpp.i
 
 # target to preprocess a source file
 shared/core/AiDebugString.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AiDebugString.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AiDebugString.cpp.i
 .PHONY : shared/core/AiDebugString.cpp.i
 
 shared/core/AiDebugString.s: shared/core/AiDebugString.cpp.s
@@ -319,7 +319,7 @@ shared/core/AiDebugString.s: shared/core/AiDebugString.cpp.s
 
 # target to generate assembly for a file
 shared/core/AiDebugString.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AiDebugString.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AiDebugString.cpp.s
 .PHONY : shared/core/AiDebugString.cpp.s
 
 shared/core/AssetCustomizationManager.o: shared/core/AssetCustomizationManager.cpp.o
@@ -327,7 +327,7 @@ shared/core/AssetCustomizationManager.o: shared/core/AssetCustomizationManager.c
 
 # target to build an object file
 shared/core/AssetCustomizationManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AssetCustomizationManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AssetCustomizationManager.cpp.o
 .PHONY : shared/core/AssetCustomizationManager.cpp.o
 
 shared/core/AssetCustomizationManager.i: shared/core/AssetCustomizationManager.cpp.i
@@ -335,7 +335,7 @@ shared/core/AssetCustomizationManager.i: shared/core/AssetCustomizationManager.c
 
 # target to preprocess a source file
 shared/core/AssetCustomizationManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AssetCustomizationManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AssetCustomizationManager.cpp.i
 .PHONY : shared/core/AssetCustomizationManager.cpp.i
 
 shared/core/AssetCustomizationManager.s: shared/core/AssetCustomizationManager.cpp.s
@@ -343,7 +343,7 @@ shared/core/AssetCustomizationManager.s: shared/core/AssetCustomizationManager.c
 
 # target to generate assembly for a file
 shared/core/AssetCustomizationManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AssetCustomizationManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AssetCustomizationManager.cpp.s
 .PHONY : shared/core/AssetCustomizationManager.cpp.s
 
 shared/core/AuctionManager.o: shared/core/AuctionManager.cpp.o
@@ -351,7 +351,7 @@ shared/core/AuctionManager.o: shared/core/AuctionManager.cpp.o
 
 # target to build an object file
 shared/core/AuctionManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionManager.cpp.o
 .PHONY : shared/core/AuctionManager.cpp.o
 
 shared/core/AuctionManager.i: shared/core/AuctionManager.cpp.i
@@ -359,7 +359,7 @@ shared/core/AuctionManager.i: shared/core/AuctionManager.cpp.i
 
 # target to preprocess a source file
 shared/core/AuctionManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionManager.cpp.i
 .PHONY : shared/core/AuctionManager.cpp.i
 
 shared/core/AuctionManager.s: shared/core/AuctionManager.cpp.s
@@ -367,7 +367,7 @@ shared/core/AuctionManager.s: shared/core/AuctionManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/AuctionManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionManager.cpp.s
 .PHONY : shared/core/AuctionManager.cpp.s
 
 shared/core/AuctionToken.o: shared/core/AuctionToken.cpp.o
@@ -375,7 +375,7 @@ shared/core/AuctionToken.o: shared/core/AuctionToken.cpp.o
 
 # target to build an object file
 shared/core/AuctionToken.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionToken.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionToken.cpp.o
 .PHONY : shared/core/AuctionToken.cpp.o
 
 shared/core/AuctionToken.i: shared/core/AuctionToken.cpp.i
@@ -383,7 +383,7 @@ shared/core/AuctionToken.i: shared/core/AuctionToken.cpp.i
 
 # target to preprocess a source file
 shared/core/AuctionToken.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionToken.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionToken.cpp.i
 .PHONY : shared/core/AuctionToken.cpp.i
 
 shared/core/AuctionToken.s: shared/core/AuctionToken.cpp.s
@@ -391,7 +391,7 @@ shared/core/AuctionToken.s: shared/core/AuctionToken.cpp.s
 
 # target to generate assembly for a file
 shared/core/AuctionToken.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionToken.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionToken.cpp.s
 .PHONY : shared/core/AuctionToken.cpp.s
 
 shared/core/AuctionTokenArchive.o: shared/core/AuctionTokenArchive.cpp.o
@@ -399,7 +399,7 @@ shared/core/AuctionTokenArchive.o: shared/core/AuctionTokenArchive.cpp.o
 
 # target to build an object file
 shared/core/AuctionTokenArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionTokenArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionTokenArchive.cpp.o
 .PHONY : shared/core/AuctionTokenArchive.cpp.o
 
 shared/core/AuctionTokenArchive.i: shared/core/AuctionTokenArchive.cpp.i
@@ -407,7 +407,7 @@ shared/core/AuctionTokenArchive.i: shared/core/AuctionTokenArchive.cpp.i
 
 # target to preprocess a source file
 shared/core/AuctionTokenArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionTokenArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionTokenArchive.cpp.i
 .PHONY : shared/core/AuctionTokenArchive.cpp.i
 
 shared/core/AuctionTokenArchive.s: shared/core/AuctionTokenArchive.cpp.s
@@ -415,7 +415,7 @@ shared/core/AuctionTokenArchive.s: shared/core/AuctionTokenArchive.cpp.s
 
 # target to generate assembly for a file
 shared/core/AuctionTokenArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionTokenArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/AuctionTokenArchive.cpp.s
 .PHONY : shared/core/AuctionTokenArchive.cpp.s
 
 shared/core/CitizenRankDataTable.o: shared/core/CitizenRankDataTable.cpp.o
@@ -423,7 +423,7 @@ shared/core/CitizenRankDataTable.o: shared/core/CitizenRankDataTable.cpp.o
 
 # target to build an object file
 shared/core/CitizenRankDataTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CitizenRankDataTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CitizenRankDataTable.cpp.o
 .PHONY : shared/core/CitizenRankDataTable.cpp.o
 
 shared/core/CitizenRankDataTable.i: shared/core/CitizenRankDataTable.cpp.i
@@ -431,7 +431,7 @@ shared/core/CitizenRankDataTable.i: shared/core/CitizenRankDataTable.cpp.i
 
 # target to preprocess a source file
 shared/core/CitizenRankDataTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CitizenRankDataTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CitizenRankDataTable.cpp.i
 .PHONY : shared/core/CitizenRankDataTable.cpp.i
 
 shared/core/CitizenRankDataTable.s: shared/core/CitizenRankDataTable.cpp.s
@@ -439,7 +439,7 @@ shared/core/CitizenRankDataTable.s: shared/core/CitizenRankDataTable.cpp.s
 
 # target to generate assembly for a file
 shared/core/CitizenRankDataTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CitizenRankDataTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CitizenRankDataTable.cpp.s
 .PHONY : shared/core/CitizenRankDataTable.cpp.s
 
 shared/core/ClientCombatManagerSupport.o: shared/core/ClientCombatManagerSupport.cpp.o
@@ -447,7 +447,7 @@ shared/core/ClientCombatManagerSupport.o: shared/core/ClientCombatManagerSupport
 
 # target to build an object file
 shared/core/ClientCombatManagerSupport.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ClientCombatManagerSupport.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ClientCombatManagerSupport.cpp.o
 .PHONY : shared/core/ClientCombatManagerSupport.cpp.o
 
 shared/core/ClientCombatManagerSupport.i: shared/core/ClientCombatManagerSupport.cpp.i
@@ -455,7 +455,7 @@ shared/core/ClientCombatManagerSupport.i: shared/core/ClientCombatManagerSupport
 
 # target to preprocess a source file
 shared/core/ClientCombatManagerSupport.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ClientCombatManagerSupport.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ClientCombatManagerSupport.cpp.i
 .PHONY : shared/core/ClientCombatManagerSupport.cpp.i
 
 shared/core/ClientCombatManagerSupport.s: shared/core/ClientCombatManagerSupport.cpp.s
@@ -463,7 +463,7 @@ shared/core/ClientCombatManagerSupport.s: shared/core/ClientCombatManagerSupport
 
 # target to generate assembly for a file
 shared/core/ClientCombatManagerSupport.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ClientCombatManagerSupport.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ClientCombatManagerSupport.cpp.s
 .PHONY : shared/core/ClientCombatManagerSupport.cpp.s
 
 shared/core/CollectionsDataTable.o: shared/core/CollectionsDataTable.cpp.o
@@ -471,7 +471,7 @@ shared/core/CollectionsDataTable.o: shared/core/CollectionsDataTable.cpp.o
 
 # target to build an object file
 shared/core/CollectionsDataTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CollectionsDataTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CollectionsDataTable.cpp.o
 .PHONY : shared/core/CollectionsDataTable.cpp.o
 
 shared/core/CollectionsDataTable.i: shared/core/CollectionsDataTable.cpp.i
@@ -479,7 +479,7 @@ shared/core/CollectionsDataTable.i: shared/core/CollectionsDataTable.cpp.i
 
 # target to preprocess a source file
 shared/core/CollectionsDataTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CollectionsDataTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CollectionsDataTable.cpp.i
 .PHONY : shared/core/CollectionsDataTable.cpp.i
 
 shared/core/CollectionsDataTable.s: shared/core/CollectionsDataTable.cpp.s
@@ -487,7 +487,7 @@ shared/core/CollectionsDataTable.s: shared/core/CollectionsDataTable.cpp.s
 
 # target to generate assembly for a file
 shared/core/CollectionsDataTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CollectionsDataTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CollectionsDataTable.cpp.s
 .PHONY : shared/core/CollectionsDataTable.cpp.s
 
 shared/core/CommoditiesAdvancedSearchAttribute.o: shared/core/CommoditiesAdvancedSearchAttribute.cpp.o
@@ -495,7 +495,7 @@ shared/core/CommoditiesAdvancedSearchAttribute.o: shared/core/CommoditiesAdvance
 
 # target to build an object file
 shared/core/CommoditiesAdvancedSearchAttribute.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CommoditiesAdvancedSearchAttribute.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CommoditiesAdvancedSearchAttribute.cpp.o
 .PHONY : shared/core/CommoditiesAdvancedSearchAttribute.cpp.o
 
 shared/core/CommoditiesAdvancedSearchAttribute.i: shared/core/CommoditiesAdvancedSearchAttribute.cpp.i
@@ -503,7 +503,7 @@ shared/core/CommoditiesAdvancedSearchAttribute.i: shared/core/CommoditiesAdvance
 
 # target to preprocess a source file
 shared/core/CommoditiesAdvancedSearchAttribute.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CommoditiesAdvancedSearchAttribute.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CommoditiesAdvancedSearchAttribute.cpp.i
 .PHONY : shared/core/CommoditiesAdvancedSearchAttribute.cpp.i
 
 shared/core/CommoditiesAdvancedSearchAttribute.s: shared/core/CommoditiesAdvancedSearchAttribute.cpp.s
@@ -511,7 +511,7 @@ shared/core/CommoditiesAdvancedSearchAttribute.s: shared/core/CommoditiesAdvance
 
 # target to generate assembly for a file
 shared/core/CommoditiesAdvancedSearchAttribute.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CommoditiesAdvancedSearchAttribute.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CommoditiesAdvancedSearchAttribute.cpp.s
 .PHONY : shared/core/CommoditiesAdvancedSearchAttribute.cpp.s
 
 shared/core/ConfigSharedGame.o: shared/core/ConfigSharedGame.cpp.o
@@ -519,7 +519,7 @@ shared/core/ConfigSharedGame.o: shared/core/ConfigSharedGame.cpp.o
 
 # target to build an object file
 shared/core/ConfigSharedGame.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ConfigSharedGame.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ConfigSharedGame.cpp.o
 .PHONY : shared/core/ConfigSharedGame.cpp.o
 
 shared/core/ConfigSharedGame.i: shared/core/ConfigSharedGame.cpp.i
@@ -527,7 +527,7 @@ shared/core/ConfigSharedGame.i: shared/core/ConfigSharedGame.cpp.i
 
 # target to preprocess a source file
 shared/core/ConfigSharedGame.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ConfigSharedGame.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ConfigSharedGame.cpp.i
 .PHONY : shared/core/ConfigSharedGame.cpp.i
 
 shared/core/ConfigSharedGame.s: shared/core/ConfigSharedGame.cpp.s
@@ -535,7 +535,7 @@ shared/core/ConfigSharedGame.s: shared/core/ConfigSharedGame.cpp.s
 
 # target to generate assembly for a file
 shared/core/ConfigSharedGame.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ConfigSharedGame.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ConfigSharedGame.cpp.s
 .PHONY : shared/core/ConfigSharedGame.cpp.s
 
 shared/core/CraftingData.o: shared/core/CraftingData.cpp.o
@@ -543,7 +543,7 @@ shared/core/CraftingData.o: shared/core/CraftingData.cpp.o
 
 # target to build an object file
 shared/core/CraftingData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingData.cpp.o
 .PHONY : shared/core/CraftingData.cpp.o
 
 shared/core/CraftingData.i: shared/core/CraftingData.cpp.i
@@ -551,7 +551,7 @@ shared/core/CraftingData.i: shared/core/CraftingData.cpp.i
 
 # target to preprocess a source file
 shared/core/CraftingData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingData.cpp.i
 .PHONY : shared/core/CraftingData.cpp.i
 
 shared/core/CraftingData.s: shared/core/CraftingData.cpp.s
@@ -559,7 +559,7 @@ shared/core/CraftingData.s: shared/core/CraftingData.cpp.s
 
 # target to generate assembly for a file
 shared/core/CraftingData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingData.cpp.s
 .PHONY : shared/core/CraftingData.cpp.s
 
 shared/core/CraftingDataArchive.o: shared/core/CraftingDataArchive.cpp.o
@@ -567,7 +567,7 @@ shared/core/CraftingDataArchive.o: shared/core/CraftingDataArchive.cpp.o
 
 # target to build an object file
 shared/core/CraftingDataArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingDataArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingDataArchive.cpp.o
 .PHONY : shared/core/CraftingDataArchive.cpp.o
 
 shared/core/CraftingDataArchive.i: shared/core/CraftingDataArchive.cpp.i
@@ -575,7 +575,7 @@ shared/core/CraftingDataArchive.i: shared/core/CraftingDataArchive.cpp.i
 
 # target to preprocess a source file
 shared/core/CraftingDataArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingDataArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingDataArchive.cpp.i
 .PHONY : shared/core/CraftingDataArchive.cpp.i
 
 shared/core/CraftingDataArchive.s: shared/core/CraftingDataArchive.cpp.s
@@ -583,7 +583,7 @@ shared/core/CraftingDataArchive.s: shared/core/CraftingDataArchive.cpp.s
 
 # target to generate assembly for a file
 shared/core/CraftingDataArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingDataArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CraftingDataArchive.cpp.s
 .PHONY : shared/core/CraftingDataArchive.cpp.s
 
 shared/core/CustomizationManager.o: shared/core/CustomizationManager.cpp.o
@@ -591,7 +591,7 @@ shared/core/CustomizationManager.o: shared/core/CustomizationManager.cpp.o
 
 # target to build an object file
 shared/core/CustomizationManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager.cpp.o
 .PHONY : shared/core/CustomizationManager.cpp.o
 
 shared/core/CustomizationManager.i: shared/core/CustomizationManager.cpp.i
@@ -599,7 +599,7 @@ shared/core/CustomizationManager.i: shared/core/CustomizationManager.cpp.i
 
 # target to preprocess a source file
 shared/core/CustomizationManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager.cpp.i
 .PHONY : shared/core/CustomizationManager.cpp.i
 
 shared/core/CustomizationManager.s: shared/core/CustomizationManager.cpp.s
@@ -607,7 +607,7 @@ shared/core/CustomizationManager.s: shared/core/CustomizationManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/CustomizationManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager.cpp.s
 .PHONY : shared/core/CustomizationManager.cpp.s
 
 shared/core/CustomizationManager_MorphParameter.o: shared/core/CustomizationManager_MorphParameter.cpp.o
@@ -615,7 +615,7 @@ shared/core/CustomizationManager_MorphParameter.o: shared/core/CustomizationMana
 
 # target to build an object file
 shared/core/CustomizationManager_MorphParameter.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager_MorphParameter.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager_MorphParameter.cpp.o
 .PHONY : shared/core/CustomizationManager_MorphParameter.cpp.o
 
 shared/core/CustomizationManager_MorphParameter.i: shared/core/CustomizationManager_MorphParameter.cpp.i
@@ -623,7 +623,7 @@ shared/core/CustomizationManager_MorphParameter.i: shared/core/CustomizationMana
 
 # target to preprocess a source file
 shared/core/CustomizationManager_MorphParameter.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager_MorphParameter.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager_MorphParameter.cpp.i
 .PHONY : shared/core/CustomizationManager_MorphParameter.cpp.i
 
 shared/core/CustomizationManager_MorphParameter.s: shared/core/CustomizationManager_MorphParameter.cpp.s
@@ -631,7 +631,7 @@ shared/core/CustomizationManager_MorphParameter.s: shared/core/CustomizationMana
 
 # target to generate assembly for a file
 shared/core/CustomizationManager_MorphParameter.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager_MorphParameter.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/CustomizationManager_MorphParameter.cpp.s
 .PHONY : shared/core/CustomizationManager_MorphParameter.cpp.s
 
 shared/core/DraftSchematicGroupManager.o: shared/core/DraftSchematicGroupManager.cpp.o
@@ -639,7 +639,7 @@ shared/core/DraftSchematicGroupManager.o: shared/core/DraftSchematicGroupManager
 
 # target to build an object file
 shared/core/DraftSchematicGroupManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/DraftSchematicGroupManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/DraftSchematicGroupManager.cpp.o
 .PHONY : shared/core/DraftSchematicGroupManager.cpp.o
 
 shared/core/DraftSchematicGroupManager.i: shared/core/DraftSchematicGroupManager.cpp.i
@@ -647,7 +647,7 @@ shared/core/DraftSchematicGroupManager.i: shared/core/DraftSchematicGroupManager
 
 # target to preprocess a source file
 shared/core/DraftSchematicGroupManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/DraftSchematicGroupManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/DraftSchematicGroupManager.cpp.i
 .PHONY : shared/core/DraftSchematicGroupManager.cpp.i
 
 shared/core/DraftSchematicGroupManager.s: shared/core/DraftSchematicGroupManager.cpp.s
@@ -655,7 +655,7 @@ shared/core/DraftSchematicGroupManager.s: shared/core/DraftSchematicGroupManager
 
 # target to generate assembly for a file
 shared/core/DraftSchematicGroupManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/DraftSchematicGroupManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/DraftSchematicGroupManager.cpp.s
 .PHONY : shared/core/DraftSchematicGroupManager.cpp.s
 
 shared/core/FormManager.o: shared/core/FormManager.cpp.o
@@ -663,7 +663,7 @@ shared/core/FormManager.o: shared/core/FormManager.cpp.o
 
 # target to build an object file
 shared/core/FormManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/FormManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/FormManager.cpp.o
 .PHONY : shared/core/FormManager.cpp.o
 
 shared/core/FormManager.i: shared/core/FormManager.cpp.i
@@ -671,7 +671,7 @@ shared/core/FormManager.i: shared/core/FormManager.cpp.i
 
 # target to preprocess a source file
 shared/core/FormManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/FormManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/FormManager.cpp.i
 .PHONY : shared/core/FormManager.cpp.i
 
 shared/core/FormManager.s: shared/core/FormManager.cpp.s
@@ -679,7 +679,7 @@ shared/core/FormManager.s: shared/core/FormManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/FormManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/FormManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/FormManager.cpp.s
 .PHONY : shared/core/FormManager.cpp.s
 
 shared/core/GameLanguageManager.o: shared/core/GameLanguageManager.cpp.o
@@ -687,7 +687,7 @@ shared/core/GameLanguageManager.o: shared/core/GameLanguageManager.cpp.o
 
 # target to build an object file
 shared/core/GameLanguageManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameLanguageManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameLanguageManager.cpp.o
 .PHONY : shared/core/GameLanguageManager.cpp.o
 
 shared/core/GameLanguageManager.i: shared/core/GameLanguageManager.cpp.i
@@ -695,7 +695,7 @@ shared/core/GameLanguageManager.i: shared/core/GameLanguageManager.cpp.i
 
 # target to preprocess a source file
 shared/core/GameLanguageManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameLanguageManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameLanguageManager.cpp.i
 .PHONY : shared/core/GameLanguageManager.cpp.i
 
 shared/core/GameLanguageManager.s: shared/core/GameLanguageManager.cpp.s
@@ -703,7 +703,7 @@ shared/core/GameLanguageManager.s: shared/core/GameLanguageManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/GameLanguageManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameLanguageManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameLanguageManager.cpp.s
 .PHONY : shared/core/GameLanguageManager.cpp.s
 
 shared/core/GameObjectTypes.o: shared/core/GameObjectTypes.cpp.o
@@ -711,7 +711,7 @@ shared/core/GameObjectTypes.o: shared/core/GameObjectTypes.cpp.o
 
 # target to build an object file
 shared/core/GameObjectTypes.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameObjectTypes.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameObjectTypes.cpp.o
 .PHONY : shared/core/GameObjectTypes.cpp.o
 
 shared/core/GameObjectTypes.i: shared/core/GameObjectTypes.cpp.i
@@ -719,7 +719,7 @@ shared/core/GameObjectTypes.i: shared/core/GameObjectTypes.cpp.i
 
 # target to preprocess a source file
 shared/core/GameObjectTypes.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameObjectTypes.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameObjectTypes.cpp.i
 .PHONY : shared/core/GameObjectTypes.cpp.i
 
 shared/core/GameObjectTypes.s: shared/core/GameObjectTypes.cpp.s
@@ -727,7 +727,7 @@ shared/core/GameObjectTypes.s: shared/core/GameObjectTypes.cpp.s
 
 # target to generate assembly for a file
 shared/core/GameObjectTypes.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameObjectTypes.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameObjectTypes.cpp.s
 .PHONY : shared/core/GameObjectTypes.cpp.s
 
 shared/core/GameScheduler.o: shared/core/GameScheduler.cpp.o
@@ -735,7 +735,7 @@ shared/core/GameScheduler.o: shared/core/GameScheduler.cpp.o
 
 # target to build an object file
 shared/core/GameScheduler.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameScheduler.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameScheduler.cpp.o
 .PHONY : shared/core/GameScheduler.cpp.o
 
 shared/core/GameScheduler.i: shared/core/GameScheduler.cpp.i
@@ -743,7 +743,7 @@ shared/core/GameScheduler.i: shared/core/GameScheduler.cpp.i
 
 # target to preprocess a source file
 shared/core/GameScheduler.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameScheduler.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameScheduler.cpp.i
 .PHONY : shared/core/GameScheduler.cpp.i
 
 shared/core/GameScheduler.s: shared/core/GameScheduler.cpp.s
@@ -751,7 +751,7 @@ shared/core/GameScheduler.s: shared/core/GameScheduler.cpp.s
 
 # target to generate assembly for a file
 shared/core/GameScheduler.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameScheduler.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GameScheduler.cpp.s
 .PHONY : shared/core/GameScheduler.cpp.s
 
 shared/core/GroundZoneManager.o: shared/core/GroundZoneManager.cpp.o
@@ -759,7 +759,7 @@ shared/core/GroundZoneManager.o: shared/core/GroundZoneManager.cpp.o
 
 # target to build an object file
 shared/core/GroundZoneManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GroundZoneManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GroundZoneManager.cpp.o
 .PHONY : shared/core/GroundZoneManager.cpp.o
 
 shared/core/GroundZoneManager.i: shared/core/GroundZoneManager.cpp.i
@@ -767,7 +767,7 @@ shared/core/GroundZoneManager.i: shared/core/GroundZoneManager.cpp.i
 
 # target to preprocess a source file
 shared/core/GroundZoneManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GroundZoneManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GroundZoneManager.cpp.i
 .PHONY : shared/core/GroundZoneManager.cpp.i
 
 shared/core/GroundZoneManager.s: shared/core/GroundZoneManager.cpp.s
@@ -775,7 +775,7 @@ shared/core/GroundZoneManager.s: shared/core/GroundZoneManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/GroundZoneManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GroundZoneManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GroundZoneManager.cpp.s
 .PHONY : shared/core/GroundZoneManager.cpp.s
 
 shared/core/GuildRankDataTable.o: shared/core/GuildRankDataTable.cpp.o
@@ -783,7 +783,7 @@ shared/core/GuildRankDataTable.o: shared/core/GuildRankDataTable.cpp.o
 
 # target to build an object file
 shared/core/GuildRankDataTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GuildRankDataTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GuildRankDataTable.cpp.o
 .PHONY : shared/core/GuildRankDataTable.cpp.o
 
 shared/core/GuildRankDataTable.i: shared/core/GuildRankDataTable.cpp.i
@@ -791,7 +791,7 @@ shared/core/GuildRankDataTable.i: shared/core/GuildRankDataTable.cpp.i
 
 # target to preprocess a source file
 shared/core/GuildRankDataTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GuildRankDataTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GuildRankDataTable.cpp.i
 .PHONY : shared/core/GuildRankDataTable.cpp.i
 
 shared/core/GuildRankDataTable.s: shared/core/GuildRankDataTable.cpp.s
@@ -799,7 +799,7 @@ shared/core/GuildRankDataTable.s: shared/core/GuildRankDataTable.cpp.s
 
 # target to generate assembly for a file
 shared/core/GuildRankDataTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GuildRankDataTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/GuildRankDataTable.cpp.s
 .PHONY : shared/core/GuildRankDataTable.cpp.s
 
 shared/core/HoverPlaneHelper.o: shared/core/HoverPlaneHelper.cpp.o
@@ -807,7 +807,7 @@ shared/core/HoverPlaneHelper.o: shared/core/HoverPlaneHelper.cpp.o
 
 # target to build an object file
 shared/core/HoverPlaneHelper.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HoverPlaneHelper.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HoverPlaneHelper.cpp.o
 .PHONY : shared/core/HoverPlaneHelper.cpp.o
 
 shared/core/HoverPlaneHelper.i: shared/core/HoverPlaneHelper.cpp.i
@@ -815,7 +815,7 @@ shared/core/HoverPlaneHelper.i: shared/core/HoverPlaneHelper.cpp.i
 
 # target to preprocess a source file
 shared/core/HoverPlaneHelper.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HoverPlaneHelper.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HoverPlaneHelper.cpp.i
 .PHONY : shared/core/HoverPlaneHelper.cpp.i
 
 shared/core/HoverPlaneHelper.s: shared/core/HoverPlaneHelper.cpp.s
@@ -823,7 +823,7 @@ shared/core/HoverPlaneHelper.s: shared/core/HoverPlaneHelper.cpp.s
 
 # target to generate assembly for a file
 shared/core/HoverPlaneHelper.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HoverPlaneHelper.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HoverPlaneHelper.cpp.s
 .PHONY : shared/core/HoverPlaneHelper.cpp.s
 
 shared/core/HyperspaceManager.o: shared/core/HyperspaceManager.cpp.o
@@ -831,7 +831,7 @@ shared/core/HyperspaceManager.o: shared/core/HyperspaceManager.cpp.o
 
 # target to build an object file
 shared/core/HyperspaceManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HyperspaceManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HyperspaceManager.cpp.o
 .PHONY : shared/core/HyperspaceManager.cpp.o
 
 shared/core/HyperspaceManager.i: shared/core/HyperspaceManager.cpp.i
@@ -839,7 +839,7 @@ shared/core/HyperspaceManager.i: shared/core/HyperspaceManager.cpp.i
 
 # target to preprocess a source file
 shared/core/HyperspaceManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HyperspaceManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HyperspaceManager.cpp.i
 .PHONY : shared/core/HyperspaceManager.cpp.i
 
 shared/core/HyperspaceManager.s: shared/core/HyperspaceManager.cpp.s
@@ -847,7 +847,7 @@ shared/core/HyperspaceManager.s: shared/core/HyperspaceManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/HyperspaceManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HyperspaceManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/HyperspaceManager.cpp.s
 .PHONY : shared/core/HyperspaceManager.cpp.s
 
 shared/core/LfgCharacterData.o: shared/core/LfgCharacterData.cpp.o
@@ -855,7 +855,7 @@ shared/core/LfgCharacterData.o: shared/core/LfgCharacterData.cpp.o
 
 # target to build an object file
 shared/core/LfgCharacterData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgCharacterData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgCharacterData.cpp.o
 .PHONY : shared/core/LfgCharacterData.cpp.o
 
 shared/core/LfgCharacterData.i: shared/core/LfgCharacterData.cpp.i
@@ -863,7 +863,7 @@ shared/core/LfgCharacterData.i: shared/core/LfgCharacterData.cpp.i
 
 # target to preprocess a source file
 shared/core/LfgCharacterData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgCharacterData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgCharacterData.cpp.i
 .PHONY : shared/core/LfgCharacterData.cpp.i
 
 shared/core/LfgCharacterData.s: shared/core/LfgCharacterData.cpp.s
@@ -871,7 +871,7 @@ shared/core/LfgCharacterData.s: shared/core/LfgCharacterData.cpp.s
 
 # target to generate assembly for a file
 shared/core/LfgCharacterData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgCharacterData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgCharacterData.cpp.s
 .PHONY : shared/core/LfgCharacterData.cpp.s
 
 shared/core/LfgDataTable.o: shared/core/LfgDataTable.cpp.o
@@ -879,7 +879,7 @@ shared/core/LfgDataTable.o: shared/core/LfgDataTable.cpp.o
 
 # target to build an object file
 shared/core/LfgDataTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgDataTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgDataTable.cpp.o
 .PHONY : shared/core/LfgDataTable.cpp.o
 
 shared/core/LfgDataTable.i: shared/core/LfgDataTable.cpp.i
@@ -887,7 +887,7 @@ shared/core/LfgDataTable.i: shared/core/LfgDataTable.cpp.i
 
 # target to preprocess a source file
 shared/core/LfgDataTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgDataTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgDataTable.cpp.i
 .PHONY : shared/core/LfgDataTable.cpp.i
 
 shared/core/LfgDataTable.s: shared/core/LfgDataTable.cpp.s
@@ -895,7 +895,7 @@ shared/core/LfgDataTable.s: shared/core/LfgDataTable.cpp.s
 
 # target to generate assembly for a file
 shared/core/LfgDataTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgDataTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/LfgDataTable.cpp.s
 .PHONY : shared/core/LfgDataTable.cpp.s
 
 shared/core/MoodManager.o: shared/core/MoodManager.cpp.o
@@ -903,7 +903,7 @@ shared/core/MoodManager.o: shared/core/MoodManager.cpp.o
 
 # target to build an object file
 shared/core/MoodManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/MoodManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/MoodManager.cpp.o
 .PHONY : shared/core/MoodManager.cpp.o
 
 shared/core/MoodManager.i: shared/core/MoodManager.cpp.i
@@ -911,7 +911,7 @@ shared/core/MoodManager.i: shared/core/MoodManager.cpp.i
 
 # target to preprocess a source file
 shared/core/MoodManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/MoodManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/MoodManager.cpp.i
 .PHONY : shared/core/MoodManager.cpp.i
 
 shared/core/MoodManager.s: shared/core/MoodManager.cpp.s
@@ -919,7 +919,7 @@ shared/core/MoodManager.s: shared/core/MoodManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/MoodManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/MoodManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/MoodManager.cpp.s
 .PHONY : shared/core/MoodManager.cpp.s
 
 shared/core/OutOfBandBase.o: shared/core/OutOfBandBase.cpp.o
@@ -927,7 +927,7 @@ shared/core/OutOfBandBase.o: shared/core/OutOfBandBase.cpp.o
 
 # target to build an object file
 shared/core/OutOfBandBase.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandBase.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandBase.cpp.o
 .PHONY : shared/core/OutOfBandBase.cpp.o
 
 shared/core/OutOfBandBase.i: shared/core/OutOfBandBase.cpp.i
@@ -935,7 +935,7 @@ shared/core/OutOfBandBase.i: shared/core/OutOfBandBase.cpp.i
 
 # target to preprocess a source file
 shared/core/OutOfBandBase.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandBase.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandBase.cpp.i
 .PHONY : shared/core/OutOfBandBase.cpp.i
 
 shared/core/OutOfBandBase.s: shared/core/OutOfBandBase.cpp.s
@@ -943,7 +943,7 @@ shared/core/OutOfBandBase.s: shared/core/OutOfBandBase.cpp.s
 
 # target to generate assembly for a file
 shared/core/OutOfBandBase.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandBase.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandBase.cpp.s
 .PHONY : shared/core/OutOfBandBase.cpp.s
 
 shared/core/OutOfBandPackager.o: shared/core/OutOfBandPackager.cpp.o
@@ -951,7 +951,7 @@ shared/core/OutOfBandPackager.o: shared/core/OutOfBandPackager.cpp.o
 
 # target to build an object file
 shared/core/OutOfBandPackager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandPackager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandPackager.cpp.o
 .PHONY : shared/core/OutOfBandPackager.cpp.o
 
 shared/core/OutOfBandPackager.i: shared/core/OutOfBandPackager.cpp.i
@@ -959,7 +959,7 @@ shared/core/OutOfBandPackager.i: shared/core/OutOfBandPackager.cpp.i
 
 # target to preprocess a source file
 shared/core/OutOfBandPackager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandPackager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandPackager.cpp.i
 .PHONY : shared/core/OutOfBandPackager.cpp.i
 
 shared/core/OutOfBandPackager.s: shared/core/OutOfBandPackager.cpp.s
@@ -967,7 +967,7 @@ shared/core/OutOfBandPackager.s: shared/core/OutOfBandPackager.cpp.s
 
 # target to generate assembly for a file
 shared/core/OutOfBandPackager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandPackager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/OutOfBandPackager.cpp.s
 .PHONY : shared/core/OutOfBandPackager.cpp.s
 
 shared/core/PlanetMapManager.o: shared/core/PlanetMapManager.cpp.o
@@ -975,7 +975,7 @@ shared/core/PlanetMapManager.o: shared/core/PlanetMapManager.cpp.o
 
 # target to build an object file
 shared/core/PlanetMapManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlanetMapManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlanetMapManager.cpp.o
 .PHONY : shared/core/PlanetMapManager.cpp.o
 
 shared/core/PlanetMapManager.i: shared/core/PlanetMapManager.cpp.i
@@ -983,7 +983,7 @@ shared/core/PlanetMapManager.i: shared/core/PlanetMapManager.cpp.i
 
 # target to preprocess a source file
 shared/core/PlanetMapManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlanetMapManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlanetMapManager.cpp.i
 .PHONY : shared/core/PlanetMapManager.cpp.i
 
 shared/core/PlanetMapManager.s: shared/core/PlanetMapManager.cpp.s
@@ -991,7 +991,7 @@ shared/core/PlanetMapManager.s: shared/core/PlanetMapManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/PlanetMapManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlanetMapManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlanetMapManager.cpp.s
 .PHONY : shared/core/PlanetMapManager.cpp.s
 
 shared/core/PlatformFeatureBits.o: shared/core/PlatformFeatureBits.cpp.o
@@ -999,7 +999,7 @@ shared/core/PlatformFeatureBits.o: shared/core/PlatformFeatureBits.cpp.o
 
 # target to build an object file
 shared/core/PlatformFeatureBits.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlatformFeatureBits.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlatformFeatureBits.cpp.o
 .PHONY : shared/core/PlatformFeatureBits.cpp.o
 
 shared/core/PlatformFeatureBits.i: shared/core/PlatformFeatureBits.cpp.i
@@ -1007,7 +1007,7 @@ shared/core/PlatformFeatureBits.i: shared/core/PlatformFeatureBits.cpp.i
 
 # target to preprocess a source file
 shared/core/PlatformFeatureBits.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlatformFeatureBits.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlatformFeatureBits.cpp.i
 .PHONY : shared/core/PlatformFeatureBits.cpp.i
 
 shared/core/PlatformFeatureBits.s: shared/core/PlatformFeatureBits.cpp.s
@@ -1015,7 +1015,7 @@ shared/core/PlatformFeatureBits.s: shared/core/PlatformFeatureBits.cpp.s
 
 # target to generate assembly for a file
 shared/core/PlatformFeatureBits.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlatformFeatureBits.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlatformFeatureBits.cpp.s
 .PHONY : shared/core/PlatformFeatureBits.cpp.s
 
 shared/core/PlayerCreationManager.o: shared/core/PlayerCreationManager.cpp.o
@@ -1023,7 +1023,7 @@ shared/core/PlayerCreationManager.o: shared/core/PlayerCreationManager.cpp.o
 
 # target to build an object file
 shared/core/PlayerCreationManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlayerCreationManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlayerCreationManager.cpp.o
 .PHONY : shared/core/PlayerCreationManager.cpp.o
 
 shared/core/PlayerCreationManager.i: shared/core/PlayerCreationManager.cpp.i
@@ -1031,7 +1031,7 @@ shared/core/PlayerCreationManager.i: shared/core/PlayerCreationManager.cpp.i
 
 # target to preprocess a source file
 shared/core/PlayerCreationManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlayerCreationManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlayerCreationManager.cpp.i
 .PHONY : shared/core/PlayerCreationManager.cpp.i
 
 shared/core/PlayerCreationManager.s: shared/core/PlayerCreationManager.cpp.s
@@ -1039,7 +1039,7 @@ shared/core/PlayerCreationManager.s: shared/core/PlayerCreationManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/PlayerCreationManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlayerCreationManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/PlayerCreationManager.cpp.s
 .PHONY : shared/core/PlayerCreationManager.cpp.s
 
 shared/core/ProsePackage.o: shared/core/ProsePackage.cpp.o
@@ -1047,7 +1047,7 @@ shared/core/ProsePackage.o: shared/core/ProsePackage.cpp.o
 
 # target to build an object file
 shared/core/ProsePackage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackage.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackage.cpp.o
 .PHONY : shared/core/ProsePackage.cpp.o
 
 shared/core/ProsePackage.i: shared/core/ProsePackage.cpp.i
@@ -1055,7 +1055,7 @@ shared/core/ProsePackage.i: shared/core/ProsePackage.cpp.i
 
 # target to preprocess a source file
 shared/core/ProsePackage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackage.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackage.cpp.i
 .PHONY : shared/core/ProsePackage.cpp.i
 
 shared/core/ProsePackage.s: shared/core/ProsePackage.cpp.s
@@ -1063,7 +1063,7 @@ shared/core/ProsePackage.s: shared/core/ProsePackage.cpp.s
 
 # target to generate assembly for a file
 shared/core/ProsePackage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackage.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackage.cpp.s
 .PHONY : shared/core/ProsePackage.cpp.s
 
 shared/core/ProsePackageArchive.o: shared/core/ProsePackageArchive.cpp.o
@@ -1071,7 +1071,7 @@ shared/core/ProsePackageArchive.o: shared/core/ProsePackageArchive.cpp.o
 
 # target to build an object file
 shared/core/ProsePackageArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageArchive.cpp.o
 .PHONY : shared/core/ProsePackageArchive.cpp.o
 
 shared/core/ProsePackageArchive.i: shared/core/ProsePackageArchive.cpp.i
@@ -1079,7 +1079,7 @@ shared/core/ProsePackageArchive.i: shared/core/ProsePackageArchive.cpp.i
 
 # target to preprocess a source file
 shared/core/ProsePackageArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageArchive.cpp.i
 .PHONY : shared/core/ProsePackageArchive.cpp.i
 
 shared/core/ProsePackageArchive.s: shared/core/ProsePackageArchive.cpp.s
@@ -1087,7 +1087,7 @@ shared/core/ProsePackageArchive.s: shared/core/ProsePackageArchive.cpp.s
 
 # target to generate assembly for a file
 shared/core/ProsePackageArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageArchive.cpp.s
 .PHONY : shared/core/ProsePackageArchive.cpp.s
 
 shared/core/ProsePackageParticipant.o: shared/core/ProsePackageParticipant.cpp.o
@@ -1095,7 +1095,7 @@ shared/core/ProsePackageParticipant.o: shared/core/ProsePackageParticipant.cpp.o
 
 # target to build an object file
 shared/core/ProsePackageParticipant.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipant.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipant.cpp.o
 .PHONY : shared/core/ProsePackageParticipant.cpp.o
 
 shared/core/ProsePackageParticipant.i: shared/core/ProsePackageParticipant.cpp.i
@@ -1103,7 +1103,7 @@ shared/core/ProsePackageParticipant.i: shared/core/ProsePackageParticipant.cpp.i
 
 # target to preprocess a source file
 shared/core/ProsePackageParticipant.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipant.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipant.cpp.i
 .PHONY : shared/core/ProsePackageParticipant.cpp.i
 
 shared/core/ProsePackageParticipant.s: shared/core/ProsePackageParticipant.cpp.s
@@ -1111,7 +1111,7 @@ shared/core/ProsePackageParticipant.s: shared/core/ProsePackageParticipant.cpp.s
 
 # target to generate assembly for a file
 shared/core/ProsePackageParticipant.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipant.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipant.cpp.s
 .PHONY : shared/core/ProsePackageParticipant.cpp.s
 
 shared/core/ProsePackageParticipantArchive.o: shared/core/ProsePackageParticipantArchive.cpp.o
@@ -1119,7 +1119,7 @@ shared/core/ProsePackageParticipantArchive.o: shared/core/ProsePackageParticipan
 
 # target to build an object file
 shared/core/ProsePackageParticipantArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipantArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipantArchive.cpp.o
 .PHONY : shared/core/ProsePackageParticipantArchive.cpp.o
 
 shared/core/ProsePackageParticipantArchive.i: shared/core/ProsePackageParticipantArchive.cpp.i
@@ -1127,7 +1127,7 @@ shared/core/ProsePackageParticipantArchive.i: shared/core/ProsePackageParticipan
 
 # target to preprocess a source file
 shared/core/ProsePackageParticipantArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipantArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipantArchive.cpp.i
 .PHONY : shared/core/ProsePackageParticipantArchive.cpp.i
 
 shared/core/ProsePackageParticipantArchive.s: shared/core/ProsePackageParticipantArchive.cpp.s
@@ -1135,7 +1135,7 @@ shared/core/ProsePackageParticipantArchive.s: shared/core/ProsePackageParticipan
 
 # target to generate assembly for a file
 shared/core/ProsePackageParticipantArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipantArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/ProsePackageParticipantArchive.cpp.s
 .PHONY : shared/core/ProsePackageParticipantArchive.cpp.s
 
 shared/core/RadialMenuManager.o: shared/core/RadialMenuManager.cpp.o
@@ -1143,7 +1143,7 @@ shared/core/RadialMenuManager.o: shared/core/RadialMenuManager.cpp.o
 
 # target to build an object file
 shared/core/RadialMenuManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/RadialMenuManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/RadialMenuManager.cpp.o
 .PHONY : shared/core/RadialMenuManager.cpp.o
 
 shared/core/RadialMenuManager.i: shared/core/RadialMenuManager.cpp.i
@@ -1151,7 +1151,7 @@ shared/core/RadialMenuManager.i: shared/core/RadialMenuManager.cpp.i
 
 # target to preprocess a source file
 shared/core/RadialMenuManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/RadialMenuManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/RadialMenuManager.cpp.i
 .PHONY : shared/core/RadialMenuManager.cpp.i
 
 shared/core/RadialMenuManager.s: shared/core/RadialMenuManager.cpp.s
@@ -1159,7 +1159,7 @@ shared/core/RadialMenuManager.s: shared/core/RadialMenuManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/RadialMenuManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/RadialMenuManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/RadialMenuManager.cpp.s
 .PHONY : shared/core/RadialMenuManager.cpp.s
 
 shared/core/SetupSharedGame.o: shared/core/SetupSharedGame.cpp.o
@@ -1167,7 +1167,7 @@ shared/core/SetupSharedGame.o: shared/core/SetupSharedGame.cpp.o
 
 # target to build an object file
 shared/core/SetupSharedGame.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SetupSharedGame.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SetupSharedGame.cpp.o
 .PHONY : shared/core/SetupSharedGame.cpp.o
 
 shared/core/SetupSharedGame.i: shared/core/SetupSharedGame.cpp.i
@@ -1175,7 +1175,7 @@ shared/core/SetupSharedGame.i: shared/core/SetupSharedGame.cpp.i
 
 # target to preprocess a source file
 shared/core/SetupSharedGame.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SetupSharedGame.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SetupSharedGame.cpp.i
 .PHONY : shared/core/SetupSharedGame.cpp.i
 
 shared/core/SetupSharedGame.s: shared/core/SetupSharedGame.cpp.s
@@ -1183,7 +1183,7 @@ shared/core/SetupSharedGame.s: shared/core/SetupSharedGame.cpp.s
 
 # target to generate assembly for a file
 shared/core/SetupSharedGame.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SetupSharedGame.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SetupSharedGame.cpp.s
 .PHONY : shared/core/SetupSharedGame.cpp.s
 
 shared/core/SharedBuffBuilderManager.o: shared/core/SharedBuffBuilderManager.cpp.o
@@ -1191,7 +1191,7 @@ shared/core/SharedBuffBuilderManager.o: shared/core/SharedBuffBuilderManager.cpp
 
 # target to build an object file
 shared/core/SharedBuffBuilderManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuffBuilderManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuffBuilderManager.cpp.o
 .PHONY : shared/core/SharedBuffBuilderManager.cpp.o
 
 shared/core/SharedBuffBuilderManager.i: shared/core/SharedBuffBuilderManager.cpp.i
@@ -1199,7 +1199,7 @@ shared/core/SharedBuffBuilderManager.i: shared/core/SharedBuffBuilderManager.cpp
 
 # target to preprocess a source file
 shared/core/SharedBuffBuilderManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuffBuilderManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuffBuilderManager.cpp.i
 .PHONY : shared/core/SharedBuffBuilderManager.cpp.i
 
 shared/core/SharedBuffBuilderManager.s: shared/core/SharedBuffBuilderManager.cpp.s
@@ -1207,7 +1207,7 @@ shared/core/SharedBuffBuilderManager.s: shared/core/SharedBuffBuilderManager.cpp
 
 # target to generate assembly for a file
 shared/core/SharedBuffBuilderManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuffBuilderManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuffBuilderManager.cpp.s
 .PHONY : shared/core/SharedBuffBuilderManager.cpp.s
 
 shared/core/SharedBuildoutAreaManager.o: shared/core/SharedBuildoutAreaManager.cpp.o
@@ -1215,7 +1215,7 @@ shared/core/SharedBuildoutAreaManager.o: shared/core/SharedBuildoutAreaManager.c
 
 # target to build an object file
 shared/core/SharedBuildoutAreaManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuildoutAreaManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuildoutAreaManager.cpp.o
 .PHONY : shared/core/SharedBuildoutAreaManager.cpp.o
 
 shared/core/SharedBuildoutAreaManager.i: shared/core/SharedBuildoutAreaManager.cpp.i
@@ -1223,7 +1223,7 @@ shared/core/SharedBuildoutAreaManager.i: shared/core/SharedBuildoutAreaManager.c
 
 # target to preprocess a source file
 shared/core/SharedBuildoutAreaManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuildoutAreaManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuildoutAreaManager.cpp.i
 .PHONY : shared/core/SharedBuildoutAreaManager.cpp.i
 
 shared/core/SharedBuildoutAreaManager.s: shared/core/SharedBuildoutAreaManager.cpp.s
@@ -1231,7 +1231,7 @@ shared/core/SharedBuildoutAreaManager.s: shared/core/SharedBuildoutAreaManager.c
 
 # target to generate assembly for a file
 shared/core/SharedBuildoutAreaManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuildoutAreaManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedBuildoutAreaManager.cpp.s
 .PHONY : shared/core/SharedBuildoutAreaManager.cpp.s
 
 shared/core/SharedHyperspaceStringIds.o: shared/core/SharedHyperspaceStringIds.cpp.o
@@ -1239,7 +1239,7 @@ shared/core/SharedHyperspaceStringIds.o: shared/core/SharedHyperspaceStringIds.c
 
 # target to build an object file
 shared/core/SharedHyperspaceStringIds.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedHyperspaceStringIds.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedHyperspaceStringIds.cpp.o
 .PHONY : shared/core/SharedHyperspaceStringIds.cpp.o
 
 shared/core/SharedHyperspaceStringIds.i: shared/core/SharedHyperspaceStringIds.cpp.i
@@ -1247,7 +1247,7 @@ shared/core/SharedHyperspaceStringIds.i: shared/core/SharedHyperspaceStringIds.c
 
 # target to preprocess a source file
 shared/core/SharedHyperspaceStringIds.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedHyperspaceStringIds.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedHyperspaceStringIds.cpp.i
 .PHONY : shared/core/SharedHyperspaceStringIds.cpp.i
 
 shared/core/SharedHyperspaceStringIds.s: shared/core/SharedHyperspaceStringIds.cpp.s
@@ -1255,7 +1255,7 @@ shared/core/SharedHyperspaceStringIds.s: shared/core/SharedHyperspaceStringIds.c
 
 # target to generate assembly for a file
 shared/core/SharedHyperspaceStringIds.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedHyperspaceStringIds.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedHyperspaceStringIds.cpp.s
 .PHONY : shared/core/SharedHyperspaceStringIds.cpp.s
 
 shared/core/SharedImageDesignerManager.o: shared/core/SharedImageDesignerManager.cpp.o
@@ -1263,7 +1263,7 @@ shared/core/SharedImageDesignerManager.o: shared/core/SharedImageDesignerManager
 
 # target to build an object file
 shared/core/SharedImageDesignerManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedImageDesignerManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedImageDesignerManager.cpp.o
 .PHONY : shared/core/SharedImageDesignerManager.cpp.o
 
 shared/core/SharedImageDesignerManager.i: shared/core/SharedImageDesignerManager.cpp.i
@@ -1271,7 +1271,7 @@ shared/core/SharedImageDesignerManager.i: shared/core/SharedImageDesignerManager
 
 # target to preprocess a source file
 shared/core/SharedImageDesignerManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedImageDesignerManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedImageDesignerManager.cpp.i
 .PHONY : shared/core/SharedImageDesignerManager.cpp.i
 
 shared/core/SharedImageDesignerManager.s: shared/core/SharedImageDesignerManager.cpp.s
@@ -1279,7 +1279,7 @@ shared/core/SharedImageDesignerManager.s: shared/core/SharedImageDesignerManager
 
 # target to generate assembly for a file
 shared/core/SharedImageDesignerManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedImageDesignerManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedImageDesignerManager.cpp.s
 .PHONY : shared/core/SharedImageDesignerManager.cpp.s
 
 shared/core/SharedObjectAttributes.o: shared/core/SharedObjectAttributes.cpp.o
@@ -1287,7 +1287,7 @@ shared/core/SharedObjectAttributes.o: shared/core/SharedObjectAttributes.cpp.o
 
 # target to build an object file
 shared/core/SharedObjectAttributes.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedObjectAttributes.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedObjectAttributes.cpp.o
 .PHONY : shared/core/SharedObjectAttributes.cpp.o
 
 shared/core/SharedObjectAttributes.i: shared/core/SharedObjectAttributes.cpp.i
@@ -1295,7 +1295,7 @@ shared/core/SharedObjectAttributes.i: shared/core/SharedObjectAttributes.cpp.i
 
 # target to preprocess a source file
 shared/core/SharedObjectAttributes.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedObjectAttributes.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedObjectAttributes.cpp.i
 .PHONY : shared/core/SharedObjectAttributes.cpp.i
 
 shared/core/SharedObjectAttributes.s: shared/core/SharedObjectAttributes.cpp.s
@@ -1303,7 +1303,7 @@ shared/core/SharedObjectAttributes.s: shared/core/SharedObjectAttributes.cpp.s
 
 # target to generate assembly for a file
 shared/core/SharedObjectAttributes.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedObjectAttributes.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedObjectAttributes.cpp.s
 .PHONY : shared/core/SharedObjectAttributes.cpp.s
 
 shared/core/SharedStringIds.o: shared/core/SharedStringIds.cpp.o
@@ -1311,7 +1311,7 @@ shared/core/SharedStringIds.o: shared/core/SharedStringIds.cpp.o
 
 # target to build an object file
 shared/core/SharedStringIds.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedStringIds.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedStringIds.cpp.o
 .PHONY : shared/core/SharedStringIds.cpp.o
 
 shared/core/SharedStringIds.i: shared/core/SharedStringIds.cpp.i
@@ -1319,7 +1319,7 @@ shared/core/SharedStringIds.i: shared/core/SharedStringIds.cpp.i
 
 # target to preprocess a source file
 shared/core/SharedStringIds.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedStringIds.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedStringIds.cpp.i
 .PHONY : shared/core/SharedStringIds.cpp.i
 
 shared/core/SharedStringIds.s: shared/core/SharedStringIds.cpp.s
@@ -1327,7 +1327,7 @@ shared/core/SharedStringIds.s: shared/core/SharedStringIds.cpp.s
 
 # target to generate assembly for a file
 shared/core/SharedStringIds.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedStringIds.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SharedStringIds.cpp.s
 .PHONY : shared/core/SharedStringIds.cpp.s
 
 shared/core/SocialsManager.o: shared/core/SocialsManager.cpp.o
@@ -1335,7 +1335,7 @@ shared/core/SocialsManager.o: shared/core/SocialsManager.cpp.o
 
 # target to build an object file
 shared/core/SocialsManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SocialsManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SocialsManager.cpp.o
 .PHONY : shared/core/SocialsManager.cpp.o
 
 shared/core/SocialsManager.i: shared/core/SocialsManager.cpp.i
@@ -1343,7 +1343,7 @@ shared/core/SocialsManager.i: shared/core/SocialsManager.cpp.i
 
 # target to preprocess a source file
 shared/core/SocialsManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SocialsManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SocialsManager.cpp.i
 .PHONY : shared/core/SocialsManager.cpp.i
 
 shared/core/SocialsManager.s: shared/core/SocialsManager.cpp.s
@@ -1351,7 +1351,7 @@ shared/core/SocialsManager.s: shared/core/SocialsManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/SocialsManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SocialsManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SocialsManager.cpp.s
 .PHONY : shared/core/SocialsManager.cpp.s
 
 shared/core/SpatialChatManager.o: shared/core/SpatialChatManager.cpp.o
@@ -1359,7 +1359,7 @@ shared/core/SpatialChatManager.o: shared/core/SpatialChatManager.cpp.o
 
 # target to build an object file
 shared/core/SpatialChatManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SpatialChatManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SpatialChatManager.cpp.o
 .PHONY : shared/core/SpatialChatManager.cpp.o
 
 shared/core/SpatialChatManager.i: shared/core/SpatialChatManager.cpp.i
@@ -1367,7 +1367,7 @@ shared/core/SpatialChatManager.i: shared/core/SpatialChatManager.cpp.i
 
 # target to preprocess a source file
 shared/core/SpatialChatManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SpatialChatManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SpatialChatManager.cpp.i
 .PHONY : shared/core/SpatialChatManager.cpp.i
 
 shared/core/SpatialChatManager.s: shared/core/SpatialChatManager.cpp.s
@@ -1375,7 +1375,7 @@ shared/core/SpatialChatManager.s: shared/core/SpatialChatManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/SpatialChatManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SpatialChatManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/SpatialChatManager.cpp.s
 .PHONY : shared/core/SpatialChatManager.cpp.s
 
 shared/core/TextIterator.o: shared/core/TextIterator.cpp.o
@@ -1383,7 +1383,7 @@ shared/core/TextIterator.o: shared/core/TextIterator.cpp.o
 
 # target to build an object file
 shared/core/TextIterator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextIterator.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextIterator.cpp.o
 .PHONY : shared/core/TextIterator.cpp.o
 
 shared/core/TextIterator.i: shared/core/TextIterator.cpp.i
@@ -1391,7 +1391,7 @@ shared/core/TextIterator.i: shared/core/TextIterator.cpp.i
 
 # target to preprocess a source file
 shared/core/TextIterator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextIterator.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextIterator.cpp.i
 .PHONY : shared/core/TextIterator.cpp.i
 
 shared/core/TextIterator.s: shared/core/TextIterator.cpp.s
@@ -1399,7 +1399,7 @@ shared/core/TextIterator.s: shared/core/TextIterator.cpp.s
 
 # target to generate assembly for a file
 shared/core/TextIterator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextIterator.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextIterator.cpp.s
 .PHONY : shared/core/TextIterator.cpp.s
 
 shared/core/TextManager.o: shared/core/TextManager.cpp.o
@@ -1407,7 +1407,7 @@ shared/core/TextManager.o: shared/core/TextManager.cpp.o
 
 # target to build an object file
 shared/core/TextManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextManager.cpp.o
 .PHONY : shared/core/TextManager.cpp.o
 
 shared/core/TextManager.i: shared/core/TextManager.cpp.i
@@ -1415,7 +1415,7 @@ shared/core/TextManager.i: shared/core/TextManager.cpp.i
 
 # target to preprocess a source file
 shared/core/TextManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextManager.cpp.i
 .PHONY : shared/core/TextManager.cpp.i
 
 shared/core/TextManager.s: shared/core/TextManager.cpp.s
@@ -1423,7 +1423,7 @@ shared/core/TextManager.s: shared/core/TextManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/TextManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/TextManager.cpp.s
 .PHONY : shared/core/TextManager.cpp.s
 
 shared/core/Universe.o: shared/core/Universe.cpp.o
@@ -1431,7 +1431,7 @@ shared/core/Universe.o: shared/core/Universe.cpp.o
 
 # target to build an object file
 shared/core/Universe.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/Universe.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/Universe.cpp.o
 .PHONY : shared/core/Universe.cpp.o
 
 shared/core/Universe.i: shared/core/Universe.cpp.i
@@ -1439,7 +1439,7 @@ shared/core/Universe.i: shared/core/Universe.cpp.i
 
 # target to preprocess a source file
 shared/core/Universe.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/Universe.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/Universe.cpp.i
 .PHONY : shared/core/Universe.cpp.i
 
 shared/core/Universe.s: shared/core/Universe.cpp.s
@@ -1447,7 +1447,7 @@ shared/core/Universe.s: shared/core/Universe.cpp.s
 
 # target to generate assembly for a file
 shared/core/Universe.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/Universe.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/Universe.cpp.s
 .PHONY : shared/core/Universe.cpp.s
 
 shared/core/WearableEntry.o: shared/core/WearableEntry.cpp.o
@@ -1455,7 +1455,7 @@ shared/core/WearableEntry.o: shared/core/WearableEntry.cpp.o
 
 # target to build an object file
 shared/core/WearableEntry.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/WearableEntry.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/WearableEntry.cpp.o
 .PHONY : shared/core/WearableEntry.cpp.o
 
 shared/core/WearableEntry.i: shared/core/WearableEntry.cpp.i
@@ -1463,7 +1463,7 @@ shared/core/WearableEntry.i: shared/core/WearableEntry.cpp.i
 
 # target to preprocess a source file
 shared/core/WearableEntry.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/WearableEntry.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/WearableEntry.cpp.i
 .PHONY : shared/core/WearableEntry.cpp.i
 
 shared/core/WearableEntry.s: shared/core/WearableEntry.cpp.s
@@ -1471,7 +1471,7 @@ shared/core/WearableEntry.s: shared/core/WearableEntry.cpp.s
 
 # target to generate assembly for a file
 shared/core/WearableEntry.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/WearableEntry.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/core/WearableEntry.cpp.s
 .PHONY : shared/core/WearableEntry.cpp.s
 
 shared/dynamics/ShipDynamicsModel.o: shared/dynamics/ShipDynamicsModel.cpp.o
@@ -1479,7 +1479,7 @@ shared/dynamics/ShipDynamicsModel.o: shared/dynamics/ShipDynamicsModel.cpp.o
 
 # target to build an object file
 shared/dynamics/ShipDynamicsModel.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/dynamics/ShipDynamicsModel.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/dynamics/ShipDynamicsModel.cpp.o
 .PHONY : shared/dynamics/ShipDynamicsModel.cpp.o
 
 shared/dynamics/ShipDynamicsModel.i: shared/dynamics/ShipDynamicsModel.cpp.i
@@ -1487,7 +1487,7 @@ shared/dynamics/ShipDynamicsModel.i: shared/dynamics/ShipDynamicsModel.cpp.i
 
 # target to preprocess a source file
 shared/dynamics/ShipDynamicsModel.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/dynamics/ShipDynamicsModel.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/dynamics/ShipDynamicsModel.cpp.i
 .PHONY : shared/dynamics/ShipDynamicsModel.cpp.i
 
 shared/dynamics/ShipDynamicsModel.s: shared/dynamics/ShipDynamicsModel.cpp.s
@@ -1495,7 +1495,7 @@ shared/dynamics/ShipDynamicsModel.s: shared/dynamics/ShipDynamicsModel.cpp.s
 
 # target to generate assembly for a file
 shared/dynamics/ShipDynamicsModel.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/dynamics/ShipDynamicsModel.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/dynamics/ShipDynamicsModel.cpp.s
 .PHONY : shared/dynamics/ShipDynamicsModel.cpp.s
 
 shared/mount/MountValidScaleRangeTable.o: shared/mount/MountValidScaleRangeTable.cpp.o
@@ -1503,7 +1503,7 @@ shared/mount/MountValidScaleRangeTable.o: shared/mount/MountValidScaleRangeTable
 
 # target to build an object file
 shared/mount/MountValidScaleRangeTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/MountValidScaleRangeTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/MountValidScaleRangeTable.cpp.o
 .PHONY : shared/mount/MountValidScaleRangeTable.cpp.o
 
 shared/mount/MountValidScaleRangeTable.i: shared/mount/MountValidScaleRangeTable.cpp.i
@@ -1511,7 +1511,7 @@ shared/mount/MountValidScaleRangeTable.i: shared/mount/MountValidScaleRangeTable
 
 # target to preprocess a source file
 shared/mount/MountValidScaleRangeTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/MountValidScaleRangeTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/MountValidScaleRangeTable.cpp.i
 .PHONY : shared/mount/MountValidScaleRangeTable.cpp.i
 
 shared/mount/MountValidScaleRangeTable.s: shared/mount/MountValidScaleRangeTable.cpp.s
@@ -1519,7 +1519,7 @@ shared/mount/MountValidScaleRangeTable.s: shared/mount/MountValidScaleRangeTable
 
 # target to generate assembly for a file
 shared/mount/MountValidScaleRangeTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/MountValidScaleRangeTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/MountValidScaleRangeTable.cpp.s
 .PHONY : shared/mount/MountValidScaleRangeTable.cpp.s
 
 shared/mount/SharedSaddleManager.o: shared/mount/SharedSaddleManager.cpp.o
@@ -1527,7 +1527,7 @@ shared/mount/SharedSaddleManager.o: shared/mount/SharedSaddleManager.cpp.o
 
 # target to build an object file
 shared/mount/SharedSaddleManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/SharedSaddleManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/SharedSaddleManager.cpp.o
 .PHONY : shared/mount/SharedSaddleManager.cpp.o
 
 shared/mount/SharedSaddleManager.i: shared/mount/SharedSaddleManager.cpp.i
@@ -1535,7 +1535,7 @@ shared/mount/SharedSaddleManager.i: shared/mount/SharedSaddleManager.cpp.i
 
 # target to preprocess a source file
 shared/mount/SharedSaddleManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/SharedSaddleManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/SharedSaddleManager.cpp.i
 .PHONY : shared/mount/SharedSaddleManager.cpp.i
 
 shared/mount/SharedSaddleManager.s: shared/mount/SharedSaddleManager.cpp.s
@@ -1543,7 +1543,7 @@ shared/mount/SharedSaddleManager.s: shared/mount/SharedSaddleManager.cpp.s
 
 # target to generate assembly for a file
 shared/mount/SharedSaddleManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/SharedSaddleManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/mount/SharedSaddleManager.cpp.s
 .PHONY : shared/mount/SharedSaddleManager.cpp.s
 
 shared/object/AppearanceManager.o: shared/object/AppearanceManager.cpp.o
@@ -1551,7 +1551,7 @@ shared/object/AppearanceManager.o: shared/object/AppearanceManager.cpp.o
 
 # target to build an object file
 shared/object/AppearanceManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AppearanceManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AppearanceManager.cpp.o
 .PHONY : shared/object/AppearanceManager.cpp.o
 
 shared/object/AppearanceManager.i: shared/object/AppearanceManager.cpp.i
@@ -1559,7 +1559,7 @@ shared/object/AppearanceManager.i: shared/object/AppearanceManager.cpp.i
 
 # target to preprocess a source file
 shared/object/AppearanceManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AppearanceManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AppearanceManager.cpp.i
 .PHONY : shared/object/AppearanceManager.cpp.i
 
 shared/object/AppearanceManager.s: shared/object/AppearanceManager.cpp.s
@@ -1567,7 +1567,7 @@ shared/object/AppearanceManager.s: shared/object/AppearanceManager.cpp.s
 
 # target to generate assembly for a file
 shared/object/AppearanceManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AppearanceManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AppearanceManager.cpp.s
 .PHONY : shared/object/AppearanceManager.cpp.s
 
 shared/object/AttribMod.o: shared/object/AttribMod.cpp.o
@@ -1575,7 +1575,7 @@ shared/object/AttribMod.o: shared/object/AttribMod.cpp.o
 
 # target to build an object file
 shared/object/AttribMod.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribMod.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribMod.cpp.o
 .PHONY : shared/object/AttribMod.cpp.o
 
 shared/object/AttribMod.i: shared/object/AttribMod.cpp.i
@@ -1583,7 +1583,7 @@ shared/object/AttribMod.i: shared/object/AttribMod.cpp.i
 
 # target to preprocess a source file
 shared/object/AttribMod.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribMod.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribMod.cpp.i
 .PHONY : shared/object/AttribMod.cpp.i
 
 shared/object/AttribMod.s: shared/object/AttribMod.cpp.s
@@ -1591,7 +1591,7 @@ shared/object/AttribMod.s: shared/object/AttribMod.cpp.s
 
 # target to generate assembly for a file
 shared/object/AttribMod.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribMod.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribMod.cpp.s
 .PHONY : shared/object/AttribMod.cpp.s
 
 shared/object/AttribModArchive.o: shared/object/AttribModArchive.cpp.o
@@ -1599,7 +1599,7 @@ shared/object/AttribModArchive.o: shared/object/AttribModArchive.cpp.o
 
 # target to build an object file
 shared/object/AttribModArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribModArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribModArchive.cpp.o
 .PHONY : shared/object/AttribModArchive.cpp.o
 
 shared/object/AttribModArchive.i: shared/object/AttribModArchive.cpp.i
@@ -1607,7 +1607,7 @@ shared/object/AttribModArchive.i: shared/object/AttribModArchive.cpp.i
 
 # target to preprocess a source file
 shared/object/AttribModArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribModArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribModArchive.cpp.i
 .PHONY : shared/object/AttribModArchive.cpp.i
 
 shared/object/AttribModArchive.s: shared/object/AttribModArchive.cpp.s
@@ -1615,7 +1615,7 @@ shared/object/AttribModArchive.s: shared/object/AttribModArchive.cpp.s
 
 # target to generate assembly for a file
 shared/object/AttribModArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribModArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/AttribModArchive.cpp.s
 .PHONY : shared/object/AttribModArchive.cpp.s
 
 shared/object/Buff.o: shared/object/Buff.cpp.o
@@ -1623,7 +1623,7 @@ shared/object/Buff.o: shared/object/Buff.cpp.o
 
 # target to build an object file
 shared/object/Buff.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Buff.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Buff.cpp.o
 .PHONY : shared/object/Buff.cpp.o
 
 shared/object/Buff.i: shared/object/Buff.cpp.i
@@ -1631,7 +1631,7 @@ shared/object/Buff.i: shared/object/Buff.cpp.i
 
 # target to preprocess a source file
 shared/object/Buff.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Buff.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Buff.cpp.i
 .PHONY : shared/object/Buff.cpp.i
 
 shared/object/Buff.s: shared/object/Buff.cpp.s
@@ -1639,7 +1639,7 @@ shared/object/Buff.s: shared/object/Buff.cpp.s
 
 # target to generate assembly for a file
 shared/object/Buff.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Buff.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Buff.cpp.s
 .PHONY : shared/object/Buff.cpp.s
 
 shared/object/GroupPickupPoint.o: shared/object/GroupPickupPoint.cpp.o
@@ -1647,7 +1647,7 @@ shared/object/GroupPickupPoint.o: shared/object/GroupPickupPoint.cpp.o
 
 # target to build an object file
 shared/object/GroupPickupPoint.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/GroupPickupPoint.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/GroupPickupPoint.cpp.o
 .PHONY : shared/object/GroupPickupPoint.cpp.o
 
 shared/object/GroupPickupPoint.i: shared/object/GroupPickupPoint.cpp.i
@@ -1655,7 +1655,7 @@ shared/object/GroupPickupPoint.i: shared/object/GroupPickupPoint.cpp.i
 
 # target to preprocess a source file
 shared/object/GroupPickupPoint.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/GroupPickupPoint.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/GroupPickupPoint.cpp.i
 .PHONY : shared/object/GroupPickupPoint.cpp.i
 
 shared/object/GroupPickupPoint.s: shared/object/GroupPickupPoint.cpp.s
@@ -1663,7 +1663,7 @@ shared/object/GroupPickupPoint.s: shared/object/GroupPickupPoint.cpp.s
 
 # target to generate assembly for a file
 shared/object/GroupPickupPoint.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/GroupPickupPoint.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/GroupPickupPoint.cpp.s
 .PHONY : shared/object/GroupPickupPoint.cpp.s
 
 shared/object/LotManagerNotification.o: shared/object/LotManagerNotification.cpp.o
@@ -1671,7 +1671,7 @@ shared/object/LotManagerNotification.o: shared/object/LotManagerNotification.cpp
 
 # target to build an object file
 shared/object/LotManagerNotification.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/LotManagerNotification.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/LotManagerNotification.cpp.o
 .PHONY : shared/object/LotManagerNotification.cpp.o
 
 shared/object/LotManagerNotification.i: shared/object/LotManagerNotification.cpp.i
@@ -1679,7 +1679,7 @@ shared/object/LotManagerNotification.i: shared/object/LotManagerNotification.cpp
 
 # target to preprocess a source file
 shared/object/LotManagerNotification.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/LotManagerNotification.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/LotManagerNotification.cpp.i
 .PHONY : shared/object/LotManagerNotification.cpp.i
 
 shared/object/LotManagerNotification.s: shared/object/LotManagerNotification.cpp.s
@@ -1687,7 +1687,7 @@ shared/object/LotManagerNotification.s: shared/object/LotManagerNotification.cpp
 
 # target to generate assembly for a file
 shared/object/LotManagerNotification.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/LotManagerNotification.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/LotManagerNotification.cpp.s
 .PHONY : shared/object/LotManagerNotification.cpp.s
 
 shared/object/MatchMakingCharacterPreferenceId.o: shared/object/MatchMakingCharacterPreferenceId.cpp.o
@@ -1695,7 +1695,7 @@ shared/object/MatchMakingCharacterPreferenceId.o: shared/object/MatchMakingChara
 
 # target to build an object file
 shared/object/MatchMakingCharacterPreferenceId.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterPreferenceId.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterPreferenceId.cpp.o
 .PHONY : shared/object/MatchMakingCharacterPreferenceId.cpp.o
 
 shared/object/MatchMakingCharacterPreferenceId.i: shared/object/MatchMakingCharacterPreferenceId.cpp.i
@@ -1703,7 +1703,7 @@ shared/object/MatchMakingCharacterPreferenceId.i: shared/object/MatchMakingChara
 
 # target to preprocess a source file
 shared/object/MatchMakingCharacterPreferenceId.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterPreferenceId.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterPreferenceId.cpp.i
 .PHONY : shared/object/MatchMakingCharacterPreferenceId.cpp.i
 
 shared/object/MatchMakingCharacterPreferenceId.s: shared/object/MatchMakingCharacterPreferenceId.cpp.s
@@ -1711,7 +1711,7 @@ shared/object/MatchMakingCharacterPreferenceId.s: shared/object/MatchMakingChara
 
 # target to generate assembly for a file
 shared/object/MatchMakingCharacterPreferenceId.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterPreferenceId.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterPreferenceId.cpp.s
 .PHONY : shared/object/MatchMakingCharacterPreferenceId.cpp.s
 
 shared/object/MatchMakingCharacterProfileId.o: shared/object/MatchMakingCharacterProfileId.cpp.o
@@ -1719,7 +1719,7 @@ shared/object/MatchMakingCharacterProfileId.o: shared/object/MatchMakingCharacte
 
 # target to build an object file
 shared/object/MatchMakingCharacterProfileId.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterProfileId.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterProfileId.cpp.o
 .PHONY : shared/object/MatchMakingCharacterProfileId.cpp.o
 
 shared/object/MatchMakingCharacterProfileId.i: shared/object/MatchMakingCharacterProfileId.cpp.i
@@ -1727,7 +1727,7 @@ shared/object/MatchMakingCharacterProfileId.i: shared/object/MatchMakingCharacte
 
 # target to preprocess a source file
 shared/object/MatchMakingCharacterProfileId.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterProfileId.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterProfileId.cpp.i
 .PHONY : shared/object/MatchMakingCharacterProfileId.cpp.i
 
 shared/object/MatchMakingCharacterProfileId.s: shared/object/MatchMakingCharacterProfileId.cpp.s
@@ -1735,7 +1735,7 @@ shared/object/MatchMakingCharacterProfileId.s: shared/object/MatchMakingCharacte
 
 # target to generate assembly for a file
 shared/object/MatchMakingCharacterProfileId.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterProfileId.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterProfileId.cpp.s
 .PHONY : shared/object/MatchMakingCharacterProfileId.cpp.s
 
 shared/object/MatchMakingCharacterResult.o: shared/object/MatchMakingCharacterResult.cpp.o
@@ -1743,7 +1743,7 @@ shared/object/MatchMakingCharacterResult.o: shared/object/MatchMakingCharacterRe
 
 # target to build an object file
 shared/object/MatchMakingCharacterResult.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterResult.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterResult.cpp.o
 .PHONY : shared/object/MatchMakingCharacterResult.cpp.o
 
 shared/object/MatchMakingCharacterResult.i: shared/object/MatchMakingCharacterResult.cpp.i
@@ -1751,7 +1751,7 @@ shared/object/MatchMakingCharacterResult.i: shared/object/MatchMakingCharacterRe
 
 # target to preprocess a source file
 shared/object/MatchMakingCharacterResult.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterResult.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterResult.cpp.i
 .PHONY : shared/object/MatchMakingCharacterResult.cpp.i
 
 shared/object/MatchMakingCharacterResult.s: shared/object/MatchMakingCharacterResult.cpp.s
@@ -1759,7 +1759,7 @@ shared/object/MatchMakingCharacterResult.s: shared/object/MatchMakingCharacterRe
 
 # target to generate assembly for a file
 shared/object/MatchMakingCharacterResult.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterResult.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingCharacterResult.cpp.s
 .PHONY : shared/object/MatchMakingCharacterResult.cpp.s
 
 shared/object/MatchMakingId.o: shared/object/MatchMakingId.cpp.o
@@ -1767,7 +1767,7 @@ shared/object/MatchMakingId.o: shared/object/MatchMakingId.cpp.o
 
 # target to build an object file
 shared/object/MatchMakingId.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingId.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingId.cpp.o
 .PHONY : shared/object/MatchMakingId.cpp.o
 
 shared/object/MatchMakingId.i: shared/object/MatchMakingId.cpp.i
@@ -1775,7 +1775,7 @@ shared/object/MatchMakingId.i: shared/object/MatchMakingId.cpp.i
 
 # target to preprocess a source file
 shared/object/MatchMakingId.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingId.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingId.cpp.i
 .PHONY : shared/object/MatchMakingId.cpp.i
 
 shared/object/MatchMakingId.s: shared/object/MatchMakingId.cpp.s
@@ -1783,7 +1783,7 @@ shared/object/MatchMakingId.s: shared/object/MatchMakingId.cpp.s
 
 # target to generate assembly for a file
 shared/object/MatchMakingId.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingId.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/MatchMakingId.cpp.s
 .PHONY : shared/object/MatchMakingId.cpp.s
 
 shared/object/NoBuildNotification.o: shared/object/NoBuildNotification.cpp.o
@@ -1791,7 +1791,7 @@ shared/object/NoBuildNotification.o: shared/object/NoBuildNotification.cpp.o
 
 # target to build an object file
 shared/object/NoBuildNotification.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/NoBuildNotification.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/NoBuildNotification.cpp.o
 .PHONY : shared/object/NoBuildNotification.cpp.o
 
 shared/object/NoBuildNotification.i: shared/object/NoBuildNotification.cpp.i
@@ -1799,7 +1799,7 @@ shared/object/NoBuildNotification.i: shared/object/NoBuildNotification.cpp.i
 
 # target to preprocess a source file
 shared/object/NoBuildNotification.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/NoBuildNotification.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/NoBuildNotification.cpp.i
 .PHONY : shared/object/NoBuildNotification.cpp.i
 
 shared/object/NoBuildNotification.s: shared/object/NoBuildNotification.cpp.s
@@ -1807,7 +1807,7 @@ shared/object/NoBuildNotification.s: shared/object/NoBuildNotification.cpp.s
 
 # target to generate assembly for a file
 shared/object/NoBuildNotification.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/NoBuildNotification.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/NoBuildNotification.cpp.s
 .PHONY : shared/object/NoBuildNotification.cpp.s
 
 shared/object/ObjectUsabilityManager.o: shared/object/ObjectUsabilityManager.cpp.o
@@ -1815,7 +1815,7 @@ shared/object/ObjectUsabilityManager.o: shared/object/ObjectUsabilityManager.cpp
 
 # target to build an object file
 shared/object/ObjectUsabilityManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ObjectUsabilityManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ObjectUsabilityManager.cpp.o
 .PHONY : shared/object/ObjectUsabilityManager.cpp.o
 
 shared/object/ObjectUsabilityManager.i: shared/object/ObjectUsabilityManager.cpp.i
@@ -1823,7 +1823,7 @@ shared/object/ObjectUsabilityManager.i: shared/object/ObjectUsabilityManager.cpp
 
 # target to preprocess a source file
 shared/object/ObjectUsabilityManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ObjectUsabilityManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ObjectUsabilityManager.cpp.i
 .PHONY : shared/object/ObjectUsabilityManager.cpp.i
 
 shared/object/ObjectUsabilityManager.s: shared/object/ObjectUsabilityManager.cpp.s
@@ -1831,7 +1831,7 @@ shared/object/ObjectUsabilityManager.s: shared/object/ObjectUsabilityManager.cpp
 
 # target to generate assembly for a file
 shared/object/ObjectUsabilityManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ObjectUsabilityManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ObjectUsabilityManager.cpp.s
 .PHONY : shared/object/ObjectUsabilityManager.cpp.s
 
 shared/object/ResourceClassObject.o: shared/object/ResourceClassObject.cpp.o
@@ -1839,7 +1839,7 @@ shared/object/ResourceClassObject.o: shared/object/ResourceClassObject.cpp.o
 
 # target to build an object file
 shared/object/ResourceClassObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ResourceClassObject.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ResourceClassObject.cpp.o
 .PHONY : shared/object/ResourceClassObject.cpp.o
 
 shared/object/ResourceClassObject.i: shared/object/ResourceClassObject.cpp.i
@@ -1847,7 +1847,7 @@ shared/object/ResourceClassObject.i: shared/object/ResourceClassObject.cpp.i
 
 # target to preprocess a source file
 shared/object/ResourceClassObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ResourceClassObject.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ResourceClassObject.cpp.i
 .PHONY : shared/object/ResourceClassObject.cpp.i
 
 shared/object/ResourceClassObject.s: shared/object/ResourceClassObject.cpp.s
@@ -1855,7 +1855,7 @@ shared/object/ResourceClassObject.s: shared/object/ResourceClassObject.cpp.s
 
 # target to generate assembly for a file
 shared/object/ResourceClassObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ResourceClassObject.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ResourceClassObject.cpp.s
 .PHONY : shared/object/ResourceClassObject.cpp.s
 
 shared/object/ShipObjectInterface.o: shared/object/ShipObjectInterface.cpp.o
@@ -1863,7 +1863,7 @@ shared/object/ShipObjectInterface.o: shared/object/ShipObjectInterface.cpp.o
 
 # target to build an object file
 shared/object/ShipObjectInterface.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ShipObjectInterface.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ShipObjectInterface.cpp.o
 .PHONY : shared/object/ShipObjectInterface.cpp.o
 
 shared/object/ShipObjectInterface.i: shared/object/ShipObjectInterface.cpp.i
@@ -1871,7 +1871,7 @@ shared/object/ShipObjectInterface.i: shared/object/ShipObjectInterface.cpp.i
 
 # target to preprocess a source file
 shared/object/ShipObjectInterface.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ShipObjectInterface.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ShipObjectInterface.cpp.i
 .PHONY : shared/object/ShipObjectInterface.cpp.i
 
 shared/object/ShipObjectInterface.s: shared/object/ShipObjectInterface.cpp.s
@@ -1879,7 +1879,7 @@ shared/object/ShipObjectInterface.s: shared/object/ShipObjectInterface.cpp.s
 
 # target to generate assembly for a file
 shared/object/ShipObjectInterface.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ShipObjectInterface.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/ShipObjectInterface.cpp.s
 .PHONY : shared/object/ShipObjectInterface.cpp.s
 
 shared/object/SlopeEffectProperty.o: shared/object/SlopeEffectProperty.cpp.o
@@ -1887,7 +1887,7 @@ shared/object/SlopeEffectProperty.o: shared/object/SlopeEffectProperty.cpp.o
 
 # target to build an object file
 shared/object/SlopeEffectProperty.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlopeEffectProperty.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlopeEffectProperty.cpp.o
 .PHONY : shared/object/SlopeEffectProperty.cpp.o
 
 shared/object/SlopeEffectProperty.i: shared/object/SlopeEffectProperty.cpp.i
@@ -1895,7 +1895,7 @@ shared/object/SlopeEffectProperty.i: shared/object/SlopeEffectProperty.cpp.i
 
 # target to preprocess a source file
 shared/object/SlopeEffectProperty.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlopeEffectProperty.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlopeEffectProperty.cpp.i
 .PHONY : shared/object/SlopeEffectProperty.cpp.i
 
 shared/object/SlopeEffectProperty.s: shared/object/SlopeEffectProperty.cpp.s
@@ -1903,7 +1903,7 @@ shared/object/SlopeEffectProperty.s: shared/object/SlopeEffectProperty.cpp.s
 
 # target to generate assembly for a file
 shared/object/SlopeEffectProperty.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlopeEffectProperty.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlopeEffectProperty.cpp.s
 .PHONY : shared/object/SlopeEffectProperty.cpp.s
 
 shared/object/SlowDownProperty.o: shared/object/SlowDownProperty.cpp.o
@@ -1911,7 +1911,7 @@ shared/object/SlowDownProperty.o: shared/object/SlowDownProperty.cpp.o
 
 # target to build an object file
 shared/object/SlowDownProperty.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlowDownProperty.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlowDownProperty.cpp.o
 .PHONY : shared/object/SlowDownProperty.cpp.o
 
 shared/object/SlowDownProperty.i: shared/object/SlowDownProperty.cpp.i
@@ -1919,7 +1919,7 @@ shared/object/SlowDownProperty.i: shared/object/SlowDownProperty.cpp.i
 
 # target to preprocess a source file
 shared/object/SlowDownProperty.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlowDownProperty.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlowDownProperty.cpp.i
 .PHONY : shared/object/SlowDownProperty.cpp.i
 
 shared/object/SlowDownProperty.s: shared/object/SlowDownProperty.cpp.s
@@ -1927,7 +1927,7 @@ shared/object/SlowDownProperty.s: shared/object/SlowDownProperty.cpp.s
 
 # target to generate assembly for a file
 shared/object/SlowDownProperty.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlowDownProperty.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/SlowDownProperty.cpp.s
 .PHONY : shared/object/SlowDownProperty.cpp.s
 
 shared/object/VehicleHoverDynamics.o: shared/object/VehicleHoverDynamics.cpp.o
@@ -1935,7 +1935,7 @@ shared/object/VehicleHoverDynamics.o: shared/object/VehicleHoverDynamics.cpp.o
 
 # target to build an object file
 shared/object/VehicleHoverDynamics.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/VehicleHoverDynamics.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/VehicleHoverDynamics.cpp.o
 .PHONY : shared/object/VehicleHoverDynamics.cpp.o
 
 shared/object/VehicleHoverDynamics.i: shared/object/VehicleHoverDynamics.cpp.i
@@ -1943,7 +1943,7 @@ shared/object/VehicleHoverDynamics.i: shared/object/VehicleHoverDynamics.cpp.i
 
 # target to preprocess a source file
 shared/object/VehicleHoverDynamics.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/VehicleHoverDynamics.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/VehicleHoverDynamics.cpp.i
 .PHONY : shared/object/VehicleHoverDynamics.cpp.i
 
 shared/object/VehicleHoverDynamics.s: shared/object/VehicleHoverDynamics.cpp.s
@@ -1951,7 +1951,7 @@ shared/object/VehicleHoverDynamics.s: shared/object/VehicleHoverDynamics.cpp.s
 
 # target to generate assembly for a file
 shared/object/VehicleHoverDynamics.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/VehicleHoverDynamics.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/VehicleHoverDynamics.cpp.s
 .PHONY : shared/object/VehicleHoverDynamics.cpp.s
 
 shared/object/Waypoint.o: shared/object/Waypoint.cpp.o
@@ -1959,7 +1959,7 @@ shared/object/Waypoint.o: shared/object/Waypoint.cpp.o
 
 # target to build an object file
 shared/object/Waypoint.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Waypoint.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Waypoint.cpp.o
 .PHONY : shared/object/Waypoint.cpp.o
 
 shared/object/Waypoint.i: shared/object/Waypoint.cpp.i
@@ -1967,7 +1967,7 @@ shared/object/Waypoint.i: shared/object/Waypoint.cpp.i
 
 # target to preprocess a source file
 shared/object/Waypoint.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Waypoint.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Waypoint.cpp.i
 .PHONY : shared/object/Waypoint.cpp.i
 
 shared/object/Waypoint.s: shared/object/Waypoint.cpp.s
@@ -1975,7 +1975,7 @@ shared/object/Waypoint.s: shared/object/Waypoint.cpp.s
 
 # target to generate assembly for a file
 shared/object/Waypoint.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Waypoint.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/Waypoint.cpp.s
 .PHONY : shared/object/Waypoint.cpp.s
 
 shared/object/WaypointData.o: shared/object/WaypointData.cpp.o
@@ -1983,7 +1983,7 @@ shared/object/WaypointData.o: shared/object/WaypointData.cpp.o
 
 # target to build an object file
 shared/object/WaypointData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/WaypointData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/WaypointData.cpp.o
 .PHONY : shared/object/WaypointData.cpp.o
 
 shared/object/WaypointData.i: shared/object/WaypointData.cpp.i
@@ -1991,7 +1991,7 @@ shared/object/WaypointData.i: shared/object/WaypointData.cpp.i
 
 # target to preprocess a source file
 shared/object/WaypointData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/WaypointData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/WaypointData.cpp.i
 .PHONY : shared/object/WaypointData.cpp.i
 
 shared/object/WaypointData.s: shared/object/WaypointData.cpp.s
@@ -1999,7 +1999,7 @@ shared/object/WaypointData.s: shared/object/WaypointData.cpp.s
 
 # target to generate assembly for a file
 shared/object/WaypointData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/WaypointData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/object/WaypointData.cpp.s
 .PHONY : shared/object/WaypointData.cpp.s
 
 shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.o: shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.o
@@ -2007,7 +2007,7 @@ shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.o: shared/objectTemp
 
 # target to build an object file
 shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.i: shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.i
@@ -2015,7 +2015,7 @@ shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.i: shared/objectTemp
 
 # target to preprocess a source file
 shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.s: shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.s
@@ -2023,7 +2023,7 @@ shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.s: shared/objectTemp
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedBattlefieldMarkerObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedBuildingObjectTemplate.o: shared/objectTemplate/SharedBuildingObjectTemplate.cpp.o
@@ -2031,7 +2031,7 @@ shared/objectTemplate/SharedBuildingObjectTemplate.o: shared/objectTemplate/Shar
 
 # target to build an object file
 shared/objectTemplate/SharedBuildingObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBuildingObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBuildingObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedBuildingObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedBuildingObjectTemplate.i: shared/objectTemplate/SharedBuildingObjectTemplate.cpp.i
@@ -2039,7 +2039,7 @@ shared/objectTemplate/SharedBuildingObjectTemplate.i: shared/objectTemplate/Shar
 
 # target to preprocess a source file
 shared/objectTemplate/SharedBuildingObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBuildingObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBuildingObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedBuildingObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedBuildingObjectTemplate.s: shared/objectTemplate/SharedBuildingObjectTemplate.cpp.s
@@ -2047,7 +2047,7 @@ shared/objectTemplate/SharedBuildingObjectTemplate.s: shared/objectTemplate/Shar
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedBuildingObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBuildingObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedBuildingObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedBuildingObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedCellObjectTemplate.o: shared/objectTemplate/SharedCellObjectTemplate.cpp.o
@@ -2055,7 +2055,7 @@ shared/objectTemplate/SharedCellObjectTemplate.o: shared/objectTemplate/SharedCe
 
 # target to build an object file
 shared/objectTemplate/SharedCellObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCellObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCellObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedCellObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedCellObjectTemplate.i: shared/objectTemplate/SharedCellObjectTemplate.cpp.i
@@ -2063,7 +2063,7 @@ shared/objectTemplate/SharedCellObjectTemplate.i: shared/objectTemplate/SharedCe
 
 # target to preprocess a source file
 shared/objectTemplate/SharedCellObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCellObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCellObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedCellObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedCellObjectTemplate.s: shared/objectTemplate/SharedCellObjectTemplate.cpp.s
@@ -2071,7 +2071,7 @@ shared/objectTemplate/SharedCellObjectTemplate.s: shared/objectTemplate/SharedCe
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedCellObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCellObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCellObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedCellObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedConstructionContractObjectTemplate.o: shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.o
@@ -2079,7 +2079,7 @@ shared/objectTemplate/SharedConstructionContractObjectTemplate.o: shared/objectT
 
 # target to build an object file
 shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedConstructionContractObjectTemplate.i: shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.i
@@ -2087,7 +2087,7 @@ shared/objectTemplate/SharedConstructionContractObjectTemplate.i: shared/objectT
 
 # target to preprocess a source file
 shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedConstructionContractObjectTemplate.s: shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.s
@@ -2095,7 +2095,7 @@ shared/objectTemplate/SharedConstructionContractObjectTemplate.s: shared/objectT
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedConstructionContractObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedCreatureObjectTemplate.o: shared/objectTemplate/SharedCreatureObjectTemplate.cpp.o
@@ -2103,7 +2103,7 @@ shared/objectTemplate/SharedCreatureObjectTemplate.o: shared/objectTemplate/Shar
 
 # target to build an object file
 shared/objectTemplate/SharedCreatureObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCreatureObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCreatureObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedCreatureObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedCreatureObjectTemplate.i: shared/objectTemplate/SharedCreatureObjectTemplate.cpp.i
@@ -2111,7 +2111,7 @@ shared/objectTemplate/SharedCreatureObjectTemplate.i: shared/objectTemplate/Shar
 
 # target to preprocess a source file
 shared/objectTemplate/SharedCreatureObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCreatureObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCreatureObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedCreatureObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedCreatureObjectTemplate.s: shared/objectTemplate/SharedCreatureObjectTemplate.cpp.s
@@ -2119,7 +2119,7 @@ shared/objectTemplate/SharedCreatureObjectTemplate.s: shared/objectTemplate/Shar
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedCreatureObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCreatureObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedCreatureObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedCreatureObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedDraftSchematicObjectTemplate.o: shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.o
@@ -2127,7 +2127,7 @@ shared/objectTemplate/SharedDraftSchematicObjectTemplate.o: shared/objectTemplat
 
 # target to build an object file
 shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedDraftSchematicObjectTemplate.i: shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.i
@@ -2135,7 +2135,7 @@ shared/objectTemplate/SharedDraftSchematicObjectTemplate.i: shared/objectTemplat
 
 # target to preprocess a source file
 shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedDraftSchematicObjectTemplate.s: shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.s
@@ -2143,7 +2143,7 @@ shared/objectTemplate/SharedDraftSchematicObjectTemplate.s: shared/objectTemplat
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedDraftSchematicObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedFactoryObjectTemplate.o: shared/objectTemplate/SharedFactoryObjectTemplate.cpp.o
@@ -2151,7 +2151,7 @@ shared/objectTemplate/SharedFactoryObjectTemplate.o: shared/objectTemplate/Share
 
 # target to build an object file
 shared/objectTemplate/SharedFactoryObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedFactoryObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedFactoryObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedFactoryObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedFactoryObjectTemplate.i: shared/objectTemplate/SharedFactoryObjectTemplate.cpp.i
@@ -2159,7 +2159,7 @@ shared/objectTemplate/SharedFactoryObjectTemplate.i: shared/objectTemplate/Share
 
 # target to preprocess a source file
 shared/objectTemplate/SharedFactoryObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedFactoryObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedFactoryObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedFactoryObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedFactoryObjectTemplate.s: shared/objectTemplate/SharedFactoryObjectTemplate.cpp.s
@@ -2167,7 +2167,7 @@ shared/objectTemplate/SharedFactoryObjectTemplate.s: shared/objectTemplate/Share
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedFactoryObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedFactoryObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedFactoryObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedFactoryObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedGroupObjectTemplate.o: shared/objectTemplate/SharedGroupObjectTemplate.cpp.o
@@ -2175,7 +2175,7 @@ shared/objectTemplate/SharedGroupObjectTemplate.o: shared/objectTemplate/SharedG
 
 # target to build an object file
 shared/objectTemplate/SharedGroupObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGroupObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGroupObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedGroupObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedGroupObjectTemplate.i: shared/objectTemplate/SharedGroupObjectTemplate.cpp.i
@@ -2183,7 +2183,7 @@ shared/objectTemplate/SharedGroupObjectTemplate.i: shared/objectTemplate/SharedG
 
 # target to preprocess a source file
 shared/objectTemplate/SharedGroupObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGroupObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGroupObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedGroupObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedGroupObjectTemplate.s: shared/objectTemplate/SharedGroupObjectTemplate.cpp.s
@@ -2191,7 +2191,7 @@ shared/objectTemplate/SharedGroupObjectTemplate.s: shared/objectTemplate/SharedG
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedGroupObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGroupObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGroupObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedGroupObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedGuildObjectTemplate.o: shared/objectTemplate/SharedGuildObjectTemplate.cpp.o
@@ -2199,7 +2199,7 @@ shared/objectTemplate/SharedGuildObjectTemplate.o: shared/objectTemplate/SharedG
 
 # target to build an object file
 shared/objectTemplate/SharedGuildObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGuildObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGuildObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedGuildObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedGuildObjectTemplate.i: shared/objectTemplate/SharedGuildObjectTemplate.cpp.i
@@ -2207,7 +2207,7 @@ shared/objectTemplate/SharedGuildObjectTemplate.i: shared/objectTemplate/SharedG
 
 # target to preprocess a source file
 shared/objectTemplate/SharedGuildObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGuildObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGuildObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedGuildObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedGuildObjectTemplate.s: shared/objectTemplate/SharedGuildObjectTemplate.cpp.s
@@ -2215,7 +2215,7 @@ shared/objectTemplate/SharedGuildObjectTemplate.s: shared/objectTemplate/SharedG
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedGuildObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGuildObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedGuildObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedGuildObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedInstallationObjectTemplate.o: shared/objectTemplate/SharedInstallationObjectTemplate.cpp.o
@@ -2223,7 +2223,7 @@ shared/objectTemplate/SharedInstallationObjectTemplate.o: shared/objectTemplate/
 
 # target to build an object file
 shared/objectTemplate/SharedInstallationObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedInstallationObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedInstallationObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedInstallationObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedInstallationObjectTemplate.i: shared/objectTemplate/SharedInstallationObjectTemplate.cpp.i
@@ -2231,7 +2231,7 @@ shared/objectTemplate/SharedInstallationObjectTemplate.i: shared/objectTemplate/
 
 # target to preprocess a source file
 shared/objectTemplate/SharedInstallationObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedInstallationObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedInstallationObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedInstallationObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedInstallationObjectTemplate.s: shared/objectTemplate/SharedInstallationObjectTemplate.cpp.s
@@ -2239,7 +2239,7 @@ shared/objectTemplate/SharedInstallationObjectTemplate.s: shared/objectTemplate/
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedInstallationObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedInstallationObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedInstallationObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedInstallationObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedIntangibleObjectTemplate.o: shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.o
@@ -2247,7 +2247,7 @@ shared/objectTemplate/SharedIntangibleObjectTemplate.o: shared/objectTemplate/Sh
 
 # target to build an object file
 shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedIntangibleObjectTemplate.i: shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.i
@@ -2255,7 +2255,7 @@ shared/objectTemplate/SharedIntangibleObjectTemplate.i: shared/objectTemplate/Sh
 
 # target to preprocess a source file
 shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedIntangibleObjectTemplate.s: shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.s
@@ -2263,7 +2263,7 @@ shared/objectTemplate/SharedIntangibleObjectTemplate.s: shared/objectTemplate/Sh
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedIntangibleObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedJediManagerObjectTemplate.o: shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.o
@@ -2271,7 +2271,7 @@ shared/objectTemplate/SharedJediManagerObjectTemplate.o: shared/objectTemplate/S
 
 # target to build an object file
 shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedJediManagerObjectTemplate.i: shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.i
@@ -2279,7 +2279,7 @@ shared/objectTemplate/SharedJediManagerObjectTemplate.i: shared/objectTemplate/S
 
 # target to preprocess a source file
 shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedJediManagerObjectTemplate.s: shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.s
@@ -2287,7 +2287,7 @@ shared/objectTemplate/SharedJediManagerObjectTemplate.s: shared/objectTemplate/S
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedJediManagerObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedManufactureSchematicObjectTemplate.o: shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.o
@@ -2295,7 +2295,7 @@ shared/objectTemplate/SharedManufactureSchematicObjectTemplate.o: shared/objectT
 
 # target to build an object file
 shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedManufactureSchematicObjectTemplate.i: shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.i
@@ -2303,7 +2303,7 @@ shared/objectTemplate/SharedManufactureSchematicObjectTemplate.i: shared/objectT
 
 # target to preprocess a source file
 shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedManufactureSchematicObjectTemplate.s: shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.s
@@ -2311,7 +2311,7 @@ shared/objectTemplate/SharedManufactureSchematicObjectTemplate.s: shared/objectT
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedManufactureSchematicObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedMissionDataObjectTemplate.o: shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.o
@@ -2319,7 +2319,7 @@ shared/objectTemplate/SharedMissionDataObjectTemplate.o: shared/objectTemplate/S
 
 # target to build an object file
 shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedMissionDataObjectTemplate.i: shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.i
@@ -2327,7 +2327,7 @@ shared/objectTemplate/SharedMissionDataObjectTemplate.i: shared/objectTemplate/S
 
 # target to preprocess a source file
 shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedMissionDataObjectTemplate.s: shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.s
@@ -2335,7 +2335,7 @@ shared/objectTemplate/SharedMissionDataObjectTemplate.s: shared/objectTemplate/S
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedMissionDataObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedMissionListEntryObjectTemplate.o: shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.o
@@ -2343,7 +2343,7 @@ shared/objectTemplate/SharedMissionListEntryObjectTemplate.o: shared/objectTempl
 
 # target to build an object file
 shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedMissionListEntryObjectTemplate.i: shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.i
@@ -2351,7 +2351,7 @@ shared/objectTemplate/SharedMissionListEntryObjectTemplate.i: shared/objectTempl
 
 # target to preprocess a source file
 shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedMissionListEntryObjectTemplate.s: shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.s
@@ -2359,7 +2359,7 @@ shared/objectTemplate/SharedMissionListEntryObjectTemplate.s: shared/objectTempl
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedMissionListEntryObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedMissionObjectTemplate.o: shared/objectTemplate/SharedMissionObjectTemplate.cpp.o
@@ -2367,7 +2367,7 @@ shared/objectTemplate/SharedMissionObjectTemplate.o: shared/objectTemplate/Share
 
 # target to build an object file
 shared/objectTemplate/SharedMissionObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedMissionObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedMissionObjectTemplate.i: shared/objectTemplate/SharedMissionObjectTemplate.cpp.i
@@ -2375,7 +2375,7 @@ shared/objectTemplate/SharedMissionObjectTemplate.i: shared/objectTemplate/Share
 
 # target to preprocess a source file
 shared/objectTemplate/SharedMissionObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedMissionObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedMissionObjectTemplate.s: shared/objectTemplate/SharedMissionObjectTemplate.cpp.s
@@ -2383,7 +2383,7 @@ shared/objectTemplate/SharedMissionObjectTemplate.s: shared/objectTemplate/Share
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedMissionObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedMissionObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedMissionObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedObjectTemplate.o: shared/objectTemplate/SharedObjectTemplate.cpp.o
@@ -2391,7 +2391,7 @@ shared/objectTemplate/SharedObjectTemplate.o: shared/objectTemplate/SharedObject
 
 # target to build an object file
 shared/objectTemplate/SharedObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedObjectTemplate.i: shared/objectTemplate/SharedObjectTemplate.cpp.i
@@ -2399,7 +2399,7 @@ shared/objectTemplate/SharedObjectTemplate.i: shared/objectTemplate/SharedObject
 
 # target to preprocess a source file
 shared/objectTemplate/SharedObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedObjectTemplate.s: shared/objectTemplate/SharedObjectTemplate.cpp.s
@@ -2407,7 +2407,7 @@ shared/objectTemplate/SharedObjectTemplate.s: shared/objectTemplate/SharedObject
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedPlayerObjectTemplate.o: shared/objectTemplate/SharedPlayerObjectTemplate.cpp.o
@@ -2415,7 +2415,7 @@ shared/objectTemplate/SharedPlayerObjectTemplate.o: shared/objectTemplate/Shared
 
 # target to build an object file
 shared/objectTemplate/SharedPlayerObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedPlayerObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedPlayerObjectTemplate.i: shared/objectTemplate/SharedPlayerObjectTemplate.cpp.i
@@ -2423,7 +2423,7 @@ shared/objectTemplate/SharedPlayerObjectTemplate.i: shared/objectTemplate/Shared
 
 # target to preprocess a source file
 shared/objectTemplate/SharedPlayerObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedPlayerObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedPlayerObjectTemplate.s: shared/objectTemplate/SharedPlayerObjectTemplate.cpp.s
@@ -2431,7 +2431,7 @@ shared/objectTemplate/SharedPlayerObjectTemplate.s: shared/objectTemplate/Shared
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedPlayerObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedPlayerObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedPlayerQuestObjectTemplate.o: shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.o
@@ -2439,7 +2439,7 @@ shared/objectTemplate/SharedPlayerQuestObjectTemplate.o: shared/objectTemplate/S
 
 # target to build an object file
 shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedPlayerQuestObjectTemplate.i: shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.i
@@ -2447,7 +2447,7 @@ shared/objectTemplate/SharedPlayerQuestObjectTemplate.i: shared/objectTemplate/S
 
 # target to preprocess a source file
 shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedPlayerQuestObjectTemplate.s: shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.s
@@ -2455,7 +2455,7 @@ shared/objectTemplate/SharedPlayerQuestObjectTemplate.s: shared/objectTemplate/S
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedPlayerQuestObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedResourceContainerObjectTemplate.o: shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.o
@@ -2463,7 +2463,7 @@ shared/objectTemplate/SharedResourceContainerObjectTemplate.o: shared/objectTemp
 
 # target to build an object file
 shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedResourceContainerObjectTemplate.i: shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.i
@@ -2471,7 +2471,7 @@ shared/objectTemplate/SharedResourceContainerObjectTemplate.i: shared/objectTemp
 
 # target to preprocess a source file
 shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedResourceContainerObjectTemplate.s: shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.s
@@ -2479,7 +2479,7 @@ shared/objectTemplate/SharedResourceContainerObjectTemplate.s: shared/objectTemp
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedResourceContainerObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedShipObjectTemplate.o: shared/objectTemplate/SharedShipObjectTemplate.cpp.o
@@ -2487,7 +2487,7 @@ shared/objectTemplate/SharedShipObjectTemplate.o: shared/objectTemplate/SharedSh
 
 # target to build an object file
 shared/objectTemplate/SharedShipObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedShipObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedShipObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedShipObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedShipObjectTemplate.i: shared/objectTemplate/SharedShipObjectTemplate.cpp.i
@@ -2495,7 +2495,7 @@ shared/objectTemplate/SharedShipObjectTemplate.i: shared/objectTemplate/SharedSh
 
 # target to preprocess a source file
 shared/objectTemplate/SharedShipObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedShipObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedShipObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedShipObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedShipObjectTemplate.s: shared/objectTemplate/SharedShipObjectTemplate.cpp.s
@@ -2503,7 +2503,7 @@ shared/objectTemplate/SharedShipObjectTemplate.s: shared/objectTemplate/SharedSh
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedShipObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedShipObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedShipObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedShipObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedStaticObjectTemplate.o: shared/objectTemplate/SharedStaticObjectTemplate.cpp.o
@@ -2511,7 +2511,7 @@ shared/objectTemplate/SharedStaticObjectTemplate.o: shared/objectTemplate/Shared
 
 # target to build an object file
 shared/objectTemplate/SharedStaticObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedStaticObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedStaticObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedStaticObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedStaticObjectTemplate.i: shared/objectTemplate/SharedStaticObjectTemplate.cpp.i
@@ -2519,7 +2519,7 @@ shared/objectTemplate/SharedStaticObjectTemplate.i: shared/objectTemplate/Shared
 
 # target to preprocess a source file
 shared/objectTemplate/SharedStaticObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedStaticObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedStaticObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedStaticObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedStaticObjectTemplate.s: shared/objectTemplate/SharedStaticObjectTemplate.cpp.s
@@ -2527,7 +2527,7 @@ shared/objectTemplate/SharedStaticObjectTemplate.s: shared/objectTemplate/Shared
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedStaticObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedStaticObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedStaticObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedStaticObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedTangibleObjectTemplate.o: shared/objectTemplate/SharedTangibleObjectTemplate.cpp.o
@@ -2535,7 +2535,7 @@ shared/objectTemplate/SharedTangibleObjectTemplate.o: shared/objectTemplate/Shar
 
 # target to build an object file
 shared/objectTemplate/SharedTangibleObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTangibleObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTangibleObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedTangibleObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedTangibleObjectTemplate.i: shared/objectTemplate/SharedTangibleObjectTemplate.cpp.i
@@ -2543,7 +2543,7 @@ shared/objectTemplate/SharedTangibleObjectTemplate.i: shared/objectTemplate/Shar
 
 # target to preprocess a source file
 shared/objectTemplate/SharedTangibleObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTangibleObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTangibleObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedTangibleObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedTangibleObjectTemplate.s: shared/objectTemplate/SharedTangibleObjectTemplate.cpp.s
@@ -2551,7 +2551,7 @@ shared/objectTemplate/SharedTangibleObjectTemplate.s: shared/objectTemplate/Shar
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedTangibleObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTangibleObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTangibleObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedTangibleObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.o: shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.o
@@ -2559,7 +2559,7 @@ shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.o: shared/objectTemplat
 
 # target to build an object file
 shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.i: shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.i
@@ -2567,7 +2567,7 @@ shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.i: shared/objectTemplat
 
 # target to preprocess a source file
 shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.s: shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.s
@@ -2575,7 +2575,7 @@ shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.s: shared/objectTemplat
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedTerrainSurfaceObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedTokenObjectTemplate.o: shared/objectTemplate/SharedTokenObjectTemplate.cpp.o
@@ -2583,7 +2583,7 @@ shared/objectTemplate/SharedTokenObjectTemplate.o: shared/objectTemplate/SharedT
 
 # target to build an object file
 shared/objectTemplate/SharedTokenObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTokenObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTokenObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedTokenObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedTokenObjectTemplate.i: shared/objectTemplate/SharedTokenObjectTemplate.cpp.i
@@ -2591,7 +2591,7 @@ shared/objectTemplate/SharedTokenObjectTemplate.i: shared/objectTemplate/SharedT
 
 # target to preprocess a source file
 shared/objectTemplate/SharedTokenObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTokenObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTokenObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedTokenObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedTokenObjectTemplate.s: shared/objectTemplate/SharedTokenObjectTemplate.cpp.s
@@ -2599,7 +2599,7 @@ shared/objectTemplate/SharedTokenObjectTemplate.s: shared/objectTemplate/SharedT
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedTokenObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTokenObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedTokenObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedTokenObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedUniverseObjectTemplate.o: shared/objectTemplate/SharedUniverseObjectTemplate.cpp.o
@@ -2607,7 +2607,7 @@ shared/objectTemplate/SharedUniverseObjectTemplate.o: shared/objectTemplate/Shar
 
 # target to build an object file
 shared/objectTemplate/SharedUniverseObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedUniverseObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedUniverseObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedUniverseObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedUniverseObjectTemplate.i: shared/objectTemplate/SharedUniverseObjectTemplate.cpp.i
@@ -2615,7 +2615,7 @@ shared/objectTemplate/SharedUniverseObjectTemplate.i: shared/objectTemplate/Shar
 
 # target to preprocess a source file
 shared/objectTemplate/SharedUniverseObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedUniverseObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedUniverseObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedUniverseObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedUniverseObjectTemplate.s: shared/objectTemplate/SharedUniverseObjectTemplate.cpp.s
@@ -2623,7 +2623,7 @@ shared/objectTemplate/SharedUniverseObjectTemplate.s: shared/objectTemplate/Shar
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedUniverseObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedUniverseObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedUniverseObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedUniverseObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedVehicleObjectTemplate.o: shared/objectTemplate/SharedVehicleObjectTemplate.cpp.o
@@ -2631,7 +2631,7 @@ shared/objectTemplate/SharedVehicleObjectTemplate.o: shared/objectTemplate/Share
 
 # target to build an object file
 shared/objectTemplate/SharedVehicleObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedVehicleObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedVehicleObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedVehicleObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedVehicleObjectTemplate.i: shared/objectTemplate/SharedVehicleObjectTemplate.cpp.i
@@ -2639,7 +2639,7 @@ shared/objectTemplate/SharedVehicleObjectTemplate.i: shared/objectTemplate/Share
 
 # target to preprocess a source file
 shared/objectTemplate/SharedVehicleObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedVehicleObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedVehicleObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedVehicleObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedVehicleObjectTemplate.s: shared/objectTemplate/SharedVehicleObjectTemplate.cpp.s
@@ -2647,7 +2647,7 @@ shared/objectTemplate/SharedVehicleObjectTemplate.s: shared/objectTemplate/Share
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedVehicleObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedVehicleObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedVehicleObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedVehicleObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedWaypointObjectTemplate.o: shared/objectTemplate/SharedWaypointObjectTemplate.cpp.o
@@ -2655,7 +2655,7 @@ shared/objectTemplate/SharedWaypointObjectTemplate.o: shared/objectTemplate/Shar
 
 # target to build an object file
 shared/objectTemplate/SharedWaypointObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWaypointObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWaypointObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedWaypointObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedWaypointObjectTemplate.i: shared/objectTemplate/SharedWaypointObjectTemplate.cpp.i
@@ -2663,7 +2663,7 @@ shared/objectTemplate/SharedWaypointObjectTemplate.i: shared/objectTemplate/Shar
 
 # target to preprocess a source file
 shared/objectTemplate/SharedWaypointObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWaypointObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWaypointObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedWaypointObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedWaypointObjectTemplate.s: shared/objectTemplate/SharedWaypointObjectTemplate.cpp.s
@@ -2671,7 +2671,7 @@ shared/objectTemplate/SharedWaypointObjectTemplate.s: shared/objectTemplate/Shar
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedWaypointObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWaypointObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWaypointObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedWaypointObjectTemplate.cpp.s
 
 shared/objectTemplate/SharedWeaponObjectTemplate.o: shared/objectTemplate/SharedWeaponObjectTemplate.cpp.o
@@ -2679,7 +2679,7 @@ shared/objectTemplate/SharedWeaponObjectTemplate.o: shared/objectTemplate/Shared
 
 # target to build an object file
 shared/objectTemplate/SharedWeaponObjectTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWeaponObjectTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWeaponObjectTemplate.cpp.o
 .PHONY : shared/objectTemplate/SharedWeaponObjectTemplate.cpp.o
 
 shared/objectTemplate/SharedWeaponObjectTemplate.i: shared/objectTemplate/SharedWeaponObjectTemplate.cpp.i
@@ -2687,7 +2687,7 @@ shared/objectTemplate/SharedWeaponObjectTemplate.i: shared/objectTemplate/Shared
 
 # target to preprocess a source file
 shared/objectTemplate/SharedWeaponObjectTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWeaponObjectTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWeaponObjectTemplate.cpp.i
 .PHONY : shared/objectTemplate/SharedWeaponObjectTemplate.cpp.i
 
 shared/objectTemplate/SharedWeaponObjectTemplate.s: shared/objectTemplate/SharedWeaponObjectTemplate.cpp.s
@@ -2695,7 +2695,7 @@ shared/objectTemplate/SharedWeaponObjectTemplate.s: shared/objectTemplate/Shared
 
 # target to generate assembly for a file
 shared/objectTemplate/SharedWeaponObjectTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWeaponObjectTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/objectTemplate/SharedWeaponObjectTemplate.cpp.s
 .PHONY : shared/objectTemplate/SharedWeaponObjectTemplate.cpp.s
 
 shared/quest/PlayerQuestData.o: shared/quest/PlayerQuestData.cpp.o
@@ -2703,7 +2703,7 @@ shared/quest/PlayerQuestData.o: shared/quest/PlayerQuestData.cpp.o
 
 # target to build an object file
 shared/quest/PlayerQuestData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/PlayerQuestData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/PlayerQuestData.cpp.o
 .PHONY : shared/quest/PlayerQuestData.cpp.o
 
 shared/quest/PlayerQuestData.i: shared/quest/PlayerQuestData.cpp.i
@@ -2711,7 +2711,7 @@ shared/quest/PlayerQuestData.i: shared/quest/PlayerQuestData.cpp.i
 
 # target to preprocess a source file
 shared/quest/PlayerQuestData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/PlayerQuestData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/PlayerQuestData.cpp.i
 .PHONY : shared/quest/PlayerQuestData.cpp.i
 
 shared/quest/PlayerQuestData.s: shared/quest/PlayerQuestData.cpp.s
@@ -2719,7 +2719,7 @@ shared/quest/PlayerQuestData.s: shared/quest/PlayerQuestData.cpp.s
 
 # target to generate assembly for a file
 shared/quest/PlayerQuestData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/PlayerQuestData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/PlayerQuestData.cpp.s
 .PHONY : shared/quest/PlayerQuestData.cpp.s
 
 shared/quest/Quest.o: shared/quest/Quest.cpp.o
@@ -2727,7 +2727,7 @@ shared/quest/Quest.o: shared/quest/Quest.cpp.o
 
 # target to build an object file
 shared/quest/Quest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/Quest.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/Quest.cpp.o
 .PHONY : shared/quest/Quest.cpp.o
 
 shared/quest/Quest.i: shared/quest/Quest.cpp.i
@@ -2735,7 +2735,7 @@ shared/quest/Quest.i: shared/quest/Quest.cpp.i
 
 # target to preprocess a source file
 shared/quest/Quest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/Quest.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/Quest.cpp.i
 .PHONY : shared/quest/Quest.cpp.i
 
 shared/quest/Quest.s: shared/quest/Quest.cpp.s
@@ -2743,7 +2743,7 @@ shared/quest/Quest.s: shared/quest/Quest.cpp.s
 
 # target to generate assembly for a file
 shared/quest/Quest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/Quest.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/Quest.cpp.s
 .PHONY : shared/quest/Quest.cpp.s
 
 shared/quest/QuestManager.o: shared/quest/QuestManager.cpp.o
@@ -2751,7 +2751,7 @@ shared/quest/QuestManager.o: shared/quest/QuestManager.cpp.o
 
 # target to build an object file
 shared/quest/QuestManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestManager.cpp.o
 .PHONY : shared/quest/QuestManager.cpp.o
 
 shared/quest/QuestManager.i: shared/quest/QuestManager.cpp.i
@@ -2759,7 +2759,7 @@ shared/quest/QuestManager.i: shared/quest/QuestManager.cpp.i
 
 # target to preprocess a source file
 shared/quest/QuestManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestManager.cpp.i
 .PHONY : shared/quest/QuestManager.cpp.i
 
 shared/quest/QuestManager.s: shared/quest/QuestManager.cpp.s
@@ -2767,7 +2767,7 @@ shared/quest/QuestManager.s: shared/quest/QuestManager.cpp.s
 
 # target to generate assembly for a file
 shared/quest/QuestManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestManager.cpp.s
 .PHONY : shared/quest/QuestManager.cpp.s
 
 shared/quest/QuestTask.o: shared/quest/QuestTask.cpp.o
@@ -2775,7 +2775,7 @@ shared/quest/QuestTask.o: shared/quest/QuestTask.cpp.o
 
 # target to build an object file
 shared/quest/QuestTask.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestTask.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestTask.cpp.o
 .PHONY : shared/quest/QuestTask.cpp.o
 
 shared/quest/QuestTask.i: shared/quest/QuestTask.cpp.i
@@ -2783,7 +2783,7 @@ shared/quest/QuestTask.i: shared/quest/QuestTask.cpp.i
 
 # target to preprocess a source file
 shared/quest/QuestTask.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestTask.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestTask.cpp.i
 .PHONY : shared/quest/QuestTask.cpp.i
 
 shared/quest/QuestTask.s: shared/quest/QuestTask.cpp.s
@@ -2791,7 +2791,7 @@ shared/quest/QuestTask.s: shared/quest/QuestTask.cpp.s
 
 # target to generate assembly for a file
 shared/quest/QuestTask.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestTask.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/quest/QuestTask.cpp.s
 .PHONY : shared/quest/QuestTask.cpp.s
 
 shared/space/AsteroidGenerationManager.o: shared/space/AsteroidGenerationManager.cpp.o
@@ -2799,7 +2799,7 @@ shared/space/AsteroidGenerationManager.o: shared/space/AsteroidGenerationManager
 
 # target to build an object file
 shared/space/AsteroidGenerationManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/AsteroidGenerationManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/AsteroidGenerationManager.cpp.o
 .PHONY : shared/space/AsteroidGenerationManager.cpp.o
 
 shared/space/AsteroidGenerationManager.i: shared/space/AsteroidGenerationManager.cpp.i
@@ -2807,7 +2807,7 @@ shared/space/AsteroidGenerationManager.i: shared/space/AsteroidGenerationManager
 
 # target to preprocess a source file
 shared/space/AsteroidGenerationManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/AsteroidGenerationManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/AsteroidGenerationManager.cpp.i
 .PHONY : shared/space/AsteroidGenerationManager.cpp.i
 
 shared/space/AsteroidGenerationManager.s: shared/space/AsteroidGenerationManager.cpp.s
@@ -2815,7 +2815,7 @@ shared/space/AsteroidGenerationManager.s: shared/space/AsteroidGenerationManager
 
 # target to generate assembly for a file
 shared/space/AsteroidGenerationManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/AsteroidGenerationManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/AsteroidGenerationManager.cpp.s
 .PHONY : shared/space/AsteroidGenerationManager.cpp.s
 
 shared/space/Nebula.o: shared/space/Nebula.cpp.o
@@ -2823,7 +2823,7 @@ shared/space/Nebula.o: shared/space/Nebula.cpp.o
 
 # target to build an object file
 shared/space/Nebula.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/Nebula.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/Nebula.cpp.o
 .PHONY : shared/space/Nebula.cpp.o
 
 shared/space/Nebula.i: shared/space/Nebula.cpp.i
@@ -2831,7 +2831,7 @@ shared/space/Nebula.i: shared/space/Nebula.cpp.i
 
 # target to preprocess a source file
 shared/space/Nebula.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/Nebula.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/Nebula.cpp.i
 .PHONY : shared/space/Nebula.cpp.i
 
 shared/space/Nebula.s: shared/space/Nebula.cpp.s
@@ -2839,7 +2839,7 @@ shared/space/Nebula.s: shared/space/Nebula.cpp.s
 
 # target to generate assembly for a file
 shared/space/Nebula.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/Nebula.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/Nebula.cpp.s
 .PHONY : shared/space/Nebula.cpp.s
 
 shared/space/NebulaManager.o: shared/space/NebulaManager.cpp.o
@@ -2847,7 +2847,7 @@ shared/space/NebulaManager.o: shared/space/NebulaManager.cpp.o
 
 # target to build an object file
 shared/space/NebulaManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/NebulaManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/NebulaManager.cpp.o
 .PHONY : shared/space/NebulaManager.cpp.o
 
 shared/space/NebulaManager.i: shared/space/NebulaManager.cpp.i
@@ -2855,7 +2855,7 @@ shared/space/NebulaManager.i: shared/space/NebulaManager.cpp.i
 
 # target to preprocess a source file
 shared/space/NebulaManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/NebulaManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/NebulaManager.cpp.i
 .PHONY : shared/space/NebulaManager.cpp.i
 
 shared/space/NebulaManager.s: shared/space/NebulaManager.cpp.s
@@ -2863,7 +2863,7 @@ shared/space/NebulaManager.s: shared/space/NebulaManager.cpp.s
 
 # target to generate assembly for a file
 shared/space/NebulaManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/NebulaManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/NebulaManager.cpp.s
 .PHONY : shared/space/NebulaManager.cpp.s
 
 shared/space/PlayerFormationManager.o: shared/space/PlayerFormationManager.cpp.o
@@ -2871,7 +2871,7 @@ shared/space/PlayerFormationManager.o: shared/space/PlayerFormationManager.cpp.o
 
 # target to build an object file
 shared/space/PlayerFormationManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/PlayerFormationManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/PlayerFormationManager.cpp.o
 .PHONY : shared/space/PlayerFormationManager.cpp.o
 
 shared/space/PlayerFormationManager.i: shared/space/PlayerFormationManager.cpp.i
@@ -2879,7 +2879,7 @@ shared/space/PlayerFormationManager.i: shared/space/PlayerFormationManager.cpp.i
 
 # target to preprocess a source file
 shared/space/PlayerFormationManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/PlayerFormationManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/PlayerFormationManager.cpp.i
 .PHONY : shared/space/PlayerFormationManager.cpp.i
 
 shared/space/PlayerFormationManager.s: shared/space/PlayerFormationManager.cpp.s
@@ -2887,7 +2887,7 @@ shared/space/PlayerFormationManager.s: shared/space/PlayerFormationManager.cpp.s
 
 # target to generate assembly for a file
 shared/space/PlayerFormationManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/PlayerFormationManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/PlayerFormationManager.cpp.s
 .PHONY : shared/space/PlayerFormationManager.cpp.s
 
 shared/space/ShipChassis.o: shared/space/ShipChassis.cpp.o
@@ -2895,7 +2895,7 @@ shared/space/ShipChassis.o: shared/space/ShipChassis.cpp.o
 
 # target to build an object file
 shared/space/ShipChassis.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassis.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassis.cpp.o
 .PHONY : shared/space/ShipChassis.cpp.o
 
 shared/space/ShipChassis.i: shared/space/ShipChassis.cpp.i
@@ -2903,7 +2903,7 @@ shared/space/ShipChassis.i: shared/space/ShipChassis.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipChassis.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassis.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassis.cpp.i
 .PHONY : shared/space/ShipChassis.cpp.i
 
 shared/space/ShipChassis.s: shared/space/ShipChassis.cpp.s
@@ -2911,7 +2911,7 @@ shared/space/ShipChassis.s: shared/space/ShipChassis.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipChassis.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassis.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassis.cpp.s
 .PHONY : shared/space/ShipChassis.cpp.s
 
 shared/space/ShipChassisSlot.o: shared/space/ShipChassisSlot.cpp.o
@@ -2919,7 +2919,7 @@ shared/space/ShipChassisSlot.o: shared/space/ShipChassisSlot.cpp.o
 
 # target to build an object file
 shared/space/ShipChassisSlot.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlot.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlot.cpp.o
 .PHONY : shared/space/ShipChassisSlot.cpp.o
 
 shared/space/ShipChassisSlot.i: shared/space/ShipChassisSlot.cpp.i
@@ -2927,7 +2927,7 @@ shared/space/ShipChassisSlot.i: shared/space/ShipChassisSlot.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipChassisSlot.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlot.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlot.cpp.i
 .PHONY : shared/space/ShipChassisSlot.cpp.i
 
 shared/space/ShipChassisSlot.s: shared/space/ShipChassisSlot.cpp.s
@@ -2935,7 +2935,7 @@ shared/space/ShipChassisSlot.s: shared/space/ShipChassisSlot.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipChassisSlot.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlot.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlot.cpp.s
 .PHONY : shared/space/ShipChassisSlot.cpp.s
 
 shared/space/ShipChassisSlotType.o: shared/space/ShipChassisSlotType.cpp.o
@@ -2943,7 +2943,7 @@ shared/space/ShipChassisSlotType.o: shared/space/ShipChassisSlotType.cpp.o
 
 # target to build an object file
 shared/space/ShipChassisSlotType.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlotType.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlotType.cpp.o
 .PHONY : shared/space/ShipChassisSlotType.cpp.o
 
 shared/space/ShipChassisSlotType.i: shared/space/ShipChassisSlotType.cpp.i
@@ -2951,7 +2951,7 @@ shared/space/ShipChassisSlotType.i: shared/space/ShipChassisSlotType.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipChassisSlotType.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlotType.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlotType.cpp.i
 .PHONY : shared/space/ShipChassisSlotType.cpp.i
 
 shared/space/ShipChassisSlotType.s: shared/space/ShipChassisSlotType.cpp.s
@@ -2959,7 +2959,7 @@ shared/space/ShipChassisSlotType.s: shared/space/ShipChassisSlotType.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipChassisSlotType.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlotType.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisSlotType.cpp.s
 .PHONY : shared/space/ShipChassisSlotType.cpp.s
 
 shared/space/ShipChassisWritable.o: shared/space/ShipChassisWritable.cpp.o
@@ -2967,7 +2967,7 @@ shared/space/ShipChassisWritable.o: shared/space/ShipChassisWritable.cpp.o
 
 # target to build an object file
 shared/space/ShipChassisWritable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisWritable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisWritable.cpp.o
 .PHONY : shared/space/ShipChassisWritable.cpp.o
 
 shared/space/ShipChassisWritable.i: shared/space/ShipChassisWritable.cpp.i
@@ -2975,7 +2975,7 @@ shared/space/ShipChassisWritable.i: shared/space/ShipChassisWritable.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipChassisWritable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisWritable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisWritable.cpp.i
 .PHONY : shared/space/ShipChassisWritable.cpp.i
 
 shared/space/ShipChassisWritable.s: shared/space/ShipChassisWritable.cpp.s
@@ -2983,7 +2983,7 @@ shared/space/ShipChassisWritable.s: shared/space/ShipChassisWritable.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipChassisWritable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisWritable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipChassisWritable.cpp.s
 .PHONY : shared/space/ShipChassisWritable.cpp.s
 
 shared/space/ShipComponentAttachmentManager.o: shared/space/ShipComponentAttachmentManager.cpp.o
@@ -2991,7 +2991,7 @@ shared/space/ShipComponentAttachmentManager.o: shared/space/ShipComponentAttachm
 
 # target to build an object file
 shared/space/ShipComponentAttachmentManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentAttachmentManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentAttachmentManager.cpp.o
 .PHONY : shared/space/ShipComponentAttachmentManager.cpp.o
 
 shared/space/ShipComponentAttachmentManager.i: shared/space/ShipComponentAttachmentManager.cpp.i
@@ -2999,7 +2999,7 @@ shared/space/ShipComponentAttachmentManager.i: shared/space/ShipComponentAttachm
 
 # target to preprocess a source file
 shared/space/ShipComponentAttachmentManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentAttachmentManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentAttachmentManager.cpp.i
 .PHONY : shared/space/ShipComponentAttachmentManager.cpp.i
 
 shared/space/ShipComponentAttachmentManager.s: shared/space/ShipComponentAttachmentManager.cpp.s
@@ -3007,7 +3007,7 @@ shared/space/ShipComponentAttachmentManager.s: shared/space/ShipComponentAttachm
 
 # target to generate assembly for a file
 shared/space/ShipComponentAttachmentManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentAttachmentManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentAttachmentManager.cpp.s
 .PHONY : shared/space/ShipComponentAttachmentManager.cpp.s
 
 shared/space/ShipComponentData.o: shared/space/ShipComponentData.cpp.o
@@ -3015,7 +3015,7 @@ shared/space/ShipComponentData.o: shared/space/ShipComponentData.cpp.o
 
 # target to build an object file
 shared/space/ShipComponentData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentData.cpp.o
 .PHONY : shared/space/ShipComponentData.cpp.o
 
 shared/space/ShipComponentData.i: shared/space/ShipComponentData.cpp.i
@@ -3023,7 +3023,7 @@ shared/space/ShipComponentData.i: shared/space/ShipComponentData.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipComponentData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentData.cpp.i
 .PHONY : shared/space/ShipComponentData.cpp.i
 
 shared/space/ShipComponentData.s: shared/space/ShipComponentData.cpp.s
@@ -3031,7 +3031,7 @@ shared/space/ShipComponentData.s: shared/space/ShipComponentData.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipComponentData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentData.cpp.s
 .PHONY : shared/space/ShipComponentData.cpp.s
 
 shared/space/ShipComponentDescriptor.o: shared/space/ShipComponentDescriptor.cpp.o
@@ -3039,7 +3039,7 @@ shared/space/ShipComponentDescriptor.o: shared/space/ShipComponentDescriptor.cpp
 
 # target to build an object file
 shared/space/ShipComponentDescriptor.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptor.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptor.cpp.o
 .PHONY : shared/space/ShipComponentDescriptor.cpp.o
 
 shared/space/ShipComponentDescriptor.i: shared/space/ShipComponentDescriptor.cpp.i
@@ -3047,7 +3047,7 @@ shared/space/ShipComponentDescriptor.i: shared/space/ShipComponentDescriptor.cpp
 
 # target to preprocess a source file
 shared/space/ShipComponentDescriptor.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptor.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptor.cpp.i
 .PHONY : shared/space/ShipComponentDescriptor.cpp.i
 
 shared/space/ShipComponentDescriptor.s: shared/space/ShipComponentDescriptor.cpp.s
@@ -3055,7 +3055,7 @@ shared/space/ShipComponentDescriptor.s: shared/space/ShipComponentDescriptor.cpp
 
 # target to generate assembly for a file
 shared/space/ShipComponentDescriptor.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptor.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptor.cpp.s
 .PHONY : shared/space/ShipComponentDescriptor.cpp.s
 
 shared/space/ShipComponentDescriptorWritable.o: shared/space/ShipComponentDescriptorWritable.cpp.o
@@ -3063,7 +3063,7 @@ shared/space/ShipComponentDescriptorWritable.o: shared/space/ShipComponentDescri
 
 # target to build an object file
 shared/space/ShipComponentDescriptorWritable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptorWritable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptorWritable.cpp.o
 .PHONY : shared/space/ShipComponentDescriptorWritable.cpp.o
 
 shared/space/ShipComponentDescriptorWritable.i: shared/space/ShipComponentDescriptorWritable.cpp.i
@@ -3071,7 +3071,7 @@ shared/space/ShipComponentDescriptorWritable.i: shared/space/ShipComponentDescri
 
 # target to preprocess a source file
 shared/space/ShipComponentDescriptorWritable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptorWritable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptorWritable.cpp.i
 .PHONY : shared/space/ShipComponentDescriptorWritable.cpp.i
 
 shared/space/ShipComponentDescriptorWritable.s: shared/space/ShipComponentDescriptorWritable.cpp.s
@@ -3079,7 +3079,7 @@ shared/space/ShipComponentDescriptorWritable.s: shared/space/ShipComponentDescri
 
 # target to generate assembly for a file
 shared/space/ShipComponentDescriptorWritable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptorWritable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentDescriptorWritable.cpp.s
 .PHONY : shared/space/ShipComponentDescriptorWritable.cpp.s
 
 shared/space/ShipComponentFlags.o: shared/space/ShipComponentFlags.cpp.o
@@ -3087,7 +3087,7 @@ shared/space/ShipComponentFlags.o: shared/space/ShipComponentFlags.cpp.o
 
 # target to build an object file
 shared/space/ShipComponentFlags.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentFlags.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentFlags.cpp.o
 .PHONY : shared/space/ShipComponentFlags.cpp.o
 
 shared/space/ShipComponentFlags.i: shared/space/ShipComponentFlags.cpp.i
@@ -3095,7 +3095,7 @@ shared/space/ShipComponentFlags.i: shared/space/ShipComponentFlags.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipComponentFlags.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentFlags.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentFlags.cpp.i
 .PHONY : shared/space/ShipComponentFlags.cpp.i
 
 shared/space/ShipComponentFlags.s: shared/space/ShipComponentFlags.cpp.s
@@ -3103,7 +3103,7 @@ shared/space/ShipComponentFlags.s: shared/space/ShipComponentFlags.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipComponentFlags.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentFlags.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentFlags.cpp.s
 .PHONY : shared/space/ShipComponentFlags.cpp.s
 
 shared/space/ShipComponentType.o: shared/space/ShipComponentType.cpp.o
@@ -3111,7 +3111,7 @@ shared/space/ShipComponentType.o: shared/space/ShipComponentType.cpp.o
 
 # target to build an object file
 shared/space/ShipComponentType.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentType.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentType.cpp.o
 .PHONY : shared/space/ShipComponentType.cpp.o
 
 shared/space/ShipComponentType.i: shared/space/ShipComponentType.cpp.i
@@ -3119,7 +3119,7 @@ shared/space/ShipComponentType.i: shared/space/ShipComponentType.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipComponentType.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentType.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentType.cpp.i
 .PHONY : shared/space/ShipComponentType.cpp.i
 
 shared/space/ShipComponentType.s: shared/space/ShipComponentType.cpp.s
@@ -3127,7 +3127,7 @@ shared/space/ShipComponentType.s: shared/space/ShipComponentType.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipComponentType.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentType.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentType.cpp.s
 .PHONY : shared/space/ShipComponentType.cpp.s
 
 shared/space/ShipComponentWeaponManager.o: shared/space/ShipComponentWeaponManager.cpp.o
@@ -3135,7 +3135,7 @@ shared/space/ShipComponentWeaponManager.o: shared/space/ShipComponentWeaponManag
 
 # target to build an object file
 shared/space/ShipComponentWeaponManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentWeaponManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentWeaponManager.cpp.o
 .PHONY : shared/space/ShipComponentWeaponManager.cpp.o
 
 shared/space/ShipComponentWeaponManager.i: shared/space/ShipComponentWeaponManager.cpp.i
@@ -3143,7 +3143,7 @@ shared/space/ShipComponentWeaponManager.i: shared/space/ShipComponentWeaponManag
 
 # target to preprocess a source file
 shared/space/ShipComponentWeaponManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentWeaponManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentWeaponManager.cpp.i
 .PHONY : shared/space/ShipComponentWeaponManager.cpp.i
 
 shared/space/ShipComponentWeaponManager.s: shared/space/ShipComponentWeaponManager.cpp.s
@@ -3151,7 +3151,7 @@ shared/space/ShipComponentWeaponManager.s: shared/space/ShipComponentWeaponManag
 
 # target to generate assembly for a file
 shared/space/ShipComponentWeaponManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentWeaponManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipComponentWeaponManager.cpp.s
 .PHONY : shared/space/ShipComponentWeaponManager.cpp.s
 
 shared/space/ShipSlotIdManager.o: shared/space/ShipSlotIdManager.cpp.o
@@ -3159,7 +3159,7 @@ shared/space/ShipSlotIdManager.o: shared/space/ShipSlotIdManager.cpp.o
 
 # target to build an object file
 shared/space/ShipSlotIdManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipSlotIdManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipSlotIdManager.cpp.o
 .PHONY : shared/space/ShipSlotIdManager.cpp.o
 
 shared/space/ShipSlotIdManager.i: shared/space/ShipSlotIdManager.cpp.i
@@ -3167,7 +3167,7 @@ shared/space/ShipSlotIdManager.i: shared/space/ShipSlotIdManager.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipSlotIdManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipSlotIdManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipSlotIdManager.cpp.i
 .PHONY : shared/space/ShipSlotIdManager.cpp.i
 
 shared/space/ShipSlotIdManager.s: shared/space/ShipSlotIdManager.cpp.s
@@ -3175,7 +3175,7 @@ shared/space/ShipSlotIdManager.s: shared/space/ShipSlotIdManager.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipSlotIdManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipSlotIdManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipSlotIdManager.cpp.s
 .PHONY : shared/space/ShipSlotIdManager.cpp.s
 
 shared/space/ShipTargeting.o: shared/space/ShipTargeting.cpp.o
@@ -3183,7 +3183,7 @@ shared/space/ShipTargeting.o: shared/space/ShipTargeting.cpp.o
 
 # target to build an object file
 shared/space/ShipTargeting.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTargeting.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTargeting.cpp.o
 .PHONY : shared/space/ShipTargeting.cpp.o
 
 shared/space/ShipTargeting.i: shared/space/ShipTargeting.cpp.i
@@ -3191,7 +3191,7 @@ shared/space/ShipTargeting.i: shared/space/ShipTargeting.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipTargeting.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTargeting.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTargeting.cpp.i
 .PHONY : shared/space/ShipTargeting.cpp.i
 
 shared/space/ShipTargeting.s: shared/space/ShipTargeting.cpp.s
@@ -3199,7 +3199,7 @@ shared/space/ShipTargeting.s: shared/space/ShipTargeting.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipTargeting.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTargeting.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTargeting.cpp.s
 .PHONY : shared/space/ShipTargeting.cpp.s
 
 shared/space/ShipTurretManager.o: shared/space/ShipTurretManager.cpp.o
@@ -3207,7 +3207,7 @@ shared/space/ShipTurretManager.o: shared/space/ShipTurretManager.cpp.o
 
 # target to build an object file
 shared/space/ShipTurretManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTurretManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTurretManager.cpp.o
 .PHONY : shared/space/ShipTurretManager.cpp.o
 
 shared/space/ShipTurretManager.i: shared/space/ShipTurretManager.cpp.i
@@ -3215,7 +3215,7 @@ shared/space/ShipTurretManager.i: shared/space/ShipTurretManager.cpp.i
 
 # target to preprocess a source file
 shared/space/ShipTurretManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTurretManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTurretManager.cpp.i
 .PHONY : shared/space/ShipTurretManager.cpp.i
 
 shared/space/ShipTurretManager.s: shared/space/ShipTurretManager.cpp.s
@@ -3223,7 +3223,7 @@ shared/space/ShipTurretManager.s: shared/space/ShipTurretManager.cpp.s
 
 # target to generate assembly for a file
 shared/space/ShipTurretManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTurretManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/space/ShipTurretManager.cpp.s
 .PHONY : shared/space/ShipTurretManager.cpp.s
 
 shared/sui/SuiCommand.o: shared/sui/SuiCommand.cpp.o
@@ -3231,7 +3231,7 @@ shared/sui/SuiCommand.o: shared/sui/SuiCommand.cpp.o
 
 # target to build an object file
 shared/sui/SuiCommand.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommand.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommand.cpp.o
 .PHONY : shared/sui/SuiCommand.cpp.o
 
 shared/sui/SuiCommand.i: shared/sui/SuiCommand.cpp.i
@@ -3239,7 +3239,7 @@ shared/sui/SuiCommand.i: shared/sui/SuiCommand.cpp.i
 
 # target to preprocess a source file
 shared/sui/SuiCommand.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommand.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommand.cpp.i
 .PHONY : shared/sui/SuiCommand.cpp.i
 
 shared/sui/SuiCommand.s: shared/sui/SuiCommand.cpp.s
@@ -3247,7 +3247,7 @@ shared/sui/SuiCommand.s: shared/sui/SuiCommand.cpp.s
 
 # target to generate assembly for a file
 shared/sui/SuiCommand.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommand.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommand.cpp.s
 .PHONY : shared/sui/SuiCommand.cpp.s
 
 shared/sui/SuiCommandArchive.o: shared/sui/SuiCommandArchive.cpp.o
@@ -3255,7 +3255,7 @@ shared/sui/SuiCommandArchive.o: shared/sui/SuiCommandArchive.cpp.o
 
 # target to build an object file
 shared/sui/SuiCommandArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommandArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommandArchive.cpp.o
 .PHONY : shared/sui/SuiCommandArchive.cpp.o
 
 shared/sui/SuiCommandArchive.i: shared/sui/SuiCommandArchive.cpp.i
@@ -3263,7 +3263,7 @@ shared/sui/SuiCommandArchive.i: shared/sui/SuiCommandArchive.cpp.i
 
 # target to preprocess a source file
 shared/sui/SuiCommandArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommandArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommandArchive.cpp.i
 .PHONY : shared/sui/SuiCommandArchive.cpp.i
 
 shared/sui/SuiCommandArchive.s: shared/sui/SuiCommandArchive.cpp.s
@@ -3271,7 +3271,7 @@ shared/sui/SuiCommandArchive.s: shared/sui/SuiCommandArchive.cpp.s
 
 # target to generate assembly for a file
 shared/sui/SuiCommandArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommandArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiCommandArchive.cpp.s
 .PHONY : shared/sui/SuiCommandArchive.cpp.s
 
 shared/sui/SuiEventSubscription.o: shared/sui/SuiEventSubscription.cpp.o
@@ -3279,7 +3279,7 @@ shared/sui/SuiEventSubscription.o: shared/sui/SuiEventSubscription.cpp.o
 
 # target to build an object file
 shared/sui/SuiEventSubscription.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventSubscription.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventSubscription.cpp.o
 .PHONY : shared/sui/SuiEventSubscription.cpp.o
 
 shared/sui/SuiEventSubscription.i: shared/sui/SuiEventSubscription.cpp.i
@@ -3287,7 +3287,7 @@ shared/sui/SuiEventSubscription.i: shared/sui/SuiEventSubscription.cpp.i
 
 # target to preprocess a source file
 shared/sui/SuiEventSubscription.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventSubscription.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventSubscription.cpp.i
 .PHONY : shared/sui/SuiEventSubscription.cpp.i
 
 shared/sui/SuiEventSubscription.s: shared/sui/SuiEventSubscription.cpp.s
@@ -3295,7 +3295,7 @@ shared/sui/SuiEventSubscription.s: shared/sui/SuiEventSubscription.cpp.s
 
 # target to generate assembly for a file
 shared/sui/SuiEventSubscription.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventSubscription.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventSubscription.cpp.s
 .PHONY : shared/sui/SuiEventSubscription.cpp.s
 
 shared/sui/SuiEventType.o: shared/sui/SuiEventType.cpp.o
@@ -3303,7 +3303,7 @@ shared/sui/SuiEventType.o: shared/sui/SuiEventType.cpp.o
 
 # target to build an object file
 shared/sui/SuiEventType.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventType.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventType.cpp.o
 .PHONY : shared/sui/SuiEventType.cpp.o
 
 shared/sui/SuiEventType.i: shared/sui/SuiEventType.cpp.i
@@ -3311,7 +3311,7 @@ shared/sui/SuiEventType.i: shared/sui/SuiEventType.cpp.i
 
 # target to preprocess a source file
 shared/sui/SuiEventType.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventType.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventType.cpp.i
 .PHONY : shared/sui/SuiEventType.cpp.i
 
 shared/sui/SuiEventType.s: shared/sui/SuiEventType.cpp.s
@@ -3319,7 +3319,7 @@ shared/sui/SuiEventType.s: shared/sui/SuiEventType.cpp.s
 
 # target to generate assembly for a file
 shared/sui/SuiEventType.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventType.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiEventType.cpp.s
 .PHONY : shared/sui/SuiEventType.cpp.s
 
 shared/sui/SuiPageData.o: shared/sui/SuiPageData.cpp.o
@@ -3327,7 +3327,7 @@ shared/sui/SuiPageData.o: shared/sui/SuiPageData.cpp.o
 
 # target to build an object file
 shared/sui/SuiPageData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageData.cpp.o
 .PHONY : shared/sui/SuiPageData.cpp.o
 
 shared/sui/SuiPageData.i: shared/sui/SuiPageData.cpp.i
@@ -3335,7 +3335,7 @@ shared/sui/SuiPageData.i: shared/sui/SuiPageData.cpp.i
 
 # target to preprocess a source file
 shared/sui/SuiPageData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageData.cpp.i
 .PHONY : shared/sui/SuiPageData.cpp.i
 
 shared/sui/SuiPageData.s: shared/sui/SuiPageData.cpp.s
@@ -3343,7 +3343,7 @@ shared/sui/SuiPageData.s: shared/sui/SuiPageData.cpp.s
 
 # target to generate assembly for a file
 shared/sui/SuiPageData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageData.cpp.s
 .PHONY : shared/sui/SuiPageData.cpp.s
 
 shared/sui/SuiPageDataArchive.o: shared/sui/SuiPageDataArchive.cpp.o
@@ -3351,7 +3351,7 @@ shared/sui/SuiPageDataArchive.o: shared/sui/SuiPageDataArchive.cpp.o
 
 # target to build an object file
 shared/sui/SuiPageDataArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageDataArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageDataArchive.cpp.o
 .PHONY : shared/sui/SuiPageDataArchive.cpp.o
 
 shared/sui/SuiPageDataArchive.i: shared/sui/SuiPageDataArchive.cpp.i
@@ -3359,7 +3359,7 @@ shared/sui/SuiPageDataArchive.i: shared/sui/SuiPageDataArchive.cpp.i
 
 # target to preprocess a source file
 shared/sui/SuiPageDataArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageDataArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageDataArchive.cpp.i
 .PHONY : shared/sui/SuiPageDataArchive.cpp.i
 
 shared/sui/SuiPageDataArchive.s: shared/sui/SuiPageDataArchive.cpp.s
@@ -3367,7 +3367,7 @@ shared/sui/SuiPageDataArchive.s: shared/sui/SuiPageDataArchive.cpp.s
 
 # target to generate assembly for a file
 shared/sui/SuiPageDataArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageDataArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiPageDataArchive.cpp.s
 .PHONY : shared/sui/SuiPageDataArchive.cpp.s
 
 shared/sui/SuiWidgetProperty.o: shared/sui/SuiWidgetProperty.cpp.o
@@ -3375,7 +3375,7 @@ shared/sui/SuiWidgetProperty.o: shared/sui/SuiWidgetProperty.cpp.o
 
 # target to build an object file
 shared/sui/SuiWidgetProperty.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiWidgetProperty.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiWidgetProperty.cpp.o
 .PHONY : shared/sui/SuiWidgetProperty.cpp.o
 
 shared/sui/SuiWidgetProperty.i: shared/sui/SuiWidgetProperty.cpp.i
@@ -3383,7 +3383,7 @@ shared/sui/SuiWidgetProperty.i: shared/sui/SuiWidgetProperty.cpp.i
 
 # target to preprocess a source file
 shared/sui/SuiWidgetProperty.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiWidgetProperty.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiWidgetProperty.cpp.i
 .PHONY : shared/sui/SuiWidgetProperty.cpp.i
 
 shared/sui/SuiWidgetProperty.s: shared/sui/SuiWidgetProperty.cpp.s
@@ -3391,7 +3391,7 @@ shared/sui/SuiWidgetProperty.s: shared/sui/SuiWidgetProperty.cpp.s
 
 # target to generate assembly for a file
 shared/sui/SuiWidgetProperty.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiWidgetProperty.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/sui/SuiWidgetProperty.cpp.s
 .PHONY : shared/sui/SuiWidgetProperty.cpp.s
 
 shared/travel/TravelManager.o: shared/travel/TravelManager.cpp.o
@@ -3399,7 +3399,7 @@ shared/travel/TravelManager.o: shared/travel/TravelManager.cpp.o
 
 # target to build an object file
 shared/travel/TravelManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelManager.cpp.o
 .PHONY : shared/travel/TravelManager.cpp.o
 
 shared/travel/TravelManager.i: shared/travel/TravelManager.cpp.i
@@ -3407,7 +3407,7 @@ shared/travel/TravelManager.i: shared/travel/TravelManager.cpp.i
 
 # target to preprocess a source file
 shared/travel/TravelManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelManager.cpp.i
 .PHONY : shared/travel/TravelManager.cpp.i
 
 shared/travel/TravelManager.s: shared/travel/TravelManager.cpp.s
@@ -3415,7 +3415,7 @@ shared/travel/TravelManager.s: shared/travel/TravelManager.cpp.s
 
 # target to generate assembly for a file
 shared/travel/TravelManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelManager.cpp.s
 .PHONY : shared/travel/TravelManager.cpp.s
 
 shared/travel/TravelPoint.o: shared/travel/TravelPoint.cpp.o
@@ -3423,7 +3423,7 @@ shared/travel/TravelPoint.o: shared/travel/TravelPoint.cpp.o
 
 # target to build an object file
 shared/travel/TravelPoint.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelPoint.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelPoint.cpp.o
 .PHONY : shared/travel/TravelPoint.cpp.o
 
 shared/travel/TravelPoint.i: shared/travel/TravelPoint.cpp.i
@@ -3431,7 +3431,7 @@ shared/travel/TravelPoint.i: shared/travel/TravelPoint.cpp.i
 
 # target to preprocess a source file
 shared/travel/TravelPoint.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelPoint.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelPoint.cpp.i
 .PHONY : shared/travel/TravelPoint.cpp.i
 
 shared/travel/TravelPoint.s: shared/travel/TravelPoint.cpp.s
@@ -3439,7 +3439,7 @@ shared/travel/TravelPoint.s: shared/travel/TravelPoint.cpp.s
 
 # target to generate assembly for a file
 shared/travel/TravelPoint.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelPoint.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/build.make engine/shared/library/sharedGame/src/CMakeFiles/sharedGame.dir/shared/travel/TravelPoint.cpp.s
 .PHONY : shared/travel/TravelPoint.cpp.s
 
 # Help Target
@@ -3876,6 +3876,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

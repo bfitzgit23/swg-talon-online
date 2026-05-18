@@ -8,9 +8,9 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.cpp" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonAPI.cpp.o" "gcc" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonAPI.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonClient.cpp" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonClient.cpp.o" "gcc" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonClient.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.cpp" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonMessages.cpp.o" "gcc" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonMessages.cpp.o.d"
+  "/home/swg1/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.cpp" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonAPI.cpp.o" "gcc" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonAPI.cpp.o.d"
+  "/home/swg1/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonClient.cpp" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonClient.cpp.o" "gcc" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonClient.cpp.o.d"
+  "/home/swg1/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.cpp" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonMessages.cpp.o" "gcc" "external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonMessages.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

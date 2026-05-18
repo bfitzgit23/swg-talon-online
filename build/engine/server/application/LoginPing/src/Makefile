@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/server/application/LoginPing/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/rule
 .PHONY : engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ LoginPing: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/rule
 
 # fast build rule for target.
 LoginPing/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build
 .PHONY : LoginPing/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/ConfigLoginPing.o: shared/ConfigLoginPing.cpp.o
@@ -159,7 +159,7 @@ shared/ConfigLoginPing.o: shared/ConfigLoginPing.cpp.o
 
 # target to build an object file
 shared/ConfigLoginPing.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o
 .PHONY : shared/ConfigLoginPing.cpp.o
 
 shared/ConfigLoginPing.i: shared/ConfigLoginPing.cpp.i
@@ -167,7 +167,7 @@ shared/ConfigLoginPing.i: shared/ConfigLoginPing.cpp.i
 
 # target to preprocess a source file
 shared/ConfigLoginPing.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.i
 .PHONY : shared/ConfigLoginPing.cpp.i
 
 shared/ConfigLoginPing.s: shared/ConfigLoginPing.cpp.s
@@ -175,7 +175,7 @@ shared/ConfigLoginPing.s: shared/ConfigLoginPing.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigLoginPing.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.s
 .PHONY : shared/ConfigLoginPing.cpp.s
 
 shared/FirstLoginPing.o: shared/FirstLoginPing.cpp.o
@@ -183,7 +183,7 @@ shared/FirstLoginPing.o: shared/FirstLoginPing.cpp.o
 
 # target to build an object file
 shared/FirstLoginPing.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o
 .PHONY : shared/FirstLoginPing.cpp.o
 
 shared/FirstLoginPing.i: shared/FirstLoginPing.cpp.i
@@ -191,7 +191,7 @@ shared/FirstLoginPing.i: shared/FirstLoginPing.cpp.i
 
 # target to preprocess a source file
 shared/FirstLoginPing.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.i
 .PHONY : shared/FirstLoginPing.cpp.i
 
 shared/FirstLoginPing.s: shared/FirstLoginPing.cpp.s
@@ -199,7 +199,7 @@ shared/FirstLoginPing.s: shared/FirstLoginPing.cpp.s
 
 # target to generate assembly for a file
 shared/FirstLoginPing.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.s
 .PHONY : shared/FirstLoginPing.cpp.s
 
 shared/LoginConnection.o: shared/LoginConnection.cpp.o
@@ -207,7 +207,7 @@ shared/LoginConnection.o: shared/LoginConnection.cpp.o
 
 # target to build an object file
 shared/LoginConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o
 .PHONY : shared/LoginConnection.cpp.o
 
 shared/LoginConnection.i: shared/LoginConnection.cpp.i
@@ -215,7 +215,7 @@ shared/LoginConnection.i: shared/LoginConnection.cpp.i
 
 # target to preprocess a source file
 shared/LoginConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.i
 .PHONY : shared/LoginConnection.cpp.i
 
 shared/LoginConnection.s: shared/LoginConnection.cpp.s
@@ -223,7 +223,7 @@ shared/LoginConnection.s: shared/LoginConnection.cpp.s
 
 # target to generate assembly for a file
 shared/LoginConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.s
 .PHONY : shared/LoginConnection.cpp.s
 
 shared/LoginPing.o: shared/LoginPing.cpp.o
@@ -231,7 +231,7 @@ shared/LoginPing.o: shared/LoginPing.cpp.o
 
 # target to build an object file
 shared/LoginPing.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o
 .PHONY : shared/LoginPing.cpp.o
 
 shared/LoginPing.i: shared/LoginPing.cpp.i
@@ -239,7 +239,7 @@ shared/LoginPing.i: shared/LoginPing.cpp.i
 
 # target to preprocess a source file
 shared/LoginPing.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.i
 .PHONY : shared/LoginPing.cpp.i
 
 shared/LoginPing.s: shared/LoginPing.cpp.s
@@ -247,7 +247,7 @@ shared/LoginPing.s: shared/LoginPing.cpp.s
 
 # target to generate assembly for a file
 shared/LoginPing.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build.make engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.s
 .PHONY : shared/LoginPing.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

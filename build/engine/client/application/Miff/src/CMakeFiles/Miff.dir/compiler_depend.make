@@ -76,13 +76,13 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o: engine/client
   /usr/include/bits/getopt_posix.h \
   /usr/include/bits/getopt_core.h
 
-engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o: /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp \
+engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o: /home/swg1/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp \
   /usr/include/stdc-predef.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/FirstSharedFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/src/shared/FoundationTypes.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/src/linux/FoundationTypesLinux.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/FirstSharedFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/src/shared/FoundationTypes.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/src/linux/FoundationTypesLinux.h \
   /usr/include/c++/8/cstdio \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -109,8 +109,8 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cp
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
   /usr/include/bits/stdio.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/FirstPlatform.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/FirstPlatform.h \
   /usr/include/c++/8/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
@@ -208,8 +208,8 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cp
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/PlatformGlue.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/PlatformGlue.h \
   /usr/include/netinet/in.h \
   /usr/include/bits/stdint-uintn.h \
   /usr/include/sys/socket.h \
@@ -260,14 +260,14 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cp
   /usr/include/bits/types/struct_statx_timestamp.h \
   /usr/include/bits/types/struct_statx.h \
   /usr/include/c++/8/cfloat \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/MacroFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Binary.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Fatal.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/StlForwardDeclaration.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/MacroFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Binary.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Fatal.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/StlForwardDeclaration.h \
   /usr/include/c++/8/vector \
   /usr/include/c++/8/bits/allocator.h \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++allocator.h \
@@ -354,29 +354,29 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cp
   /usr/include/c++/8/bits/stl_list.h \
   /usr/include/c++/8/bits/allocated_ptr.h \
   /usr/include/c++/8/bits/list.tcc \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Misc.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/RemoteDebug.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/Report.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/FloatMath.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/SafeCast.h \
-  /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public/sharedFile/TreeFile.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/src/shared/TreeFile.h \
-  /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
-  /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/AbstractFile.h
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Misc.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/RemoteDebug.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/Report.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/FloatMath.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/SafeCast.h \
+  /home/swg1/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public/sharedFile/TreeFile.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/src/shared/TreeFile.h \
+  /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
+  /home/swg1/swg-main/src/external/ours/library/fileInterface/src/shared/AbstractFile.h
 
-engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o: /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp \
+engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o: /home/swg1/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp \
   /usr/include/stdc-predef.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/FirstSharedFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/src/shared/FoundationTypes.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/src/linux/FoundationTypesLinux.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/FirstSharedFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/src/shared/FoundationTypes.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/src/linux/FoundationTypesLinux.h \
   /usr/include/c++/8/cstdio \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -403,8 +403,8 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.c
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
   /usr/include/bits/stdio.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/FirstPlatform.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/FirstPlatform.h \
   /usr/include/c++/8/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
@@ -502,8 +502,8 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.c
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/PlatformGlue.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/PlatformGlue.h \
   /usr/include/netinet/in.h \
   /usr/include/bits/stdint-uintn.h \
   /usr/include/sys/socket.h \
@@ -554,14 +554,14 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.c
   /usr/include/bits/types/struct_statx_timestamp.h \
   /usr/include/bits/types/struct_statx.h \
   /usr/include/c++/8/cfloat \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/MacroFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Binary.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Fatal.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/StlForwardDeclaration.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/MacroFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Binary.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Fatal.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/StlForwardDeclaration.h \
   /usr/include/c++/8/vector \
   /usr/include/c++/8/bits/allocator.h \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++allocator.h \
@@ -648,29 +648,29 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.c
   /usr/include/c++/8/bits/stl_list.h \
   /usr/include/c++/8/bits/allocated_ptr.h \
   /usr/include/c++/8/bits/list.tcc \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Misc.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/RemoteDebug.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/Report.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/FloatMath.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/SafeCast.h \
-  /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public/sharedFile/Iff.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/src/shared/Iff.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Tag.h
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Misc.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/RemoteDebug.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/Report.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/FloatMath.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/SafeCast.h \
+  /home/swg1/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public/sharedFile/Iff.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/src/shared/Iff.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Tag.h
 
-engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/miff.cpp \
+engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: /home/swg1/swg-main/src/engine/client/application/Miff/src/linux/miff.cpp \
   /usr/include/stdc-predef.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/FirstSharedFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/src/shared/FoundationTypes.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/src/linux/FoundationTypesLinux.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/FirstSharedFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/src/shared/FoundationTypes.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/src/linux/FoundationTypesLinux.h \
   /usr/include/c++/8/cstdio \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -697,8 +697,8 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: /home/a
   /usr/include/bits/stdio_lim.h \
   /usr/include/bits/sys_errlist.h \
   /usr/include/bits/stdio.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/FirstPlatform.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/FirstPlatform.h \
   /usr/include/c++/8/cstdlib \
   /usr/include/stdlib.h \
   /usr/include/bits/waitflags.h \
@@ -796,8 +796,8 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: /home/a
   /usr/include/bits/wchar.h \
   /usr/include/bits/types/wint_t.h \
   /usr/include/bits/types/mbstate_t.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/PlatformGlue.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/PlatformGlue.h \
   /usr/include/netinet/in.h \
   /usr/include/bits/stdint-uintn.h \
   /usr/include/sys/socket.h \
@@ -848,14 +848,14 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: /home/a
   /usr/include/bits/types/struct_statx_timestamp.h \
   /usr/include/bits/types/struct_statx.h \
   /usr/include/c++/8/cfloat \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/MacroFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Binary.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Fatal.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/StlForwardDeclaration.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/MacroFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Binary.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Fatal.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/StlForwardDeclaration.h \
   /usr/include/c++/8/vector \
   /usr/include/c++/8/bits/allocator.h \
   /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++allocator.h \
@@ -942,44 +942,44 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: /home/a
   /usr/include/c++/8/bits/stl_list.h \
   /usr/include/c++/8/bits/allocated_ptr.h \
   /usr/include/c++/8/bits/list.tcc \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Misc.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/RemoteDebug.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/Report.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/FloatMath.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/SafeCast.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/include/public/sharedCompression/SetupSharedCompression.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/SetupSharedDebug.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/SetupSharedDebug.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public/sharedFile/SetupSharedFile.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/src/shared/SetupSharedFile.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public/sharedFile/TreeFile.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/src/shared/TreeFile.h \
-  /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
-  /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/AbstractFile.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/CommandLine.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/CommandLine.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Crc.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Crc.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Os.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/Os.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SetupSharedFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/SetupSharedFoundation.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedThread/include/public/sharedThread/SetupSharedThread.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedThread/src/shared/SetupSharedThread.h \
-  /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.h \
-  /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public/sharedFile/Iff.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/src/shared/Iff.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h \
-  /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Tag.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Misc.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/RemoteDebug.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/Report.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/FloatMath.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/SafeCast.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedCompression/include/public/sharedCompression/SetupSharedCompression.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/SetupSharedDebug.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/SetupSharedDebug.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public/sharedFile/SetupSharedFile.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/src/shared/SetupSharedFile.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public/sharedFile/TreeFile.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/src/shared/TreeFile.h \
+  /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
+  /home/swg1/swg-main/src/external/ours/library/fileInterface/src/shared/AbstractFile.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/CommandLine.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/CommandLine.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Crc.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Crc.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Os.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/Os.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SetupSharedFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/SetupSharedFoundation.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedThread/include/public/sharedThread/SetupSharedThread.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedThread/src/shared/SetupSharedThread.h \
+  /home/swg1/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.h \
+  /home/swg1/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public/sharedFile/Iff.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFile/src/shared/Iff.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h \
+  /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Tag.h \
   /usr/include/c++/8/stdlib.h \
-  /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/mIFF.dox
+  /home/swg1/swg-main/src/engine/client/application/Miff/src/linux/mIFF.dox
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o: engine/client/application/Miff/src/parser.c \
   /usr/include/stdc-predef.h \
@@ -1056,51 +1056,49 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o: engine/client
 
 engine/client/application/Miff/src/parser.c:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedThread/src/shared/SetupSharedThread.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedThread/src/shared/SetupSharedThread.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedThread/include/public/sharedThread/SetupSharedThread.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedThread/include/public/sharedThread/SetupSharedThread.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/SetupSharedFoundation.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SetupSharedFoundation.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Os.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Crc.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Crc.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/CommandLine.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/CommandLine.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/SetupSharedDebug.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/src/shared/SetupSharedFile.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Tag.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public/sharedFile/SetupSharedFile.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/SetupSharedDebug.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public/sharedFile/Iff.h:
 
-/home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/miff.cpp:
+/home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFile/src/shared/TreeFile.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/src/shared/Iff.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public/sharedFile/TreeFile.h:
 
-/home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Crc.h:
 
-/home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/src/shared/TreeFile.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/FloatMath.h:
 
-/home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/Report.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/FloatMath.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/Report.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h:
 
 /usr/include/c++/8/bits/list.tcc:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/SetupSharedDebug.h:
 
 /usr/include/c++/8/bits/allocated_ptr.h:
 
 /usr/include/c++/8/bits/stl_list.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedDebug/src/shared/RemoteDebug.h:
 
 /usr/include/c++/8/list:
 
@@ -1112,25 +1110,17 @@ engine/client/application/Miff/src/parser.c:
 
 /usr/include/c++/8/set:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public/sharedFile/TreeFile.h:
-
 /usr/include/c++/8/bits/unordered_set.h:
 
 /usr/include/c++/8/bits/unordered_map.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/CommandLine.h:
 
 /usr/include/c++/8/bits/hashtable_policy.h:
 
 /usr/include/c++/8/bits/stl_multimap.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SetupSharedFoundation.h:
-
 /usr/include/c++/8/bits/uses_allocator.h:
 
 /usr/include/c++/8/tuple:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/src/shared/RemoteDebug.h:
 
 /usr/include/c++/8/bits/enable_special_members.h:
 
@@ -1154,9 +1144,17 @@ engine/client/application/Miff/src/parser.c:
 
 /usr/include/c++/8/bits/ostream_insert.h:
 
+/usr/include/c++/8/cctype:
+
+/usr/include/locale.h:
+
 /usr/include/c++/8/clocale:
 
 /usr/include/c++/8/bits/postypes.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.h:
+
+/home/swg1/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.h:
 
 /usr/include/c++/8/bits/char_traits.h:
 
@@ -1167,8 +1165,6 @@ engine/client/application/Miff/src/parser.c:
 /usr/include/c++/8/stdexcept:
 
 /usr/include/c++/8/optional:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/SafeCast.h:
 
 /usr/include/c++/8/ext/aligned_buffer.h:
 
@@ -1188,13 +1184,13 @@ engine/client/application/Miff/src/parser.c:
 
 /usr/include/c++/8/ext/alloc_traits.h:
 
-/usr/include/c++/8/initializer_list:
-
-/usr/include/c++/8/bits/nested_exception.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public/sharedFile/SetupSharedFile.h:
 
 /usr/include/c++/8/bits/string_view.tcc:
 
 /usr/include/c++/8/typeinfo:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Misc.h:
 
 /usr/include/c++/8/bits/cxxabi_init_exception.h:
 
@@ -1210,43 +1206,41 @@ engine/client/application/Miff/src/parser.c:
 
 /usr/include/c++/8/vector:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Fatal.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h:
 
-/usr/include/c++/8/cctype:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Fatal.h:
 
-/usr/include/locale.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/Binary.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/SetupSharedFoundation.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h:
 
 /usr/include/bits/types/struct_statx_timestamp.h:
 
 /usr/include/asm-generic/posix_types.h:
 
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h:
+
 /usr/include/asm/posix_types.h:
+
+/usr/include/asm-generic/types.h:
 
 /usr/include/c++/8/array:
 
 /usr/include/bits/statx.h:
 
-/usr/include/sys/stat.h:
-
 /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++allocator.h:
 
 /usr/include/bits/fcntl-linux.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/FirstSharedFoundation.h:
 
 /usr/include/asm/posix_types_32.h:
 
 /usr/include/bits/confname.h:
 
 /usr/include/c++/8/ext/type_traits.h:
-
-/usr/include/c++/8/bits/stl_heap.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/StlForwardDeclaration.h:
-
-/usr/include/bits/environments.h:
 
 /usr/include/c++/8/bits/stl_bvector.h:
 
@@ -1264,9 +1258,13 @@ engine/client/application/Miff/src/parser.c:
 
 /usr/include/unistd.h:
 
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/CommandLine.h:
+
 /usr/include/c++/8/bits/stl_tree.h:
 
 engine/client/application/Miff/src/parser.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFile/src/shared/Iff.h:
 
 /usr/include/stdint.h:
 
@@ -1276,27 +1274,31 @@ engine/client/application/Miff/src/parser.h:
 
 /usr/include/bits/types/sigset_t.h:
 
-/usr/include/c++/8/debug/assertions.h:
-
 /usr/include/bits/stdlib-float.h:
 
 /usr/include/bits/types/FILE.h:
 
 /usr/include/alloca.h:
 
-/home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp:
+/usr/include/endian.h:
 
 /usr/include/time.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h:
-
 /usr/include/bits/types/__sigset_t.h:
+
+/home/swg1/swg-main/src/engine/client/application/Miff/src/linux/mIFF.dox:
+
+/home/swg1/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp:
 
 /usr/include/bits/types/struct_timeval.h:
 
 /usr/include/c++/8/bits/invoke.h:
 
 /usr/include/sys/select.h:
+
+/usr/include/sys/stat.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h:
 
 /usr/include/bits/types/clockid_t.h:
 
@@ -1312,27 +1314,17 @@ engine/client/application/Miff/src/parser.h:
 
 /usr/include/bits/waitflags.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h:
-
 /usr/include/bits/types/__fpos_t.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/src/shared/SetupSharedCompression.h:
 
 /usr/include/c++/8/bits/stl_relops.h:
 
 /usr/include/bits/getopt_posix.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h:
-
 /usr/include/stdlib.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h:
+/home/swg1/swg-main/src/engine/client/application/Miff/src/linux/miff.cpp:
 
-/usr/include/stdio.h:
-
-/usr/include/asm-generic/sockios.h:
+/home/swg1/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h:
 
@@ -1342,7 +1334,7 @@ engine/client/application/Miff/src/parser.h:
 
 /usr/include/bits/stdlib-bsearch.h:
 
-/usr/include/endian.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/StlForwardDeclaration.h:
 
 /usr/include/bits/types.h:
 
@@ -1364,8 +1356,6 @@ engine/client/application/Miff/src/parser.h:
 
 /usr/include/bits/pthreadtypes.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/Os.h:
-
 /usr/include/linux/stddef.h:
 
 /usr/include/pthread.h:
@@ -1382,23 +1372,19 @@ engine/client/application/Miff/src/parser.h:
 
 /usr/include/string.h:
 
-/usr/include/asm-generic/types.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/PlatformGlue.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h:
-
 /usr/include/bits/types/struct_itimerspec.h:
 
 /usr/include/asm-generic/errno.h:
 
 /usr/include/bits/types/struct_osockaddr.h:
 
+/usr/include/asm-generic/sockios.h:
+
+/usr/include/stdio.h:
+
 /usr/include/c++/8/bits/stl_map.h:
 
 /usr/include/c++/8/bits/stl_function.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Binary.h:
 
 engine/client/application/Miff/src/lex_yy.c:
 
@@ -1406,11 +1392,13 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/bits/types/time_t.h:
 
+/usr/include/c++/8/debug/assertions.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h:
+
 /usr/include/bits/types/struct_statx.h:
 
 /usr/include/c++/8/tr1/hypergeometric.tcc:
-
-/home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/mIFF.dox:
 
 /usr/include/bits/libc-header-start.h:
 
@@ -1420,11 +1408,15 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/bits/in.h:
 
+/home/swg1/swg-main/src/engine/shared/library/sharedCompression/include/public/sharedCompression/SetupSharedCompression.h:
+
 /usr/include/c++/8/unordered_map:
 
 /usr/include/bits/stat.h:
 
 /usr/include/bits/long-double.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFile/src/shared/SetupSharedFile.h:
 
 /usr/include/c++/8/tr1/bessel_function.tcc:
 
@@ -1432,17 +1424,21 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/bits/types/__fpos64_t.h:
 
-/usr/include/sys/types.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/MacroFoundation.h:
 
 /usr/include/sys/cdefs.h:
 
-/home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h:
+/usr/include/sys/types.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/src/shared/FoundationTypes.h:
 
 /usr/include/features.h:
 
 /usr/include/bits/stdio.h:
 
 /usr/include/bits/fp-logb.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h:
 
 /usr/include/c++/8/iosfwd:
 
@@ -1466,17 +1462,17 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/c++/8/bits/stl_pair.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h:
-
 /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h:
 
 /usr/include/asm/errno.h:
 
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/Os.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h:
+
 /usr/include/c++/8/bits/hash_bytes.h:
 
 /usr/include/strings.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h:
 
 /usr/include/bits/socket.h:
 
@@ -1484,17 +1480,23 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/stdc-predef.h:
 
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Os.h:
+
 /usr/include/c++/8/cfloat:
 
 /usr/include/c++/8/limits:
 
 /usr/include/asm-generic/errno-base.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/src/shared/FoundationTypes.h:
+/home/swg1/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp:
 
-/home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/AbstractFile.h:
+/usr/include/c++/8/initializer_list:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/src/linux/FoundationTypesLinux.h:
+/usr/include/c++/8/bits/nested_exception.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/src/linux/FoundationTypesLinux.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/SafeCast.h:
 
 /usr/include/c++/8/deque:
 
@@ -1504,9 +1506,19 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/c++/8/x86_64-redhat-linux/32/bits/cpu_defines.h:
 
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h:
+
+/usr/include/fcntl.h:
+
+/usr/include/c++/8/bits/stl_heap.h:
+
+/usr/include/bits/environments.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/FirstPlatform.h:
+
 /usr/include/c++/8/cstdlib:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/MacroFoundation.h:
+/home/swg1/swg-main/src/external/ours/library/fileInterface/src/shared/AbstractFile.h:
 
 /usr/lib/gcc/x86_64-redhat-linux/8/include/float.h:
 
@@ -1550,6 +1562,8 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/c++/8/bits/stl_algobase.h:
 
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h:
+
 /usr/include/c++/8/bits/std_abs.h:
 
 /usr/include/bits/stdint-uintn.h:
@@ -1557,8 +1571,6 @@ engine/client/application/Miff/src/lex_yy.c:
 /usr/include/c++/8/ext/numeric_traits.h:
 
 /usr/include/c++/8/bits/exception_defines.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Misc.h:
 
 /usr/include/c++/8/cwchar:
 
@@ -1571,6 +1583,8 @@ engine/client/application/Miff/src/lex_yy.c:
 /usr/include/c++/8/math.h:
 
 /usr/include/c++/8/bits/stl_iterator_base_types.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/SetupSharedDebug.h:
 
 /usr/include/c++/8/unordered_set:
 
@@ -1608,21 +1622,15 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/c++/8/tr1/legendre_function.tcc:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public/sharedFile/Iff.h:
-
 /usr/include/bits/types/struct_timespec.h:
 
 /usr/include/c++/8/tr1/modified_bessel_func.tcc:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/linux/FirstPlatform.h:
 
 /usr/include/c++/8/tr1/poly_laguerre.tcc:
 
 /usr/include/c++/8/tr1/riemann_zeta.tcc:
 
 /usr/include/sched.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Crc.h:
 
 /usr/include/bits/sched.h:
 
@@ -1658,9 +1666,11 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/bits/types/mbstate_t.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h:
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/linux/PlatformGlue.h:
 
 /usr/include/c++/8/ext/new_allocator.h:
+
+/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/src/shared/FirstSharedFoundation.h:
 
 /usr/include/c++/8/tr1/poly_hermite.tcc:
 
@@ -1674,10 +1684,6 @@ engine/client/application/Miff/src/lex_yy.c:
 
 /usr/include/asm/socket.h:
 
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/include/public/sharedCompression/SetupSharedCompression.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/src/shared/Tag.h:
-
 /usr/include/asm-generic/socket.h:
 
 /usr/include/bits/sys_errlist.h:
@@ -1689,9 +1695,3 @@ engine/client/application/Miff/src/lex_yy.c:
 /usr/include/sys/socket.h:
 
 /usr/include/sys/time.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h:
-
-/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h:
-
-/usr/include/fcntl.h:

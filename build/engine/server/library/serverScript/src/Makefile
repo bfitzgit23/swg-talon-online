@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/library/serverScript/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/server/library/serverScript/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/rule
 .PHONY : engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ serverScript: engine/server/library/serverScript/src/CMakeFiles/serverScript.dir
 
 # fast build rule for target.
 serverScript/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build
 .PHONY : serverScript/fast
 
 shared/ConfigServerScript.o: shared/ConfigServerScript.cpp.o
@@ -135,7 +135,7 @@ shared/ConfigServerScript.o: shared/ConfigServerScript.cpp.o
 
 # target to build an object file
 shared/ConfigServerScript.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ConfigServerScript.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ConfigServerScript.cpp.o
 .PHONY : shared/ConfigServerScript.cpp.o
 
 shared/ConfigServerScript.i: shared/ConfigServerScript.cpp.i
@@ -143,7 +143,7 @@ shared/ConfigServerScript.i: shared/ConfigServerScript.cpp.i
 
 # target to preprocess a source file
 shared/ConfigServerScript.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ConfigServerScript.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ConfigServerScript.cpp.i
 .PHONY : shared/ConfigServerScript.cpp.i
 
 shared/ConfigServerScript.s: shared/ConfigServerScript.cpp.s
@@ -151,7 +151,7 @@ shared/ConfigServerScript.s: shared/ConfigServerScript.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigServerScript.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ConfigServerScript.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ConfigServerScript.cpp.s
 .PHONY : shared/ConfigServerScript.cpp.s
 
 shared/GameScriptObject.o: shared/GameScriptObject.cpp.o
@@ -159,7 +159,7 @@ shared/GameScriptObject.o: shared/GameScriptObject.cpp.o
 
 # target to build an object file
 shared/GameScriptObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/GameScriptObject.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/GameScriptObject.cpp.o
 .PHONY : shared/GameScriptObject.cpp.o
 
 shared/GameScriptObject.i: shared/GameScriptObject.cpp.i
@@ -167,7 +167,7 @@ shared/GameScriptObject.i: shared/GameScriptObject.cpp.i
 
 # target to preprocess a source file
 shared/GameScriptObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/GameScriptObject.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/GameScriptObject.cpp.i
 .PHONY : shared/GameScriptObject.cpp.i
 
 shared/GameScriptObject.s: shared/GameScriptObject.cpp.s
@@ -175,7 +175,7 @@ shared/GameScriptObject.s: shared/GameScriptObject.cpp.s
 
 # target to generate assembly for a file
 shared/GameScriptObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/GameScriptObject.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/GameScriptObject.cpp.s
 .PHONY : shared/GameScriptObject.cpp.s
 
 shared/JNIWrappers.o: shared/JNIWrappers.cpp.o
@@ -183,7 +183,7 @@ shared/JNIWrappers.o: shared/JNIWrappers.cpp.o
 
 # target to build an object file
 shared/JNIWrappers.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JNIWrappers.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JNIWrappers.cpp.o
 .PHONY : shared/JNIWrappers.cpp.o
 
 shared/JNIWrappers.i: shared/JNIWrappers.cpp.i
@@ -191,7 +191,7 @@ shared/JNIWrappers.i: shared/JNIWrappers.cpp.i
 
 # target to preprocess a source file
 shared/JNIWrappers.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JNIWrappers.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JNIWrappers.cpp.i
 .PHONY : shared/JNIWrappers.cpp.i
 
 shared/JNIWrappers.s: shared/JNIWrappers.cpp.s
@@ -199,7 +199,7 @@ shared/JNIWrappers.s: shared/JNIWrappers.cpp.s
 
 # target to generate assembly for a file
 shared/JNIWrappers.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JNIWrappers.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JNIWrappers.cpp.s
 .PHONY : shared/JNIWrappers.cpp.s
 
 shared/JavaLibrary.o: shared/JavaLibrary.cpp.o
@@ -207,7 +207,7 @@ shared/JavaLibrary.o: shared/JavaLibrary.cpp.o
 
 # target to build an object file
 shared/JavaLibrary.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JavaLibrary.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JavaLibrary.cpp.o
 .PHONY : shared/JavaLibrary.cpp.o
 
 shared/JavaLibrary.i: shared/JavaLibrary.cpp.i
@@ -215,7 +215,7 @@ shared/JavaLibrary.i: shared/JavaLibrary.cpp.i
 
 # target to preprocess a source file
 shared/JavaLibrary.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JavaLibrary.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JavaLibrary.cpp.i
 .PHONY : shared/JavaLibrary.cpp.i
 
 shared/JavaLibrary.s: shared/JavaLibrary.cpp.s
@@ -223,7 +223,7 @@ shared/JavaLibrary.s: shared/JavaLibrary.cpp.s
 
 # target to generate assembly for a file
 shared/JavaLibrary.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JavaLibrary.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/JavaLibrary.cpp.s
 .PHONY : shared/JavaLibrary.cpp.s
 
 shared/ScriptFunctionTable.o: shared/ScriptFunctionTable.cpp.o
@@ -231,7 +231,7 @@ shared/ScriptFunctionTable.o: shared/ScriptFunctionTable.cpp.o
 
 # target to build an object file
 shared/ScriptFunctionTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptFunctionTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptFunctionTable.cpp.o
 .PHONY : shared/ScriptFunctionTable.cpp.o
 
 shared/ScriptFunctionTable.i: shared/ScriptFunctionTable.cpp.i
@@ -239,7 +239,7 @@ shared/ScriptFunctionTable.i: shared/ScriptFunctionTable.cpp.i
 
 # target to preprocess a source file
 shared/ScriptFunctionTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptFunctionTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptFunctionTable.cpp.i
 .PHONY : shared/ScriptFunctionTable.cpp.i
 
 shared/ScriptFunctionTable.s: shared/ScriptFunctionTable.cpp.s
@@ -247,7 +247,7 @@ shared/ScriptFunctionTable.s: shared/ScriptFunctionTable.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptFunctionTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptFunctionTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptFunctionTable.cpp.s
 .PHONY : shared/ScriptFunctionTable.cpp.s
 
 shared/ScriptListEntry.o: shared/ScriptListEntry.cpp.o
@@ -255,7 +255,7 @@ shared/ScriptListEntry.o: shared/ScriptListEntry.cpp.o
 
 # target to build an object file
 shared/ScriptListEntry.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptListEntry.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptListEntry.cpp.o
 .PHONY : shared/ScriptListEntry.cpp.o
 
 shared/ScriptListEntry.i: shared/ScriptListEntry.cpp.i
@@ -263,7 +263,7 @@ shared/ScriptListEntry.i: shared/ScriptListEntry.cpp.i
 
 # target to preprocess a source file
 shared/ScriptListEntry.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptListEntry.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptListEntry.cpp.i
 .PHONY : shared/ScriptListEntry.cpp.i
 
 shared/ScriptListEntry.s: shared/ScriptListEntry.cpp.s
@@ -271,7 +271,7 @@ shared/ScriptListEntry.s: shared/ScriptListEntry.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptListEntry.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptListEntry.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptListEntry.cpp.s
 .PHONY : shared/ScriptListEntry.cpp.s
 
 shared/ScriptMessage.o: shared/ScriptMessage.cpp.o
@@ -279,7 +279,7 @@ shared/ScriptMessage.o: shared/ScriptMessage.cpp.o
 
 # target to build an object file
 shared/ScriptMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMessage.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMessage.cpp.o
 .PHONY : shared/ScriptMessage.cpp.o
 
 shared/ScriptMessage.i: shared/ScriptMessage.cpp.i
@@ -287,7 +287,7 @@ shared/ScriptMessage.i: shared/ScriptMessage.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMessage.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMessage.cpp.i
 .PHONY : shared/ScriptMessage.cpp.i
 
 shared/ScriptMessage.s: shared/ScriptMessage.cpp.s
@@ -295,7 +295,7 @@ shared/ScriptMessage.s: shared/ScriptMessage.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMessage.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMessage.cpp.s
 .PHONY : shared/ScriptMessage.cpp.s
 
 shared/ScriptMethodsActionStates.o: shared/ScriptMethodsActionStates.cpp.o
@@ -303,7 +303,7 @@ shared/ScriptMethodsActionStates.o: shared/ScriptMethodsActionStates.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsActionStates.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsActionStates.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsActionStates.cpp.o
 .PHONY : shared/ScriptMethodsActionStates.cpp.o
 
 shared/ScriptMethodsActionStates.i: shared/ScriptMethodsActionStates.cpp.i
@@ -311,7 +311,7 @@ shared/ScriptMethodsActionStates.i: shared/ScriptMethodsActionStates.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsActionStates.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsActionStates.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsActionStates.cpp.i
 .PHONY : shared/ScriptMethodsActionStates.cpp.i
 
 shared/ScriptMethodsActionStates.s: shared/ScriptMethodsActionStates.cpp.s
@@ -319,7 +319,7 @@ shared/ScriptMethodsActionStates.s: shared/ScriptMethodsActionStates.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsActionStates.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsActionStates.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsActionStates.cpp.s
 .PHONY : shared/ScriptMethodsActionStates.cpp.s
 
 shared/ScriptMethodsAi.o: shared/ScriptMethodsAi.cpp.o
@@ -327,7 +327,7 @@ shared/ScriptMethodsAi.o: shared/ScriptMethodsAi.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsAi.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAi.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAi.cpp.o
 .PHONY : shared/ScriptMethodsAi.cpp.o
 
 shared/ScriptMethodsAi.i: shared/ScriptMethodsAi.cpp.i
@@ -335,7 +335,7 @@ shared/ScriptMethodsAi.i: shared/ScriptMethodsAi.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsAi.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAi.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAi.cpp.i
 .PHONY : shared/ScriptMethodsAi.cpp.i
 
 shared/ScriptMethodsAi.s: shared/ScriptMethodsAi.cpp.s
@@ -343,7 +343,7 @@ shared/ScriptMethodsAi.s: shared/ScriptMethodsAi.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsAi.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAi.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAi.cpp.s
 .PHONY : shared/ScriptMethodsAi.cpp.s
 
 shared/ScriptMethodsAnimation.o: shared/ScriptMethodsAnimation.cpp.o
@@ -351,7 +351,7 @@ shared/ScriptMethodsAnimation.o: shared/ScriptMethodsAnimation.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsAnimation.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAnimation.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAnimation.cpp.o
 .PHONY : shared/ScriptMethodsAnimation.cpp.o
 
 shared/ScriptMethodsAnimation.i: shared/ScriptMethodsAnimation.cpp.i
@@ -359,7 +359,7 @@ shared/ScriptMethodsAnimation.i: shared/ScriptMethodsAnimation.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsAnimation.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAnimation.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAnimation.cpp.i
 .PHONY : shared/ScriptMethodsAnimation.cpp.i
 
 shared/ScriptMethodsAnimation.s: shared/ScriptMethodsAnimation.cpp.s
@@ -367,7 +367,7 @@ shared/ScriptMethodsAnimation.s: shared/ScriptMethodsAnimation.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsAnimation.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAnimation.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAnimation.cpp.s
 .PHONY : shared/ScriptMethodsAnimation.cpp.s
 
 shared/ScriptMethodsAttributes.o: shared/ScriptMethodsAttributes.cpp.o
@@ -375,7 +375,7 @@ shared/ScriptMethodsAttributes.o: shared/ScriptMethodsAttributes.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsAttributes.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAttributes.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAttributes.cpp.o
 .PHONY : shared/ScriptMethodsAttributes.cpp.o
 
 shared/ScriptMethodsAttributes.i: shared/ScriptMethodsAttributes.cpp.i
@@ -383,7 +383,7 @@ shared/ScriptMethodsAttributes.i: shared/ScriptMethodsAttributes.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsAttributes.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAttributes.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAttributes.cpp.i
 .PHONY : shared/ScriptMethodsAttributes.cpp.i
 
 shared/ScriptMethodsAttributes.s: shared/ScriptMethodsAttributes.cpp.s
@@ -391,7 +391,7 @@ shared/ScriptMethodsAttributes.s: shared/ScriptMethodsAttributes.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsAttributes.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAttributes.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAttributes.cpp.s
 .PHONY : shared/ScriptMethodsAttributes.cpp.s
 
 shared/ScriptMethodsAuction.o: shared/ScriptMethodsAuction.cpp.o
@@ -399,7 +399,7 @@ shared/ScriptMethodsAuction.o: shared/ScriptMethodsAuction.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsAuction.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAuction.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAuction.cpp.o
 .PHONY : shared/ScriptMethodsAuction.cpp.o
 
 shared/ScriptMethodsAuction.i: shared/ScriptMethodsAuction.cpp.i
@@ -407,7 +407,7 @@ shared/ScriptMethodsAuction.i: shared/ScriptMethodsAuction.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsAuction.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAuction.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAuction.cpp.i
 .PHONY : shared/ScriptMethodsAuction.cpp.i
 
 shared/ScriptMethodsAuction.s: shared/ScriptMethodsAuction.cpp.s
@@ -415,7 +415,7 @@ shared/ScriptMethodsAuction.s: shared/ScriptMethodsAuction.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsAuction.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAuction.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsAuction.cpp.s
 .PHONY : shared/ScriptMethodsAuction.cpp.s
 
 shared/ScriptMethodsBank.o: shared/ScriptMethodsBank.cpp.o
@@ -423,7 +423,7 @@ shared/ScriptMethodsBank.o: shared/ScriptMethodsBank.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsBank.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBank.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBank.cpp.o
 .PHONY : shared/ScriptMethodsBank.cpp.o
 
 shared/ScriptMethodsBank.i: shared/ScriptMethodsBank.cpp.i
@@ -431,7 +431,7 @@ shared/ScriptMethodsBank.i: shared/ScriptMethodsBank.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsBank.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBank.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBank.cpp.i
 .PHONY : shared/ScriptMethodsBank.cpp.i
 
 shared/ScriptMethodsBank.s: shared/ScriptMethodsBank.cpp.s
@@ -439,7 +439,7 @@ shared/ScriptMethodsBank.s: shared/ScriptMethodsBank.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsBank.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBank.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBank.cpp.s
 .PHONY : shared/ScriptMethodsBank.cpp.s
 
 shared/ScriptMethodsBeastMaster.o: shared/ScriptMethodsBeastMaster.cpp.o
@@ -447,7 +447,7 @@ shared/ScriptMethodsBeastMaster.o: shared/ScriptMethodsBeastMaster.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsBeastMaster.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBeastMaster.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBeastMaster.cpp.o
 .PHONY : shared/ScriptMethodsBeastMaster.cpp.o
 
 shared/ScriptMethodsBeastMaster.i: shared/ScriptMethodsBeastMaster.cpp.i
@@ -455,7 +455,7 @@ shared/ScriptMethodsBeastMaster.i: shared/ScriptMethodsBeastMaster.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsBeastMaster.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBeastMaster.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBeastMaster.cpp.i
 .PHONY : shared/ScriptMethodsBeastMaster.cpp.i
 
 shared/ScriptMethodsBeastMaster.s: shared/ScriptMethodsBeastMaster.cpp.s
@@ -463,7 +463,7 @@ shared/ScriptMethodsBeastMaster.s: shared/ScriptMethodsBeastMaster.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsBeastMaster.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBeastMaster.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBeastMaster.cpp.s
 .PHONY : shared/ScriptMethodsBeastMaster.cpp.s
 
 shared/ScriptMethodsBroadcasting.o: shared/ScriptMethodsBroadcasting.cpp.o
@@ -471,7 +471,7 @@ shared/ScriptMethodsBroadcasting.o: shared/ScriptMethodsBroadcasting.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsBroadcasting.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBroadcasting.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBroadcasting.cpp.o
 .PHONY : shared/ScriptMethodsBroadcasting.cpp.o
 
 shared/ScriptMethodsBroadcasting.i: shared/ScriptMethodsBroadcasting.cpp.i
@@ -479,7 +479,7 @@ shared/ScriptMethodsBroadcasting.i: shared/ScriptMethodsBroadcasting.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsBroadcasting.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBroadcasting.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBroadcasting.cpp.i
 .PHONY : shared/ScriptMethodsBroadcasting.cpp.i
 
 shared/ScriptMethodsBroadcasting.s: shared/ScriptMethodsBroadcasting.cpp.s
@@ -487,7 +487,7 @@ shared/ScriptMethodsBroadcasting.s: shared/ScriptMethodsBroadcasting.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsBroadcasting.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBroadcasting.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBroadcasting.cpp.s
 .PHONY : shared/ScriptMethodsBroadcasting.cpp.s
 
 shared/ScriptMethodsBuff.o: shared/ScriptMethodsBuff.cpp.o
@@ -495,7 +495,7 @@ shared/ScriptMethodsBuff.o: shared/ScriptMethodsBuff.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsBuff.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuff.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuff.cpp.o
 .PHONY : shared/ScriptMethodsBuff.cpp.o
 
 shared/ScriptMethodsBuff.i: shared/ScriptMethodsBuff.cpp.i
@@ -503,7 +503,7 @@ shared/ScriptMethodsBuff.i: shared/ScriptMethodsBuff.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsBuff.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuff.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuff.cpp.i
 .PHONY : shared/ScriptMethodsBuff.cpp.i
 
 shared/ScriptMethodsBuff.s: shared/ScriptMethodsBuff.cpp.s
@@ -511,7 +511,7 @@ shared/ScriptMethodsBuff.s: shared/ScriptMethodsBuff.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsBuff.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuff.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuff.cpp.s
 .PHONY : shared/ScriptMethodsBuff.cpp.s
 
 shared/ScriptMethodsBuffBuilder.o: shared/ScriptMethodsBuffBuilder.cpp.o
@@ -519,7 +519,7 @@ shared/ScriptMethodsBuffBuilder.o: shared/ScriptMethodsBuffBuilder.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsBuffBuilder.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuffBuilder.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuffBuilder.cpp.o
 .PHONY : shared/ScriptMethodsBuffBuilder.cpp.o
 
 shared/ScriptMethodsBuffBuilder.i: shared/ScriptMethodsBuffBuilder.cpp.i
@@ -527,7 +527,7 @@ shared/ScriptMethodsBuffBuilder.i: shared/ScriptMethodsBuffBuilder.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsBuffBuilder.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuffBuilder.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuffBuilder.cpp.i
 .PHONY : shared/ScriptMethodsBuffBuilder.cpp.i
 
 shared/ScriptMethodsBuffBuilder.s: shared/ScriptMethodsBuffBuilder.cpp.s
@@ -535,7 +535,7 @@ shared/ScriptMethodsBuffBuilder.s: shared/ScriptMethodsBuffBuilder.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsBuffBuilder.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuffBuilder.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsBuffBuilder.cpp.s
 .PHONY : shared/ScriptMethodsBuffBuilder.cpp.s
 
 shared/ScriptMethodsChat.o: shared/ScriptMethodsChat.cpp.o
@@ -543,7 +543,7 @@ shared/ScriptMethodsChat.o: shared/ScriptMethodsChat.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsChat.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsChat.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsChat.cpp.o
 .PHONY : shared/ScriptMethodsChat.cpp.o
 
 shared/ScriptMethodsChat.i: shared/ScriptMethodsChat.cpp.i
@@ -551,7 +551,7 @@ shared/ScriptMethodsChat.i: shared/ScriptMethodsChat.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsChat.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsChat.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsChat.cpp.i
 .PHONY : shared/ScriptMethodsChat.cpp.i
 
 shared/ScriptMethodsChat.s: shared/ScriptMethodsChat.cpp.s
@@ -559,7 +559,7 @@ shared/ScriptMethodsChat.s: shared/ScriptMethodsChat.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsChat.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsChat.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsChat.cpp.s
 .PHONY : shared/ScriptMethodsChat.cpp.s
 
 shared/ScriptMethodsCity.o: shared/ScriptMethodsCity.cpp.o
@@ -567,7 +567,7 @@ shared/ScriptMethodsCity.o: shared/ScriptMethodsCity.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsCity.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCity.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCity.cpp.o
 .PHONY : shared/ScriptMethodsCity.cpp.o
 
 shared/ScriptMethodsCity.i: shared/ScriptMethodsCity.cpp.i
@@ -575,7 +575,7 @@ shared/ScriptMethodsCity.i: shared/ScriptMethodsCity.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsCity.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCity.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCity.cpp.i
 .PHONY : shared/ScriptMethodsCity.cpp.i
 
 shared/ScriptMethodsCity.s: shared/ScriptMethodsCity.cpp.s
@@ -583,7 +583,7 @@ shared/ScriptMethodsCity.s: shared/ScriptMethodsCity.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsCity.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCity.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCity.cpp.s
 .PHONY : shared/ScriptMethodsCity.cpp.s
 
 shared/ScriptMethodsClientEffect.o: shared/ScriptMethodsClientEffect.cpp.o
@@ -591,7 +591,7 @@ shared/ScriptMethodsClientEffect.o: shared/ScriptMethodsClientEffect.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsClientEffect.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClientEffect.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClientEffect.cpp.o
 .PHONY : shared/ScriptMethodsClientEffect.cpp.o
 
 shared/ScriptMethodsClientEffect.i: shared/ScriptMethodsClientEffect.cpp.i
@@ -599,7 +599,7 @@ shared/ScriptMethodsClientEffect.i: shared/ScriptMethodsClientEffect.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsClientEffect.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClientEffect.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClientEffect.cpp.i
 .PHONY : shared/ScriptMethodsClientEffect.cpp.i
 
 shared/ScriptMethodsClientEffect.s: shared/ScriptMethodsClientEffect.cpp.s
@@ -607,7 +607,7 @@ shared/ScriptMethodsClientEffect.s: shared/ScriptMethodsClientEffect.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsClientEffect.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClientEffect.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClientEffect.cpp.s
 .PHONY : shared/ScriptMethodsClientEffect.cpp.s
 
 shared/ScriptMethodsClusterWideData.o: shared/ScriptMethodsClusterWideData.cpp.o
@@ -615,7 +615,7 @@ shared/ScriptMethodsClusterWideData.o: shared/ScriptMethodsClusterWideData.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsClusterWideData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClusterWideData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClusterWideData.cpp.o
 .PHONY : shared/ScriptMethodsClusterWideData.cpp.o
 
 shared/ScriptMethodsClusterWideData.i: shared/ScriptMethodsClusterWideData.cpp.i
@@ -623,7 +623,7 @@ shared/ScriptMethodsClusterWideData.i: shared/ScriptMethodsClusterWideData.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsClusterWideData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClusterWideData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClusterWideData.cpp.i
 .PHONY : shared/ScriptMethodsClusterWideData.cpp.i
 
 shared/ScriptMethodsClusterWideData.s: shared/ScriptMethodsClusterWideData.cpp.s
@@ -631,7 +631,7 @@ shared/ScriptMethodsClusterWideData.s: shared/ScriptMethodsClusterWideData.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsClusterWideData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClusterWideData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsClusterWideData.cpp.s
 .PHONY : shared/ScriptMethodsClusterWideData.cpp.s
 
 shared/ScriptMethodsCollection.o: shared/ScriptMethodsCollection.cpp.o
@@ -639,7 +639,7 @@ shared/ScriptMethodsCollection.o: shared/ScriptMethodsCollection.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsCollection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCollection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCollection.cpp.o
 .PHONY : shared/ScriptMethodsCollection.cpp.o
 
 shared/ScriptMethodsCollection.i: shared/ScriptMethodsCollection.cpp.i
@@ -647,7 +647,7 @@ shared/ScriptMethodsCollection.i: shared/ScriptMethodsCollection.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsCollection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCollection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCollection.cpp.i
 .PHONY : shared/ScriptMethodsCollection.cpp.i
 
 shared/ScriptMethodsCollection.s: shared/ScriptMethodsCollection.cpp.s
@@ -655,7 +655,7 @@ shared/ScriptMethodsCollection.s: shared/ScriptMethodsCollection.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsCollection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCollection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCollection.cpp.s
 .PHONY : shared/ScriptMethodsCollection.cpp.s
 
 shared/ScriptMethodsCombat.o: shared/ScriptMethodsCombat.cpp.o
@@ -663,7 +663,7 @@ shared/ScriptMethodsCombat.o: shared/ScriptMethodsCombat.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsCombat.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCombat.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCombat.cpp.o
 .PHONY : shared/ScriptMethodsCombat.cpp.o
 
 shared/ScriptMethodsCombat.i: shared/ScriptMethodsCombat.cpp.i
@@ -671,7 +671,7 @@ shared/ScriptMethodsCombat.i: shared/ScriptMethodsCombat.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsCombat.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCombat.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCombat.cpp.i
 .PHONY : shared/ScriptMethodsCombat.cpp.i
 
 shared/ScriptMethodsCombat.s: shared/ScriptMethodsCombat.cpp.s
@@ -679,7 +679,7 @@ shared/ScriptMethodsCombat.s: shared/ScriptMethodsCombat.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsCombat.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCombat.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCombat.cpp.s
 .PHONY : shared/ScriptMethodsCombat.cpp.s
 
 shared/ScriptMethodsCommandQueue.o: shared/ScriptMethodsCommandQueue.cpp.o
@@ -687,7 +687,7 @@ shared/ScriptMethodsCommandQueue.o: shared/ScriptMethodsCommandQueue.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsCommandQueue.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCommandQueue.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCommandQueue.cpp.o
 .PHONY : shared/ScriptMethodsCommandQueue.cpp.o
 
 shared/ScriptMethodsCommandQueue.i: shared/ScriptMethodsCommandQueue.cpp.i
@@ -695,7 +695,7 @@ shared/ScriptMethodsCommandQueue.i: shared/ScriptMethodsCommandQueue.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsCommandQueue.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCommandQueue.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCommandQueue.cpp.i
 .PHONY : shared/ScriptMethodsCommandQueue.cpp.i
 
 shared/ScriptMethodsCommandQueue.s: shared/ScriptMethodsCommandQueue.cpp.s
@@ -703,7 +703,7 @@ shared/ScriptMethodsCommandQueue.s: shared/ScriptMethodsCommandQueue.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsCommandQueue.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCommandQueue.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCommandQueue.cpp.s
 .PHONY : shared/ScriptMethodsCommandQueue.cpp.s
 
 shared/ScriptMethodsConsole.o: shared/ScriptMethodsConsole.cpp.o
@@ -711,7 +711,7 @@ shared/ScriptMethodsConsole.o: shared/ScriptMethodsConsole.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsConsole.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsConsole.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsConsole.cpp.o
 .PHONY : shared/ScriptMethodsConsole.cpp.o
 
 shared/ScriptMethodsConsole.i: shared/ScriptMethodsConsole.cpp.i
@@ -719,7 +719,7 @@ shared/ScriptMethodsConsole.i: shared/ScriptMethodsConsole.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsConsole.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsConsole.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsConsole.cpp.i
 .PHONY : shared/ScriptMethodsConsole.cpp.i
 
 shared/ScriptMethodsConsole.s: shared/ScriptMethodsConsole.cpp.s
@@ -727,7 +727,7 @@ shared/ScriptMethodsConsole.s: shared/ScriptMethodsConsole.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsConsole.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsConsole.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsConsole.cpp.s
 .PHONY : shared/ScriptMethodsConsole.cpp.s
 
 shared/ScriptMethodsContainers.o: shared/ScriptMethodsContainers.cpp.o
@@ -735,7 +735,7 @@ shared/ScriptMethodsContainers.o: shared/ScriptMethodsContainers.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsContainers.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsContainers.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsContainers.cpp.o
 .PHONY : shared/ScriptMethodsContainers.cpp.o
 
 shared/ScriptMethodsContainers.i: shared/ScriptMethodsContainers.cpp.i
@@ -743,7 +743,7 @@ shared/ScriptMethodsContainers.i: shared/ScriptMethodsContainers.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsContainers.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsContainers.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsContainers.cpp.i
 .PHONY : shared/ScriptMethodsContainers.cpp.i
 
 shared/ScriptMethodsContainers.s: shared/ScriptMethodsContainers.cpp.s
@@ -751,7 +751,7 @@ shared/ScriptMethodsContainers.s: shared/ScriptMethodsContainers.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsContainers.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsContainers.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsContainers.cpp.s
 .PHONY : shared/ScriptMethodsContainers.cpp.s
 
 shared/ScriptMethodsCrafting.o: shared/ScriptMethodsCrafting.cpp.o
@@ -759,7 +759,7 @@ shared/ScriptMethodsCrafting.o: shared/ScriptMethodsCrafting.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsCrafting.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCrafting.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCrafting.cpp.o
 .PHONY : shared/ScriptMethodsCrafting.cpp.o
 
 shared/ScriptMethodsCrafting.i: shared/ScriptMethodsCrafting.cpp.i
@@ -767,7 +767,7 @@ shared/ScriptMethodsCrafting.i: shared/ScriptMethodsCrafting.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsCrafting.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCrafting.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCrafting.cpp.i
 .PHONY : shared/ScriptMethodsCrafting.cpp.i
 
 shared/ScriptMethodsCrafting.s: shared/ScriptMethodsCrafting.cpp.s
@@ -775,7 +775,7 @@ shared/ScriptMethodsCrafting.s: shared/ScriptMethodsCrafting.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsCrafting.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCrafting.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsCrafting.cpp.s
 .PHONY : shared/ScriptMethodsCrafting.cpp.s
 
 shared/ScriptMethodsDataTable.o: shared/ScriptMethodsDataTable.cpp.o
@@ -783,7 +783,7 @@ shared/ScriptMethodsDataTable.o: shared/ScriptMethodsDataTable.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsDataTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDataTable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDataTable.cpp.o
 .PHONY : shared/ScriptMethodsDataTable.cpp.o
 
 shared/ScriptMethodsDataTable.i: shared/ScriptMethodsDataTable.cpp.i
@@ -791,7 +791,7 @@ shared/ScriptMethodsDataTable.i: shared/ScriptMethodsDataTable.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsDataTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDataTable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDataTable.cpp.i
 .PHONY : shared/ScriptMethodsDataTable.cpp.i
 
 shared/ScriptMethodsDataTable.s: shared/ScriptMethodsDataTable.cpp.s
@@ -799,7 +799,7 @@ shared/ScriptMethodsDataTable.s: shared/ScriptMethodsDataTable.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsDataTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDataTable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDataTable.cpp.s
 .PHONY : shared/ScriptMethodsDataTable.cpp.s
 
 shared/ScriptMethodsDebug.o: shared/ScriptMethodsDebug.cpp.o
@@ -807,7 +807,7 @@ shared/ScriptMethodsDebug.o: shared/ScriptMethodsDebug.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsDebug.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDebug.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDebug.cpp.o
 .PHONY : shared/ScriptMethodsDebug.cpp.o
 
 shared/ScriptMethodsDebug.i: shared/ScriptMethodsDebug.cpp.i
@@ -815,7 +815,7 @@ shared/ScriptMethodsDebug.i: shared/ScriptMethodsDebug.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsDebug.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDebug.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDebug.cpp.i
 .PHONY : shared/ScriptMethodsDebug.cpp.i
 
 shared/ScriptMethodsDebug.s: shared/ScriptMethodsDebug.cpp.s
@@ -823,7 +823,7 @@ shared/ScriptMethodsDebug.s: shared/ScriptMethodsDebug.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsDebug.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDebug.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDebug.cpp.s
 .PHONY : shared/ScriptMethodsDebug.cpp.s
 
 shared/ScriptMethodsDynamicVariable.o: shared/ScriptMethodsDynamicVariable.cpp.o
@@ -831,7 +831,7 @@ shared/ScriptMethodsDynamicVariable.o: shared/ScriptMethodsDynamicVariable.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsDynamicVariable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDynamicVariable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDynamicVariable.cpp.o
 .PHONY : shared/ScriptMethodsDynamicVariable.cpp.o
 
 shared/ScriptMethodsDynamicVariable.i: shared/ScriptMethodsDynamicVariable.cpp.i
@@ -839,7 +839,7 @@ shared/ScriptMethodsDynamicVariable.i: shared/ScriptMethodsDynamicVariable.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsDynamicVariable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDynamicVariable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDynamicVariable.cpp.i
 .PHONY : shared/ScriptMethodsDynamicVariable.cpp.i
 
 shared/ScriptMethodsDynamicVariable.s: shared/ScriptMethodsDynamicVariable.cpp.s
@@ -847,7 +847,7 @@ shared/ScriptMethodsDynamicVariable.s: shared/ScriptMethodsDynamicVariable.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsDynamicVariable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDynamicVariable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsDynamicVariable.cpp.s
 .PHONY : shared/ScriptMethodsDynamicVariable.cpp.s
 
 shared/ScriptMethodsForm.o: shared/ScriptMethodsForm.cpp.o
@@ -855,7 +855,7 @@ shared/ScriptMethodsForm.o: shared/ScriptMethodsForm.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsForm.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsForm.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsForm.cpp.o
 .PHONY : shared/ScriptMethodsForm.cpp.o
 
 shared/ScriptMethodsForm.i: shared/ScriptMethodsForm.cpp.i
@@ -863,7 +863,7 @@ shared/ScriptMethodsForm.i: shared/ScriptMethodsForm.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsForm.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsForm.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsForm.cpp.i
 .PHONY : shared/ScriptMethodsForm.cpp.i
 
 shared/ScriptMethodsForm.s: shared/ScriptMethodsForm.cpp.s
@@ -871,7 +871,7 @@ shared/ScriptMethodsForm.s: shared/ScriptMethodsForm.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsForm.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsForm.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsForm.cpp.s
 .PHONY : shared/ScriptMethodsForm.cpp.s
 
 shared/ScriptMethodsGlobalQuery.o: shared/ScriptMethodsGlobalQuery.cpp.o
@@ -879,7 +879,7 @@ shared/ScriptMethodsGlobalQuery.o: shared/ScriptMethodsGlobalQuery.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsGlobalQuery.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGlobalQuery.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGlobalQuery.cpp.o
 .PHONY : shared/ScriptMethodsGlobalQuery.cpp.o
 
 shared/ScriptMethodsGlobalQuery.i: shared/ScriptMethodsGlobalQuery.cpp.i
@@ -887,7 +887,7 @@ shared/ScriptMethodsGlobalQuery.i: shared/ScriptMethodsGlobalQuery.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsGlobalQuery.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGlobalQuery.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGlobalQuery.cpp.i
 .PHONY : shared/ScriptMethodsGlobalQuery.cpp.i
 
 shared/ScriptMethodsGlobalQuery.s: shared/ScriptMethodsGlobalQuery.cpp.s
@@ -895,7 +895,7 @@ shared/ScriptMethodsGlobalQuery.s: shared/ScriptMethodsGlobalQuery.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsGlobalQuery.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGlobalQuery.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGlobalQuery.cpp.s
 .PHONY : shared/ScriptMethodsGlobalQuery.cpp.s
 
 shared/ScriptMethodsGuild.o: shared/ScriptMethodsGuild.cpp.o
@@ -903,7 +903,7 @@ shared/ScriptMethodsGuild.o: shared/ScriptMethodsGuild.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsGuild.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGuild.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGuild.cpp.o
 .PHONY : shared/ScriptMethodsGuild.cpp.o
 
 shared/ScriptMethodsGuild.i: shared/ScriptMethodsGuild.cpp.i
@@ -911,7 +911,7 @@ shared/ScriptMethodsGuild.i: shared/ScriptMethodsGuild.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsGuild.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGuild.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGuild.cpp.i
 .PHONY : shared/ScriptMethodsGuild.cpp.i
 
 shared/ScriptMethodsGuild.s: shared/ScriptMethodsGuild.cpp.s
@@ -919,7 +919,7 @@ shared/ScriptMethodsGuild.s: shared/ScriptMethodsGuild.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsGuild.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGuild.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsGuild.cpp.s
 .PHONY : shared/ScriptMethodsGuild.cpp.s
 
 shared/ScriptMethodsHateList.o: shared/ScriptMethodsHateList.cpp.o
@@ -927,7 +927,7 @@ shared/ScriptMethodsHateList.o: shared/ScriptMethodsHateList.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsHateList.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHateList.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHateList.cpp.o
 .PHONY : shared/ScriptMethodsHateList.cpp.o
 
 shared/ScriptMethodsHateList.i: shared/ScriptMethodsHateList.cpp.i
@@ -935,7 +935,7 @@ shared/ScriptMethodsHateList.i: shared/ScriptMethodsHateList.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsHateList.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHateList.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHateList.cpp.i
 .PHONY : shared/ScriptMethodsHateList.cpp.i
 
 shared/ScriptMethodsHateList.s: shared/ScriptMethodsHateList.cpp.s
@@ -943,7 +943,7 @@ shared/ScriptMethodsHateList.s: shared/ScriptMethodsHateList.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsHateList.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHateList.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHateList.cpp.s
 .PHONY : shared/ScriptMethodsHateList.cpp.s
 
 shared/ScriptMethodsHolocube.o: shared/ScriptMethodsHolocube.cpp.o
@@ -951,7 +951,7 @@ shared/ScriptMethodsHolocube.o: shared/ScriptMethodsHolocube.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsHolocube.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHolocube.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHolocube.cpp.o
 .PHONY : shared/ScriptMethodsHolocube.cpp.o
 
 shared/ScriptMethodsHolocube.i: shared/ScriptMethodsHolocube.cpp.i
@@ -959,7 +959,7 @@ shared/ScriptMethodsHolocube.i: shared/ScriptMethodsHolocube.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsHolocube.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHolocube.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHolocube.cpp.i
 .PHONY : shared/ScriptMethodsHolocube.cpp.i
 
 shared/ScriptMethodsHolocube.s: shared/ScriptMethodsHolocube.cpp.s
@@ -967,7 +967,7 @@ shared/ScriptMethodsHolocube.s: shared/ScriptMethodsHolocube.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsHolocube.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHolocube.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHolocube.cpp.s
 .PHONY : shared/ScriptMethodsHolocube.cpp.s
 
 shared/ScriptMethodsHyperspace.o: shared/ScriptMethodsHyperspace.cpp.o
@@ -975,7 +975,7 @@ shared/ScriptMethodsHyperspace.o: shared/ScriptMethodsHyperspace.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsHyperspace.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHyperspace.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHyperspace.cpp.o
 .PHONY : shared/ScriptMethodsHyperspace.cpp.o
 
 shared/ScriptMethodsHyperspace.i: shared/ScriptMethodsHyperspace.cpp.i
@@ -983,7 +983,7 @@ shared/ScriptMethodsHyperspace.i: shared/ScriptMethodsHyperspace.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsHyperspace.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHyperspace.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHyperspace.cpp.i
 .PHONY : shared/ScriptMethodsHyperspace.cpp.i
 
 shared/ScriptMethodsHyperspace.s: shared/ScriptMethodsHyperspace.cpp.s
@@ -991,7 +991,7 @@ shared/ScriptMethodsHyperspace.s: shared/ScriptMethodsHyperspace.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsHyperspace.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHyperspace.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsHyperspace.cpp.s
 .PHONY : shared/ScriptMethodsHyperspace.cpp.s
 
 shared/ScriptMethodsImageDesign.o: shared/ScriptMethodsImageDesign.cpp.o
@@ -999,7 +999,7 @@ shared/ScriptMethodsImageDesign.o: shared/ScriptMethodsImageDesign.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsImageDesign.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsImageDesign.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsImageDesign.cpp.o
 .PHONY : shared/ScriptMethodsImageDesign.cpp.o
 
 shared/ScriptMethodsImageDesign.i: shared/ScriptMethodsImageDesign.cpp.i
@@ -1007,7 +1007,7 @@ shared/ScriptMethodsImageDesign.i: shared/ScriptMethodsImageDesign.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsImageDesign.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsImageDesign.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsImageDesign.cpp.i
 .PHONY : shared/ScriptMethodsImageDesign.cpp.i
 
 shared/ScriptMethodsImageDesign.s: shared/ScriptMethodsImageDesign.cpp.s
@@ -1015,7 +1015,7 @@ shared/ScriptMethodsImageDesign.s: shared/ScriptMethodsImageDesign.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsImageDesign.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsImageDesign.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsImageDesign.cpp.s
 .PHONY : shared/ScriptMethodsImageDesign.cpp.s
 
 shared/ScriptMethodsInstallation.o: shared/ScriptMethodsInstallation.cpp.o
@@ -1023,7 +1023,7 @@ shared/ScriptMethodsInstallation.o: shared/ScriptMethodsInstallation.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsInstallation.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInstallation.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInstallation.cpp.o
 .PHONY : shared/ScriptMethodsInstallation.cpp.o
 
 shared/ScriptMethodsInstallation.i: shared/ScriptMethodsInstallation.cpp.i
@@ -1031,7 +1031,7 @@ shared/ScriptMethodsInstallation.i: shared/ScriptMethodsInstallation.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsInstallation.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInstallation.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInstallation.cpp.i
 .PHONY : shared/ScriptMethodsInstallation.cpp.i
 
 shared/ScriptMethodsInstallation.s: shared/ScriptMethodsInstallation.cpp.s
@@ -1039,7 +1039,7 @@ shared/ScriptMethodsInstallation.s: shared/ScriptMethodsInstallation.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsInstallation.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInstallation.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInstallation.cpp.s
 .PHONY : shared/ScriptMethodsInstallation.cpp.s
 
 shared/ScriptMethodsInterest.o: shared/ScriptMethodsInterest.cpp.o
@@ -1047,7 +1047,7 @@ shared/ScriptMethodsInterest.o: shared/ScriptMethodsInterest.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsInterest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInterest.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInterest.cpp.o
 .PHONY : shared/ScriptMethodsInterest.cpp.o
 
 shared/ScriptMethodsInterest.i: shared/ScriptMethodsInterest.cpp.i
@@ -1055,7 +1055,7 @@ shared/ScriptMethodsInterest.i: shared/ScriptMethodsInterest.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsInterest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInterest.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInterest.cpp.i
 .PHONY : shared/ScriptMethodsInterest.cpp.i
 
 shared/ScriptMethodsInterest.s: shared/ScriptMethodsInterest.cpp.s
@@ -1063,7 +1063,7 @@ shared/ScriptMethodsInterest.s: shared/ScriptMethodsInterest.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsInterest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInterest.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInterest.cpp.s
 .PHONY : shared/ScriptMethodsInterest.cpp.s
 
 shared/ScriptMethodsInteriors.o: shared/ScriptMethodsInteriors.cpp.o
@@ -1071,7 +1071,7 @@ shared/ScriptMethodsInteriors.o: shared/ScriptMethodsInteriors.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsInteriors.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInteriors.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInteriors.cpp.o
 .PHONY : shared/ScriptMethodsInteriors.cpp.o
 
 shared/ScriptMethodsInteriors.i: shared/ScriptMethodsInteriors.cpp.i
@@ -1079,7 +1079,7 @@ shared/ScriptMethodsInteriors.i: shared/ScriptMethodsInteriors.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsInteriors.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInteriors.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInteriors.cpp.i
 .PHONY : shared/ScriptMethodsInteriors.cpp.i
 
 shared/ScriptMethodsInteriors.s: shared/ScriptMethodsInteriors.cpp.s
@@ -1087,7 +1087,7 @@ shared/ScriptMethodsInteriors.s: shared/ScriptMethodsInteriors.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsInteriors.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInteriors.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsInteriors.cpp.s
 .PHONY : shared/ScriptMethodsInteriors.cpp.s
 
 shared/ScriptMethodsJedi.o: shared/ScriptMethodsJedi.cpp.o
@@ -1095,7 +1095,7 @@ shared/ScriptMethodsJedi.o: shared/ScriptMethodsJedi.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsJedi.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsJedi.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsJedi.cpp.o
 .PHONY : shared/ScriptMethodsJedi.cpp.o
 
 shared/ScriptMethodsJedi.i: shared/ScriptMethodsJedi.cpp.i
@@ -1103,7 +1103,7 @@ shared/ScriptMethodsJedi.i: shared/ScriptMethodsJedi.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsJedi.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsJedi.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsJedi.cpp.i
 .PHONY : shared/ScriptMethodsJedi.cpp.i
 
 shared/ScriptMethodsJedi.s: shared/ScriptMethodsJedi.cpp.s
@@ -1111,7 +1111,7 @@ shared/ScriptMethodsJedi.s: shared/ScriptMethodsJedi.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsJedi.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsJedi.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsJedi.cpp.s
 .PHONY : shared/ScriptMethodsJedi.cpp.s
 
 shared/ScriptMethodsMap.o: shared/ScriptMethodsMap.cpp.o
@@ -1119,7 +1119,7 @@ shared/ScriptMethodsMap.o: shared/ScriptMethodsMap.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsMap.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMap.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMap.cpp.o
 .PHONY : shared/ScriptMethodsMap.cpp.o
 
 shared/ScriptMethodsMap.i: shared/ScriptMethodsMap.cpp.i
@@ -1127,7 +1127,7 @@ shared/ScriptMethodsMap.i: shared/ScriptMethodsMap.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsMap.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMap.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMap.cpp.i
 .PHONY : shared/ScriptMethodsMap.cpp.i
 
 shared/ScriptMethodsMap.s: shared/ScriptMethodsMap.cpp.s
@@ -1135,7 +1135,7 @@ shared/ScriptMethodsMap.s: shared/ScriptMethodsMap.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsMap.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMap.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMap.cpp.s
 .PHONY : shared/ScriptMethodsMap.cpp.s
 
 shared/ScriptMethodsMentalStates.o: shared/ScriptMethodsMentalStates.cpp.o
@@ -1143,7 +1143,7 @@ shared/ScriptMethodsMentalStates.o: shared/ScriptMethodsMentalStates.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsMentalStates.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMentalStates.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMentalStates.cpp.o
 .PHONY : shared/ScriptMethodsMentalStates.cpp.o
 
 shared/ScriptMethodsMentalStates.i: shared/ScriptMethodsMentalStates.cpp.i
@@ -1151,7 +1151,7 @@ shared/ScriptMethodsMentalStates.i: shared/ScriptMethodsMentalStates.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsMentalStates.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMentalStates.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMentalStates.cpp.i
 .PHONY : shared/ScriptMethodsMentalStates.cpp.i
 
 shared/ScriptMethodsMentalStates.s: shared/ScriptMethodsMentalStates.cpp.s
@@ -1159,7 +1159,7 @@ shared/ScriptMethodsMentalStates.s: shared/ScriptMethodsMentalStates.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsMentalStates.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMentalStates.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMentalStates.cpp.s
 .PHONY : shared/ScriptMethodsMentalStates.cpp.s
 
 shared/ScriptMethodsMenu.o: shared/ScriptMethodsMenu.cpp.o
@@ -1167,7 +1167,7 @@ shared/ScriptMethodsMenu.o: shared/ScriptMethodsMenu.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsMenu.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMenu.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMenu.cpp.o
 .PHONY : shared/ScriptMethodsMenu.cpp.o
 
 shared/ScriptMethodsMenu.i: shared/ScriptMethodsMenu.cpp.i
@@ -1175,7 +1175,7 @@ shared/ScriptMethodsMenu.i: shared/ScriptMethodsMenu.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsMenu.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMenu.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMenu.cpp.i
 .PHONY : shared/ScriptMethodsMenu.cpp.i
 
 shared/ScriptMethodsMenu.s: shared/ScriptMethodsMenu.cpp.s
@@ -1183,7 +1183,7 @@ shared/ScriptMethodsMenu.s: shared/ScriptMethodsMenu.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsMenu.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMenu.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMenu.cpp.s
 .PHONY : shared/ScriptMethodsMenu.cpp.s
 
 shared/ScriptMethodsMission.o: shared/ScriptMethodsMission.cpp.o
@@ -1191,7 +1191,7 @@ shared/ScriptMethodsMission.o: shared/ScriptMethodsMission.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsMission.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMission.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMission.cpp.o
 .PHONY : shared/ScriptMethodsMission.cpp.o
 
 shared/ScriptMethodsMission.i: shared/ScriptMethodsMission.cpp.i
@@ -1199,7 +1199,7 @@ shared/ScriptMethodsMission.i: shared/ScriptMethodsMission.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsMission.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMission.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMission.cpp.i
 .PHONY : shared/ScriptMethodsMission.cpp.i
 
 shared/ScriptMethodsMission.s: shared/ScriptMethodsMission.cpp.s
@@ -1207,7 +1207,7 @@ shared/ScriptMethodsMission.s: shared/ScriptMethodsMission.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsMission.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMission.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMission.cpp.s
 .PHONY : shared/ScriptMethodsMission.cpp.s
 
 shared/ScriptMethodsMoney.o: shared/ScriptMethodsMoney.cpp.o
@@ -1215,7 +1215,7 @@ shared/ScriptMethodsMoney.o: shared/ScriptMethodsMoney.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsMoney.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMoney.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMoney.cpp.o
 .PHONY : shared/ScriptMethodsMoney.cpp.o
 
 shared/ScriptMethodsMoney.i: shared/ScriptMethodsMoney.cpp.i
@@ -1223,7 +1223,7 @@ shared/ScriptMethodsMoney.i: shared/ScriptMethodsMoney.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsMoney.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMoney.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMoney.cpp.i
 .PHONY : shared/ScriptMethodsMoney.cpp.i
 
 shared/ScriptMethodsMoney.s: shared/ScriptMethodsMoney.cpp.s
@@ -1231,7 +1231,7 @@ shared/ScriptMethodsMoney.s: shared/ScriptMethodsMoney.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsMoney.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMoney.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMoney.cpp.s
 .PHONY : shared/ScriptMethodsMoney.cpp.s
 
 shared/ScriptMethodsMount.o: shared/ScriptMethodsMount.cpp.o
@@ -1239,7 +1239,7 @@ shared/ScriptMethodsMount.o: shared/ScriptMethodsMount.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsMount.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMount.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMount.cpp.o
 .PHONY : shared/ScriptMethodsMount.cpp.o
 
 shared/ScriptMethodsMount.i: shared/ScriptMethodsMount.cpp.i
@@ -1247,7 +1247,7 @@ shared/ScriptMethodsMount.i: shared/ScriptMethodsMount.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsMount.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMount.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMount.cpp.i
 .PHONY : shared/ScriptMethodsMount.cpp.i
 
 shared/ScriptMethodsMount.s: shared/ScriptMethodsMount.cpp.s
@@ -1255,7 +1255,7 @@ shared/ScriptMethodsMount.s: shared/ScriptMethodsMount.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsMount.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMount.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsMount.cpp.s
 .PHONY : shared/ScriptMethodsMount.cpp.s
 
 shared/ScriptMethodsNewbieTutorial.o: shared/ScriptMethodsNewbieTutorial.cpp.o
@@ -1263,7 +1263,7 @@ shared/ScriptMethodsNewbieTutorial.o: shared/ScriptMethodsNewbieTutorial.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsNewbieTutorial.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNewbieTutorial.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNewbieTutorial.cpp.o
 .PHONY : shared/ScriptMethodsNewbieTutorial.cpp.o
 
 shared/ScriptMethodsNewbieTutorial.i: shared/ScriptMethodsNewbieTutorial.cpp.i
@@ -1271,7 +1271,7 @@ shared/ScriptMethodsNewbieTutorial.i: shared/ScriptMethodsNewbieTutorial.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsNewbieTutorial.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNewbieTutorial.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNewbieTutorial.cpp.i
 .PHONY : shared/ScriptMethodsNewbieTutorial.cpp.i
 
 shared/ScriptMethodsNewbieTutorial.s: shared/ScriptMethodsNewbieTutorial.cpp.s
@@ -1279,7 +1279,7 @@ shared/ScriptMethodsNewbieTutorial.s: shared/ScriptMethodsNewbieTutorial.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsNewbieTutorial.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNewbieTutorial.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNewbieTutorial.cpp.s
 .PHONY : shared/ScriptMethodsNewbieTutorial.cpp.s
 
 shared/ScriptMethodsNotification.o: shared/ScriptMethodsNotification.cpp.o
@@ -1287,7 +1287,7 @@ shared/ScriptMethodsNotification.o: shared/ScriptMethodsNotification.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsNotification.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNotification.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNotification.cpp.o
 .PHONY : shared/ScriptMethodsNotification.cpp.o
 
 shared/ScriptMethodsNotification.i: shared/ScriptMethodsNotification.cpp.i
@@ -1295,7 +1295,7 @@ shared/ScriptMethodsNotification.i: shared/ScriptMethodsNotification.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsNotification.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNotification.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNotification.cpp.i
 .PHONY : shared/ScriptMethodsNotification.cpp.i
 
 shared/ScriptMethodsNotification.s: shared/ScriptMethodsNotification.cpp.s
@@ -1303,7 +1303,7 @@ shared/ScriptMethodsNotification.s: shared/ScriptMethodsNotification.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsNotification.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNotification.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNotification.cpp.s
 .PHONY : shared/ScriptMethodsNotification.cpp.s
 
 shared/ScriptMethodsNpc.o: shared/ScriptMethodsNpc.cpp.o
@@ -1311,7 +1311,7 @@ shared/ScriptMethodsNpc.o: shared/ScriptMethodsNpc.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsNpc.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNpc.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNpc.cpp.o
 .PHONY : shared/ScriptMethodsNpc.cpp.o
 
 shared/ScriptMethodsNpc.i: shared/ScriptMethodsNpc.cpp.i
@@ -1319,7 +1319,7 @@ shared/ScriptMethodsNpc.i: shared/ScriptMethodsNpc.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsNpc.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNpc.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNpc.cpp.i
 .PHONY : shared/ScriptMethodsNpc.cpp.i
 
 shared/ScriptMethodsNpc.s: shared/ScriptMethodsNpc.cpp.s
@@ -1327,7 +1327,7 @@ shared/ScriptMethodsNpc.s: shared/ScriptMethodsNpc.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsNpc.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNpc.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsNpc.cpp.s
 .PHONY : shared/ScriptMethodsNpc.cpp.s
 
 shared/ScriptMethodsObjectCreate.o: shared/ScriptMethodsObjectCreate.cpp.o
@@ -1335,7 +1335,7 @@ shared/ScriptMethodsObjectCreate.o: shared/ScriptMethodsObjectCreate.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsObjectCreate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectCreate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectCreate.cpp.o
 .PHONY : shared/ScriptMethodsObjectCreate.cpp.o
 
 shared/ScriptMethodsObjectCreate.i: shared/ScriptMethodsObjectCreate.cpp.i
@@ -1343,7 +1343,7 @@ shared/ScriptMethodsObjectCreate.i: shared/ScriptMethodsObjectCreate.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsObjectCreate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectCreate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectCreate.cpp.i
 .PHONY : shared/ScriptMethodsObjectCreate.cpp.i
 
 shared/ScriptMethodsObjectCreate.s: shared/ScriptMethodsObjectCreate.cpp.s
@@ -1351,7 +1351,7 @@ shared/ScriptMethodsObjectCreate.s: shared/ScriptMethodsObjectCreate.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsObjectCreate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectCreate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectCreate.cpp.s
 .PHONY : shared/ScriptMethodsObjectCreate.cpp.s
 
 shared/ScriptMethodsObjectInfo.o: shared/ScriptMethodsObjectInfo.cpp.o
@@ -1359,7 +1359,7 @@ shared/ScriptMethodsObjectInfo.o: shared/ScriptMethodsObjectInfo.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsObjectInfo.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectInfo.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectInfo.cpp.o
 .PHONY : shared/ScriptMethodsObjectInfo.cpp.o
 
 shared/ScriptMethodsObjectInfo.i: shared/ScriptMethodsObjectInfo.cpp.i
@@ -1367,7 +1367,7 @@ shared/ScriptMethodsObjectInfo.i: shared/ScriptMethodsObjectInfo.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsObjectInfo.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectInfo.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectInfo.cpp.i
 .PHONY : shared/ScriptMethodsObjectInfo.cpp.i
 
 shared/ScriptMethodsObjectInfo.s: shared/ScriptMethodsObjectInfo.cpp.s
@@ -1375,7 +1375,7 @@ shared/ScriptMethodsObjectInfo.s: shared/ScriptMethodsObjectInfo.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsObjectInfo.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectInfo.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectInfo.cpp.s
 .PHONY : shared/ScriptMethodsObjectInfo.cpp.s
 
 shared/ScriptMethodsObjectMove.o: shared/ScriptMethodsObjectMove.cpp.o
@@ -1383,7 +1383,7 @@ shared/ScriptMethodsObjectMove.o: shared/ScriptMethodsObjectMove.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsObjectMove.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectMove.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectMove.cpp.o
 .PHONY : shared/ScriptMethodsObjectMove.cpp.o
 
 shared/ScriptMethodsObjectMove.i: shared/ScriptMethodsObjectMove.cpp.i
@@ -1391,7 +1391,7 @@ shared/ScriptMethodsObjectMove.i: shared/ScriptMethodsObjectMove.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsObjectMove.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectMove.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectMove.cpp.i
 .PHONY : shared/ScriptMethodsObjectMove.cpp.i
 
 shared/ScriptMethodsObjectMove.s: shared/ScriptMethodsObjectMove.cpp.s
@@ -1399,7 +1399,7 @@ shared/ScriptMethodsObjectMove.s: shared/ScriptMethodsObjectMove.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsObjectMove.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectMove.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsObjectMove.cpp.s
 .PHONY : shared/ScriptMethodsObjectMove.cpp.s
 
 shared/ScriptMethodsPermissions.o: shared/ScriptMethodsPermissions.cpp.o
@@ -1407,7 +1407,7 @@ shared/ScriptMethodsPermissions.o: shared/ScriptMethodsPermissions.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsPermissions.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPermissions.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPermissions.cpp.o
 .PHONY : shared/ScriptMethodsPermissions.cpp.o
 
 shared/ScriptMethodsPermissions.i: shared/ScriptMethodsPermissions.cpp.i
@@ -1415,7 +1415,7 @@ shared/ScriptMethodsPermissions.i: shared/ScriptMethodsPermissions.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsPermissions.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPermissions.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPermissions.cpp.i
 .PHONY : shared/ScriptMethodsPermissions.cpp.i
 
 shared/ScriptMethodsPermissions.s: shared/ScriptMethodsPermissions.cpp.s
@@ -1423,7 +1423,7 @@ shared/ScriptMethodsPermissions.s: shared/ScriptMethodsPermissions.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsPermissions.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPermissions.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPermissions.cpp.s
 .PHONY : shared/ScriptMethodsPermissions.cpp.s
 
 shared/ScriptMethodsPilot.o: shared/ScriptMethodsPilot.cpp.o
@@ -1431,7 +1431,7 @@ shared/ScriptMethodsPilot.o: shared/ScriptMethodsPilot.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsPilot.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPilot.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPilot.cpp.o
 .PHONY : shared/ScriptMethodsPilot.cpp.o
 
 shared/ScriptMethodsPilot.i: shared/ScriptMethodsPilot.cpp.i
@@ -1439,7 +1439,7 @@ shared/ScriptMethodsPilot.i: shared/ScriptMethodsPilot.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsPilot.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPilot.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPilot.cpp.i
 .PHONY : shared/ScriptMethodsPilot.cpp.i
 
 shared/ScriptMethodsPilot.s: shared/ScriptMethodsPilot.cpp.s
@@ -1447,7 +1447,7 @@ shared/ScriptMethodsPilot.s: shared/ScriptMethodsPilot.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsPilot.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPilot.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPilot.cpp.s
 .PHONY : shared/ScriptMethodsPilot.cpp.s
 
 shared/ScriptMethodsPlanet.o: shared/ScriptMethodsPlanet.cpp.o
@@ -1455,7 +1455,7 @@ shared/ScriptMethodsPlanet.o: shared/ScriptMethodsPlanet.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsPlanet.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlanet.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlanet.cpp.o
 .PHONY : shared/ScriptMethodsPlanet.cpp.o
 
 shared/ScriptMethodsPlanet.i: shared/ScriptMethodsPlanet.cpp.i
@@ -1463,7 +1463,7 @@ shared/ScriptMethodsPlanet.i: shared/ScriptMethodsPlanet.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsPlanet.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlanet.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlanet.cpp.i
 .PHONY : shared/ScriptMethodsPlanet.cpp.i
 
 shared/ScriptMethodsPlanet.s: shared/ScriptMethodsPlanet.cpp.s
@@ -1471,7 +1471,7 @@ shared/ScriptMethodsPlanet.s: shared/ScriptMethodsPlanet.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsPlanet.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlanet.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlanet.cpp.s
 .PHONY : shared/ScriptMethodsPlanet.cpp.s
 
 shared/ScriptMethodsPlayerAccount.o: shared/ScriptMethodsPlayerAccount.cpp.o
@@ -1479,7 +1479,7 @@ shared/ScriptMethodsPlayerAccount.o: shared/ScriptMethodsPlayerAccount.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsPlayerAccount.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerAccount.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerAccount.cpp.o
 .PHONY : shared/ScriptMethodsPlayerAccount.cpp.o
 
 shared/ScriptMethodsPlayerAccount.i: shared/ScriptMethodsPlayerAccount.cpp.i
@@ -1487,7 +1487,7 @@ shared/ScriptMethodsPlayerAccount.i: shared/ScriptMethodsPlayerAccount.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsPlayerAccount.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerAccount.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerAccount.cpp.i
 .PHONY : shared/ScriptMethodsPlayerAccount.cpp.i
 
 shared/ScriptMethodsPlayerAccount.s: shared/ScriptMethodsPlayerAccount.cpp.s
@@ -1495,7 +1495,7 @@ shared/ScriptMethodsPlayerAccount.s: shared/ScriptMethodsPlayerAccount.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsPlayerAccount.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerAccount.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerAccount.cpp.s
 .PHONY : shared/ScriptMethodsPlayerAccount.cpp.s
 
 shared/ScriptMethodsPlayerQuest.o: shared/ScriptMethodsPlayerQuest.cpp.o
@@ -1503,7 +1503,7 @@ shared/ScriptMethodsPlayerQuest.o: shared/ScriptMethodsPlayerQuest.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsPlayerQuest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerQuest.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerQuest.cpp.o
 .PHONY : shared/ScriptMethodsPlayerQuest.cpp.o
 
 shared/ScriptMethodsPlayerQuest.i: shared/ScriptMethodsPlayerQuest.cpp.i
@@ -1511,7 +1511,7 @@ shared/ScriptMethodsPlayerQuest.i: shared/ScriptMethodsPlayerQuest.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsPlayerQuest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerQuest.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerQuest.cpp.i
 .PHONY : shared/ScriptMethodsPlayerQuest.cpp.i
 
 shared/ScriptMethodsPlayerQuest.s: shared/ScriptMethodsPlayerQuest.cpp.s
@@ -1519,7 +1519,7 @@ shared/ScriptMethodsPlayerQuest.s: shared/ScriptMethodsPlayerQuest.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsPlayerQuest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerQuest.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPlayerQuest.cpp.s
 .PHONY : shared/ScriptMethodsPlayerQuest.cpp.s
 
 shared/ScriptMethodsPvp.o: shared/ScriptMethodsPvp.cpp.o
@@ -1527,7 +1527,7 @@ shared/ScriptMethodsPvp.o: shared/ScriptMethodsPvp.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsPvp.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPvp.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPvp.cpp.o
 .PHONY : shared/ScriptMethodsPvp.cpp.o
 
 shared/ScriptMethodsPvp.i: shared/ScriptMethodsPvp.cpp.i
@@ -1535,7 +1535,7 @@ shared/ScriptMethodsPvp.i: shared/ScriptMethodsPvp.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsPvp.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPvp.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPvp.cpp.i
 .PHONY : shared/ScriptMethodsPvp.cpp.i
 
 shared/ScriptMethodsPvp.s: shared/ScriptMethodsPvp.cpp.s
@@ -1543,7 +1543,7 @@ shared/ScriptMethodsPvp.s: shared/ScriptMethodsPvp.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsPvp.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPvp.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsPvp.cpp.s
 .PHONY : shared/ScriptMethodsPvp.cpp.s
 
 shared/ScriptMethodsQuest.o: shared/ScriptMethodsQuest.cpp.o
@@ -1551,7 +1551,7 @@ shared/ScriptMethodsQuest.o: shared/ScriptMethodsQuest.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsQuest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsQuest.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsQuest.cpp.o
 .PHONY : shared/ScriptMethodsQuest.cpp.o
 
 shared/ScriptMethodsQuest.i: shared/ScriptMethodsQuest.cpp.i
@@ -1559,7 +1559,7 @@ shared/ScriptMethodsQuest.i: shared/ScriptMethodsQuest.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsQuest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsQuest.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsQuest.cpp.i
 .PHONY : shared/ScriptMethodsQuest.cpp.i
 
 shared/ScriptMethodsQuest.s: shared/ScriptMethodsQuest.cpp.s
@@ -1567,7 +1567,7 @@ shared/ScriptMethodsQuest.s: shared/ScriptMethodsQuest.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsQuest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsQuest.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsQuest.cpp.s
 .PHONY : shared/ScriptMethodsQuest.cpp.s
 
 shared/ScriptMethodsRegion.o: shared/ScriptMethodsRegion.cpp.o
@@ -1575,7 +1575,7 @@ shared/ScriptMethodsRegion.o: shared/ScriptMethodsRegion.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsRegion.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion.cpp.o
 .PHONY : shared/ScriptMethodsRegion.cpp.o
 
 shared/ScriptMethodsRegion.i: shared/ScriptMethodsRegion.cpp.i
@@ -1583,7 +1583,7 @@ shared/ScriptMethodsRegion.i: shared/ScriptMethodsRegion.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsRegion.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion.cpp.i
 .PHONY : shared/ScriptMethodsRegion.cpp.i
 
 shared/ScriptMethodsRegion.s: shared/ScriptMethodsRegion.cpp.s
@@ -1591,7 +1591,7 @@ shared/ScriptMethodsRegion.s: shared/ScriptMethodsRegion.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsRegion.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion.cpp.s
 .PHONY : shared/ScriptMethodsRegion.cpp.s
 
 shared/ScriptMethodsRegion3d.o: shared/ScriptMethodsRegion3d.cpp.o
@@ -1599,7 +1599,7 @@ shared/ScriptMethodsRegion3d.o: shared/ScriptMethodsRegion3d.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsRegion3d.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion3d.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion3d.cpp.o
 .PHONY : shared/ScriptMethodsRegion3d.cpp.o
 
 shared/ScriptMethodsRegion3d.i: shared/ScriptMethodsRegion3d.cpp.i
@@ -1607,7 +1607,7 @@ shared/ScriptMethodsRegion3d.i: shared/ScriptMethodsRegion3d.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsRegion3d.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion3d.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion3d.cpp.i
 .PHONY : shared/ScriptMethodsRegion3d.cpp.i
 
 shared/ScriptMethodsRegion3d.s: shared/ScriptMethodsRegion3d.cpp.s
@@ -1615,7 +1615,7 @@ shared/ScriptMethodsRegion3d.s: shared/ScriptMethodsRegion3d.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsRegion3d.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion3d.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRegion3d.cpp.s
 .PHONY : shared/ScriptMethodsRegion3d.cpp.s
 
 shared/ScriptMethodsRemoteDebug.o: shared/ScriptMethodsRemoteDebug.cpp.o
@@ -1623,7 +1623,7 @@ shared/ScriptMethodsRemoteDebug.o: shared/ScriptMethodsRemoteDebug.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsRemoteDebug.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRemoteDebug.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRemoteDebug.cpp.o
 .PHONY : shared/ScriptMethodsRemoteDebug.cpp.o
 
 shared/ScriptMethodsRemoteDebug.i: shared/ScriptMethodsRemoteDebug.cpp.i
@@ -1631,7 +1631,7 @@ shared/ScriptMethodsRemoteDebug.i: shared/ScriptMethodsRemoteDebug.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsRemoteDebug.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRemoteDebug.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRemoteDebug.cpp.i
 .PHONY : shared/ScriptMethodsRemoteDebug.cpp.i
 
 shared/ScriptMethodsRemoteDebug.s: shared/ScriptMethodsRemoteDebug.cpp.s
@@ -1639,7 +1639,7 @@ shared/ScriptMethodsRemoteDebug.s: shared/ScriptMethodsRemoteDebug.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsRemoteDebug.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRemoteDebug.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsRemoteDebug.cpp.s
 .PHONY : shared/ScriptMethodsRemoteDebug.cpp.s
 
 shared/ScriptMethodsResource.o: shared/ScriptMethodsResource.cpp.o
@@ -1647,7 +1647,7 @@ shared/ScriptMethodsResource.o: shared/ScriptMethodsResource.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsResource.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsResource.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsResource.cpp.o
 .PHONY : shared/ScriptMethodsResource.cpp.o
 
 shared/ScriptMethodsResource.i: shared/ScriptMethodsResource.cpp.i
@@ -1655,7 +1655,7 @@ shared/ScriptMethodsResource.i: shared/ScriptMethodsResource.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsResource.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsResource.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsResource.cpp.i
 .PHONY : shared/ScriptMethodsResource.cpp.i
 
 shared/ScriptMethodsResource.s: shared/ScriptMethodsResource.cpp.s
@@ -1663,7 +1663,7 @@ shared/ScriptMethodsResource.s: shared/ScriptMethodsResource.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsResource.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsResource.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsResource.cpp.s
 .PHONY : shared/ScriptMethodsResource.cpp.s
 
 shared/ScriptMethodsScript.o: shared/ScriptMethodsScript.cpp.o
@@ -1671,7 +1671,7 @@ shared/ScriptMethodsScript.o: shared/ScriptMethodsScript.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsScript.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsScript.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsScript.cpp.o
 .PHONY : shared/ScriptMethodsScript.cpp.o
 
 shared/ScriptMethodsScript.i: shared/ScriptMethodsScript.cpp.i
@@ -1679,7 +1679,7 @@ shared/ScriptMethodsScript.i: shared/ScriptMethodsScript.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsScript.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsScript.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsScript.cpp.i
 .PHONY : shared/ScriptMethodsScript.cpp.i
 
 shared/ScriptMethodsScript.s: shared/ScriptMethodsScript.cpp.s
@@ -1687,7 +1687,7 @@ shared/ScriptMethodsScript.s: shared/ScriptMethodsScript.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsScript.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsScript.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsScript.cpp.s
 .PHONY : shared/ScriptMethodsScript.cpp.s
 
 shared/ScriptMethodsServerUI.o: shared/ScriptMethodsServerUI.cpp.o
@@ -1695,7 +1695,7 @@ shared/ScriptMethodsServerUI.o: shared/ScriptMethodsServerUI.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsServerUI.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsServerUI.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsServerUI.cpp.o
 .PHONY : shared/ScriptMethodsServerUI.cpp.o
 
 shared/ScriptMethodsServerUI.i: shared/ScriptMethodsServerUI.cpp.i
@@ -1703,7 +1703,7 @@ shared/ScriptMethodsServerUI.i: shared/ScriptMethodsServerUI.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsServerUI.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsServerUI.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsServerUI.cpp.i
 .PHONY : shared/ScriptMethodsServerUI.cpp.i
 
 shared/ScriptMethodsServerUI.s: shared/ScriptMethodsServerUI.cpp.s
@@ -1711,7 +1711,7 @@ shared/ScriptMethodsServerUI.s: shared/ScriptMethodsServerUI.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsServerUI.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsServerUI.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsServerUI.cpp.s
 .PHONY : shared/ScriptMethodsServerUI.cpp.s
 
 shared/ScriptMethodsShip.o: shared/ScriptMethodsShip.cpp.o
@@ -1719,7 +1719,7 @@ shared/ScriptMethodsShip.o: shared/ScriptMethodsShip.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsShip.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsShip.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsShip.cpp.o
 .PHONY : shared/ScriptMethodsShip.cpp.o
 
 shared/ScriptMethodsShip.i: shared/ScriptMethodsShip.cpp.i
@@ -1727,7 +1727,7 @@ shared/ScriptMethodsShip.i: shared/ScriptMethodsShip.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsShip.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsShip.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsShip.cpp.i
 .PHONY : shared/ScriptMethodsShip.cpp.i
 
 shared/ScriptMethodsShip.s: shared/ScriptMethodsShip.cpp.s
@@ -1735,7 +1735,7 @@ shared/ScriptMethodsShip.s: shared/ScriptMethodsShip.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsShip.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsShip.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsShip.cpp.s
 .PHONY : shared/ScriptMethodsShip.cpp.s
 
 shared/ScriptMethodsSkill.o: shared/ScriptMethodsSkill.cpp.o
@@ -1743,7 +1743,7 @@ shared/ScriptMethodsSkill.o: shared/ScriptMethodsSkill.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsSkill.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSkill.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSkill.cpp.o
 .PHONY : shared/ScriptMethodsSkill.cpp.o
 
 shared/ScriptMethodsSkill.i: shared/ScriptMethodsSkill.cpp.i
@@ -1751,7 +1751,7 @@ shared/ScriptMethodsSkill.i: shared/ScriptMethodsSkill.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsSkill.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSkill.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSkill.cpp.i
 .PHONY : shared/ScriptMethodsSkill.cpp.i
 
 shared/ScriptMethodsSkill.s: shared/ScriptMethodsSkill.cpp.s
@@ -1759,7 +1759,7 @@ shared/ScriptMethodsSkill.s: shared/ScriptMethodsSkill.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsSkill.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSkill.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSkill.cpp.s
 .PHONY : shared/ScriptMethodsSkill.cpp.s
 
 shared/ScriptMethodsSpawner.o: shared/ScriptMethodsSpawner.cpp.o
@@ -1767,7 +1767,7 @@ shared/ScriptMethodsSpawner.o: shared/ScriptMethodsSpawner.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsSpawner.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSpawner.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSpawner.cpp.o
 .PHONY : shared/ScriptMethodsSpawner.cpp.o
 
 shared/ScriptMethodsSpawner.i: shared/ScriptMethodsSpawner.cpp.i
@@ -1775,7 +1775,7 @@ shared/ScriptMethodsSpawner.i: shared/ScriptMethodsSpawner.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsSpawner.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSpawner.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSpawner.cpp.i
 .PHONY : shared/ScriptMethodsSpawner.cpp.i
 
 shared/ScriptMethodsSpawner.s: shared/ScriptMethodsSpawner.cpp.s
@@ -1783,7 +1783,7 @@ shared/ScriptMethodsSpawner.s: shared/ScriptMethodsSpawner.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsSpawner.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSpawner.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSpawner.cpp.s
 .PHONY : shared/ScriptMethodsSpawner.cpp.s
 
 shared/ScriptMethodsString.o: shared/ScriptMethodsString.cpp.o
@@ -1791,7 +1791,7 @@ shared/ScriptMethodsString.o: shared/ScriptMethodsString.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsString.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsString.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsString.cpp.o
 .PHONY : shared/ScriptMethodsString.cpp.o
 
 shared/ScriptMethodsString.i: shared/ScriptMethodsString.cpp.i
@@ -1799,7 +1799,7 @@ shared/ScriptMethodsString.i: shared/ScriptMethodsString.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsString.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsString.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsString.cpp.i
 .PHONY : shared/ScriptMethodsString.cpp.i
 
 shared/ScriptMethodsString.s: shared/ScriptMethodsString.cpp.s
@@ -1807,7 +1807,7 @@ shared/ScriptMethodsString.s: shared/ScriptMethodsString.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsString.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsString.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsString.cpp.s
 .PHONY : shared/ScriptMethodsString.cpp.s
 
 shared/ScriptMethodsSystem.o: shared/ScriptMethodsSystem.cpp.o
@@ -1815,7 +1815,7 @@ shared/ScriptMethodsSystem.o: shared/ScriptMethodsSystem.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsSystem.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSystem.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSystem.cpp.o
 .PHONY : shared/ScriptMethodsSystem.cpp.o
 
 shared/ScriptMethodsSystem.i: shared/ScriptMethodsSystem.cpp.i
@@ -1823,7 +1823,7 @@ shared/ScriptMethodsSystem.i: shared/ScriptMethodsSystem.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsSystem.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSystem.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSystem.cpp.i
 .PHONY : shared/ScriptMethodsSystem.cpp.i
 
 shared/ScriptMethodsSystem.s: shared/ScriptMethodsSystem.cpp.s
@@ -1831,7 +1831,7 @@ shared/ScriptMethodsSystem.s: shared/ScriptMethodsSystem.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsSystem.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSystem.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsSystem.cpp.s
 .PHONY : shared/ScriptMethodsSystem.cpp.s
 
 shared/ScriptMethodsTerrain.o: shared/ScriptMethodsTerrain.cpp.o
@@ -1839,7 +1839,7 @@ shared/ScriptMethodsTerrain.o: shared/ScriptMethodsTerrain.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsTerrain.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTerrain.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTerrain.cpp.o
 .PHONY : shared/ScriptMethodsTerrain.cpp.o
 
 shared/ScriptMethodsTerrain.i: shared/ScriptMethodsTerrain.cpp.i
@@ -1847,7 +1847,7 @@ shared/ScriptMethodsTerrain.i: shared/ScriptMethodsTerrain.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsTerrain.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTerrain.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTerrain.cpp.i
 .PHONY : shared/ScriptMethodsTerrain.cpp.i
 
 shared/ScriptMethodsTerrain.s: shared/ScriptMethodsTerrain.cpp.s
@@ -1855,7 +1855,7 @@ shared/ScriptMethodsTerrain.s: shared/ScriptMethodsTerrain.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsTerrain.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTerrain.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTerrain.cpp.s
 .PHONY : shared/ScriptMethodsTerrain.cpp.s
 
 shared/ScriptMethodsTriggerVolume.o: shared/ScriptMethodsTriggerVolume.cpp.o
@@ -1863,7 +1863,7 @@ shared/ScriptMethodsTriggerVolume.o: shared/ScriptMethodsTriggerVolume.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsTriggerVolume.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTriggerVolume.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTriggerVolume.cpp.o
 .PHONY : shared/ScriptMethodsTriggerVolume.cpp.o
 
 shared/ScriptMethodsTriggerVolume.i: shared/ScriptMethodsTriggerVolume.cpp.i
@@ -1871,7 +1871,7 @@ shared/ScriptMethodsTriggerVolume.i: shared/ScriptMethodsTriggerVolume.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsTriggerVolume.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTriggerVolume.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTriggerVolume.cpp.i
 .PHONY : shared/ScriptMethodsTriggerVolume.cpp.i
 
 shared/ScriptMethodsTriggerVolume.s: shared/ScriptMethodsTriggerVolume.cpp.s
@@ -1879,7 +1879,7 @@ shared/ScriptMethodsTriggerVolume.s: shared/ScriptMethodsTriggerVolume.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsTriggerVolume.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTriggerVolume.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsTriggerVolume.cpp.s
 .PHONY : shared/ScriptMethodsTriggerVolume.cpp.s
 
 shared/ScriptMethodsVeteran.o: shared/ScriptMethodsVeteran.cpp.o
@@ -1887,7 +1887,7 @@ shared/ScriptMethodsVeteran.o: shared/ScriptMethodsVeteran.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsVeteran.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsVeteran.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsVeteran.cpp.o
 .PHONY : shared/ScriptMethodsVeteran.cpp.o
 
 shared/ScriptMethodsVeteran.i: shared/ScriptMethodsVeteran.cpp.i
@@ -1895,7 +1895,7 @@ shared/ScriptMethodsVeteran.i: shared/ScriptMethodsVeteran.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsVeteran.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsVeteran.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsVeteran.cpp.i
 .PHONY : shared/ScriptMethodsVeteran.cpp.i
 
 shared/ScriptMethodsVeteran.s: shared/ScriptMethodsVeteran.cpp.s
@@ -1903,7 +1903,7 @@ shared/ScriptMethodsVeteran.s: shared/ScriptMethodsVeteran.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsVeteran.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsVeteran.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsVeteran.cpp.s
 .PHONY : shared/ScriptMethodsVeteran.cpp.s
 
 shared/ScriptMethodsWaypoint.o: shared/ScriptMethodsWaypoint.cpp.o
@@ -1911,7 +1911,7 @@ shared/ScriptMethodsWaypoint.o: shared/ScriptMethodsWaypoint.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsWaypoint.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWaypoint.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWaypoint.cpp.o
 .PHONY : shared/ScriptMethodsWaypoint.cpp.o
 
 shared/ScriptMethodsWaypoint.i: shared/ScriptMethodsWaypoint.cpp.i
@@ -1919,7 +1919,7 @@ shared/ScriptMethodsWaypoint.i: shared/ScriptMethodsWaypoint.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsWaypoint.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWaypoint.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWaypoint.cpp.i
 .PHONY : shared/ScriptMethodsWaypoint.cpp.i
 
 shared/ScriptMethodsWaypoint.s: shared/ScriptMethodsWaypoint.cpp.s
@@ -1927,7 +1927,7 @@ shared/ScriptMethodsWaypoint.s: shared/ScriptMethodsWaypoint.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsWaypoint.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWaypoint.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWaypoint.cpp.s
 .PHONY : shared/ScriptMethodsWaypoint.cpp.s
 
 shared/ScriptMethodsWorldInfo.o: shared/ScriptMethodsWorldInfo.cpp.o
@@ -1935,7 +1935,7 @@ shared/ScriptMethodsWorldInfo.o: shared/ScriptMethodsWorldInfo.cpp.o
 
 # target to build an object file
 shared/ScriptMethodsWorldInfo.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWorldInfo.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWorldInfo.cpp.o
 .PHONY : shared/ScriptMethodsWorldInfo.cpp.o
 
 shared/ScriptMethodsWorldInfo.i: shared/ScriptMethodsWorldInfo.cpp.i
@@ -1943,7 +1943,7 @@ shared/ScriptMethodsWorldInfo.i: shared/ScriptMethodsWorldInfo.cpp.i
 
 # target to preprocess a source file
 shared/ScriptMethodsWorldInfo.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWorldInfo.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWorldInfo.cpp.i
 .PHONY : shared/ScriptMethodsWorldInfo.cpp.i
 
 shared/ScriptMethodsWorldInfo.s: shared/ScriptMethodsWorldInfo.cpp.s
@@ -1951,7 +1951,7 @@ shared/ScriptMethodsWorldInfo.s: shared/ScriptMethodsWorldInfo.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptMethodsWorldInfo.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWorldInfo.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptMethodsWorldInfo.cpp.s
 .PHONY : shared/ScriptMethodsWorldInfo.cpp.s
 
 shared/ScriptParamArchive.o: shared/ScriptParamArchive.cpp.o
@@ -1959,7 +1959,7 @@ shared/ScriptParamArchive.o: shared/ScriptParamArchive.cpp.o
 
 # target to build an object file
 shared/ScriptParamArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParamArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParamArchive.cpp.o
 .PHONY : shared/ScriptParamArchive.cpp.o
 
 shared/ScriptParamArchive.i: shared/ScriptParamArchive.cpp.i
@@ -1967,7 +1967,7 @@ shared/ScriptParamArchive.i: shared/ScriptParamArchive.cpp.i
 
 # target to preprocess a source file
 shared/ScriptParamArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParamArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParamArchive.cpp.i
 .PHONY : shared/ScriptParamArchive.cpp.i
 
 shared/ScriptParamArchive.s: shared/ScriptParamArchive.cpp.s
@@ -1975,7 +1975,7 @@ shared/ScriptParamArchive.s: shared/ScriptParamArchive.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptParamArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParamArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParamArchive.cpp.s
 .PHONY : shared/ScriptParamArchive.cpp.s
 
 shared/ScriptParameters.o: shared/ScriptParameters.cpp.o
@@ -1983,7 +1983,7 @@ shared/ScriptParameters.o: shared/ScriptParameters.cpp.o
 
 # target to build an object file
 shared/ScriptParameters.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParameters.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParameters.cpp.o
 .PHONY : shared/ScriptParameters.cpp.o
 
 shared/ScriptParameters.i: shared/ScriptParameters.cpp.i
@@ -1991,7 +1991,7 @@ shared/ScriptParameters.i: shared/ScriptParameters.cpp.i
 
 # target to preprocess a source file
 shared/ScriptParameters.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParameters.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParameters.cpp.i
 .PHONY : shared/ScriptParameters.cpp.i
 
 shared/ScriptParameters.s: shared/ScriptParameters.cpp.s
@@ -1999,7 +1999,7 @@ shared/ScriptParameters.s: shared/ScriptParameters.cpp.s
 
 # target to generate assembly for a file
 shared/ScriptParameters.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParameters.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/ScriptParameters.cpp.s
 .PHONY : shared/ScriptParameters.cpp.s
 
 shared/SetupScript.o: shared/SetupScript.cpp.o
@@ -2007,7 +2007,7 @@ shared/SetupScript.o: shared/SetupScript.cpp.o
 
 # target to build an object file
 shared/SetupScript.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/SetupScript.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/SetupScript.cpp.o
 .PHONY : shared/SetupScript.cpp.o
 
 shared/SetupScript.i: shared/SetupScript.cpp.i
@@ -2015,7 +2015,7 @@ shared/SetupScript.i: shared/SetupScript.cpp.i
 
 # target to preprocess a source file
 shared/SetupScript.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/SetupScript.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/SetupScript.cpp.i
 .PHONY : shared/SetupScript.cpp.i
 
 shared/SetupScript.s: shared/SetupScript.cpp.s
@@ -2023,7 +2023,7 @@ shared/SetupScript.s: shared/SetupScript.cpp.s
 
 # target to generate assembly for a file
 shared/SetupScript.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/SetupScript.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/build.make engine/server/library/serverScript/src/CMakeFiles/serverScript.dir/shared/SetupScript.cpp.s
 .PHONY : shared/SetupScript.cpp.s
 
 # Help Target
@@ -2283,6 +2283,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

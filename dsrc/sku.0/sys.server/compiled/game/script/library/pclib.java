@@ -695,6 +695,24 @@ public class pclib extends script.base_script
                 return;
             }
         }
+        if (killer != victim && isPlayer(pvpKiller))
+        {
+            String killerName = hasObjVar(pvpKiller, "special.chatDisplayName")
+                ? getStringObjVar(pvpKiller, "special.chatDisplayName")
+                : "\\#FF4444" + getName(pvpKiller) + "\\#FFFFFF";
+            if (hasObjVar(pvpKiller, "special.vipTitle"))
+                killerName = "\\#FFAA00[" + getStringObjVar(pvpKiller, "special.vipTitle") + "]\\#FFFFFF " + killerName;
+            String victimName = "\\#AAAAAA" + getName(victim) + "\\#FFFFFF";
+            String killMsg = killerName + " \\#FFFFFFhas eliminated " + victimName + "!";
+            obj_id[] killListeners = getAllPlayers(getLocation(pvpKiller), 512.0f);
+            if (killListeners != null)
+            {
+                for (obj_id kl : killListeners)
+                {
+                    if (isIdValid(kl)) sendSystemMessage(kl, killMsg, null);
+                }
+            }
+        }
         playerDeath(victim, killer, dueling);
     }
     public static void playDeathBlowAnimation(obj_id victim, obj_id killer) throws InterruptedException

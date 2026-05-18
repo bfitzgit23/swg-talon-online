@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/rule
 .PHONY : engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedMessageDispatch: engine/shared/library/sharedMessageDispatch/src/CMakeFile
 
 # fast build rule for target.
 sharedMessageDispatch/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build
 .PHONY : sharedMessageDispatch/fast
 
 shared/Emitter.o: shared/Emitter.cpp.o
@@ -135,7 +135,7 @@ shared/Emitter.o: shared/Emitter.cpp.o
 
 # target to build an object file
 shared/Emitter.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o
 .PHONY : shared/Emitter.cpp.o
 
 shared/Emitter.i: shared/Emitter.cpp.i
@@ -143,7 +143,7 @@ shared/Emitter.i: shared/Emitter.cpp.i
 
 # target to preprocess a source file
 shared/Emitter.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.i
 .PHONY : shared/Emitter.cpp.i
 
 shared/Emitter.s: shared/Emitter.cpp.s
@@ -151,7 +151,7 @@ shared/Emitter.s: shared/Emitter.cpp.s
 
 # target to generate assembly for a file
 shared/Emitter.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.s
 .PHONY : shared/Emitter.cpp.s
 
 shared/Message.o: shared/Message.cpp.o
@@ -159,7 +159,7 @@ shared/Message.o: shared/Message.cpp.o
 
 # target to build an object file
 shared/Message.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o
 .PHONY : shared/Message.cpp.o
 
 shared/Message.i: shared/Message.cpp.i
@@ -167,7 +167,7 @@ shared/Message.i: shared/Message.cpp.i
 
 # target to preprocess a source file
 shared/Message.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.i
 .PHONY : shared/Message.cpp.i
 
 shared/Message.s: shared/Message.cpp.s
@@ -175,7 +175,7 @@ shared/Message.s: shared/Message.cpp.s
 
 # target to generate assembly for a file
 shared/Message.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.s
 .PHONY : shared/Message.cpp.s
 
 shared/MessageManager.o: shared/MessageManager.cpp.o
@@ -183,7 +183,7 @@ shared/MessageManager.o: shared/MessageManager.cpp.o
 
 # target to build an object file
 shared/MessageManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o
 .PHONY : shared/MessageManager.cpp.o
 
 shared/MessageManager.i: shared/MessageManager.cpp.i
@@ -191,7 +191,7 @@ shared/MessageManager.i: shared/MessageManager.cpp.i
 
 # target to preprocess a source file
 shared/MessageManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.i
 .PHONY : shared/MessageManager.cpp.i
 
 shared/MessageManager.s: shared/MessageManager.cpp.s
@@ -199,7 +199,7 @@ shared/MessageManager.s: shared/MessageManager.cpp.s
 
 # target to generate assembly for a file
 shared/MessageManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.s
 .PHONY : shared/MessageManager.cpp.s
 
 shared/Receiver.o: shared/Receiver.cpp.o
@@ -207,7 +207,7 @@ shared/Receiver.o: shared/Receiver.cpp.o
 
 # target to build an object file
 shared/Receiver.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o
 .PHONY : shared/Receiver.cpp.o
 
 shared/Receiver.i: shared/Receiver.cpp.i
@@ -215,7 +215,7 @@ shared/Receiver.i: shared/Receiver.cpp.i
 
 # target to preprocess a source file
 shared/Receiver.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.i
 .PHONY : shared/Receiver.cpp.i
 
 shared/Receiver.s: shared/Receiver.cpp.s
@@ -223,7 +223,7 @@ shared/Receiver.s: shared/Receiver.cpp.s
 
 # target to generate assembly for a file
 shared/Receiver.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.s
 .PHONY : shared/Receiver.cpp.s
 
 shared/Transceiver.o: shared/Transceiver.cpp.o
@@ -231,7 +231,7 @@ shared/Transceiver.o: shared/Transceiver.cpp.o
 
 # target to build an object file
 shared/Transceiver.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o
 .PHONY : shared/Transceiver.cpp.o
 
 shared/Transceiver.i: shared/Transceiver.cpp.i
@@ -239,7 +239,7 @@ shared/Transceiver.i: shared/Transceiver.cpp.i
 
 # target to preprocess a source file
 shared/Transceiver.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.i
 .PHONY : shared/Transceiver.cpp.i
 
 shared/Transceiver.s: shared/Transceiver.cpp.s
@@ -247,7 +247,7 @@ shared/Transceiver.s: shared/Transceiver.cpp.s
 
 # target to generate assembly for a file
 shared/Transceiver.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.s
 .PHONY : shared/Transceiver.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/StationPlayersCollector/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/server/application/StationPlayersCollector/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/rule
 .PHONY : engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ StationPlayersCollector: engine/server/application/StationPlayersCollector/src/C
 
 # fast build rule for target.
 StationPlayersCollector/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build
 .PHONY : StationPlayersCollector/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/linux/main.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/linux/main.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/linux/main.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
@@ -159,7 +159,7 @@ shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
 
 # target to build an object file
 shared/CentralServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/CentralServerConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/CentralServerConnection.cpp.o
 .PHONY : shared/CentralServerConnection.cpp.o
 
 shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
@@ -167,7 +167,7 @@ shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/CentralServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/CentralServerConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/CentralServerConnection.cpp.i
 .PHONY : shared/CentralServerConnection.cpp.i
 
 shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
@@ -175,7 +175,7 @@ shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CentralServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/CentralServerConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/CentralServerConnection.cpp.s
 .PHONY : shared/CentralServerConnection.cpp.s
 
 shared/ConfigStationPlayersCollector.o: shared/ConfigStationPlayersCollector.cpp.o
@@ -183,7 +183,7 @@ shared/ConfigStationPlayersCollector.o: shared/ConfigStationPlayersCollector.cpp
 
 # target to build an object file
 shared/ConfigStationPlayersCollector.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/ConfigStationPlayersCollector.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/ConfigStationPlayersCollector.cpp.o
 .PHONY : shared/ConfigStationPlayersCollector.cpp.o
 
 shared/ConfigStationPlayersCollector.i: shared/ConfigStationPlayersCollector.cpp.i
@@ -191,7 +191,7 @@ shared/ConfigStationPlayersCollector.i: shared/ConfigStationPlayersCollector.cpp
 
 # target to preprocess a source file
 shared/ConfigStationPlayersCollector.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/ConfigStationPlayersCollector.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/ConfigStationPlayersCollector.cpp.i
 .PHONY : shared/ConfigStationPlayersCollector.cpp.i
 
 shared/ConfigStationPlayersCollector.s: shared/ConfigStationPlayersCollector.cpp.s
@@ -199,7 +199,7 @@ shared/ConfigStationPlayersCollector.s: shared/ConfigStationPlayersCollector.cpp
 
 # target to generate assembly for a file
 shared/ConfigStationPlayersCollector.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/ConfigStationPlayersCollector.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/ConfigStationPlayersCollector.cpp.s
 .PHONY : shared/ConfigStationPlayersCollector.cpp.s
 
 shared/DatabaseConnection.o: shared/DatabaseConnection.cpp.o
@@ -207,7 +207,7 @@ shared/DatabaseConnection.o: shared/DatabaseConnection.cpp.o
 
 # target to build an object file
 shared/DatabaseConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/DatabaseConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/DatabaseConnection.cpp.o
 .PHONY : shared/DatabaseConnection.cpp.o
 
 shared/DatabaseConnection.i: shared/DatabaseConnection.cpp.i
@@ -215,7 +215,7 @@ shared/DatabaseConnection.i: shared/DatabaseConnection.cpp.i
 
 # target to preprocess a source file
 shared/DatabaseConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/DatabaseConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/DatabaseConnection.cpp.i
 .PHONY : shared/DatabaseConnection.cpp.i
 
 shared/DatabaseConnection.s: shared/DatabaseConnection.cpp.s
@@ -223,7 +223,7 @@ shared/DatabaseConnection.s: shared/DatabaseConnection.cpp.s
 
 # target to generate assembly for a file
 shared/DatabaseConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/DatabaseConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/DatabaseConnection.cpp.s
 .PHONY : shared/DatabaseConnection.cpp.s
 
 shared/StationPlayersCollector.o: shared/StationPlayersCollector.cpp.o
@@ -231,7 +231,7 @@ shared/StationPlayersCollector.o: shared/StationPlayersCollector.cpp.o
 
 # target to build an object file
 shared/StationPlayersCollector.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollector.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollector.cpp.o
 .PHONY : shared/StationPlayersCollector.cpp.o
 
 shared/StationPlayersCollector.i: shared/StationPlayersCollector.cpp.i
@@ -239,7 +239,7 @@ shared/StationPlayersCollector.i: shared/StationPlayersCollector.cpp.i
 
 # target to preprocess a source file
 shared/StationPlayersCollector.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollector.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollector.cpp.i
 .PHONY : shared/StationPlayersCollector.cpp.i
 
 shared/StationPlayersCollector.s: shared/StationPlayersCollector.cpp.s
@@ -247,7 +247,7 @@ shared/StationPlayersCollector.s: shared/StationPlayersCollector.cpp.s
 
 # target to generate assembly for a file
 shared/StationPlayersCollector.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollector.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollector.cpp.s
 .PHONY : shared/StationPlayersCollector.cpp.s
 
 shared/StationPlayersCollectorImpl.o: shared/StationPlayersCollectorImpl.cpp.o
@@ -255,7 +255,7 @@ shared/StationPlayersCollectorImpl.o: shared/StationPlayersCollectorImpl.cpp.o
 
 # target to build an object file
 shared/StationPlayersCollectorImpl.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollectorImpl.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollectorImpl.cpp.o
 .PHONY : shared/StationPlayersCollectorImpl.cpp.o
 
 shared/StationPlayersCollectorImpl.i: shared/StationPlayersCollectorImpl.cpp.i
@@ -263,7 +263,7 @@ shared/StationPlayersCollectorImpl.i: shared/StationPlayersCollectorImpl.cpp.i
 
 # target to preprocess a source file
 shared/StationPlayersCollectorImpl.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollectorImpl.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollectorImpl.cpp.i
 .PHONY : shared/StationPlayersCollectorImpl.cpp.i
 
 shared/StationPlayersCollectorImpl.s: shared/StationPlayersCollectorImpl.cpp.s
@@ -271,7 +271,7 @@ shared/StationPlayersCollectorImpl.s: shared/StationPlayersCollectorImpl.cpp.s
 
 # target to generate assembly for a file
 shared/StationPlayersCollectorImpl.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollectorImpl.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/StationPlayersCollectorImpl.cpp.s
 .PHONY : shared/StationPlayersCollectorImpl.cpp.s
 
 shared/TaskUpdateSPCharacterProfileData.o: shared/TaskUpdateSPCharacterProfileData.cpp.o
@@ -279,7 +279,7 @@ shared/TaskUpdateSPCharacterProfileData.o: shared/TaskUpdateSPCharacterProfileDa
 
 # target to build an object file
 shared/TaskUpdateSPCharacterProfileData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/TaskUpdateSPCharacterProfileData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/TaskUpdateSPCharacterProfileData.cpp.o
 .PHONY : shared/TaskUpdateSPCharacterProfileData.cpp.o
 
 shared/TaskUpdateSPCharacterProfileData.i: shared/TaskUpdateSPCharacterProfileData.cpp.i
@@ -287,7 +287,7 @@ shared/TaskUpdateSPCharacterProfileData.i: shared/TaskUpdateSPCharacterProfileDa
 
 # target to preprocess a source file
 shared/TaskUpdateSPCharacterProfileData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/TaskUpdateSPCharacterProfileData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/TaskUpdateSPCharacterProfileData.cpp.i
 .PHONY : shared/TaskUpdateSPCharacterProfileData.cpp.i
 
 shared/TaskUpdateSPCharacterProfileData.s: shared/TaskUpdateSPCharacterProfileData.cpp.s
@@ -295,7 +295,7 @@ shared/TaskUpdateSPCharacterProfileData.s: shared/TaskUpdateSPCharacterProfileDa
 
 # target to generate assembly for a file
 shared/TaskUpdateSPCharacterProfileData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/TaskUpdateSPCharacterProfileData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/build.make engine/server/application/StationPlayersCollector/src/CMakeFiles/StationPlayersCollector.dir/shared/TaskUpdateSPCharacterProfileData.cpp.s
 .PHONY : shared/TaskUpdateSPCharacterProfileData.cpp.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

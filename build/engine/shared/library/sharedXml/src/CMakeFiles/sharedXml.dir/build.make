@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/depend.make
@@ -70,60 +70,60 @@ include engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/progress.ma
 include engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/flags.make
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/flags.make
-engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/core/SetupSharedXml.cpp
+engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/core/SetupSharedXml.cpp
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o -MF CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o.d -o CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/core/SetupSharedXml.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o -MF CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o.d -o CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/core/SetupSharedXml.cpp
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/core/SetupSharedXml.cpp > CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/core/SetupSharedXml.cpp > CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.i
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/core/SetupSharedXml.cpp -o CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/core/SetupSharedXml.cpp -o CMakeFiles/sharedXml.dir/shared/core/SetupSharedXml.cpp.s
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/flags.make
-engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocument.cpp
+engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocument.cpp
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o -MF CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o.d -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocument.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o -MF CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o.d -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocument.cpp
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocument.cpp > CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocument.cpp > CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.i
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocument.cpp -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocument.cpp -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocument.cpp.s
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/flags.make
-engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocumentList.cpp
+engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocumentList.cpp
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o -MF CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o.d -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocumentList.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o -MF CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o.d -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocumentList.cpp
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocumentList.cpp > CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocumentList.cpp > CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.i
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocumentList.cpp -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeDocumentList.cpp -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeDocumentList.cpp.s
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/flags.make
-engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeNode.cpp
+engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeNode.cpp
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o -MF CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o.d -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o -MF CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o.d -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeNode.cpp
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeNode.cpp > CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeNode.cpp > CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.i
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeNode.cpp -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedXml/src/shared/tree/XmlTreeNode.cpp -o CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.s
 
 # Object files for target sharedXml
 sharedXml_OBJECTS = \
@@ -141,19 +141,19 @@ engine/shared/library/sharedXml/src/libsharedXml.a: engine/shared/library/shared
 engine/shared/library/sharedXml/src/libsharedXml.a: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/shared/tree/XmlTreeNode.cpp.o
 engine/shared/library/sharedXml/src/libsharedXml.a: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build.make
 engine/shared/library/sharedXml/src/libsharedXml.a: engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsharedXml.a"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedXml.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedXml.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX static library libsharedXml.a"
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedXml.dir/cmake_clean_target.cmake
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedXml.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build: engine/shared/library/sharedXml/src/libsharedXml.a
 .PHONY : engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/build
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedXml.dir/cmake_clean.cmake
+	cd /home/swg1/swg-main/build/engine/shared/library/sharedXml/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedXml.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/clean
 
 engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedXml/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src /home/almalinux/swg-talon-online/build/engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/engine/shared/library/sharedXml/src /home/swg1/swg-main/build /home/swg1/swg-main/build/engine/shared/library/sharedXml/src /home/swg1/swg-main/build/engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedXml/src/CMakeFiles/sharedXml.dir/depend
 

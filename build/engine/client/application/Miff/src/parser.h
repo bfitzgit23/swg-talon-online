@@ -30,8 +30,8 @@
    This special exception was added by the Free Software Foundation in
    version 2.2 of Bison.  */
 
-#ifndef YY_YY_HOME_ALMALINUX_SWG_TALON_ONLINE_BUILD_ENGINE_CLIENT_APPLICATION_MIFF_SRC_PARSER_H_INCLUDED
-# define YY_YY_HOME_ALMALINUX_SWG_TALON_ONLINE_BUILD_ENGINE_CLIENT_APPLICATION_MIFF_SRC_PARSER_H_INCLUDED
+#ifndef YY_YY_HOME_SWG1_SWG_MAIN_BUILD_ENGINE_CLIENT_APPLICATION_MIFF_SRC_PARSER_H_INCLUDED
+# define YY_YY_HOME_SWG1_SWG_MAIN_BUILD_ENGINE_CLIENT_APPLICATION_MIFF_SRC_PARSER_H_INCLUDED
 /* Debug traces.  */
 #ifndef YYDEBUG
 # define YYDEBUG 0
@@ -90,7 +90,7 @@ extern int yydebug;
 
 union YYSTYPE
 {
-#line 137 "/home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/parser.yac" /* yacc.c:1909  */
+#line 137 "/home/swg1/swg-main/src/engine/client/application/Miff/src/linux/parser.yac" /* yacc.c:1909  */
 
 	long			ltype;
 	double			dtype;
@@ -99,7 +99,7 @@ union YYSTYPE
 
 	int				tokentype;
 
-#line 103 "/home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/parser.h" /* yacc.c:1909  */
+#line 103 "/home/swg1/swg-main/build/engine/client/application/Miff/src/parser.h" /* yacc.c:1909  */
 };
 
 typedef union YYSTYPE YYSTYPE;
@@ -112,4 +112,4 @@ extern YYSTYPE yylval;
 
 int yyparse (void);
 
-#endif /* !YY_YY_HOME_ALMALINUX_SWG_TALON_ONLINE_BUILD_ENGINE_CLIENT_APPLICATION_MIFF_SRC_PARSER_H_INCLUDED  */
+#endif /* !YY_YY_HOME_SWG1_SWG_MAIN_BUILD_ENGINE_CLIENT_APPLICATION_MIFF_SRC_PARSER_H_INCLUDED  */

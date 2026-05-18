@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/depend.make
@@ -70,32 +70,32 @@ include engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/p
 include engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/flags.make
 
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o: engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/flags.make
-engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp
+engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o: /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o: engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o -MF CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o.d -o CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o"
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o -MF CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o.d -o CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o -c /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp
 
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp > CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.i
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp > CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.i
 
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp -o CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.s
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp -o CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.s
 
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o: engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/flags.make
-engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp
+engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o: /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o: engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o -MF CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o.d -o CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o"
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o -MF CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o.d -o CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o -c /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp
 
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp > CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.i
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp > CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.i
 
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp -o CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.s
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp -o CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.s
 
 # Object files for target serverKeyShare
 serverKeyShare_OBJECTS = \
@@ -109,19 +109,19 @@ engine/server/library/serverKeyShare/src/libserverKeyShare.a: engine/server/libr
 engine/server/library/serverKeyShare/src/libserverKeyShare.a: engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o
 engine/server/library/serverKeyShare/src/libserverKeyShare.a: engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/build.make
 engine/server/library/serverKeyShare/src/libserverKeyShare.a: engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libserverKeyShare.a"
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && $(CMAKE_COMMAND) -P CMakeFiles/serverKeyShare.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serverKeyShare.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libserverKeyShare.a"
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && $(CMAKE_COMMAND) -P CMakeFiles/serverKeyShare.dir/cmake_clean_target.cmake
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/serverKeyShare.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/build: engine/server/library/serverKeyShare/src/libserverKeyShare.a
 .PHONY : engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/build
 
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src && $(CMAKE_COMMAND) -P CMakeFiles/serverKeyShare.dir/cmake_clean.cmake
+	cd /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src && $(CMAKE_COMMAND) -P CMakeFiles/serverKeyShare.dir/cmake_clean.cmake
 .PHONY : engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/clean
 
 engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src /home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/engine/server/library/serverKeyShare/src /home/swg1/swg-main/build /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src /home/swg1/swg-main/build/engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/depend
 

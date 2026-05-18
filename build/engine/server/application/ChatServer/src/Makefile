@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/ChatServer/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/server/application/ChatServer/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/rule
 .PHONY : engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ChatServer: engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/r
 
 # fast build rule for target.
 ChatServer/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build
 .PHONY : ChatServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/linux/main.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/linux/main.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/linux/main.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
@@ -159,7 +159,7 @@ shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
 
 # target to build an object file
 shared/CentralServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CentralServerConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CentralServerConnection.cpp.o
 .PHONY : shared/CentralServerConnection.cpp.o
 
 shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
@@ -167,7 +167,7 @@ shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/CentralServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CentralServerConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CentralServerConnection.cpp.i
 .PHONY : shared/CentralServerConnection.cpp.i
 
 shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
@@ -175,7 +175,7 @@ shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CentralServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CentralServerConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CentralServerConnection.cpp.s
 .PHONY : shared/CentralServerConnection.cpp.s
 
 shared/ChatInterface.o: shared/ChatInterface.cpp.o
@@ -183,7 +183,7 @@ shared/ChatInterface.o: shared/ChatInterface.cpp.o
 
 # target to build an object file
 shared/ChatInterface.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatInterface.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatInterface.cpp.o
 .PHONY : shared/ChatInterface.cpp.o
 
 shared/ChatInterface.i: shared/ChatInterface.cpp.i
@@ -191,7 +191,7 @@ shared/ChatInterface.i: shared/ChatInterface.cpp.i
 
 # target to preprocess a source file
 shared/ChatInterface.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatInterface.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatInterface.cpp.i
 .PHONY : shared/ChatInterface.cpp.i
 
 shared/ChatInterface.s: shared/ChatInterface.cpp.s
@@ -199,7 +199,7 @@ shared/ChatInterface.s: shared/ChatInterface.cpp.s
 
 # target to generate assembly for a file
 shared/ChatInterface.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatInterface.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatInterface.cpp.s
 .PHONY : shared/ChatInterface.cpp.s
 
 shared/ChatServer.o: shared/ChatServer.cpp.o
@@ -207,7 +207,7 @@ shared/ChatServer.o: shared/ChatServer.cpp.o
 
 # target to build an object file
 shared/ChatServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServer.cpp.o
 .PHONY : shared/ChatServer.cpp.o
 
 shared/ChatServer.i: shared/ChatServer.cpp.i
@@ -215,7 +215,7 @@ shared/ChatServer.i: shared/ChatServer.cpp.i
 
 # target to preprocess a source file
 shared/ChatServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServer.cpp.i
 .PHONY : shared/ChatServer.cpp.i
 
 shared/ChatServer.s: shared/ChatServer.cpp.s
@@ -223,7 +223,7 @@ shared/ChatServer.s: shared/ChatServer.cpp.s
 
 # target to generate assembly for a file
 shared/ChatServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServer.cpp.s
 .PHONY : shared/ChatServer.cpp.s
 
 shared/ChatServerAvatarOwner.o: shared/ChatServerAvatarOwner.cpp.o
@@ -231,7 +231,7 @@ shared/ChatServerAvatarOwner.o: shared/ChatServerAvatarOwner.cpp.o
 
 # target to build an object file
 shared/ChatServerAvatarOwner.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerAvatarOwner.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerAvatarOwner.cpp.o
 .PHONY : shared/ChatServerAvatarOwner.cpp.o
 
 shared/ChatServerAvatarOwner.i: shared/ChatServerAvatarOwner.cpp.i
@@ -239,7 +239,7 @@ shared/ChatServerAvatarOwner.i: shared/ChatServerAvatarOwner.cpp.i
 
 # target to preprocess a source file
 shared/ChatServerAvatarOwner.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerAvatarOwner.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerAvatarOwner.cpp.i
 .PHONY : shared/ChatServerAvatarOwner.cpp.i
 
 shared/ChatServerAvatarOwner.s: shared/ChatServerAvatarOwner.cpp.s
@@ -247,7 +247,7 @@ shared/ChatServerAvatarOwner.s: shared/ChatServerAvatarOwner.cpp.s
 
 # target to generate assembly for a file
 shared/ChatServerAvatarOwner.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerAvatarOwner.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerAvatarOwner.cpp.s
 .PHONY : shared/ChatServerAvatarOwner.cpp.s
 
 shared/ChatServerMetricsData.o: shared/ChatServerMetricsData.cpp.o
@@ -255,7 +255,7 @@ shared/ChatServerMetricsData.o: shared/ChatServerMetricsData.cpp.o
 
 # target to build an object file
 shared/ChatServerMetricsData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerMetricsData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerMetricsData.cpp.o
 .PHONY : shared/ChatServerMetricsData.cpp.o
 
 shared/ChatServerMetricsData.i: shared/ChatServerMetricsData.cpp.i
@@ -263,7 +263,7 @@ shared/ChatServerMetricsData.i: shared/ChatServerMetricsData.cpp.i
 
 # target to preprocess a source file
 shared/ChatServerMetricsData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerMetricsData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerMetricsData.cpp.i
 .PHONY : shared/ChatServerMetricsData.cpp.i
 
 shared/ChatServerMetricsData.s: shared/ChatServerMetricsData.cpp.s
@@ -271,7 +271,7 @@ shared/ChatServerMetricsData.s: shared/ChatServerMetricsData.cpp.s
 
 # target to generate assembly for a file
 shared/ChatServerMetricsData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerMetricsData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerMetricsData.cpp.s
 .PHONY : shared/ChatServerMetricsData.cpp.s
 
 shared/ChatServerRoomOwner.o: shared/ChatServerRoomOwner.cpp.o
@@ -279,7 +279,7 @@ shared/ChatServerRoomOwner.o: shared/ChatServerRoomOwner.cpp.o
 
 # target to build an object file
 shared/ChatServerRoomOwner.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerRoomOwner.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerRoomOwner.cpp.o
 .PHONY : shared/ChatServerRoomOwner.cpp.o
 
 shared/ChatServerRoomOwner.i: shared/ChatServerRoomOwner.cpp.i
@@ -287,7 +287,7 @@ shared/ChatServerRoomOwner.i: shared/ChatServerRoomOwner.cpp.i
 
 # target to preprocess a source file
 shared/ChatServerRoomOwner.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerRoomOwner.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerRoomOwner.cpp.i
 .PHONY : shared/ChatServerRoomOwner.cpp.i
 
 shared/ChatServerRoomOwner.s: shared/ChatServerRoomOwner.cpp.s
@@ -295,7 +295,7 @@ shared/ChatServerRoomOwner.s: shared/ChatServerRoomOwner.cpp.s
 
 # target to generate assembly for a file
 shared/ChatServerRoomOwner.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerRoomOwner.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerRoomOwner.cpp.s
 .PHONY : shared/ChatServerRoomOwner.cpp.s
 
 shared/ConfigChatServer.o: shared/ConfigChatServer.cpp.o
@@ -303,7 +303,7 @@ shared/ConfigChatServer.o: shared/ConfigChatServer.cpp.o
 
 # target to build an object file
 shared/ConfigChatServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConfigChatServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConfigChatServer.cpp.o
 .PHONY : shared/ConfigChatServer.cpp.o
 
 shared/ConfigChatServer.i: shared/ConfigChatServer.cpp.i
@@ -311,7 +311,7 @@ shared/ConfigChatServer.i: shared/ConfigChatServer.cpp.i
 
 # target to preprocess a source file
 shared/ConfigChatServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConfigChatServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConfigChatServer.cpp.i
 .PHONY : shared/ConfigChatServer.cpp.i
 
 shared/ConfigChatServer.s: shared/ConfigChatServer.cpp.s
@@ -319,7 +319,7 @@ shared/ConfigChatServer.s: shared/ConfigChatServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigChatServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConfigChatServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConfigChatServer.cpp.s
 .PHONY : shared/ConfigChatServer.cpp.s
 
 shared/ConnectionServerConnection.o: shared/ConnectionServerConnection.cpp.o
@@ -327,7 +327,7 @@ shared/ConnectionServerConnection.o: shared/ConnectionServerConnection.cpp.o
 
 # target to build an object file
 shared/ConnectionServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConnectionServerConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConnectionServerConnection.cpp.o
 .PHONY : shared/ConnectionServerConnection.cpp.o
 
 shared/ConnectionServerConnection.i: shared/ConnectionServerConnection.cpp.i
@@ -335,7 +335,7 @@ shared/ConnectionServerConnection.i: shared/ConnectionServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/ConnectionServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConnectionServerConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConnectionServerConnection.cpp.i
 .PHONY : shared/ConnectionServerConnection.cpp.i
 
 shared/ConnectionServerConnection.s: shared/ConnectionServerConnection.cpp.s
@@ -343,7 +343,7 @@ shared/ConnectionServerConnection.s: shared/ConnectionServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ConnectionServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConnectionServerConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ConnectionServerConnection.cpp.s
 .PHONY : shared/ConnectionServerConnection.cpp.s
 
 shared/CustomerServiceServerConnection.o: shared/CustomerServiceServerConnection.cpp.o
@@ -351,7 +351,7 @@ shared/CustomerServiceServerConnection.o: shared/CustomerServiceServerConnection
 
 # target to build an object file
 shared/CustomerServiceServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CustomerServiceServerConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CustomerServiceServerConnection.cpp.o
 .PHONY : shared/CustomerServiceServerConnection.cpp.o
 
 shared/CustomerServiceServerConnection.i: shared/CustomerServiceServerConnection.cpp.i
@@ -359,7 +359,7 @@ shared/CustomerServiceServerConnection.i: shared/CustomerServiceServerConnection
 
 # target to preprocess a source file
 shared/CustomerServiceServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CustomerServiceServerConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CustomerServiceServerConnection.cpp.i
 .PHONY : shared/CustomerServiceServerConnection.cpp.i
 
 shared/CustomerServiceServerConnection.s: shared/CustomerServiceServerConnection.cpp.s
@@ -367,7 +367,7 @@ shared/CustomerServiceServerConnection.s: shared/CustomerServiceServerConnection
 
 # target to generate assembly for a file
 shared/CustomerServiceServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CustomerServiceServerConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/CustomerServiceServerConnection.cpp.s
 .PHONY : shared/CustomerServiceServerConnection.cpp.s
 
 shared/FirstChatServer.o: shared/FirstChatServer.cpp.o
@@ -375,7 +375,7 @@ shared/FirstChatServer.o: shared/FirstChatServer.cpp.o
 
 # target to build an object file
 shared/FirstChatServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/FirstChatServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/FirstChatServer.cpp.o
 .PHONY : shared/FirstChatServer.cpp.o
 
 shared/FirstChatServer.i: shared/FirstChatServer.cpp.i
@@ -383,7 +383,7 @@ shared/FirstChatServer.i: shared/FirstChatServer.cpp.i
 
 # target to preprocess a source file
 shared/FirstChatServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/FirstChatServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/FirstChatServer.cpp.i
 .PHONY : shared/FirstChatServer.cpp.i
 
 shared/FirstChatServer.s: shared/FirstChatServer.cpp.s
@@ -391,7 +391,7 @@ shared/FirstChatServer.s: shared/FirstChatServer.cpp.s
 
 # target to generate assembly for a file
 shared/FirstChatServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/FirstChatServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/FirstChatServer.cpp.s
 .PHONY : shared/FirstChatServer.cpp.s
 
 shared/GameServerConnection.o: shared/GameServerConnection.cpp.o
@@ -399,7 +399,7 @@ shared/GameServerConnection.o: shared/GameServerConnection.cpp.o
 
 # target to build an object file
 shared/GameServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/GameServerConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/GameServerConnection.cpp.o
 .PHONY : shared/GameServerConnection.cpp.o
 
 shared/GameServerConnection.i: shared/GameServerConnection.cpp.i
@@ -407,7 +407,7 @@ shared/GameServerConnection.i: shared/GameServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/GameServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/GameServerConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/GameServerConnection.cpp.i
 .PHONY : shared/GameServerConnection.cpp.i
 
 shared/GameServerConnection.s: shared/GameServerConnection.cpp.s
@@ -415,7 +415,7 @@ shared/GameServerConnection.s: shared/GameServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/GameServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/GameServerConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/GameServerConnection.cpp.s
 .PHONY : shared/GameServerConnection.cpp.s
 
 shared/PlanetServerServerConnection.o: shared/PlanetServerServerConnection.cpp.o
@@ -423,7 +423,7 @@ shared/PlanetServerServerConnection.o: shared/PlanetServerServerConnection.cpp.o
 
 # target to build an object file
 shared/PlanetServerServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/PlanetServerServerConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/PlanetServerServerConnection.cpp.o
 .PHONY : shared/PlanetServerServerConnection.cpp.o
 
 shared/PlanetServerServerConnection.i: shared/PlanetServerServerConnection.cpp.i
@@ -431,7 +431,7 @@ shared/PlanetServerServerConnection.i: shared/PlanetServerServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/PlanetServerServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/PlanetServerServerConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/PlanetServerServerConnection.cpp.i
 .PHONY : shared/PlanetServerServerConnection.cpp.i
 
 shared/PlanetServerServerConnection.s: shared/PlanetServerServerConnection.cpp.s
@@ -439,7 +439,7 @@ shared/PlanetServerServerConnection.s: shared/PlanetServerServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/PlanetServerServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/PlanetServerServerConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/PlanetServerServerConnection.cpp.s
 .PHONY : shared/PlanetServerServerConnection.cpp.s
 
 shared/VChatInterface.o: shared/VChatInterface.cpp.o
@@ -447,7 +447,7 @@ shared/VChatInterface.o: shared/VChatInterface.cpp.o
 
 # target to build an object file
 shared/VChatInterface.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/VChatInterface.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/VChatInterface.cpp.o
 .PHONY : shared/VChatInterface.cpp.o
 
 shared/VChatInterface.i: shared/VChatInterface.cpp.i
@@ -455,7 +455,7 @@ shared/VChatInterface.i: shared/VChatInterface.cpp.i
 
 # target to preprocess a source file
 shared/VChatInterface.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/VChatInterface.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/VChatInterface.cpp.i
 .PHONY : shared/VChatInterface.cpp.i
 
 shared/VChatInterface.s: shared/VChatInterface.cpp.s
@@ -463,7 +463,7 @@ shared/VChatInterface.s: shared/VChatInterface.cpp.s
 
 # target to generate assembly for a file
 shared/VChatInterface.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/VChatInterface.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/build.make engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/VChatInterface.cpp.s
 .PHONY : shared/VChatInterface.cpp.s
 
 # Help Target
@@ -528,6 +528,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

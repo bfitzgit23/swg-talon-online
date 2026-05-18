@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base64.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Base64.cpp \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Base64.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Base64.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Base64.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \

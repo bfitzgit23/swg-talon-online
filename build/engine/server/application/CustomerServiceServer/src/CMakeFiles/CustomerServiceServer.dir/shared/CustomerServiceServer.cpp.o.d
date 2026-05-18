@@ -1,9 +1,9 @@
 engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceServer.dir/shared/CustomerServiceServer.cpp.o: \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/CustomerServiceServer.cpp \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/CustomerServiceServer.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/FirstCustomerServiceServer.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/ByteStream.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/FirstCustomerServiceServer.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/ByteStream.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
  /usr/include/c++/8/exception \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -46,11 +46,11 @@ engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceSe
  /usr/include/c++/8/bits/functional_hash.h \
  /usr/include/c++/8/bits/range_access.h \
  /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
  /usr/include/c++/8/cstdio /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdarg.h \
@@ -61,8 +61,8 @@ engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceSe
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
  /usr/include/c++/8/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
@@ -111,8 +111,8 @@ engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceSe
  /usr/include/string.h /usr/include/strings.h /usr/include/wchar.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
  /usr/include/netinet/in.h /usr/include/bits/stdint-uintn.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
@@ -139,14 +139,14 @@ engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceSe
  /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h /usr/include/c++/8/cfloat \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/bits/stl_function.h \
  /usr/include/c++/8/backward/binders.h \
@@ -185,31 +185,31 @@ engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceSe
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_queue.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h /usr/include/c++/8/bits/list.tcc \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkId.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkId.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/Connection.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/Connection.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/NetworkHandler.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/NetworkHandler.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Watcher.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Watcher.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/CustomerServiceServer.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/CustomerServiceInterface.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/CustomerServiceCategory.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/CustomerServiceCategory.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkId.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkId.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/Connection.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/Connection.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/NetworkHandler.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/NetworkHandler.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Watcher.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Watcher.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/CustomerServiceServer.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/CustomerServiceInterface.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameobjects.h \
+ /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CSAssistgameapi.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/CustomerServiceCategory.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/CustomerServiceCategory.h \
  /usr/include/libxml2/libxml/parser.h \
  /usr/include/libxml2/libxml/xmlversion.h \
  /usr/include/libxml2/libxml/xmlexports.h \
@@ -234,81 +234,81 @@ engine/server/application/CustomerServiceServer/src/CMakeFiles/CustomerServiceSe
  /usr/include/libxml2/libxml/SAX2.h \
  /usr/include/libxml2/libxml/xmlmemory.h \
  /usr/include/libxml2/libxml/threads.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ChatOnRequestLog.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/chat/ChatOnRequestLog.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/GameNetworkMessage.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/common/GameNetworkMessage.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/AutoByteStream.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/AutoByteStream.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/Archive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ChatOnRequestLog.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/chat/ChatOnRequestLog.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/GameNetworkMessage.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/common/GameNetworkMessage.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/AutoByteStream.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/AutoByteStream.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/Archive.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
  /usr/include/c++/8/cassert /usr/include/assert.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/include/public/sharedMessageDispatch/Message.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/include/public/../../src/shared/Message.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/UnicodeArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/../../src/shared/UnicodeArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/UnicodeUtils.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/include/public/sharedMessageDispatch/Message.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/include/public/../../src/shared/Message.h \
+ /home/swg1/swg-main/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/UnicodeArchive.h \
+ /home/swg1/swg-main/src/external/ours/library/unicodeArchive/include/public/../../src/shared/UnicodeArchive.h \
+ /home/swg1/swg-main/src/external/ours/library/unicode/include/Unicode.h \
+ /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/swg1/swg-main/src/external/ours/library/unicode/include/UnicodeUtils.h \
+ /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
  /usr/include/c++/8/cstring \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/utf8.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/CustomerServiceServerMetricsData.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverMetrics/include/public/serverMetrics/MetricsData.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverMetrics/include/public/../../src/shared/MetricsData.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/MetricsDataMessage.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/metricsMessages/MetricsDataMessage.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/CentralServerConnection.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverUtility/include/public/serverUtility/ServerConnection.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverUtility/include/public/../../src/shared/ServerConnection.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/include/public/sharedMessageDispatch/Emitter.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/include/public/../../src/shared/Emitter.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/ChatServerConnection.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/ConfigCustomerServiceServer.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/ConnectionServerConnection.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/CustomerServiceServer/src/shared/GameServerConnection.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverUtility/include/public/serverUtility/ChatLogManager.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverUtility/include/public/../../src/shared/ChatLogManager.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Clock.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Clock.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FormattedString.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FormattedString.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkIdArchive.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkIdArchive.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Os.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/Os.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedLog/include/public/sharedLog/Log.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedLog/include/public/../../src/shared/Log.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedLog/include/public/../../src/shared/LogManager.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedLog/include/public/sharedLog/SetupSharedLog.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedLog/include/public/../../src/shared/SetupSharedLog.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/include/public/sharedMessageDispatch/Transceiver.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/include/public/../../src/shared/Transceiver.h \
+ /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/utf8.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/CustomerServiceServerMetricsData.h \
+ /home/swg1/swg-main/src/engine/server/library/serverMetrics/include/public/serverMetrics/MetricsData.h \
+ /home/swg1/swg-main/src/engine/server/library/serverMetrics/include/public/../../src/shared/MetricsData.h \
+ /home/swg1/swg-main/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/MetricsDataMessage.h \
+ /home/swg1/swg-main/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/metricsMessages/MetricsDataMessage.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/CentralServerConnection.h \
+ /home/swg1/swg-main/src/engine/server/library/serverUtility/include/public/serverUtility/ServerConnection.h \
+ /home/swg1/swg-main/src/engine/server/library/serverUtility/include/public/../../src/shared/ServerConnection.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/include/public/sharedMessageDispatch/Emitter.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/include/public/../../src/shared/Emitter.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/ChatServerConnection.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/ConfigCustomerServiceServer.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/ConnectionServerConnection.h \
+ /home/swg1/swg-main/src/engine/server/application/CustomerServiceServer/src/shared/GameServerConnection.h \
+ /home/swg1/swg-main/src/engine/server/library/serverUtility/include/public/serverUtility/ChatLogManager.h \
+ /home/swg1/swg-main/src/engine/server/library/serverUtility/include/public/../../src/shared/ChatLogManager.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Clock.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Clock.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FormattedString.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FormattedString.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkIdArchive.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkIdArchive.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Os.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/Os.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedLog/include/public/sharedLog/Log.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedLog/include/public/../../src/shared/Log.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedLog/include/public/../../src/shared/LogManager.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedLog/include/public/sharedLog/SetupSharedLog.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedLog/include/public/../../src/shared/SetupSharedLog.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/include/public/sharedMessageDispatch/Transceiver.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/include/public/../../src/shared/Transceiver.h \
  /usr/include/c++/8/algorithm /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_tempbuf.h \
  /usr/include/c++/8/bits/uniform_int_dist.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/NetworkSetupData.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/NetworkSetupData.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/Service.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/Service.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ChatRequestLog.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/chat/ChatRequestLog.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ConnectPlayerResponseMessage.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/ConnectPlayerResponseMessage.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/AutoDeltaByteStream.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaByteStream.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/AutoByteStream.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/CreateTicketResponseMessage.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/CreateTicketResponseMessage.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverMetrics/include/public/serverMetrics/MetricsManager.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverMetrics/include/public/../../src/shared/MetricsManager.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/singleton/include/Singleton/Singleton.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/singleton/include/../src/shared/Singleton.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/EnumerateServers.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/EnumerateServers.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/RequestCategoriesResponseMessage.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/RequestCategoriesResponseMessage.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/CustomerServiceCategoryArchive.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/CustomerServiceCategoryArchive.h
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/NetworkSetupData.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/NetworkSetupData.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/Service.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/Service.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ChatRequestLog.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/chat/ChatRequestLog.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ConnectPlayerResponseMessage.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/ConnectPlayerResponseMessage.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/AutoDeltaByteStream.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaByteStream.h \
+ /home/swg1/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/AutoByteStream.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/CreateTicketResponseMessage.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/CreateTicketResponseMessage.h \
+ /home/swg1/swg-main/src/engine/server/library/serverMetrics/include/public/serverMetrics/MetricsManager.h \
+ /home/swg1/swg-main/src/engine/server/library/serverMetrics/include/public/../../src/shared/MetricsManager.h \
+ /home/swg1/swg-main/src/external/ours/library/singleton/include/Singleton/Singleton.h \
+ /home/swg1/swg-main/src/external/ours/library/singleton/include/../src/shared/Singleton.h \
+ /home/swg1/swg-main/src/engine/server/library/serverNetworkMessages/include/public/serverNetworkMessages/EnumerateServers.h \
+ /home/swg1/swg-main/src/engine/server/library/serverNetworkMessages/include/public/../../src/shared/EnumerateServers.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/RequestCategoriesResponseMessage.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/RequestCategoriesResponseMessage.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/CustomerServiceCategoryArchive.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/customerService/CustomerServiceCategoryArchive.h

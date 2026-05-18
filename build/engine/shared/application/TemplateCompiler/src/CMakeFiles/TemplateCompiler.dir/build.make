@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/depend.make
@@ -70,32 +70,32 @@ include engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompil
 include engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/flags.make
 
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o: engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/flags.make
-engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src/shared/TemplateCompiler.cpp
+engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o: /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src/shared/TemplateCompiler.cpp
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o: engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o -MF CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o.d -o CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src/shared/TemplateCompiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o -MF CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o.d -o CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.o -c /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src/shared/TemplateCompiler.cpp
 
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src/shared/TemplateCompiler.cpp > CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src/shared/TemplateCompiler.cpp > CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.i
 
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src/shared/TemplateCompiler.cpp -o CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src/shared/TemplateCompiler.cpp -o CMakeFiles/TemplateCompiler.dir/shared/TemplateCompiler.cpp.s
 
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o: engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/flags.make
-engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src/linux/FirstTemplateCompiler.cpp
+engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o: /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src/linux/FirstTemplateCompiler.cpp
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o: engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o -MF CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o.d -o CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src/linux/FirstTemplateCompiler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o"
+	cd /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o -MF CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o.d -o CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.o -c /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src/linux/FirstTemplateCompiler.cpp
 
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src/linux/FirstTemplateCompiler.cpp > CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.i
+	cd /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src/linux/FirstTemplateCompiler.cpp > CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.i
 
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src/linux/FirstTemplateCompiler.cpp -o CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.s
+	cd /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src/linux/FirstTemplateCompiler.cpp -o CMakeFiles/TemplateCompiler.dir/linux/FirstTemplateCompiler.cpp.s
 
 # Object files for target TemplateCompiler
 TemplateCompiler_OBJECTS = \
@@ -157,18 +157,18 @@ bin/TemplateCompiler: engine/shared/library/sharedFractal/src/libsharedFractal.a
 bin/TemplateCompiler: /usr/lib/libpcre.so
 bin/TemplateCompiler: engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a
 bin/TemplateCompiler: engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../../../bin/TemplateCompiler"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TemplateCompiler.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../../../bin/TemplateCompiler"
+	cd /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/TemplateCompiler.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/build: bin/TemplateCompiler
 .PHONY : engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/build
 
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src && $(CMAKE_COMMAND) -P CMakeFiles/TemplateCompiler.dir/cmake_clean.cmake
+	cd /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src && $(CMAKE_COMMAND) -P CMakeFiles/TemplateCompiler.dir/cmake_clean.cmake
 .PHONY : engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/clean
 
 engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/application/TemplateCompiler/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/engine/shared/application/TemplateCompiler/src /home/swg1/swg-main/build /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src /home/swg1/swg-main/build/engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/application/TemplateCompiler/src/CMakeFiles/TemplateCompiler.dir/depend
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/application/TemplateDefinitionCompiler/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/application/TemplateDefinitionCompiler/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/rule
 .PHONY : engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ TemplateDefinitionCompiler: engine/shared/application/TemplateDefinitionCompiler
 
 # fast build rule for target.
 TemplateDefinitionCompiler/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build
 .PHONY : TemplateDefinitionCompiler/fast
 
 linux/FirstTemplateDefinitionCompiler.o: linux/FirstTemplateDefinitionCompiler.cpp.o
@@ -135,7 +135,7 @@ linux/FirstTemplateDefinitionCompiler.o: linux/FirstTemplateDefinitionCompiler.c
 
 # target to build an object file
 linux/FirstTemplateDefinitionCompiler.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/linux/FirstTemplateDefinitionCompiler.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/linux/FirstTemplateDefinitionCompiler.cpp.o
 .PHONY : linux/FirstTemplateDefinitionCompiler.cpp.o
 
 linux/FirstTemplateDefinitionCompiler.i: linux/FirstTemplateDefinitionCompiler.cpp.i
@@ -143,7 +143,7 @@ linux/FirstTemplateDefinitionCompiler.i: linux/FirstTemplateDefinitionCompiler.c
 
 # target to preprocess a source file
 linux/FirstTemplateDefinitionCompiler.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/linux/FirstTemplateDefinitionCompiler.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/linux/FirstTemplateDefinitionCompiler.cpp.i
 .PHONY : linux/FirstTemplateDefinitionCompiler.cpp.i
 
 linux/FirstTemplateDefinitionCompiler.s: linux/FirstTemplateDefinitionCompiler.cpp.s
@@ -151,7 +151,7 @@ linux/FirstTemplateDefinitionCompiler.s: linux/FirstTemplateDefinitionCompiler.c
 
 # target to generate assembly for a file
 linux/FirstTemplateDefinitionCompiler.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/linux/FirstTemplateDefinitionCompiler.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/linux/FirstTemplateDefinitionCompiler.cpp.s
 .PHONY : linux/FirstTemplateDefinitionCompiler.cpp.s
 
 shared/core/TemplateDefinitionCompiler.o: shared/core/TemplateDefinitionCompiler.cpp.o
@@ -159,7 +159,7 @@ shared/core/TemplateDefinitionCompiler.o: shared/core/TemplateDefinitionCompiler
 
 # target to build an object file
 shared/core/TemplateDefinitionCompiler.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/shared/core/TemplateDefinitionCompiler.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/shared/core/TemplateDefinitionCompiler.cpp.o
 .PHONY : shared/core/TemplateDefinitionCompiler.cpp.o
 
 shared/core/TemplateDefinitionCompiler.i: shared/core/TemplateDefinitionCompiler.cpp.i
@@ -167,7 +167,7 @@ shared/core/TemplateDefinitionCompiler.i: shared/core/TemplateDefinitionCompiler
 
 # target to preprocess a source file
 shared/core/TemplateDefinitionCompiler.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/shared/core/TemplateDefinitionCompiler.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/shared/core/TemplateDefinitionCompiler.cpp.i
 .PHONY : shared/core/TemplateDefinitionCompiler.cpp.i
 
 shared/core/TemplateDefinitionCompiler.s: shared/core/TemplateDefinitionCompiler.cpp.s
@@ -175,7 +175,7 @@ shared/core/TemplateDefinitionCompiler.s: shared/core/TemplateDefinitionCompiler
 
 # target to generate assembly for a file
 shared/core/TemplateDefinitionCompiler.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/shared/core/TemplateDefinitionCompiler.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/build.make engine/shared/application/TemplateDefinitionCompiler/src/CMakeFiles/TemplateDefinitionCompiler.dir/shared/core/TemplateDefinitionCompiler.cpp.s
 .PHONY : shared/core/TemplateDefinitionCompiler.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

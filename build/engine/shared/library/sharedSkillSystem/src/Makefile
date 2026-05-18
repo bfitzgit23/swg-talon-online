@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedSkillSystem/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedSkillSystem/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/rule
 .PHONY : engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedSkillSystem: engine/shared/library/sharedSkillSystem/src/CMakeFiles/shared
 
 # fast build rule for target.
 sharedSkillSystem/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build
 .PHONY : sharedSkillSystem/fast
 
 shared/ExpertiseManager.o: shared/ExpertiseManager.cpp.o
@@ -135,7 +135,7 @@ shared/ExpertiseManager.o: shared/ExpertiseManager.cpp.o
 
 # target to build an object file
 shared/ExpertiseManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.o
 .PHONY : shared/ExpertiseManager.cpp.o
 
 shared/ExpertiseManager.i: shared/ExpertiseManager.cpp.i
@@ -143,7 +143,7 @@ shared/ExpertiseManager.i: shared/ExpertiseManager.cpp.i
 
 # target to preprocess a source file
 shared/ExpertiseManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.i
 .PHONY : shared/ExpertiseManager.cpp.i
 
 shared/ExpertiseManager.s: shared/ExpertiseManager.cpp.s
@@ -151,7 +151,7 @@ shared/ExpertiseManager.s: shared/ExpertiseManager.cpp.s
 
 # target to generate assembly for a file
 shared/ExpertiseManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/ExpertiseManager.cpp.s
 .PHONY : shared/ExpertiseManager.cpp.s
 
 shared/LevelManager.o: shared/LevelManager.cpp.o
@@ -159,7 +159,7 @@ shared/LevelManager.o: shared/LevelManager.cpp.o
 
 # target to build an object file
 shared/LevelManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.o
 .PHONY : shared/LevelManager.cpp.o
 
 shared/LevelManager.i: shared/LevelManager.cpp.i
@@ -167,7 +167,7 @@ shared/LevelManager.i: shared/LevelManager.cpp.i
 
 # target to preprocess a source file
 shared/LevelManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.i
 .PHONY : shared/LevelManager.cpp.i
 
 shared/LevelManager.s: shared/LevelManager.cpp.s
@@ -175,7 +175,7 @@ shared/LevelManager.s: shared/LevelManager.cpp.s
 
 # target to generate assembly for a file
 shared/LevelManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/LevelManager.cpp.s
 .PHONY : shared/LevelManager.cpp.s
 
 shared/SkillManager.o: shared/SkillManager.cpp.o
@@ -183,7 +183,7 @@ shared/SkillManager.o: shared/SkillManager.cpp.o
 
 # target to build an object file
 shared/SkillManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.o
 .PHONY : shared/SkillManager.cpp.o
 
 shared/SkillManager.i: shared/SkillManager.cpp.i
@@ -191,7 +191,7 @@ shared/SkillManager.i: shared/SkillManager.cpp.i
 
 # target to preprocess a source file
 shared/SkillManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.i
 .PHONY : shared/SkillManager.cpp.i
 
 shared/SkillManager.s: shared/SkillManager.cpp.s
@@ -199,7 +199,7 @@ shared/SkillManager.s: shared/SkillManager.cpp.s
 
 # target to generate assembly for a file
 shared/SkillManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillManager.cpp.s
 .PHONY : shared/SkillManager.cpp.s
 
 shared/SkillObject.o: shared/SkillObject.cpp.o
@@ -207,7 +207,7 @@ shared/SkillObject.o: shared/SkillObject.cpp.o
 
 # target to build an object file
 shared/SkillObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.o
 .PHONY : shared/SkillObject.cpp.o
 
 shared/SkillObject.i: shared/SkillObject.cpp.i
@@ -215,7 +215,7 @@ shared/SkillObject.i: shared/SkillObject.cpp.i
 
 # target to preprocess a source file
 shared/SkillObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.i
 .PHONY : shared/SkillObject.cpp.i
 
 shared/SkillObject.s: shared/SkillObject.cpp.s
@@ -223,7 +223,7 @@ shared/SkillObject.s: shared/SkillObject.cpp.s
 
 # target to generate assembly for a file
 shared/SkillObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObject.cpp.s
 .PHONY : shared/SkillObject.cpp.s
 
 shared/SkillObjectArchive.o: shared/SkillObjectArchive.cpp.o
@@ -231,7 +231,7 @@ shared/SkillObjectArchive.o: shared/SkillObjectArchive.cpp.o
 
 # target to build an object file
 shared/SkillObjectArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.o
 .PHONY : shared/SkillObjectArchive.cpp.o
 
 shared/SkillObjectArchive.i: shared/SkillObjectArchive.cpp.i
@@ -239,7 +239,7 @@ shared/SkillObjectArchive.i: shared/SkillObjectArchive.cpp.i
 
 # target to preprocess a source file
 shared/SkillObjectArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.i
 .PHONY : shared/SkillObjectArchive.cpp.i
 
 shared/SkillObjectArchive.s: shared/SkillObjectArchive.cpp.s
@@ -247,7 +247,7 @@ shared/SkillObjectArchive.s: shared/SkillObjectArchive.cpp.s
 
 # target to generate assembly for a file
 shared/SkillObjectArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/build.make engine/shared/library/sharedSkillSystem/src/CMakeFiles/sharedSkillSystem.dir/shared/SkillObjectArchive.cpp.s
 .PHONY : shared/SkillObjectArchive.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

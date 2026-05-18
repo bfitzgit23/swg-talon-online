@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedTerrain/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedTerrain/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/rule
 .PHONY : engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedTerrain: engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.
 
 # fast build rule for target.
 sharedTerrain/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build
 .PHONY : sharedTerrain/fast
 
 shared/appearance/ProceduralTerrainAppearance.o: shared/appearance/ProceduralTerrainAppearance.cpp.o
@@ -135,7 +135,7 @@ shared/appearance/ProceduralTerrainAppearance.o: shared/appearance/ProceduralTer
 
 # target to build an object file
 shared/appearance/ProceduralTerrainAppearance.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearance.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearance.cpp.o
 .PHONY : shared/appearance/ProceduralTerrainAppearance.cpp.o
 
 shared/appearance/ProceduralTerrainAppearance.i: shared/appearance/ProceduralTerrainAppearance.cpp.i
@@ -143,7 +143,7 @@ shared/appearance/ProceduralTerrainAppearance.i: shared/appearance/ProceduralTer
 
 # target to preprocess a source file
 shared/appearance/ProceduralTerrainAppearance.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearance.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearance.cpp.i
 .PHONY : shared/appearance/ProceduralTerrainAppearance.cpp.i
 
 shared/appearance/ProceduralTerrainAppearance.s: shared/appearance/ProceduralTerrainAppearance.cpp.s
@@ -151,7 +151,7 @@ shared/appearance/ProceduralTerrainAppearance.s: shared/appearance/ProceduralTer
 
 # target to generate assembly for a file
 shared/appearance/ProceduralTerrainAppearance.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearance.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearance.cpp.s
 .PHONY : shared/appearance/ProceduralTerrainAppearance.cpp.s
 
 shared/appearance/ProceduralTerrainAppearanceTemplate.o: shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.o
@@ -159,7 +159,7 @@ shared/appearance/ProceduralTerrainAppearanceTemplate.o: shared/appearance/Proce
 
 # target to build an object file
 shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.o
 .PHONY : shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.o
 
 shared/appearance/ProceduralTerrainAppearanceTemplate.i: shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.i
@@ -167,7 +167,7 @@ shared/appearance/ProceduralTerrainAppearanceTemplate.i: shared/appearance/Proce
 
 # target to preprocess a source file
 shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.i
 .PHONY : shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.i
 
 shared/appearance/ProceduralTerrainAppearanceTemplate.s: shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.s
@@ -175,7 +175,7 @@ shared/appearance/ProceduralTerrainAppearanceTemplate.s: shared/appearance/Proce
 
 # target to generate assembly for a file
 shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.s
 .PHONY : shared/appearance/ProceduralTerrainAppearanceTemplate.cpp.s
 
 shared/appearance/SamplerProceduralTerrainAppearance.o: shared/appearance/SamplerProceduralTerrainAppearance.cpp.o
@@ -183,7 +183,7 @@ shared/appearance/SamplerProceduralTerrainAppearance.o: shared/appearance/Sample
 
 # target to build an object file
 shared/appearance/SamplerProceduralTerrainAppearance.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance.cpp.o
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearance.cpp.o
 
 shared/appearance/SamplerProceduralTerrainAppearance.i: shared/appearance/SamplerProceduralTerrainAppearance.cpp.i
@@ -191,7 +191,7 @@ shared/appearance/SamplerProceduralTerrainAppearance.i: shared/appearance/Sample
 
 # target to preprocess a source file
 shared/appearance/SamplerProceduralTerrainAppearance.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance.cpp.i
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearance.cpp.i
 
 shared/appearance/SamplerProceduralTerrainAppearance.s: shared/appearance/SamplerProceduralTerrainAppearance.cpp.s
@@ -199,7 +199,7 @@ shared/appearance/SamplerProceduralTerrainAppearance.s: shared/appearance/Sample
 
 # target to generate assembly for a file
 shared/appearance/SamplerProceduralTerrainAppearance.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance.cpp.s
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearance.cpp.s
 
 shared/appearance/SamplerProceduralTerrainAppearanceTemplate.o: shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.o
@@ -207,7 +207,7 @@ shared/appearance/SamplerProceduralTerrainAppearanceTemplate.o: shared/appearanc
 
 # target to build an object file
 shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.o
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.o
 
 shared/appearance/SamplerProceduralTerrainAppearanceTemplate.i: shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.i
@@ -215,7 +215,7 @@ shared/appearance/SamplerProceduralTerrainAppearanceTemplate.i: shared/appearanc
 
 # target to preprocess a source file
 shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.i
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.i
 
 shared/appearance/SamplerProceduralTerrainAppearanceTemplate.s: shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.s
@@ -223,7 +223,7 @@ shared/appearance/SamplerProceduralTerrainAppearanceTemplate.s: shared/appearanc
 
 # target to generate assembly for a file
 shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.s
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearanceTemplate.cpp.s
 
 shared/appearance/SamplerProceduralTerrainAppearance_Cache.o: shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.o
@@ -231,7 +231,7 @@ shared/appearance/SamplerProceduralTerrainAppearance_Cache.o: shared/appearance/
 
 # target to build an object file
 shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.o
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.o
 
 shared/appearance/SamplerProceduralTerrainAppearance_Cache.i: shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.i
@@ -239,7 +239,7 @@ shared/appearance/SamplerProceduralTerrainAppearance_Cache.i: shared/appearance/
 
 # target to preprocess a source file
 shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.i
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.i
 
 shared/appearance/SamplerProceduralTerrainAppearance_Cache.s: shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.s
@@ -247,7 +247,7 @@ shared/appearance/SamplerProceduralTerrainAppearance_Cache.s: shared/appearance/
 
 # target to generate assembly for a file
 shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.s
 .PHONY : shared/appearance/SamplerProceduralTerrainAppearance_Cache.cpp.s
 
 shared/appearance/ServerProceduralTerrainAppearance.o: shared/appearance/ServerProceduralTerrainAppearance.cpp.o
@@ -255,7 +255,7 @@ shared/appearance/ServerProceduralTerrainAppearance.o: shared/appearance/ServerP
 
 # target to build an object file
 shared/appearance/ServerProceduralTerrainAppearance.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance.cpp.o
 .PHONY : shared/appearance/ServerProceduralTerrainAppearance.cpp.o
 
 shared/appearance/ServerProceduralTerrainAppearance.i: shared/appearance/ServerProceduralTerrainAppearance.cpp.i
@@ -263,7 +263,7 @@ shared/appearance/ServerProceduralTerrainAppearance.i: shared/appearance/ServerP
 
 # target to preprocess a source file
 shared/appearance/ServerProceduralTerrainAppearance.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance.cpp.i
 .PHONY : shared/appearance/ServerProceduralTerrainAppearance.cpp.i
 
 shared/appearance/ServerProceduralTerrainAppearance.s: shared/appearance/ServerProceduralTerrainAppearance.cpp.s
@@ -271,7 +271,7 @@ shared/appearance/ServerProceduralTerrainAppearance.s: shared/appearance/ServerP
 
 # target to generate assembly for a file
 shared/appearance/ServerProceduralTerrainAppearance.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance.cpp.s
 .PHONY : shared/appearance/ServerProceduralTerrainAppearance.cpp.s
 
 shared/appearance/ServerProceduralTerrainAppearanceTemplate.o: shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.o
@@ -279,7 +279,7 @@ shared/appearance/ServerProceduralTerrainAppearanceTemplate.o: shared/appearance
 
 # target to build an object file
 shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.o
 .PHONY : shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.o
 
 shared/appearance/ServerProceduralTerrainAppearanceTemplate.i: shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.i
@@ -287,7 +287,7 @@ shared/appearance/ServerProceduralTerrainAppearanceTemplate.i: shared/appearance
 
 # target to preprocess a source file
 shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.i
 .PHONY : shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.i
 
 shared/appearance/ServerProceduralTerrainAppearanceTemplate.s: shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.s
@@ -295,7 +295,7 @@ shared/appearance/ServerProceduralTerrainAppearanceTemplate.s: shared/appearance
 
 # target to generate assembly for a file
 shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.s
 .PHONY : shared/appearance/ServerProceduralTerrainAppearanceTemplate.cpp.s
 
 shared/appearance/ServerProceduralTerrainAppearance_Cache.o: shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.o
@@ -303,7 +303,7 @@ shared/appearance/ServerProceduralTerrainAppearance_Cache.o: shared/appearance/S
 
 # target to build an object file
 shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.o
 .PHONY : shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.o
 
 shared/appearance/ServerProceduralTerrainAppearance_Cache.i: shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.i
@@ -311,7 +311,7 @@ shared/appearance/ServerProceduralTerrainAppearance_Cache.i: shared/appearance/S
 
 # target to preprocess a source file
 shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.i
 .PHONY : shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.i
 
 shared/appearance/ServerProceduralTerrainAppearance_Cache.s: shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.s
@@ -319,7 +319,7 @@ shared/appearance/ServerProceduralTerrainAppearance_Cache.s: shared/appearance/S
 
 # target to generate assembly for a file
 shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.s
 .PHONY : shared/appearance/ServerProceduralTerrainAppearance_Cache.cpp.s
 
 shared/appearance/ServerSpaceTerrainAppearance.o: shared/appearance/ServerSpaceTerrainAppearance.cpp.o
@@ -327,7 +327,7 @@ shared/appearance/ServerSpaceTerrainAppearance.o: shared/appearance/ServerSpaceT
 
 # target to build an object file
 shared/appearance/ServerSpaceTerrainAppearance.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearance.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearance.cpp.o
 .PHONY : shared/appearance/ServerSpaceTerrainAppearance.cpp.o
 
 shared/appearance/ServerSpaceTerrainAppearance.i: shared/appearance/ServerSpaceTerrainAppearance.cpp.i
@@ -335,7 +335,7 @@ shared/appearance/ServerSpaceTerrainAppearance.i: shared/appearance/ServerSpaceT
 
 # target to preprocess a source file
 shared/appearance/ServerSpaceTerrainAppearance.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearance.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearance.cpp.i
 .PHONY : shared/appearance/ServerSpaceTerrainAppearance.cpp.i
 
 shared/appearance/ServerSpaceTerrainAppearance.s: shared/appearance/ServerSpaceTerrainAppearance.cpp.s
@@ -343,7 +343,7 @@ shared/appearance/ServerSpaceTerrainAppearance.s: shared/appearance/ServerSpaceT
 
 # target to generate assembly for a file
 shared/appearance/ServerSpaceTerrainAppearance.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearance.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearance.cpp.s
 .PHONY : shared/appearance/ServerSpaceTerrainAppearance.cpp.s
 
 shared/appearance/ServerSpaceTerrainAppearanceTemplate.o: shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.o
@@ -351,7 +351,7 @@ shared/appearance/ServerSpaceTerrainAppearanceTemplate.o: shared/appearance/Serv
 
 # target to build an object file
 shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.o
 .PHONY : shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.o
 
 shared/appearance/ServerSpaceTerrainAppearanceTemplate.i: shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.i
@@ -359,7 +359,7 @@ shared/appearance/ServerSpaceTerrainAppearanceTemplate.i: shared/appearance/Serv
 
 # target to preprocess a source file
 shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.i
 .PHONY : shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.i
 
 shared/appearance/ServerSpaceTerrainAppearanceTemplate.s: shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.s
@@ -367,7 +367,7 @@ shared/appearance/ServerSpaceTerrainAppearanceTemplate.s: shared/appearance/Serv
 
 # target to generate assembly for a file
 shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.s
 .PHONY : shared/appearance/ServerSpaceTerrainAppearanceTemplate.cpp.s
 
 shared/appearance/SpaceTerrainAppearance.o: shared/appearance/SpaceTerrainAppearance.cpp.o
@@ -375,7 +375,7 @@ shared/appearance/SpaceTerrainAppearance.o: shared/appearance/SpaceTerrainAppear
 
 # target to build an object file
 shared/appearance/SpaceTerrainAppearance.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearance.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearance.cpp.o
 .PHONY : shared/appearance/SpaceTerrainAppearance.cpp.o
 
 shared/appearance/SpaceTerrainAppearance.i: shared/appearance/SpaceTerrainAppearance.cpp.i
@@ -383,7 +383,7 @@ shared/appearance/SpaceTerrainAppearance.i: shared/appearance/SpaceTerrainAppear
 
 # target to preprocess a source file
 shared/appearance/SpaceTerrainAppearance.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearance.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearance.cpp.i
 .PHONY : shared/appearance/SpaceTerrainAppearance.cpp.i
 
 shared/appearance/SpaceTerrainAppearance.s: shared/appearance/SpaceTerrainAppearance.cpp.s
@@ -391,7 +391,7 @@ shared/appearance/SpaceTerrainAppearance.s: shared/appearance/SpaceTerrainAppear
 
 # target to generate assembly for a file
 shared/appearance/SpaceTerrainAppearance.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearance.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearance.cpp.s
 .PHONY : shared/appearance/SpaceTerrainAppearance.cpp.s
 
 shared/appearance/SpaceTerrainAppearanceTemplate.o: shared/appearance/SpaceTerrainAppearanceTemplate.cpp.o
@@ -399,7 +399,7 @@ shared/appearance/SpaceTerrainAppearanceTemplate.o: shared/appearance/SpaceTerra
 
 # target to build an object file
 shared/appearance/SpaceTerrainAppearanceTemplate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearanceTemplate.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearanceTemplate.cpp.o
 .PHONY : shared/appearance/SpaceTerrainAppearanceTemplate.cpp.o
 
 shared/appearance/SpaceTerrainAppearanceTemplate.i: shared/appearance/SpaceTerrainAppearanceTemplate.cpp.i
@@ -407,7 +407,7 @@ shared/appearance/SpaceTerrainAppearanceTemplate.i: shared/appearance/SpaceTerra
 
 # target to preprocess a source file
 shared/appearance/SpaceTerrainAppearanceTemplate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearanceTemplate.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearanceTemplate.cpp.i
 .PHONY : shared/appearance/SpaceTerrainAppearanceTemplate.cpp.i
 
 shared/appearance/SpaceTerrainAppearanceTemplate.s: shared/appearance/SpaceTerrainAppearanceTemplate.cpp.s
@@ -415,7 +415,7 @@ shared/appearance/SpaceTerrainAppearanceTemplate.s: shared/appearance/SpaceTerra
 
 # target to generate assembly for a file
 shared/appearance/SpaceTerrainAppearanceTemplate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearanceTemplate.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/SpaceTerrainAppearanceTemplate.cpp.s
 .PHONY : shared/appearance/SpaceTerrainAppearanceTemplate.cpp.s
 
 shared/appearance/TerrainAppearance.o: shared/appearance/TerrainAppearance.cpp.o
@@ -423,7 +423,7 @@ shared/appearance/TerrainAppearance.o: shared/appearance/TerrainAppearance.cpp.o
 
 # target to build an object file
 shared/appearance/TerrainAppearance.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainAppearance.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainAppearance.cpp.o
 .PHONY : shared/appearance/TerrainAppearance.cpp.o
 
 shared/appearance/TerrainAppearance.i: shared/appearance/TerrainAppearance.cpp.i
@@ -431,7 +431,7 @@ shared/appearance/TerrainAppearance.i: shared/appearance/TerrainAppearance.cpp.i
 
 # target to preprocess a source file
 shared/appearance/TerrainAppearance.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainAppearance.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainAppearance.cpp.i
 .PHONY : shared/appearance/TerrainAppearance.cpp.i
 
 shared/appearance/TerrainAppearance.s: shared/appearance/TerrainAppearance.cpp.s
@@ -439,7 +439,7 @@ shared/appearance/TerrainAppearance.s: shared/appearance/TerrainAppearance.cpp.s
 
 # target to generate assembly for a file
 shared/appearance/TerrainAppearance.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainAppearance.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainAppearance.cpp.s
 .PHONY : shared/appearance/TerrainAppearance.cpp.s
 
 shared/appearance/TerrainQuadTree.o: shared/appearance/TerrainQuadTree.cpp.o
@@ -447,7 +447,7 @@ shared/appearance/TerrainQuadTree.o: shared/appearance/TerrainQuadTree.cpp.o
 
 # target to build an object file
 shared/appearance/TerrainQuadTree.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainQuadTree.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainQuadTree.cpp.o
 .PHONY : shared/appearance/TerrainQuadTree.cpp.o
 
 shared/appearance/TerrainQuadTree.i: shared/appearance/TerrainQuadTree.cpp.i
@@ -455,7 +455,7 @@ shared/appearance/TerrainQuadTree.i: shared/appearance/TerrainQuadTree.cpp.i
 
 # target to preprocess a source file
 shared/appearance/TerrainQuadTree.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainQuadTree.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainQuadTree.cpp.i
 .PHONY : shared/appearance/TerrainQuadTree.cpp.i
 
 shared/appearance/TerrainQuadTree.s: shared/appearance/TerrainQuadTree.cpp.s
@@ -463,7 +463,7 @@ shared/appearance/TerrainQuadTree.s: shared/appearance/TerrainQuadTree.cpp.s
 
 # target to generate assembly for a file
 shared/appearance/TerrainQuadTree.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainQuadTree.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/appearance/TerrainQuadTree.cpp.s
 .PHONY : shared/appearance/TerrainQuadTree.cpp.s
 
 shared/core/ConfigSharedTerrain.o: shared/core/ConfigSharedTerrain.cpp.o
@@ -471,7 +471,7 @@ shared/core/ConfigSharedTerrain.o: shared/core/ConfigSharedTerrain.cpp.o
 
 # target to build an object file
 shared/core/ConfigSharedTerrain.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/ConfigSharedTerrain.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/ConfigSharedTerrain.cpp.o
 .PHONY : shared/core/ConfigSharedTerrain.cpp.o
 
 shared/core/ConfigSharedTerrain.i: shared/core/ConfigSharedTerrain.cpp.i
@@ -479,7 +479,7 @@ shared/core/ConfigSharedTerrain.i: shared/core/ConfigSharedTerrain.cpp.i
 
 # target to preprocess a source file
 shared/core/ConfigSharedTerrain.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/ConfigSharedTerrain.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/ConfigSharedTerrain.cpp.i
 .PHONY : shared/core/ConfigSharedTerrain.cpp.i
 
 shared/core/ConfigSharedTerrain.s: shared/core/ConfigSharedTerrain.cpp.s
@@ -487,7 +487,7 @@ shared/core/ConfigSharedTerrain.s: shared/core/ConfigSharedTerrain.cpp.s
 
 # target to generate assembly for a file
 shared/core/ConfigSharedTerrain.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/ConfigSharedTerrain.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/ConfigSharedTerrain.cpp.s
 .PHONY : shared/core/ConfigSharedTerrain.cpp.s
 
 shared/core/SetupSharedTerrain.o: shared/core/SetupSharedTerrain.cpp.o
@@ -495,7 +495,7 @@ shared/core/SetupSharedTerrain.o: shared/core/SetupSharedTerrain.cpp.o
 
 # target to build an object file
 shared/core/SetupSharedTerrain.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/SetupSharedTerrain.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/SetupSharedTerrain.cpp.o
 .PHONY : shared/core/SetupSharedTerrain.cpp.o
 
 shared/core/SetupSharedTerrain.i: shared/core/SetupSharedTerrain.cpp.i
@@ -503,7 +503,7 @@ shared/core/SetupSharedTerrain.i: shared/core/SetupSharedTerrain.cpp.i
 
 # target to preprocess a source file
 shared/core/SetupSharedTerrain.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/SetupSharedTerrain.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/SetupSharedTerrain.cpp.i
 .PHONY : shared/core/SetupSharedTerrain.cpp.i
 
 shared/core/SetupSharedTerrain.s: shared/core/SetupSharedTerrain.cpp.s
@@ -511,7 +511,7 @@ shared/core/SetupSharedTerrain.s: shared/core/SetupSharedTerrain.cpp.s
 
 # target to generate assembly for a file
 shared/core/SetupSharedTerrain.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/SetupSharedTerrain.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/SetupSharedTerrain.cpp.s
 .PHONY : shared/core/SetupSharedTerrain.cpp.s
 
 shared/core/WaterTypeManager.o: shared/core/WaterTypeManager.cpp.o
@@ -519,7 +519,7 @@ shared/core/WaterTypeManager.o: shared/core/WaterTypeManager.cpp.o
 
 # target to build an object file
 shared/core/WaterTypeManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/WaterTypeManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/WaterTypeManager.cpp.o
 .PHONY : shared/core/WaterTypeManager.cpp.o
 
 shared/core/WaterTypeManager.i: shared/core/WaterTypeManager.cpp.i
@@ -527,7 +527,7 @@ shared/core/WaterTypeManager.i: shared/core/WaterTypeManager.cpp.i
 
 # target to preprocess a source file
 shared/core/WaterTypeManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/WaterTypeManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/WaterTypeManager.cpp.i
 .PHONY : shared/core/WaterTypeManager.cpp.i
 
 shared/core/WaterTypeManager.s: shared/core/WaterTypeManager.cpp.s
@@ -535,7 +535,7 @@ shared/core/WaterTypeManager.s: shared/core/WaterTypeManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/WaterTypeManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/WaterTypeManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/core/WaterTypeManager.cpp.s
 .PHONY : shared/core/WaterTypeManager.cpp.s
 
 shared/flora/FloraManager.o: shared/flora/FloraManager.cpp.o
@@ -543,7 +543,7 @@ shared/flora/FloraManager.o: shared/flora/FloraManager.cpp.o
 
 # target to build an object file
 shared/flora/FloraManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/FloraManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/FloraManager.cpp.o
 .PHONY : shared/flora/FloraManager.cpp.o
 
 shared/flora/FloraManager.i: shared/flora/FloraManager.cpp.i
@@ -551,7 +551,7 @@ shared/flora/FloraManager.i: shared/flora/FloraManager.cpp.i
 
 # target to preprocess a source file
 shared/flora/FloraManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/FloraManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/FloraManager.cpp.i
 .PHONY : shared/flora/FloraManager.cpp.i
 
 shared/flora/FloraManager.s: shared/flora/FloraManager.cpp.s
@@ -559,7 +559,7 @@ shared/flora/FloraManager.s: shared/flora/FloraManager.cpp.s
 
 # target to generate assembly for a file
 shared/flora/FloraManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/FloraManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/FloraManager.cpp.s
 .PHONY : shared/flora/FloraManager.cpp.s
 
 shared/flora/ServerFloraManager.o: shared/flora/ServerFloraManager.cpp.o
@@ -567,7 +567,7 @@ shared/flora/ServerFloraManager.o: shared/flora/ServerFloraManager.cpp.o
 
 # target to build an object file
 shared/flora/ServerFloraManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/ServerFloraManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/ServerFloraManager.cpp.o
 .PHONY : shared/flora/ServerFloraManager.cpp.o
 
 shared/flora/ServerFloraManager.i: shared/flora/ServerFloraManager.cpp.i
@@ -575,7 +575,7 @@ shared/flora/ServerFloraManager.i: shared/flora/ServerFloraManager.cpp.i
 
 # target to preprocess a source file
 shared/flora/ServerFloraManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/ServerFloraManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/ServerFloraManager.cpp.i
 .PHONY : shared/flora/ServerFloraManager.cpp.i
 
 shared/flora/ServerFloraManager.s: shared/flora/ServerFloraManager.cpp.s
@@ -583,7 +583,7 @@ shared/flora/ServerFloraManager.s: shared/flora/ServerFloraManager.cpp.s
 
 # target to generate assembly for a file
 shared/flora/ServerFloraManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/ServerFloraManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/flora/ServerFloraManager.cpp.s
 .PHONY : shared/flora/ServerFloraManager.cpp.s
 
 shared/generator/Affector.o: shared/generator/Affector.cpp.o
@@ -591,7 +591,7 @@ shared/generator/Affector.o: shared/generator/Affector.cpp.o
 
 # target to build an object file
 shared/generator/Affector.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Affector.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Affector.cpp.o
 .PHONY : shared/generator/Affector.cpp.o
 
 shared/generator/Affector.i: shared/generator/Affector.cpp.i
@@ -599,7 +599,7 @@ shared/generator/Affector.i: shared/generator/Affector.cpp.i
 
 # target to preprocess a source file
 shared/generator/Affector.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Affector.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Affector.cpp.i
 .PHONY : shared/generator/Affector.cpp.i
 
 shared/generator/Affector.s: shared/generator/Affector.cpp.s
@@ -607,7 +607,7 @@ shared/generator/Affector.s: shared/generator/Affector.cpp.s
 
 # target to generate assembly for a file
 shared/generator/Affector.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Affector.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Affector.cpp.s
 .PHONY : shared/generator/Affector.cpp.s
 
 shared/generator/AffectorColor.o: shared/generator/AffectorColor.cpp.o
@@ -615,7 +615,7 @@ shared/generator/AffectorColor.o: shared/generator/AffectorColor.cpp.o
 
 # target to build an object file
 shared/generator/AffectorColor.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorColor.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorColor.cpp.o
 .PHONY : shared/generator/AffectorColor.cpp.o
 
 shared/generator/AffectorColor.i: shared/generator/AffectorColor.cpp.i
@@ -623,7 +623,7 @@ shared/generator/AffectorColor.i: shared/generator/AffectorColor.cpp.i
 
 # target to preprocess a source file
 shared/generator/AffectorColor.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorColor.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorColor.cpp.i
 .PHONY : shared/generator/AffectorColor.cpp.i
 
 shared/generator/AffectorColor.s: shared/generator/AffectorColor.cpp.s
@@ -631,7 +631,7 @@ shared/generator/AffectorColor.s: shared/generator/AffectorColor.cpp.s
 
 # target to generate assembly for a file
 shared/generator/AffectorColor.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorColor.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorColor.cpp.s
 .PHONY : shared/generator/AffectorColor.cpp.s
 
 shared/generator/AffectorEnvironment.o: shared/generator/AffectorEnvironment.cpp.o
@@ -639,7 +639,7 @@ shared/generator/AffectorEnvironment.o: shared/generator/AffectorEnvironment.cpp
 
 # target to build an object file
 shared/generator/AffectorEnvironment.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorEnvironment.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorEnvironment.cpp.o
 .PHONY : shared/generator/AffectorEnvironment.cpp.o
 
 shared/generator/AffectorEnvironment.i: shared/generator/AffectorEnvironment.cpp.i
@@ -647,7 +647,7 @@ shared/generator/AffectorEnvironment.i: shared/generator/AffectorEnvironment.cpp
 
 # target to preprocess a source file
 shared/generator/AffectorEnvironment.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorEnvironment.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorEnvironment.cpp.i
 .PHONY : shared/generator/AffectorEnvironment.cpp.i
 
 shared/generator/AffectorEnvironment.s: shared/generator/AffectorEnvironment.cpp.s
@@ -655,7 +655,7 @@ shared/generator/AffectorEnvironment.s: shared/generator/AffectorEnvironment.cpp
 
 # target to generate assembly for a file
 shared/generator/AffectorEnvironment.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorEnvironment.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorEnvironment.cpp.s
 .PHONY : shared/generator/AffectorEnvironment.cpp.s
 
 shared/generator/AffectorExclude.o: shared/generator/AffectorExclude.cpp.o
@@ -663,7 +663,7 @@ shared/generator/AffectorExclude.o: shared/generator/AffectorExclude.cpp.o
 
 # target to build an object file
 shared/generator/AffectorExclude.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorExclude.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorExclude.cpp.o
 .PHONY : shared/generator/AffectorExclude.cpp.o
 
 shared/generator/AffectorExclude.i: shared/generator/AffectorExclude.cpp.i
@@ -671,7 +671,7 @@ shared/generator/AffectorExclude.i: shared/generator/AffectorExclude.cpp.i
 
 # target to preprocess a source file
 shared/generator/AffectorExclude.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorExclude.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorExclude.cpp.i
 .PHONY : shared/generator/AffectorExclude.cpp.i
 
 shared/generator/AffectorExclude.s: shared/generator/AffectorExclude.cpp.s
@@ -679,7 +679,7 @@ shared/generator/AffectorExclude.s: shared/generator/AffectorExclude.cpp.s
 
 # target to generate assembly for a file
 shared/generator/AffectorExclude.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorExclude.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorExclude.cpp.s
 .PHONY : shared/generator/AffectorExclude.cpp.s
 
 shared/generator/AffectorFloraDynamic.o: shared/generator/AffectorFloraDynamic.cpp.o
@@ -687,7 +687,7 @@ shared/generator/AffectorFloraDynamic.o: shared/generator/AffectorFloraDynamic.c
 
 # target to build an object file
 shared/generator/AffectorFloraDynamic.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraDynamic.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraDynamic.cpp.o
 .PHONY : shared/generator/AffectorFloraDynamic.cpp.o
 
 shared/generator/AffectorFloraDynamic.i: shared/generator/AffectorFloraDynamic.cpp.i
@@ -695,7 +695,7 @@ shared/generator/AffectorFloraDynamic.i: shared/generator/AffectorFloraDynamic.c
 
 # target to preprocess a source file
 shared/generator/AffectorFloraDynamic.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraDynamic.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraDynamic.cpp.i
 .PHONY : shared/generator/AffectorFloraDynamic.cpp.i
 
 shared/generator/AffectorFloraDynamic.s: shared/generator/AffectorFloraDynamic.cpp.s
@@ -703,7 +703,7 @@ shared/generator/AffectorFloraDynamic.s: shared/generator/AffectorFloraDynamic.c
 
 # target to generate assembly for a file
 shared/generator/AffectorFloraDynamic.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraDynamic.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraDynamic.cpp.s
 .PHONY : shared/generator/AffectorFloraDynamic.cpp.s
 
 shared/generator/AffectorFloraStatic.o: shared/generator/AffectorFloraStatic.cpp.o
@@ -711,7 +711,7 @@ shared/generator/AffectorFloraStatic.o: shared/generator/AffectorFloraStatic.cpp
 
 # target to build an object file
 shared/generator/AffectorFloraStatic.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraStatic.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraStatic.cpp.o
 .PHONY : shared/generator/AffectorFloraStatic.cpp.o
 
 shared/generator/AffectorFloraStatic.i: shared/generator/AffectorFloraStatic.cpp.i
@@ -719,7 +719,7 @@ shared/generator/AffectorFloraStatic.i: shared/generator/AffectorFloraStatic.cpp
 
 # target to preprocess a source file
 shared/generator/AffectorFloraStatic.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraStatic.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraStatic.cpp.i
 .PHONY : shared/generator/AffectorFloraStatic.cpp.i
 
 shared/generator/AffectorFloraStatic.s: shared/generator/AffectorFloraStatic.cpp.s
@@ -727,7 +727,7 @@ shared/generator/AffectorFloraStatic.s: shared/generator/AffectorFloraStatic.cpp
 
 # target to generate assembly for a file
 shared/generator/AffectorFloraStatic.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraStatic.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorFloraStatic.cpp.s
 .PHONY : shared/generator/AffectorFloraStatic.cpp.s
 
 shared/generator/AffectorHeight.o: shared/generator/AffectorHeight.cpp.o
@@ -735,7 +735,7 @@ shared/generator/AffectorHeight.o: shared/generator/AffectorHeight.cpp.o
 
 # target to build an object file
 shared/generator/AffectorHeight.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorHeight.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorHeight.cpp.o
 .PHONY : shared/generator/AffectorHeight.cpp.o
 
 shared/generator/AffectorHeight.i: shared/generator/AffectorHeight.cpp.i
@@ -743,7 +743,7 @@ shared/generator/AffectorHeight.i: shared/generator/AffectorHeight.cpp.i
 
 # target to preprocess a source file
 shared/generator/AffectorHeight.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorHeight.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorHeight.cpp.i
 .PHONY : shared/generator/AffectorHeight.cpp.i
 
 shared/generator/AffectorHeight.s: shared/generator/AffectorHeight.cpp.s
@@ -751,7 +751,7 @@ shared/generator/AffectorHeight.s: shared/generator/AffectorHeight.cpp.s
 
 # target to generate assembly for a file
 shared/generator/AffectorHeight.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorHeight.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorHeight.cpp.s
 .PHONY : shared/generator/AffectorHeight.cpp.s
 
 shared/generator/AffectorPassable.o: shared/generator/AffectorPassable.cpp.o
@@ -759,7 +759,7 @@ shared/generator/AffectorPassable.o: shared/generator/AffectorPassable.cpp.o
 
 # target to build an object file
 shared/generator/AffectorPassable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorPassable.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorPassable.cpp.o
 .PHONY : shared/generator/AffectorPassable.cpp.o
 
 shared/generator/AffectorPassable.i: shared/generator/AffectorPassable.cpp.i
@@ -767,7 +767,7 @@ shared/generator/AffectorPassable.i: shared/generator/AffectorPassable.cpp.i
 
 # target to preprocess a source file
 shared/generator/AffectorPassable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorPassable.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorPassable.cpp.i
 .PHONY : shared/generator/AffectorPassable.cpp.i
 
 shared/generator/AffectorPassable.s: shared/generator/AffectorPassable.cpp.s
@@ -775,7 +775,7 @@ shared/generator/AffectorPassable.s: shared/generator/AffectorPassable.cpp.s
 
 # target to generate assembly for a file
 shared/generator/AffectorPassable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorPassable.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorPassable.cpp.s
 .PHONY : shared/generator/AffectorPassable.cpp.s
 
 shared/generator/AffectorRibbon.o: shared/generator/AffectorRibbon.cpp.o
@@ -783,7 +783,7 @@ shared/generator/AffectorRibbon.o: shared/generator/AffectorRibbon.cpp.o
 
 # target to build an object file
 shared/generator/AffectorRibbon.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRibbon.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRibbon.cpp.o
 .PHONY : shared/generator/AffectorRibbon.cpp.o
 
 shared/generator/AffectorRibbon.i: shared/generator/AffectorRibbon.cpp.i
@@ -791,7 +791,7 @@ shared/generator/AffectorRibbon.i: shared/generator/AffectorRibbon.cpp.i
 
 # target to preprocess a source file
 shared/generator/AffectorRibbon.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRibbon.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRibbon.cpp.i
 .PHONY : shared/generator/AffectorRibbon.cpp.i
 
 shared/generator/AffectorRibbon.s: shared/generator/AffectorRibbon.cpp.s
@@ -799,7 +799,7 @@ shared/generator/AffectorRibbon.s: shared/generator/AffectorRibbon.cpp.s
 
 # target to generate assembly for a file
 shared/generator/AffectorRibbon.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRibbon.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRibbon.cpp.s
 .PHONY : shared/generator/AffectorRibbon.cpp.s
 
 shared/generator/AffectorRiver.o: shared/generator/AffectorRiver.cpp.o
@@ -807,7 +807,7 @@ shared/generator/AffectorRiver.o: shared/generator/AffectorRiver.cpp.o
 
 # target to build an object file
 shared/generator/AffectorRiver.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRiver.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRiver.cpp.o
 .PHONY : shared/generator/AffectorRiver.cpp.o
 
 shared/generator/AffectorRiver.i: shared/generator/AffectorRiver.cpp.i
@@ -815,7 +815,7 @@ shared/generator/AffectorRiver.i: shared/generator/AffectorRiver.cpp.i
 
 # target to preprocess a source file
 shared/generator/AffectorRiver.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRiver.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRiver.cpp.i
 .PHONY : shared/generator/AffectorRiver.cpp.i
 
 shared/generator/AffectorRiver.s: shared/generator/AffectorRiver.cpp.s
@@ -823,7 +823,7 @@ shared/generator/AffectorRiver.s: shared/generator/AffectorRiver.cpp.s
 
 # target to generate assembly for a file
 shared/generator/AffectorRiver.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRiver.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRiver.cpp.s
 .PHONY : shared/generator/AffectorRiver.cpp.s
 
 shared/generator/AffectorRoad.o: shared/generator/AffectorRoad.cpp.o
@@ -831,7 +831,7 @@ shared/generator/AffectorRoad.o: shared/generator/AffectorRoad.cpp.o
 
 # target to build an object file
 shared/generator/AffectorRoad.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRoad.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRoad.cpp.o
 .PHONY : shared/generator/AffectorRoad.cpp.o
 
 shared/generator/AffectorRoad.i: shared/generator/AffectorRoad.cpp.i
@@ -839,7 +839,7 @@ shared/generator/AffectorRoad.i: shared/generator/AffectorRoad.cpp.i
 
 # target to preprocess a source file
 shared/generator/AffectorRoad.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRoad.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRoad.cpp.i
 .PHONY : shared/generator/AffectorRoad.cpp.i
 
 shared/generator/AffectorRoad.s: shared/generator/AffectorRoad.cpp.s
@@ -847,7 +847,7 @@ shared/generator/AffectorRoad.s: shared/generator/AffectorRoad.cpp.s
 
 # target to generate assembly for a file
 shared/generator/AffectorRoad.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRoad.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorRoad.cpp.s
 .PHONY : shared/generator/AffectorRoad.cpp.s
 
 shared/generator/AffectorShader.o: shared/generator/AffectorShader.cpp.o
@@ -855,7 +855,7 @@ shared/generator/AffectorShader.o: shared/generator/AffectorShader.cpp.o
 
 # target to build an object file
 shared/generator/AffectorShader.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorShader.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorShader.cpp.o
 .PHONY : shared/generator/AffectorShader.cpp.o
 
 shared/generator/AffectorShader.i: shared/generator/AffectorShader.cpp.i
@@ -863,7 +863,7 @@ shared/generator/AffectorShader.i: shared/generator/AffectorShader.cpp.i
 
 # target to preprocess a source file
 shared/generator/AffectorShader.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorShader.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorShader.cpp.i
 .PHONY : shared/generator/AffectorShader.cpp.i
 
 shared/generator/AffectorShader.s: shared/generator/AffectorShader.cpp.s
@@ -871,7 +871,7 @@ shared/generator/AffectorShader.s: shared/generator/AffectorShader.cpp.s
 
 # target to generate assembly for a file
 shared/generator/AffectorShader.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorShader.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/AffectorShader.cpp.s
 .PHONY : shared/generator/AffectorShader.cpp.s
 
 shared/generator/BitmapGroup.o: shared/generator/BitmapGroup.cpp.o
@@ -879,7 +879,7 @@ shared/generator/BitmapGroup.o: shared/generator/BitmapGroup.cpp.o
 
 # target to build an object file
 shared/generator/BitmapGroup.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/BitmapGroup.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/BitmapGroup.cpp.o
 .PHONY : shared/generator/BitmapGroup.cpp.o
 
 shared/generator/BitmapGroup.i: shared/generator/BitmapGroup.cpp.i
@@ -887,7 +887,7 @@ shared/generator/BitmapGroup.i: shared/generator/BitmapGroup.cpp.i
 
 # target to preprocess a source file
 shared/generator/BitmapGroup.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/BitmapGroup.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/BitmapGroup.cpp.i
 .PHONY : shared/generator/BitmapGroup.cpp.i
 
 shared/generator/BitmapGroup.s: shared/generator/BitmapGroup.cpp.s
@@ -895,7 +895,7 @@ shared/generator/BitmapGroup.s: shared/generator/BitmapGroup.cpp.s
 
 # target to generate assembly for a file
 shared/generator/BitmapGroup.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/BitmapGroup.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/BitmapGroup.cpp.s
 .PHONY : shared/generator/BitmapGroup.cpp.s
 
 shared/generator/Boundary.o: shared/generator/Boundary.cpp.o
@@ -903,7 +903,7 @@ shared/generator/Boundary.o: shared/generator/Boundary.cpp.o
 
 # target to build an object file
 shared/generator/Boundary.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Boundary.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Boundary.cpp.o
 .PHONY : shared/generator/Boundary.cpp.o
 
 shared/generator/Boundary.i: shared/generator/Boundary.cpp.i
@@ -911,7 +911,7 @@ shared/generator/Boundary.i: shared/generator/Boundary.cpp.i
 
 # target to preprocess a source file
 shared/generator/Boundary.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Boundary.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Boundary.cpp.i
 .PHONY : shared/generator/Boundary.cpp.i
 
 shared/generator/Boundary.s: shared/generator/Boundary.cpp.s
@@ -919,7 +919,7 @@ shared/generator/Boundary.s: shared/generator/Boundary.cpp.s
 
 # target to generate assembly for a file
 shared/generator/Boundary.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Boundary.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Boundary.cpp.s
 .PHONY : shared/generator/Boundary.cpp.s
 
 shared/generator/ColorRamp256.o: shared/generator/ColorRamp256.cpp.o
@@ -927,7 +927,7 @@ shared/generator/ColorRamp256.o: shared/generator/ColorRamp256.cpp.o
 
 # target to build an object file
 shared/generator/ColorRamp256.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ColorRamp256.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ColorRamp256.cpp.o
 .PHONY : shared/generator/ColorRamp256.cpp.o
 
 shared/generator/ColorRamp256.i: shared/generator/ColorRamp256.cpp.i
@@ -935,7 +935,7 @@ shared/generator/ColorRamp256.i: shared/generator/ColorRamp256.cpp.i
 
 # target to preprocess a source file
 shared/generator/ColorRamp256.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ColorRamp256.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ColorRamp256.cpp.i
 .PHONY : shared/generator/ColorRamp256.cpp.i
 
 shared/generator/ColorRamp256.s: shared/generator/ColorRamp256.cpp.s
@@ -943,7 +943,7 @@ shared/generator/ColorRamp256.s: shared/generator/ColorRamp256.cpp.s
 
 # target to generate assembly for a file
 shared/generator/ColorRamp256.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ColorRamp256.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ColorRamp256.cpp.s
 .PHONY : shared/generator/ColorRamp256.cpp.s
 
 shared/generator/CoordinateHash.o: shared/generator/CoordinateHash.cpp.o
@@ -951,7 +951,7 @@ shared/generator/CoordinateHash.o: shared/generator/CoordinateHash.cpp.o
 
 # target to build an object file
 shared/generator/CoordinateHash.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/CoordinateHash.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/CoordinateHash.cpp.o
 .PHONY : shared/generator/CoordinateHash.cpp.o
 
 shared/generator/CoordinateHash.i: shared/generator/CoordinateHash.cpp.i
@@ -959,7 +959,7 @@ shared/generator/CoordinateHash.i: shared/generator/CoordinateHash.cpp.i
 
 # target to preprocess a source file
 shared/generator/CoordinateHash.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/CoordinateHash.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/CoordinateHash.cpp.i
 .PHONY : shared/generator/CoordinateHash.cpp.i
 
 shared/generator/CoordinateHash.s: shared/generator/CoordinateHash.cpp.s
@@ -967,7 +967,7 @@ shared/generator/CoordinateHash.s: shared/generator/CoordinateHash.cpp.s
 
 # target to generate assembly for a file
 shared/generator/CoordinateHash.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/CoordinateHash.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/CoordinateHash.cpp.s
 .PHONY : shared/generator/CoordinateHash.cpp.s
 
 shared/generator/EnvironmentGroup.o: shared/generator/EnvironmentGroup.cpp.o
@@ -975,7 +975,7 @@ shared/generator/EnvironmentGroup.o: shared/generator/EnvironmentGroup.cpp.o
 
 # target to build an object file
 shared/generator/EnvironmentGroup.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/EnvironmentGroup.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/EnvironmentGroup.cpp.o
 .PHONY : shared/generator/EnvironmentGroup.cpp.o
 
 shared/generator/EnvironmentGroup.i: shared/generator/EnvironmentGroup.cpp.i
@@ -983,7 +983,7 @@ shared/generator/EnvironmentGroup.i: shared/generator/EnvironmentGroup.cpp.i
 
 # target to preprocess a source file
 shared/generator/EnvironmentGroup.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/EnvironmentGroup.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/EnvironmentGroup.cpp.i
 .PHONY : shared/generator/EnvironmentGroup.cpp.i
 
 shared/generator/EnvironmentGroup.s: shared/generator/EnvironmentGroup.cpp.s
@@ -991,7 +991,7 @@ shared/generator/EnvironmentGroup.s: shared/generator/EnvironmentGroup.cpp.s
 
 # target to generate assembly for a file
 shared/generator/EnvironmentGroup.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/EnvironmentGroup.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/EnvironmentGroup.cpp.s
 .PHONY : shared/generator/EnvironmentGroup.cpp.s
 
 shared/generator/Filter.o: shared/generator/Filter.cpp.o
@@ -999,7 +999,7 @@ shared/generator/Filter.o: shared/generator/Filter.cpp.o
 
 # target to build an object file
 shared/generator/Filter.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Filter.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Filter.cpp.o
 .PHONY : shared/generator/Filter.cpp.o
 
 shared/generator/Filter.i: shared/generator/Filter.cpp.i
@@ -1007,7 +1007,7 @@ shared/generator/Filter.i: shared/generator/Filter.cpp.i
 
 # target to preprocess a source file
 shared/generator/Filter.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Filter.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Filter.cpp.i
 .PHONY : shared/generator/Filter.cpp.i
 
 shared/generator/Filter.s: shared/generator/Filter.cpp.s
@@ -1015,7 +1015,7 @@ shared/generator/Filter.s: shared/generator/Filter.cpp.s
 
 # target to generate assembly for a file
 shared/generator/Filter.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Filter.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/Filter.cpp.s
 .PHONY : shared/generator/Filter.cpp.s
 
 shared/generator/FloraGroup.o: shared/generator/FloraGroup.cpp.o
@@ -1023,7 +1023,7 @@ shared/generator/FloraGroup.o: shared/generator/FloraGroup.cpp.o
 
 # target to build an object file
 shared/generator/FloraGroup.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FloraGroup.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FloraGroup.cpp.o
 .PHONY : shared/generator/FloraGroup.cpp.o
 
 shared/generator/FloraGroup.i: shared/generator/FloraGroup.cpp.i
@@ -1031,7 +1031,7 @@ shared/generator/FloraGroup.i: shared/generator/FloraGroup.cpp.i
 
 # target to preprocess a source file
 shared/generator/FloraGroup.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FloraGroup.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FloraGroup.cpp.i
 .PHONY : shared/generator/FloraGroup.cpp.i
 
 shared/generator/FloraGroup.s: shared/generator/FloraGroup.cpp.s
@@ -1039,7 +1039,7 @@ shared/generator/FloraGroup.s: shared/generator/FloraGroup.cpp.s
 
 # target to generate assembly for a file
 shared/generator/FloraGroup.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FloraGroup.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FloraGroup.cpp.s
 .PHONY : shared/generator/FloraGroup.cpp.s
 
 shared/generator/FractalGroup.o: shared/generator/FractalGroup.cpp.o
@@ -1047,7 +1047,7 @@ shared/generator/FractalGroup.o: shared/generator/FractalGroup.cpp.o
 
 # target to build an object file
 shared/generator/FractalGroup.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FractalGroup.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FractalGroup.cpp.o
 .PHONY : shared/generator/FractalGroup.cpp.o
 
 shared/generator/FractalGroup.i: shared/generator/FractalGroup.cpp.i
@@ -1055,7 +1055,7 @@ shared/generator/FractalGroup.i: shared/generator/FractalGroup.cpp.i
 
 # target to preprocess a source file
 shared/generator/FractalGroup.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FractalGroup.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FractalGroup.cpp.i
 .PHONY : shared/generator/FractalGroup.cpp.i
 
 shared/generator/FractalGroup.s: shared/generator/FractalGroup.cpp.s
@@ -1063,7 +1063,7 @@ shared/generator/FractalGroup.s: shared/generator/FractalGroup.cpp.s
 
 # target to generate assembly for a file
 shared/generator/FractalGroup.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FractalGroup.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/FractalGroup.cpp.s
 .PHONY : shared/generator/FractalGroup.cpp.s
 
 shared/generator/HeightData.o: shared/generator/HeightData.cpp.o
@@ -1071,7 +1071,7 @@ shared/generator/HeightData.o: shared/generator/HeightData.cpp.o
 
 # target to build an object file
 shared/generator/HeightData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/HeightData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/HeightData.cpp.o
 .PHONY : shared/generator/HeightData.cpp.o
 
 shared/generator/HeightData.i: shared/generator/HeightData.cpp.i
@@ -1079,7 +1079,7 @@ shared/generator/HeightData.i: shared/generator/HeightData.cpp.i
 
 # target to preprocess a source file
 shared/generator/HeightData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/HeightData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/HeightData.cpp.i
 .PHONY : shared/generator/HeightData.cpp.i
 
 shared/generator/HeightData.s: shared/generator/HeightData.cpp.s
@@ -1087,7 +1087,7 @@ shared/generator/HeightData.s: shared/generator/HeightData.cpp.s
 
 # target to generate assembly for a file
 shared/generator/HeightData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/HeightData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/HeightData.cpp.s
 .PHONY : shared/generator/HeightData.cpp.s
 
 shared/generator/RadialGroup.o: shared/generator/RadialGroup.cpp.o
@@ -1095,7 +1095,7 @@ shared/generator/RadialGroup.o: shared/generator/RadialGroup.cpp.o
 
 # target to build an object file
 shared/generator/RadialGroup.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/RadialGroup.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/RadialGroup.cpp.o
 .PHONY : shared/generator/RadialGroup.cpp.o
 
 shared/generator/RadialGroup.i: shared/generator/RadialGroup.cpp.i
@@ -1103,7 +1103,7 @@ shared/generator/RadialGroup.i: shared/generator/RadialGroup.cpp.i
 
 # target to preprocess a source file
 shared/generator/RadialGroup.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/RadialGroup.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/RadialGroup.cpp.i
 .PHONY : shared/generator/RadialGroup.cpp.i
 
 shared/generator/RadialGroup.s: shared/generator/RadialGroup.cpp.s
@@ -1111,7 +1111,7 @@ shared/generator/RadialGroup.s: shared/generator/RadialGroup.cpp.s
 
 # target to generate assembly for a file
 shared/generator/RadialGroup.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/RadialGroup.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/RadialGroup.cpp.s
 .PHONY : shared/generator/RadialGroup.cpp.s
 
 shared/generator/ShaderGroup.o: shared/generator/ShaderGroup.cpp.o
@@ -1119,7 +1119,7 @@ shared/generator/ShaderGroup.o: shared/generator/ShaderGroup.cpp.o
 
 # target to build an object file
 shared/generator/ShaderGroup.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ShaderGroup.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ShaderGroup.cpp.o
 .PHONY : shared/generator/ShaderGroup.cpp.o
 
 shared/generator/ShaderGroup.i: shared/generator/ShaderGroup.cpp.i
@@ -1127,7 +1127,7 @@ shared/generator/ShaderGroup.i: shared/generator/ShaderGroup.cpp.i
 
 # target to preprocess a source file
 shared/generator/ShaderGroup.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ShaderGroup.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ShaderGroup.cpp.i
 .PHONY : shared/generator/ShaderGroup.cpp.i
 
 shared/generator/ShaderGroup.s: shared/generator/ShaderGroup.cpp.s
@@ -1135,7 +1135,7 @@ shared/generator/ShaderGroup.s: shared/generator/ShaderGroup.cpp.s
 
 # target to generate assembly for a file
 shared/generator/ShaderGroup.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ShaderGroup.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/ShaderGroup.cpp.s
 .PHONY : shared/generator/ShaderGroup.cpp.s
 
 shared/generator/TerrainGenerator.o: shared/generator/TerrainGenerator.cpp.o
@@ -1143,7 +1143,7 @@ shared/generator/TerrainGenerator.o: shared/generator/TerrainGenerator.cpp.o
 
 # target to build an object file
 shared/generator/TerrainGenerator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGenerator.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGenerator.cpp.o
 .PHONY : shared/generator/TerrainGenerator.cpp.o
 
 shared/generator/TerrainGenerator.i: shared/generator/TerrainGenerator.cpp.i
@@ -1151,7 +1151,7 @@ shared/generator/TerrainGenerator.i: shared/generator/TerrainGenerator.cpp.i
 
 # target to preprocess a source file
 shared/generator/TerrainGenerator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGenerator.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGenerator.cpp.i
 .PHONY : shared/generator/TerrainGenerator.cpp.i
 
 shared/generator/TerrainGenerator.s: shared/generator/TerrainGenerator.cpp.s
@@ -1159,7 +1159,7 @@ shared/generator/TerrainGenerator.s: shared/generator/TerrainGenerator.cpp.s
 
 # target to generate assembly for a file
 shared/generator/TerrainGenerator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGenerator.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGenerator.cpp.s
 .PHONY : shared/generator/TerrainGenerator.cpp.s
 
 shared/generator/TerrainGeneratorLoader.o: shared/generator/TerrainGeneratorLoader.cpp.o
@@ -1167,7 +1167,7 @@ shared/generator/TerrainGeneratorLoader.o: shared/generator/TerrainGeneratorLoad
 
 # target to build an object file
 shared/generator/TerrainGeneratorLoader.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGeneratorLoader.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGeneratorLoader.cpp.o
 .PHONY : shared/generator/TerrainGeneratorLoader.cpp.o
 
 shared/generator/TerrainGeneratorLoader.i: shared/generator/TerrainGeneratorLoader.cpp.i
@@ -1175,7 +1175,7 @@ shared/generator/TerrainGeneratorLoader.i: shared/generator/TerrainGeneratorLoad
 
 # target to preprocess a source file
 shared/generator/TerrainGeneratorLoader.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGeneratorLoader.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGeneratorLoader.cpp.i
 .PHONY : shared/generator/TerrainGeneratorLoader.cpp.i
 
 shared/generator/TerrainGeneratorLoader.s: shared/generator/TerrainGeneratorLoader.cpp.s
@@ -1183,7 +1183,7 @@ shared/generator/TerrainGeneratorLoader.s: shared/generator/TerrainGeneratorLoad
 
 # target to generate assembly for a file
 shared/generator/TerrainGeneratorLoader.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGeneratorLoader.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainGeneratorLoader.cpp.s
 .PHONY : shared/generator/TerrainGeneratorLoader.cpp.s
 
 shared/generator/TerrainModificationHelper.o: shared/generator/TerrainModificationHelper.cpp.o
@@ -1191,7 +1191,7 @@ shared/generator/TerrainModificationHelper.o: shared/generator/TerrainModificati
 
 # target to build an object file
 shared/generator/TerrainModificationHelper.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainModificationHelper.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainModificationHelper.cpp.o
 .PHONY : shared/generator/TerrainModificationHelper.cpp.o
 
 shared/generator/TerrainModificationHelper.i: shared/generator/TerrainModificationHelper.cpp.i
@@ -1199,7 +1199,7 @@ shared/generator/TerrainModificationHelper.i: shared/generator/TerrainModificati
 
 # target to preprocess a source file
 shared/generator/TerrainModificationHelper.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainModificationHelper.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainModificationHelper.cpp.i
 .PHONY : shared/generator/TerrainModificationHelper.cpp.i
 
 shared/generator/TerrainModificationHelper.s: shared/generator/TerrainModificationHelper.cpp.s
@@ -1207,7 +1207,7 @@ shared/generator/TerrainModificationHelper.s: shared/generator/TerrainModificati
 
 # target to generate assembly for a file
 shared/generator/TerrainModificationHelper.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainModificationHelper.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/generator/TerrainModificationHelper.cpp.s
 .PHONY : shared/generator/TerrainModificationHelper.cpp.s
 
 shared/object/TerrainObject.o: shared/object/TerrainObject.cpp.o
@@ -1215,7 +1215,7 @@ shared/object/TerrainObject.o: shared/object/TerrainObject.cpp.o
 
 # target to build an object file
 shared/object/TerrainObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainObject.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainObject.cpp.o
 .PHONY : shared/object/TerrainObject.cpp.o
 
 shared/object/TerrainObject.i: shared/object/TerrainObject.cpp.i
@@ -1223,7 +1223,7 @@ shared/object/TerrainObject.i: shared/object/TerrainObject.cpp.i
 
 # target to preprocess a source file
 shared/object/TerrainObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainObject.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainObject.cpp.i
 .PHONY : shared/object/TerrainObject.cpp.i
 
 shared/object/TerrainObject.s: shared/object/TerrainObject.cpp.s
@@ -1231,7 +1231,7 @@ shared/object/TerrainObject.s: shared/object/TerrainObject.cpp.s
 
 # target to generate assembly for a file
 shared/object/TerrainObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainObject.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainObject.cpp.s
 .PHONY : shared/object/TerrainObject.cpp.s
 
 shared/object/TerrainReferenceObjectNotification.o: shared/object/TerrainReferenceObjectNotification.cpp.o
@@ -1239,7 +1239,7 @@ shared/object/TerrainReferenceObjectNotification.o: shared/object/TerrainReferen
 
 # target to build an object file
 shared/object/TerrainReferenceObjectNotification.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainReferenceObjectNotification.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainReferenceObjectNotification.cpp.o
 .PHONY : shared/object/TerrainReferenceObjectNotification.cpp.o
 
 shared/object/TerrainReferenceObjectNotification.i: shared/object/TerrainReferenceObjectNotification.cpp.i
@@ -1247,7 +1247,7 @@ shared/object/TerrainReferenceObjectNotification.i: shared/object/TerrainReferen
 
 # target to preprocess a source file
 shared/object/TerrainReferenceObjectNotification.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainReferenceObjectNotification.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainReferenceObjectNotification.cpp.i
 .PHONY : shared/object/TerrainReferenceObjectNotification.cpp.i
 
 shared/object/TerrainReferenceObjectNotification.s: shared/object/TerrainReferenceObjectNotification.cpp.s
@@ -1255,7 +1255,7 @@ shared/object/TerrainReferenceObjectNotification.s: shared/object/TerrainReferen
 
 # target to generate assembly for a file
 shared/object/TerrainReferenceObjectNotification.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainReferenceObjectNotification.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/build.make engine/shared/library/sharedTerrain/src/CMakeFiles/sharedTerrain.dir/shared/object/TerrainReferenceObjectNotification.cpp.s
 .PHONY : shared/object/TerrainReferenceObjectNotification.cpp.s
 
 # Help Target
@@ -1419,6 +1419,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

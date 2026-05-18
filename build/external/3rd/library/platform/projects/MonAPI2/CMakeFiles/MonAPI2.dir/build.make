@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 # Include any dependencies generated for this target.
 include external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/depend.make
@@ -70,32 +70,32 @@ include external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/pr
 include external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/flags.make
 
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o: external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/flags.make
-external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp
+external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o: /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o: external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o -MF CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o.d -o CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o"
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o -MF CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o.d -o CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o -c /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp
 
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp > CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.i
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp > CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.i
 
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp -o CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.s
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp -o CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.s
 
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o: external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/flags.make
-external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp
+external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o: /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o: external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o -MF CMakeFiles/MonAPI2.dir/MonitorData.cpp.o.d -o CMakeFiles/MonAPI2.dir/MonitorData.cpp.o -c /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o"
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o -MF CMakeFiles/MonAPI2.dir/MonitorData.cpp.o.d -o CMakeFiles/MonAPI2.dir/MonitorData.cpp.o -c /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp
 
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MonAPI2.dir/MonitorData.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp > CMakeFiles/MonAPI2.dir/MonitorData.cpp.i
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp > CMakeFiles/MonAPI2.dir/MonitorData.cpp.i
 
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MonAPI2.dir/MonitorData.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp -o CMakeFiles/MonAPI2.dir/MonitorData.cpp.s
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp -o CMakeFiles/MonAPI2.dir/MonitorData.cpp.s
 
 # Object files for target MonAPI2
 MonAPI2_OBJECTS = \
@@ -109,19 +109,19 @@ external/3rd/library/platform/projects/MonAPI2/libMonAPI2.a: external/3rd/librar
 external/3rd/library/platform/projects/MonAPI2/libMonAPI2.a: external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o
 external/3rd/library/platform/projects/MonAPI2/libMonAPI2.a: external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make
 external/3rd/library/platform/projects/MonAPI2/libMonAPI2.a: external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libMonAPI2.a"
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && $(CMAKE_COMMAND) -P CMakeFiles/MonAPI2.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MonAPI2.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libMonAPI2.a"
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && $(CMAKE_COMMAND) -P CMakeFiles/MonAPI2.dir/cmake_clean_target.cmake
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MonAPI2.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build: external/3rd/library/platform/projects/MonAPI2/libMonAPI2.a
 .PHONY : external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build
 
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 && $(CMAKE_COMMAND) -P CMakeFiles/MonAPI2.dir/cmake_clean.cmake
+	cd /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 && $(CMAKE_COMMAND) -P CMakeFiles/MonAPI2.dir/cmake_clean.cmake
 .PHONY : external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/clean
 
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2 /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2 /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2 /home/swg1/swg-main/build /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2 /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/depend
 

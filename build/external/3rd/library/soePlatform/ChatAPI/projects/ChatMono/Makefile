@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/3rd/library/soePlatform/ChatAPI/projects/ChatMono//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/external/3rd/library/soePlatform/ChatAPI/projects/ChatMono//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/rule
 .PHONY : external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ChatMono: external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/
 
 # fast build rule for target.
 ChatMono/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build
 .PHONY : ChatMono/fast
 
 __/ChatAPI/AvatarIteratorCore.o: __/ChatAPI/AvatarIteratorCore.cpp.o
@@ -135,7 +135,7 @@ __/ChatAPI/AvatarIteratorCore.o: __/ChatAPI/AvatarIteratorCore.cpp.o
 
 # target to build an object file
 __/ChatAPI/AvatarIteratorCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarIteratorCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarIteratorCore.cpp.o
 .PHONY : __/ChatAPI/AvatarIteratorCore.cpp.o
 
 __/ChatAPI/AvatarIteratorCore.i: __/ChatAPI/AvatarIteratorCore.cpp.i
@@ -143,7 +143,7 @@ __/ChatAPI/AvatarIteratorCore.i: __/ChatAPI/AvatarIteratorCore.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/AvatarIteratorCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarIteratorCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarIteratorCore.cpp.i
 .PHONY : __/ChatAPI/AvatarIteratorCore.cpp.i
 
 __/ChatAPI/AvatarIteratorCore.s: __/ChatAPI/AvatarIteratorCore.cpp.s
@@ -151,7 +151,7 @@ __/ChatAPI/AvatarIteratorCore.s: __/ChatAPI/AvatarIteratorCore.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/AvatarIteratorCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarIteratorCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarIteratorCore.cpp.s
 .PHONY : __/ChatAPI/AvatarIteratorCore.cpp.s
 
 __/ChatAPI/AvatarListItemCore.o: __/ChatAPI/AvatarListItemCore.cpp.o
@@ -159,7 +159,7 @@ __/ChatAPI/AvatarListItemCore.o: __/ChatAPI/AvatarListItemCore.cpp.o
 
 # target to build an object file
 __/ChatAPI/AvatarListItemCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarListItemCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarListItemCore.cpp.o
 .PHONY : __/ChatAPI/AvatarListItemCore.cpp.o
 
 __/ChatAPI/AvatarListItemCore.i: __/ChatAPI/AvatarListItemCore.cpp.i
@@ -167,7 +167,7 @@ __/ChatAPI/AvatarListItemCore.i: __/ChatAPI/AvatarListItemCore.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/AvatarListItemCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarListItemCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarListItemCore.cpp.i
 .PHONY : __/ChatAPI/AvatarListItemCore.cpp.i
 
 __/ChatAPI/AvatarListItemCore.s: __/ChatAPI/AvatarListItemCore.cpp.s
@@ -175,7 +175,7 @@ __/ChatAPI/AvatarListItemCore.s: __/ChatAPI/AvatarListItemCore.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/AvatarListItemCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarListItemCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/AvatarListItemCore.cpp.s
 .PHONY : __/ChatAPI/AvatarListItemCore.cpp.s
 
 __/ChatAPI/ChatAPI.o: __/ChatAPI/ChatAPI.cpp.o
@@ -183,7 +183,7 @@ __/ChatAPI/ChatAPI.o: __/ChatAPI/ChatAPI.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatAPI.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPI.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPI.cpp.o
 .PHONY : __/ChatAPI/ChatAPI.cpp.o
 
 __/ChatAPI/ChatAPI.i: __/ChatAPI/ChatAPI.cpp.i
@@ -191,7 +191,7 @@ __/ChatAPI/ChatAPI.i: __/ChatAPI/ChatAPI.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatAPI.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPI.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPI.cpp.i
 .PHONY : __/ChatAPI/ChatAPI.cpp.i
 
 __/ChatAPI/ChatAPI.s: __/ChatAPI/ChatAPI.cpp.s
@@ -199,7 +199,7 @@ __/ChatAPI/ChatAPI.s: __/ChatAPI/ChatAPI.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatAPI.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPI.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPI.cpp.s
 .PHONY : __/ChatAPI/ChatAPI.cpp.s
 
 __/ChatAPI/ChatAPICore.o: __/ChatAPI/ChatAPICore.cpp.o
@@ -207,7 +207,7 @@ __/ChatAPI/ChatAPICore.o: __/ChatAPI/ChatAPICore.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatAPICore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPICore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPICore.cpp.o
 .PHONY : __/ChatAPI/ChatAPICore.cpp.o
 
 __/ChatAPI/ChatAPICore.i: __/ChatAPI/ChatAPICore.cpp.i
@@ -215,7 +215,7 @@ __/ChatAPI/ChatAPICore.i: __/ChatAPI/ChatAPICore.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatAPICore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPICore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPICore.cpp.i
 .PHONY : __/ChatAPI/ChatAPICore.cpp.i
 
 __/ChatAPI/ChatAPICore.s: __/ChatAPI/ChatAPICore.cpp.s
@@ -223,7 +223,7 @@ __/ChatAPI/ChatAPICore.s: __/ChatAPI/ChatAPICore.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatAPICore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPICore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAPICore.cpp.s
 .PHONY : __/ChatAPI/ChatAPICore.cpp.s
 
 __/ChatAPI/ChatAvatar.o: __/ChatAPI/ChatAvatar.cpp.o
@@ -231,7 +231,7 @@ __/ChatAPI/ChatAvatar.o: __/ChatAPI/ChatAvatar.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatAvatar.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatar.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatar.cpp.o
 .PHONY : __/ChatAPI/ChatAvatar.cpp.o
 
 __/ChatAPI/ChatAvatar.i: __/ChatAPI/ChatAvatar.cpp.i
@@ -239,7 +239,7 @@ __/ChatAPI/ChatAvatar.i: __/ChatAPI/ChatAvatar.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatAvatar.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatar.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatar.cpp.i
 .PHONY : __/ChatAPI/ChatAvatar.cpp.i
 
 __/ChatAPI/ChatAvatar.s: __/ChatAPI/ChatAvatar.cpp.s
@@ -247,7 +247,7 @@ __/ChatAPI/ChatAvatar.s: __/ChatAPI/ChatAvatar.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatAvatar.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatar.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatar.cpp.s
 .PHONY : __/ChatAPI/ChatAvatar.cpp.s
 
 __/ChatAPI/ChatAvatarCore.o: __/ChatAPI/ChatAvatarCore.cpp.o
@@ -255,7 +255,7 @@ __/ChatAPI/ChatAvatarCore.o: __/ChatAPI/ChatAvatarCore.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatAvatarCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatarCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatarCore.cpp.o
 .PHONY : __/ChatAPI/ChatAvatarCore.cpp.o
 
 __/ChatAPI/ChatAvatarCore.i: __/ChatAPI/ChatAvatarCore.cpp.i
@@ -263,7 +263,7 @@ __/ChatAPI/ChatAvatarCore.i: __/ChatAPI/ChatAvatarCore.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatAvatarCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatarCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatarCore.cpp.i
 .PHONY : __/ChatAPI/ChatAvatarCore.cpp.i
 
 __/ChatAPI/ChatAvatarCore.s: __/ChatAPI/ChatAvatarCore.cpp.s
@@ -271,7 +271,7 @@ __/ChatAPI/ChatAvatarCore.s: __/ChatAPI/ChatAvatarCore.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatAvatarCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatarCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatAvatarCore.cpp.s
 .PHONY : __/ChatAPI/ChatAvatarCore.cpp.s
 
 __/ChatAPI/ChatEnum.o: __/ChatAPI/ChatEnum.cpp.o
@@ -279,7 +279,7 @@ __/ChatAPI/ChatEnum.o: __/ChatAPI/ChatEnum.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatEnum.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatEnum.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatEnum.cpp.o
 .PHONY : __/ChatAPI/ChatEnum.cpp.o
 
 __/ChatAPI/ChatEnum.i: __/ChatAPI/ChatEnum.cpp.i
@@ -287,7 +287,7 @@ __/ChatAPI/ChatEnum.i: __/ChatAPI/ChatEnum.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatEnum.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatEnum.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatEnum.cpp.i
 .PHONY : __/ChatAPI/ChatEnum.cpp.i
 
 __/ChatAPI/ChatEnum.s: __/ChatAPI/ChatEnum.cpp.s
@@ -295,7 +295,7 @@ __/ChatAPI/ChatEnum.s: __/ChatAPI/ChatEnum.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatEnum.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatEnum.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatEnum.cpp.s
 .PHONY : __/ChatAPI/ChatEnum.cpp.s
 
 __/ChatAPI/ChatFriendStatusCore.o: __/ChatAPI/ChatFriendStatusCore.cpp.o
@@ -303,7 +303,7 @@ __/ChatAPI/ChatFriendStatusCore.o: __/ChatAPI/ChatFriendStatusCore.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatFriendStatusCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatFriendStatusCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatFriendStatusCore.cpp.o
 .PHONY : __/ChatAPI/ChatFriendStatusCore.cpp.o
 
 __/ChatAPI/ChatFriendStatusCore.i: __/ChatAPI/ChatFriendStatusCore.cpp.i
@@ -311,7 +311,7 @@ __/ChatAPI/ChatFriendStatusCore.i: __/ChatAPI/ChatFriendStatusCore.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatFriendStatusCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatFriendStatusCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatFriendStatusCore.cpp.i
 .PHONY : __/ChatAPI/ChatFriendStatusCore.cpp.i
 
 __/ChatAPI/ChatFriendStatusCore.s: __/ChatAPI/ChatFriendStatusCore.cpp.s
@@ -319,7 +319,7 @@ __/ChatAPI/ChatFriendStatusCore.s: __/ChatAPI/ChatFriendStatusCore.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatFriendStatusCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatFriendStatusCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatFriendStatusCore.cpp.s
 .PHONY : __/ChatAPI/ChatFriendStatusCore.cpp.s
 
 __/ChatAPI/ChatIgnoreStatusCore.o: __/ChatAPI/ChatIgnoreStatusCore.cpp.o
@@ -327,7 +327,7 @@ __/ChatAPI/ChatIgnoreStatusCore.o: __/ChatAPI/ChatIgnoreStatusCore.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatIgnoreStatusCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatIgnoreStatusCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatIgnoreStatusCore.cpp.o
 .PHONY : __/ChatAPI/ChatIgnoreStatusCore.cpp.o
 
 __/ChatAPI/ChatIgnoreStatusCore.i: __/ChatAPI/ChatIgnoreStatusCore.cpp.i
@@ -335,7 +335,7 @@ __/ChatAPI/ChatIgnoreStatusCore.i: __/ChatAPI/ChatIgnoreStatusCore.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatIgnoreStatusCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatIgnoreStatusCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatIgnoreStatusCore.cpp.i
 .PHONY : __/ChatAPI/ChatIgnoreStatusCore.cpp.i
 
 __/ChatAPI/ChatIgnoreStatusCore.s: __/ChatAPI/ChatIgnoreStatusCore.cpp.s
@@ -343,7 +343,7 @@ __/ChatAPI/ChatIgnoreStatusCore.s: __/ChatAPI/ChatIgnoreStatusCore.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatIgnoreStatusCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatIgnoreStatusCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatIgnoreStatusCore.cpp.s
 .PHONY : __/ChatAPI/ChatIgnoreStatusCore.cpp.s
 
 __/ChatAPI/ChatRoom.o: __/ChatAPI/ChatRoom.cpp.o
@@ -351,7 +351,7 @@ __/ChatAPI/ChatRoom.o: __/ChatAPI/ChatRoom.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatRoom.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoom.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoom.cpp.o
 .PHONY : __/ChatAPI/ChatRoom.cpp.o
 
 __/ChatAPI/ChatRoom.i: __/ChatAPI/ChatRoom.cpp.i
@@ -359,7 +359,7 @@ __/ChatAPI/ChatRoom.i: __/ChatAPI/ChatRoom.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatRoom.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoom.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoom.cpp.i
 .PHONY : __/ChatAPI/ChatRoom.cpp.i
 
 __/ChatAPI/ChatRoom.s: __/ChatAPI/ChatRoom.cpp.s
@@ -367,7 +367,7 @@ __/ChatAPI/ChatRoom.s: __/ChatAPI/ChatRoom.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatRoom.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoom.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoom.cpp.s
 .PHONY : __/ChatAPI/ChatRoom.cpp.s
 
 __/ChatAPI/ChatRoomCore.o: __/ChatAPI/ChatRoomCore.cpp.o
@@ -375,7 +375,7 @@ __/ChatAPI/ChatRoomCore.o: __/ChatAPI/ChatRoomCore.cpp.o
 
 # target to build an object file
 __/ChatAPI/ChatRoomCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoomCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoomCore.cpp.o
 .PHONY : __/ChatAPI/ChatRoomCore.cpp.o
 
 __/ChatAPI/ChatRoomCore.i: __/ChatAPI/ChatRoomCore.cpp.i
@@ -383,7 +383,7 @@ __/ChatAPI/ChatRoomCore.i: __/ChatAPI/ChatRoomCore.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/ChatRoomCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoomCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoomCore.cpp.i
 .PHONY : __/ChatAPI/ChatRoomCore.cpp.i
 
 __/ChatAPI/ChatRoomCore.s: __/ChatAPI/ChatRoomCore.cpp.s
@@ -391,7 +391,7 @@ __/ChatAPI/ChatRoomCore.s: __/ChatAPI/ChatRoomCore.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/ChatRoomCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoomCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/ChatRoomCore.cpp.s
 .PHONY : __/ChatAPI/ChatRoomCore.cpp.s
 
 __/ChatAPI/Message.o: __/ChatAPI/Message.cpp.o
@@ -399,7 +399,7 @@ __/ChatAPI/Message.o: __/ChatAPI/Message.cpp.o
 
 # target to build an object file
 __/ChatAPI/Message.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Message.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Message.cpp.o
 .PHONY : __/ChatAPI/Message.cpp.o
 
 __/ChatAPI/Message.i: __/ChatAPI/Message.cpp.i
@@ -407,7 +407,7 @@ __/ChatAPI/Message.i: __/ChatAPI/Message.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/Message.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Message.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Message.cpp.i
 .PHONY : __/ChatAPI/Message.cpp.i
 
 __/ChatAPI/Message.s: __/ChatAPI/Message.cpp.s
@@ -415,7 +415,7 @@ __/ChatAPI/Message.s: __/ChatAPI/Message.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/Message.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Message.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Message.cpp.s
 .PHONY : __/ChatAPI/Message.cpp.s
 
 __/ChatAPI/PersistentMessage.o: __/ChatAPI/PersistentMessage.cpp.o
@@ -423,7 +423,7 @@ __/ChatAPI/PersistentMessage.o: __/ChatAPI/PersistentMessage.cpp.o
 
 # target to build an object file
 __/ChatAPI/PersistentMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/PersistentMessage.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/PersistentMessage.cpp.o
 .PHONY : __/ChatAPI/PersistentMessage.cpp.o
 
 __/ChatAPI/PersistentMessage.i: __/ChatAPI/PersistentMessage.cpp.i
@@ -431,7 +431,7 @@ __/ChatAPI/PersistentMessage.i: __/ChatAPI/PersistentMessage.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/PersistentMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/PersistentMessage.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/PersistentMessage.cpp.i
 .PHONY : __/ChatAPI/PersistentMessage.cpp.i
 
 __/ChatAPI/PersistentMessage.s: __/ChatAPI/PersistentMessage.cpp.s
@@ -439,7 +439,7 @@ __/ChatAPI/PersistentMessage.s: __/ChatAPI/PersistentMessage.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/PersistentMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/PersistentMessage.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/PersistentMessage.cpp.s
 .PHONY : __/ChatAPI/PersistentMessage.cpp.s
 
 __/ChatAPI/Request.o: __/ChatAPI/Request.cpp.o
@@ -447,7 +447,7 @@ __/ChatAPI/Request.o: __/ChatAPI/Request.cpp.o
 
 # target to build an object file
 __/ChatAPI/Request.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Request.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Request.cpp.o
 .PHONY : __/ChatAPI/Request.cpp.o
 
 __/ChatAPI/Request.i: __/ChatAPI/Request.cpp.i
@@ -455,7 +455,7 @@ __/ChatAPI/Request.i: __/ChatAPI/Request.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/Request.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Request.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Request.cpp.i
 .PHONY : __/ChatAPI/Request.cpp.i
 
 __/ChatAPI/Request.s: __/ChatAPI/Request.cpp.s
@@ -463,7 +463,7 @@ __/ChatAPI/Request.s: __/ChatAPI/Request.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/Request.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Request.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Request.cpp.s
 .PHONY : __/ChatAPI/Request.cpp.s
 
 __/ChatAPI/Response.o: __/ChatAPI/Response.cpp.o
@@ -471,7 +471,7 @@ __/ChatAPI/Response.o: __/ChatAPI/Response.cpp.o
 
 # target to build an object file
 __/ChatAPI/Response.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Response.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Response.cpp.o
 .PHONY : __/ChatAPI/Response.cpp.o
 
 __/ChatAPI/Response.i: __/ChatAPI/Response.cpp.i
@@ -479,7 +479,7 @@ __/ChatAPI/Response.i: __/ChatAPI/Response.cpp.i
 
 # target to preprocess a source file
 __/ChatAPI/Response.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Response.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Response.cpp.i
 .PHONY : __/ChatAPI/Response.cpp.i
 
 __/ChatAPI/Response.s: __/ChatAPI/Response.cpp.s
@@ -487,7 +487,7 @@ __/ChatAPI/Response.s: __/ChatAPI/Response.cpp.s
 
 # target to generate assembly for a file
 __/ChatAPI/Response.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Response.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Response.cpp.s
 .PHONY : __/ChatAPI/Response.cpp.s
 
 __/__/utils/Base/Archive.o: __/__/utils/Base/Archive.cpp.o
@@ -495,7 +495,7 @@ __/__/utils/Base/Archive.o: __/__/utils/Base/Archive.cpp.o
 
 # target to build an object file
 __/__/utils/Base/Archive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Archive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Archive.cpp.o
 .PHONY : __/__/utils/Base/Archive.cpp.o
 
 __/__/utils/Base/Archive.i: __/__/utils/Base/Archive.cpp.i
@@ -503,7 +503,7 @@ __/__/utils/Base/Archive.i: __/__/utils/Base/Archive.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/Archive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Archive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Archive.cpp.i
 .PHONY : __/__/utils/Base/Archive.cpp.i
 
 __/__/utils/Base/Archive.s: __/__/utils/Base/Archive.cpp.s
@@ -511,7 +511,7 @@ __/__/utils/Base/Archive.s: __/__/utils/Base/Archive.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/Archive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Archive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Archive.cpp.s
 .PHONY : __/__/utils/Base/Archive.cpp.s
 
 __/__/utils/Base/AutoLog.o: __/__/utils/Base/AutoLog.cpp.o
@@ -519,7 +519,7 @@ __/__/utils/Base/AutoLog.o: __/__/utils/Base/AutoLog.cpp.o
 
 # target to build an object file
 __/__/utils/Base/AutoLog.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/AutoLog.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/AutoLog.cpp.o
 .PHONY : __/__/utils/Base/AutoLog.cpp.o
 
 __/__/utils/Base/AutoLog.i: __/__/utils/Base/AutoLog.cpp.i
@@ -527,7 +527,7 @@ __/__/utils/Base/AutoLog.i: __/__/utils/Base/AutoLog.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/AutoLog.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/AutoLog.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/AutoLog.cpp.i
 .PHONY : __/__/utils/Base/AutoLog.cpp.i
 
 __/__/utils/Base/AutoLog.s: __/__/utils/Base/AutoLog.cpp.s
@@ -535,7 +535,7 @@ __/__/utils/Base/AutoLog.s: __/__/utils/Base/AutoLog.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/AutoLog.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/AutoLog.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/AutoLog.cpp.s
 .PHONY : __/__/utils/Base/AutoLog.cpp.s
 
 __/__/utils/Base/Base.o: __/__/utils/Base/Base.cpp.o
@@ -543,7 +543,7 @@ __/__/utils/Base/Base.o: __/__/utils/Base/Base.cpp.o
 
 # target to build an object file
 __/__/utils/Base/Base.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base.cpp.o
 .PHONY : __/__/utils/Base/Base.cpp.o
 
 __/__/utils/Base/Base.i: __/__/utils/Base/Base.cpp.i
@@ -551,7 +551,7 @@ __/__/utils/Base/Base.i: __/__/utils/Base/Base.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/Base.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base.cpp.i
 .PHONY : __/__/utils/Base/Base.cpp.i
 
 __/__/utils/Base/Base.s: __/__/utils/Base/Base.cpp.s
@@ -559,7 +559,7 @@ __/__/utils/Base/Base.s: __/__/utils/Base/Base.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/Base.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base.cpp.s
 .PHONY : __/__/utils/Base/Base.cpp.s
 
 __/__/utils/Base/Base64.o: __/__/utils/Base/Base64.cpp.o
@@ -567,7 +567,7 @@ __/__/utils/Base/Base64.o: __/__/utils/Base/Base64.cpp.o
 
 # target to build an object file
 __/__/utils/Base/Base64.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base64.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base64.cpp.o
 .PHONY : __/__/utils/Base/Base64.cpp.o
 
 __/__/utils/Base/Base64.i: __/__/utils/Base/Base64.cpp.i
@@ -575,7 +575,7 @@ __/__/utils/Base/Base64.i: __/__/utils/Base/Base64.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/Base64.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base64.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base64.cpp.i
 .PHONY : __/__/utils/Base/Base64.cpp.i
 
 __/__/utils/Base/Base64.s: __/__/utils/Base/Base64.cpp.s
@@ -583,7 +583,7 @@ __/__/utils/Base/Base64.s: __/__/utils/Base/Base64.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/Base64.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base64.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Base64.cpp.s
 .PHONY : __/__/utils/Base/Base64.cpp.s
 
 __/__/utils/Base/CmdLine.o: __/__/utils/Base/CmdLine.cpp.o
@@ -591,7 +591,7 @@ __/__/utils/Base/CmdLine.o: __/__/utils/Base/CmdLine.cpp.o
 
 # target to build an object file
 __/__/utils/Base/CmdLine.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/CmdLine.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/CmdLine.cpp.o
 .PHONY : __/__/utils/Base/CmdLine.cpp.o
 
 __/__/utils/Base/CmdLine.i: __/__/utils/Base/CmdLine.cpp.i
@@ -599,7 +599,7 @@ __/__/utils/Base/CmdLine.i: __/__/utils/Base/CmdLine.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/CmdLine.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/CmdLine.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/CmdLine.cpp.i
 .PHONY : __/__/utils/Base/CmdLine.cpp.i
 
 __/__/utils/Base/CmdLine.s: __/__/utils/Base/CmdLine.cpp.s
@@ -607,7 +607,7 @@ __/__/utils/Base/CmdLine.s: __/__/utils/Base/CmdLine.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/CmdLine.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/CmdLine.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/CmdLine.cpp.s
 .PHONY : __/__/utils/Base/CmdLine.cpp.s
 
 __/__/utils/Base/Config.o: __/__/utils/Base/Config.cpp.o
@@ -615,7 +615,7 @@ __/__/utils/Base/Config.o: __/__/utils/Base/Config.cpp.o
 
 # target to build an object file
 __/__/utils/Base/Config.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Config.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Config.cpp.o
 .PHONY : __/__/utils/Base/Config.cpp.o
 
 __/__/utils/Base/Config.i: __/__/utils/Base/Config.cpp.i
@@ -623,7 +623,7 @@ __/__/utils/Base/Config.i: __/__/utils/Base/Config.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/Config.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Config.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Config.cpp.i
 .PHONY : __/__/utils/Base/Config.cpp.i
 
 __/__/utils/Base/Config.s: __/__/utils/Base/Config.cpp.s
@@ -631,7 +631,7 @@ __/__/utils/Base/Config.s: __/__/utils/Base/Config.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/Config.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Config.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Config.cpp.s
 .PHONY : __/__/utils/Base/Config.cpp.s
 
 __/__/utils/Base/Logger.o: __/__/utils/Base/Logger.cpp.o
@@ -639,7 +639,7 @@ __/__/utils/Base/Logger.o: __/__/utils/Base/Logger.cpp.o
 
 # target to build an object file
 __/__/utils/Base/Logger.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Logger.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Logger.cpp.o
 .PHONY : __/__/utils/Base/Logger.cpp.o
 
 __/__/utils/Base/Logger.i: __/__/utils/Base/Logger.cpp.i
@@ -647,7 +647,7 @@ __/__/utils/Base/Logger.i: __/__/utils/Base/Logger.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/Logger.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Logger.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Logger.cpp.i
 .PHONY : __/__/utils/Base/Logger.cpp.i
 
 __/__/utils/Base/Logger.s: __/__/utils/Base/Logger.cpp.s
@@ -655,7 +655,7 @@ __/__/utils/Base/Logger.s: __/__/utils/Base/Logger.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/Logger.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Logger.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Logger.cpp.s
 .PHONY : __/__/utils/Base/Logger.cpp.s
 
 __/__/utils/Base/MD5.o: __/__/utils/Base/MD5.cpp.o
@@ -663,7 +663,7 @@ __/__/utils/Base/MD5.o: __/__/utils/Base/MD5.cpp.o
 
 # target to build an object file
 __/__/utils/Base/MD5.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/MD5.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/MD5.cpp.o
 .PHONY : __/__/utils/Base/MD5.cpp.o
 
 __/__/utils/Base/MD5.i: __/__/utils/Base/MD5.cpp.i
@@ -671,7 +671,7 @@ __/__/utils/Base/MD5.i: __/__/utils/Base/MD5.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/MD5.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/MD5.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/MD5.cpp.i
 .PHONY : __/__/utils/Base/MD5.cpp.i
 
 __/__/utils/Base/MD5.s: __/__/utils/Base/MD5.cpp.s
@@ -679,7 +679,7 @@ __/__/utils/Base/MD5.s: __/__/utils/Base/MD5.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/MD5.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/MD5.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/MD5.cpp.s
 .PHONY : __/__/utils/Base/MD5.cpp.s
 
 __/__/utils/Base/ScopeLock.o: __/__/utils/Base/ScopeLock.cpp.o
@@ -687,7 +687,7 @@ __/__/utils/Base/ScopeLock.o: __/__/utils/Base/ScopeLock.cpp.o
 
 # target to build an object file
 __/__/utils/Base/ScopeLock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ScopeLock.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ScopeLock.cpp.o
 .PHONY : __/__/utils/Base/ScopeLock.cpp.o
 
 __/__/utils/Base/ScopeLock.i: __/__/utils/Base/ScopeLock.cpp.i
@@ -695,7 +695,7 @@ __/__/utils/Base/ScopeLock.i: __/__/utils/Base/ScopeLock.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/ScopeLock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ScopeLock.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ScopeLock.cpp.i
 .PHONY : __/__/utils/Base/ScopeLock.cpp.i
 
 __/__/utils/Base/ScopeLock.s: __/__/utils/Base/ScopeLock.cpp.s
@@ -703,7 +703,7 @@ __/__/utils/Base/ScopeLock.s: __/__/utils/Base/ScopeLock.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/ScopeLock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ScopeLock.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ScopeLock.cpp.s
 .PHONY : __/__/utils/Base/ScopeLock.cpp.s
 
 __/__/utils/Base/Statistics.o: __/__/utils/Base/Statistics.cpp.o
@@ -711,7 +711,7 @@ __/__/utils/Base/Statistics.o: __/__/utils/Base/Statistics.cpp.o
 
 # target to build an object file
 __/__/utils/Base/Statistics.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Statistics.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Statistics.cpp.o
 .PHONY : __/__/utils/Base/Statistics.cpp.o
 
 __/__/utils/Base/Statistics.i: __/__/utils/Base/Statistics.cpp.i
@@ -719,7 +719,7 @@ __/__/utils/Base/Statistics.i: __/__/utils/Base/Statistics.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/Statistics.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Statistics.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Statistics.cpp.i
 .PHONY : __/__/utils/Base/Statistics.cpp.i
 
 __/__/utils/Base/Statistics.s: __/__/utils/Base/Statistics.cpp.s
@@ -727,7 +727,7 @@ __/__/utils/Base/Statistics.s: __/__/utils/Base/Statistics.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/Statistics.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Statistics.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Statistics.cpp.s
 .PHONY : __/__/utils/Base/Statistics.cpp.s
 
 __/__/utils/Base/ccspanutil.o: __/__/utils/Base/ccspanutil.cpp.o
@@ -735,7 +735,7 @@ __/__/utils/Base/ccspanutil.o: __/__/utils/Base/ccspanutil.cpp.o
 
 # target to build an object file
 __/__/utils/Base/ccspanutil.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ccspanutil.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ccspanutil.cpp.o
 .PHONY : __/__/utils/Base/ccspanutil.cpp.o
 
 __/__/utils/Base/ccspanutil.i: __/__/utils/Base/ccspanutil.cpp.i
@@ -743,7 +743,7 @@ __/__/utils/Base/ccspanutil.i: __/__/utils/Base/ccspanutil.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/ccspanutil.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ccspanutil.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ccspanutil.cpp.i
 .PHONY : __/__/utils/Base/ccspanutil.cpp.i
 
 __/__/utils/Base/ccspanutil.s: __/__/utils/Base/ccspanutil.cpp.s
@@ -751,7 +751,7 @@ __/__/utils/Base/ccspanutil.s: __/__/utils/Base/ccspanutil.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/ccspanutil.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ccspanutil.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ccspanutil.cpp.s
 .PHONY : __/__/utils/Base/ccspanutil.cpp.s
 
 __/__/utils/Base/linux/BlockAllocator.o: __/__/utils/Base/linux/BlockAllocator.cpp.o
@@ -759,7 +759,7 @@ __/__/utils/Base/linux/BlockAllocator.o: __/__/utils/Base/linux/BlockAllocator.c
 
 # target to build an object file
 __/__/utils/Base/linux/BlockAllocator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/BlockAllocator.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/BlockAllocator.cpp.o
 .PHONY : __/__/utils/Base/linux/BlockAllocator.cpp.o
 
 __/__/utils/Base/linux/BlockAllocator.i: __/__/utils/Base/linux/BlockAllocator.cpp.i
@@ -767,7 +767,7 @@ __/__/utils/Base/linux/BlockAllocator.i: __/__/utils/Base/linux/BlockAllocator.c
 
 # target to preprocess a source file
 __/__/utils/Base/linux/BlockAllocator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/BlockAllocator.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/BlockAllocator.cpp.i
 .PHONY : __/__/utils/Base/linux/BlockAllocator.cpp.i
 
 __/__/utils/Base/linux/BlockAllocator.s: __/__/utils/Base/linux/BlockAllocator.cpp.s
@@ -775,7 +775,7 @@ __/__/utils/Base/linux/BlockAllocator.s: __/__/utils/Base/linux/BlockAllocator.c
 
 # target to generate assembly for a file
 __/__/utils/Base/linux/BlockAllocator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/BlockAllocator.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/BlockAllocator.cpp.s
 .PHONY : __/__/utils/Base/linux/BlockAllocator.cpp.s
 
 __/__/utils/Base/linux/Event.o: __/__/utils/Base/linux/Event.cpp.o
@@ -783,7 +783,7 @@ __/__/utils/Base/linux/Event.o: __/__/utils/Base/linux/Event.cpp.o
 
 # target to build an object file
 __/__/utils/Base/linux/Event.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Event.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Event.cpp.o
 .PHONY : __/__/utils/Base/linux/Event.cpp.o
 
 __/__/utils/Base/linux/Event.i: __/__/utils/Base/linux/Event.cpp.i
@@ -791,7 +791,7 @@ __/__/utils/Base/linux/Event.i: __/__/utils/Base/linux/Event.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/linux/Event.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Event.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Event.cpp.i
 .PHONY : __/__/utils/Base/linux/Event.cpp.i
 
 __/__/utils/Base/linux/Event.s: __/__/utils/Base/linux/Event.cpp.s
@@ -799,7 +799,7 @@ __/__/utils/Base/linux/Event.s: __/__/utils/Base/linux/Event.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/linux/Event.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Event.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Event.cpp.s
 .PHONY : __/__/utils/Base/linux/Event.cpp.s
 
 __/__/utils/Base/linux/Mutex.o: __/__/utils/Base/linux/Mutex.cpp.o
@@ -807,7 +807,7 @@ __/__/utils/Base/linux/Mutex.o: __/__/utils/Base/linux/Mutex.cpp.o
 
 # target to build an object file
 __/__/utils/Base/linux/Mutex.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Mutex.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Mutex.cpp.o
 .PHONY : __/__/utils/Base/linux/Mutex.cpp.o
 
 __/__/utils/Base/linux/Mutex.i: __/__/utils/Base/linux/Mutex.cpp.i
@@ -815,7 +815,7 @@ __/__/utils/Base/linux/Mutex.i: __/__/utils/Base/linux/Mutex.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/linux/Mutex.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Mutex.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Mutex.cpp.i
 .PHONY : __/__/utils/Base/linux/Mutex.cpp.i
 
 __/__/utils/Base/linux/Mutex.s: __/__/utils/Base/linux/Mutex.cpp.s
@@ -823,7 +823,7 @@ __/__/utils/Base/linux/Mutex.s: __/__/utils/Base/linux/Mutex.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/linux/Mutex.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Mutex.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Mutex.cpp.s
 .PHONY : __/__/utils/Base/linux/Mutex.cpp.s
 
 __/__/utils/Base/linux/Platform.o: __/__/utils/Base/linux/Platform.cpp.o
@@ -831,7 +831,7 @@ __/__/utils/Base/linux/Platform.o: __/__/utils/Base/linux/Platform.cpp.o
 
 # target to build an object file
 __/__/utils/Base/linux/Platform.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Platform.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Platform.cpp.o
 .PHONY : __/__/utils/Base/linux/Platform.cpp.o
 
 __/__/utils/Base/linux/Platform.i: __/__/utils/Base/linux/Platform.cpp.i
@@ -839,7 +839,7 @@ __/__/utils/Base/linux/Platform.i: __/__/utils/Base/linux/Platform.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/linux/Platform.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Platform.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Platform.cpp.i
 .PHONY : __/__/utils/Base/linux/Platform.cpp.i
 
 __/__/utils/Base/linux/Platform.s: __/__/utils/Base/linux/Platform.cpp.s
@@ -847,7 +847,7 @@ __/__/utils/Base/linux/Platform.s: __/__/utils/Base/linux/Platform.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/linux/Platform.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Platform.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Platform.cpp.s
 .PHONY : __/__/utils/Base/linux/Platform.cpp.s
 
 __/__/utils/Base/linux/Thread.o: __/__/utils/Base/linux/Thread.cpp.o
@@ -855,7 +855,7 @@ __/__/utils/Base/linux/Thread.o: __/__/utils/Base/linux/Thread.cpp.o
 
 # target to build an object file
 __/__/utils/Base/linux/Thread.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Thread.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Thread.cpp.o
 .PHONY : __/__/utils/Base/linux/Thread.cpp.o
 
 __/__/utils/Base/linux/Thread.i: __/__/utils/Base/linux/Thread.cpp.i
@@ -863,7 +863,7 @@ __/__/utils/Base/linux/Thread.i: __/__/utils/Base/linux/Thread.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Base/linux/Thread.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Thread.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Thread.cpp.i
 .PHONY : __/__/utils/Base/linux/Thread.cpp.i
 
 __/__/utils/Base/linux/Thread.s: __/__/utils/Base/linux/Thread.cpp.s
@@ -871,7 +871,7 @@ __/__/utils/Base/linux/Thread.s: __/__/utils/Base/linux/Thread.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Base/linux/Thread.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Thread.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/linux/Thread.cpp.s
 .PHONY : __/__/utils/Base/linux/Thread.cpp.s
 
 __/__/utils/GenericAPI/GenericApiCore.o: __/__/utils/GenericAPI/GenericApiCore.cpp.o
@@ -879,7 +879,7 @@ __/__/utils/GenericAPI/GenericApiCore.o: __/__/utils/GenericAPI/GenericApiCore.c
 
 # target to build an object file
 __/__/utils/GenericAPI/GenericApiCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericApiCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericApiCore.cpp.o
 .PHONY : __/__/utils/GenericAPI/GenericApiCore.cpp.o
 
 __/__/utils/GenericAPI/GenericApiCore.i: __/__/utils/GenericAPI/GenericApiCore.cpp.i
@@ -887,7 +887,7 @@ __/__/utils/GenericAPI/GenericApiCore.i: __/__/utils/GenericAPI/GenericApiCore.c
 
 # target to preprocess a source file
 __/__/utils/GenericAPI/GenericApiCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericApiCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericApiCore.cpp.i
 .PHONY : __/__/utils/GenericAPI/GenericApiCore.cpp.i
 
 __/__/utils/GenericAPI/GenericApiCore.s: __/__/utils/GenericAPI/GenericApiCore.cpp.s
@@ -895,7 +895,7 @@ __/__/utils/GenericAPI/GenericApiCore.s: __/__/utils/GenericAPI/GenericApiCore.c
 
 # target to generate assembly for a file
 __/__/utils/GenericAPI/GenericApiCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericApiCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericApiCore.cpp.s
 .PHONY : __/__/utils/GenericAPI/GenericApiCore.cpp.s
 
 __/__/utils/GenericAPI/GenericConnection.o: __/__/utils/GenericAPI/GenericConnection.cpp.o
@@ -903,7 +903,7 @@ __/__/utils/GenericAPI/GenericConnection.o: __/__/utils/GenericAPI/GenericConnec
 
 # target to build an object file
 __/__/utils/GenericAPI/GenericConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericConnection.cpp.o
 .PHONY : __/__/utils/GenericAPI/GenericConnection.cpp.o
 
 __/__/utils/GenericAPI/GenericConnection.i: __/__/utils/GenericAPI/GenericConnection.cpp.i
@@ -911,7 +911,7 @@ __/__/utils/GenericAPI/GenericConnection.i: __/__/utils/GenericAPI/GenericConnec
 
 # target to preprocess a source file
 __/__/utils/GenericAPI/GenericConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericConnection.cpp.i
 .PHONY : __/__/utils/GenericAPI/GenericConnection.cpp.i
 
 __/__/utils/GenericAPI/GenericConnection.s: __/__/utils/GenericAPI/GenericConnection.cpp.s
@@ -919,7 +919,7 @@ __/__/utils/GenericAPI/GenericConnection.s: __/__/utils/GenericAPI/GenericConnec
 
 # target to generate assembly for a file
 __/__/utils/GenericAPI/GenericConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericConnection.cpp.s
 .PHONY : __/__/utils/GenericAPI/GenericConnection.cpp.s
 
 __/__/utils/GenericAPI/GenericMessage.o: __/__/utils/GenericAPI/GenericMessage.cpp.o
@@ -927,7 +927,7 @@ __/__/utils/GenericAPI/GenericMessage.o: __/__/utils/GenericAPI/GenericMessage.c
 
 # target to build an object file
 __/__/utils/GenericAPI/GenericMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericMessage.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericMessage.cpp.o
 .PHONY : __/__/utils/GenericAPI/GenericMessage.cpp.o
 
 __/__/utils/GenericAPI/GenericMessage.i: __/__/utils/GenericAPI/GenericMessage.cpp.i
@@ -935,7 +935,7 @@ __/__/utils/GenericAPI/GenericMessage.i: __/__/utils/GenericAPI/GenericMessage.c
 
 # target to preprocess a source file
 __/__/utils/GenericAPI/GenericMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericMessage.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericMessage.cpp.i
 .PHONY : __/__/utils/GenericAPI/GenericMessage.cpp.i
 
 __/__/utils/GenericAPI/GenericMessage.s: __/__/utils/GenericAPI/GenericMessage.cpp.s
@@ -943,7 +943,7 @@ __/__/utils/GenericAPI/GenericMessage.s: __/__/utils/GenericAPI/GenericMessage.c
 
 # target to generate assembly for a file
 __/__/utils/GenericAPI/GenericMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericMessage.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/GenericAPI/GenericMessage.cpp.s
 .PHONY : __/__/utils/GenericAPI/GenericMessage.cpp.s
 
 __/__/utils/UdpLibrary/UdpConnection.o: __/__/utils/UdpLibrary/UdpConnection.cpp.o
@@ -951,7 +951,7 @@ __/__/utils/UdpLibrary/UdpConnection.o: __/__/utils/UdpLibrary/UdpConnection.cpp
 
 # target to build an object file
 __/__/utils/UdpLibrary/UdpConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpConnection.cpp.o
 .PHONY : __/__/utils/UdpLibrary/UdpConnection.cpp.o
 
 __/__/utils/UdpLibrary/UdpConnection.i: __/__/utils/UdpLibrary/UdpConnection.cpp.i
@@ -959,7 +959,7 @@ __/__/utils/UdpLibrary/UdpConnection.i: __/__/utils/UdpLibrary/UdpConnection.cpp
 
 # target to preprocess a source file
 __/__/utils/UdpLibrary/UdpConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpConnection.cpp.i
 .PHONY : __/__/utils/UdpLibrary/UdpConnection.cpp.i
 
 __/__/utils/UdpLibrary/UdpConnection.s: __/__/utils/UdpLibrary/UdpConnection.cpp.s
@@ -967,7 +967,7 @@ __/__/utils/UdpLibrary/UdpConnection.s: __/__/utils/UdpLibrary/UdpConnection.cpp
 
 # target to generate assembly for a file
 __/__/utils/UdpLibrary/UdpConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpConnection.cpp.s
 .PHONY : __/__/utils/UdpLibrary/UdpConnection.cpp.s
 
 __/__/utils/UdpLibrary/UdpDriverLinux.o: __/__/utils/UdpLibrary/UdpDriverLinux.cpp.o
@@ -975,7 +975,7 @@ __/__/utils/UdpLibrary/UdpDriverLinux.o: __/__/utils/UdpLibrary/UdpDriverLinux.c
 
 # target to build an object file
 __/__/utils/UdpLibrary/UdpDriverLinux.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpDriverLinux.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpDriverLinux.cpp.o
 .PHONY : __/__/utils/UdpLibrary/UdpDriverLinux.cpp.o
 
 __/__/utils/UdpLibrary/UdpDriverLinux.i: __/__/utils/UdpLibrary/UdpDriverLinux.cpp.i
@@ -983,7 +983,7 @@ __/__/utils/UdpLibrary/UdpDriverLinux.i: __/__/utils/UdpLibrary/UdpDriverLinux.c
 
 # target to preprocess a source file
 __/__/utils/UdpLibrary/UdpDriverLinux.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpDriverLinux.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpDriverLinux.cpp.i
 .PHONY : __/__/utils/UdpLibrary/UdpDriverLinux.cpp.i
 
 __/__/utils/UdpLibrary/UdpDriverLinux.s: __/__/utils/UdpLibrary/UdpDriverLinux.cpp.s
@@ -991,7 +991,7 @@ __/__/utils/UdpLibrary/UdpDriverLinux.s: __/__/utils/UdpLibrary/UdpDriverLinux.c
 
 # target to generate assembly for a file
 __/__/utils/UdpLibrary/UdpDriverLinux.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpDriverLinux.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpDriverLinux.cpp.s
 .PHONY : __/__/utils/UdpLibrary/UdpDriverLinux.cpp.s
 
 __/__/utils/UdpLibrary/UdpLibrary.o: __/__/utils/UdpLibrary/UdpLibrary.cpp.o
@@ -999,7 +999,7 @@ __/__/utils/UdpLibrary/UdpLibrary.o: __/__/utils/UdpLibrary/UdpLibrary.cpp.o
 
 # target to build an object file
 __/__/utils/UdpLibrary/UdpLibrary.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLibrary.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLibrary.cpp.o
 .PHONY : __/__/utils/UdpLibrary/UdpLibrary.cpp.o
 
 __/__/utils/UdpLibrary/UdpLibrary.i: __/__/utils/UdpLibrary/UdpLibrary.cpp.i
@@ -1007,7 +1007,7 @@ __/__/utils/UdpLibrary/UdpLibrary.i: __/__/utils/UdpLibrary/UdpLibrary.cpp.i
 
 # target to preprocess a source file
 __/__/utils/UdpLibrary/UdpLibrary.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLibrary.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLibrary.cpp.i
 .PHONY : __/__/utils/UdpLibrary/UdpLibrary.cpp.i
 
 __/__/utils/UdpLibrary/UdpLibrary.s: __/__/utils/UdpLibrary/UdpLibrary.cpp.s
@@ -1015,7 +1015,7 @@ __/__/utils/UdpLibrary/UdpLibrary.s: __/__/utils/UdpLibrary/UdpLibrary.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/UdpLibrary/UdpLibrary.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLibrary.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLibrary.cpp.s
 .PHONY : __/__/utils/UdpLibrary/UdpLibrary.cpp.s
 
 __/__/utils/UdpLibrary/UdpLogicalPacket.o: __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.o
@@ -1023,7 +1023,7 @@ __/__/utils/UdpLibrary/UdpLogicalPacket.o: __/__/utils/UdpLibrary/UdpLogicalPack
 
 # target to build an object file
 __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLogicalPacket.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLogicalPacket.cpp.o
 .PHONY : __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.o
 
 __/__/utils/UdpLibrary/UdpLogicalPacket.i: __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.i
@@ -1031,7 +1031,7 @@ __/__/utils/UdpLibrary/UdpLogicalPacket.i: __/__/utils/UdpLibrary/UdpLogicalPack
 
 # target to preprocess a source file
 __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLogicalPacket.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLogicalPacket.cpp.i
 .PHONY : __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.i
 
 __/__/utils/UdpLibrary/UdpLogicalPacket.s: __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.s
@@ -1039,7 +1039,7 @@ __/__/utils/UdpLibrary/UdpLogicalPacket.s: __/__/utils/UdpLibrary/UdpLogicalPack
 
 # target to generate assembly for a file
 __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLogicalPacket.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpLogicalPacket.cpp.s
 .PHONY : __/__/utils/UdpLibrary/UdpLogicalPacket.cpp.s
 
 __/__/utils/UdpLibrary/UdpManager.o: __/__/utils/UdpLibrary/UdpManager.cpp.o
@@ -1047,7 +1047,7 @@ __/__/utils/UdpLibrary/UdpManager.o: __/__/utils/UdpLibrary/UdpManager.cpp.o
 
 # target to build an object file
 __/__/utils/UdpLibrary/UdpManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpManager.cpp.o
 .PHONY : __/__/utils/UdpLibrary/UdpManager.cpp.o
 
 __/__/utils/UdpLibrary/UdpManager.i: __/__/utils/UdpLibrary/UdpManager.cpp.i
@@ -1055,7 +1055,7 @@ __/__/utils/UdpLibrary/UdpManager.i: __/__/utils/UdpLibrary/UdpManager.cpp.i
 
 # target to preprocess a source file
 __/__/utils/UdpLibrary/UdpManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpManager.cpp.i
 .PHONY : __/__/utils/UdpLibrary/UdpManager.cpp.i
 
 __/__/utils/UdpLibrary/UdpManager.s: __/__/utils/UdpLibrary/UdpManager.cpp.s
@@ -1063,7 +1063,7 @@ __/__/utils/UdpLibrary/UdpManager.s: __/__/utils/UdpLibrary/UdpManager.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/UdpLibrary/UdpManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpManager.cpp.s
 .PHONY : __/__/utils/UdpLibrary/UdpManager.cpp.s
 
 __/__/utils/UdpLibrary/UdpMisc.o: __/__/utils/UdpLibrary/UdpMisc.cpp.o
@@ -1071,7 +1071,7 @@ __/__/utils/UdpLibrary/UdpMisc.o: __/__/utils/UdpLibrary/UdpMisc.cpp.o
 
 # target to build an object file
 __/__/utils/UdpLibrary/UdpMisc.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpMisc.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpMisc.cpp.o
 .PHONY : __/__/utils/UdpLibrary/UdpMisc.cpp.o
 
 __/__/utils/UdpLibrary/UdpMisc.i: __/__/utils/UdpLibrary/UdpMisc.cpp.i
@@ -1079,7 +1079,7 @@ __/__/utils/UdpLibrary/UdpMisc.i: __/__/utils/UdpLibrary/UdpMisc.cpp.i
 
 # target to preprocess a source file
 __/__/utils/UdpLibrary/UdpMisc.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpMisc.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpMisc.cpp.i
 .PHONY : __/__/utils/UdpLibrary/UdpMisc.cpp.i
 
 __/__/utils/UdpLibrary/UdpMisc.s: __/__/utils/UdpLibrary/UdpMisc.cpp.s
@@ -1087,7 +1087,7 @@ __/__/utils/UdpLibrary/UdpMisc.s: __/__/utils/UdpLibrary/UdpMisc.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/UdpLibrary/UdpMisc.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpMisc.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpMisc.cpp.s
 .PHONY : __/__/utils/UdpLibrary/UdpMisc.cpp.s
 
 __/__/utils/UdpLibrary/UdpReliableChannel.o: __/__/utils/UdpLibrary/UdpReliableChannel.cpp.o
@@ -1095,7 +1095,7 @@ __/__/utils/UdpLibrary/UdpReliableChannel.o: __/__/utils/UdpLibrary/UdpReliableC
 
 # target to build an object file
 __/__/utils/UdpLibrary/UdpReliableChannel.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpReliableChannel.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpReliableChannel.cpp.o
 .PHONY : __/__/utils/UdpLibrary/UdpReliableChannel.cpp.o
 
 __/__/utils/UdpLibrary/UdpReliableChannel.i: __/__/utils/UdpLibrary/UdpReliableChannel.cpp.i
@@ -1103,7 +1103,7 @@ __/__/utils/UdpLibrary/UdpReliableChannel.i: __/__/utils/UdpLibrary/UdpReliableC
 
 # target to preprocess a source file
 __/__/utils/UdpLibrary/UdpReliableChannel.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpReliableChannel.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpReliableChannel.cpp.i
 .PHONY : __/__/utils/UdpLibrary/UdpReliableChannel.cpp.i
 
 __/__/utils/UdpLibrary/UdpReliableChannel.s: __/__/utils/UdpLibrary/UdpReliableChannel.cpp.s
@@ -1111,7 +1111,7 @@ __/__/utils/UdpLibrary/UdpReliableChannel.s: __/__/utils/UdpLibrary/UdpReliableC
 
 # target to generate assembly for a file
 __/__/utils/UdpLibrary/UdpReliableChannel.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpReliableChannel.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpReliableChannel.cpp.s
 .PHONY : __/__/utils/UdpLibrary/UdpReliableChannel.cpp.s
 
 __/__/utils/Unicode/FirstUnicode.o: __/__/utils/Unicode/FirstUnicode.cpp.o
@@ -1119,7 +1119,7 @@ __/__/utils/Unicode/FirstUnicode.o: __/__/utils/Unicode/FirstUnicode.cpp.o
 
 # target to build an object file
 __/__/utils/Unicode/FirstUnicode.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/FirstUnicode.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/FirstUnicode.cpp.o
 .PHONY : __/__/utils/Unicode/FirstUnicode.cpp.o
 
 __/__/utils/Unicode/FirstUnicode.i: __/__/utils/Unicode/FirstUnicode.cpp.i
@@ -1127,7 +1127,7 @@ __/__/utils/Unicode/FirstUnicode.i: __/__/utils/Unicode/FirstUnicode.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Unicode/FirstUnicode.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/FirstUnicode.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/FirstUnicode.cpp.i
 .PHONY : __/__/utils/Unicode/FirstUnicode.cpp.i
 
 __/__/utils/Unicode/FirstUnicode.s: __/__/utils/Unicode/FirstUnicode.cpp.s
@@ -1135,7 +1135,7 @@ __/__/utils/Unicode/FirstUnicode.s: __/__/utils/Unicode/FirstUnicode.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Unicode/FirstUnicode.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/FirstUnicode.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/FirstUnicode.cpp.s
 .PHONY : __/__/utils/Unicode/FirstUnicode.cpp.s
 
 __/__/utils/Unicode/Unicode.o: __/__/utils/Unicode/Unicode.cpp.o
@@ -1143,7 +1143,7 @@ __/__/utils/Unicode/Unicode.o: __/__/utils/Unicode/Unicode.cpp.o
 
 # target to build an object file
 __/__/utils/Unicode/Unicode.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/Unicode.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/Unicode.cpp.o
 .PHONY : __/__/utils/Unicode/Unicode.cpp.o
 
 __/__/utils/Unicode/Unicode.i: __/__/utils/Unicode/Unicode.cpp.i
@@ -1151,7 +1151,7 @@ __/__/utils/Unicode/Unicode.i: __/__/utils/Unicode/Unicode.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Unicode/Unicode.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/Unicode.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/Unicode.cpp.i
 .PHONY : __/__/utils/Unicode/Unicode.cpp.i
 
 __/__/utils/Unicode/Unicode.s: __/__/utils/Unicode/Unicode.cpp.s
@@ -1159,7 +1159,7 @@ __/__/utils/Unicode/Unicode.s: __/__/utils/Unicode/Unicode.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Unicode/Unicode.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/Unicode.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/Unicode.cpp.s
 .PHONY : __/__/utils/Unicode/Unicode.cpp.s
 
 __/__/utils/Unicode/UnicodeBlocks.o: __/__/utils/Unicode/UnicodeBlocks.cpp.o
@@ -1167,7 +1167,7 @@ __/__/utils/Unicode/UnicodeBlocks.o: __/__/utils/Unicode/UnicodeBlocks.cpp.o
 
 # target to build an object file
 __/__/utils/Unicode/UnicodeBlocks.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeBlocks.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeBlocks.cpp.o
 .PHONY : __/__/utils/Unicode/UnicodeBlocks.cpp.o
 
 __/__/utils/Unicode/UnicodeBlocks.i: __/__/utils/Unicode/UnicodeBlocks.cpp.i
@@ -1175,7 +1175,7 @@ __/__/utils/Unicode/UnicodeBlocks.i: __/__/utils/Unicode/UnicodeBlocks.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Unicode/UnicodeBlocks.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeBlocks.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeBlocks.cpp.i
 .PHONY : __/__/utils/Unicode/UnicodeBlocks.cpp.i
 
 __/__/utils/Unicode/UnicodeBlocks.s: __/__/utils/Unicode/UnicodeBlocks.cpp.s
@@ -1183,7 +1183,7 @@ __/__/utils/Unicode/UnicodeBlocks.s: __/__/utils/Unicode/UnicodeBlocks.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Unicode/UnicodeBlocks.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeBlocks.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeBlocks.cpp.s
 .PHONY : __/__/utils/Unicode/UnicodeBlocks.cpp.s
 
 __/__/utils/Unicode/UnicodeCharTraits.o: __/__/utils/Unicode/UnicodeCharTraits.cpp.o
@@ -1191,7 +1191,7 @@ __/__/utils/Unicode/UnicodeCharTraits.o: __/__/utils/Unicode/UnicodeCharTraits.c
 
 # target to build an object file
 __/__/utils/Unicode/UnicodeCharTraits.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharTraits.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharTraits.cpp.o
 .PHONY : __/__/utils/Unicode/UnicodeCharTraits.cpp.o
 
 __/__/utils/Unicode/UnicodeCharTraits.i: __/__/utils/Unicode/UnicodeCharTraits.cpp.i
@@ -1199,7 +1199,7 @@ __/__/utils/Unicode/UnicodeCharTraits.i: __/__/utils/Unicode/UnicodeCharTraits.c
 
 # target to preprocess a source file
 __/__/utils/Unicode/UnicodeCharTraits.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharTraits.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharTraits.cpp.i
 .PHONY : __/__/utils/Unicode/UnicodeCharTraits.cpp.i
 
 __/__/utils/Unicode/UnicodeCharTraits.s: __/__/utils/Unicode/UnicodeCharTraits.cpp.s
@@ -1207,7 +1207,7 @@ __/__/utils/Unicode/UnicodeCharTraits.s: __/__/utils/Unicode/UnicodeCharTraits.c
 
 # target to generate assembly for a file
 __/__/utils/Unicode/UnicodeCharTraits.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharTraits.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharTraits.cpp.s
 .PHONY : __/__/utils/Unicode/UnicodeCharTraits.cpp.s
 
 __/__/utils/Unicode/UnicodeCharacterData.o: __/__/utils/Unicode/UnicodeCharacterData.cpp.o
@@ -1215,7 +1215,7 @@ __/__/utils/Unicode/UnicodeCharacterData.o: __/__/utils/Unicode/UnicodeCharacter
 
 # target to build an object file
 __/__/utils/Unicode/UnicodeCharacterData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterData.cpp.o
 .PHONY : __/__/utils/Unicode/UnicodeCharacterData.cpp.o
 
 __/__/utils/Unicode/UnicodeCharacterData.i: __/__/utils/Unicode/UnicodeCharacterData.cpp.i
@@ -1223,7 +1223,7 @@ __/__/utils/Unicode/UnicodeCharacterData.i: __/__/utils/Unicode/UnicodeCharacter
 
 # target to preprocess a source file
 __/__/utils/Unicode/UnicodeCharacterData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterData.cpp.i
 .PHONY : __/__/utils/Unicode/UnicodeCharacterData.cpp.i
 
 __/__/utils/Unicode/UnicodeCharacterData.s: __/__/utils/Unicode/UnicodeCharacterData.cpp.s
@@ -1231,7 +1231,7 @@ __/__/utils/Unicode/UnicodeCharacterData.s: __/__/utils/Unicode/UnicodeCharacter
 
 # target to generate assembly for a file
 __/__/utils/Unicode/UnicodeCharacterData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterData.cpp.s
 .PHONY : __/__/utils/Unicode/UnicodeCharacterData.cpp.s
 
 __/__/utils/Unicode/UnicodeCharacterDataMap.o: __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
@@ -1239,7 +1239,7 @@ __/__/utils/Unicode/UnicodeCharacterDataMap.o: __/__/utils/Unicode/UnicodeCharac
 
 # target to build an object file
 __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
 .PHONY : __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
 
 __/__/utils/Unicode/UnicodeCharacterDataMap.i: __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i
@@ -1247,7 +1247,7 @@ __/__/utils/Unicode/UnicodeCharacterDataMap.i: __/__/utils/Unicode/UnicodeCharac
 
 # target to preprocess a source file
 __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i
 .PHONY : __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i
 
 __/__/utils/Unicode/UnicodeCharacterDataMap.s: __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s
@@ -1255,7 +1255,7 @@ __/__/utils/Unicode/UnicodeCharacterDataMap.s: __/__/utils/Unicode/UnicodeCharac
 
 # target to generate assembly for a file
 __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s
 .PHONY : __/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s
 
 __/__/utils/Unicode/UnicodeUtils.o: __/__/utils/Unicode/UnicodeUtils.cpp.o
@@ -1263,7 +1263,7 @@ __/__/utils/Unicode/UnicodeUtils.o: __/__/utils/Unicode/UnicodeUtils.cpp.o
 
 # target to build an object file
 __/__/utils/Unicode/UnicodeUtils.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeUtils.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeUtils.cpp.o
 .PHONY : __/__/utils/Unicode/UnicodeUtils.cpp.o
 
 __/__/utils/Unicode/UnicodeUtils.i: __/__/utils/Unicode/UnicodeUtils.cpp.i
@@ -1271,7 +1271,7 @@ __/__/utils/Unicode/UnicodeUtils.i: __/__/utils/Unicode/UnicodeUtils.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Unicode/UnicodeUtils.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeUtils.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeUtils.cpp.i
 .PHONY : __/__/utils/Unicode/UnicodeUtils.cpp.i
 
 __/__/utils/Unicode/UnicodeUtils.s: __/__/utils/Unicode/UnicodeUtils.cpp.s
@@ -1279,7 +1279,7 @@ __/__/utils/Unicode/UnicodeUtils.s: __/__/utils/Unicode/UnicodeUtils.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Unicode/UnicodeUtils.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeUtils.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeUtils.cpp.s
 .PHONY : __/__/utils/Unicode/UnicodeUtils.cpp.s
 
 __/__/utils/Unicode/utf8.o: __/__/utils/Unicode/utf8.cpp.o
@@ -1287,7 +1287,7 @@ __/__/utils/Unicode/utf8.o: __/__/utils/Unicode/utf8.cpp.o
 
 # target to build an object file
 __/__/utils/Unicode/utf8.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/utf8.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/utf8.cpp.o
 .PHONY : __/__/utils/Unicode/utf8.cpp.o
 
 __/__/utils/Unicode/utf8.i: __/__/utils/Unicode/utf8.cpp.i
@@ -1295,7 +1295,7 @@ __/__/utils/Unicode/utf8.i: __/__/utils/Unicode/utf8.cpp.i
 
 # target to preprocess a source file
 __/__/utils/Unicode/utf8.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/utf8.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/utf8.cpp.i
 .PHONY : __/__/utils/Unicode/utf8.cpp.i
 
 __/__/utils/Unicode/utf8.s: __/__/utils/Unicode/utf8.cpp.s
@@ -1303,7 +1303,7 @@ __/__/utils/Unicode/utf8.s: __/__/utils/Unicode/utf8.cpp.s
 
 # target to generate assembly for a file
 __/__/utils/Unicode/utf8.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/utf8.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/build.make external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/utf8.cpp.s
 .PHONY : __/__/utils/Unicode/utf8.cpp.s
 
 # Help Target
@@ -1473,6 +1473,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

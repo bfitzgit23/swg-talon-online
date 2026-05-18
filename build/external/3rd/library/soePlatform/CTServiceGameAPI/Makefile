@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/3rd/library/soePlatform/CTServiceGameAPI//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/external/3rd/library/soePlatform/CTServiceGameAPI//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/rule
 .PHONY : external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ CTServiceGameAPI: external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/C
 
 # fast build rule for target.
 CTServiceGameAPI/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build
 .PHONY : CTServiceGameAPI/fast
 
 Base/Archive.o: Base/Archive.cpp.o
@@ -135,7 +135,7 @@ Base/Archive.o: Base/Archive.cpp.o
 
 # target to build an object file
 Base/Archive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/Archive.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/Archive.cpp.o
 .PHONY : Base/Archive.cpp.o
 
 Base/Archive.i: Base/Archive.cpp.i
@@ -143,7 +143,7 @@ Base/Archive.i: Base/Archive.cpp.i
 
 # target to preprocess a source file
 Base/Archive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/Archive.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/Archive.cpp.i
 .PHONY : Base/Archive.cpp.i
 
 Base/Archive.s: Base/Archive.cpp.s
@@ -151,7 +151,7 @@ Base/Archive.s: Base/Archive.cpp.s
 
 # target to generate assembly for a file
 Base/Archive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/Archive.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/Archive.cpp.s
 .PHONY : Base/Archive.cpp.s
 
 Base/linux/Platform.o: Base/linux/Platform.cpp.o
@@ -159,7 +159,7 @@ Base/linux/Platform.o: Base/linux/Platform.cpp.o
 
 # target to build an object file
 Base/linux/Platform.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/linux/Platform.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/linux/Platform.cpp.o
 .PHONY : Base/linux/Platform.cpp.o
 
 Base/linux/Platform.i: Base/linux/Platform.cpp.i
@@ -167,7 +167,7 @@ Base/linux/Platform.i: Base/linux/Platform.cpp.i
 
 # target to preprocess a source file
 Base/linux/Platform.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/linux/Platform.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/linux/Platform.cpp.i
 .PHONY : Base/linux/Platform.cpp.i
 
 Base/linux/Platform.s: Base/linux/Platform.cpp.s
@@ -175,7 +175,7 @@ Base/linux/Platform.s: Base/linux/Platform.cpp.s
 
 # target to generate assembly for a file
 Base/linux/Platform.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/linux/Platform.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Base/linux/Platform.cpp.s
 .PHONY : Base/linux/Platform.cpp.s
 
 CTCommon/CTServiceCharacter.o: CTCommon/CTServiceCharacter.cpp.o
@@ -183,7 +183,7 @@ CTCommon/CTServiceCharacter.o: CTCommon/CTServiceCharacter.cpp.o
 
 # target to build an object file
 CTCommon/CTServiceCharacter.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceCharacter.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceCharacter.cpp.o
 .PHONY : CTCommon/CTServiceCharacter.cpp.o
 
 CTCommon/CTServiceCharacter.i: CTCommon/CTServiceCharacter.cpp.i
@@ -191,7 +191,7 @@ CTCommon/CTServiceCharacter.i: CTCommon/CTServiceCharacter.cpp.i
 
 # target to preprocess a source file
 CTCommon/CTServiceCharacter.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceCharacter.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceCharacter.cpp.i
 .PHONY : CTCommon/CTServiceCharacter.cpp.i
 
 CTCommon/CTServiceCharacter.s: CTCommon/CTServiceCharacter.cpp.s
@@ -199,7 +199,7 @@ CTCommon/CTServiceCharacter.s: CTCommon/CTServiceCharacter.cpp.s
 
 # target to generate assembly for a file
 CTCommon/CTServiceCharacter.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceCharacter.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceCharacter.cpp.s
 .PHONY : CTCommon/CTServiceCharacter.cpp.s
 
 CTCommon/CTServiceServer.o: CTCommon/CTServiceServer.cpp.o
@@ -207,7 +207,7 @@ CTCommon/CTServiceServer.o: CTCommon/CTServiceServer.cpp.o
 
 # target to build an object file
 CTCommon/CTServiceServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceServer.cpp.o
 .PHONY : CTCommon/CTServiceServer.cpp.o
 
 CTCommon/CTServiceServer.i: CTCommon/CTServiceServer.cpp.i
@@ -215,7 +215,7 @@ CTCommon/CTServiceServer.i: CTCommon/CTServiceServer.cpp.i
 
 # target to preprocess a source file
 CTCommon/CTServiceServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceServer.cpp.i
 .PHONY : CTCommon/CTServiceServer.cpp.i
 
 CTCommon/CTServiceServer.s: CTCommon/CTServiceServer.cpp.s
@@ -223,7 +223,7 @@ CTCommon/CTServiceServer.s: CTCommon/CTServiceServer.cpp.s
 
 # target to generate assembly for a file
 CTCommon/CTServiceServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTCommon/CTServiceServer.cpp.s
 .PHONY : CTCommon/CTServiceServer.cpp.s
 
 CTGenericAPI/GenericApiCore.o: CTGenericAPI/GenericApiCore.cpp.o
@@ -231,7 +231,7 @@ CTGenericAPI/GenericApiCore.o: CTGenericAPI/GenericApiCore.cpp.o
 
 # target to build an object file
 CTGenericAPI/GenericApiCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericApiCore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericApiCore.cpp.o
 .PHONY : CTGenericAPI/GenericApiCore.cpp.o
 
 CTGenericAPI/GenericApiCore.i: CTGenericAPI/GenericApiCore.cpp.i
@@ -239,7 +239,7 @@ CTGenericAPI/GenericApiCore.i: CTGenericAPI/GenericApiCore.cpp.i
 
 # target to preprocess a source file
 CTGenericAPI/GenericApiCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericApiCore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericApiCore.cpp.i
 .PHONY : CTGenericAPI/GenericApiCore.cpp.i
 
 CTGenericAPI/GenericApiCore.s: CTGenericAPI/GenericApiCore.cpp.s
@@ -247,7 +247,7 @@ CTGenericAPI/GenericApiCore.s: CTGenericAPI/GenericApiCore.cpp.s
 
 # target to generate assembly for a file
 CTGenericAPI/GenericApiCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericApiCore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericApiCore.cpp.s
 .PHONY : CTGenericAPI/GenericApiCore.cpp.s
 
 CTGenericAPI/GenericConnection.o: CTGenericAPI/GenericConnection.cpp.o
@@ -255,7 +255,7 @@ CTGenericAPI/GenericConnection.o: CTGenericAPI/GenericConnection.cpp.o
 
 # target to build an object file
 CTGenericAPI/GenericConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericConnection.cpp.o
 .PHONY : CTGenericAPI/GenericConnection.cpp.o
 
 CTGenericAPI/GenericConnection.i: CTGenericAPI/GenericConnection.cpp.i
@@ -263,7 +263,7 @@ CTGenericAPI/GenericConnection.i: CTGenericAPI/GenericConnection.cpp.i
 
 # target to preprocess a source file
 CTGenericAPI/GenericConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericConnection.cpp.i
 .PHONY : CTGenericAPI/GenericConnection.cpp.i
 
 CTGenericAPI/GenericConnection.s: CTGenericAPI/GenericConnection.cpp.s
@@ -271,7 +271,7 @@ CTGenericAPI/GenericConnection.s: CTGenericAPI/GenericConnection.cpp.s
 
 # target to generate assembly for a file
 CTGenericAPI/GenericConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericConnection.cpp.s
 .PHONY : CTGenericAPI/GenericConnection.cpp.s
 
 CTGenericAPI/GenericMessage.o: CTGenericAPI/GenericMessage.cpp.o
@@ -279,7 +279,7 @@ CTGenericAPI/GenericMessage.o: CTGenericAPI/GenericMessage.cpp.o
 
 # target to build an object file
 CTGenericAPI/GenericMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericMessage.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericMessage.cpp.o
 .PHONY : CTGenericAPI/GenericMessage.cpp.o
 
 CTGenericAPI/GenericMessage.i: CTGenericAPI/GenericMessage.cpp.i
@@ -287,7 +287,7 @@ CTGenericAPI/GenericMessage.i: CTGenericAPI/GenericMessage.cpp.i
 
 # target to preprocess a source file
 CTGenericAPI/GenericMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericMessage.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericMessage.cpp.i
 .PHONY : CTGenericAPI/GenericMessage.cpp.i
 
 CTGenericAPI/GenericMessage.s: CTGenericAPI/GenericMessage.cpp.s
@@ -295,7 +295,7 @@ CTGenericAPI/GenericMessage.s: CTGenericAPI/GenericMessage.cpp.s
 
 # target to generate assembly for a file
 CTGenericAPI/GenericMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericMessage.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTGenericAPI/GenericMessage.cpp.s
 .PHONY : CTGenericAPI/GenericMessage.cpp.s
 
 CTServiceAPI.o: CTServiceAPI.cpp.o
@@ -303,7 +303,7 @@ CTServiceAPI.o: CTServiceAPI.cpp.o
 
 # target to build an object file
 CTServiceAPI.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPI.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPI.cpp.o
 .PHONY : CTServiceAPI.cpp.o
 
 CTServiceAPI.i: CTServiceAPI.cpp.i
@@ -311,7 +311,7 @@ CTServiceAPI.i: CTServiceAPI.cpp.i
 
 # target to preprocess a source file
 CTServiceAPI.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPI.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPI.cpp.i
 .PHONY : CTServiceAPI.cpp.i
 
 CTServiceAPI.s: CTServiceAPI.cpp.s
@@ -319,7 +319,7 @@ CTServiceAPI.s: CTServiceAPI.cpp.s
 
 # target to generate assembly for a file
 CTServiceAPI.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPI.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPI.cpp.s
 .PHONY : CTServiceAPI.cpp.s
 
 CTServiceAPICore.o: CTServiceAPICore.cpp.o
@@ -327,7 +327,7 @@ CTServiceAPICore.o: CTServiceAPICore.cpp.o
 
 # target to build an object file
 CTServiceAPICore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPICore.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPICore.cpp.o
 .PHONY : CTServiceAPICore.cpp.o
 
 CTServiceAPICore.i: CTServiceAPICore.cpp.i
@@ -335,7 +335,7 @@ CTServiceAPICore.i: CTServiceAPICore.cpp.i
 
 # target to preprocess a source file
 CTServiceAPICore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPICore.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPICore.cpp.i
 .PHONY : CTServiceAPICore.cpp.i
 
 CTServiceAPICore.s: CTServiceAPICore.cpp.s
@@ -343,7 +343,7 @@ CTServiceAPICore.s: CTServiceAPICore.cpp.s
 
 # target to generate assembly for a file
 CTServiceAPICore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPICore.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/CTServiceAPICore.cpp.s
 .PHONY : CTServiceAPICore.cpp.s
 
 Request.o: Request.cpp.o
@@ -351,7 +351,7 @@ Request.o: Request.cpp.o
 
 # target to build an object file
 Request.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Request.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Request.cpp.o
 .PHONY : Request.cpp.o
 
 Request.i: Request.cpp.i
@@ -359,7 +359,7 @@ Request.i: Request.cpp.i
 
 # target to preprocess a source file
 Request.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Request.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Request.cpp.i
 .PHONY : Request.cpp.i
 
 Request.s: Request.cpp.s
@@ -367,7 +367,7 @@ Request.s: Request.cpp.s
 
 # target to generate assembly for a file
 Request.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Request.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Request.cpp.s
 .PHONY : Request.cpp.s
 
 Response.o: Response.cpp.o
@@ -375,7 +375,7 @@ Response.o: Response.cpp.o
 
 # target to build an object file
 Response.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Response.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Response.cpp.o
 .PHONY : Response.cpp.o
 
 Response.i: Response.cpp.i
@@ -383,7 +383,7 @@ Response.i: Response.cpp.i
 
 # target to preprocess a source file
 Response.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Response.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Response.cpp.i
 .PHONY : Response.cpp.i
 
 Response.s: Response.cpp.s
@@ -391,7 +391,7 @@ Response.s: Response.cpp.s
 
 # target to generate assembly for a file
 Response.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Response.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Response.cpp.s
 .PHONY : Response.cpp.s
 
 TcpLibrary/Clock.o: TcpLibrary/Clock.cpp.o
@@ -399,7 +399,7 @@ TcpLibrary/Clock.o: TcpLibrary/Clock.cpp.o
 
 # target to build an object file
 TcpLibrary/Clock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/Clock.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/Clock.cpp.o
 .PHONY : TcpLibrary/Clock.cpp.o
 
 TcpLibrary/Clock.i: TcpLibrary/Clock.cpp.i
@@ -407,7 +407,7 @@ TcpLibrary/Clock.i: TcpLibrary/Clock.cpp.i
 
 # target to preprocess a source file
 TcpLibrary/Clock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/Clock.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/Clock.cpp.i
 .PHONY : TcpLibrary/Clock.cpp.i
 
 TcpLibrary/Clock.s: TcpLibrary/Clock.cpp.s
@@ -415,7 +415,7 @@ TcpLibrary/Clock.s: TcpLibrary/Clock.cpp.s
 
 # target to generate assembly for a file
 TcpLibrary/Clock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/Clock.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/Clock.cpp.s
 .PHONY : TcpLibrary/Clock.cpp.s
 
 TcpLibrary/IPAddress.o: TcpLibrary/IPAddress.cpp.o
@@ -423,7 +423,7 @@ TcpLibrary/IPAddress.o: TcpLibrary/IPAddress.cpp.o
 
 # target to build an object file
 TcpLibrary/IPAddress.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/IPAddress.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/IPAddress.cpp.o
 .PHONY : TcpLibrary/IPAddress.cpp.o
 
 TcpLibrary/IPAddress.i: TcpLibrary/IPAddress.cpp.i
@@ -431,7 +431,7 @@ TcpLibrary/IPAddress.i: TcpLibrary/IPAddress.cpp.i
 
 # target to preprocess a source file
 TcpLibrary/IPAddress.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/IPAddress.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/IPAddress.cpp.i
 .PHONY : TcpLibrary/IPAddress.cpp.i
 
 TcpLibrary/IPAddress.s: TcpLibrary/IPAddress.cpp.s
@@ -439,7 +439,7 @@ TcpLibrary/IPAddress.s: TcpLibrary/IPAddress.cpp.s
 
 # target to generate assembly for a file
 TcpLibrary/IPAddress.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/IPAddress.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/IPAddress.cpp.s
 .PHONY : TcpLibrary/IPAddress.cpp.s
 
 TcpLibrary/TcpBlockAllocator.o: TcpLibrary/TcpBlockAllocator.cpp.o
@@ -447,7 +447,7 @@ TcpLibrary/TcpBlockAllocator.o: TcpLibrary/TcpBlockAllocator.cpp.o
 
 # target to build an object file
 TcpLibrary/TcpBlockAllocator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpBlockAllocator.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpBlockAllocator.cpp.o
 .PHONY : TcpLibrary/TcpBlockAllocator.cpp.o
 
 TcpLibrary/TcpBlockAllocator.i: TcpLibrary/TcpBlockAllocator.cpp.i
@@ -455,7 +455,7 @@ TcpLibrary/TcpBlockAllocator.i: TcpLibrary/TcpBlockAllocator.cpp.i
 
 # target to preprocess a source file
 TcpLibrary/TcpBlockAllocator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpBlockAllocator.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpBlockAllocator.cpp.i
 .PHONY : TcpLibrary/TcpBlockAllocator.cpp.i
 
 TcpLibrary/TcpBlockAllocator.s: TcpLibrary/TcpBlockAllocator.cpp.s
@@ -463,7 +463,7 @@ TcpLibrary/TcpBlockAllocator.s: TcpLibrary/TcpBlockAllocator.cpp.s
 
 # target to generate assembly for a file
 TcpLibrary/TcpBlockAllocator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpBlockAllocator.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpBlockAllocator.cpp.s
 .PHONY : TcpLibrary/TcpBlockAllocator.cpp.s
 
 TcpLibrary/TcpConnection.o: TcpLibrary/TcpConnection.cpp.o
@@ -471,7 +471,7 @@ TcpLibrary/TcpConnection.o: TcpLibrary/TcpConnection.cpp.o
 
 # target to build an object file
 TcpLibrary/TcpConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpConnection.cpp.o
 .PHONY : TcpLibrary/TcpConnection.cpp.o
 
 TcpLibrary/TcpConnection.i: TcpLibrary/TcpConnection.cpp.i
@@ -479,7 +479,7 @@ TcpLibrary/TcpConnection.i: TcpLibrary/TcpConnection.cpp.i
 
 # target to preprocess a source file
 TcpLibrary/TcpConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpConnection.cpp.i
 .PHONY : TcpLibrary/TcpConnection.cpp.i
 
 TcpLibrary/TcpConnection.s: TcpLibrary/TcpConnection.cpp.s
@@ -487,7 +487,7 @@ TcpLibrary/TcpConnection.s: TcpLibrary/TcpConnection.cpp.s
 
 # target to generate assembly for a file
 TcpLibrary/TcpConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpConnection.cpp.s
 .PHONY : TcpLibrary/TcpConnection.cpp.s
 
 TcpLibrary/TcpManager.o: TcpLibrary/TcpManager.cpp.o
@@ -495,7 +495,7 @@ TcpLibrary/TcpManager.o: TcpLibrary/TcpManager.cpp.o
 
 # target to build an object file
 TcpLibrary/TcpManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpManager.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpManager.cpp.o
 .PHONY : TcpLibrary/TcpManager.cpp.o
 
 TcpLibrary/TcpManager.i: TcpLibrary/TcpManager.cpp.i
@@ -503,7 +503,7 @@ TcpLibrary/TcpManager.i: TcpLibrary/TcpManager.cpp.i
 
 # target to preprocess a source file
 TcpLibrary/TcpManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpManager.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpManager.cpp.i
 .PHONY : TcpLibrary/TcpManager.cpp.i
 
 TcpLibrary/TcpManager.s: TcpLibrary/TcpManager.cpp.s
@@ -511,7 +511,7 @@ TcpLibrary/TcpManager.s: TcpLibrary/TcpManager.cpp.s
 
 # target to generate assembly for a file
 TcpLibrary/TcpManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpManager.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpManager.cpp.s
 .PHONY : TcpLibrary/TcpManager.cpp.s
 
 Unicode/FirstUnicode.o: Unicode/FirstUnicode.cpp.o
@@ -519,7 +519,7 @@ Unicode/FirstUnicode.o: Unicode/FirstUnicode.cpp.o
 
 # target to build an object file
 Unicode/FirstUnicode.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/FirstUnicode.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/FirstUnicode.cpp.o
 .PHONY : Unicode/FirstUnicode.cpp.o
 
 Unicode/FirstUnicode.i: Unicode/FirstUnicode.cpp.i
@@ -527,7 +527,7 @@ Unicode/FirstUnicode.i: Unicode/FirstUnicode.cpp.i
 
 # target to preprocess a source file
 Unicode/FirstUnicode.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/FirstUnicode.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/FirstUnicode.cpp.i
 .PHONY : Unicode/FirstUnicode.cpp.i
 
 Unicode/FirstUnicode.s: Unicode/FirstUnicode.cpp.s
@@ -535,7 +535,7 @@ Unicode/FirstUnicode.s: Unicode/FirstUnicode.cpp.s
 
 # target to generate assembly for a file
 Unicode/FirstUnicode.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/FirstUnicode.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/FirstUnicode.cpp.s
 .PHONY : Unicode/FirstUnicode.cpp.s
 
 Unicode/Unicode.o: Unicode/Unicode.cpp.o
@@ -543,7 +543,7 @@ Unicode/Unicode.o: Unicode/Unicode.cpp.o
 
 # target to build an object file
 Unicode/Unicode.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/Unicode.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/Unicode.cpp.o
 .PHONY : Unicode/Unicode.cpp.o
 
 Unicode/Unicode.i: Unicode/Unicode.cpp.i
@@ -551,7 +551,7 @@ Unicode/Unicode.i: Unicode/Unicode.cpp.i
 
 # target to preprocess a source file
 Unicode/Unicode.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/Unicode.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/Unicode.cpp.i
 .PHONY : Unicode/Unicode.cpp.i
 
 Unicode/Unicode.s: Unicode/Unicode.cpp.s
@@ -559,7 +559,7 @@ Unicode/Unicode.s: Unicode/Unicode.cpp.s
 
 # target to generate assembly for a file
 Unicode/Unicode.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/Unicode.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/Unicode.cpp.s
 .PHONY : Unicode/Unicode.cpp.s
 
 Unicode/UnicodeBlocks.o: Unicode/UnicodeBlocks.cpp.o
@@ -567,7 +567,7 @@ Unicode/UnicodeBlocks.o: Unicode/UnicodeBlocks.cpp.o
 
 # target to build an object file
 Unicode/UnicodeBlocks.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeBlocks.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeBlocks.cpp.o
 .PHONY : Unicode/UnicodeBlocks.cpp.o
 
 Unicode/UnicodeBlocks.i: Unicode/UnicodeBlocks.cpp.i
@@ -575,7 +575,7 @@ Unicode/UnicodeBlocks.i: Unicode/UnicodeBlocks.cpp.i
 
 # target to preprocess a source file
 Unicode/UnicodeBlocks.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeBlocks.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeBlocks.cpp.i
 .PHONY : Unicode/UnicodeBlocks.cpp.i
 
 Unicode/UnicodeBlocks.s: Unicode/UnicodeBlocks.cpp.s
@@ -583,7 +583,7 @@ Unicode/UnicodeBlocks.s: Unicode/UnicodeBlocks.cpp.s
 
 # target to generate assembly for a file
 Unicode/UnicodeBlocks.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeBlocks.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeBlocks.cpp.s
 .PHONY : Unicode/UnicodeBlocks.cpp.s
 
 Unicode/UnicodeCharacterData.o: Unicode/UnicodeCharacterData.cpp.o
@@ -591,7 +591,7 @@ Unicode/UnicodeCharacterData.o: Unicode/UnicodeCharacterData.cpp.o
 
 # target to build an object file
 Unicode/UnicodeCharacterData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterData.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterData.cpp.o
 .PHONY : Unicode/UnicodeCharacterData.cpp.o
 
 Unicode/UnicodeCharacterData.i: Unicode/UnicodeCharacterData.cpp.i
@@ -599,7 +599,7 @@ Unicode/UnicodeCharacterData.i: Unicode/UnicodeCharacterData.cpp.i
 
 # target to preprocess a source file
 Unicode/UnicodeCharacterData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterData.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterData.cpp.i
 .PHONY : Unicode/UnicodeCharacterData.cpp.i
 
 Unicode/UnicodeCharacterData.s: Unicode/UnicodeCharacterData.cpp.s
@@ -607,7 +607,7 @@ Unicode/UnicodeCharacterData.s: Unicode/UnicodeCharacterData.cpp.s
 
 # target to generate assembly for a file
 Unicode/UnicodeCharacterData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterData.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterData.cpp.s
 .PHONY : Unicode/UnicodeCharacterData.cpp.s
 
 Unicode/UnicodeCharacterDataMap.o: Unicode/UnicodeCharacterDataMap.cpp.o
@@ -615,7 +615,7 @@ Unicode/UnicodeCharacterDataMap.o: Unicode/UnicodeCharacterDataMap.cpp.o
 
 # target to build an object file
 Unicode/UnicodeCharacterDataMap.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterDataMap.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterDataMap.cpp.o
 .PHONY : Unicode/UnicodeCharacterDataMap.cpp.o
 
 Unicode/UnicodeCharacterDataMap.i: Unicode/UnicodeCharacterDataMap.cpp.i
@@ -623,7 +623,7 @@ Unicode/UnicodeCharacterDataMap.i: Unicode/UnicodeCharacterDataMap.cpp.i
 
 # target to preprocess a source file
 Unicode/UnicodeCharacterDataMap.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterDataMap.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterDataMap.cpp.i
 .PHONY : Unicode/UnicodeCharacterDataMap.cpp.i
 
 Unicode/UnicodeCharacterDataMap.s: Unicode/UnicodeCharacterDataMap.cpp.s
@@ -631,7 +631,7 @@ Unicode/UnicodeCharacterDataMap.s: Unicode/UnicodeCharacterDataMap.cpp.s
 
 # target to generate assembly for a file
 Unicode/UnicodeCharacterDataMap.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterDataMap.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeCharacterDataMap.cpp.s
 .PHONY : Unicode/UnicodeCharacterDataMap.cpp.s
 
 Unicode/UnicodeUtils.o: Unicode/UnicodeUtils.cpp.o
@@ -639,7 +639,7 @@ Unicode/UnicodeUtils.o: Unicode/UnicodeUtils.cpp.o
 
 # target to build an object file
 Unicode/UnicodeUtils.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeUtils.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeUtils.cpp.o
 .PHONY : Unicode/UnicodeUtils.cpp.o
 
 Unicode/UnicodeUtils.i: Unicode/UnicodeUtils.cpp.i
@@ -647,7 +647,7 @@ Unicode/UnicodeUtils.i: Unicode/UnicodeUtils.cpp.i
 
 # target to preprocess a source file
 Unicode/UnicodeUtils.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeUtils.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeUtils.cpp.i
 .PHONY : Unicode/UnicodeUtils.cpp.i
 
 Unicode/UnicodeUtils.s: Unicode/UnicodeUtils.cpp.s
@@ -655,7 +655,7 @@ Unicode/UnicodeUtils.s: Unicode/UnicodeUtils.cpp.s
 
 # target to generate assembly for a file
 Unicode/UnicodeUtils.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeUtils.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/build.make external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/Unicode/UnicodeUtils.cpp.s
 .PHONY : Unicode/UnicodeUtils.cpp.s
 
 # Help Target
@@ -744,6 +744,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

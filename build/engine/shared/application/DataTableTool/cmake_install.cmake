@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool
+# Install script for directory: /home/swg1/swg-main/src/engine/shared/application/DataTableTool
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src/cmake_install.cmake")
+  include("/home/swg1/swg-main/build/engine/shared/application/DataTableTool/src/cmake_install.cmake")
 
 endif()
 

@@ -270,19 +270,19 @@ badge_book				0	-1	-1																		sound/music_acq_miner.snd	gray	0	0						0
 			new_prof_crafting_tailor_master	189	-1	-1																		NONE	none	0	0						0	0
 			new_prof_crafting_weaponsmith_master	190	-1	-1																		NONE	none	0	0						0	0
 			new_prof_outdoors_bio_engineer_master	191	-1	-1																		NONE	none	0	0						0	0
-			new_prof_social_dancer_master	192	-1	-1																		NONE	none	0	0						0	0
-			new_prof_social_entertainer_master	193	-1	-1																		NONE	none	0	0						0	0
 			new_prof_social_imagedesigner_master	194	-1	-1																		NONE	none	0	0						0	0
 			new_prof_social_musician_master	195	-1	-1																		NONE	none	0	0						0	0
 			new_prof_social_politician_master	196	-1	-1																		NONE	none	0	0						0	0
 			new_prof_crafting_shipwright	197	-1	-1																		NONE	none	0	0						0	0
-			new_prof_jedi_master	198	-1	-1																		NONE	none	0	1						0	0
+			new_prof_squad_leader_master	198	-1	-1																		NONE	none	0	0						0	0
 			new_prof_smuggler_master	199	-1	-1																		NONE	none	0	1						0	0
 			new_prof_bountyhunter_master	200	-1	-1																		NONE	none	0	1						0	0
 			new_prof_commando_master	201	-1	-1																		NONE	none	0	1						0	0
 			new_prof_officer_master	202	-1	-1																		NONE	none	0	1						0	0
 			new_prof_medic_master	203	-1	-1																		NONE	none	0	1						0	0
 			new_prof_spy_master	204	-1	-1																		NONE	none	0	1						0	0
+			new_prof_social_dancer_master	192	-1	-1																		NONE	none	0	0						0	0
+			new_prof_social_entertainer_master	193	-1	-1																		NONE	none	0	0						0	0
 			new_prof_entertainer_master	205	-1	-1																		NONE	none	0	1						0	0
 			new_prof_trader_master	206	-1	-1																		NONE	none	0	1						0	0
 			new_prof_chronicle_master	22096	-1	-1																		NONE	none	0	1						0	0
@@ -6207,3 +6207,4 @@ removed_slots_book				0	-1	-1																		sound/music_acq_miner.snd	gray	1	
 	removed_slots_page			0	-1	-1																		sound/music_acq_miner.snd	gray	1	0						0	0
 		slots_removed		0	-1	-1																		sound/music_acq_miner.snd	gray	1	0						0	0
 			reserved_mail_04_03	16083	-1	-1																		sound/music_acq_miner.snd	gray	0	0						0	0
+

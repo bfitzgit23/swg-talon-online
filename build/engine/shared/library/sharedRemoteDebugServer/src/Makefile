@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg1/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src//CMakeFiles/progress.marks
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/clean
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/preinstall
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/rule
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/rule
 .PHONY : engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedRemoteDebugServer: engine/shared/library/sharedRemoteDebugServer/src/CMake
 
 # fast build rule for target.
 sharedRemoteDebugServer/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build
 .PHONY : sharedRemoteDebugServer/fast
 
 shared/FirstSharedRemoteDebugServer.o: shared/FirstSharedRemoteDebugServer.cpp.o
@@ -135,7 +135,7 @@ shared/FirstSharedRemoteDebugServer.o: shared/FirstSharedRemoteDebugServer.cpp.o
 
 # target to build an object file
 shared/FirstSharedRemoteDebugServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o
 .PHONY : shared/FirstSharedRemoteDebugServer.cpp.o
 
 shared/FirstSharedRemoteDebugServer.i: shared/FirstSharedRemoteDebugServer.cpp.i
@@ -143,7 +143,7 @@ shared/FirstSharedRemoteDebugServer.i: shared/FirstSharedRemoteDebugServer.cpp.i
 
 # target to preprocess a source file
 shared/FirstSharedRemoteDebugServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.i
 .PHONY : shared/FirstSharedRemoteDebugServer.cpp.i
 
 shared/FirstSharedRemoteDebugServer.s: shared/FirstSharedRemoteDebugServer.cpp.s
@@ -151,7 +151,7 @@ shared/FirstSharedRemoteDebugServer.s: shared/FirstSharedRemoteDebugServer.cpp.s
 
 # target to generate assembly for a file
 shared/FirstSharedRemoteDebugServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.s
 .PHONY : shared/FirstSharedRemoteDebugServer.cpp.s
 
 shared/SharedRemoteDebugServer.o: shared/SharedRemoteDebugServer.cpp.o
@@ -159,7 +159,7 @@ shared/SharedRemoteDebugServer.o: shared/SharedRemoteDebugServer.cpp.o
 
 # target to build an object file
 shared/SharedRemoteDebugServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o
 .PHONY : shared/SharedRemoteDebugServer.cpp.o
 
 shared/SharedRemoteDebugServer.i: shared/SharedRemoteDebugServer.cpp.i
@@ -167,7 +167,7 @@ shared/SharedRemoteDebugServer.i: shared/SharedRemoteDebugServer.cpp.i
 
 # target to preprocess a source file
 shared/SharedRemoteDebugServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.i
 .PHONY : shared/SharedRemoteDebugServer.cpp.i
 
 shared/SharedRemoteDebugServer.s: shared/SharedRemoteDebugServer.cpp.s
@@ -175,7 +175,7 @@ shared/SharedRemoteDebugServer.s: shared/SharedRemoteDebugServer.cpp.s
 
 # target to generate assembly for a file
 shared/SharedRemoteDebugServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.s
 .PHONY : shared/SharedRemoteDebugServer.cpp.s
 
 shared/SharedRemoteDebugServerConnection.o: shared/SharedRemoteDebugServerConnection.cpp.o
@@ -183,7 +183,7 @@ shared/SharedRemoteDebugServerConnection.o: shared/SharedRemoteDebugServerConnec
 
 # target to build an object file
 shared/SharedRemoteDebugServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o
 .PHONY : shared/SharedRemoteDebugServerConnection.cpp.o
 
 shared/SharedRemoteDebugServerConnection.i: shared/SharedRemoteDebugServerConnection.cpp.i
@@ -191,7 +191,7 @@ shared/SharedRemoteDebugServerConnection.i: shared/SharedRemoteDebugServerConnec
 
 # target to preprocess a source file
 shared/SharedRemoteDebugServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.i
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.i
 .PHONY : shared/SharedRemoteDebugServerConnection.cpp.i
 
 shared/SharedRemoteDebugServerConnection.s: shared/SharedRemoteDebugServerConnection.cpp.s
@@ -199,7 +199,7 @@ shared/SharedRemoteDebugServerConnection.s: shared/SharedRemoteDebugServerConnec
 
 # target to generate assembly for a file
 shared/SharedRemoteDebugServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.s
+	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.s
 .PHONY : shared/SharedRemoteDebugServerConnection.cpp.s
 
 # Help Target
@@ -231,6 +231,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

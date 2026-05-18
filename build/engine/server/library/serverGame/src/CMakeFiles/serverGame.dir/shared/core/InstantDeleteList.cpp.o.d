@@ -1,13 +1,13 @@
 engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/shared/core/InstantDeleteList.cpp.o: \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverGame/src/shared/core/InstantDeleteList.cpp \
+ /home/swg1/swg-main/src/engine/server/library/serverGame/src/shared/core/InstantDeleteList.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverGame/include/public/serverGame/FirstServerGame.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverGame/include/public/../../src/shared/core/FirstServerGame.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
+ /home/swg1/swg-main/src/engine/server/library/serverGame/include/public/serverGame/FirstServerGame.h \
+ /home/swg1/swg-main/src/engine/server/library/serverGame/include/public/../../src/shared/core/FirstServerGame.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
  /usr/include/c++/8/cstdio \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -25,8 +25,8 @@ engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/shared/core/Insta
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
  /usr/include/c++/8/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
@@ -88,8 +88,8 @@ engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/shared/core/Insta
  /usr/include/string.h /usr/include/strings.h /usr/include/wchar.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
  /usr/include/netinet/in.h /usr/include/bits/stdint-uintn.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
@@ -116,14 +116,14 @@ engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/shared/core/Insta
  /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h /usr/include/c++/8/cfloat \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/allocator.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++allocator.h \
  /usr/include/c++/8/ext/new_allocator.h /usr/include/c++/8/new \
@@ -181,43 +181,43 @@ engine/server/library/serverGame/src/CMakeFiles/serverGame.dir/shared/core/Insta
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_queue.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h /usr/include/c++/8/bits/list.tcc \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverGame/include/public/serverGame/InstantDeleteList.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverGame/include/public/../../src/shared/core/InstantDeleteList.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverGame/include/public/serverGame/ConfigServerGame.h \
- /home/almalinux/swg-talon-online/src/engine/server/library/serverGame/include/public/../../src/shared/core/ConfigServerGame.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkId.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkId.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/ConstCharCrcString.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/ConstCharCrcString.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/CrcString.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/CrcString.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/ExitChain.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/ExitChain.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/CallStack.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/CallStack.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedObject/include/public/sharedObject/ObjectTemplate.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedObject/include/public/../../src/shared/object/ObjectTemplate.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/DataResource.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/DataResource.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PersistentCrcString.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/PersistentCrcString.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Tag.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedObject/include/public/sharedObject/ObjectTemplateList.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedObject/include/public/../../src/shared/object/ObjectTemplateList.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedUtility/include/public/sharedUtility/DataTable.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedUtility/include/public/../../src/shared/DataTable.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedUtility/include/public/../../src/shared/DataTableCell.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedUtility/include/public/../../src/shared/DataTableColumnType.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedUtility/include/public/sharedUtility/DataTableManager.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedUtility/include/public/../../src/shared/DataTableManager.h
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
+ /home/swg1/swg-main/src/engine/server/library/serverGame/include/public/serverGame/InstantDeleteList.h \
+ /home/swg1/swg-main/src/engine/server/library/serverGame/include/public/../../src/shared/core/InstantDeleteList.h \
+ /home/swg1/swg-main/src/engine/server/library/serverGame/include/public/serverGame/ConfigServerGame.h \
+ /home/swg1/swg-main/src/engine/server/library/serverGame/include/public/../../src/shared/core/ConfigServerGame.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkId.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkId.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/ConstCharCrcString.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/ConstCharCrcString.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/CrcString.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/CrcString.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/ExitChain.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/ExitChain.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/CallStack.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/CallStack.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedObject/include/public/sharedObject/ObjectTemplate.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedObject/include/public/../../src/shared/object/ObjectTemplate.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/DataResource.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/DataResource.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PersistentCrcString.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/PersistentCrcString.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Tag.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Tag.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedObject/include/public/sharedObject/ObjectTemplateList.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedObject/include/public/../../src/shared/object/ObjectTemplateList.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedUtility/include/public/sharedUtility/DataTable.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedUtility/include/public/../../src/shared/DataTable.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedUtility/include/public/../../src/shared/DataTableCell.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedUtility/include/public/../../src/shared/DataTableColumnType.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedUtility/include/public/sharedUtility/DataTableManager.h \
+ /home/swg1/swg-main/src/engine/shared/library/sharedUtility/include/public/../../src/shared/DataTableManager.h

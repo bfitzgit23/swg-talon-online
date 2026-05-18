@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp" "external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o" "gcc" "external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp" "external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o" "gcc" "external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o.d"
+  "/home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorAPI.cpp" "external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o" "gcc" "external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o.d"
+  "/home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp" "external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o" "gcc" "external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.
