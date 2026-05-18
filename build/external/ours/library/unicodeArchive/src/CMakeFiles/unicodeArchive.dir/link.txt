@@ -1,2 +1,0 @@
-/bin/ar qc libunicodeArchive.a CMakeFiles/unicodeArchive.dir/shared/UnicodeArchive.cpp.o CMakeFiles/unicodeArchive.dir/shared/UnicodeAutoDeltaPackedMap.cpp.o
-/bin/ranlib libunicodeArchive.a

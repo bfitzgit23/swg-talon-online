@@ -1,3 +1,0 @@
-
-add_subdirectory(SwgDatabaseServer)
-add_subdirectory(SwgGameServer)

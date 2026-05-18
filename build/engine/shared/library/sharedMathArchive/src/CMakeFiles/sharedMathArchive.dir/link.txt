@@ -1,2 +1,0 @@
-/bin/ar qc libsharedMathArchive.a 
-/bin/ranlib libsharedMathArchive.a

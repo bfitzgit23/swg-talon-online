@@ -1,2 +1,0 @@
-/bin/ar qc libsharedFoundationTypes.a 
-/bin/ranlib libsharedFoundationTypes.a

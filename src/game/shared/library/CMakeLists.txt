@@ -1,3 +1,0 @@
-
-add_subdirectory(swgSharedNetworkMessages)
-add_subdirectory(swgSharedUtility)

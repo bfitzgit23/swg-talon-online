@@ -1,2 +1,0 @@
-/bin/ar qc libserverKeyShare.a CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o
-/bin/ranlib libserverKeyShare.a

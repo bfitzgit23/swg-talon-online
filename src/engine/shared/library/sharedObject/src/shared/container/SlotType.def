@@ -1,6 +1,0 @@
-#ifndef _SLOT_TYPE_DEF
-#define _SLOT_TYPE_DEF
-
-typedef int SlotType;
-
-#endif

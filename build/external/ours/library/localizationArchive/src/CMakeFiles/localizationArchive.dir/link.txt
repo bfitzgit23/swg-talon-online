@@ -1,2 +1,0 @@
-/bin/ar qc liblocalizationArchive.a CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o
-/bin/ranlib liblocalizationArchive.a

@@ -1,2 +1,0 @@
-/bin/ar qc libfileInterface.a CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o
-/bin/ranlib libfileInterface.a

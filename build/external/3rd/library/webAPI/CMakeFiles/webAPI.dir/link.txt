@@ -1,2 +1,0 @@
-/bin/ar qc libwebAPI.a CMakeFiles/webAPI.dir/webAPI.cpp.o CMakeFiles/webAPI.dir/jsonWebAPI.cpp.o
-/bin/ranlib libwebAPI.a
