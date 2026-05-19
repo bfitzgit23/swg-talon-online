@@ -1,4 +1,4 @@
-# Install script for directory: /home/swg1/swg-main/src/game/server/application/SwgDatabaseServer/src
+# Install script for directory: /home/almalinux/swg-talon-online/src/game/server/application/SwgDatabaseServer/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

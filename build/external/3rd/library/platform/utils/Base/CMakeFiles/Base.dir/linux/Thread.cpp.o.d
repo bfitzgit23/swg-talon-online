@@ -1,5 +1,5 @@
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Thread.cpp \
  /usr/include/stdc-predef.h /usr/include/pthread.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -19,7 +19,7 @@ external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o:
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/bits/pthreadtypes.h /usr/include/bits/thread-shared-types.h \
  /usr/include/bits/pthreadtypes-arch.h /usr/include/bits/setjmp.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Thread.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Thread.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -104,7 +104,7 @@ external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o:
  /usr/include/c++/8/bits/basic_string.tcc \
  /usr/include/c++/8/bits/enable_special_members.h \
  /usr/include/c++/8/bits/stl_set.h /usr/include/c++/8/bits/stl_multiset.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
  /usr/include/assert.h /usr/include/sys/errno.h /usr/include/resolv.h \
  /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
@@ -150,7 +150,7 @@ external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/linux/Thread.cpp.o:
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Mutex.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Event.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Event.h

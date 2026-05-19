@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/depend.make
@@ -70,74 +70,74 @@ include engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessage
 include engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/flags.make
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/flags.make
-engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Emitter.cpp
+engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Emitter.cpp
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Emitter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Emitter.cpp
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.i"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Emitter.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Emitter.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.i
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.s"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Emitter.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Emitter.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/Emitter.cpp.s
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/flags.make
-engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Message.cpp
+engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Message.cpp
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Message.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Message.cpp
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.i"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Message.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Message.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.i
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.s"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Message.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Message.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/Message.cpp.s
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/flags.make
-engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/MessageManager.cpp
+engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/MessageManager.cpp
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/MessageManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/MessageManager.cpp
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.i"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/MessageManager.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/MessageManager.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.i
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.s"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/MessageManager.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/MessageManager.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/MessageManager.cpp.s
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/flags.make
-engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Receiver.cpp
+engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Receiver.cpp
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Receiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Receiver.cpp
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.i"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Receiver.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Receiver.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.i
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.s"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Receiver.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Receiver.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/Receiver.cpp.s
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/flags.make
-engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o: /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Transceiver.cpp
+engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Transceiver.cpp
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o -c /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Transceiver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o -MF CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o.d -o CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Transceiver.cpp
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.i"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Transceiver.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Transceiver.cpp > CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.i
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.s"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src/shared/Transceiver.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src/shared/Transceiver.cpp -o CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.s
 
 # Object files for target sharedMessageDispatch
 sharedMessageDispatch_OBJECTS = \
@@ -157,19 +157,19 @@ engine/shared/library/sharedMessageDispatch/src/libsharedMessageDispatch.a: engi
 engine/shared/library/sharedMessageDispatch/src/libsharedMessageDispatch.a: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/shared/Transceiver.cpp.o
 engine/shared/library/sharedMessageDispatch/src/libsharedMessageDispatch.a: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build.make
 engine/shared/library/sharedMessageDispatch/src/libsharedMessageDispatch.a: engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsharedMessageDispatch.a"
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedMessageDispatch.dir/cmake_clean_target.cmake
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedMessageDispatch.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libsharedMessageDispatch.a"
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedMessageDispatch.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedMessageDispatch.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build: engine/shared/library/sharedMessageDispatch/src/libsharedMessageDispatch.a
 .PHONY : engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/build
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/clean:
-	cd /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedMessageDispatch.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedMessageDispatch.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/clean
 
 engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/engine/shared/library/sharedMessageDispatch/src /home/swg1/swg-main/build /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src /home/swg1/swg-main/build/engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedMessageDispatch/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src /home/almalinux/swg-talon-online/build/engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedMessageDispatch/src/CMakeFiles/sharedMessageDispatch.dir/depend
 

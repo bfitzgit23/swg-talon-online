@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/server/application/ConnectionServer/src//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/ConnectionServer/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/rule
 .PHONY : engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ConnectionServer: engine/server/application/ConnectionServer/src/CMakeFiles/Conn
 
 # fast build rule for target.
 ConnectionServer/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build
 .PHONY : ConnectionServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/linux/main.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/CentralConnection.o: shared/CentralConnection.cpp.o
@@ -159,7 +159,7 @@ shared/CentralConnection.o: shared/CentralConnection.cpp.o
 
 # target to build an object file
 shared/CentralConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CentralConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CentralConnection.cpp.o
 .PHONY : shared/CentralConnection.cpp.o
 
 shared/CentralConnection.i: shared/CentralConnection.cpp.i
@@ -167,7 +167,7 @@ shared/CentralConnection.i: shared/CentralConnection.cpp.i
 
 # target to preprocess a source file
 shared/CentralConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CentralConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CentralConnection.cpp.i
 .PHONY : shared/CentralConnection.cpp.i
 
 shared/CentralConnection.s: shared/CentralConnection.cpp.s
@@ -175,7 +175,7 @@ shared/CentralConnection.s: shared/CentralConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CentralConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CentralConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CentralConnection.cpp.s
 .PHONY : shared/CentralConnection.cpp.s
 
 shared/ChatServerConnection.o: shared/ChatServerConnection.cpp.o
@@ -183,7 +183,7 @@ shared/ChatServerConnection.o: shared/ChatServerConnection.cpp.o
 
 # target to build an object file
 shared/ChatServerConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ChatServerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ChatServerConnection.cpp.o
 .PHONY : shared/ChatServerConnection.cpp.o
 
 shared/ChatServerConnection.i: shared/ChatServerConnection.cpp.i
@@ -191,7 +191,7 @@ shared/ChatServerConnection.i: shared/ChatServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/ChatServerConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ChatServerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ChatServerConnection.cpp.i
 .PHONY : shared/ChatServerConnection.cpp.i
 
 shared/ChatServerConnection.s: shared/ChatServerConnection.cpp.s
@@ -199,7 +199,7 @@ shared/ChatServerConnection.s: shared/ChatServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ChatServerConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ChatServerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ChatServerConnection.cpp.s
 .PHONY : shared/ChatServerConnection.cpp.s
 
 shared/Client.o: shared/Client.cpp.o
@@ -207,7 +207,7 @@ shared/Client.o: shared/Client.cpp.o
 
 # target to build an object file
 shared/Client.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/Client.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/Client.cpp.o
 .PHONY : shared/Client.cpp.o
 
 shared/Client.i: shared/Client.cpp.i
@@ -215,7 +215,7 @@ shared/Client.i: shared/Client.cpp.i
 
 # target to preprocess a source file
 shared/Client.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/Client.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/Client.cpp.i
 .PHONY : shared/Client.cpp.i
 
 shared/Client.s: shared/Client.cpp.s
@@ -223,7 +223,7 @@ shared/Client.s: shared/Client.cpp.s
 
 # target to generate assembly for a file
 shared/Client.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/Client.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/Client.cpp.s
 .PHONY : shared/Client.cpp.s
 
 shared/ClientConnection.o: shared/ClientConnection.cpp.o
@@ -231,7 +231,7 @@ shared/ClientConnection.o: shared/ClientConnection.cpp.o
 
 # target to build an object file
 shared/ClientConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ClientConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ClientConnection.cpp.o
 .PHONY : shared/ClientConnection.cpp.o
 
 shared/ClientConnection.i: shared/ClientConnection.cpp.i
@@ -239,7 +239,7 @@ shared/ClientConnection.i: shared/ClientConnection.cpp.i
 
 # target to preprocess a source file
 shared/ClientConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ClientConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ClientConnection.cpp.i
 .PHONY : shared/ClientConnection.cpp.i
 
 shared/ClientConnection.s: shared/ClientConnection.cpp.s
@@ -247,7 +247,7 @@ shared/ClientConnection.s: shared/ClientConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ClientConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ClientConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ClientConnection.cpp.s
 .PHONY : shared/ClientConnection.cpp.s
 
 shared/ConfigConnectionServer.o: shared/ConfigConnectionServer.cpp.o
@@ -255,7 +255,7 @@ shared/ConfigConnectionServer.o: shared/ConfigConnectionServer.cpp.o
 
 # target to build an object file
 shared/ConfigConnectionServer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConfigConnectionServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConfigConnectionServer.cpp.o
 .PHONY : shared/ConfigConnectionServer.cpp.o
 
 shared/ConfigConnectionServer.i: shared/ConfigConnectionServer.cpp.i
@@ -263,7 +263,7 @@ shared/ConfigConnectionServer.i: shared/ConfigConnectionServer.cpp.i
 
 # target to preprocess a source file
 shared/ConfigConnectionServer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConfigConnectionServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConfigConnectionServer.cpp.i
 .PHONY : shared/ConfigConnectionServer.cpp.i
 
 shared/ConfigConnectionServer.s: shared/ConfigConnectionServer.cpp.s
@@ -271,7 +271,7 @@ shared/ConfigConnectionServer.s: shared/ConfigConnectionServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigConnectionServer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConfigConnectionServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConfigConnectionServer.cpp.s
 .PHONY : shared/ConfigConnectionServer.cpp.s
 
 shared/ConnectionServer.o: shared/ConnectionServer.cpp.o
@@ -279,7 +279,7 @@ shared/ConnectionServer.o: shared/ConnectionServer.cpp.o
 
 # target to build an object file
 shared/ConnectionServer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServer.cpp.o
 .PHONY : shared/ConnectionServer.cpp.o
 
 shared/ConnectionServer.i: shared/ConnectionServer.cpp.i
@@ -287,7 +287,7 @@ shared/ConnectionServer.i: shared/ConnectionServer.cpp.i
 
 # target to preprocess a source file
 shared/ConnectionServer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServer.cpp.i
 .PHONY : shared/ConnectionServer.cpp.i
 
 shared/ConnectionServer.s: shared/ConnectionServer.cpp.s
@@ -295,7 +295,7 @@ shared/ConnectionServer.s: shared/ConnectionServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConnectionServer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServer.cpp.s
 .PHONY : shared/ConnectionServer.cpp.s
 
 shared/ConnectionServerMetricsData.o: shared/ConnectionServerMetricsData.cpp.o
@@ -303,7 +303,7 @@ shared/ConnectionServerMetricsData.o: shared/ConnectionServerMetricsData.cpp.o
 
 # target to build an object file
 shared/ConnectionServerMetricsData.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServerMetricsData.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServerMetricsData.cpp.o
 .PHONY : shared/ConnectionServerMetricsData.cpp.o
 
 shared/ConnectionServerMetricsData.i: shared/ConnectionServerMetricsData.cpp.i
@@ -311,7 +311,7 @@ shared/ConnectionServerMetricsData.i: shared/ConnectionServerMetricsData.cpp.i
 
 # target to preprocess a source file
 shared/ConnectionServerMetricsData.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServerMetricsData.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServerMetricsData.cpp.i
 .PHONY : shared/ConnectionServerMetricsData.cpp.i
 
 shared/ConnectionServerMetricsData.s: shared/ConnectionServerMetricsData.cpp.s
@@ -319,7 +319,7 @@ shared/ConnectionServerMetricsData.s: shared/ConnectionServerMetricsData.cpp.s
 
 # target to generate assembly for a file
 shared/ConnectionServerMetricsData.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServerMetricsData.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/ConnectionServerMetricsData.cpp.s
 .PHONY : shared/ConnectionServerMetricsData.cpp.s
 
 shared/CustomerServiceConnection.o: shared/CustomerServiceConnection.cpp.o
@@ -327,7 +327,7 @@ shared/CustomerServiceConnection.o: shared/CustomerServiceConnection.cpp.o
 
 # target to build an object file
 shared/CustomerServiceConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CustomerServiceConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CustomerServiceConnection.cpp.o
 .PHONY : shared/CustomerServiceConnection.cpp.o
 
 shared/CustomerServiceConnection.i: shared/CustomerServiceConnection.cpp.i
@@ -335,7 +335,7 @@ shared/CustomerServiceConnection.i: shared/CustomerServiceConnection.cpp.i
 
 # target to preprocess a source file
 shared/CustomerServiceConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CustomerServiceConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CustomerServiceConnection.cpp.i
 .PHONY : shared/CustomerServiceConnection.cpp.i
 
 shared/CustomerServiceConnection.s: shared/CustomerServiceConnection.cpp.s
@@ -343,7 +343,7 @@ shared/CustomerServiceConnection.s: shared/CustomerServiceConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CustomerServiceConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CustomerServiceConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/CustomerServiceConnection.cpp.s
 .PHONY : shared/CustomerServiceConnection.cpp.s
 
 shared/GameConnection.o: shared/GameConnection.cpp.o
@@ -351,7 +351,7 @@ shared/GameConnection.o: shared/GameConnection.cpp.o
 
 # target to build an object file
 shared/GameConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/GameConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/GameConnection.cpp.o
 .PHONY : shared/GameConnection.cpp.o
 
 shared/GameConnection.i: shared/GameConnection.cpp.i
@@ -359,7 +359,7 @@ shared/GameConnection.i: shared/GameConnection.cpp.i
 
 # target to preprocess a source file
 shared/GameConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/GameConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/GameConnection.cpp.i
 .PHONY : shared/GameConnection.cpp.i
 
 shared/GameConnection.s: shared/GameConnection.cpp.s
@@ -367,7 +367,7 @@ shared/GameConnection.s: shared/GameConnection.cpp.s
 
 # target to generate assembly for a file
 shared/GameConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/GameConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/GameConnection.cpp.s
 .PHONY : shared/GameConnection.cpp.s
 
 shared/PseudoClientConnection.o: shared/PseudoClientConnection.cpp.o
@@ -375,7 +375,7 @@ shared/PseudoClientConnection.o: shared/PseudoClientConnection.cpp.o
 
 # target to build an object file
 shared/PseudoClientConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/PseudoClientConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/PseudoClientConnection.cpp.o
 .PHONY : shared/PseudoClientConnection.cpp.o
 
 shared/PseudoClientConnection.i: shared/PseudoClientConnection.cpp.i
@@ -383,7 +383,7 @@ shared/PseudoClientConnection.i: shared/PseudoClientConnection.cpp.i
 
 # target to preprocess a source file
 shared/PseudoClientConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/PseudoClientConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/PseudoClientConnection.cpp.i
 .PHONY : shared/PseudoClientConnection.cpp.i
 
 shared/PseudoClientConnection.s: shared/PseudoClientConnection.cpp.s
@@ -391,7 +391,7 @@ shared/PseudoClientConnection.s: shared/PseudoClientConnection.cpp.s
 
 # target to generate assembly for a file
 shared/PseudoClientConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/PseudoClientConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/PseudoClientConnection.cpp.s
 .PHONY : shared/PseudoClientConnection.cpp.s
 
 shared/SessionApiClient.o: shared/SessionApiClient.cpp.o
@@ -399,7 +399,7 @@ shared/SessionApiClient.o: shared/SessionApiClient.cpp.o
 
 # target to build an object file
 shared/SessionApiClient.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/SessionApiClient.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/SessionApiClient.cpp.o
 .PHONY : shared/SessionApiClient.cpp.o
 
 shared/SessionApiClient.i: shared/SessionApiClient.cpp.i
@@ -407,7 +407,7 @@ shared/SessionApiClient.i: shared/SessionApiClient.cpp.i
 
 # target to preprocess a source file
 shared/SessionApiClient.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/SessionApiClient.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/SessionApiClient.cpp.i
 .PHONY : shared/SessionApiClient.cpp.i
 
 shared/SessionApiClient.s: shared/SessionApiClient.cpp.s
@@ -415,7 +415,7 @@ shared/SessionApiClient.s: shared/SessionApiClient.cpp.s
 
 # target to generate assembly for a file
 shared/SessionApiClient.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/SessionApiClient.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/build.make engine/server/application/ConnectionServer/src/CMakeFiles/ConnectionServer.dir/shared/SessionApiClient.cpp.s
 .PHONY : shared/SessionApiClient.cpp.s
 
 # Help Target
@@ -474,6 +474,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

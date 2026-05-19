@@ -1,4 +1,4 @@
-# Install script for directory: /home/swg1/swg-main/src/engine/server/application/TaskManager
+# Install script for directory: /home/almalinux/swg-talon-online/src/engine/server/application/TaskManager
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,7 +44,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/swg1/swg-main/build/engine/server/application/TaskManager/src/cmake_install.cmake")
+  include("/home/almalinux/swg-talon-online/build/engine/server/application/TaskManager/src/cmake_install.cmake")
 
 endif()
 

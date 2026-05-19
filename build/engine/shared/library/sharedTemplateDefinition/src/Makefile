@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedTemplateDefinition/src//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedTemplateDefinition/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/rule
 .PHONY : engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedTemplateDefinition: engine/shared/library/sharedTemplateDefinition/src/CMa
 
 # fast build rule for target.
 sharedTemplateDefinition/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build
 .PHONY : sharedTemplateDefinition/fast
 
 linux/FirstSharedTemplateDefinition.o: linux/FirstSharedTemplateDefinition.cpp.o
@@ -135,7 +135,7 @@ linux/FirstSharedTemplateDefinition.o: linux/FirstSharedTemplateDefinition.cpp.o
 
 # target to build an object file
 linux/FirstSharedTemplateDefinition.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/linux/FirstSharedTemplateDefinition.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/linux/FirstSharedTemplateDefinition.cpp.o
 .PHONY : linux/FirstSharedTemplateDefinition.cpp.o
 
 linux/FirstSharedTemplateDefinition.i: linux/FirstSharedTemplateDefinition.cpp.i
@@ -143,7 +143,7 @@ linux/FirstSharedTemplateDefinition.i: linux/FirstSharedTemplateDefinition.cpp.i
 
 # target to preprocess a source file
 linux/FirstSharedTemplateDefinition.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/linux/FirstSharedTemplateDefinition.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/linux/FirstSharedTemplateDefinition.cpp.i
 .PHONY : linux/FirstSharedTemplateDefinition.cpp.i
 
 linux/FirstSharedTemplateDefinition.s: linux/FirstSharedTemplateDefinition.cpp.s
@@ -151,7 +151,7 @@ linux/FirstSharedTemplateDefinition.s: linux/FirstSharedTemplateDefinition.cpp.s
 
 # target to generate assembly for a file
 linux/FirstSharedTemplateDefinition.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/linux/FirstSharedTemplateDefinition.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/linux/FirstSharedTemplateDefinition.cpp.s
 .PHONY : linux/FirstSharedTemplateDefinition.cpp.s
 
 shared/core/CompilerDynamicVariableParamData.o: shared/core/CompilerDynamicVariableParamData.cpp.o
@@ -159,7 +159,7 @@ shared/core/CompilerDynamicVariableParamData.o: shared/core/CompilerDynamicVaria
 
 # target to build an object file
 shared/core/CompilerDynamicVariableParamData.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerDynamicVariableParamData.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerDynamicVariableParamData.cpp.o
 .PHONY : shared/core/CompilerDynamicVariableParamData.cpp.o
 
 shared/core/CompilerDynamicVariableParamData.i: shared/core/CompilerDynamicVariableParamData.cpp.i
@@ -167,7 +167,7 @@ shared/core/CompilerDynamicVariableParamData.i: shared/core/CompilerDynamicVaria
 
 # target to preprocess a source file
 shared/core/CompilerDynamicVariableParamData.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerDynamicVariableParamData.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerDynamicVariableParamData.cpp.i
 .PHONY : shared/core/CompilerDynamicVariableParamData.cpp.i
 
 shared/core/CompilerDynamicVariableParamData.s: shared/core/CompilerDynamicVariableParamData.cpp.s
@@ -175,7 +175,7 @@ shared/core/CompilerDynamicVariableParamData.s: shared/core/CompilerDynamicVaria
 
 # target to generate assembly for a file
 shared/core/CompilerDynamicVariableParamData.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerDynamicVariableParamData.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerDynamicVariableParamData.cpp.s
 .PHONY : shared/core/CompilerDynamicVariableParamData.cpp.s
 
 shared/core/CompilerIntegerParam.o: shared/core/CompilerIntegerParam.cpp.o
@@ -183,7 +183,7 @@ shared/core/CompilerIntegerParam.o: shared/core/CompilerIntegerParam.cpp.o
 
 # target to build an object file
 shared/core/CompilerIntegerParam.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerIntegerParam.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerIntegerParam.cpp.o
 .PHONY : shared/core/CompilerIntegerParam.cpp.o
 
 shared/core/CompilerIntegerParam.i: shared/core/CompilerIntegerParam.cpp.i
@@ -191,7 +191,7 @@ shared/core/CompilerIntegerParam.i: shared/core/CompilerIntegerParam.cpp.i
 
 # target to preprocess a source file
 shared/core/CompilerIntegerParam.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerIntegerParam.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerIntegerParam.cpp.i
 .PHONY : shared/core/CompilerIntegerParam.cpp.i
 
 shared/core/CompilerIntegerParam.s: shared/core/CompilerIntegerParam.cpp.s
@@ -199,7 +199,7 @@ shared/core/CompilerIntegerParam.s: shared/core/CompilerIntegerParam.cpp.s
 
 # target to generate assembly for a file
 shared/core/CompilerIntegerParam.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerIntegerParam.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/CompilerIntegerParam.cpp.s
 .PHONY : shared/core/CompilerIntegerParam.cpp.s
 
 shared/core/File.o: shared/core/File.cpp.o
@@ -207,7 +207,7 @@ shared/core/File.o: shared/core/File.cpp.o
 
 # target to build an object file
 shared/core/File.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/File.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/File.cpp.o
 .PHONY : shared/core/File.cpp.o
 
 shared/core/File.i: shared/core/File.cpp.i
@@ -215,7 +215,7 @@ shared/core/File.i: shared/core/File.cpp.i
 
 # target to preprocess a source file
 shared/core/File.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/File.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/File.cpp.i
 .PHONY : shared/core/File.cpp.i
 
 shared/core/File.s: shared/core/File.cpp.s
@@ -223,7 +223,7 @@ shared/core/File.s: shared/core/File.cpp.s
 
 # target to generate assembly for a file
 shared/core/File.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/File.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/File.cpp.s
 .PHONY : shared/core/File.cpp.s
 
 shared/core/Filename.o: shared/core/Filename.cpp.o
@@ -231,7 +231,7 @@ shared/core/Filename.o: shared/core/Filename.cpp.o
 
 # target to build an object file
 shared/core/Filename.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/Filename.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/Filename.cpp.o
 .PHONY : shared/core/Filename.cpp.o
 
 shared/core/Filename.i: shared/core/Filename.cpp.i
@@ -239,7 +239,7 @@ shared/core/Filename.i: shared/core/Filename.cpp.i
 
 # target to preprocess a source file
 shared/core/Filename.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/Filename.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/Filename.cpp.i
 .PHONY : shared/core/Filename.cpp.i
 
 shared/core/Filename.s: shared/core/Filename.cpp.s
@@ -247,7 +247,7 @@ shared/core/Filename.s: shared/core/Filename.cpp.s
 
 # target to generate assembly for a file
 shared/core/Filename.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/Filename.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/Filename.cpp.s
 .PHONY : shared/core/Filename.cpp.s
 
 shared/core/ObjectTemplate.o: shared/core/ObjectTemplate.cpp.o
@@ -255,7 +255,7 @@ shared/core/ObjectTemplate.o: shared/core/ObjectTemplate.cpp.o
 
 # target to build an object file
 shared/core/ObjectTemplate.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/ObjectTemplate.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/ObjectTemplate.cpp.o
 .PHONY : shared/core/ObjectTemplate.cpp.o
 
 shared/core/ObjectTemplate.i: shared/core/ObjectTemplate.cpp.i
@@ -263,7 +263,7 @@ shared/core/ObjectTemplate.i: shared/core/ObjectTemplate.cpp.i
 
 # target to preprocess a source file
 shared/core/ObjectTemplate.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/ObjectTemplate.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/ObjectTemplate.cpp.i
 .PHONY : shared/core/ObjectTemplate.cpp.i
 
 shared/core/ObjectTemplate.s: shared/core/ObjectTemplate.cpp.s
@@ -271,7 +271,7 @@ shared/core/ObjectTemplate.s: shared/core/ObjectTemplate.cpp.s
 
 # target to generate assembly for a file
 shared/core/ObjectTemplate.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/ObjectTemplate.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/ObjectTemplate.cpp.s
 .PHONY : shared/core/ObjectTemplate.cpp.s
 
 shared/core/TemplateData.o: shared/core/TemplateData.cpp.o
@@ -279,7 +279,7 @@ shared/core/TemplateData.o: shared/core/TemplateData.cpp.o
 
 # target to build an object file
 shared/core/TemplateData.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateData.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateData.cpp.o
 .PHONY : shared/core/TemplateData.cpp.o
 
 shared/core/TemplateData.i: shared/core/TemplateData.cpp.i
@@ -287,7 +287,7 @@ shared/core/TemplateData.i: shared/core/TemplateData.cpp.i
 
 # target to preprocess a source file
 shared/core/TemplateData.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateData.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateData.cpp.i
 .PHONY : shared/core/TemplateData.cpp.i
 
 shared/core/TemplateData.s: shared/core/TemplateData.cpp.s
@@ -295,7 +295,7 @@ shared/core/TemplateData.s: shared/core/TemplateData.cpp.s
 
 # target to generate assembly for a file
 shared/core/TemplateData.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateData.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateData.cpp.s
 .PHONY : shared/core/TemplateData.cpp.s
 
 shared/core/TemplateDataIterator.o: shared/core/TemplateDataIterator.cpp.o
@@ -303,7 +303,7 @@ shared/core/TemplateDataIterator.o: shared/core/TemplateDataIterator.cpp.o
 
 # target to build an object file
 shared/core/TemplateDataIterator.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDataIterator.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDataIterator.cpp.o
 .PHONY : shared/core/TemplateDataIterator.cpp.o
 
 shared/core/TemplateDataIterator.i: shared/core/TemplateDataIterator.cpp.i
@@ -311,7 +311,7 @@ shared/core/TemplateDataIterator.i: shared/core/TemplateDataIterator.cpp.i
 
 # target to preprocess a source file
 shared/core/TemplateDataIterator.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDataIterator.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDataIterator.cpp.i
 .PHONY : shared/core/TemplateDataIterator.cpp.i
 
 shared/core/TemplateDataIterator.s: shared/core/TemplateDataIterator.cpp.s
@@ -319,7 +319,7 @@ shared/core/TemplateDataIterator.s: shared/core/TemplateDataIterator.cpp.s
 
 # target to generate assembly for a file
 shared/core/TemplateDataIterator.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDataIterator.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDataIterator.cpp.s
 .PHONY : shared/core/TemplateDataIterator.cpp.s
 
 shared/core/TemplateDefinitionFile.o: shared/core/TemplateDefinitionFile.cpp.o
@@ -327,7 +327,7 @@ shared/core/TemplateDefinitionFile.o: shared/core/TemplateDefinitionFile.cpp.o
 
 # target to build an object file
 shared/core/TemplateDefinitionFile.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDefinitionFile.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDefinitionFile.cpp.o
 .PHONY : shared/core/TemplateDefinitionFile.cpp.o
 
 shared/core/TemplateDefinitionFile.i: shared/core/TemplateDefinitionFile.cpp.i
@@ -335,7 +335,7 @@ shared/core/TemplateDefinitionFile.i: shared/core/TemplateDefinitionFile.cpp.i
 
 # target to preprocess a source file
 shared/core/TemplateDefinitionFile.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDefinitionFile.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDefinitionFile.cpp.i
 .PHONY : shared/core/TemplateDefinitionFile.cpp.i
 
 shared/core/TemplateDefinitionFile.s: shared/core/TemplateDefinitionFile.cpp.s
@@ -343,7 +343,7 @@ shared/core/TemplateDefinitionFile.s: shared/core/TemplateDefinitionFile.cpp.s
 
 # target to generate assembly for a file
 shared/core/TemplateDefinitionFile.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDefinitionFile.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateDefinitionFile.cpp.s
 .PHONY : shared/core/TemplateDefinitionFile.cpp.s
 
 shared/core/TemplateGlobals.o: shared/core/TemplateGlobals.cpp.o
@@ -351,7 +351,7 @@ shared/core/TemplateGlobals.o: shared/core/TemplateGlobals.cpp.o
 
 # target to build an object file
 shared/core/TemplateGlobals.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateGlobals.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateGlobals.cpp.o
 .PHONY : shared/core/TemplateGlobals.cpp.o
 
 shared/core/TemplateGlobals.i: shared/core/TemplateGlobals.cpp.i
@@ -359,7 +359,7 @@ shared/core/TemplateGlobals.i: shared/core/TemplateGlobals.cpp.i
 
 # target to preprocess a source file
 shared/core/TemplateGlobals.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateGlobals.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateGlobals.cpp.i
 .PHONY : shared/core/TemplateGlobals.cpp.i
 
 shared/core/TemplateGlobals.s: shared/core/TemplateGlobals.cpp.s
@@ -367,7 +367,7 @@ shared/core/TemplateGlobals.s: shared/core/TemplateGlobals.cpp.s
 
 # target to generate assembly for a file
 shared/core/TemplateGlobals.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateGlobals.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TemplateGlobals.cpp.s
 .PHONY : shared/core/TemplateGlobals.cpp.s
 
 shared/core/TpfFile.o: shared/core/TpfFile.cpp.o
@@ -375,7 +375,7 @@ shared/core/TpfFile.o: shared/core/TpfFile.cpp.o
 
 # target to build an object file
 shared/core/TpfFile.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfFile.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfFile.cpp.o
 .PHONY : shared/core/TpfFile.cpp.o
 
 shared/core/TpfFile.i: shared/core/TpfFile.cpp.i
@@ -383,7 +383,7 @@ shared/core/TpfFile.i: shared/core/TpfFile.cpp.i
 
 # target to preprocess a source file
 shared/core/TpfFile.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfFile.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfFile.cpp.i
 .PHONY : shared/core/TpfFile.cpp.i
 
 shared/core/TpfFile.s: shared/core/TpfFile.cpp.s
@@ -391,7 +391,7 @@ shared/core/TpfFile.s: shared/core/TpfFile.cpp.s
 
 # target to generate assembly for a file
 shared/core/TpfFile.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfFile.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfFile.cpp.s
 .PHONY : shared/core/TpfFile.cpp.s
 
 shared/core/TpfTemplate.o: shared/core/TpfTemplate.cpp.o
@@ -399,7 +399,7 @@ shared/core/TpfTemplate.o: shared/core/TpfTemplate.cpp.o
 
 # target to build an object file
 shared/core/TpfTemplate.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfTemplate.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfTemplate.cpp.o
 .PHONY : shared/core/TpfTemplate.cpp.o
 
 shared/core/TpfTemplate.i: shared/core/TpfTemplate.cpp.i
@@ -407,7 +407,7 @@ shared/core/TpfTemplate.i: shared/core/TpfTemplate.cpp.i
 
 # target to preprocess a source file
 shared/core/TpfTemplate.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfTemplate.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfTemplate.cpp.i
 .PHONY : shared/core/TpfTemplate.cpp.i
 
 shared/core/TpfTemplate.s: shared/core/TpfTemplate.cpp.s
@@ -415,7 +415,7 @@ shared/core/TpfTemplate.s: shared/core/TpfTemplate.cpp.s
 
 # target to generate assembly for a file
 shared/core/TpfTemplate.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfTemplate.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/build.make engine/shared/library/sharedTemplateDefinition/src/CMakeFiles/sharedTemplateDefinition.dir/shared/core/TpfTemplate.cpp.s
 .PHONY : shared/core/TpfTemplate.cpp.s
 
 # Help Target
@@ -474,6 +474,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

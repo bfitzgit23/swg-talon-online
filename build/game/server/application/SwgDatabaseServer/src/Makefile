@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/game/server/application/SwgDatabaseServer/src//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/game/server/application/SwgDatabaseServer/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/rule
 .PHONY : game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ SwgDatabaseServer: game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgD
 
 # fast build rule for target.
 SwgDatabaseServer/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build
 .PHONY : SwgDatabaseServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/linux/main.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/buffers/AuctionLocationsBuffer.o: shared/buffers/AuctionLocationsBuffer.cpp.o
@@ -159,7 +159,7 @@ shared/buffers/AuctionLocationsBuffer.o: shared/buffers/AuctionLocationsBuffer.c
 
 # target to build an object file
 shared/buffers/AuctionLocationsBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/AuctionLocationsBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/AuctionLocationsBuffer.cpp.o
 .PHONY : shared/buffers/AuctionLocationsBuffer.cpp.o
 
 shared/buffers/AuctionLocationsBuffer.i: shared/buffers/AuctionLocationsBuffer.cpp.i
@@ -167,7 +167,7 @@ shared/buffers/AuctionLocationsBuffer.i: shared/buffers/AuctionLocationsBuffer.c
 
 # target to preprocess a source file
 shared/buffers/AuctionLocationsBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/AuctionLocationsBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/AuctionLocationsBuffer.cpp.i
 .PHONY : shared/buffers/AuctionLocationsBuffer.cpp.i
 
 shared/buffers/AuctionLocationsBuffer.s: shared/buffers/AuctionLocationsBuffer.cpp.s
@@ -175,7 +175,7 @@ shared/buffers/AuctionLocationsBuffer.s: shared/buffers/AuctionLocationsBuffer.c
 
 # target to generate assembly for a file
 shared/buffers/AuctionLocationsBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/AuctionLocationsBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/AuctionLocationsBuffer.cpp.s
 .PHONY : shared/buffers/AuctionLocationsBuffer.cpp.s
 
 shared/buffers/BattlefieldParticipantBuffer.o: shared/buffers/BattlefieldParticipantBuffer.cpp.o
@@ -183,7 +183,7 @@ shared/buffers/BattlefieldParticipantBuffer.o: shared/buffers/BattlefieldPartici
 
 # target to build an object file
 shared/buffers/BattlefieldParticipantBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BattlefieldParticipantBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BattlefieldParticipantBuffer.cpp.o
 .PHONY : shared/buffers/BattlefieldParticipantBuffer.cpp.o
 
 shared/buffers/BattlefieldParticipantBuffer.i: shared/buffers/BattlefieldParticipantBuffer.cpp.i
@@ -191,7 +191,7 @@ shared/buffers/BattlefieldParticipantBuffer.i: shared/buffers/BattlefieldPartici
 
 # target to preprocess a source file
 shared/buffers/BattlefieldParticipantBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BattlefieldParticipantBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BattlefieldParticipantBuffer.cpp.i
 .PHONY : shared/buffers/BattlefieldParticipantBuffer.cpp.i
 
 shared/buffers/BattlefieldParticipantBuffer.s: shared/buffers/BattlefieldParticipantBuffer.cpp.s
@@ -199,7 +199,7 @@ shared/buffers/BattlefieldParticipantBuffer.s: shared/buffers/BattlefieldPartici
 
 # target to generate assembly for a file
 shared/buffers/BattlefieldParticipantBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BattlefieldParticipantBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BattlefieldParticipantBuffer.cpp.s
 .PHONY : shared/buffers/BattlefieldParticipantBuffer.cpp.s
 
 shared/buffers/BountyHunterTargetBuffer.o: shared/buffers/BountyHunterTargetBuffer.cpp.o
@@ -207,7 +207,7 @@ shared/buffers/BountyHunterTargetBuffer.o: shared/buffers/BountyHunterTargetBuff
 
 # target to build an object file
 shared/buffers/BountyHunterTargetBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BountyHunterTargetBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BountyHunterTargetBuffer.cpp.o
 .PHONY : shared/buffers/BountyHunterTargetBuffer.cpp.o
 
 shared/buffers/BountyHunterTargetBuffer.i: shared/buffers/BountyHunterTargetBuffer.cpp.i
@@ -215,7 +215,7 @@ shared/buffers/BountyHunterTargetBuffer.i: shared/buffers/BountyHunterTargetBuff
 
 # target to preprocess a source file
 shared/buffers/BountyHunterTargetBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BountyHunterTargetBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BountyHunterTargetBuffer.cpp.i
 .PHONY : shared/buffers/BountyHunterTargetBuffer.cpp.i
 
 shared/buffers/BountyHunterTargetBuffer.s: shared/buffers/BountyHunterTargetBuffer.cpp.s
@@ -223,7 +223,7 @@ shared/buffers/BountyHunterTargetBuffer.s: shared/buffers/BountyHunterTargetBuff
 
 # target to generate assembly for a file
 shared/buffers/BountyHunterTargetBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BountyHunterTargetBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/BountyHunterTargetBuffer.cpp.s
 .PHONY : shared/buffers/BountyHunterTargetBuffer.cpp.s
 
 shared/buffers/CreatureObjectBuffer.o: shared/buffers/CreatureObjectBuffer.cpp.o
@@ -231,7 +231,7 @@ shared/buffers/CreatureObjectBuffer.o: shared/buffers/CreatureObjectBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/CreatureObjectBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/CreatureObjectBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/CreatureObjectBuffer.cpp.o
 .PHONY : shared/buffers/CreatureObjectBuffer.cpp.o
 
 shared/buffers/CreatureObjectBuffer.i: shared/buffers/CreatureObjectBuffer.cpp.i
@@ -239,7 +239,7 @@ shared/buffers/CreatureObjectBuffer.i: shared/buffers/CreatureObjectBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/CreatureObjectBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/CreatureObjectBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/CreatureObjectBuffer.cpp.i
 .PHONY : shared/buffers/CreatureObjectBuffer.cpp.i
 
 shared/buffers/CreatureObjectBuffer.s: shared/buffers/CreatureObjectBuffer.cpp.s
@@ -247,7 +247,7 @@ shared/buffers/CreatureObjectBuffer.s: shared/buffers/CreatureObjectBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/CreatureObjectBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/CreatureObjectBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/CreatureObjectBuffer.cpp.s
 .PHONY : shared/buffers/CreatureObjectBuffer.cpp.s
 
 shared/buffers/ExperienceBuffer.o: shared/buffers/ExperienceBuffer.cpp.o
@@ -255,7 +255,7 @@ shared/buffers/ExperienceBuffer.o: shared/buffers/ExperienceBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/ExperienceBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ExperienceBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ExperienceBuffer.cpp.o
 .PHONY : shared/buffers/ExperienceBuffer.cpp.o
 
 shared/buffers/ExperienceBuffer.i: shared/buffers/ExperienceBuffer.cpp.i
@@ -263,7 +263,7 @@ shared/buffers/ExperienceBuffer.i: shared/buffers/ExperienceBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/ExperienceBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ExperienceBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ExperienceBuffer.cpp.i
 .PHONY : shared/buffers/ExperienceBuffer.cpp.i
 
 shared/buffers/ExperienceBuffer.s: shared/buffers/ExperienceBuffer.cpp.s
@@ -271,7 +271,7 @@ shared/buffers/ExperienceBuffer.s: shared/buffers/ExperienceBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/ExperienceBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ExperienceBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ExperienceBuffer.cpp.s
 .PHONY : shared/buffers/ExperienceBuffer.cpp.s
 
 shared/buffers/IndexedNetworkTableBuffer.o: shared/buffers/IndexedNetworkTableBuffer.cpp.o
@@ -279,7 +279,7 @@ shared/buffers/IndexedNetworkTableBuffer.o: shared/buffers/IndexedNetworkTableBu
 
 # target to build an object file
 shared/buffers/IndexedNetworkTableBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/IndexedNetworkTableBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/IndexedNetworkTableBuffer.cpp.o
 .PHONY : shared/buffers/IndexedNetworkTableBuffer.cpp.o
 
 shared/buffers/IndexedNetworkTableBuffer.i: shared/buffers/IndexedNetworkTableBuffer.cpp.i
@@ -287,7 +287,7 @@ shared/buffers/IndexedNetworkTableBuffer.i: shared/buffers/IndexedNetworkTableBu
 
 # target to preprocess a source file
 shared/buffers/IndexedNetworkTableBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/IndexedNetworkTableBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/IndexedNetworkTableBuffer.cpp.i
 .PHONY : shared/buffers/IndexedNetworkTableBuffer.cpp.i
 
 shared/buffers/IndexedNetworkTableBuffer.s: shared/buffers/IndexedNetworkTableBuffer.cpp.s
@@ -295,7 +295,7 @@ shared/buffers/IndexedNetworkTableBuffer.s: shared/buffers/IndexedNetworkTableBu
 
 # target to generate assembly for a file
 shared/buffers/IndexedNetworkTableBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/IndexedNetworkTableBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/IndexedNetworkTableBuffer.cpp.s
 .PHONY : shared/buffers/IndexedNetworkTableBuffer.cpp.s
 
 shared/buffers/LocationBuffer.o: shared/buffers/LocationBuffer.cpp.o
@@ -303,7 +303,7 @@ shared/buffers/LocationBuffer.o: shared/buffers/LocationBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/LocationBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/LocationBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/LocationBuffer.cpp.o
 .PHONY : shared/buffers/LocationBuffer.cpp.o
 
 shared/buffers/LocationBuffer.i: shared/buffers/LocationBuffer.cpp.i
@@ -311,7 +311,7 @@ shared/buffers/LocationBuffer.i: shared/buffers/LocationBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/LocationBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/LocationBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/LocationBuffer.cpp.i
 .PHONY : shared/buffers/LocationBuffer.cpp.i
 
 shared/buffers/LocationBuffer.s: shared/buffers/LocationBuffer.cpp.s
@@ -319,7 +319,7 @@ shared/buffers/LocationBuffer.s: shared/buffers/LocationBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/LocationBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/LocationBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/LocationBuffer.cpp.s
 .PHONY : shared/buffers/LocationBuffer.cpp.s
 
 shared/buffers/ManufactureSchematicAttributeBuffer.o: shared/buffers/ManufactureSchematicAttributeBuffer.cpp.o
@@ -327,7 +327,7 @@ shared/buffers/ManufactureSchematicAttributeBuffer.o: shared/buffers/Manufacture
 
 # target to build an object file
 shared/buffers/ManufactureSchematicAttributeBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ManufactureSchematicAttributeBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ManufactureSchematicAttributeBuffer.cpp.o
 .PHONY : shared/buffers/ManufactureSchematicAttributeBuffer.cpp.o
 
 shared/buffers/ManufactureSchematicAttributeBuffer.i: shared/buffers/ManufactureSchematicAttributeBuffer.cpp.i
@@ -335,7 +335,7 @@ shared/buffers/ManufactureSchematicAttributeBuffer.i: shared/buffers/Manufacture
 
 # target to preprocess a source file
 shared/buffers/ManufactureSchematicAttributeBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ManufactureSchematicAttributeBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ManufactureSchematicAttributeBuffer.cpp.i
 .PHONY : shared/buffers/ManufactureSchematicAttributeBuffer.cpp.i
 
 shared/buffers/ManufactureSchematicAttributeBuffer.s: shared/buffers/ManufactureSchematicAttributeBuffer.cpp.s
@@ -343,7 +343,7 @@ shared/buffers/ManufactureSchematicAttributeBuffer.s: shared/buffers/Manufacture
 
 # target to generate assembly for a file
 shared/buffers/ManufactureSchematicAttributeBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ManufactureSchematicAttributeBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ManufactureSchematicAttributeBuffer.cpp.s
 .PHONY : shared/buffers/ManufactureSchematicAttributeBuffer.cpp.s
 
 shared/buffers/MarketAuctionBidsBuffer.o: shared/buffers/MarketAuctionBidsBuffer.cpp.o
@@ -351,7 +351,7 @@ shared/buffers/MarketAuctionBidsBuffer.o: shared/buffers/MarketAuctionBidsBuffer
 
 # target to build an object file
 shared/buffers/MarketAuctionBidsBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionBidsBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionBidsBuffer.cpp.o
 .PHONY : shared/buffers/MarketAuctionBidsBuffer.cpp.o
 
 shared/buffers/MarketAuctionBidsBuffer.i: shared/buffers/MarketAuctionBidsBuffer.cpp.i
@@ -359,7 +359,7 @@ shared/buffers/MarketAuctionBidsBuffer.i: shared/buffers/MarketAuctionBidsBuffer
 
 # target to preprocess a source file
 shared/buffers/MarketAuctionBidsBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionBidsBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionBidsBuffer.cpp.i
 .PHONY : shared/buffers/MarketAuctionBidsBuffer.cpp.i
 
 shared/buffers/MarketAuctionBidsBuffer.s: shared/buffers/MarketAuctionBidsBuffer.cpp.s
@@ -367,7 +367,7 @@ shared/buffers/MarketAuctionBidsBuffer.s: shared/buffers/MarketAuctionBidsBuffer
 
 # target to generate assembly for a file
 shared/buffers/MarketAuctionBidsBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionBidsBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionBidsBuffer.cpp.s
 .PHONY : shared/buffers/MarketAuctionBidsBuffer.cpp.s
 
 shared/buffers/MarketAuctionsBuffer.o: shared/buffers/MarketAuctionsBuffer.cpp.o
@@ -375,7 +375,7 @@ shared/buffers/MarketAuctionsBuffer.o: shared/buffers/MarketAuctionsBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/MarketAuctionsBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionsBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionsBuffer.cpp.o
 .PHONY : shared/buffers/MarketAuctionsBuffer.cpp.o
 
 shared/buffers/MarketAuctionsBuffer.i: shared/buffers/MarketAuctionsBuffer.cpp.i
@@ -383,7 +383,7 @@ shared/buffers/MarketAuctionsBuffer.i: shared/buffers/MarketAuctionsBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/MarketAuctionsBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionsBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionsBuffer.cpp.i
 .PHONY : shared/buffers/MarketAuctionsBuffer.cpp.i
 
 shared/buffers/MarketAuctionsBuffer.s: shared/buffers/MarketAuctionsBuffer.cpp.s
@@ -391,7 +391,7 @@ shared/buffers/MarketAuctionsBuffer.s: shared/buffers/MarketAuctionsBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/MarketAuctionsBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionsBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MarketAuctionsBuffer.cpp.s
 .PHONY : shared/buffers/MarketAuctionsBuffer.cpp.s
 
 shared/buffers/MessageBuffer.o: shared/buffers/MessageBuffer.cpp.o
@@ -399,7 +399,7 @@ shared/buffers/MessageBuffer.o: shared/buffers/MessageBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/MessageBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MessageBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MessageBuffer.cpp.o
 .PHONY : shared/buffers/MessageBuffer.cpp.o
 
 shared/buffers/MessageBuffer.i: shared/buffers/MessageBuffer.cpp.i
@@ -407,7 +407,7 @@ shared/buffers/MessageBuffer.i: shared/buffers/MessageBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/MessageBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MessageBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MessageBuffer.cpp.i
 .PHONY : shared/buffers/MessageBuffer.cpp.i
 
 shared/buffers/MessageBuffer.s: shared/buffers/MessageBuffer.cpp.s
@@ -415,7 +415,7 @@ shared/buffers/MessageBuffer.s: shared/buffers/MessageBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/MessageBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MessageBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/MessageBuffer.cpp.s
 .PHONY : shared/buffers/MessageBuffer.cpp.s
 
 shared/buffers/ObjectTableBuffer.o: shared/buffers/ObjectTableBuffer.cpp.o
@@ -423,7 +423,7 @@ shared/buffers/ObjectTableBuffer.o: shared/buffers/ObjectTableBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/ObjectTableBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjectTableBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjectTableBuffer.cpp.o
 .PHONY : shared/buffers/ObjectTableBuffer.cpp.o
 
 shared/buffers/ObjectTableBuffer.i: shared/buffers/ObjectTableBuffer.cpp.i
@@ -431,7 +431,7 @@ shared/buffers/ObjectTableBuffer.i: shared/buffers/ObjectTableBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/ObjectTableBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjectTableBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjectTableBuffer.cpp.i
 .PHONY : shared/buffers/ObjectTableBuffer.cpp.i
 
 shared/buffers/ObjectTableBuffer.s: shared/buffers/ObjectTableBuffer.cpp.s
@@ -439,7 +439,7 @@ shared/buffers/ObjectTableBuffer.s: shared/buffers/ObjectTableBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/ObjectTableBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjectTableBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjectTableBuffer.cpp.s
 .PHONY : shared/buffers/ObjectTableBuffer.cpp.s
 
 shared/buffers/ObjvarBuffer.o: shared/buffers/ObjvarBuffer.cpp.o
@@ -447,7 +447,7 @@ shared/buffers/ObjvarBuffer.o: shared/buffers/ObjvarBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/ObjvarBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjvarBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjvarBuffer.cpp.o
 .PHONY : shared/buffers/ObjvarBuffer.cpp.o
 
 shared/buffers/ObjvarBuffer.i: shared/buffers/ObjvarBuffer.cpp.i
@@ -455,7 +455,7 @@ shared/buffers/ObjvarBuffer.i: shared/buffers/ObjvarBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/ObjvarBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjvarBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjvarBuffer.cpp.i
 .PHONY : shared/buffers/ObjvarBuffer.cpp.i
 
 shared/buffers/ObjvarBuffer.s: shared/buffers/ObjvarBuffer.cpp.s
@@ -463,7 +463,7 @@ shared/buffers/ObjvarBuffer.s: shared/buffers/ObjvarBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/ObjvarBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjvarBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ObjvarBuffer.cpp.s
 .PHONY : shared/buffers/ObjvarBuffer.cpp.s
 
 shared/buffers/PropertyListBuffer.o: shared/buffers/PropertyListBuffer.cpp.o
@@ -471,7 +471,7 @@ shared/buffers/PropertyListBuffer.o: shared/buffers/PropertyListBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/PropertyListBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/PropertyListBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/PropertyListBuffer.cpp.o
 .PHONY : shared/buffers/PropertyListBuffer.cpp.o
 
 shared/buffers/PropertyListBuffer.i: shared/buffers/PropertyListBuffer.cpp.i
@@ -479,7 +479,7 @@ shared/buffers/PropertyListBuffer.i: shared/buffers/PropertyListBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/PropertyListBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/PropertyListBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/PropertyListBuffer.cpp.i
 .PHONY : shared/buffers/PropertyListBuffer.cpp.i
 
 shared/buffers/PropertyListBuffer.s: shared/buffers/PropertyListBuffer.cpp.s
@@ -487,7 +487,7 @@ shared/buffers/PropertyListBuffer.s: shared/buffers/PropertyListBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/PropertyListBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/PropertyListBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/PropertyListBuffer.cpp.s
 .PHONY : shared/buffers/PropertyListBuffer.cpp.s
 
 shared/buffers/ResourceTypeBuffer.o: shared/buffers/ResourceTypeBuffer.cpp.o
@@ -495,7 +495,7 @@ shared/buffers/ResourceTypeBuffer.o: shared/buffers/ResourceTypeBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/ResourceTypeBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ResourceTypeBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ResourceTypeBuffer.cpp.o
 .PHONY : shared/buffers/ResourceTypeBuffer.cpp.o
 
 shared/buffers/ResourceTypeBuffer.i: shared/buffers/ResourceTypeBuffer.cpp.i
@@ -503,7 +503,7 @@ shared/buffers/ResourceTypeBuffer.i: shared/buffers/ResourceTypeBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/ResourceTypeBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ResourceTypeBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ResourceTypeBuffer.cpp.i
 .PHONY : shared/buffers/ResourceTypeBuffer.cpp.i
 
 shared/buffers/ResourceTypeBuffer.s: shared/buffers/ResourceTypeBuffer.cpp.s
@@ -511,7 +511,7 @@ shared/buffers/ResourceTypeBuffer.s: shared/buffers/ResourceTypeBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/ResourceTypeBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ResourceTypeBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ResourceTypeBuffer.cpp.s
 .PHONY : shared/buffers/ResourceTypeBuffer.cpp.s
 
 shared/buffers/ScriptBuffer.o: shared/buffers/ScriptBuffer.cpp.o
@@ -519,7 +519,7 @@ shared/buffers/ScriptBuffer.o: shared/buffers/ScriptBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/ScriptBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ScriptBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ScriptBuffer.cpp.o
 .PHONY : shared/buffers/ScriptBuffer.cpp.o
 
 shared/buffers/ScriptBuffer.i: shared/buffers/ScriptBuffer.cpp.i
@@ -527,7 +527,7 @@ shared/buffers/ScriptBuffer.i: shared/buffers/ScriptBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/ScriptBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ScriptBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ScriptBuffer.cpp.i
 .PHONY : shared/buffers/ScriptBuffer.cpp.i
 
 shared/buffers/ScriptBuffer.s: shared/buffers/ScriptBuffer.cpp.s
@@ -535,7 +535,7 @@ shared/buffers/ScriptBuffer.s: shared/buffers/ScriptBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/ScriptBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ScriptBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/ScriptBuffer.cpp.s
 .PHONY : shared/buffers/ScriptBuffer.cpp.s
 
 shared/buffers/WaypointBuffer.o: shared/buffers/WaypointBuffer.cpp.o
@@ -543,7 +543,7 @@ shared/buffers/WaypointBuffer.o: shared/buffers/WaypointBuffer.cpp.o
 
 # target to build an object file
 shared/buffers/WaypointBuffer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/WaypointBuffer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/WaypointBuffer.cpp.o
 .PHONY : shared/buffers/WaypointBuffer.cpp.o
 
 shared/buffers/WaypointBuffer.i: shared/buffers/WaypointBuffer.cpp.i
@@ -551,7 +551,7 @@ shared/buffers/WaypointBuffer.i: shared/buffers/WaypointBuffer.cpp.i
 
 # target to preprocess a source file
 shared/buffers/WaypointBuffer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/WaypointBuffer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/WaypointBuffer.cpp.i
 .PHONY : shared/buffers/WaypointBuffer.cpp.i
 
 shared/buffers/WaypointBuffer.s: shared/buffers/WaypointBuffer.cpp.s
@@ -559,7 +559,7 @@ shared/buffers/WaypointBuffer.s: shared/buffers/WaypointBuffer.cpp.s
 
 # target to generate assembly for a file
 shared/buffers/WaypointBuffer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/WaypointBuffer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/buffers/WaypointBuffer.cpp.s
 .PHONY : shared/buffers/WaypointBuffer.cpp.s
 
 shared/cleanup/DataCleanupManager.o: shared/cleanup/DataCleanupManager.cpp.o
@@ -567,7 +567,7 @@ shared/cleanup/DataCleanupManager.o: shared/cleanup/DataCleanupManager.cpp.o
 
 # target to build an object file
 shared/cleanup/DataCleanupManager.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/DataCleanupManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/DataCleanupManager.cpp.o
 .PHONY : shared/cleanup/DataCleanupManager.cpp.o
 
 shared/cleanup/DataCleanupManager.i: shared/cleanup/DataCleanupManager.cpp.i
@@ -575,7 +575,7 @@ shared/cleanup/DataCleanupManager.i: shared/cleanup/DataCleanupManager.cpp.i
 
 # target to preprocess a source file
 shared/cleanup/DataCleanupManager.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/DataCleanupManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/DataCleanupManager.cpp.i
 .PHONY : shared/cleanup/DataCleanupManager.cpp.i
 
 shared/cleanup/DataCleanupManager.s: shared/cleanup/DataCleanupManager.cpp.s
@@ -583,7 +583,7 @@ shared/cleanup/DataCleanupManager.s: shared/cleanup/DataCleanupManager.cpp.s
 
 # target to generate assembly for a file
 shared/cleanup/DataCleanupManager.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/DataCleanupManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/DataCleanupManager.cpp.s
 .PHONY : shared/cleanup/DataCleanupManager.cpp.s
 
 shared/cleanup/TaskAnySQL.o: shared/cleanup/TaskAnySQL.cpp.o
@@ -591,7 +591,7 @@ shared/cleanup/TaskAnySQL.o: shared/cleanup/TaskAnySQL.cpp.o
 
 # target to build an object file
 shared/cleanup/TaskAnySQL.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskAnySQL.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskAnySQL.cpp.o
 .PHONY : shared/cleanup/TaskAnySQL.cpp.o
 
 shared/cleanup/TaskAnySQL.i: shared/cleanup/TaskAnySQL.cpp.i
@@ -599,7 +599,7 @@ shared/cleanup/TaskAnySQL.i: shared/cleanup/TaskAnySQL.cpp.i
 
 # target to preprocess a source file
 shared/cleanup/TaskAnySQL.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskAnySQL.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskAnySQL.cpp.i
 .PHONY : shared/cleanup/TaskAnySQL.cpp.i
 
 shared/cleanup/TaskAnySQL.s: shared/cleanup/TaskAnySQL.cpp.s
@@ -607,7 +607,7 @@ shared/cleanup/TaskAnySQL.s: shared/cleanup/TaskAnySQL.cpp.s
 
 # target to generate assembly for a file
 shared/cleanup/TaskAnySQL.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskAnySQL.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskAnySQL.cpp.s
 .PHONY : shared/cleanup/TaskAnySQL.cpp.s
 
 shared/cleanup/TaskBrokenObjectCleanup.o: shared/cleanup/TaskBrokenObjectCleanup.cpp.o
@@ -615,7 +615,7 @@ shared/cleanup/TaskBrokenObjectCleanup.o: shared/cleanup/TaskBrokenObjectCleanup
 
 # target to build an object file
 shared/cleanup/TaskBrokenObjectCleanup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskBrokenObjectCleanup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskBrokenObjectCleanup.cpp.o
 .PHONY : shared/cleanup/TaskBrokenObjectCleanup.cpp.o
 
 shared/cleanup/TaskBrokenObjectCleanup.i: shared/cleanup/TaskBrokenObjectCleanup.cpp.i
@@ -623,7 +623,7 @@ shared/cleanup/TaskBrokenObjectCleanup.i: shared/cleanup/TaskBrokenObjectCleanup
 
 # target to preprocess a source file
 shared/cleanup/TaskBrokenObjectCleanup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskBrokenObjectCleanup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskBrokenObjectCleanup.cpp.i
 .PHONY : shared/cleanup/TaskBrokenObjectCleanup.cpp.i
 
 shared/cleanup/TaskBrokenObjectCleanup.s: shared/cleanup/TaskBrokenObjectCleanup.cpp.s
@@ -631,7 +631,7 @@ shared/cleanup/TaskBrokenObjectCleanup.s: shared/cleanup/TaskBrokenObjectCleanup
 
 # target to generate assembly for a file
 shared/cleanup/TaskBrokenObjectCleanup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskBrokenObjectCleanup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskBrokenObjectCleanup.cpp.s
 .PHONY : shared/cleanup/TaskBrokenObjectCleanup.cpp.s
 
 shared/cleanup/TaskConsolidateExperience.o: shared/cleanup/TaskConsolidateExperience.cpp.o
@@ -639,7 +639,7 @@ shared/cleanup/TaskConsolidateExperience.o: shared/cleanup/TaskConsolidateExperi
 
 # target to build an object file
 shared/cleanup/TaskConsolidateExperience.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskConsolidateExperience.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskConsolidateExperience.cpp.o
 .PHONY : shared/cleanup/TaskConsolidateExperience.cpp.o
 
 shared/cleanup/TaskConsolidateExperience.i: shared/cleanup/TaskConsolidateExperience.cpp.i
@@ -647,7 +647,7 @@ shared/cleanup/TaskConsolidateExperience.i: shared/cleanup/TaskConsolidateExperi
 
 # target to preprocess a source file
 shared/cleanup/TaskConsolidateExperience.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskConsolidateExperience.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskConsolidateExperience.cpp.i
 .PHONY : shared/cleanup/TaskConsolidateExperience.cpp.i
 
 shared/cleanup/TaskConsolidateExperience.s: shared/cleanup/TaskConsolidateExperience.cpp.s
@@ -655,7 +655,7 @@ shared/cleanup/TaskConsolidateExperience.s: shared/cleanup/TaskConsolidateExperi
 
 # target to generate assembly for a file
 shared/cleanup/TaskConsolidateExperience.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskConsolidateExperience.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskConsolidateExperience.cpp.s
 .PHONY : shared/cleanup/TaskConsolidateExperience.cpp.s
 
 shared/cleanup/TaskDailyCleanup.o: shared/cleanup/TaskDailyCleanup.cpp.o
@@ -663,7 +663,7 @@ shared/cleanup/TaskDailyCleanup.o: shared/cleanup/TaskDailyCleanup.cpp.o
 
 # target to build an object file
 shared/cleanup/TaskDailyCleanup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskDailyCleanup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskDailyCleanup.cpp.o
 .PHONY : shared/cleanup/TaskDailyCleanup.cpp.o
 
 shared/cleanup/TaskDailyCleanup.i: shared/cleanup/TaskDailyCleanup.cpp.i
@@ -671,7 +671,7 @@ shared/cleanup/TaskDailyCleanup.i: shared/cleanup/TaskDailyCleanup.cpp.i
 
 # target to preprocess a source file
 shared/cleanup/TaskDailyCleanup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskDailyCleanup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskDailyCleanup.cpp.i
 .PHONY : shared/cleanup/TaskDailyCleanup.cpp.i
 
 shared/cleanup/TaskDailyCleanup.s: shared/cleanup/TaskDailyCleanup.cpp.s
@@ -679,7 +679,7 @@ shared/cleanup/TaskDailyCleanup.s: shared/cleanup/TaskDailyCleanup.cpp.s
 
 # target to generate assembly for a file
 shared/cleanup/TaskDailyCleanup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskDailyCleanup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskDailyCleanup.cpp.s
 .PHONY : shared/cleanup/TaskDailyCleanup.cpp.s
 
 shared/cleanup/TaskFixBadCells.o: shared/cleanup/TaskFixBadCells.cpp.o
@@ -687,7 +687,7 @@ shared/cleanup/TaskFixBadCells.o: shared/cleanup/TaskFixBadCells.cpp.o
 
 # target to build an object file
 shared/cleanup/TaskFixBadCells.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskFixBadCells.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskFixBadCells.cpp.o
 .PHONY : shared/cleanup/TaskFixBadCells.cpp.o
 
 shared/cleanup/TaskFixBadCells.i: shared/cleanup/TaskFixBadCells.cpp.i
@@ -695,7 +695,7 @@ shared/cleanup/TaskFixBadCells.i: shared/cleanup/TaskFixBadCells.cpp.i
 
 # target to preprocess a source file
 shared/cleanup/TaskFixBadCells.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskFixBadCells.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskFixBadCells.cpp.i
 .PHONY : shared/cleanup/TaskFixBadCells.cpp.i
 
 shared/cleanup/TaskFixBadCells.s: shared/cleanup/TaskFixBadCells.cpp.s
@@ -703,7 +703,7 @@ shared/cleanup/TaskFixBadCells.s: shared/cleanup/TaskFixBadCells.cpp.s
 
 # target to generate assembly for a file
 shared/cleanup/TaskFixBadCells.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskFixBadCells.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskFixBadCells.cpp.s
 .PHONY : shared/cleanup/TaskFixBadCells.cpp.s
 
 shared/cleanup/TaskMarketAttributesCleanup.o: shared/cleanup/TaskMarketAttributesCleanup.cpp.o
@@ -711,7 +711,7 @@ shared/cleanup/TaskMarketAttributesCleanup.o: shared/cleanup/TaskMarketAttribute
 
 # target to build an object file
 shared/cleanup/TaskMarketAttributesCleanup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMarketAttributesCleanup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMarketAttributesCleanup.cpp.o
 .PHONY : shared/cleanup/TaskMarketAttributesCleanup.cpp.o
 
 shared/cleanup/TaskMarketAttributesCleanup.i: shared/cleanup/TaskMarketAttributesCleanup.cpp.i
@@ -719,7 +719,7 @@ shared/cleanup/TaskMarketAttributesCleanup.i: shared/cleanup/TaskMarketAttribute
 
 # target to preprocess a source file
 shared/cleanup/TaskMarketAttributesCleanup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMarketAttributesCleanup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMarketAttributesCleanup.cpp.i
 .PHONY : shared/cleanup/TaskMarketAttributesCleanup.cpp.i
 
 shared/cleanup/TaskMarketAttributesCleanup.s: shared/cleanup/TaskMarketAttributesCleanup.cpp.s
@@ -727,7 +727,7 @@ shared/cleanup/TaskMarketAttributesCleanup.s: shared/cleanup/TaskMarketAttribute
 
 # target to generate assembly for a file
 shared/cleanup/TaskMarketAttributesCleanup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMarketAttributesCleanup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMarketAttributesCleanup.cpp.s
 .PHONY : shared/cleanup/TaskMarketAttributesCleanup.cpp.s
 
 shared/cleanup/TaskMessagesCleanup.o: shared/cleanup/TaskMessagesCleanup.cpp.o
@@ -735,7 +735,7 @@ shared/cleanup/TaskMessagesCleanup.o: shared/cleanup/TaskMessagesCleanup.cpp.o
 
 # target to build an object file
 shared/cleanup/TaskMessagesCleanup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMessagesCleanup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMessagesCleanup.cpp.o
 .PHONY : shared/cleanup/TaskMessagesCleanup.cpp.o
 
 shared/cleanup/TaskMessagesCleanup.i: shared/cleanup/TaskMessagesCleanup.cpp.i
@@ -743,7 +743,7 @@ shared/cleanup/TaskMessagesCleanup.i: shared/cleanup/TaskMessagesCleanup.cpp.i
 
 # target to preprocess a source file
 shared/cleanup/TaskMessagesCleanup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMessagesCleanup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMessagesCleanup.cpp.i
 .PHONY : shared/cleanup/TaskMessagesCleanup.cpp.i
 
 shared/cleanup/TaskMessagesCleanup.s: shared/cleanup/TaskMessagesCleanup.cpp.s
@@ -751,7 +751,7 @@ shared/cleanup/TaskMessagesCleanup.s: shared/cleanup/TaskMessagesCleanup.cpp.s
 
 # target to generate assembly for a file
 shared/cleanup/TaskMessagesCleanup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMessagesCleanup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskMessagesCleanup.cpp.s
 .PHONY : shared/cleanup/TaskMessagesCleanup.cpp.s
 
 shared/cleanup/TaskObjectTemplateListUpdater.o: shared/cleanup/TaskObjectTemplateListUpdater.cpp.o
@@ -759,7 +759,7 @@ shared/cleanup/TaskObjectTemplateListUpdater.o: shared/cleanup/TaskObjectTemplat
 
 # target to build an object file
 shared/cleanup/TaskObjectTemplateListUpdater.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjectTemplateListUpdater.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjectTemplateListUpdater.cpp.o
 .PHONY : shared/cleanup/TaskObjectTemplateListUpdater.cpp.o
 
 shared/cleanup/TaskObjectTemplateListUpdater.i: shared/cleanup/TaskObjectTemplateListUpdater.cpp.i
@@ -767,7 +767,7 @@ shared/cleanup/TaskObjectTemplateListUpdater.i: shared/cleanup/TaskObjectTemplat
 
 # target to preprocess a source file
 shared/cleanup/TaskObjectTemplateListUpdater.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjectTemplateListUpdater.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjectTemplateListUpdater.cpp.i
 .PHONY : shared/cleanup/TaskObjectTemplateListUpdater.cpp.i
 
 shared/cleanup/TaskObjectTemplateListUpdater.s: shared/cleanup/TaskObjectTemplateListUpdater.cpp.s
@@ -775,7 +775,7 @@ shared/cleanup/TaskObjectTemplateListUpdater.s: shared/cleanup/TaskObjectTemplat
 
 # target to generate assembly for a file
 shared/cleanup/TaskObjectTemplateListUpdater.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjectTemplateListUpdater.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjectTemplateListUpdater.cpp.s
 .PHONY : shared/cleanup/TaskObjectTemplateListUpdater.cpp.s
 
 shared/cleanup/TaskObjvarNameCleanup.o: shared/cleanup/TaskObjvarNameCleanup.cpp.o
@@ -783,7 +783,7 @@ shared/cleanup/TaskObjvarNameCleanup.o: shared/cleanup/TaskObjvarNameCleanup.cpp
 
 # target to build an object file
 shared/cleanup/TaskObjvarNameCleanup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjvarNameCleanup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjvarNameCleanup.cpp.o
 .PHONY : shared/cleanup/TaskObjvarNameCleanup.cpp.o
 
 shared/cleanup/TaskObjvarNameCleanup.i: shared/cleanup/TaskObjvarNameCleanup.cpp.i
@@ -791,7 +791,7 @@ shared/cleanup/TaskObjvarNameCleanup.i: shared/cleanup/TaskObjvarNameCleanup.cpp
 
 # target to preprocess a source file
 shared/cleanup/TaskObjvarNameCleanup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjvarNameCleanup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjvarNameCleanup.cpp.i
 .PHONY : shared/cleanup/TaskObjvarNameCleanup.cpp.i
 
 shared/cleanup/TaskObjvarNameCleanup.s: shared/cleanup/TaskObjvarNameCleanup.cpp.s
@@ -799,7 +799,7 @@ shared/cleanup/TaskObjvarNameCleanup.s: shared/cleanup/TaskObjvarNameCleanup.cpp
 
 # target to generate assembly for a file
 shared/cleanup/TaskObjvarNameCleanup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjvarNameCleanup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskObjvarNameCleanup.cpp.s
 .PHONY : shared/cleanup/TaskObjvarNameCleanup.cpp.s
 
 shared/cleanup/TaskOrphanedObjectCleanup.o: shared/cleanup/TaskOrphanedObjectCleanup.cpp.o
@@ -807,7 +807,7 @@ shared/cleanup/TaskOrphanedObjectCleanup.o: shared/cleanup/TaskOrphanedObjectCle
 
 # target to build an object file
 shared/cleanup/TaskOrphanedObjectCleanup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskOrphanedObjectCleanup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskOrphanedObjectCleanup.cpp.o
 .PHONY : shared/cleanup/TaskOrphanedObjectCleanup.cpp.o
 
 shared/cleanup/TaskOrphanedObjectCleanup.i: shared/cleanup/TaskOrphanedObjectCleanup.cpp.i
@@ -815,7 +815,7 @@ shared/cleanup/TaskOrphanedObjectCleanup.i: shared/cleanup/TaskOrphanedObjectCle
 
 # target to preprocess a source file
 shared/cleanup/TaskOrphanedObjectCleanup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskOrphanedObjectCleanup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskOrphanedObjectCleanup.cpp.i
 .PHONY : shared/cleanup/TaskOrphanedObjectCleanup.cpp.i
 
 shared/cleanup/TaskOrphanedObjectCleanup.s: shared/cleanup/TaskOrphanedObjectCleanup.cpp.s
@@ -823,7 +823,7 @@ shared/cleanup/TaskOrphanedObjectCleanup.s: shared/cleanup/TaskOrphanedObjectCle
 
 # target to generate assembly for a file
 shared/cleanup/TaskOrphanedObjectCleanup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskOrphanedObjectCleanup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskOrphanedObjectCleanup.cpp.s
 .PHONY : shared/cleanup/TaskOrphanedObjectCleanup.cpp.s
 
 shared/cleanup/TaskVendorObjectCleanup.o: shared/cleanup/TaskVendorObjectCleanup.cpp.o
@@ -831,7 +831,7 @@ shared/cleanup/TaskVendorObjectCleanup.o: shared/cleanup/TaskVendorObjectCleanup
 
 # target to build an object file
 shared/cleanup/TaskVendorObjectCleanup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskVendorObjectCleanup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskVendorObjectCleanup.cpp.o
 .PHONY : shared/cleanup/TaskVendorObjectCleanup.cpp.o
 
 shared/cleanup/TaskVendorObjectCleanup.i: shared/cleanup/TaskVendorObjectCleanup.cpp.i
@@ -839,7 +839,7 @@ shared/cleanup/TaskVendorObjectCleanup.i: shared/cleanup/TaskVendorObjectCleanup
 
 # target to preprocess a source file
 shared/cleanup/TaskVendorObjectCleanup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskVendorObjectCleanup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskVendorObjectCleanup.cpp.i
 .PHONY : shared/cleanup/TaskVendorObjectCleanup.cpp.i
 
 shared/cleanup/TaskVendorObjectCleanup.s: shared/cleanup/TaskVendorObjectCleanup.cpp.s
@@ -847,7 +847,7 @@ shared/cleanup/TaskVendorObjectCleanup.s: shared/cleanup/TaskVendorObjectCleanup
 
 # target to generate assembly for a file
 shared/cleanup/TaskVendorObjectCleanup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskVendorObjectCleanup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/cleanup/TaskVendorObjectCleanup.cpp.s
 .PHONY : shared/cleanup/TaskVendorObjectCleanup.cpp.s
 
 shared/core/CMLoader.o: shared/core/CMLoader.cpp.o
@@ -855,7 +855,7 @@ shared/core/CMLoader.o: shared/core/CMLoader.cpp.o
 
 # target to build an object file
 shared/core/CMLoader.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CMLoader.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CMLoader.cpp.o
 .PHONY : shared/core/CMLoader.cpp.o
 
 shared/core/CMLoader.i: shared/core/CMLoader.cpp.i
@@ -863,7 +863,7 @@ shared/core/CMLoader.i: shared/core/CMLoader.cpp.i
 
 # target to preprocess a source file
 shared/core/CMLoader.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CMLoader.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CMLoader.cpp.i
 .PHONY : shared/core/CMLoader.cpp.i
 
 shared/core/CMLoader.s: shared/core/CMLoader.cpp.s
@@ -871,7 +871,7 @@ shared/core/CMLoader.s: shared/core/CMLoader.cpp.s
 
 # target to generate assembly for a file
 shared/core/CMLoader.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CMLoader.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CMLoader.cpp.s
 .PHONY : shared/core/CMLoader.cpp.s
 
 shared/core/CommoditiesSnapshot.o: shared/core/CommoditiesSnapshot.cpp.o
@@ -879,7 +879,7 @@ shared/core/CommoditiesSnapshot.o: shared/core/CommoditiesSnapshot.cpp.o
 
 # target to build an object file
 shared/core/CommoditiesSnapshot.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CommoditiesSnapshot.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CommoditiesSnapshot.cpp.o
 .PHONY : shared/core/CommoditiesSnapshot.cpp.o
 
 shared/core/CommoditiesSnapshot.i: shared/core/CommoditiesSnapshot.cpp.i
@@ -887,7 +887,7 @@ shared/core/CommoditiesSnapshot.i: shared/core/CommoditiesSnapshot.cpp.i
 
 # target to preprocess a source file
 shared/core/CommoditiesSnapshot.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CommoditiesSnapshot.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CommoditiesSnapshot.cpp.i
 .PHONY : shared/core/CommoditiesSnapshot.cpp.i
 
 shared/core/CommoditiesSnapshot.s: shared/core/CommoditiesSnapshot.cpp.s
@@ -895,7 +895,7 @@ shared/core/CommoditiesSnapshot.s: shared/core/CommoditiesSnapshot.cpp.s
 
 # target to generate assembly for a file
 shared/core/CommoditiesSnapshot.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CommoditiesSnapshot.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/CommoditiesSnapshot.cpp.s
 .PHONY : shared/core/CommoditiesSnapshot.cpp.s
 
 shared/core/MiscPack.o: shared/core/MiscPack.cpp.o
@@ -903,7 +903,7 @@ shared/core/MiscPack.o: shared/core/MiscPack.cpp.o
 
 # target to build an object file
 shared/core/MiscPack.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/MiscPack.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/MiscPack.cpp.o
 .PHONY : shared/core/MiscPack.cpp.o
 
 shared/core/MiscPack.i: shared/core/MiscPack.cpp.i
@@ -911,7 +911,7 @@ shared/core/MiscPack.i: shared/core/MiscPack.cpp.i
 
 # target to preprocess a source file
 shared/core/MiscPack.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/MiscPack.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/MiscPack.cpp.i
 .PHONY : shared/core/MiscPack.cpp.i
 
 shared/core/MiscPack.s: shared/core/MiscPack.cpp.s
@@ -919,7 +919,7 @@ shared/core/MiscPack.s: shared/core/MiscPack.cpp.s
 
 # target to generate assembly for a file
 shared/core/MiscPack.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/MiscPack.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/MiscPack.cpp.s
 .PHONY : shared/core/MiscPack.cpp.s
 
 shared/core/ObjvarNameManager.o: shared/core/ObjvarNameManager.cpp.o
@@ -927,7 +927,7 @@ shared/core/ObjvarNameManager.o: shared/core/ObjvarNameManager.cpp.o
 
 # target to build an object file
 shared/core/ObjvarNameManager.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/ObjvarNameManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/ObjvarNameManager.cpp.o
 .PHONY : shared/core/ObjvarNameManager.cpp.o
 
 shared/core/ObjvarNameManager.i: shared/core/ObjvarNameManager.cpp.i
@@ -935,7 +935,7 @@ shared/core/ObjvarNameManager.i: shared/core/ObjvarNameManager.cpp.i
 
 # target to preprocess a source file
 shared/core/ObjvarNameManager.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/ObjvarNameManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/ObjvarNameManager.cpp.i
 .PHONY : shared/core/ObjvarNameManager.cpp.i
 
 shared/core/ObjvarNameManager.s: shared/core/ObjvarNameManager.cpp.s
@@ -943,7 +943,7 @@ shared/core/ObjvarNameManager.s: shared/core/ObjvarNameManager.cpp.s
 
 # target to generate assembly for a file
 shared/core/ObjvarNameManager.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/ObjvarNameManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/ObjvarNameManager.cpp.s
 .PHONY : shared/core/ObjvarNameManager.cpp.s
 
 shared/core/SwgDatabaseServer.o: shared/core/SwgDatabaseServer.cpp.o
@@ -951,7 +951,7 @@ shared/core/SwgDatabaseServer.o: shared/core/SwgDatabaseServer.cpp.o
 
 # target to build an object file
 shared/core/SwgDatabaseServer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgDatabaseServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgDatabaseServer.cpp.o
 .PHONY : shared/core/SwgDatabaseServer.cpp.o
 
 shared/core/SwgDatabaseServer.i: shared/core/SwgDatabaseServer.cpp.i
@@ -959,7 +959,7 @@ shared/core/SwgDatabaseServer.i: shared/core/SwgDatabaseServer.cpp.i
 
 # target to preprocess a source file
 shared/core/SwgDatabaseServer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgDatabaseServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgDatabaseServer.cpp.i
 .PHONY : shared/core/SwgDatabaseServer.cpp.i
 
 shared/core/SwgDatabaseServer.s: shared/core/SwgDatabaseServer.cpp.s
@@ -967,7 +967,7 @@ shared/core/SwgDatabaseServer.s: shared/core/SwgDatabaseServer.cpp.s
 
 # target to generate assembly for a file
 shared/core/SwgDatabaseServer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgDatabaseServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgDatabaseServer.cpp.s
 .PHONY : shared/core/SwgDatabaseServer.cpp.s
 
 shared/core/SwgLoader.o: shared/core/SwgLoader.cpp.o
@@ -975,7 +975,7 @@ shared/core/SwgLoader.o: shared/core/SwgLoader.cpp.o
 
 # target to build an object file
 shared/core/SwgLoader.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoader.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoader.cpp.o
 .PHONY : shared/core/SwgLoader.cpp.o
 
 shared/core/SwgLoader.i: shared/core/SwgLoader.cpp.i
@@ -983,7 +983,7 @@ shared/core/SwgLoader.i: shared/core/SwgLoader.cpp.i
 
 # target to preprocess a source file
 shared/core/SwgLoader.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoader.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoader.cpp.i
 .PHONY : shared/core/SwgLoader.cpp.i
 
 shared/core/SwgLoader.s: shared/core/SwgLoader.cpp.s
@@ -991,7 +991,7 @@ shared/core/SwgLoader.s: shared/core/SwgLoader.cpp.s
 
 # target to generate assembly for a file
 shared/core/SwgLoader.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoader.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoader.cpp.s
 .PHONY : shared/core/SwgLoader.cpp.s
 
 shared/core/SwgLoaderSnapshotGroup.o: shared/core/SwgLoaderSnapshotGroup.cpp.o
@@ -999,7 +999,7 @@ shared/core/SwgLoaderSnapshotGroup.o: shared/core/SwgLoaderSnapshotGroup.cpp.o
 
 # target to build an object file
 shared/core/SwgLoaderSnapshotGroup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoaderSnapshotGroup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoaderSnapshotGroup.cpp.o
 .PHONY : shared/core/SwgLoaderSnapshotGroup.cpp.o
 
 shared/core/SwgLoaderSnapshotGroup.i: shared/core/SwgLoaderSnapshotGroup.cpp.i
@@ -1007,7 +1007,7 @@ shared/core/SwgLoaderSnapshotGroup.i: shared/core/SwgLoaderSnapshotGroup.cpp.i
 
 # target to preprocess a source file
 shared/core/SwgLoaderSnapshotGroup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoaderSnapshotGroup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoaderSnapshotGroup.cpp.i
 .PHONY : shared/core/SwgLoaderSnapshotGroup.cpp.i
 
 shared/core/SwgLoaderSnapshotGroup.s: shared/core/SwgLoaderSnapshotGroup.cpp.s
@@ -1015,7 +1015,7 @@ shared/core/SwgLoaderSnapshotGroup.s: shared/core/SwgLoaderSnapshotGroup.cpp.s
 
 # target to generate assembly for a file
 shared/core/SwgLoaderSnapshotGroup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoaderSnapshotGroup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgLoaderSnapshotGroup.cpp.s
 .PHONY : shared/core/SwgLoaderSnapshotGroup.cpp.s
 
 shared/core/SwgPersister.o: shared/core/SwgPersister.cpp.o
@@ -1023,7 +1023,7 @@ shared/core/SwgPersister.o: shared/core/SwgPersister.cpp.o
 
 # target to build an object file
 shared/core/SwgPersister.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgPersister.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgPersister.cpp.o
 .PHONY : shared/core/SwgPersister.cpp.o
 
 shared/core/SwgPersister.i: shared/core/SwgPersister.cpp.i
@@ -1031,7 +1031,7 @@ shared/core/SwgPersister.i: shared/core/SwgPersister.cpp.i
 
 # target to preprocess a source file
 shared/core/SwgPersister.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgPersister.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgPersister.cpp.i
 .PHONY : shared/core/SwgPersister.cpp.i
 
 shared/core/SwgPersister.s: shared/core/SwgPersister.cpp.s
@@ -1039,7 +1039,7 @@ shared/core/SwgPersister.s: shared/core/SwgPersister.cpp.s
 
 # target to generate assembly for a file
 shared/core/SwgPersister.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgPersister.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgPersister.cpp.s
 .PHONY : shared/core/SwgPersister.cpp.s
 
 shared/core/SwgSnapshot.o: shared/core/SwgSnapshot.cpp.o
@@ -1047,7 +1047,7 @@ shared/core/SwgSnapshot.o: shared/core/SwgSnapshot.cpp.o
 
 # target to build an object file
 shared/core/SwgSnapshot.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgSnapshot.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgSnapshot.cpp.o
 .PHONY : shared/core/SwgSnapshot.cpp.o
 
 shared/core/SwgSnapshot.i: shared/core/SwgSnapshot.cpp.i
@@ -1055,7 +1055,7 @@ shared/core/SwgSnapshot.i: shared/core/SwgSnapshot.cpp.i
 
 # target to preprocess a source file
 shared/core/SwgSnapshot.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgSnapshot.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgSnapshot.cpp.i
 .PHONY : shared/core/SwgSnapshot.cpp.i
 
 shared/core/SwgSnapshot.s: shared/core/SwgSnapshot.cpp.s
@@ -1063,7 +1063,7 @@ shared/core/SwgSnapshot.s: shared/core/SwgSnapshot.cpp.s
 
 # target to generate assembly for a file
 shared/core/SwgSnapshot.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgSnapshot.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/core/SwgSnapshot.cpp.s
 .PHONY : shared/core/SwgSnapshot.cpp.s
 
 shared/generated/Decoder.o: shared/generated/Decoder.cpp.o
@@ -1071,7 +1071,7 @@ shared/generated/Decoder.o: shared/generated/Decoder.cpp.o
 
 # target to build an object file
 shared/generated/Decoder.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Decoder.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Decoder.cpp.o
 .PHONY : shared/generated/Decoder.cpp.o
 
 shared/generated/Decoder.i: shared/generated/Decoder.cpp.i
@@ -1079,7 +1079,7 @@ shared/generated/Decoder.i: shared/generated/Decoder.cpp.i
 
 # target to preprocess a source file
 shared/generated/Decoder.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Decoder.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Decoder.cpp.i
 .PHONY : shared/generated/Decoder.cpp.i
 
 shared/generated/Decoder.s: shared/generated/Decoder.cpp.s
@@ -1087,7 +1087,7 @@ shared/generated/Decoder.s: shared/generated/Decoder.cpp.s
 
 # target to generate assembly for a file
 shared/generated/Decoder.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Decoder.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Decoder.cpp.s
 .PHONY : shared/generated/Decoder.cpp.s
 
 shared/generated/Encoder.o: shared/generated/Encoder.cpp.o
@@ -1095,7 +1095,7 @@ shared/generated/Encoder.o: shared/generated/Encoder.cpp.o
 
 # target to build an object file
 shared/generated/Encoder.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Encoder.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Encoder.cpp.o
 .PHONY : shared/generated/Encoder.cpp.o
 
 shared/generated/Encoder.i: shared/generated/Encoder.cpp.i
@@ -1103,7 +1103,7 @@ shared/generated/Encoder.i: shared/generated/Encoder.cpp.i
 
 # target to preprocess a source file
 shared/generated/Encoder.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Encoder.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Encoder.cpp.i
 .PHONY : shared/generated/Encoder.cpp.i
 
 shared/generated/Encoder.s: shared/generated/Encoder.cpp.s
@@ -1111,7 +1111,7 @@ shared/generated/Encoder.s: shared/generated/Encoder.cpp.s
 
 # target to generate assembly for a file
 shared/generated/Encoder.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Encoder.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/Encoder.cpp.s
 .PHONY : shared/generated/Encoder.cpp.s
 
 shared/generated/LoadObject.o: shared/generated/LoadObject.cpp.o
@@ -1119,7 +1119,7 @@ shared/generated/LoadObject.o: shared/generated/LoadObject.cpp.o
 
 # target to build an object file
 shared/generated/LoadObject.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/LoadObject.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/LoadObject.cpp.o
 .PHONY : shared/generated/LoadObject.cpp.o
 
 shared/generated/LoadObject.i: shared/generated/LoadObject.cpp.i
@@ -1127,7 +1127,7 @@ shared/generated/LoadObject.i: shared/generated/LoadObject.cpp.i
 
 # target to preprocess a source file
 shared/generated/LoadObject.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/LoadObject.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/LoadObject.cpp.i
 .PHONY : shared/generated/LoadObject.cpp.i
 
 shared/generated/LoadObject.s: shared/generated/LoadObject.cpp.s
@@ -1135,7 +1135,7 @@ shared/generated/LoadObject.s: shared/generated/LoadObject.cpp.s
 
 # target to generate assembly for a file
 shared/generated/LoadObject.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/LoadObject.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/LoadObject.cpp.s
 .PHONY : shared/generated/LoadObject.cpp.s
 
 shared/generated/ObjectQueries.o: shared/generated/ObjectQueries.cpp.o
@@ -1143,7 +1143,7 @@ shared/generated/ObjectQueries.o: shared/generated/ObjectQueries.cpp.o
 
 # target to build an object file
 shared/generated/ObjectQueries.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/ObjectQueries.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/ObjectQueries.cpp.o
 .PHONY : shared/generated/ObjectQueries.cpp.o
 
 shared/generated/ObjectQueries.i: shared/generated/ObjectQueries.cpp.i
@@ -1151,7 +1151,7 @@ shared/generated/ObjectQueries.i: shared/generated/ObjectQueries.cpp.i
 
 # target to preprocess a source file
 shared/generated/ObjectQueries.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/ObjectQueries.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/ObjectQueries.cpp.i
 .PHONY : shared/generated/ObjectQueries.cpp.i
 
 shared/generated/ObjectQueries.s: shared/generated/ObjectQueries.cpp.s
@@ -1159,7 +1159,7 @@ shared/generated/ObjectQueries.s: shared/generated/ObjectQueries.cpp.s
 
 # target to generate assembly for a file
 shared/generated/ObjectQueries.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/ObjectQueries.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/generated/ObjectQueries.cpp.s
 .PHONY : shared/generated/ObjectQueries.cpp.s
 
 shared/persistable/PersistableWaypoint.o: shared/persistable/PersistableWaypoint.cpp.o
@@ -1167,7 +1167,7 @@ shared/persistable/PersistableWaypoint.o: shared/persistable/PersistableWaypoint
 
 # target to build an object file
 shared/persistable/PersistableWaypoint.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/persistable/PersistableWaypoint.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/persistable/PersistableWaypoint.cpp.o
 .PHONY : shared/persistable/PersistableWaypoint.cpp.o
 
 shared/persistable/PersistableWaypoint.i: shared/persistable/PersistableWaypoint.cpp.i
@@ -1175,7 +1175,7 @@ shared/persistable/PersistableWaypoint.i: shared/persistable/PersistableWaypoint
 
 # target to preprocess a source file
 shared/persistable/PersistableWaypoint.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/persistable/PersistableWaypoint.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/persistable/PersistableWaypoint.cpp.i
 .PHONY : shared/persistable/PersistableWaypoint.cpp.i
 
 shared/persistable/PersistableWaypoint.s: shared/persistable/PersistableWaypoint.cpp.s
@@ -1183,7 +1183,7 @@ shared/persistable/PersistableWaypoint.s: shared/persistable/PersistableWaypoint
 
 # target to generate assembly for a file
 shared/persistable/PersistableWaypoint.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/persistable/PersistableWaypoint.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/persistable/PersistableWaypoint.cpp.s
 .PHONY : shared/persistable/PersistableWaypoint.cpp.s
 
 shared/queries/BattlefieldParticipantQuery.o: shared/queries/BattlefieldParticipantQuery.cpp.o
@@ -1191,7 +1191,7 @@ shared/queries/BattlefieldParticipantQuery.o: shared/queries/BattlefieldParticip
 
 # target to build an object file
 shared/queries/BattlefieldParticipantQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BattlefieldParticipantQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BattlefieldParticipantQuery.cpp.o
 .PHONY : shared/queries/BattlefieldParticipantQuery.cpp.o
 
 shared/queries/BattlefieldParticipantQuery.i: shared/queries/BattlefieldParticipantQuery.cpp.i
@@ -1199,7 +1199,7 @@ shared/queries/BattlefieldParticipantQuery.i: shared/queries/BattlefieldParticip
 
 # target to preprocess a source file
 shared/queries/BattlefieldParticipantQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BattlefieldParticipantQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BattlefieldParticipantQuery.cpp.i
 .PHONY : shared/queries/BattlefieldParticipantQuery.cpp.i
 
 shared/queries/BattlefieldParticipantQuery.s: shared/queries/BattlefieldParticipantQuery.cpp.s
@@ -1207,7 +1207,7 @@ shared/queries/BattlefieldParticipantQuery.s: shared/queries/BattlefieldParticip
 
 # target to generate assembly for a file
 shared/queries/BattlefieldParticipantQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BattlefieldParticipantQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BattlefieldParticipantQuery.cpp.s
 .PHONY : shared/queries/BattlefieldParticipantQuery.cpp.s
 
 shared/queries/BountyHunterTargetQuery.o: shared/queries/BountyHunterTargetQuery.cpp.o
@@ -1215,7 +1215,7 @@ shared/queries/BountyHunterTargetQuery.o: shared/queries/BountyHunterTargetQuery
 
 # target to build an object file
 shared/queries/BountyHunterTargetQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BountyHunterTargetQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BountyHunterTargetQuery.cpp.o
 .PHONY : shared/queries/BountyHunterTargetQuery.cpp.o
 
 shared/queries/BountyHunterTargetQuery.i: shared/queries/BountyHunterTargetQuery.cpp.i
@@ -1223,7 +1223,7 @@ shared/queries/BountyHunterTargetQuery.i: shared/queries/BountyHunterTargetQuery
 
 # target to preprocess a source file
 shared/queries/BountyHunterTargetQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BountyHunterTargetQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BountyHunterTargetQuery.cpp.i
 .PHONY : shared/queries/BountyHunterTargetQuery.cpp.i
 
 shared/queries/BountyHunterTargetQuery.s: shared/queries/BountyHunterTargetQuery.cpp.s
@@ -1231,7 +1231,7 @@ shared/queries/BountyHunterTargetQuery.s: shared/queries/BountyHunterTargetQuery
 
 # target to generate assembly for a file
 shared/queries/BountyHunterTargetQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BountyHunterTargetQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/BountyHunterTargetQuery.cpp.s
 .PHONY : shared/queries/BountyHunterTargetQuery.cpp.s
 
 shared/queries/CommoditiesQuery.o: shared/queries/CommoditiesQuery.cpp.o
@@ -1239,7 +1239,7 @@ shared/queries/CommoditiesQuery.o: shared/queries/CommoditiesQuery.cpp.o
 
 # target to build an object file
 shared/queries/CommoditiesQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/CommoditiesQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/CommoditiesQuery.cpp.o
 .PHONY : shared/queries/CommoditiesQuery.cpp.o
 
 shared/queries/CommoditiesQuery.i: shared/queries/CommoditiesQuery.cpp.i
@@ -1247,7 +1247,7 @@ shared/queries/CommoditiesQuery.i: shared/queries/CommoditiesQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/CommoditiesQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/CommoditiesQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/CommoditiesQuery.cpp.i
 .PHONY : shared/queries/CommoditiesQuery.cpp.i
 
 shared/queries/CommoditiesQuery.s: shared/queries/CommoditiesQuery.cpp.s
@@ -1255,7 +1255,7 @@ shared/queries/CommoditiesQuery.s: shared/queries/CommoditiesQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/CommoditiesQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/CommoditiesQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/CommoditiesQuery.cpp.s
 .PHONY : shared/queries/CommoditiesQuery.cpp.s
 
 shared/queries/DeleteDemandLoadedContainerQuery.o: shared/queries/DeleteDemandLoadedContainerQuery.cpp.o
@@ -1263,7 +1263,7 @@ shared/queries/DeleteDemandLoadedContainerQuery.o: shared/queries/DeleteDemandLo
 
 # target to build an object file
 shared/queries/DeleteDemandLoadedContainerQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/DeleteDemandLoadedContainerQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/DeleteDemandLoadedContainerQuery.cpp.o
 .PHONY : shared/queries/DeleteDemandLoadedContainerQuery.cpp.o
 
 shared/queries/DeleteDemandLoadedContainerQuery.i: shared/queries/DeleteDemandLoadedContainerQuery.cpp.i
@@ -1271,7 +1271,7 @@ shared/queries/DeleteDemandLoadedContainerQuery.i: shared/queries/DeleteDemandLo
 
 # target to preprocess a source file
 shared/queries/DeleteDemandLoadedContainerQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/DeleteDemandLoadedContainerQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/DeleteDemandLoadedContainerQuery.cpp.i
 .PHONY : shared/queries/DeleteDemandLoadedContainerQuery.cpp.i
 
 shared/queries/DeleteDemandLoadedContainerQuery.s: shared/queries/DeleteDemandLoadedContainerQuery.cpp.s
@@ -1279,7 +1279,7 @@ shared/queries/DeleteDemandLoadedContainerQuery.s: shared/queries/DeleteDemandLo
 
 # target to generate assembly for a file
 shared/queries/DeleteDemandLoadedContainerQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/DeleteDemandLoadedContainerQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/DeleteDemandLoadedContainerQuery.cpp.s
 .PHONY : shared/queries/DeleteDemandLoadedContainerQuery.cpp.s
 
 shared/queries/ExperienceQuery.o: shared/queries/ExperienceQuery.cpp.o
@@ -1287,7 +1287,7 @@ shared/queries/ExperienceQuery.o: shared/queries/ExperienceQuery.cpp.o
 
 # target to build an object file
 shared/queries/ExperienceQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ExperienceQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ExperienceQuery.cpp.o
 .PHONY : shared/queries/ExperienceQuery.cpp.o
 
 shared/queries/ExperienceQuery.i: shared/queries/ExperienceQuery.cpp.i
@@ -1295,7 +1295,7 @@ shared/queries/ExperienceQuery.i: shared/queries/ExperienceQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/ExperienceQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ExperienceQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ExperienceQuery.cpp.i
 .PHONY : shared/queries/ExperienceQuery.cpp.i
 
 shared/queries/ExperienceQuery.s: shared/queries/ExperienceQuery.cpp.s
@@ -1303,7 +1303,7 @@ shared/queries/ExperienceQuery.s: shared/queries/ExperienceQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/ExperienceQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ExperienceQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ExperienceQuery.cpp.s
 .PHONY : shared/queries/ExperienceQuery.cpp.s
 
 shared/queries/LocationQuery.o: shared/queries/LocationQuery.cpp.o
@@ -1311,7 +1311,7 @@ shared/queries/LocationQuery.o: shared/queries/LocationQuery.cpp.o
 
 # target to build an object file
 shared/queries/LocationQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/LocationQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/LocationQuery.cpp.o
 .PHONY : shared/queries/LocationQuery.cpp.o
 
 shared/queries/LocationQuery.i: shared/queries/LocationQuery.cpp.i
@@ -1319,7 +1319,7 @@ shared/queries/LocationQuery.i: shared/queries/LocationQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/LocationQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/LocationQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/LocationQuery.cpp.i
 .PHONY : shared/queries/LocationQuery.cpp.i
 
 shared/queries/LocationQuery.s: shared/queries/LocationQuery.cpp.s
@@ -1327,7 +1327,7 @@ shared/queries/LocationQuery.s: shared/queries/LocationQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/LocationQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/LocationQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/LocationQuery.cpp.s
 .PHONY : shared/queries/LocationQuery.cpp.s
 
 shared/queries/ManufactureSchematicAttributeQuery.o: shared/queries/ManufactureSchematicAttributeQuery.cpp.o
@@ -1335,7 +1335,7 @@ shared/queries/ManufactureSchematicAttributeQuery.o: shared/queries/ManufactureS
 
 # target to build an object file
 shared/queries/ManufactureSchematicAttributeQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ManufactureSchematicAttributeQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ManufactureSchematicAttributeQuery.cpp.o
 .PHONY : shared/queries/ManufactureSchematicAttributeQuery.cpp.o
 
 shared/queries/ManufactureSchematicAttributeQuery.i: shared/queries/ManufactureSchematicAttributeQuery.cpp.i
@@ -1343,7 +1343,7 @@ shared/queries/ManufactureSchematicAttributeQuery.i: shared/queries/ManufactureS
 
 # target to preprocess a source file
 shared/queries/ManufactureSchematicAttributeQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ManufactureSchematicAttributeQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ManufactureSchematicAttributeQuery.cpp.i
 .PHONY : shared/queries/ManufactureSchematicAttributeQuery.cpp.i
 
 shared/queries/ManufactureSchematicAttributeQuery.s: shared/queries/ManufactureSchematicAttributeQuery.cpp.s
@@ -1351,7 +1351,7 @@ shared/queries/ManufactureSchematicAttributeQuery.s: shared/queries/ManufactureS
 
 # target to generate assembly for a file
 shared/queries/ManufactureSchematicAttributeQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ManufactureSchematicAttributeQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ManufactureSchematicAttributeQuery.cpp.s
 .PHONY : shared/queries/ManufactureSchematicAttributeQuery.cpp.s
 
 shared/queries/MessageQuery.o: shared/queries/MessageQuery.cpp.o
@@ -1359,7 +1359,7 @@ shared/queries/MessageQuery.o: shared/queries/MessageQuery.cpp.o
 
 # target to build an object file
 shared/queries/MessageQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/MessageQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/MessageQuery.cpp.o
 .PHONY : shared/queries/MessageQuery.cpp.o
 
 shared/queries/MessageQuery.i: shared/queries/MessageQuery.cpp.i
@@ -1367,7 +1367,7 @@ shared/queries/MessageQuery.i: shared/queries/MessageQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/MessageQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/MessageQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/MessageQuery.cpp.i
 .PHONY : shared/queries/MessageQuery.cpp.i
 
 shared/queries/MessageQuery.s: shared/queries/MessageQuery.cpp.s
@@ -1375,7 +1375,7 @@ shared/queries/MessageQuery.s: shared/queries/MessageQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/MessageQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/MessageQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/MessageQuery.cpp.s
 .PHONY : shared/queries/MessageQuery.cpp.s
 
 shared/queries/ObjectVariableQueries.o: shared/queries/ObjectVariableQueries.cpp.o
@@ -1383,7 +1383,7 @@ shared/queries/ObjectVariableQueries.o: shared/queries/ObjectVariableQueries.cpp
 
 # target to build an object file
 shared/queries/ObjectVariableQueries.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectVariableQueries.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectVariableQueries.cpp.o
 .PHONY : shared/queries/ObjectVariableQueries.cpp.o
 
 shared/queries/ObjectVariableQueries.i: shared/queries/ObjectVariableQueries.cpp.i
@@ -1391,7 +1391,7 @@ shared/queries/ObjectVariableQueries.i: shared/queries/ObjectVariableQueries.cpp
 
 # target to preprocess a source file
 shared/queries/ObjectVariableQueries.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectVariableQueries.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectVariableQueries.cpp.i
 .PHONY : shared/queries/ObjectVariableQueries.cpp.i
 
 shared/queries/ObjectVariableQueries.s: shared/queries/ObjectVariableQueries.cpp.s
@@ -1399,7 +1399,7 @@ shared/queries/ObjectVariableQueries.s: shared/queries/ObjectVariableQueries.cpp
 
 # target to generate assembly for a file
 shared/queries/ObjectVariableQueries.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectVariableQueries.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectVariableQueries.cpp.s
 .PHONY : shared/queries/ObjectVariableQueries.cpp.s
 
 shared/queries/ObjectsTableQuery.o: shared/queries/ObjectsTableQuery.cpp.o
@@ -1407,7 +1407,7 @@ shared/queries/ObjectsTableQuery.o: shared/queries/ObjectsTableQuery.cpp.o
 
 # target to build an object file
 shared/queries/ObjectsTableQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectsTableQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectsTableQuery.cpp.o
 .PHONY : shared/queries/ObjectsTableQuery.cpp.o
 
 shared/queries/ObjectsTableQuery.i: shared/queries/ObjectsTableQuery.cpp.i
@@ -1415,7 +1415,7 @@ shared/queries/ObjectsTableQuery.i: shared/queries/ObjectsTableQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/ObjectsTableQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectsTableQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectsTableQuery.cpp.i
 .PHONY : shared/queries/ObjectsTableQuery.cpp.i
 
 shared/queries/ObjectsTableQuery.s: shared/queries/ObjectsTableQuery.cpp.s
@@ -1423,7 +1423,7 @@ shared/queries/ObjectsTableQuery.s: shared/queries/ObjectsTableQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/ObjectsTableQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectsTableQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ObjectsTableQuery.cpp.s
 .PHONY : shared/queries/ObjectsTableQuery.cpp.s
 
 shared/queries/OfflineMoneyCustomPersistStep.o: shared/queries/OfflineMoneyCustomPersistStep.cpp.o
@@ -1431,7 +1431,7 @@ shared/queries/OfflineMoneyCustomPersistStep.o: shared/queries/OfflineMoneyCusto
 
 # target to build an object file
 shared/queries/OfflineMoneyCustomPersistStep.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/OfflineMoneyCustomPersistStep.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/OfflineMoneyCustomPersistStep.cpp.o
 .PHONY : shared/queries/OfflineMoneyCustomPersistStep.cpp.o
 
 shared/queries/OfflineMoneyCustomPersistStep.i: shared/queries/OfflineMoneyCustomPersistStep.cpp.i
@@ -1439,7 +1439,7 @@ shared/queries/OfflineMoneyCustomPersistStep.i: shared/queries/OfflineMoneyCusto
 
 # target to preprocess a source file
 shared/queries/OfflineMoneyCustomPersistStep.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/OfflineMoneyCustomPersistStep.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/OfflineMoneyCustomPersistStep.cpp.i
 .PHONY : shared/queries/OfflineMoneyCustomPersistStep.cpp.i
 
 shared/queries/OfflineMoneyCustomPersistStep.s: shared/queries/OfflineMoneyCustomPersistStep.cpp.s
@@ -1447,7 +1447,7 @@ shared/queries/OfflineMoneyCustomPersistStep.s: shared/queries/OfflineMoneyCusto
 
 # target to generate assembly for a file
 shared/queries/OfflineMoneyCustomPersistStep.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/OfflineMoneyCustomPersistStep.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/OfflineMoneyCustomPersistStep.cpp.s
 .PHONY : shared/queries/OfflineMoneyCustomPersistStep.cpp.s
 
 shared/queries/PropertyListQuery.o: shared/queries/PropertyListQuery.cpp.o
@@ -1455,7 +1455,7 @@ shared/queries/PropertyListQuery.o: shared/queries/PropertyListQuery.cpp.o
 
 # target to build an object file
 shared/queries/PropertyListQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/PropertyListQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/PropertyListQuery.cpp.o
 .PHONY : shared/queries/PropertyListQuery.cpp.o
 
 shared/queries/PropertyListQuery.i: shared/queries/PropertyListQuery.cpp.i
@@ -1463,7 +1463,7 @@ shared/queries/PropertyListQuery.i: shared/queries/PropertyListQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/PropertyListQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/PropertyListQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/PropertyListQuery.cpp.i
 .PHONY : shared/queries/PropertyListQuery.cpp.i
 
 shared/queries/PropertyListQuery.s: shared/queries/PropertyListQuery.cpp.s
@@ -1471,7 +1471,7 @@ shared/queries/PropertyListQuery.s: shared/queries/PropertyListQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/PropertyListQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/PropertyListQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/PropertyListQuery.cpp.s
 .PHONY : shared/queries/PropertyListQuery.cpp.s
 
 shared/queries/ResourceTypeQuery.o: shared/queries/ResourceTypeQuery.cpp.o
@@ -1479,7 +1479,7 @@ shared/queries/ResourceTypeQuery.o: shared/queries/ResourceTypeQuery.cpp.o
 
 # target to build an object file
 shared/queries/ResourceTypeQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ResourceTypeQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ResourceTypeQuery.cpp.o
 .PHONY : shared/queries/ResourceTypeQuery.cpp.o
 
 shared/queries/ResourceTypeQuery.i: shared/queries/ResourceTypeQuery.cpp.i
@@ -1487,7 +1487,7 @@ shared/queries/ResourceTypeQuery.i: shared/queries/ResourceTypeQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/ResourceTypeQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ResourceTypeQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ResourceTypeQuery.cpp.i
 .PHONY : shared/queries/ResourceTypeQuery.cpp.i
 
 shared/queries/ResourceTypeQuery.s: shared/queries/ResourceTypeQuery.cpp.s
@@ -1495,7 +1495,7 @@ shared/queries/ResourceTypeQuery.s: shared/queries/ResourceTypeQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/ResourceTypeQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ResourceTypeQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/ResourceTypeQuery.cpp.s
 .PHONY : shared/queries/ResourceTypeQuery.cpp.s
 
 shared/queries/SkillQuery.o: shared/queries/SkillQuery.cpp.o
@@ -1503,7 +1503,7 @@ shared/queries/SkillQuery.o: shared/queries/SkillQuery.cpp.o
 
 # target to build an object file
 shared/queries/SkillQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/SkillQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/SkillQuery.cpp.o
 .PHONY : shared/queries/SkillQuery.cpp.o
 
 shared/queries/SkillQuery.i: shared/queries/SkillQuery.cpp.i
@@ -1511,7 +1511,7 @@ shared/queries/SkillQuery.i: shared/queries/SkillQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/SkillQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/SkillQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/SkillQuery.cpp.i
 .PHONY : shared/queries/SkillQuery.cpp.i
 
 shared/queries/SkillQuery.s: shared/queries/SkillQuery.cpp.s
@@ -1519,7 +1519,7 @@ shared/queries/SkillQuery.s: shared/queries/SkillQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/SkillQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/SkillQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/SkillQuery.cpp.s
 .PHONY : shared/queries/SkillQuery.cpp.s
 
 shared/queries/WaypointQuery.o: shared/queries/WaypointQuery.cpp.o
@@ -1527,7 +1527,7 @@ shared/queries/WaypointQuery.o: shared/queries/WaypointQuery.cpp.o
 
 # target to build an object file
 shared/queries/WaypointQuery.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/WaypointQuery.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/WaypointQuery.cpp.o
 .PHONY : shared/queries/WaypointQuery.cpp.o
 
 shared/queries/WaypointQuery.i: shared/queries/WaypointQuery.cpp.i
@@ -1535,7 +1535,7 @@ shared/queries/WaypointQuery.i: shared/queries/WaypointQuery.cpp.i
 
 # target to preprocess a source file
 shared/queries/WaypointQuery.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/WaypointQuery.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/WaypointQuery.cpp.i
 .PHONY : shared/queries/WaypointQuery.cpp.i
 
 shared/queries/WaypointQuery.s: shared/queries/WaypointQuery.cpp.s
@@ -1543,7 +1543,7 @@ shared/queries/WaypointQuery.s: shared/queries/WaypointQuery.cpp.s
 
 # target to generate assembly for a file
 shared/queries/WaypointQuery.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/WaypointQuery.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/queries/WaypointQuery.cpp.s
 .PHONY : shared/queries/WaypointQuery.cpp.s
 
 shared/tasks/TaskGetAuctionAttributeList.o: shared/tasks/TaskGetAuctionAttributeList.cpp.o
@@ -1551,7 +1551,7 @@ shared/tasks/TaskGetAuctionAttributeList.o: shared/tasks/TaskGetAuctionAttribute
 
 # target to build an object file
 shared/tasks/TaskGetAuctionAttributeList.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionAttributeList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionAttributeList.cpp.o
 .PHONY : shared/tasks/TaskGetAuctionAttributeList.cpp.o
 
 shared/tasks/TaskGetAuctionAttributeList.i: shared/tasks/TaskGetAuctionAttributeList.cpp.i
@@ -1559,7 +1559,7 @@ shared/tasks/TaskGetAuctionAttributeList.i: shared/tasks/TaskGetAuctionAttribute
 
 # target to preprocess a source file
 shared/tasks/TaskGetAuctionAttributeList.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionAttributeList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionAttributeList.cpp.i
 .PHONY : shared/tasks/TaskGetAuctionAttributeList.cpp.i
 
 shared/tasks/TaskGetAuctionAttributeList.s: shared/tasks/TaskGetAuctionAttributeList.cpp.s
@@ -1567,7 +1567,7 @@ shared/tasks/TaskGetAuctionAttributeList.s: shared/tasks/TaskGetAuctionAttribute
 
 # target to generate assembly for a file
 shared/tasks/TaskGetAuctionAttributeList.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionAttributeList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionAttributeList.cpp.s
 .PHONY : shared/tasks/TaskGetAuctionAttributeList.cpp.s
 
 shared/tasks/TaskGetAuctionList.o: shared/tasks/TaskGetAuctionList.cpp.o
@@ -1575,7 +1575,7 @@ shared/tasks/TaskGetAuctionList.o: shared/tasks/TaskGetAuctionList.cpp.o
 
 # target to build an object file
 shared/tasks/TaskGetAuctionList.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionList.cpp.o
 .PHONY : shared/tasks/TaskGetAuctionList.cpp.o
 
 shared/tasks/TaskGetAuctionList.i: shared/tasks/TaskGetAuctionList.cpp.i
@@ -1583,7 +1583,7 @@ shared/tasks/TaskGetAuctionList.i: shared/tasks/TaskGetAuctionList.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskGetAuctionList.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionList.cpp.i
 .PHONY : shared/tasks/TaskGetAuctionList.cpp.i
 
 shared/tasks/TaskGetAuctionList.s: shared/tasks/TaskGetAuctionList.cpp.s
@@ -1591,7 +1591,7 @@ shared/tasks/TaskGetAuctionList.s: shared/tasks/TaskGetAuctionList.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskGetAuctionList.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetAuctionList.cpp.s
 .PHONY : shared/tasks/TaskGetAuctionList.cpp.s
 
 shared/tasks/TaskGetBidList.o: shared/tasks/TaskGetBidList.cpp.o
@@ -1599,7 +1599,7 @@ shared/tasks/TaskGetBidList.o: shared/tasks/TaskGetBidList.cpp.o
 
 # target to build an object file
 shared/tasks/TaskGetBidList.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetBidList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetBidList.cpp.o
 .PHONY : shared/tasks/TaskGetBidList.cpp.o
 
 shared/tasks/TaskGetBidList.i: shared/tasks/TaskGetBidList.cpp.i
@@ -1607,7 +1607,7 @@ shared/tasks/TaskGetBidList.i: shared/tasks/TaskGetBidList.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskGetBidList.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetBidList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetBidList.cpp.i
 .PHONY : shared/tasks/TaskGetBidList.cpp.i
 
 shared/tasks/TaskGetBidList.s: shared/tasks/TaskGetBidList.cpp.s
@@ -1615,7 +1615,7 @@ shared/tasks/TaskGetBidList.s: shared/tasks/TaskGetBidList.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskGetBidList.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetBidList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetBidList.cpp.s
 .PHONY : shared/tasks/TaskGetBidList.cpp.s
 
 shared/tasks/TaskGetCharacters.o: shared/tasks/TaskGetCharacters.cpp.o
@@ -1623,7 +1623,7 @@ shared/tasks/TaskGetCharacters.o: shared/tasks/TaskGetCharacters.cpp.o
 
 # target to build an object file
 shared/tasks/TaskGetCharacters.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetCharacters.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetCharacters.cpp.o
 .PHONY : shared/tasks/TaskGetCharacters.cpp.o
 
 shared/tasks/TaskGetCharacters.i: shared/tasks/TaskGetCharacters.cpp.i
@@ -1631,7 +1631,7 @@ shared/tasks/TaskGetCharacters.i: shared/tasks/TaskGetCharacters.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskGetCharacters.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetCharacters.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetCharacters.cpp.i
 .PHONY : shared/tasks/TaskGetCharacters.cpp.i
 
 shared/tasks/TaskGetCharacters.s: shared/tasks/TaskGetCharacters.cpp.s
@@ -1639,7 +1639,7 @@ shared/tasks/TaskGetCharacters.s: shared/tasks/TaskGetCharacters.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskGetCharacters.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetCharacters.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetCharacters.cpp.s
 .PHONY : shared/tasks/TaskGetCharacters.cpp.s
 
 shared/tasks/TaskGetLocationList.o: shared/tasks/TaskGetLocationList.cpp.o
@@ -1647,7 +1647,7 @@ shared/tasks/TaskGetLocationList.o: shared/tasks/TaskGetLocationList.cpp.o
 
 # target to build an object file
 shared/tasks/TaskGetLocationList.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetLocationList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetLocationList.cpp.o
 .PHONY : shared/tasks/TaskGetLocationList.cpp.o
 
 shared/tasks/TaskGetLocationList.i: shared/tasks/TaskGetLocationList.cpp.i
@@ -1655,7 +1655,7 @@ shared/tasks/TaskGetLocationList.i: shared/tasks/TaskGetLocationList.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskGetLocationList.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetLocationList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetLocationList.cpp.i
 .PHONY : shared/tasks/TaskGetLocationList.cpp.i
 
 shared/tasks/TaskGetLocationList.s: shared/tasks/TaskGetLocationList.cpp.s
@@ -1663,7 +1663,7 @@ shared/tasks/TaskGetLocationList.s: shared/tasks/TaskGetLocationList.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskGetLocationList.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetLocationList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskGetLocationList.cpp.s
 .PHONY : shared/tasks/TaskGetLocationList.cpp.s
 
 shared/tasks/TaskLoadObjvarNames.o: shared/tasks/TaskLoadObjvarNames.cpp.o
@@ -1671,7 +1671,7 @@ shared/tasks/TaskLoadObjvarNames.o: shared/tasks/TaskLoadObjvarNames.cpp.o
 
 # target to build an object file
 shared/tasks/TaskLoadObjvarNames.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLoadObjvarNames.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLoadObjvarNames.cpp.o
 .PHONY : shared/tasks/TaskLoadObjvarNames.cpp.o
 
 shared/tasks/TaskLoadObjvarNames.i: shared/tasks/TaskLoadObjvarNames.cpp.i
@@ -1679,7 +1679,7 @@ shared/tasks/TaskLoadObjvarNames.i: shared/tasks/TaskLoadObjvarNames.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskLoadObjvarNames.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLoadObjvarNames.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLoadObjvarNames.cpp.i
 .PHONY : shared/tasks/TaskLoadObjvarNames.cpp.i
 
 shared/tasks/TaskLoadObjvarNames.s: shared/tasks/TaskLoadObjvarNames.cpp.s
@@ -1687,7 +1687,7 @@ shared/tasks/TaskLoadObjvarNames.s: shared/tasks/TaskLoadObjvarNames.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskLoadObjvarNames.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLoadObjvarNames.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLoadObjvarNames.cpp.s
 .PHONY : shared/tasks/TaskLoadObjvarNames.cpp.s
 
 shared/tasks/TaskLocateStructure.o: shared/tasks/TaskLocateStructure.cpp.o
@@ -1695,7 +1695,7 @@ shared/tasks/TaskLocateStructure.o: shared/tasks/TaskLocateStructure.cpp.o
 
 # target to build an object file
 shared/tasks/TaskLocateStructure.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLocateStructure.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLocateStructure.cpp.o
 .PHONY : shared/tasks/TaskLocateStructure.cpp.o
 
 shared/tasks/TaskLocateStructure.i: shared/tasks/TaskLocateStructure.cpp.i
@@ -1703,7 +1703,7 @@ shared/tasks/TaskLocateStructure.i: shared/tasks/TaskLocateStructure.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskLocateStructure.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLocateStructure.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLocateStructure.cpp.i
 .PHONY : shared/tasks/TaskLocateStructure.cpp.i
 
 shared/tasks/TaskLocateStructure.s: shared/tasks/TaskLocateStructure.cpp.s
@@ -1711,7 +1711,7 @@ shared/tasks/TaskLocateStructure.s: shared/tasks/TaskLocateStructure.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskLocateStructure.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLocateStructure.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskLocateStructure.cpp.s
 .PHONY : shared/tasks/TaskLocateStructure.cpp.s
 
 shared/tasks/TaskMoveToPlayer.o: shared/tasks/TaskMoveToPlayer.cpp.o
@@ -1719,7 +1719,7 @@ shared/tasks/TaskMoveToPlayer.o: shared/tasks/TaskMoveToPlayer.cpp.o
 
 # target to build an object file
 shared/tasks/TaskMoveToPlayer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskMoveToPlayer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskMoveToPlayer.cpp.o
 .PHONY : shared/tasks/TaskMoveToPlayer.cpp.o
 
 shared/tasks/TaskMoveToPlayer.i: shared/tasks/TaskMoveToPlayer.cpp.i
@@ -1727,7 +1727,7 @@ shared/tasks/TaskMoveToPlayer.i: shared/tasks/TaskMoveToPlayer.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskMoveToPlayer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskMoveToPlayer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskMoveToPlayer.cpp.i
 .PHONY : shared/tasks/TaskMoveToPlayer.cpp.i
 
 shared/tasks/TaskMoveToPlayer.s: shared/tasks/TaskMoveToPlayer.cpp.s
@@ -1735,7 +1735,7 @@ shared/tasks/TaskMoveToPlayer.s: shared/tasks/TaskMoveToPlayer.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskMoveToPlayer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskMoveToPlayer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskMoveToPlayer.cpp.s
 .PHONY : shared/tasks/TaskMoveToPlayer.cpp.s
 
 shared/tasks/TaskRestoreCharacter.o: shared/tasks/TaskRestoreCharacter.cpp.o
@@ -1743,7 +1743,7 @@ shared/tasks/TaskRestoreCharacter.o: shared/tasks/TaskRestoreCharacter.cpp.o
 
 # target to build an object file
 shared/tasks/TaskRestoreCharacter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreCharacter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreCharacter.cpp.o
 .PHONY : shared/tasks/TaskRestoreCharacter.cpp.o
 
 shared/tasks/TaskRestoreCharacter.i: shared/tasks/TaskRestoreCharacter.cpp.i
@@ -1751,7 +1751,7 @@ shared/tasks/TaskRestoreCharacter.i: shared/tasks/TaskRestoreCharacter.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskRestoreCharacter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreCharacter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreCharacter.cpp.i
 .PHONY : shared/tasks/TaskRestoreCharacter.cpp.i
 
 shared/tasks/TaskRestoreCharacter.s: shared/tasks/TaskRestoreCharacter.cpp.s
@@ -1759,7 +1759,7 @@ shared/tasks/TaskRestoreCharacter.s: shared/tasks/TaskRestoreCharacter.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskRestoreCharacter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreCharacter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreCharacter.cpp.s
 .PHONY : shared/tasks/TaskRestoreCharacter.cpp.s
 
 shared/tasks/TaskRestoreHouse.o: shared/tasks/TaskRestoreHouse.cpp.o
@@ -1767,7 +1767,7 @@ shared/tasks/TaskRestoreHouse.o: shared/tasks/TaskRestoreHouse.cpp.o
 
 # target to build an object file
 shared/tasks/TaskRestoreHouse.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreHouse.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreHouse.cpp.o
 .PHONY : shared/tasks/TaskRestoreHouse.cpp.o
 
 shared/tasks/TaskRestoreHouse.i: shared/tasks/TaskRestoreHouse.cpp.i
@@ -1775,7 +1775,7 @@ shared/tasks/TaskRestoreHouse.i: shared/tasks/TaskRestoreHouse.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskRestoreHouse.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreHouse.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreHouse.cpp.i
 .PHONY : shared/tasks/TaskRestoreHouse.cpp.i
 
 shared/tasks/TaskRestoreHouse.s: shared/tasks/TaskRestoreHouse.cpp.s
@@ -1783,7 +1783,7 @@ shared/tasks/TaskRestoreHouse.s: shared/tasks/TaskRestoreHouse.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskRestoreHouse.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreHouse.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskRestoreHouse.cpp.s
 .PHONY : shared/tasks/TaskRestoreHouse.cpp.s
 
 shared/tasks/TaskSaveObjvarNames.o: shared/tasks/TaskSaveObjvarNames.cpp.o
@@ -1791,7 +1791,7 @@ shared/tasks/TaskSaveObjvarNames.o: shared/tasks/TaskSaveObjvarNames.cpp.o
 
 # target to build an object file
 shared/tasks/TaskSaveObjvarNames.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskSaveObjvarNames.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskSaveObjvarNames.cpp.o
 .PHONY : shared/tasks/TaskSaveObjvarNames.cpp.o
 
 shared/tasks/TaskSaveObjvarNames.i: shared/tasks/TaskSaveObjvarNames.cpp.i
@@ -1799,7 +1799,7 @@ shared/tasks/TaskSaveObjvarNames.i: shared/tasks/TaskSaveObjvarNames.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskSaveObjvarNames.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskSaveObjvarNames.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskSaveObjvarNames.cpp.i
 .PHONY : shared/tasks/TaskSaveObjvarNames.cpp.i
 
 shared/tasks/TaskSaveObjvarNames.s: shared/tasks/TaskSaveObjvarNames.cpp.s
@@ -1807,7 +1807,7 @@ shared/tasks/TaskSaveObjvarNames.s: shared/tasks/TaskSaveObjvarNames.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskSaveObjvarNames.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskSaveObjvarNames.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskSaveObjvarNames.cpp.s
 .PHONY : shared/tasks/TaskSaveObjvarNames.cpp.s
 
 shared/tasks/TaskUndeleteItem.o: shared/tasks/TaskUndeleteItem.cpp.o
@@ -1815,7 +1815,7 @@ shared/tasks/TaskUndeleteItem.o: shared/tasks/TaskUndeleteItem.cpp.o
 
 # target to build an object file
 shared/tasks/TaskUndeleteItem.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskUndeleteItem.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskUndeleteItem.cpp.o
 .PHONY : shared/tasks/TaskUndeleteItem.cpp.o
 
 shared/tasks/TaskUndeleteItem.i: shared/tasks/TaskUndeleteItem.cpp.i
@@ -1823,7 +1823,7 @@ shared/tasks/TaskUndeleteItem.i: shared/tasks/TaskUndeleteItem.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskUndeleteItem.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskUndeleteItem.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskUndeleteItem.cpp.i
 .PHONY : shared/tasks/TaskUndeleteItem.cpp.i
 
 shared/tasks/TaskUndeleteItem.s: shared/tasks/TaskUndeleteItem.cpp.s
@@ -1831,7 +1831,7 @@ shared/tasks/TaskUndeleteItem.s: shared/tasks/TaskUndeleteItem.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskUndeleteItem.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskUndeleteItem.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskUndeleteItem.cpp.s
 .PHONY : shared/tasks/TaskUndeleteItem.cpp.s
 
 shared/tasks/TaskVerifyCharacter.o: shared/tasks/TaskVerifyCharacter.cpp.o
@@ -1839,7 +1839,7 @@ shared/tasks/TaskVerifyCharacter.o: shared/tasks/TaskVerifyCharacter.cpp.o
 
 # target to build an object file
 shared/tasks/TaskVerifyCharacter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskVerifyCharacter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskVerifyCharacter.cpp.o
 .PHONY : shared/tasks/TaskVerifyCharacter.cpp.o
 
 shared/tasks/TaskVerifyCharacter.i: shared/tasks/TaskVerifyCharacter.cpp.i
@@ -1847,7 +1847,7 @@ shared/tasks/TaskVerifyCharacter.i: shared/tasks/TaskVerifyCharacter.cpp.i
 
 # target to preprocess a source file
 shared/tasks/TaskVerifyCharacter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskVerifyCharacter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskVerifyCharacter.cpp.i
 .PHONY : shared/tasks/TaskVerifyCharacter.cpp.i
 
 shared/tasks/TaskVerifyCharacter.s: shared/tasks/TaskVerifyCharacter.cpp.s
@@ -1855,7 +1855,7 @@ shared/tasks/TaskVerifyCharacter.s: shared/tasks/TaskVerifyCharacter.cpp.s
 
 # target to generate assembly for a file
 shared/tasks/TaskVerifyCharacter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskVerifyCharacter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/build.make game/server/application/SwgDatabaseServer/src/CMakeFiles/SwgDatabaseServer.dir/shared/tasks/TaskVerifyCharacter.cpp.s
 .PHONY : shared/tasks/TaskVerifyCharacter.cpp.s
 
 # Help Target
@@ -2094,6 +2094,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

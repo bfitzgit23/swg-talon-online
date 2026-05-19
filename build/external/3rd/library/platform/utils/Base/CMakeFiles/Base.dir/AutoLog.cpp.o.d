@@ -1,7 +1,7 @@
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/AutoLog.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/AutoLog.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/AutoLog.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/AutoLog.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/AutoLog.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \

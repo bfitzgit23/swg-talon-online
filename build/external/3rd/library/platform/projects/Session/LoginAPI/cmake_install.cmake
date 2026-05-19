@@ -1,4 +1,4 @@
-# Install script for directory: /home/swg1/swg-main/src/external/3rd/library/platform/projects/Session/LoginAPI
+# Install script for directory: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/LoginAPI
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

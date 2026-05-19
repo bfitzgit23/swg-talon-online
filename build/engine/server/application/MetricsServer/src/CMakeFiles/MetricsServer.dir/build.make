@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/depend.make
@@ -70,88 +70,88 @@ include engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir
 include engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/flags.make
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/flags.make
-engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o: /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/ConfigMetricsServer.cpp
+engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/ConfigMetricsServer.cpp
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o -c /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/ConfigMetricsServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/ConfigMetricsServer.cpp
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/ConfigMetricsServer.cpp > CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/ConfigMetricsServer.cpp > CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.i
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/ConfigMetricsServer.cpp -o CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/ConfigMetricsServer.cpp -o CMakeFiles/MetricsServer.dir/shared/ConfigMetricsServer.cpp.s
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/flags.make
-engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o: /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/FirstMetricsServer.cpp
+engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/FirstMetricsServer.cpp
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o -c /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/FirstMetricsServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/FirstMetricsServer.cpp
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/FirstMetricsServer.cpp > CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/FirstMetricsServer.cpp > CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.i
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/FirstMetricsServer.cpp -o CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/FirstMetricsServer.cpp -o CMakeFiles/MetricsServer.dir/shared/FirstMetricsServer.cpp.s
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/flags.make
-engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o: /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/MetricsGatheringConnection.cpp
+engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/MetricsGatheringConnection.cpp
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o -c /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/MetricsGatheringConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/MetricsGatheringConnection.cpp
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/MetricsGatheringConnection.cpp > CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/MetricsGatheringConnection.cpp > CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.i
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/MetricsGatheringConnection.cpp -o CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/MetricsGatheringConnection.cpp -o CMakeFiles/MetricsServer.dir/shared/MetricsGatheringConnection.cpp.s
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/flags.make
-engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o: /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/MetricsServer.cpp
+engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/MetricsServer.cpp
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o -c /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/MetricsServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/MetricsServer.cpp
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/MetricsServer.cpp > CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/MetricsServer.cpp > CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.i
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/MetricsServer.cpp -o CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/MetricsServer.cpp -o CMakeFiles/MetricsServer.dir/shared/MetricsServer.cpp.s
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/flags.make
-engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o: /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/TaskConnection.cpp
+engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/TaskConnection.cpp
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o -c /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/TaskConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o -MF CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o.d -o CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/TaskConnection.cpp
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/TaskConnection.cpp > CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/TaskConnection.cpp > CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.i
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/shared/TaskConnection.cpp -o CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/shared/TaskConnection.cpp -o CMakeFiles/MetricsServer.dir/shared/TaskConnection.cpp.s
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/flags.make
-engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o: /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/linux/main.cpp
+engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/linux/main.cpp
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o -MF CMakeFiles/MetricsServer.dir/linux/main.cpp.o.d -o CMakeFiles/MetricsServer.dir/linux/main.cpp.o -c /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/linux/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.o -MF CMakeFiles/MetricsServer.dir/linux/main.cpp.o.d -o CMakeFiles/MetricsServer.dir/linux/main.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/linux/main.cpp
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/MetricsServer.dir/linux/main.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/linux/main.cpp > CMakeFiles/MetricsServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/linux/main.cpp > CMakeFiles/MetricsServer.dir/linux/main.cpp.i
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/linux/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/MetricsServer.dir/linux/main.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/MetricsServer/src/linux/main.cpp -o CMakeFiles/MetricsServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src/linux/main.cpp -o CMakeFiles/MetricsServer.dir/linux/main.cpp.s
 
 # Object files for target MetricsServer
 MetricsServer_OBJECTS = \
@@ -219,18 +219,18 @@ bin/MetricsServer: external/ours/library/localizationArchive/src/liblocalization
 bin/MetricsServer: external/ours/library/unicode/src/libunicode.a
 bin/MetricsServer: external/ours/library/unicodeArchive/src/libunicodeArchive.a
 bin/MetricsServer: engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../../../bin/MetricsServer"
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MetricsServer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX executable ../../../../../bin/MetricsServer"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/MetricsServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build: bin/MetricsServer
 .PHONY : engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/build
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/clean:
-	cd /home/swg1/swg-main/build/engine/server/application/MetricsServer/src && $(CMAKE_COMMAND) -P CMakeFiles/MetricsServer.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src && $(CMAKE_COMMAND) -P CMakeFiles/MetricsServer.dir/cmake_clean.cmake
 .PHONY : engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/clean
 
 engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/engine/server/application/MetricsServer/src /home/swg1/swg-main/build /home/swg1/swg-main/build/engine/server/application/MetricsServer/src /home/swg1/swg-main/build/engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/server/application/MetricsServer/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src /home/almalinux/swg-talon-online/build/engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/server/application/MetricsServer/src/CMakeFiles/MetricsServer.dir/depend
 

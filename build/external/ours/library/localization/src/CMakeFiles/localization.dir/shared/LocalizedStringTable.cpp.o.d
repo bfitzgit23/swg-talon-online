@@ -1,10 +1,10 @@
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o: \
- /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp \
+ /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/ours/library/localization/src/shared/FirstLocalization.h \
- /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTable.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/Unicode.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/FirstLocalization.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTable.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/Unicode.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -109,20 +109,20 @@ external/ours/library/localization/src/CMakeFiles/localization.dir/shared/Locali
  /usr/include/c++/8/optional \
  /usr/include/c++/8/bits/enable_special_members.h \
  /usr/include/c++/8/bits/unordered_map.h \
- /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedString.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedString.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/bits/stl_map.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
- /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/../../src/shared/AbstractFile.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/UnicodeUtils.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/../../src/shared/AbstractFile.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/UnicodeUtils.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
  /usr/include/c++/8/cstring /usr/include/string.h /usr/include/strings.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/utf8.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/utf8.h \
  /usr/include/c++/8/algorithm /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \

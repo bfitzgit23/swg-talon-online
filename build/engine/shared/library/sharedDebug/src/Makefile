@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedDebug/src//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedDebug/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/rule
 .PHONY : engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedDebug: engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/ru
 
 # fast build rule for target.
 sharedDebug/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build
 .PHONY : sharedDebug/fast
 
 linux/ConfigSharedDebugLinux.o: linux/ConfigSharedDebugLinux.cpp.o
@@ -135,7 +135,7 @@ linux/ConfigSharedDebugLinux.o: linux/ConfigSharedDebugLinux.cpp.o
 
 # target to build an object file
 linux/ConfigSharedDebugLinux.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ConfigSharedDebugLinux.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ConfigSharedDebugLinux.cpp.o
 .PHONY : linux/ConfigSharedDebugLinux.cpp.o
 
 linux/ConfigSharedDebugLinux.i: linux/ConfigSharedDebugLinux.cpp.i
@@ -143,7 +143,7 @@ linux/ConfigSharedDebugLinux.i: linux/ConfigSharedDebugLinux.cpp.i
 
 # target to preprocess a source file
 linux/ConfigSharedDebugLinux.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ConfigSharedDebugLinux.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ConfigSharedDebugLinux.cpp.i
 .PHONY : linux/ConfigSharedDebugLinux.cpp.i
 
 linux/ConfigSharedDebugLinux.s: linux/ConfigSharedDebugLinux.cpp.s
@@ -151,7 +151,7 @@ linux/ConfigSharedDebugLinux.s: linux/ConfigSharedDebugLinux.cpp.s
 
 # target to generate assembly for a file
 linux/ConfigSharedDebugLinux.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ConfigSharedDebugLinux.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ConfigSharedDebugLinux.cpp.s
 .PHONY : linux/ConfigSharedDebugLinux.cpp.s
 
 linux/DebugHelp.o: linux/DebugHelp.cpp.o
@@ -159,7 +159,7 @@ linux/DebugHelp.o: linux/DebugHelp.cpp.o
 
 # target to build an object file
 linux/DebugHelp.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugHelp.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugHelp.cpp.o
 .PHONY : linux/DebugHelp.cpp.o
 
 linux/DebugHelp.i: linux/DebugHelp.cpp.i
@@ -167,7 +167,7 @@ linux/DebugHelp.i: linux/DebugHelp.cpp.i
 
 # target to preprocess a source file
 linux/DebugHelp.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugHelp.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugHelp.cpp.i
 .PHONY : linux/DebugHelp.cpp.i
 
 linux/DebugHelp.s: linux/DebugHelp.cpp.s
@@ -175,7 +175,7 @@ linux/DebugHelp.s: linux/DebugHelp.cpp.s
 
 # target to generate assembly for a file
 linux/DebugHelp.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugHelp.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugHelp.cpp.s
 .PHONY : linux/DebugHelp.cpp.s
 
 linux/DebugMonitor.o: linux/DebugMonitor.cpp.o
@@ -183,7 +183,7 @@ linux/DebugMonitor.o: linux/DebugMonitor.cpp.o
 
 # target to build an object file
 linux/DebugMonitor.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugMonitor.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugMonitor.cpp.o
 .PHONY : linux/DebugMonitor.cpp.o
 
 linux/DebugMonitor.i: linux/DebugMonitor.cpp.i
@@ -191,7 +191,7 @@ linux/DebugMonitor.i: linux/DebugMonitor.cpp.i
 
 # target to preprocess a source file
 linux/DebugMonitor.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugMonitor.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugMonitor.cpp.i
 .PHONY : linux/DebugMonitor.cpp.i
 
 linux/DebugMonitor.s: linux/DebugMonitor.cpp.s
@@ -199,7 +199,7 @@ linux/DebugMonitor.s: linux/DebugMonitor.cpp.s
 
 # target to generate assembly for a file
 linux/DebugMonitor.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugMonitor.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/DebugMonitor.cpp.s
 .PHONY : linux/DebugMonitor.cpp.s
 
 linux/PerformanceTimer.o: linux/PerformanceTimer.cpp.o
@@ -207,7 +207,7 @@ linux/PerformanceTimer.o: linux/PerformanceTimer.cpp.o
 
 # target to build an object file
 linux/PerformanceTimer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/PerformanceTimer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/PerformanceTimer.cpp.o
 .PHONY : linux/PerformanceTimer.cpp.o
 
 linux/PerformanceTimer.i: linux/PerformanceTimer.cpp.i
@@ -215,7 +215,7 @@ linux/PerformanceTimer.i: linux/PerformanceTimer.cpp.i
 
 # target to preprocess a source file
 linux/PerformanceTimer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/PerformanceTimer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/PerformanceTimer.cpp.i
 .PHONY : linux/PerformanceTimer.cpp.i
 
 linux/PerformanceTimer.s: linux/PerformanceTimer.cpp.s
@@ -223,7 +223,7 @@ linux/PerformanceTimer.s: linux/PerformanceTimer.cpp.s
 
 # target to generate assembly for a file
 linux/PerformanceTimer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/PerformanceTimer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/PerformanceTimer.cpp.s
 .PHONY : linux/PerformanceTimer.cpp.s
 
 linux/ProfilerTimer.o: linux/ProfilerTimer.cpp.o
@@ -231,7 +231,7 @@ linux/ProfilerTimer.o: linux/ProfilerTimer.cpp.o
 
 # target to build an object file
 linux/ProfilerTimer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ProfilerTimer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ProfilerTimer.cpp.o
 .PHONY : linux/ProfilerTimer.cpp.o
 
 linux/ProfilerTimer.i: linux/ProfilerTimer.cpp.i
@@ -239,7 +239,7 @@ linux/ProfilerTimer.i: linux/ProfilerTimer.cpp.i
 
 # target to preprocess a source file
 linux/ProfilerTimer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ProfilerTimer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ProfilerTimer.cpp.i
 .PHONY : linux/ProfilerTimer.cpp.i
 
 linux/ProfilerTimer.s: linux/ProfilerTimer.cpp.s
@@ -247,7 +247,7 @@ linux/ProfilerTimer.s: linux/ProfilerTimer.cpp.s
 
 # target to generate assembly for a file
 linux/ProfilerTimer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ProfilerTimer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/linux/ProfilerTimer.cpp.s
 .PHONY : linux/ProfilerTimer.cpp.s
 
 shared/CallStack.o: shared/CallStack.cpp.o
@@ -255,7 +255,7 @@ shared/CallStack.o: shared/CallStack.cpp.o
 
 # target to build an object file
 shared/CallStack.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStack.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStack.cpp.o
 .PHONY : shared/CallStack.cpp.o
 
 shared/CallStack.i: shared/CallStack.cpp.i
@@ -263,7 +263,7 @@ shared/CallStack.i: shared/CallStack.cpp.i
 
 # target to preprocess a source file
 shared/CallStack.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStack.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStack.cpp.i
 .PHONY : shared/CallStack.cpp.i
 
 shared/CallStack.s: shared/CallStack.cpp.s
@@ -271,7 +271,7 @@ shared/CallStack.s: shared/CallStack.cpp.s
 
 # target to generate assembly for a file
 shared/CallStack.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStack.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStack.cpp.s
 .PHONY : shared/CallStack.cpp.s
 
 shared/CallStackCollector.o: shared/CallStackCollector.cpp.o
@@ -279,7 +279,7 @@ shared/CallStackCollector.o: shared/CallStackCollector.cpp.o
 
 # target to build an object file
 shared/CallStackCollector.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStackCollector.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStackCollector.cpp.o
 .PHONY : shared/CallStackCollector.cpp.o
 
 shared/CallStackCollector.i: shared/CallStackCollector.cpp.i
@@ -287,7 +287,7 @@ shared/CallStackCollector.i: shared/CallStackCollector.cpp.i
 
 # target to preprocess a source file
 shared/CallStackCollector.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStackCollector.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStackCollector.cpp.i
 .PHONY : shared/CallStackCollector.cpp.i
 
 shared/CallStackCollector.s: shared/CallStackCollector.cpp.s
@@ -295,7 +295,7 @@ shared/CallStackCollector.s: shared/CallStackCollector.cpp.s
 
 # target to generate assembly for a file
 shared/CallStackCollector.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStackCollector.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/CallStackCollector.cpp.s
 .PHONY : shared/CallStackCollector.cpp.s
 
 shared/DataLint.o: shared/DataLint.cpp.o
@@ -303,7 +303,7 @@ shared/DataLint.o: shared/DataLint.cpp.o
 
 # target to build an object file
 shared/DataLint.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DataLint.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DataLint.cpp.o
 .PHONY : shared/DataLint.cpp.o
 
 shared/DataLint.i: shared/DataLint.cpp.i
@@ -311,7 +311,7 @@ shared/DataLint.i: shared/DataLint.cpp.i
 
 # target to preprocess a source file
 shared/DataLint.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DataLint.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DataLint.cpp.i
 .PHONY : shared/DataLint.cpp.i
 
 shared/DataLint.s: shared/DataLint.cpp.s
@@ -319,7 +319,7 @@ shared/DataLint.s: shared/DataLint.cpp.s
 
 # target to generate assembly for a file
 shared/DataLint.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DataLint.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DataLint.cpp.s
 .PHONY : shared/DataLint.cpp.s
 
 shared/DebugFlags.o: shared/DebugFlags.cpp.o
@@ -327,7 +327,7 @@ shared/DebugFlags.o: shared/DebugFlags.cpp.o
 
 # target to build an object file
 shared/DebugFlags.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugFlags.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugFlags.cpp.o
 .PHONY : shared/DebugFlags.cpp.o
 
 shared/DebugFlags.i: shared/DebugFlags.cpp.i
@@ -335,7 +335,7 @@ shared/DebugFlags.i: shared/DebugFlags.cpp.i
 
 # target to preprocess a source file
 shared/DebugFlags.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugFlags.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugFlags.cpp.i
 .PHONY : shared/DebugFlags.cpp.i
 
 shared/DebugFlags.s: shared/DebugFlags.cpp.s
@@ -343,7 +343,7 @@ shared/DebugFlags.s: shared/DebugFlags.cpp.s
 
 # target to generate assembly for a file
 shared/DebugFlags.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugFlags.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugFlags.cpp.s
 .PHONY : shared/DebugFlags.cpp.s
 
 shared/DebugKey.o: shared/DebugKey.cpp.o
@@ -351,7 +351,7 @@ shared/DebugKey.o: shared/DebugKey.cpp.o
 
 # target to build an object file
 shared/DebugKey.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugKey.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugKey.cpp.o
 .PHONY : shared/DebugKey.cpp.o
 
 shared/DebugKey.i: shared/DebugKey.cpp.i
@@ -359,7 +359,7 @@ shared/DebugKey.i: shared/DebugKey.cpp.i
 
 # target to preprocess a source file
 shared/DebugKey.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugKey.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugKey.cpp.i
 .PHONY : shared/DebugKey.cpp.i
 
 shared/DebugKey.s: shared/DebugKey.cpp.s
@@ -367,7 +367,7 @@ shared/DebugKey.s: shared/DebugKey.cpp.s
 
 # target to generate assembly for a file
 shared/DebugKey.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugKey.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/DebugKey.cpp.s
 .PHONY : shared/DebugKey.cpp.s
 
 shared/InstallTimer.o: shared/InstallTimer.cpp.o
@@ -375,7 +375,7 @@ shared/InstallTimer.o: shared/InstallTimer.cpp.o
 
 # target to build an object file
 shared/InstallTimer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/InstallTimer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/InstallTimer.cpp.o
 .PHONY : shared/InstallTimer.cpp.o
 
 shared/InstallTimer.i: shared/InstallTimer.cpp.i
@@ -383,7 +383,7 @@ shared/InstallTimer.i: shared/InstallTimer.cpp.i
 
 # target to preprocess a source file
 shared/InstallTimer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/InstallTimer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/InstallTimer.cpp.i
 .PHONY : shared/InstallTimer.cpp.i
 
 shared/InstallTimer.s: shared/InstallTimer.cpp.s
@@ -391,7 +391,7 @@ shared/InstallTimer.s: shared/InstallTimer.cpp.s
 
 # target to generate assembly for a file
 shared/InstallTimer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/InstallTimer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/InstallTimer.cpp.s
 .PHONY : shared/InstallTimer.cpp.s
 
 shared/PixCounter.o: shared/PixCounter.cpp.o
@@ -399,7 +399,7 @@ shared/PixCounter.o: shared/PixCounter.cpp.o
 
 # target to build an object file
 shared/PixCounter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/PixCounter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/PixCounter.cpp.o
 .PHONY : shared/PixCounter.cpp.o
 
 shared/PixCounter.i: shared/PixCounter.cpp.i
@@ -407,7 +407,7 @@ shared/PixCounter.i: shared/PixCounter.cpp.i
 
 # target to preprocess a source file
 shared/PixCounter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/PixCounter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/PixCounter.cpp.i
 .PHONY : shared/PixCounter.cpp.i
 
 shared/PixCounter.s: shared/PixCounter.cpp.s
@@ -415,7 +415,7 @@ shared/PixCounter.s: shared/PixCounter.cpp.s
 
 # target to generate assembly for a file
 shared/PixCounter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/PixCounter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/PixCounter.cpp.s
 .PHONY : shared/PixCounter.cpp.s
 
 shared/Profiler.o: shared/Profiler.cpp.o
@@ -423,7 +423,7 @@ shared/Profiler.o: shared/Profiler.cpp.o
 
 # target to build an object file
 shared/Profiler.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Profiler.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Profiler.cpp.o
 .PHONY : shared/Profiler.cpp.o
 
 shared/Profiler.i: shared/Profiler.cpp.i
@@ -431,7 +431,7 @@ shared/Profiler.i: shared/Profiler.cpp.i
 
 # target to preprocess a source file
 shared/Profiler.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Profiler.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Profiler.cpp.i
 .PHONY : shared/Profiler.cpp.i
 
 shared/Profiler.s: shared/Profiler.cpp.s
@@ -439,7 +439,7 @@ shared/Profiler.s: shared/Profiler.cpp.s
 
 # target to generate assembly for a file
 shared/Profiler.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Profiler.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Profiler.cpp.s
 .PHONY : shared/Profiler.cpp.s
 
 shared/RemoteDebug.o: shared/RemoteDebug.cpp.o
@@ -447,7 +447,7 @@ shared/RemoteDebug.o: shared/RemoteDebug.cpp.o
 
 # target to build an object file
 shared/RemoteDebug.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug.cpp.o
 .PHONY : shared/RemoteDebug.cpp.o
 
 shared/RemoteDebug.i: shared/RemoteDebug.cpp.i
@@ -455,7 +455,7 @@ shared/RemoteDebug.i: shared/RemoteDebug.cpp.i
 
 # target to preprocess a source file
 shared/RemoteDebug.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug.cpp.i
 .PHONY : shared/RemoteDebug.cpp.i
 
 shared/RemoteDebug.s: shared/RemoteDebug.cpp.s
@@ -463,7 +463,7 @@ shared/RemoteDebug.s: shared/RemoteDebug.cpp.s
 
 # target to generate assembly for a file
 shared/RemoteDebug.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug.cpp.s
 .PHONY : shared/RemoteDebug.cpp.s
 
 shared/RemoteDebug_inner.o: shared/RemoteDebug_inner.cpp.o
@@ -471,7 +471,7 @@ shared/RemoteDebug_inner.o: shared/RemoteDebug_inner.cpp.o
 
 # target to build an object file
 shared/RemoteDebug_inner.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug_inner.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug_inner.cpp.o
 .PHONY : shared/RemoteDebug_inner.cpp.o
 
 shared/RemoteDebug_inner.i: shared/RemoteDebug_inner.cpp.i
@@ -479,7 +479,7 @@ shared/RemoteDebug_inner.i: shared/RemoteDebug_inner.cpp.i
 
 # target to preprocess a source file
 shared/RemoteDebug_inner.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug_inner.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug_inner.cpp.i
 .PHONY : shared/RemoteDebug_inner.cpp.i
 
 shared/RemoteDebug_inner.s: shared/RemoteDebug_inner.cpp.s
@@ -487,7 +487,7 @@ shared/RemoteDebug_inner.s: shared/RemoteDebug_inner.cpp.s
 
 # target to generate assembly for a file
 shared/RemoteDebug_inner.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug_inner.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/RemoteDebug_inner.cpp.s
 .PHONY : shared/RemoteDebug_inner.cpp.s
 
 shared/Report.o: shared/Report.cpp.o
@@ -495,7 +495,7 @@ shared/Report.o: shared/Report.cpp.o
 
 # target to build an object file
 shared/Report.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Report.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Report.cpp.o
 .PHONY : shared/Report.cpp.o
 
 shared/Report.i: shared/Report.cpp.i
@@ -503,7 +503,7 @@ shared/Report.i: shared/Report.cpp.i
 
 # target to preprocess a source file
 shared/Report.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Report.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Report.cpp.i
 .PHONY : shared/Report.cpp.i
 
 shared/Report.s: shared/Report.cpp.s
@@ -511,7 +511,7 @@ shared/Report.s: shared/Report.cpp.s
 
 # target to generate assembly for a file
 shared/Report.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Report.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/Report.cpp.s
 .PHONY : shared/Report.cpp.s
 
 shared/SetupSharedDebug.o: shared/SetupSharedDebug.cpp.o
@@ -519,7 +519,7 @@ shared/SetupSharedDebug.o: shared/SetupSharedDebug.cpp.o
 
 # target to build an object file
 shared/SetupSharedDebug.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/SetupSharedDebug.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/SetupSharedDebug.cpp.o
 .PHONY : shared/SetupSharedDebug.cpp.o
 
 shared/SetupSharedDebug.i: shared/SetupSharedDebug.cpp.i
@@ -527,7 +527,7 @@ shared/SetupSharedDebug.i: shared/SetupSharedDebug.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedDebug.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/SetupSharedDebug.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/SetupSharedDebug.cpp.i
 .PHONY : shared/SetupSharedDebug.cpp.i
 
 shared/SetupSharedDebug.s: shared/SetupSharedDebug.cpp.s
@@ -535,7 +535,7 @@ shared/SetupSharedDebug.s: shared/SetupSharedDebug.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedDebug.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/SetupSharedDebug.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/build.make engine/shared/library/sharedDebug/src/CMakeFiles/sharedDebug.dir/shared/SetupSharedDebug.cpp.s
 .PHONY : shared/SetupSharedDebug.cpp.s
 
 # Help Target
@@ -609,6 +609,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

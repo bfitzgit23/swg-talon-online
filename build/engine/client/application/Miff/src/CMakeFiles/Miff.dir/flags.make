@@ -3,15 +3,15 @@
 
 # compile C with /bin/cc
 # compile CXX with /bin/c++
-C_DEFINES = -DLINUX -D_GNU_SOURCE -D_REENTRANT -D_USING_STL -D_XOPEN_SOURCE=500 -Dlinux
+C_DEFINES = -DLINUX -DSTELLA_INTERNAL -D_GNU_SOURCE -D_REENTRANT -D_USING_STL -D_XOPEN_SOURCE=500 -Dlinux
 
-C_INCLUDES = -I/usr/include/i386-linux-gnu -I/home/swg1/swg-main/src/engine/shared/library/sharedCompression/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedThread/include/public -I/home/swg1/swg-main/src/external/ours/library/fileInterface/include/public
+C_INCLUDES = -I/usr/include/i386-linux-gnu -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedThread/include/public -I/home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public
 
 C_FLAGS = -m32 -O3 -DNDEBUG   -U_FORTIFY_SOURCE
 
-CXX_DEFINES = -DLINUX -D_GNU_SOURCE -D_REENTRANT -D_USING_STL -D_XOPEN_SOURCE=500 -Dlinux
+CXX_DEFINES = -DLINUX -DSTELLA_INTERNAL -D_GNU_SOURCE -D_REENTRANT -D_USING_STL -D_XOPEN_SOURCE=500 -Dlinux
 
-CXX_INCLUDES = -I/usr/include/i386-linux-gnu -I/home/swg1/swg-main/src/engine/shared/library/sharedCompression/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedFile/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public -I/home/swg1/swg-main/src/engine/shared/library/sharedThread/include/public -I/home/swg1/swg-main/src/external/ours/library/fileInterface/include/public
+CXX_INCLUDES = -I/usr/include/i386-linux-gnu -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedCompression/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFile/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public -I/home/almalinux/swg-talon-online/src/engine/shared/library/sharedThread/include/public -I/home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public
 
-CXX_FLAGS = -m32 -pipe -march=native -mtune=native 		-Wformat -Wno-overloaded-virtual -Wno-missing-braces -Wno-format 		-Wno-write-strings -Wno-unknown-pragmas 		-Wno-uninitialized -Wno-reorder -Wno-tautological-constant-out-of-range-compare -Wno-stringop-overflow -Wno-address-of-packed-member -DDEBUG_LEVEL=0 -DPRODUCTION=1 -O2 -fno-signed-zeros -freciprocal-math -fno-unroll-loops -fno-tree-loop-optimize -fno-plt -std=c++17   -U_FORTIFY_SOURCE
+CXX_FLAGS = -m32 -pipe -march=native -mtune=native 		-Wformat -Wno-overloaded-virtual -Wno-missing-braces -Wno-format 		-Wno-write-strings -Wno-unknown-pragmas 		-Wno-uninitialized -Wno-reorder -Wno-tautological-constant-out-of-range-compare -DDEBUG_LEVEL=0 -DPRODUCTION=1 -O2 -fno-signed-zeros -freciprocal-math -fno-unroll-loops -fno-tree-loop-optimize -fno-plt -std=c++17   -U_FORTIFY_SOURCE
 

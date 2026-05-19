@@ -1,13 +1,13 @@
 engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseInterface_oci.dir/OciQueryImplementation.cpp.o: \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/FirstSharedDatabaseInterface.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/FirstSharedDatabaseInterface.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/FirstSharedDatabaseInterface.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/FirstSharedDatabaseInterface.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
  /usr/include/c++/8/cstdio \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -25,8 +25,8 @@ engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseI
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
  /usr/include/c++/8/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
@@ -88,8 +88,8 @@ engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseI
  /usr/include/string.h /usr/include/strings.h /usr/include/wchar.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
  /usr/include/netinet/in.h /usr/include/bits/stdint-uintn.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
@@ -116,14 +116,14 @@ engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseI
  /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h /usr/include/c++/8/cfloat \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/allocator.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++allocator.h \
  /usr/include/c++/8/ext/new_allocator.h /usr/include/c++/8/new \
@@ -181,23 +181,23 @@ engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseI
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_queue.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h /usr/include/c++/8/bits/list.tcc \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/FirstSharedDebug.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/FirstSharedDebug.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbQueryImplementation.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbQueryImplementation.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbProtocol.def \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbProtocol.def \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/FirstSharedDebug.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/FirstSharedDebug.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciQueryImplementation.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbQueryImplementation.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbQueryImplementation.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbProtocol.def \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbProtocol.def \
  /include/oci.h /include/oratypes.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -209,43 +209,43 @@ engine/shared/library/sharedDatabaseInterface/src_oci/CMakeFiles/sharedDatabaseI
  /include/orl.h /include/ociextp.h /include/ociapr.h /include/ociap.h \
  /include/nzt.h /include/nzerror.h /include/ocixmldb.h /include/oci8dp.h \
  /include/ocixstream.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/Bindable.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/Bindable.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBase.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBase.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBitArray.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBitArray.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableString.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableString.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/UnicodeUtils.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/Bindable.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/Bindable.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBase.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBase.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBitArray.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBitArray.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableString.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableString.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/UnicodeUtils.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
  /usr/include/c++/8/cstring \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/utf8.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/BitArray.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/BitArray.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBool.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBool.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableDouble.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableDouble.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableInt64.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableInt64.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableLong.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableLong.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableUnicode.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableUnicode.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableVarray.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src_oci/DbBindableVarray.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbQuery.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbQuery.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbServer.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbServer.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedSynchronization/include/public/sharedSynchronization/Mutex.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedSynchronization/include/public/../../src/linux/Mutex.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbSession.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbSession.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedLog/include/public/sharedLog/Log.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedLog/include/public/../../src/shared/Log.h \
- /home/swg1/swg-main/src/engine/shared/library/sharedLog/include/public/../../src/shared/LogManager.h
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/utf8.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/BitArray.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/BitArray.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableBool.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableBool.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableDouble.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableDouble.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableInt64.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableInt64.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableLong.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableLong.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableUnicode.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbBindableUnicode.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbBindableVarray.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src_oci/DbBindableVarray.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbQuery.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbQuery.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciServer.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbServer.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbServer.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/include/public/sharedSynchronization/Mutex.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedSynchronization/include/public/../../src/linux/Mutex.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/src_oci/OciSession.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/sharedDatabaseInterface/DbSession.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDatabaseInterface/include/public/../../src/shared/core/DbSession.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedLog/include/public/sharedLog/Log.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedLog/include/public/../../src/shared/Log.h \
+ /home/almalinux/swg-talon-online/src/engine/shared/library/sharedLog/include/public/../../src/shared/LogManager.h

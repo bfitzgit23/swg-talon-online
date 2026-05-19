@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include external/ours/library/crypto/src/CMakeFiles/crypto.dir/depend.make
@@ -70,200 +70,200 @@ include external/ours/library/crypto/src/CMakeFiles/crypto.dir/progress.make
 include external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/cryptlib.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/cryptlib.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o -MF CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/cryptlib.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o -MF CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/cryptlib.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/cryptlib.cpp > CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/cryptlib.cpp > CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/cryptlib.cpp -o CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/cryptlib.cpp -o CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/filters.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/filters.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o -MF CMakeFiles/crypto.dir/shared/original/filters.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/filters.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/filters.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o -MF CMakeFiles/crypto.dir/shared/original/filters.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/filters.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/filters.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/filters.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/filters.cpp > CMakeFiles/crypto.dir/shared/original/filters.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/filters.cpp > CMakeFiles/crypto.dir/shared/original/filters.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/filters.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/filters.cpp -o CMakeFiles/crypto.dir/shared/original/filters.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/filters.cpp -o CMakeFiles/crypto.dir/shared/original/filters.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/iterhash.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/iterhash.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o -MF CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/iterhash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o -MF CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/iterhash.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/iterhash.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/iterhash.cpp > CMakeFiles/crypto.dir/shared/original/iterhash.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/iterhash.cpp > CMakeFiles/crypto.dir/shared/original/iterhash.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/iterhash.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/iterhash.cpp -o CMakeFiles/crypto.dir/shared/original/iterhash.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/iterhash.cpp -o CMakeFiles/crypto.dir/shared/original/iterhash.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/md5.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/md5.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o -MF CMakeFiles/crypto.dir/shared/original/md5.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/md5.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/md5.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o -MF CMakeFiles/crypto.dir/shared/original/md5.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/md5.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/md5.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/md5.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/md5.cpp > CMakeFiles/crypto.dir/shared/original/md5.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/md5.cpp > CMakeFiles/crypto.dir/shared/original/md5.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/md5.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/md5.cpp -o CMakeFiles/crypto.dir/shared/original/md5.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/md5.cpp -o CMakeFiles/crypto.dir/shared/original/md5.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/misc.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/misc.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o -MF CMakeFiles/crypto.dir/shared/original/misc.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/misc.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/misc.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o -MF CMakeFiles/crypto.dir/shared/original/misc.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/misc.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/misc.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/misc.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/misc.cpp > CMakeFiles/crypto.dir/shared/original/misc.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/misc.cpp > CMakeFiles/crypto.dir/shared/original/misc.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/misc.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/misc.cpp -o CMakeFiles/crypto.dir/shared/original/misc.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/misc.cpp -o CMakeFiles/crypto.dir/shared/original/misc.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/mqueue.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/mqueue.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o -MF CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/mqueue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o -MF CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/mqueue.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/mqueue.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/mqueue.cpp > CMakeFiles/crypto.dir/shared/original/mqueue.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/mqueue.cpp > CMakeFiles/crypto.dir/shared/original/mqueue.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/mqueue.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/mqueue.cpp -o CMakeFiles/crypto.dir/shared/original/mqueue.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/mqueue.cpp -o CMakeFiles/crypto.dir/shared/original/mqueue.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/queue.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/queue.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o -MF CMakeFiles/crypto.dir/shared/original/queue.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/queue.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/queue.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o -MF CMakeFiles/crypto.dir/shared/original/queue.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/queue.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/queue.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/queue.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/queue.cpp > CMakeFiles/crypto.dir/shared/original/queue.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/queue.cpp > CMakeFiles/crypto.dir/shared/original/queue.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/queue.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/queue.cpp -o CMakeFiles/crypto.dir/shared/original/queue.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/queue.cpp -o CMakeFiles/crypto.dir/shared/original/queue.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/tftables.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/tftables.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o -MF CMakeFiles/crypto.dir/shared/original/tftables.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/tftables.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/tftables.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o -MF CMakeFiles/crypto.dir/shared/original/tftables.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/tftables.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/tftables.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/tftables.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/tftables.cpp > CMakeFiles/crypto.dir/shared/original/tftables.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/tftables.cpp > CMakeFiles/crypto.dir/shared/original/tftables.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/tftables.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/tftables.cpp -o CMakeFiles/crypto.dir/shared/original/tftables.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/tftables.cpp -o CMakeFiles/crypto.dir/shared/original/tftables.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/twofish.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/twofish.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o -MF CMakeFiles/crypto.dir/shared/original/twofish.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/twofish.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/twofish.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o -MF CMakeFiles/crypto.dir/shared/original/twofish.cpp.o.d -o CMakeFiles/crypto.dir/shared/original/twofish.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/twofish.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/original/twofish.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/twofish.cpp > CMakeFiles/crypto.dir/shared/original/twofish.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/twofish.cpp > CMakeFiles/crypto.dir/shared/original/twofish.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/original/twofish.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/original/twofish.cpp -o CMakeFiles/crypto.dir/shared/original/twofish.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/original/twofish.cpp -o CMakeFiles/crypto.dir/shared/original/twofish.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/Hash.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/Hash.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/Hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/Hash.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/Hash.cpp > CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/Hash.cpp > CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/Hash.cpp -o CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/Hash.cpp -o CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/MD5Hash.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/MD5Hash.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/MD5Hash.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/MD5Hash.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/MD5Hash.cpp > CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/MD5Hash.cpp > CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/MD5Hash.cpp -o CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/MD5Hash.cpp -o CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishCrypt.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishCrypt.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishCrypt.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishCrypt.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishCrypt.cpp > CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishCrypt.cpp > CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishCrypt.cpp -o CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishCrypt.cpp -o CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishDecryptor.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishDecryptor.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishDecryptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishDecryptor.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishDecryptor.cpp > CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishDecryptor.cpp > CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishDecryptor.cpp -o CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishDecryptor.cpp -o CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.s
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/flags.make
-external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o: /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishEncryptor.cpp
+external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishEncryptor.cpp
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o: external/ours/library/crypto/src/CMakeFiles/crypto.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o -c /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishEncryptor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o -MF CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o.d -o CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishEncryptor.cpp
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishEncryptor.cpp > CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishEncryptor.cpp > CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.i
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/crypto/src/shared/wrapper/TwofishEncryptor.cpp -o CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src/shared/wrapper/TwofishEncryptor.cpp -o CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.s
 
 # Object files for target crypto
 crypto_OBJECTS = \
@@ -301,19 +301,19 @@ external/ours/library/crypto/src/libcrypto.a: external/ours/library/crypto/src/C
 external/ours/library/crypto/src/libcrypto.a: external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o
 external/ours/library/crypto/src/libcrypto.a: external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make
 external/ours/library/crypto/src/libcrypto.a: external/ours/library/crypto/src/CMakeFiles/crypto.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libcrypto.a"
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean_target.cmake
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crypto.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Linking CXX static library libcrypto.a"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crypto.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/build: external/ours/library/crypto/src/libcrypto.a
 .PHONY : external/ours/library/crypto/src/CMakeFiles/crypto.dir/build
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/clean:
-	cd /home/swg1/swg-main/build/external/ours/library/crypto/src && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src && $(CMAKE_COMMAND) -P CMakeFiles/crypto.dir/cmake_clean.cmake
 .PHONY : external/ours/library/crypto/src/CMakeFiles/crypto.dir/clean
 
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/external/ours/library/crypto/src /home/swg1/swg-main/build /home/swg1/swg-main/build/external/ours/library/crypto/src /home/swg1/swg-main/build/external/ours/library/crypto/src/CMakeFiles/crypto.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/ours/library/crypto/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src/CMakeFiles/crypto.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/ours/library/crypto/src/CMakeFiles/crypto.dir/depend
 

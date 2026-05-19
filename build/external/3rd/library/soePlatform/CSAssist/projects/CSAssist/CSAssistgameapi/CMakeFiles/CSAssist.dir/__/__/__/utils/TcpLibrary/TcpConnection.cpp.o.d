@@ -1,10 +1,10 @@
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpConnection.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpConnection.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpHandlers.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpManager.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/TcpBlockAllocator.h \
  /usr/include/string.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -12,8 +12,8 @@ external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMak
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/IPAddress.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/sys/socket.h \

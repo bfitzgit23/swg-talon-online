@@ -1,5 +1,5 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Api/api.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/api.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/api.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -65,15 +65,15 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/c++/8/bits/alloc_traits.h \
  /usr/include/c++/8/bits/memoryfwd.h \
  /usr/include/c++/8/bits/uniform_int_dist.h /usr/include/c++/8/limits \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/timer.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/timer.h \
  /usr/include/sys/time.h /usr/include/unistd.h \
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/types.h \
  /usr/include/sys/bitypes.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serialize.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeClasses.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serialize.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeClasses.h \
  /usr/include/c++/8/cassert /usr/include/c++/8/cstring \
  /usr/include/string.h /usr/include/strings.h /usr/include/c++/8/string \
  /usr/include/c++/8/bits/stringfwd.h \
@@ -118,7 +118,7 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeTemplates.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeTemplates.h \
  /usr/include/c++/8/climits \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -132,17 +132,17 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/c++/8/bits/stl_map.h /usr/include/c++/8/tuple \
  /usr/include/c++/8/array /usr/include/c++/8/bits/uses_allocator.h \
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/api.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/api.h \
  /usr/include/c++/8/set /usr/include/c++/8/bits/stl_set.h \
  /usr/include/c++/8/bits/stl_multiset.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/profile.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/stringutils.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpConnection.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpHandlers.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpManager.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpBlockAllocator.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/IPAddress.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/Clock.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/profile.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/stringutils.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpConnection.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpHandlers.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpManager.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpBlockAllocator.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/IPAddress.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/Clock.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
@@ -158,9 +158,9 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/linux/ioctl.h /usr/include/asm/ioctl.h \
  /usr/include/asm-generic/ioctl.h /usr/include/bits/ioctl-types.h \
  /usr/include/sys/ttydefaults.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpManager.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/apiMessages.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeClasses.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/apiMacros.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/apiTypeNameValuePair.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeTemplates.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/TcpLibrary/TcpManager.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/apiMessages.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeClasses.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/apiMacros.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Api/apiTypeNameValuePair.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/serializeTemplates.h

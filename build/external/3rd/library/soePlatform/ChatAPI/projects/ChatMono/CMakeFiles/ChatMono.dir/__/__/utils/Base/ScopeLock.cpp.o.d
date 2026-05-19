@@ -1,10 +1,10 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ScopeLock.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ScopeLock.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ScopeLock.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ScopeLock.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ScopeLock.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
  /usr/include/errno.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
@@ -92,5 +92,5 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h

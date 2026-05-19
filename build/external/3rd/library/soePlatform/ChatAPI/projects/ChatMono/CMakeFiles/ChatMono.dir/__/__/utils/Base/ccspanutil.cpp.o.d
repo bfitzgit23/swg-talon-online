@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/ccspanutil.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ccspanutil.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ccspanutil.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ccspanutil.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/ccspanutil.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \

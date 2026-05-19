@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpBlockAllocator.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpBlockAllocator.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpBlockAllocator.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpBlockAllocator.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpBlockAllocator.h \
  /usr/include/string.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \

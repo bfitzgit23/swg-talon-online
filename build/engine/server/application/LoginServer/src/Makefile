@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/server/application/LoginServer/src//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/LoginServer/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/rule
 .PHONY : engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ LoginServer: engine/server/application/LoginServer/src/CMakeFiles/LoginServer.di
 
 # fast build rule for target.
 LoginServer/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build
 .PHONY : LoginServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/linux/main.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/CSToolConnection.o: shared/CSToolConnection.cpp.o
@@ -159,7 +159,7 @@ shared/CSToolConnection.o: shared/CSToolConnection.cpp.o
 
 # target to build an object file
 shared/CSToolConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CSToolConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CSToolConnection.cpp.o
 .PHONY : shared/CSToolConnection.cpp.o
 
 shared/CSToolConnection.i: shared/CSToolConnection.cpp.i
@@ -167,7 +167,7 @@ shared/CSToolConnection.i: shared/CSToolConnection.cpp.i
 
 # target to preprocess a source file
 shared/CSToolConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CSToolConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CSToolConnection.cpp.i
 .PHONY : shared/CSToolConnection.cpp.i
 
 shared/CSToolConnection.s: shared/CSToolConnection.cpp.s
@@ -175,7 +175,7 @@ shared/CSToolConnection.s: shared/CSToolConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CSToolConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CSToolConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CSToolConnection.cpp.s
 .PHONY : shared/CSToolConnection.cpp.s
 
 shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
@@ -183,7 +183,7 @@ shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
 
 # target to build an object file
 shared/CentralServerConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CentralServerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CentralServerConnection.cpp.o
 .PHONY : shared/CentralServerConnection.cpp.o
 
 shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
@@ -191,7 +191,7 @@ shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/CentralServerConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CentralServerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CentralServerConnection.cpp.i
 .PHONY : shared/CentralServerConnection.cpp.i
 
 shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
@@ -199,7 +199,7 @@ shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CentralServerConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CentralServerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/CentralServerConnection.cpp.s
 .PHONY : shared/CentralServerConnection.cpp.s
 
 shared/ClientConnection.o: shared/ClientConnection.cpp.o
@@ -207,7 +207,7 @@ shared/ClientConnection.o: shared/ClientConnection.cpp.o
 
 # target to build an object file
 shared/ClientConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ClientConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ClientConnection.cpp.o
 .PHONY : shared/ClientConnection.cpp.o
 
 shared/ClientConnection.i: shared/ClientConnection.cpp.i
@@ -215,7 +215,7 @@ shared/ClientConnection.i: shared/ClientConnection.cpp.i
 
 # target to preprocess a source file
 shared/ClientConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ClientConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ClientConnection.cpp.i
 .PHONY : shared/ClientConnection.cpp.i
 
 shared/ClientConnection.s: shared/ClientConnection.cpp.s
@@ -223,7 +223,7 @@ shared/ClientConnection.s: shared/ClientConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ClientConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ClientConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ClientConnection.cpp.s
 .PHONY : shared/ClientConnection.cpp.s
 
 shared/ConfigLoginServer.o: shared/ConfigLoginServer.cpp.o
@@ -231,7 +231,7 @@ shared/ConfigLoginServer.o: shared/ConfigLoginServer.cpp.o
 
 # target to build an object file
 shared/ConfigLoginServer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConfigLoginServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConfigLoginServer.cpp.o
 .PHONY : shared/ConfigLoginServer.cpp.o
 
 shared/ConfigLoginServer.i: shared/ConfigLoginServer.cpp.i
@@ -239,7 +239,7 @@ shared/ConfigLoginServer.i: shared/ConfigLoginServer.cpp.i
 
 # target to preprocess a source file
 shared/ConfigLoginServer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConfigLoginServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConfigLoginServer.cpp.i
 .PHONY : shared/ConfigLoginServer.cpp.i
 
 shared/ConfigLoginServer.s: shared/ConfigLoginServer.cpp.s
@@ -247,7 +247,7 @@ shared/ConfigLoginServer.s: shared/ConfigLoginServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigLoginServer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConfigLoginServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConfigLoginServer.cpp.s
 .PHONY : shared/ConfigLoginServer.cpp.s
 
 shared/ConsoleCommandParser.o: shared/ConsoleCommandParser.cpp.o
@@ -255,7 +255,7 @@ shared/ConsoleCommandParser.o: shared/ConsoleCommandParser.cpp.o
 
 # target to build an object file
 shared/ConsoleCommandParser.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParser.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParser.cpp.o
 .PHONY : shared/ConsoleCommandParser.cpp.o
 
 shared/ConsoleCommandParser.i: shared/ConsoleCommandParser.cpp.i
@@ -263,7 +263,7 @@ shared/ConsoleCommandParser.i: shared/ConsoleCommandParser.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleCommandParser.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParser.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParser.cpp.i
 .PHONY : shared/ConsoleCommandParser.cpp.i
 
 shared/ConsoleCommandParser.s: shared/ConsoleCommandParser.cpp.s
@@ -271,7 +271,7 @@ shared/ConsoleCommandParser.s: shared/ConsoleCommandParser.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleCommandParser.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParser.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParser.cpp.s
 .PHONY : shared/ConsoleCommandParser.cpp.s
 
 shared/ConsoleCommandParserLoginServer.o: shared/ConsoleCommandParserLoginServer.cpp.o
@@ -279,7 +279,7 @@ shared/ConsoleCommandParserLoginServer.o: shared/ConsoleCommandParserLoginServer
 
 # target to build an object file
 shared/ConsoleCommandParserLoginServer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParserLoginServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParserLoginServer.cpp.o
 .PHONY : shared/ConsoleCommandParserLoginServer.cpp.o
 
 shared/ConsoleCommandParserLoginServer.i: shared/ConsoleCommandParserLoginServer.cpp.i
@@ -287,7 +287,7 @@ shared/ConsoleCommandParserLoginServer.i: shared/ConsoleCommandParserLoginServer
 
 # target to preprocess a source file
 shared/ConsoleCommandParserLoginServer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParserLoginServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParserLoginServer.cpp.i
 .PHONY : shared/ConsoleCommandParserLoginServer.cpp.i
 
 shared/ConsoleCommandParserLoginServer.s: shared/ConsoleCommandParserLoginServer.cpp.s
@@ -295,7 +295,7 @@ shared/ConsoleCommandParserLoginServer.s: shared/ConsoleCommandParserLoginServer
 
 # target to generate assembly for a file
 shared/ConsoleCommandParserLoginServer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParserLoginServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleCommandParserLoginServer.cpp.s
 .PHONY : shared/ConsoleCommandParserLoginServer.cpp.s
 
 shared/ConsoleManager.o: shared/ConsoleManager.cpp.o
@@ -303,7 +303,7 @@ shared/ConsoleManager.o: shared/ConsoleManager.cpp.o
 
 # target to build an object file
 shared/ConsoleManager.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleManager.cpp.o
 .PHONY : shared/ConsoleManager.cpp.o
 
 shared/ConsoleManager.i: shared/ConsoleManager.cpp.i
@@ -311,7 +311,7 @@ shared/ConsoleManager.i: shared/ConsoleManager.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleManager.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleManager.cpp.i
 .PHONY : shared/ConsoleManager.cpp.i
 
 shared/ConsoleManager.s: shared/ConsoleManager.cpp.s
@@ -319,7 +319,7 @@ shared/ConsoleManager.s: shared/ConsoleManager.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleManager.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/ConsoleManager.cpp.s
 .PHONY : shared/ConsoleManager.cpp.s
 
 shared/DatabaseConnection.o: shared/DatabaseConnection.cpp.o
@@ -327,7 +327,7 @@ shared/DatabaseConnection.o: shared/DatabaseConnection.cpp.o
 
 # target to build an object file
 shared/DatabaseConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/DatabaseConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/DatabaseConnection.cpp.o
 .PHONY : shared/DatabaseConnection.cpp.o
 
 shared/DatabaseConnection.i: shared/DatabaseConnection.cpp.i
@@ -335,7 +335,7 @@ shared/DatabaseConnection.i: shared/DatabaseConnection.cpp.i
 
 # target to preprocess a source file
 shared/DatabaseConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/DatabaseConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/DatabaseConnection.cpp.i
 .PHONY : shared/DatabaseConnection.cpp.i
 
 shared/DatabaseConnection.s: shared/DatabaseConnection.cpp.s
@@ -343,7 +343,7 @@ shared/DatabaseConnection.s: shared/DatabaseConnection.cpp.s
 
 # target to generate assembly for a file
 shared/DatabaseConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/DatabaseConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/DatabaseConnection.cpp.s
 .PHONY : shared/DatabaseConnection.cpp.s
 
 shared/LoginServer.o: shared/LoginServer.cpp.o
@@ -351,7 +351,7 @@ shared/LoginServer.o: shared/LoginServer.cpp.o
 
 # target to build an object file
 shared/LoginServer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServer.cpp.o
 .PHONY : shared/LoginServer.cpp.o
 
 shared/LoginServer.i: shared/LoginServer.cpp.i
@@ -359,7 +359,7 @@ shared/LoginServer.i: shared/LoginServer.cpp.i
 
 # target to preprocess a source file
 shared/LoginServer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServer.cpp.i
 .PHONY : shared/LoginServer.cpp.i
 
 shared/LoginServer.s: shared/LoginServer.cpp.s
@@ -367,7 +367,7 @@ shared/LoginServer.s: shared/LoginServer.cpp.s
 
 # target to generate assembly for a file
 shared/LoginServer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServer.cpp.s
 .PHONY : shared/LoginServer.cpp.s
 
 shared/LoginServerRemoteDebugConnection.o: shared/LoginServerRemoteDebugConnection.cpp.o
@@ -375,7 +375,7 @@ shared/LoginServerRemoteDebugConnection.o: shared/LoginServerRemoteDebugConnecti
 
 # target to build an object file
 shared/LoginServerRemoteDebugConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugConnection.cpp.o
 .PHONY : shared/LoginServerRemoteDebugConnection.cpp.o
 
 shared/LoginServerRemoteDebugConnection.i: shared/LoginServerRemoteDebugConnection.cpp.i
@@ -383,7 +383,7 @@ shared/LoginServerRemoteDebugConnection.i: shared/LoginServerRemoteDebugConnecti
 
 # target to preprocess a source file
 shared/LoginServerRemoteDebugConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugConnection.cpp.i
 .PHONY : shared/LoginServerRemoteDebugConnection.cpp.i
 
 shared/LoginServerRemoteDebugConnection.s: shared/LoginServerRemoteDebugConnection.cpp.s
@@ -391,7 +391,7 @@ shared/LoginServerRemoteDebugConnection.s: shared/LoginServerRemoteDebugConnecti
 
 # target to generate assembly for a file
 shared/LoginServerRemoteDebugConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugConnection.cpp.s
 .PHONY : shared/LoginServerRemoteDebugConnection.cpp.s
 
 shared/LoginServerRemoteDebugSetup.o: shared/LoginServerRemoteDebugSetup.cpp.o
@@ -399,7 +399,7 @@ shared/LoginServerRemoteDebugSetup.o: shared/LoginServerRemoteDebugSetup.cpp.o
 
 # target to build an object file
 shared/LoginServerRemoteDebugSetup.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugSetup.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugSetup.cpp.o
 .PHONY : shared/LoginServerRemoteDebugSetup.cpp.o
 
 shared/LoginServerRemoteDebugSetup.i: shared/LoginServerRemoteDebugSetup.cpp.i
@@ -407,7 +407,7 @@ shared/LoginServerRemoteDebugSetup.i: shared/LoginServerRemoteDebugSetup.cpp.i
 
 # target to preprocess a source file
 shared/LoginServerRemoteDebugSetup.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugSetup.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugSetup.cpp.i
 .PHONY : shared/LoginServerRemoteDebugSetup.cpp.i
 
 shared/LoginServerRemoteDebugSetup.s: shared/LoginServerRemoteDebugSetup.cpp.s
@@ -415,7 +415,7 @@ shared/LoginServerRemoteDebugSetup.s: shared/LoginServerRemoteDebugSetup.cpp.s
 
 # target to generate assembly for a file
 shared/LoginServerRemoteDebugSetup.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugSetup.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/LoginServerRemoteDebugSetup.cpp.s
 .PHONY : shared/LoginServerRemoteDebugSetup.cpp.s
 
 shared/PingConnection.o: shared/PingConnection.cpp.o
@@ -423,7 +423,7 @@ shared/PingConnection.o: shared/PingConnection.cpp.o
 
 # target to build an object file
 shared/PingConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PingConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PingConnection.cpp.o
 .PHONY : shared/PingConnection.cpp.o
 
 shared/PingConnection.i: shared/PingConnection.cpp.i
@@ -431,7 +431,7 @@ shared/PingConnection.i: shared/PingConnection.cpp.i
 
 # target to preprocess a source file
 shared/PingConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PingConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PingConnection.cpp.i
 .PHONY : shared/PingConnection.cpp.i
 
 shared/PingConnection.s: shared/PingConnection.cpp.s
@@ -439,7 +439,7 @@ shared/PingConnection.s: shared/PingConnection.cpp.s
 
 # target to generate assembly for a file
 shared/PingConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PingConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PingConnection.cpp.s
 .PHONY : shared/PingConnection.cpp.s
 
 shared/PurgeManager.o: shared/PurgeManager.cpp.o
@@ -447,7 +447,7 @@ shared/PurgeManager.o: shared/PurgeManager.cpp.o
 
 # target to build an object file
 shared/PurgeManager.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PurgeManager.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PurgeManager.cpp.o
 .PHONY : shared/PurgeManager.cpp.o
 
 shared/PurgeManager.i: shared/PurgeManager.cpp.i
@@ -455,7 +455,7 @@ shared/PurgeManager.i: shared/PurgeManager.cpp.i
 
 # target to preprocess a source file
 shared/PurgeManager.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PurgeManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PurgeManager.cpp.i
 .PHONY : shared/PurgeManager.cpp.i
 
 shared/PurgeManager.s: shared/PurgeManager.cpp.s
@@ -463,7 +463,7 @@ shared/PurgeManager.s: shared/PurgeManager.cpp.s
 
 # target to generate assembly for a file
 shared/PurgeManager.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PurgeManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/PurgeManager.cpp.s
 .PHONY : shared/PurgeManager.cpp.s
 
 shared/SessionApiClient.o: shared/SessionApiClient.cpp.o
@@ -471,7 +471,7 @@ shared/SessionApiClient.o: shared/SessionApiClient.cpp.o
 
 # target to build an object file
 shared/SessionApiClient.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/SessionApiClient.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/SessionApiClient.cpp.o
 .PHONY : shared/SessionApiClient.cpp.o
 
 shared/SessionApiClient.i: shared/SessionApiClient.cpp.i
@@ -479,7 +479,7 @@ shared/SessionApiClient.i: shared/SessionApiClient.cpp.i
 
 # target to preprocess a source file
 shared/SessionApiClient.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/SessionApiClient.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/SessionApiClient.cpp.i
 .PHONY : shared/SessionApiClient.cpp.i
 
 shared/SessionApiClient.s: shared/SessionApiClient.cpp.s
@@ -487,7 +487,7 @@ shared/SessionApiClient.s: shared/SessionApiClient.cpp.s
 
 # target to generate assembly for a file
 shared/SessionApiClient.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/SessionApiClient.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/SessionApiClient.cpp.s
 .PHONY : shared/SessionApiClient.cpp.s
 
 shared/TaskChangeStationId.o: shared/TaskChangeStationId.cpp.o
@@ -495,7 +495,7 @@ shared/TaskChangeStationId.o: shared/TaskChangeStationId.cpp.o
 
 # target to build an object file
 shared/TaskChangeStationId.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskChangeStationId.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskChangeStationId.cpp.o
 .PHONY : shared/TaskChangeStationId.cpp.o
 
 shared/TaskChangeStationId.i: shared/TaskChangeStationId.cpp.i
@@ -503,7 +503,7 @@ shared/TaskChangeStationId.i: shared/TaskChangeStationId.cpp.i
 
 # target to preprocess a source file
 shared/TaskChangeStationId.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskChangeStationId.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskChangeStationId.cpp.i
 .PHONY : shared/TaskChangeStationId.cpp.i
 
 shared/TaskChangeStationId.s: shared/TaskChangeStationId.cpp.s
@@ -511,7 +511,7 @@ shared/TaskChangeStationId.s: shared/TaskChangeStationId.cpp.s
 
 # target to generate assembly for a file
 shared/TaskChangeStationId.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskChangeStationId.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskChangeStationId.cpp.s
 .PHONY : shared/TaskChangeStationId.cpp.s
 
 shared/TaskClaimRewards.o: shared/TaskClaimRewards.cpp.o
@@ -519,7 +519,7 @@ shared/TaskClaimRewards.o: shared/TaskClaimRewards.cpp.o
 
 # target to build an object file
 shared/TaskClaimRewards.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskClaimRewards.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskClaimRewards.cpp.o
 .PHONY : shared/TaskClaimRewards.cpp.o
 
 shared/TaskClaimRewards.i: shared/TaskClaimRewards.cpp.i
@@ -527,7 +527,7 @@ shared/TaskClaimRewards.i: shared/TaskClaimRewards.cpp.i
 
 # target to preprocess a source file
 shared/TaskClaimRewards.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskClaimRewards.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskClaimRewards.cpp.i
 .PHONY : shared/TaskClaimRewards.cpp.i
 
 shared/TaskClaimRewards.s: shared/TaskClaimRewards.cpp.s
@@ -535,7 +535,7 @@ shared/TaskClaimRewards.s: shared/TaskClaimRewards.cpp.s
 
 # target to generate assembly for a file
 shared/TaskClaimRewards.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskClaimRewards.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskClaimRewards.cpp.s
 .PHONY : shared/TaskClaimRewards.cpp.s
 
 shared/TaskCreateCharacter.o: shared/TaskCreateCharacter.cpp.o
@@ -543,7 +543,7 @@ shared/TaskCreateCharacter.o: shared/TaskCreateCharacter.cpp.o
 
 # target to build an object file
 shared/TaskCreateCharacter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskCreateCharacter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskCreateCharacter.cpp.o
 .PHONY : shared/TaskCreateCharacter.cpp.o
 
 shared/TaskCreateCharacter.i: shared/TaskCreateCharacter.cpp.i
@@ -551,7 +551,7 @@ shared/TaskCreateCharacter.i: shared/TaskCreateCharacter.cpp.i
 
 # target to preprocess a source file
 shared/TaskCreateCharacter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskCreateCharacter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskCreateCharacter.cpp.i
 .PHONY : shared/TaskCreateCharacter.cpp.i
 
 shared/TaskCreateCharacter.s: shared/TaskCreateCharacter.cpp.s
@@ -559,7 +559,7 @@ shared/TaskCreateCharacter.s: shared/TaskCreateCharacter.cpp.s
 
 # target to generate assembly for a file
 shared/TaskCreateCharacter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskCreateCharacter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskCreateCharacter.cpp.s
 .PHONY : shared/TaskCreateCharacter.cpp.s
 
 shared/TaskDeleteCharacter.o: shared/TaskDeleteCharacter.cpp.o
@@ -567,7 +567,7 @@ shared/TaskDeleteCharacter.o: shared/TaskDeleteCharacter.cpp.o
 
 # target to build an object file
 shared/TaskDeleteCharacter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskDeleteCharacter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskDeleteCharacter.cpp.o
 .PHONY : shared/TaskDeleteCharacter.cpp.o
 
 shared/TaskDeleteCharacter.i: shared/TaskDeleteCharacter.cpp.i
@@ -575,7 +575,7 @@ shared/TaskDeleteCharacter.i: shared/TaskDeleteCharacter.cpp.i
 
 # target to preprocess a source file
 shared/TaskDeleteCharacter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskDeleteCharacter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskDeleteCharacter.cpp.i
 .PHONY : shared/TaskDeleteCharacter.cpp.i
 
 shared/TaskDeleteCharacter.s: shared/TaskDeleteCharacter.cpp.s
@@ -583,7 +583,7 @@ shared/TaskDeleteCharacter.s: shared/TaskDeleteCharacter.cpp.s
 
 # target to generate assembly for a file
 shared/TaskDeleteCharacter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskDeleteCharacter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskDeleteCharacter.cpp.s
 .PHONY : shared/TaskDeleteCharacter.cpp.s
 
 shared/TaskEnableCharacter.o: shared/TaskEnableCharacter.cpp.o
@@ -591,7 +591,7 @@ shared/TaskEnableCharacter.o: shared/TaskEnableCharacter.cpp.o
 
 # target to build an object file
 shared/TaskEnableCharacter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskEnableCharacter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskEnableCharacter.cpp.o
 .PHONY : shared/TaskEnableCharacter.cpp.o
 
 shared/TaskEnableCharacter.i: shared/TaskEnableCharacter.cpp.i
@@ -599,7 +599,7 @@ shared/TaskEnableCharacter.i: shared/TaskEnableCharacter.cpp.i
 
 # target to preprocess a source file
 shared/TaskEnableCharacter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskEnableCharacter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskEnableCharacter.cpp.i
 .PHONY : shared/TaskEnableCharacter.cpp.i
 
 shared/TaskEnableCharacter.s: shared/TaskEnableCharacter.cpp.s
@@ -607,7 +607,7 @@ shared/TaskEnableCharacter.s: shared/TaskEnableCharacter.cpp.s
 
 # target to generate assembly for a file
 shared/TaskEnableCharacter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskEnableCharacter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskEnableCharacter.cpp.s
 .PHONY : shared/TaskEnableCharacter.cpp.s
 
 shared/TaskGetAccountForPurge.o: shared/TaskGetAccountForPurge.cpp.o
@@ -615,7 +615,7 @@ shared/TaskGetAccountForPurge.o: shared/TaskGetAccountForPurge.cpp.o
 
 # target to build an object file
 shared/TaskGetAccountForPurge.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAccountForPurge.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAccountForPurge.cpp.o
 .PHONY : shared/TaskGetAccountForPurge.cpp.o
 
 shared/TaskGetAccountForPurge.i: shared/TaskGetAccountForPurge.cpp.i
@@ -623,7 +623,7 @@ shared/TaskGetAccountForPurge.i: shared/TaskGetAccountForPurge.cpp.i
 
 # target to preprocess a source file
 shared/TaskGetAccountForPurge.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAccountForPurge.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAccountForPurge.cpp.i
 .PHONY : shared/TaskGetAccountForPurge.cpp.i
 
 shared/TaskGetAccountForPurge.s: shared/TaskGetAccountForPurge.cpp.s
@@ -631,7 +631,7 @@ shared/TaskGetAccountForPurge.s: shared/TaskGetAccountForPurge.cpp.s
 
 # target to generate assembly for a file
 shared/TaskGetAccountForPurge.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAccountForPurge.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAccountForPurge.cpp.s
 .PHONY : shared/TaskGetAccountForPurge.cpp.s
 
 shared/TaskGetAvatarList.o: shared/TaskGetAvatarList.cpp.o
@@ -639,7 +639,7 @@ shared/TaskGetAvatarList.o: shared/TaskGetAvatarList.cpp.o
 
 # target to build an object file
 shared/TaskGetAvatarList.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAvatarList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAvatarList.cpp.o
 .PHONY : shared/TaskGetAvatarList.cpp.o
 
 shared/TaskGetAvatarList.i: shared/TaskGetAvatarList.cpp.i
@@ -647,7 +647,7 @@ shared/TaskGetAvatarList.i: shared/TaskGetAvatarList.cpp.i
 
 # target to preprocess a source file
 shared/TaskGetAvatarList.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAvatarList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAvatarList.cpp.i
 .PHONY : shared/TaskGetAvatarList.cpp.i
 
 shared/TaskGetAvatarList.s: shared/TaskGetAvatarList.cpp.s
@@ -655,7 +655,7 @@ shared/TaskGetAvatarList.s: shared/TaskGetAvatarList.cpp.s
 
 # target to generate assembly for a file
 shared/TaskGetAvatarList.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAvatarList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetAvatarList.cpp.s
 .PHONY : shared/TaskGetAvatarList.cpp.s
 
 shared/TaskGetCharactersForDelete.o: shared/TaskGetCharactersForDelete.cpp.o
@@ -663,7 +663,7 @@ shared/TaskGetCharactersForDelete.o: shared/TaskGetCharactersForDelete.cpp.o
 
 # target to build an object file
 shared/TaskGetCharactersForDelete.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetCharactersForDelete.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetCharactersForDelete.cpp.o
 .PHONY : shared/TaskGetCharactersForDelete.cpp.o
 
 shared/TaskGetCharactersForDelete.i: shared/TaskGetCharactersForDelete.cpp.i
@@ -671,7 +671,7 @@ shared/TaskGetCharactersForDelete.i: shared/TaskGetCharactersForDelete.cpp.i
 
 # target to preprocess a source file
 shared/TaskGetCharactersForDelete.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetCharactersForDelete.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetCharactersForDelete.cpp.i
 .PHONY : shared/TaskGetCharactersForDelete.cpp.i
 
 shared/TaskGetCharactersForDelete.s: shared/TaskGetCharactersForDelete.cpp.s
@@ -679,7 +679,7 @@ shared/TaskGetCharactersForDelete.s: shared/TaskGetCharactersForDelete.cpp.s
 
 # target to generate assembly for a file
 shared/TaskGetCharactersForDelete.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetCharactersForDelete.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetCharactersForDelete.cpp.s
 .PHONY : shared/TaskGetCharactersForDelete.cpp.s
 
 shared/TaskGetClusterList.o: shared/TaskGetClusterList.cpp.o
@@ -687,7 +687,7 @@ shared/TaskGetClusterList.o: shared/TaskGetClusterList.cpp.o
 
 # target to build an object file
 shared/TaskGetClusterList.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetClusterList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetClusterList.cpp.o
 .PHONY : shared/TaskGetClusterList.cpp.o
 
 shared/TaskGetClusterList.i: shared/TaskGetClusterList.cpp.i
@@ -695,7 +695,7 @@ shared/TaskGetClusterList.i: shared/TaskGetClusterList.cpp.i
 
 # target to preprocess a source file
 shared/TaskGetClusterList.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetClusterList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetClusterList.cpp.i
 .PHONY : shared/TaskGetClusterList.cpp.i
 
 shared/TaskGetClusterList.s: shared/TaskGetClusterList.cpp.s
@@ -703,7 +703,7 @@ shared/TaskGetClusterList.s: shared/TaskGetClusterList.cpp.s
 
 # target to generate assembly for a file
 shared/TaskGetClusterList.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetClusterList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetClusterList.cpp.s
 .PHONY : shared/TaskGetClusterList.cpp.s
 
 shared/TaskGetValidationData.o: shared/TaskGetValidationData.cpp.o
@@ -711,7 +711,7 @@ shared/TaskGetValidationData.o: shared/TaskGetValidationData.cpp.o
 
 # target to build an object file
 shared/TaskGetValidationData.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetValidationData.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetValidationData.cpp.o
 .PHONY : shared/TaskGetValidationData.cpp.o
 
 shared/TaskGetValidationData.i: shared/TaskGetValidationData.cpp.i
@@ -719,7 +719,7 @@ shared/TaskGetValidationData.i: shared/TaskGetValidationData.cpp.i
 
 # target to preprocess a source file
 shared/TaskGetValidationData.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetValidationData.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetValidationData.cpp.i
 .PHONY : shared/TaskGetValidationData.cpp.i
 
 shared/TaskGetValidationData.s: shared/TaskGetValidationData.cpp.s
@@ -727,7 +727,7 @@ shared/TaskGetValidationData.s: shared/TaskGetValidationData.cpp.s
 
 # target to generate assembly for a file
 shared/TaskGetValidationData.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetValidationData.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskGetValidationData.cpp.s
 .PHONY : shared/TaskGetValidationData.cpp.s
 
 shared/TaskMapAccount.o: shared/TaskMapAccount.cpp.o
@@ -735,7 +735,7 @@ shared/TaskMapAccount.o: shared/TaskMapAccount.cpp.o
 
 # target to build an object file
 shared/TaskMapAccount.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskMapAccount.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskMapAccount.cpp.o
 .PHONY : shared/TaskMapAccount.cpp.o
 
 shared/TaskMapAccount.i: shared/TaskMapAccount.cpp.i
@@ -743,7 +743,7 @@ shared/TaskMapAccount.i: shared/TaskMapAccount.cpp.i
 
 # target to preprocess a source file
 shared/TaskMapAccount.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskMapAccount.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskMapAccount.cpp.i
 .PHONY : shared/TaskMapAccount.cpp.i
 
 shared/TaskMapAccount.s: shared/TaskMapAccount.cpp.s
@@ -751,7 +751,7 @@ shared/TaskMapAccount.s: shared/TaskMapAccount.cpp.s
 
 # target to generate assembly for a file
 shared/TaskMapAccount.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskMapAccount.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskMapAccount.cpp.s
 .PHONY : shared/TaskMapAccount.cpp.s
 
 shared/TaskRegisterNewCluster.o: shared/TaskRegisterNewCluster.cpp.o
@@ -759,7 +759,7 @@ shared/TaskRegisterNewCluster.o: shared/TaskRegisterNewCluster.cpp.o
 
 # target to build an object file
 shared/TaskRegisterNewCluster.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRegisterNewCluster.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRegisterNewCluster.cpp.o
 .PHONY : shared/TaskRegisterNewCluster.cpp.o
 
 shared/TaskRegisterNewCluster.i: shared/TaskRegisterNewCluster.cpp.i
@@ -767,7 +767,7 @@ shared/TaskRegisterNewCluster.i: shared/TaskRegisterNewCluster.cpp.i
 
 # target to preprocess a source file
 shared/TaskRegisterNewCluster.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRegisterNewCluster.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRegisterNewCluster.cpp.i
 .PHONY : shared/TaskRegisterNewCluster.cpp.i
 
 shared/TaskRegisterNewCluster.s: shared/TaskRegisterNewCluster.cpp.s
@@ -775,7 +775,7 @@ shared/TaskRegisterNewCluster.s: shared/TaskRegisterNewCluster.cpp.s
 
 # target to generate assembly for a file
 shared/TaskRegisterNewCluster.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRegisterNewCluster.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRegisterNewCluster.cpp.s
 .PHONY : shared/TaskRegisterNewCluster.cpp.s
 
 shared/TaskRenameCharacter.o: shared/TaskRenameCharacter.cpp.o
@@ -783,7 +783,7 @@ shared/TaskRenameCharacter.o: shared/TaskRenameCharacter.cpp.o
 
 # target to build an object file
 shared/TaskRenameCharacter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRenameCharacter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRenameCharacter.cpp.o
 .PHONY : shared/TaskRenameCharacter.cpp.o
 
 shared/TaskRenameCharacter.i: shared/TaskRenameCharacter.cpp.i
@@ -791,7 +791,7 @@ shared/TaskRenameCharacter.i: shared/TaskRenameCharacter.cpp.i
 
 # target to preprocess a source file
 shared/TaskRenameCharacter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRenameCharacter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRenameCharacter.cpp.i
 .PHONY : shared/TaskRenameCharacter.cpp.i
 
 shared/TaskRenameCharacter.s: shared/TaskRenameCharacter.cpp.s
@@ -799,7 +799,7 @@ shared/TaskRenameCharacter.s: shared/TaskRenameCharacter.cpp.s
 
 # target to generate assembly for a file
 shared/TaskRenameCharacter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRenameCharacter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRenameCharacter.cpp.s
 .PHONY : shared/TaskRenameCharacter.cpp.s
 
 shared/TaskRestoreCharacter.o: shared/TaskRestoreCharacter.cpp.o
@@ -807,7 +807,7 @@ shared/TaskRestoreCharacter.o: shared/TaskRestoreCharacter.cpp.o
 
 # target to build an object file
 shared/TaskRestoreCharacter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRestoreCharacter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRestoreCharacter.cpp.o
 .PHONY : shared/TaskRestoreCharacter.cpp.o
 
 shared/TaskRestoreCharacter.i: shared/TaskRestoreCharacter.cpp.i
@@ -815,7 +815,7 @@ shared/TaskRestoreCharacter.i: shared/TaskRestoreCharacter.cpp.i
 
 # target to preprocess a source file
 shared/TaskRestoreCharacter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRestoreCharacter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRestoreCharacter.cpp.i
 .PHONY : shared/TaskRestoreCharacter.cpp.i
 
 shared/TaskRestoreCharacter.s: shared/TaskRestoreCharacter.cpp.s
@@ -823,7 +823,7 @@ shared/TaskRestoreCharacter.s: shared/TaskRestoreCharacter.cpp.s
 
 # target to generate assembly for a file
 shared/TaskRestoreCharacter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRestoreCharacter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskRestoreCharacter.cpp.s
 .PHONY : shared/TaskRestoreCharacter.cpp.s
 
 shared/TaskSetPurgeStatus.o: shared/TaskSetPurgeStatus.cpp.o
@@ -831,7 +831,7 @@ shared/TaskSetPurgeStatus.o: shared/TaskSetPurgeStatus.cpp.o
 
 # target to build an object file
 shared/TaskSetPurgeStatus.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskSetPurgeStatus.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskSetPurgeStatus.cpp.o
 .PHONY : shared/TaskSetPurgeStatus.cpp.o
 
 shared/TaskSetPurgeStatus.i: shared/TaskSetPurgeStatus.cpp.i
@@ -839,7 +839,7 @@ shared/TaskSetPurgeStatus.i: shared/TaskSetPurgeStatus.cpp.i
 
 # target to preprocess a source file
 shared/TaskSetPurgeStatus.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskSetPurgeStatus.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskSetPurgeStatus.cpp.i
 .PHONY : shared/TaskSetPurgeStatus.cpp.i
 
 shared/TaskSetPurgeStatus.s: shared/TaskSetPurgeStatus.cpp.s
@@ -847,7 +847,7 @@ shared/TaskSetPurgeStatus.s: shared/TaskSetPurgeStatus.cpp.s
 
 # target to generate assembly for a file
 shared/TaskSetPurgeStatus.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskSetPurgeStatus.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskSetPurgeStatus.cpp.s
 .PHONY : shared/TaskSetPurgeStatus.cpp.s
 
 shared/TaskToggleCharacterDisable.o: shared/TaskToggleCharacterDisable.cpp.o
@@ -855,7 +855,7 @@ shared/TaskToggleCharacterDisable.o: shared/TaskToggleCharacterDisable.cpp.o
 
 # target to build an object file
 shared/TaskToggleCharacterDisable.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCharacterDisable.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCharacterDisable.cpp.o
 .PHONY : shared/TaskToggleCharacterDisable.cpp.o
 
 shared/TaskToggleCharacterDisable.i: shared/TaskToggleCharacterDisable.cpp.i
@@ -863,7 +863,7 @@ shared/TaskToggleCharacterDisable.i: shared/TaskToggleCharacterDisable.cpp.i
 
 # target to preprocess a source file
 shared/TaskToggleCharacterDisable.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCharacterDisable.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCharacterDisable.cpp.i
 .PHONY : shared/TaskToggleCharacterDisable.cpp.i
 
 shared/TaskToggleCharacterDisable.s: shared/TaskToggleCharacterDisable.cpp.s
@@ -871,7 +871,7 @@ shared/TaskToggleCharacterDisable.s: shared/TaskToggleCharacterDisable.cpp.s
 
 # target to generate assembly for a file
 shared/TaskToggleCharacterDisable.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCharacterDisable.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCharacterDisable.cpp.s
 .PHONY : shared/TaskToggleCharacterDisable.cpp.s
 
 shared/TaskToggleCompletedTutorial.o: shared/TaskToggleCompletedTutorial.cpp.o
@@ -879,7 +879,7 @@ shared/TaskToggleCompletedTutorial.o: shared/TaskToggleCompletedTutorial.cpp.o
 
 # target to build an object file
 shared/TaskToggleCompletedTutorial.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCompletedTutorial.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCompletedTutorial.cpp.o
 .PHONY : shared/TaskToggleCompletedTutorial.cpp.o
 
 shared/TaskToggleCompletedTutorial.i: shared/TaskToggleCompletedTutorial.cpp.i
@@ -887,7 +887,7 @@ shared/TaskToggleCompletedTutorial.i: shared/TaskToggleCompletedTutorial.cpp.i
 
 # target to preprocess a source file
 shared/TaskToggleCompletedTutorial.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCompletedTutorial.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCompletedTutorial.cpp.i
 .PHONY : shared/TaskToggleCompletedTutorial.cpp.i
 
 shared/TaskToggleCompletedTutorial.s: shared/TaskToggleCompletedTutorial.cpp.s
@@ -895,7 +895,7 @@ shared/TaskToggleCompletedTutorial.s: shared/TaskToggleCompletedTutorial.cpp.s
 
 # target to generate assembly for a file
 shared/TaskToggleCompletedTutorial.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCompletedTutorial.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskToggleCompletedTutorial.cpp.s
 .PHONY : shared/TaskToggleCompletedTutorial.cpp.s
 
 shared/TaskUpdatePurgeAccountList.o: shared/TaskUpdatePurgeAccountList.cpp.o
@@ -903,7 +903,7 @@ shared/TaskUpdatePurgeAccountList.o: shared/TaskUpdatePurgeAccountList.cpp.o
 
 # target to build an object file
 shared/TaskUpdatePurgeAccountList.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpdatePurgeAccountList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpdatePurgeAccountList.cpp.o
 .PHONY : shared/TaskUpdatePurgeAccountList.cpp.o
 
 shared/TaskUpdatePurgeAccountList.i: shared/TaskUpdatePurgeAccountList.cpp.i
@@ -911,7 +911,7 @@ shared/TaskUpdatePurgeAccountList.i: shared/TaskUpdatePurgeAccountList.cpp.i
 
 # target to preprocess a source file
 shared/TaskUpdatePurgeAccountList.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpdatePurgeAccountList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpdatePurgeAccountList.cpp.i
 .PHONY : shared/TaskUpdatePurgeAccountList.cpp.i
 
 shared/TaskUpdatePurgeAccountList.s: shared/TaskUpdatePurgeAccountList.cpp.s
@@ -919,7 +919,7 @@ shared/TaskUpdatePurgeAccountList.s: shared/TaskUpdatePurgeAccountList.cpp.s
 
 # target to generate assembly for a file
 shared/TaskUpdatePurgeAccountList.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpdatePurgeAccountList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpdatePurgeAccountList.cpp.s
 .PHONY : shared/TaskUpdatePurgeAccountList.cpp.s
 
 shared/TaskUpgradeAccount.o: shared/TaskUpgradeAccount.cpp.o
@@ -927,7 +927,7 @@ shared/TaskUpgradeAccount.o: shared/TaskUpgradeAccount.cpp.o
 
 # target to build an object file
 shared/TaskUpgradeAccount.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpgradeAccount.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpgradeAccount.cpp.o
 .PHONY : shared/TaskUpgradeAccount.cpp.o
 
 shared/TaskUpgradeAccount.i: shared/TaskUpgradeAccount.cpp.i
@@ -935,7 +935,7 @@ shared/TaskUpgradeAccount.i: shared/TaskUpgradeAccount.cpp.i
 
 # target to preprocess a source file
 shared/TaskUpgradeAccount.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpgradeAccount.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpgradeAccount.cpp.i
 .PHONY : shared/TaskUpgradeAccount.cpp.i
 
 shared/TaskUpgradeAccount.s: shared/TaskUpgradeAccount.cpp.s
@@ -943,7 +943,7 @@ shared/TaskUpgradeAccount.s: shared/TaskUpgradeAccount.cpp.s
 
 # target to generate assembly for a file
 shared/TaskUpgradeAccount.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpgradeAccount.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/build.make engine/server/application/LoginServer/src/CMakeFiles/LoginServer.dir/shared/TaskUpgradeAccount.cpp.s
 .PHONY : shared/TaskUpgradeAccount.cpp.s
 
 # Help Target
@@ -1068,6 +1068,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

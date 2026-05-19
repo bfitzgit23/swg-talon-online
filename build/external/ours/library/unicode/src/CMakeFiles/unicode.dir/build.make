@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include external/ours/library/unicode/src/CMakeFiles/unicode.dir/depend.make
@@ -70,88 +70,88 @@ include external/ours/library/unicode/src/CMakeFiles/unicode.dir/progress.make
 include external/ours/library/unicode/src/CMakeFiles/unicode.dir/flags.make
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/flags.make
-external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o: /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeBlocks.cpp
+external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeBlocks.cpp
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o -MF CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o.d -o CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o -c /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeBlocks.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o -MF CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o.d -o CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeBlocks.cpp
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeBlocks.cpp > CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeBlocks.cpp > CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.i
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeBlocks.cpp -o CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeBlocks.cpp -o CMakeFiles/unicode.dir/shared/UnicodeBlocks.cpp.s
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/flags.make
-external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o: /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeCharacterData.cpp
+external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeCharacterData.cpp
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o -MF CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o.d -o CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o -c /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeCharacterData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o -MF CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o.d -o CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeCharacterData.cpp
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeCharacterData.cpp > CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeCharacterData.cpp > CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.i
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeCharacterData.cpp -o CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeCharacterData.cpp -o CMakeFiles/unicode.dir/shared/UnicodeCharacterData.cpp.s
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/flags.make
-external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o: /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeCharacterDataMap.cpp
+external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeCharacterDataMap.cpp
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o -MF CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o.d -o CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o -c /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeCharacterDataMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o -MF CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o.d -o CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeCharacterDataMap.cpp
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeCharacterDataMap.cpp > CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeCharacterDataMap.cpp > CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.i
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeCharacterDataMap.cpp -o CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeCharacterDataMap.cpp -o CMakeFiles/unicode.dir/shared/UnicodeCharacterDataMap.cpp.s
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/flags.make
-external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.o: /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/Unicode.cpp
+external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/Unicode.cpp
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.o -MF CMakeFiles/unicode.dir/shared/Unicode.cpp.o.d -o CMakeFiles/unicode.dir/shared/Unicode.cpp.o -c /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/Unicode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.o -MF CMakeFiles/unicode.dir/shared/Unicode.cpp.o.d -o CMakeFiles/unicode.dir/shared/Unicode.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/Unicode.cpp
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unicode.dir/shared/Unicode.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/Unicode.cpp > CMakeFiles/unicode.dir/shared/Unicode.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/Unicode.cpp > CMakeFiles/unicode.dir/shared/Unicode.cpp.i
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/Unicode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unicode.dir/shared/Unicode.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/Unicode.cpp -o CMakeFiles/unicode.dir/shared/Unicode.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/Unicode.cpp -o CMakeFiles/unicode.dir/shared/Unicode.cpp.s
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/flags.make
-external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o: /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeUtils.cpp
+external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeUtils.cpp
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o -MF CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o.d -o CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o -c /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeUtils.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o -MF CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o.d -o CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeUtils.cpp
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeUtils.cpp > CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeUtils.cpp > CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.i
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/UnicodeUtils.cpp -o CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/UnicodeUtils.cpp -o CMakeFiles/unicode.dir/shared/UnicodeUtils.cpp.s
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/flags.make
-external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o: /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/utf8.cpp
+external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/utf8.cpp
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o: external/ours/library/unicode/src/CMakeFiles/unicode.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o -MF CMakeFiles/unicode.dir/shared/utf8.cpp.o.d -o CMakeFiles/unicode.dir/shared/utf8.cpp.o -c /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/utf8.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o -MF CMakeFiles/unicode.dir/shared/utf8.cpp.o.d -o CMakeFiles/unicode.dir/shared/utf8.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/utf8.cpp
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/unicode.dir/shared/utf8.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/utf8.cpp > CMakeFiles/unicode.dir/shared/utf8.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/utf8.cpp > CMakeFiles/unicode.dir/shared/utf8.cpp.i
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/unicode.dir/shared/utf8.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/unicode/src/shared/utf8.cpp -o CMakeFiles/unicode.dir/shared/utf8.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src/shared/utf8.cpp -o CMakeFiles/unicode.dir/shared/utf8.cpp.s
 
 # Object files for target unicode
 unicode_OBJECTS = \
@@ -173,19 +173,19 @@ external/ours/library/unicode/src/libunicode.a: external/ours/library/unicode/sr
 external/ours/library/unicode/src/libunicode.a: external/ours/library/unicode/src/CMakeFiles/unicode.dir/shared/utf8.cpp.o
 external/ours/library/unicode/src/libunicode.a: external/ours/library/unicode/src/CMakeFiles/unicode.dir/build.make
 external/ours/library/unicode/src/libunicode.a: external/ours/library/unicode/src/CMakeFiles/unicode.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libunicode.a"
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && $(CMAKE_COMMAND) -P CMakeFiles/unicode.dir/cmake_clean_target.cmake
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unicode.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking CXX static library libunicode.a"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && $(CMAKE_COMMAND) -P CMakeFiles/unicode.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/unicode.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/build: external/ours/library/unicode/src/libunicode.a
 .PHONY : external/ours/library/unicode/src/CMakeFiles/unicode.dir/build
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/clean:
-	cd /home/swg1/swg-main/build/external/ours/library/unicode/src && $(CMAKE_COMMAND) -P CMakeFiles/unicode.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src && $(CMAKE_COMMAND) -P CMakeFiles/unicode.dir/cmake_clean.cmake
 .PHONY : external/ours/library/unicode/src/CMakeFiles/unicode.dir/clean
 
 external/ours/library/unicode/src/CMakeFiles/unicode.dir/depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/external/ours/library/unicode/src /home/swg1/swg-main/build /home/swg1/swg-main/build/external/ours/library/unicode/src /home/swg1/swg-main/build/external/ours/library/unicode/src/CMakeFiles/unicode.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/ours/library/unicode/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src /home/almalinux/swg-talon-online/build/external/ours/library/unicode/src/CMakeFiles/unicode.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/ours/library/unicode/src/CMakeFiles/unicode.dir/depend
 

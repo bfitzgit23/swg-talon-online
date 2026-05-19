@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/depend.make
@@ -70,116 +70,116 @@ include engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/progres
 include engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
-engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o: /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/ConfigLogServer.cpp
+engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/ConfigLogServer.cpp
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o -MF CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o.d -o CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o -c /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/ConfigLogServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o -MF CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o.d -o CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/ConfigLogServer.cpp
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/ConfigLogServer.cpp > CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/ConfigLogServer.cpp > CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.i
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/ConfigLogServer.cpp -o CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/ConfigLogServer.cpp -o CMakeFiles/LogServer.dir/shared/ConfigLogServer.cpp.s
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
-engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o: /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/DatabaseLogObserver.cpp
+engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/DatabaseLogObserver.cpp
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o -MF CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o.d -o CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o -c /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/DatabaseLogObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o -MF CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o.d -o CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/DatabaseLogObserver.cpp
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/DatabaseLogObserver.cpp > CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/DatabaseLogObserver.cpp > CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.i
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/DatabaseLogObserver.cpp -o CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/DatabaseLogObserver.cpp -o CMakeFiles/LogServer.dir/shared/DatabaseLogObserver.cpp.s
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
-engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o: /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/FirstLogServer.cpp
+engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/FirstLogServer.cpp
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o -MF CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o.d -o CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o -c /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/FirstLogServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o -MF CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o.d -o CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/FirstLogServer.cpp
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/FirstLogServer.cpp > CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/FirstLogServer.cpp > CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.i
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/FirstLogServer.cpp -o CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/FirstLogServer.cpp -o CMakeFiles/LogServer.dir/shared/FirstLogServer.cpp.s
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
-engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o: /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggerConnection.cpp
+engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggerConnection.cpp
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o -MF CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o.d -o CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o -c /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggerConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o -MF CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o.d -o CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggerConnection.cpp
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggerConnection.cpp > CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggerConnection.cpp > CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.i
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggerConnection.cpp -o CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggerConnection.cpp -o CMakeFiles/LogServer.dir/shared/LoggerConnection.cpp.s
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
-engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o: /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggingServerApi.cpp
+engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggingServerApi.cpp
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o -MF CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o.d -o CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o -c /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggingServerApi.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o -MF CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o.d -o CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggingServerApi.cpp
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggingServerApi.cpp > CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggingServerApi.cpp > CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.i
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggingServerApi.cpp -o CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggingServerApi.cpp -o CMakeFiles/LogServer.dir/shared/LoggingServerApi.cpp.s
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
-engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o: /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggingServerApiObserver.cpp
+engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggingServerApiObserver.cpp
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o -MF CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o.d -o CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o -c /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggingServerApiObserver.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o -MF CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o.d -o CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggingServerApiObserver.cpp
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggingServerApiObserver.cpp > CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggingServerApiObserver.cpp > CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.i
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LoggingServerApiObserver.cpp -o CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LoggingServerApiObserver.cpp -o CMakeFiles/LogServer.dir/shared/LoggingServerApiObserver.cpp.s
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
-engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o: /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LogServer.cpp
+engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LogServer.cpp
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o -MF CMakeFiles/LogServer.dir/shared/LogServer.cpp.o.d -o CMakeFiles/LogServer.dir/shared/LogServer.cpp.o -c /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LogServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.o -MF CMakeFiles/LogServer.dir/shared/LogServer.cpp.o.d -o CMakeFiles/LogServer.dir/shared/LogServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LogServer.cpp
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogServer.dir/shared/LogServer.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LogServer.cpp > CMakeFiles/LogServer.dir/shared/LogServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LogServer.cpp > CMakeFiles/LogServer.dir/shared/LogServer.cpp.i
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/shared/LogServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogServer.dir/shared/LogServer.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/LogServer/src/shared/LogServer.cpp -o CMakeFiles/LogServer.dir/shared/LogServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/shared/LogServer.cpp -o CMakeFiles/LogServer.dir/shared/LogServer.cpp.s
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/flags.make
-engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o: /home/swg1/swg-main/src/engine/server/application/LogServer/src/linux/main.cpp
+engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/linux/main.cpp
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o -MF CMakeFiles/LogServer.dir/linux/main.cpp.o.d -o CMakeFiles/LogServer.dir/linux/main.cpp.o -c /home/swg1/swg-main/src/engine/server/application/LogServer/src/linux/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.o -MF CMakeFiles/LogServer.dir/linux/main.cpp.o.d -o CMakeFiles/LogServer.dir/linux/main.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/linux/main.cpp
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LogServer.dir/linux/main.cpp.i"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/engine/server/application/LogServer/src/linux/main.cpp > CMakeFiles/LogServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/linux/main.cpp > CMakeFiles/LogServer.dir/linux/main.cpp.i
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/linux/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LogServer.dir/linux/main.cpp.s"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/engine/server/application/LogServer/src/linux/main.cpp -o CMakeFiles/LogServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src/linux/main.cpp -o CMakeFiles/LogServer.dir/linux/main.cpp.s
 
 # Object files for target LogServer
 LogServer_OBJECTS = \
@@ -252,18 +252,18 @@ bin/LogServer: external/ours/library/localizationArchive/src/liblocalizationArch
 bin/LogServer: external/ours/library/unicode/src/libunicode.a
 bin/LogServer: external/ours/library/unicodeArchive/src/libunicodeArchive.a
 bin/LogServer: engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../../../bin/LogServer"
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LogServer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking CXX executable ../../../../../bin/LogServer"
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LogServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build: bin/LogServer
 .PHONY : engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/build
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/clean:
-	cd /home/swg1/swg-main/build/engine/server/application/LogServer/src && $(CMAKE_COMMAND) -P CMakeFiles/LogServer.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src && $(CMAKE_COMMAND) -P CMakeFiles/LogServer.dir/cmake_clean.cmake
 .PHONY : engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/clean
 
 engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/engine/server/application/LogServer/src /home/swg1/swg-main/build /home/swg1/swg-main/build/engine/server/application/LogServer/src /home/swg1/swg-main/build/engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/server/application/LogServer/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src /home/almalinux/swg-talon-online/build/engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/server/application/LogServer/src/CMakeFiles/LogServer.dir/depend
 

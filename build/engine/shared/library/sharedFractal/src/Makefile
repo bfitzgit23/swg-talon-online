@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedFractal/src//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/rule
 .PHONY : engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedFractal: engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.
 
 # fast build rule for target.
 sharedFractal/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build
 .PHONY : sharedFractal/fast
 
 shared/MultiFractal.o: shared/MultiFractal.cpp.o
@@ -135,7 +135,7 @@ shared/MultiFractal.o: shared/MultiFractal.cpp.o
 
 # target to build an object file
 shared/MultiFractal.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o
 .PHONY : shared/MultiFractal.cpp.o
 
 shared/MultiFractal.i: shared/MultiFractal.cpp.i
@@ -143,7 +143,7 @@ shared/MultiFractal.i: shared/MultiFractal.cpp.i
 
 # target to preprocess a source file
 shared/MultiFractal.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.i
 .PHONY : shared/MultiFractal.cpp.i
 
 shared/MultiFractal.s: shared/MultiFractal.cpp.s
@@ -151,7 +151,7 @@ shared/MultiFractal.s: shared/MultiFractal.cpp.s
 
 # target to generate assembly for a file
 shared/MultiFractal.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.s
 .PHONY : shared/MultiFractal.cpp.s
 
 shared/MultiFractalReaderWriter.o: shared/MultiFractalReaderWriter.cpp.o
@@ -159,7 +159,7 @@ shared/MultiFractalReaderWriter.o: shared/MultiFractalReaderWriter.cpp.o
 
 # target to build an object file
 shared/MultiFractalReaderWriter.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o
 .PHONY : shared/MultiFractalReaderWriter.cpp.o
 
 shared/MultiFractalReaderWriter.i: shared/MultiFractalReaderWriter.cpp.i
@@ -167,7 +167,7 @@ shared/MultiFractalReaderWriter.i: shared/MultiFractalReaderWriter.cpp.i
 
 # target to preprocess a source file
 shared/MultiFractalReaderWriter.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.i
 .PHONY : shared/MultiFractalReaderWriter.cpp.i
 
 shared/MultiFractalReaderWriter.s: shared/MultiFractalReaderWriter.cpp.s
@@ -175,7 +175,7 @@ shared/MultiFractalReaderWriter.s: shared/MultiFractalReaderWriter.cpp.s
 
 # target to generate assembly for a file
 shared/MultiFractalReaderWriter.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.s
 .PHONY : shared/MultiFractalReaderWriter.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

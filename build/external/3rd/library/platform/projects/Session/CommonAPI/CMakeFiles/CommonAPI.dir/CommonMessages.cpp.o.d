@@ -1,7 +1,7 @@
 external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonMessages.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -42,7 +42,7 @@ external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.di
  /usr/include/c++/8/bits/functional_hash.h \
  /usr/include/c++/8/bits/range_access.h \
  /usr/include/c++/8/bits/vector.tcc \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/Archive.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Archive.h \
  /usr/include/assert.h /usr/include/c++/8/string \
  /usr/include/c++/8/bits/stringfwd.h \
  /usr/include/c++/8/bits/char_traits.h /usr/include/c++/8/bits/postypes.h \
@@ -104,8 +104,8 @@ external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.di
  /usr/include/asm/errno.h /usr/include/asm-generic/errno.h \
  /usr/include/asm-generic/errno-base.h /usr/include/bits/types/error_t.h \
  /usr/include/c++/8/bits/basic_string.tcc \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/Platform.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
  /usr/include/sys/errno.h /usr/include/resolv.h /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -150,10 +150,10 @@ external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.di
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/Mutex.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Mutex.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Archive.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.h
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Mutex.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Archive.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.h

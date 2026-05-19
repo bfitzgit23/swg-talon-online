@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 # Include any dependencies generated for this target.
 include external/ours/library/localization/src/CMakeFiles/localization.dir/depend.make
@@ -70,74 +70,74 @@ include external/ours/library/localization/src/CMakeFiles/localization.dir/progr
 include external/ours/library/localization/src/CMakeFiles/localization.dir/flags.make
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/flags.make
-external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o: /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizationManager.cpp
+external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizationManager.cpp
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o -MF CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o.d -o CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o -c /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizationManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o -MF CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o.d -o CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizationManager.cpp
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/localization.dir/shared/LocalizationManager.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizationManager.cpp > CMakeFiles/localization.dir/shared/LocalizationManager.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizationManager.cpp > CMakeFiles/localization.dir/shared/LocalizationManager.cpp.i
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/localization.dir/shared/LocalizationManager.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizationManager.cpp -o CMakeFiles/localization.dir/shared/LocalizationManager.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizationManager.cpp -o CMakeFiles/localization.dir/shared/LocalizationManager.cpp.s
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/flags.make
-external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o: /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedString.cpp
+external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedString.cpp
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o -MF CMakeFiles/localization.dir/shared/LocalizedString.cpp.o.d -o CMakeFiles/localization.dir/shared/LocalizedString.cpp.o -c /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedString.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o -MF CMakeFiles/localization.dir/shared/LocalizedString.cpp.o.d -o CMakeFiles/localization.dir/shared/LocalizedString.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedString.cpp
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/localization.dir/shared/LocalizedString.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedString.cpp > CMakeFiles/localization.dir/shared/LocalizedString.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedString.cpp > CMakeFiles/localization.dir/shared/LocalizedString.cpp.i
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/localization.dir/shared/LocalizedString.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedString.cpp -o CMakeFiles/localization.dir/shared/LocalizedString.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedString.cpp -o CMakeFiles/localization.dir/shared/LocalizedString.cpp.s
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/flags.make
-external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o: /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp
+external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o -MF CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o.d -o CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o -c /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o -MF CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o.d -o CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp > CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp > CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.i
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp -o CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp -o CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.s
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/flags.make
-external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o: /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp
+external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o -MF CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o.d -o CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o -c /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o -MF CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o.d -o CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp > CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp > CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.i
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp -o CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp -o CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.s
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/flags.make
-external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o: /home/swg1/swg-main/src/external/ours/library/localization/src/shared/StringId.cpp
+external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/StringId.cpp
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o: external/ours/library/localization/src/CMakeFiles/localization.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o -MF CMakeFiles/localization.dir/shared/StringId.cpp.o.d -o CMakeFiles/localization.dir/shared/StringId.cpp.o -c /home/swg1/swg-main/src/external/ours/library/localization/src/shared/StringId.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o -MF CMakeFiles/localization.dir/shared/StringId.cpp.o.d -o CMakeFiles/localization.dir/shared/StringId.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/StringId.cpp
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/localization.dir/shared/StringId.cpp.i"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg1/swg-main/src/external/ours/library/localization/src/shared/StringId.cpp > CMakeFiles/localization.dir/shared/StringId.cpp.i
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/StringId.cpp > CMakeFiles/localization.dir/shared/StringId.cpp.i
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/localization.dir/shared/StringId.cpp.s"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg1/swg-main/src/external/ours/library/localization/src/shared/StringId.cpp -o CMakeFiles/localization.dir/shared/StringId.cpp.s
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/StringId.cpp -o CMakeFiles/localization.dir/shared/StringId.cpp.s
 
 # Object files for target localization
 localization_OBJECTS = \
@@ -157,19 +157,19 @@ external/ours/library/localization/src/liblocalization.a: external/ours/library/
 external/ours/library/localization/src/liblocalization.a: external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o
 external/ours/library/localization/src/liblocalization.a: external/ours/library/localization/src/CMakeFiles/localization.dir/build.make
 external/ours/library/localization/src/liblocalization.a: external/ours/library/localization/src/CMakeFiles/localization.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg1/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblocalization.a"
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && $(CMAKE_COMMAND) -P CMakeFiles/localization.dir/cmake_clean_target.cmake
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/localization.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library liblocalization.a"
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && $(CMAKE_COMMAND) -P CMakeFiles/localization.dir/cmake_clean_target.cmake
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/localization.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/ours/library/localization/src/CMakeFiles/localization.dir/build: external/ours/library/localization/src/liblocalization.a
 .PHONY : external/ours/library/localization/src/CMakeFiles/localization.dir/build
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/clean:
-	cd /home/swg1/swg-main/build/external/ours/library/localization/src && $(CMAKE_COMMAND) -P CMakeFiles/localization.dir/cmake_clean.cmake
+	cd /home/almalinux/swg-talon-online/build/external/ours/library/localization/src && $(CMAKE_COMMAND) -P CMakeFiles/localization.dir/cmake_clean.cmake
 .PHONY : external/ours/library/localization/src/CMakeFiles/localization.dir/clean
 
 external/ours/library/localization/src/CMakeFiles/localization.dir/depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg1/swg-main/src /home/swg1/swg-main/src/external/ours/library/localization/src /home/swg1/swg-main/build /home/swg1/swg-main/build/external/ours/library/localization/src /home/swg1/swg-main/build/external/ours/library/localization/src/CMakeFiles/localization.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/ours/library/localization/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/ours/library/localization/src /home/almalinux/swg-talon-online/build/external/ours/library/localization/src/CMakeFiles/localization.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/ours/library/localization/src/CMakeFiles/localization.dir/depend
 

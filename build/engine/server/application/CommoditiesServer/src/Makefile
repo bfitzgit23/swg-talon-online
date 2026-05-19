@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/server/application/CommoditiesServer/src//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/CommoditiesServer/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/rule
 .PHONY : engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ CommoditiesServer: engine/server/application/CommoditiesServer/src/CMakeFiles/Co
 
 # fast build rule for target.
 CommoditiesServer/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build
 .PHONY : CommoditiesServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/linux/main.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/linux/main.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/linux/main.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/Auction.o: shared/Auction.cpp.o
@@ -159,7 +159,7 @@ shared/Auction.o: shared/Auction.cpp.o
 
 # target to build an object file
 shared/Auction.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/Auction.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/Auction.cpp.o
 .PHONY : shared/Auction.cpp.o
 
 shared/Auction.i: shared/Auction.cpp.i
@@ -167,7 +167,7 @@ shared/Auction.i: shared/Auction.cpp.i
 
 # target to preprocess a source file
 shared/Auction.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/Auction.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/Auction.cpp.i
 .PHONY : shared/Auction.cpp.i
 
 shared/Auction.s: shared/Auction.cpp.s
@@ -175,7 +175,7 @@ shared/Auction.s: shared/Auction.cpp.s
 
 # target to generate assembly for a file
 shared/Auction.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/Auction.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/Auction.cpp.s
 .PHONY : shared/Auction.cpp.s
 
 shared/AuctionBid.o: shared/AuctionBid.cpp.o
@@ -183,7 +183,7 @@ shared/AuctionBid.o: shared/AuctionBid.cpp.o
 
 # target to build an object file
 shared/AuctionBid.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionBid.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionBid.cpp.o
 .PHONY : shared/AuctionBid.cpp.o
 
 shared/AuctionBid.i: shared/AuctionBid.cpp.i
@@ -191,7 +191,7 @@ shared/AuctionBid.i: shared/AuctionBid.cpp.i
 
 # target to preprocess a source file
 shared/AuctionBid.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionBid.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionBid.cpp.i
 .PHONY : shared/AuctionBid.cpp.i
 
 shared/AuctionBid.s: shared/AuctionBid.cpp.s
@@ -199,7 +199,7 @@ shared/AuctionBid.s: shared/AuctionBid.cpp.s
 
 # target to generate assembly for a file
 shared/AuctionBid.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionBid.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionBid.cpp.s
 .PHONY : shared/AuctionBid.cpp.s
 
 shared/AuctionItem.o: shared/AuctionItem.cpp.o
@@ -207,7 +207,7 @@ shared/AuctionItem.o: shared/AuctionItem.cpp.o
 
 # target to build an object file
 shared/AuctionItem.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionItem.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionItem.cpp.o
 .PHONY : shared/AuctionItem.cpp.o
 
 shared/AuctionItem.i: shared/AuctionItem.cpp.i
@@ -215,7 +215,7 @@ shared/AuctionItem.i: shared/AuctionItem.cpp.i
 
 # target to preprocess a source file
 shared/AuctionItem.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionItem.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionItem.cpp.i
 .PHONY : shared/AuctionItem.cpp.i
 
 shared/AuctionItem.s: shared/AuctionItem.cpp.s
@@ -223,7 +223,7 @@ shared/AuctionItem.s: shared/AuctionItem.cpp.s
 
 # target to generate assembly for a file
 shared/AuctionItem.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionItem.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionItem.cpp.s
 .PHONY : shared/AuctionItem.cpp.s
 
 shared/AuctionLocation.o: shared/AuctionLocation.cpp.o
@@ -231,7 +231,7 @@ shared/AuctionLocation.o: shared/AuctionLocation.cpp.o
 
 # target to build an object file
 shared/AuctionLocation.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionLocation.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionLocation.cpp.o
 .PHONY : shared/AuctionLocation.cpp.o
 
 shared/AuctionLocation.i: shared/AuctionLocation.cpp.i
@@ -239,7 +239,7 @@ shared/AuctionLocation.i: shared/AuctionLocation.cpp.i
 
 # target to preprocess a source file
 shared/AuctionLocation.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionLocation.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionLocation.cpp.i
 .PHONY : shared/AuctionLocation.cpp.i
 
 shared/AuctionLocation.s: shared/AuctionLocation.cpp.s
@@ -247,7 +247,7 @@ shared/AuctionLocation.s: shared/AuctionLocation.cpp.s
 
 # target to generate assembly for a file
 shared/AuctionLocation.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionLocation.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionLocation.cpp.s
 .PHONY : shared/AuctionLocation.cpp.s
 
 shared/AuctionMarket.o: shared/AuctionMarket.cpp.o
@@ -255,7 +255,7 @@ shared/AuctionMarket.o: shared/AuctionMarket.cpp.o
 
 # target to build an object file
 shared/AuctionMarket.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionMarket.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionMarket.cpp.o
 .PHONY : shared/AuctionMarket.cpp.o
 
 shared/AuctionMarket.i: shared/AuctionMarket.cpp.i
@@ -263,7 +263,7 @@ shared/AuctionMarket.i: shared/AuctionMarket.cpp.i
 
 # target to preprocess a source file
 shared/AuctionMarket.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionMarket.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionMarket.cpp.i
 .PHONY : shared/AuctionMarket.cpp.i
 
 shared/AuctionMarket.s: shared/AuctionMarket.cpp.s
@@ -271,7 +271,7 @@ shared/AuctionMarket.s: shared/AuctionMarket.cpp.s
 
 # target to generate assembly for a file
 shared/AuctionMarket.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionMarket.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/AuctionMarket.cpp.s
 .PHONY : shared/AuctionMarket.cpp.s
 
 shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
@@ -279,7 +279,7 @@ shared/CentralServerConnection.o: shared/CentralServerConnection.cpp.o
 
 # target to build an object file
 shared/CentralServerConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CentralServerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CentralServerConnection.cpp.o
 .PHONY : shared/CentralServerConnection.cpp.o
 
 shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
@@ -287,7 +287,7 @@ shared/CentralServerConnection.i: shared/CentralServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/CentralServerConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CentralServerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CentralServerConnection.cpp.i
 .PHONY : shared/CentralServerConnection.cpp.i
 
 shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
@@ -295,7 +295,7 @@ shared/CentralServerConnection.s: shared/CentralServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CentralServerConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CentralServerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CentralServerConnection.cpp.s
 .PHONY : shared/CentralServerConnection.cpp.s
 
 shared/CommodityServer.o: shared/CommodityServer.cpp.o
@@ -303,7 +303,7 @@ shared/CommodityServer.o: shared/CommodityServer.cpp.o
 
 # target to build an object file
 shared/CommodityServer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServer.cpp.o
 .PHONY : shared/CommodityServer.cpp.o
 
 shared/CommodityServer.i: shared/CommodityServer.cpp.i
@@ -311,7 +311,7 @@ shared/CommodityServer.i: shared/CommodityServer.cpp.i
 
 # target to preprocess a source file
 shared/CommodityServer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServer.cpp.i
 .PHONY : shared/CommodityServer.cpp.i
 
 shared/CommodityServer.s: shared/CommodityServer.cpp.s
@@ -319,7 +319,7 @@ shared/CommodityServer.s: shared/CommodityServer.cpp.s
 
 # target to generate assembly for a file
 shared/CommodityServer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServer.cpp.s
 .PHONY : shared/CommodityServer.cpp.s
 
 shared/CommodityServerMetricsData.o: shared/CommodityServerMetricsData.cpp.o
@@ -327,7 +327,7 @@ shared/CommodityServerMetricsData.o: shared/CommodityServerMetricsData.cpp.o
 
 # target to build an object file
 shared/CommodityServerMetricsData.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServerMetricsData.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServerMetricsData.cpp.o
 .PHONY : shared/CommodityServerMetricsData.cpp.o
 
 shared/CommodityServerMetricsData.i: shared/CommodityServerMetricsData.cpp.i
@@ -335,7 +335,7 @@ shared/CommodityServerMetricsData.i: shared/CommodityServerMetricsData.cpp.i
 
 # target to preprocess a source file
 shared/CommodityServerMetricsData.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServerMetricsData.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServerMetricsData.cpp.i
 .PHONY : shared/CommodityServerMetricsData.cpp.i
 
 shared/CommodityServerMetricsData.s: shared/CommodityServerMetricsData.cpp.s
@@ -343,7 +343,7 @@ shared/CommodityServerMetricsData.s: shared/CommodityServerMetricsData.cpp.s
 
 # target to generate assembly for a file
 shared/CommodityServerMetricsData.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServerMetricsData.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/CommodityServerMetricsData.cpp.s
 .PHONY : shared/CommodityServerMetricsData.cpp.s
 
 shared/ConfigCommodityServer.o: shared/ConfigCommodityServer.cpp.o
@@ -351,7 +351,7 @@ shared/ConfigCommodityServer.o: shared/ConfigCommodityServer.cpp.o
 
 # target to build an object file
 shared/ConfigCommodityServer.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/ConfigCommodityServer.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/ConfigCommodityServer.cpp.o
 .PHONY : shared/ConfigCommodityServer.cpp.o
 
 shared/ConfigCommodityServer.i: shared/ConfigCommodityServer.cpp.i
@@ -359,7 +359,7 @@ shared/ConfigCommodityServer.i: shared/ConfigCommodityServer.cpp.i
 
 # target to preprocess a source file
 shared/ConfigCommodityServer.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/ConfigCommodityServer.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/ConfigCommodityServer.cpp.i
 .PHONY : shared/ConfigCommodityServer.cpp.i
 
 shared/ConfigCommodityServer.s: shared/ConfigCommodityServer.cpp.s
@@ -367,7 +367,7 @@ shared/ConfigCommodityServer.s: shared/ConfigCommodityServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigCommodityServer.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/ConfigCommodityServer.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/ConfigCommodityServer.cpp.s
 .PHONY : shared/ConfigCommodityServer.cpp.s
 
 shared/DatabaseServerConnection.o: shared/DatabaseServerConnection.cpp.o
@@ -375,7 +375,7 @@ shared/DatabaseServerConnection.o: shared/DatabaseServerConnection.cpp.o
 
 # target to build an object file
 shared/DatabaseServerConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/DatabaseServerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/DatabaseServerConnection.cpp.o
 .PHONY : shared/DatabaseServerConnection.cpp.o
 
 shared/DatabaseServerConnection.i: shared/DatabaseServerConnection.cpp.i
@@ -383,7 +383,7 @@ shared/DatabaseServerConnection.i: shared/DatabaseServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/DatabaseServerConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/DatabaseServerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/DatabaseServerConnection.cpp.i
 .PHONY : shared/DatabaseServerConnection.cpp.i
 
 shared/DatabaseServerConnection.s: shared/DatabaseServerConnection.cpp.s
@@ -391,7 +391,7 @@ shared/DatabaseServerConnection.s: shared/DatabaseServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/DatabaseServerConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/DatabaseServerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/DatabaseServerConnection.cpp.s
 .PHONY : shared/DatabaseServerConnection.cpp.s
 
 shared/GameServerConnection.o: shared/GameServerConnection.cpp.o
@@ -399,7 +399,7 @@ shared/GameServerConnection.o: shared/GameServerConnection.cpp.o
 
 # target to build an object file
 shared/GameServerConnection.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/GameServerConnection.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/GameServerConnection.cpp.o
 .PHONY : shared/GameServerConnection.cpp.o
 
 shared/GameServerConnection.i: shared/GameServerConnection.cpp.i
@@ -407,7 +407,7 @@ shared/GameServerConnection.i: shared/GameServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/GameServerConnection.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/GameServerConnection.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/GameServerConnection.cpp.i
 .PHONY : shared/GameServerConnection.cpp.i
 
 shared/GameServerConnection.s: shared/GameServerConnection.cpp.s
@@ -415,7 +415,7 @@ shared/GameServerConnection.s: shared/GameServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/GameServerConnection.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/GameServerConnection.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/build.make engine/server/application/CommoditiesServer/src/CMakeFiles/CommoditiesServer.dir/shared/GameServerConnection.cpp.s
 .PHONY : shared/GameServerConnection.cpp.s
 
 # Help Target
@@ -474,6 +474,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

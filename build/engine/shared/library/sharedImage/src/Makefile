@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/engine/shared/library/sharedImage/src//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedImage/src//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/rule
 .PHONY : engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedImage: engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/ru
 
 # fast build rule for target.
 sharedImage/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build
 .PHONY : sharedImage/fast
 
 shared/ConfigSharedImage.o: shared/ConfigSharedImage.cpp.o
@@ -135,7 +135,7 @@ shared/ConfigSharedImage.o: shared/ConfigSharedImage.cpp.o
 
 # target to build an object file
 shared/ConfigSharedImage.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.o
 .PHONY : shared/ConfigSharedImage.cpp.o
 
 shared/ConfigSharedImage.i: shared/ConfigSharedImage.cpp.i
@@ -143,7 +143,7 @@ shared/ConfigSharedImage.i: shared/ConfigSharedImage.cpp.i
 
 # target to preprocess a source file
 shared/ConfigSharedImage.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.i
 .PHONY : shared/ConfigSharedImage.cpp.i
 
 shared/ConfigSharedImage.s: shared/ConfigSharedImage.cpp.s
@@ -151,7 +151,7 @@ shared/ConfigSharedImage.s: shared/ConfigSharedImage.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigSharedImage.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ConfigSharedImage.cpp.s
 .PHONY : shared/ConfigSharedImage.cpp.s
 
 shared/Image.o: shared/Image.cpp.o
@@ -159,7 +159,7 @@ shared/Image.o: shared/Image.cpp.o
 
 # target to build an object file
 shared/Image.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.o
 .PHONY : shared/Image.cpp.o
 
 shared/Image.i: shared/Image.cpp.i
@@ -167,7 +167,7 @@ shared/Image.i: shared/Image.cpp.i
 
 # target to preprocess a source file
 shared/Image.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.i
 .PHONY : shared/Image.cpp.i
 
 shared/Image.s: shared/Image.cpp.s
@@ -175,7 +175,7 @@ shared/Image.s: shared/Image.cpp.s
 
 # target to generate assembly for a file
 shared/Image.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/Image.cpp.s
 .PHONY : shared/Image.cpp.s
 
 shared/ImageFormat.o: shared/ImageFormat.cpp.o
@@ -183,7 +183,7 @@ shared/ImageFormat.o: shared/ImageFormat.cpp.o
 
 # target to build an object file
 shared/ImageFormat.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.o
 .PHONY : shared/ImageFormat.cpp.o
 
 shared/ImageFormat.i: shared/ImageFormat.cpp.i
@@ -191,7 +191,7 @@ shared/ImageFormat.i: shared/ImageFormat.cpp.i
 
 # target to preprocess a source file
 shared/ImageFormat.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.i
 .PHONY : shared/ImageFormat.cpp.i
 
 shared/ImageFormat.s: shared/ImageFormat.cpp.s
@@ -199,7 +199,7 @@ shared/ImageFormat.s: shared/ImageFormat.cpp.s
 
 # target to generate assembly for a file
 shared/ImageFormat.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormat.cpp.s
 .PHONY : shared/ImageFormat.cpp.s
 
 shared/ImageFormatList.o: shared/ImageFormatList.cpp.o
@@ -207,7 +207,7 @@ shared/ImageFormatList.o: shared/ImageFormatList.cpp.o
 
 # target to build an object file
 shared/ImageFormatList.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.o
 .PHONY : shared/ImageFormatList.cpp.o
 
 shared/ImageFormatList.i: shared/ImageFormatList.cpp.i
@@ -215,7 +215,7 @@ shared/ImageFormatList.i: shared/ImageFormatList.cpp.i
 
 # target to preprocess a source file
 shared/ImageFormatList.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.i
 .PHONY : shared/ImageFormatList.cpp.i
 
 shared/ImageFormatList.s: shared/ImageFormatList.cpp.s
@@ -223,7 +223,7 @@ shared/ImageFormatList.s: shared/ImageFormatList.cpp.s
 
 # target to generate assembly for a file
 shared/ImageFormatList.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageFormatList.cpp.s
 .PHONY : shared/ImageFormatList.cpp.s
 
 shared/ImageManipulation.o: shared/ImageManipulation.cpp.o
@@ -231,7 +231,7 @@ shared/ImageManipulation.o: shared/ImageManipulation.cpp.o
 
 # target to build an object file
 shared/ImageManipulation.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.o
 .PHONY : shared/ImageManipulation.cpp.o
 
 shared/ImageManipulation.i: shared/ImageManipulation.cpp.i
@@ -239,7 +239,7 @@ shared/ImageManipulation.i: shared/ImageManipulation.cpp.i
 
 # target to preprocess a source file
 shared/ImageManipulation.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.i
 .PHONY : shared/ImageManipulation.cpp.i
 
 shared/ImageManipulation.s: shared/ImageManipulation.cpp.s
@@ -247,7 +247,7 @@ shared/ImageManipulation.s: shared/ImageManipulation.cpp.s
 
 # target to generate assembly for a file
 shared/ImageManipulation.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/ImageManipulation.cpp.s
 .PHONY : shared/ImageManipulation.cpp.s
 
 shared/SetupSharedImage.o: shared/SetupSharedImage.cpp.o
@@ -255,7 +255,7 @@ shared/SetupSharedImage.o: shared/SetupSharedImage.cpp.o
 
 # target to build an object file
 shared/SetupSharedImage.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.o
 .PHONY : shared/SetupSharedImage.cpp.o
 
 shared/SetupSharedImage.i: shared/SetupSharedImage.cpp.i
@@ -263,7 +263,7 @@ shared/SetupSharedImage.i: shared/SetupSharedImage.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedImage.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.i
 .PHONY : shared/SetupSharedImage.cpp.i
 
 shared/SetupSharedImage.s: shared/SetupSharedImage.cpp.s
@@ -271,7 +271,7 @@ shared/SetupSharedImage.s: shared/SetupSharedImage.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedImage.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/SetupSharedImage.cpp.s
 .PHONY : shared/SetupSharedImage.cpp.s
 
 shared/TargaFormat.o: shared/TargaFormat.cpp.o
@@ -279,7 +279,7 @@ shared/TargaFormat.o: shared/TargaFormat.cpp.o
 
 # target to build an object file
 shared/TargaFormat.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.o
 .PHONY : shared/TargaFormat.cpp.o
 
 shared/TargaFormat.i: shared/TargaFormat.cpp.i
@@ -287,7 +287,7 @@ shared/TargaFormat.i: shared/TargaFormat.cpp.i
 
 # target to preprocess a source file
 shared/TargaFormat.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.i
 .PHONY : shared/TargaFormat.cpp.i
 
 shared/TargaFormat.s: shared/TargaFormat.cpp.s
@@ -295,7 +295,7 @@ shared/TargaFormat.s: shared/TargaFormat.cpp.s
 
 # target to generate assembly for a file
 shared/TargaFormat.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/build.make engine/shared/library/sharedImage/src/CMakeFiles/sharedImage.dir/shared/TargaFormat.cpp.s
 .PHONY : shared/TargaFormat.cpp.s
 
 # Help Target
@@ -339,6 +339,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

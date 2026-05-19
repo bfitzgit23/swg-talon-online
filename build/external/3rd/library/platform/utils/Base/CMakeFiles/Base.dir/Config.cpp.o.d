@@ -1,7 +1,7 @@
 external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/Config.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Config.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/Config.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Config.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -18,9 +18,9 @@ external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o: \
  /usr/include/bits/endian.h /usr/include/bits/byteswap.h \
  /usr/include/bits/uintn-identity.h /usr/include/bits/types/locale_t.h \
  /usr/include/bits/types/__locale_t.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Platform.h \
  /usr/include/assert.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
  /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
@@ -93,5 +93,5 @@ external/3rd/library/platform/utils/Base/CMakeFiles/Base.dir/Config.cpp.o: \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/utils/Base/linux/Types.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h

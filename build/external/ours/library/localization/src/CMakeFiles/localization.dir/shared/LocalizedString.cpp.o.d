@@ -1,10 +1,10 @@
 external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o: \
- /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedString.cpp \
+ /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedString.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/ours/library/localization/src/shared/FirstLocalization.h \
- /home/swg1/swg-main/src/external/ours/library/localization/src/shared/LocalizedString.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/Unicode.h \
- /home/swg1/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/FirstLocalization.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedString.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/Unicode.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -109,8 +109,8 @@ external/ours/library/localization/src/CMakeFiles/localization.dir/shared/Locali
  /usr/include/c++/8/optional \
  /usr/include/c++/8/bits/enable_special_members.h \
  /usr/include/c++/8/bits/unordered_map.h \
- /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
- /home/swg1/swg-main/src/external/ours/library/fileInterface/include/public/../../src/shared/AbstractFile.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/fileInterface/AbstractFile.h \
+ /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/include/public/../../src/shared/AbstractFile.h \
  /usr/include/c++/8/cassert /usr/include/assert.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h \

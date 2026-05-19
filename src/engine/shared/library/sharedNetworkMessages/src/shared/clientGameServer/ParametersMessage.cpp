@@ -10,24 +10,20 @@
 
 // ======================================================================
 
-ParametersMessage::ParametersMessage(int weatherUpdateInterval, int entertainerCaptchaPercent) :
+ParametersMessage::ParametersMessage(int weatherUpdateInterval) :
 		GameNetworkMessage("ParametersMessage"),
-		m_weatherUpdateInterval(weatherUpdateInterval),
-		m_entertainerCaptchaPercent(entertainerCaptchaPercent)
+		m_weatherUpdateInterval(weatherUpdateInterval)
 {
 	addVariable(m_weatherUpdateInterval);
-	addVariable(m_entertainerCaptchaPercent);
 }
 
 //-----------------------------------------------------------------------
 
 ParametersMessage::ParametersMessage(Archive::ReadIterator & source) :
 		GameNetworkMessage("ParametersMessage"),
-		m_weatherUpdateInterval(),
-		m_entertainerCaptchaPercent()
+		m_weatherUpdateInterval()
 {
 	addVariable(m_weatherUpdateInterval);
-	addVariable(m_entertainerCaptchaPercent);
 
 	unpack(source);
 }

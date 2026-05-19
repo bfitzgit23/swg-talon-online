@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/swg1/swg-main/src
+CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/swg1/swg-main/build
+CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles /home/swg1/swg-main/build/external/3rd/library/platform/projects/MonAPI2//CMakeFiles/progress.marks
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg1/swg-main/build/CMakeFiles 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2//CMakeFiles/progress.marks
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/clean
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/preinstall
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/rule:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/rule
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/rule
 .PHONY : external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ MonAPI2: external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/r
 
 # fast build rule for target.
 MonAPI2/fast:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build
 .PHONY : MonAPI2/fast
 
 MonitorAPI.o: MonitorAPI.cpp.o
@@ -135,7 +135,7 @@ MonitorAPI.o: MonitorAPI.cpp.o
 
 # target to build an object file
 MonitorAPI.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.o
 .PHONY : MonitorAPI.cpp.o
 
 MonitorAPI.i: MonitorAPI.cpp.i
@@ -143,7 +143,7 @@ MonitorAPI.i: MonitorAPI.cpp.i
 
 # target to preprocess a source file
 MonitorAPI.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.i
 .PHONY : MonitorAPI.cpp.i
 
 MonitorAPI.s: MonitorAPI.cpp.s
@@ -151,7 +151,7 @@ MonitorAPI.s: MonitorAPI.cpp.s
 
 # target to generate assembly for a file
 MonitorAPI.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorAPI.cpp.s
 .PHONY : MonitorAPI.cpp.s
 
 MonitorData.o: MonitorData.cpp.o
@@ -159,7 +159,7 @@ MonitorData.o: MonitorData.cpp.o
 
 # target to build an object file
 MonitorData.cpp.o:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o
 .PHONY : MonitorData.cpp.o
 
 MonitorData.i: MonitorData.cpp.i
@@ -167,7 +167,7 @@ MonitorData.i: MonitorData.cpp.i
 
 # target to preprocess a source file
 MonitorData.cpp.i:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.i
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.i
 .PHONY : MonitorData.cpp.i
 
 MonitorData.s: MonitorData.cpp.s
@@ -175,7 +175,7 @@ MonitorData.s: MonitorData.cpp.s
 
 # target to generate assembly for a file
 MonitorData.cpp.s:
-	cd /home/swg1/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.s
+	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/build.make external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.s
 .PHONY : MonitorData.cpp.s
 
 # Help Target
@@ -204,6 +204,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/swg1/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -1,5 +1,5 @@
 external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorData.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.cpp \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -48,9 +48,9 @@ external/3rd/library/platform/projects/MonAPI2/CMakeFiles/MonAPI2.dir/MonitorDat
  /usr/include/bits/posix_opt.h /usr/include/bits/environments.h \
  /usr/include/bits/confname.h /usr/include/bits/getopt_posix.h \
  /usr/include/bits/getopt_core.h \
- /home/swg1/swg-main/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.h \
- /home/swg1/swg-main/src/external/3rd/library/udplibrary/UdpLibrary.hpp \
- /home/swg1/swg-main/src/external/3rd/library/udplibrary/UdpHandler.hpp \
- /home/swg1/swg-main/src/external/3rd/library/udplibrary/priority.hpp \
- /home/swg1/swg-main/src/external/3rd/library/udplibrary/hashtable.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/MonAPI2/MonitorData.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpHandler.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/priority.hpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/hashtable.hpp \
  /usr/include/memory.h

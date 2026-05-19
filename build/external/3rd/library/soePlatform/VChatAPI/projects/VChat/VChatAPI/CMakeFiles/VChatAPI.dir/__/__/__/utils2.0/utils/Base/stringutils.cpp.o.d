@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/stringutils.cpp.o: \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/stringutils.cpp \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/stringutils.cpp \
  /usr/include/stdc-predef.h \
- /home/swg1/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/stringutils.h \
+ /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/stringutils.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
