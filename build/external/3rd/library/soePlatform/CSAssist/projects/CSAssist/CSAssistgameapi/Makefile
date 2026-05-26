@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles /home/swg/swg-main/build/external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi//CMakeFiles/progress.marks
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/clean
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/rule
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/rule
 .PHONY : external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ CSAssist: external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistga
 
 # fast build rule for target.
 CSAssist/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build
 .PHONY : CSAssist/fast
 
 CSAssistgameapi.o: CSAssistgameapi.cpp.o
@@ -135,7 +135,7 @@ CSAssistgameapi.o: CSAssistgameapi.cpp.o
 
 # target to build an object file
 CSAssistgameapi.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapi.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapi.cpp.o
 .PHONY : CSAssistgameapi.cpp.o
 
 CSAssistgameapi.i: CSAssistgameapi.cpp.i
@@ -143,7 +143,7 @@ CSAssistgameapi.i: CSAssistgameapi.cpp.i
 
 # target to preprocess a source file
 CSAssistgameapi.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapi.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapi.cpp.i
 .PHONY : CSAssistgameapi.cpp.i
 
 CSAssistgameapi.s: CSAssistgameapi.cpp.s
@@ -151,7 +151,7 @@ CSAssistgameapi.s: CSAssistgameapi.cpp.s
 
 # target to generate assembly for a file
 CSAssistgameapi.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapi.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapi.cpp.s
 .PHONY : CSAssistgameapi.cpp.s
 
 CSAssistgameapicore.o: CSAssistgameapicore.cpp.o
@@ -159,7 +159,7 @@ CSAssistgameapicore.o: CSAssistgameapicore.cpp.o
 
 # target to build an object file
 CSAssistgameapicore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapicore.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapicore.cpp.o
 .PHONY : CSAssistgameapicore.cpp.o
 
 CSAssistgameapicore.i: CSAssistgameapicore.cpp.i
@@ -167,7 +167,7 @@ CSAssistgameapicore.i: CSAssistgameapicore.cpp.i
 
 # target to preprocess a source file
 CSAssistgameapicore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapicore.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapicore.cpp.i
 .PHONY : CSAssistgameapicore.cpp.i
 
 CSAssistgameapicore.s: CSAssistgameapicore.cpp.s
@@ -175,7 +175,7 @@ CSAssistgameapicore.s: CSAssistgameapicore.cpp.s
 
 # target to generate assembly for a file
 CSAssistgameapicore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapicore.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameapicore.cpp.s
 .PHONY : CSAssistgameapicore.cpp.s
 
 CSAssistgameobjects.o: CSAssistgameobjects.cpp.o
@@ -183,7 +183,7 @@ CSAssistgameobjects.o: CSAssistgameobjects.cpp.o
 
 # target to build an object file
 CSAssistgameobjects.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameobjects.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameobjects.cpp.o
 .PHONY : CSAssistgameobjects.cpp.o
 
 CSAssistgameobjects.i: CSAssistgameobjects.cpp.i
@@ -191,7 +191,7 @@ CSAssistgameobjects.i: CSAssistgameobjects.cpp.i
 
 # target to preprocess a source file
 CSAssistgameobjects.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameobjects.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameobjects.cpp.i
 .PHONY : CSAssistgameobjects.cpp.i
 
 CSAssistgameobjects.s: CSAssistgameobjects.cpp.s
@@ -199,7 +199,7 @@ CSAssistgameobjects.s: CSAssistgameobjects.cpp.s
 
 # target to generate assembly for a file
 CSAssistgameobjects.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameobjects.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistgameobjects.cpp.s
 .PHONY : CSAssistgameobjects.cpp.s
 
 CSAssistreceiver.o: CSAssistreceiver.cpp.o
@@ -207,7 +207,7 @@ CSAssistreceiver.o: CSAssistreceiver.cpp.o
 
 # target to build an object file
 CSAssistreceiver.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistreceiver.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistreceiver.cpp.o
 .PHONY : CSAssistreceiver.cpp.o
 
 CSAssistreceiver.i: CSAssistreceiver.cpp.i
@@ -215,7 +215,7 @@ CSAssistreceiver.i: CSAssistreceiver.cpp.i
 
 # target to preprocess a source file
 CSAssistreceiver.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistreceiver.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistreceiver.cpp.i
 .PHONY : CSAssistreceiver.cpp.i
 
 CSAssistreceiver.s: CSAssistreceiver.cpp.s
@@ -223,7 +223,7 @@ CSAssistreceiver.s: CSAssistreceiver.cpp.s
 
 # target to generate assembly for a file
 CSAssistreceiver.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistreceiver.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/CSAssistreceiver.cpp.s
 .PHONY : CSAssistreceiver.cpp.s
 
 __/__/__/utils/Base/Archive.o: __/__/__/utils/Base/Archive.cpp.o
@@ -231,7 +231,7 @@ __/__/__/utils/Base/Archive.o: __/__/__/utils/Base/Archive.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/Archive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Archive.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Archive.cpp.o
 .PHONY : __/__/__/utils/Base/Archive.cpp.o
 
 __/__/__/utils/Base/Archive.i: __/__/__/utils/Base/Archive.cpp.i
@@ -239,7 +239,7 @@ __/__/__/utils/Base/Archive.i: __/__/__/utils/Base/Archive.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/Archive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Archive.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Archive.cpp.i
 .PHONY : __/__/__/utils/Base/Archive.cpp.i
 
 __/__/__/utils/Base/Archive.s: __/__/__/utils/Base/Archive.cpp.s
@@ -247,7 +247,7 @@ __/__/__/utils/Base/Archive.s: __/__/__/utils/Base/Archive.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/Archive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Archive.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Archive.cpp.s
 .PHONY : __/__/__/utils/Base/Archive.cpp.s
 
 __/__/__/utils/Base/AutoLog.o: __/__/__/utils/Base/AutoLog.cpp.o
@@ -255,7 +255,7 @@ __/__/__/utils/Base/AutoLog.o: __/__/__/utils/Base/AutoLog.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/AutoLog.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/AutoLog.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/AutoLog.cpp.o
 .PHONY : __/__/__/utils/Base/AutoLog.cpp.o
 
 __/__/__/utils/Base/AutoLog.i: __/__/__/utils/Base/AutoLog.cpp.i
@@ -263,7 +263,7 @@ __/__/__/utils/Base/AutoLog.i: __/__/__/utils/Base/AutoLog.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/AutoLog.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/AutoLog.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/AutoLog.cpp.i
 .PHONY : __/__/__/utils/Base/AutoLog.cpp.i
 
 __/__/__/utils/Base/AutoLog.s: __/__/__/utils/Base/AutoLog.cpp.s
@@ -271,7 +271,7 @@ __/__/__/utils/Base/AutoLog.s: __/__/__/utils/Base/AutoLog.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/AutoLog.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/AutoLog.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/AutoLog.cpp.s
 .PHONY : __/__/__/utils/Base/AutoLog.cpp.s
 
 __/__/__/utils/Base/Base.o: __/__/__/utils/Base/Base.cpp.o
@@ -279,7 +279,7 @@ __/__/__/utils/Base/Base.o: __/__/__/utils/Base/Base.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/Base.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Base.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Base.cpp.o
 .PHONY : __/__/__/utils/Base/Base.cpp.o
 
 __/__/__/utils/Base/Base.i: __/__/__/utils/Base/Base.cpp.i
@@ -287,7 +287,7 @@ __/__/__/utils/Base/Base.i: __/__/__/utils/Base/Base.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/Base.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Base.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Base.cpp.i
 .PHONY : __/__/__/utils/Base/Base.cpp.i
 
 __/__/__/utils/Base/Base.s: __/__/__/utils/Base/Base.cpp.s
@@ -295,7 +295,7 @@ __/__/__/utils/Base/Base.s: __/__/__/utils/Base/Base.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/Base.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Base.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Base.cpp.s
 .PHONY : __/__/__/utils/Base/Base.cpp.s
 
 __/__/__/utils/Base/Config.o: __/__/__/utils/Base/Config.cpp.o
@@ -303,7 +303,7 @@ __/__/__/utils/Base/Config.o: __/__/__/utils/Base/Config.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/Config.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Config.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Config.cpp.o
 .PHONY : __/__/__/utils/Base/Config.cpp.o
 
 __/__/__/utils/Base/Config.i: __/__/__/utils/Base/Config.cpp.i
@@ -311,7 +311,7 @@ __/__/__/utils/Base/Config.i: __/__/__/utils/Base/Config.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/Config.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Config.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Config.cpp.i
 .PHONY : __/__/__/utils/Base/Config.cpp.i
 
 __/__/__/utils/Base/Config.s: __/__/__/utils/Base/Config.cpp.s
@@ -319,7 +319,7 @@ __/__/__/utils/Base/Config.s: __/__/__/utils/Base/Config.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/Config.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Config.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Config.cpp.s
 .PHONY : __/__/__/utils/Base/Config.cpp.s
 
 __/__/__/utils/Base/Logger.o: __/__/__/utils/Base/Logger.cpp.o
@@ -327,7 +327,7 @@ __/__/__/utils/Base/Logger.o: __/__/__/utils/Base/Logger.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/Logger.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Logger.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Logger.cpp.o
 .PHONY : __/__/__/utils/Base/Logger.cpp.o
 
 __/__/__/utils/Base/Logger.i: __/__/__/utils/Base/Logger.cpp.i
@@ -335,7 +335,7 @@ __/__/__/utils/Base/Logger.i: __/__/__/utils/Base/Logger.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/Logger.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Logger.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Logger.cpp.i
 .PHONY : __/__/__/utils/Base/Logger.cpp.i
 
 __/__/__/utils/Base/Logger.s: __/__/__/utils/Base/Logger.cpp.s
@@ -343,7 +343,7 @@ __/__/__/utils/Base/Logger.s: __/__/__/utils/Base/Logger.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/Logger.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Logger.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Logger.cpp.s
 .PHONY : __/__/__/utils/Base/Logger.cpp.s
 
 __/__/__/utils/Base/MD5.o: __/__/__/utils/Base/MD5.cpp.o
@@ -351,7 +351,7 @@ __/__/__/utils/Base/MD5.o: __/__/__/utils/Base/MD5.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/MD5.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/MD5.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/MD5.cpp.o
 .PHONY : __/__/__/utils/Base/MD5.cpp.o
 
 __/__/__/utils/Base/MD5.i: __/__/__/utils/Base/MD5.cpp.i
@@ -359,7 +359,7 @@ __/__/__/utils/Base/MD5.i: __/__/__/utils/Base/MD5.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/MD5.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/MD5.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/MD5.cpp.i
 .PHONY : __/__/__/utils/Base/MD5.cpp.i
 
 __/__/__/utils/Base/MD5.s: __/__/__/utils/Base/MD5.cpp.s
@@ -367,7 +367,7 @@ __/__/__/utils/Base/MD5.s: __/__/__/utils/Base/MD5.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/MD5.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/MD5.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/MD5.cpp.s
 .PHONY : __/__/__/utils/Base/MD5.cpp.s
 
 __/__/__/utils/Base/ScopeLock.o: __/__/__/utils/Base/ScopeLock.cpp.o
@@ -375,7 +375,7 @@ __/__/__/utils/Base/ScopeLock.o: __/__/__/utils/Base/ScopeLock.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/ScopeLock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/ScopeLock.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/ScopeLock.cpp.o
 .PHONY : __/__/__/utils/Base/ScopeLock.cpp.o
 
 __/__/__/utils/Base/ScopeLock.i: __/__/__/utils/Base/ScopeLock.cpp.i
@@ -383,7 +383,7 @@ __/__/__/utils/Base/ScopeLock.i: __/__/__/utils/Base/ScopeLock.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/ScopeLock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/ScopeLock.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/ScopeLock.cpp.i
 .PHONY : __/__/__/utils/Base/ScopeLock.cpp.i
 
 __/__/__/utils/Base/ScopeLock.s: __/__/__/utils/Base/ScopeLock.cpp.s
@@ -391,7 +391,7 @@ __/__/__/utils/Base/ScopeLock.s: __/__/__/utils/Base/ScopeLock.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/ScopeLock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/ScopeLock.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/ScopeLock.cpp.s
 .PHONY : __/__/__/utils/Base/ScopeLock.cpp.s
 
 __/__/__/utils/Base/Statistics.o: __/__/__/utils/Base/Statistics.cpp.o
@@ -399,7 +399,7 @@ __/__/__/utils/Base/Statistics.o: __/__/__/utils/Base/Statistics.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/Statistics.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Statistics.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Statistics.cpp.o
 .PHONY : __/__/__/utils/Base/Statistics.cpp.o
 
 __/__/__/utils/Base/Statistics.i: __/__/__/utils/Base/Statistics.cpp.i
@@ -407,7 +407,7 @@ __/__/__/utils/Base/Statistics.i: __/__/__/utils/Base/Statistics.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/Statistics.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Statistics.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Statistics.cpp.i
 .PHONY : __/__/__/utils/Base/Statistics.cpp.i
 
 __/__/__/utils/Base/Statistics.s: __/__/__/utils/Base/Statistics.cpp.s
@@ -415,7 +415,7 @@ __/__/__/utils/Base/Statistics.s: __/__/__/utils/Base/Statistics.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/Statistics.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Statistics.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/Statistics.cpp.s
 .PHONY : __/__/__/utils/Base/Statistics.cpp.s
 
 __/__/__/utils/Base/linux/BlockAllocator.o: __/__/__/utils/Base/linux/BlockAllocator.cpp.o
@@ -423,7 +423,7 @@ __/__/__/utils/Base/linux/BlockAllocator.o: __/__/__/utils/Base/linux/BlockAlloc
 
 # target to build an object file
 __/__/__/utils/Base/linux/BlockAllocator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/BlockAllocator.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/BlockAllocator.cpp.o
 .PHONY : __/__/__/utils/Base/linux/BlockAllocator.cpp.o
 
 __/__/__/utils/Base/linux/BlockAllocator.i: __/__/__/utils/Base/linux/BlockAllocator.cpp.i
@@ -431,7 +431,7 @@ __/__/__/utils/Base/linux/BlockAllocator.i: __/__/__/utils/Base/linux/BlockAlloc
 
 # target to preprocess a source file
 __/__/__/utils/Base/linux/BlockAllocator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/BlockAllocator.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/BlockAllocator.cpp.i
 .PHONY : __/__/__/utils/Base/linux/BlockAllocator.cpp.i
 
 __/__/__/utils/Base/linux/BlockAllocator.s: __/__/__/utils/Base/linux/BlockAllocator.cpp.s
@@ -439,7 +439,7 @@ __/__/__/utils/Base/linux/BlockAllocator.s: __/__/__/utils/Base/linux/BlockAlloc
 
 # target to generate assembly for a file
 __/__/__/utils/Base/linux/BlockAllocator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/BlockAllocator.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/BlockAllocator.cpp.s
 .PHONY : __/__/__/utils/Base/linux/BlockAllocator.cpp.s
 
 __/__/__/utils/Base/linux/Event.o: __/__/__/utils/Base/linux/Event.cpp.o
@@ -447,7 +447,7 @@ __/__/__/utils/Base/linux/Event.o: __/__/__/utils/Base/linux/Event.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/linux/Event.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Event.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Event.cpp.o
 .PHONY : __/__/__/utils/Base/linux/Event.cpp.o
 
 __/__/__/utils/Base/linux/Event.i: __/__/__/utils/Base/linux/Event.cpp.i
@@ -455,7 +455,7 @@ __/__/__/utils/Base/linux/Event.i: __/__/__/utils/Base/linux/Event.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/linux/Event.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Event.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Event.cpp.i
 .PHONY : __/__/__/utils/Base/linux/Event.cpp.i
 
 __/__/__/utils/Base/linux/Event.s: __/__/__/utils/Base/linux/Event.cpp.s
@@ -463,7 +463,7 @@ __/__/__/utils/Base/linux/Event.s: __/__/__/utils/Base/linux/Event.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/linux/Event.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Event.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Event.cpp.s
 .PHONY : __/__/__/utils/Base/linux/Event.cpp.s
 
 __/__/__/utils/Base/linux/Mutex.o: __/__/__/utils/Base/linux/Mutex.cpp.o
@@ -471,7 +471,7 @@ __/__/__/utils/Base/linux/Mutex.o: __/__/__/utils/Base/linux/Mutex.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/linux/Mutex.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Mutex.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Mutex.cpp.o
 .PHONY : __/__/__/utils/Base/linux/Mutex.cpp.o
 
 __/__/__/utils/Base/linux/Mutex.i: __/__/__/utils/Base/linux/Mutex.cpp.i
@@ -479,7 +479,7 @@ __/__/__/utils/Base/linux/Mutex.i: __/__/__/utils/Base/linux/Mutex.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/linux/Mutex.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Mutex.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Mutex.cpp.i
 .PHONY : __/__/__/utils/Base/linux/Mutex.cpp.i
 
 __/__/__/utils/Base/linux/Mutex.s: __/__/__/utils/Base/linux/Mutex.cpp.s
@@ -487,7 +487,7 @@ __/__/__/utils/Base/linux/Mutex.s: __/__/__/utils/Base/linux/Mutex.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/linux/Mutex.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Mutex.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Mutex.cpp.s
 .PHONY : __/__/__/utils/Base/linux/Mutex.cpp.s
 
 __/__/__/utils/Base/linux/Platform.o: __/__/__/utils/Base/linux/Platform.cpp.o
@@ -495,7 +495,7 @@ __/__/__/utils/Base/linux/Platform.o: __/__/__/utils/Base/linux/Platform.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/linux/Platform.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Platform.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Platform.cpp.o
 .PHONY : __/__/__/utils/Base/linux/Platform.cpp.o
 
 __/__/__/utils/Base/linux/Platform.i: __/__/__/utils/Base/linux/Platform.cpp.i
@@ -503,7 +503,7 @@ __/__/__/utils/Base/linux/Platform.i: __/__/__/utils/Base/linux/Platform.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/linux/Platform.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Platform.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Platform.cpp.i
 .PHONY : __/__/__/utils/Base/linux/Platform.cpp.i
 
 __/__/__/utils/Base/linux/Platform.s: __/__/__/utils/Base/linux/Platform.cpp.s
@@ -511,7 +511,7 @@ __/__/__/utils/Base/linux/Platform.s: __/__/__/utils/Base/linux/Platform.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/linux/Platform.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Platform.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Platform.cpp.s
 .PHONY : __/__/__/utils/Base/linux/Platform.cpp.s
 
 __/__/__/utils/Base/linux/Thread.o: __/__/__/utils/Base/linux/Thread.cpp.o
@@ -519,7 +519,7 @@ __/__/__/utils/Base/linux/Thread.o: __/__/__/utils/Base/linux/Thread.cpp.o
 
 # target to build an object file
 __/__/__/utils/Base/linux/Thread.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Thread.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Thread.cpp.o
 .PHONY : __/__/__/utils/Base/linux/Thread.cpp.o
 
 __/__/__/utils/Base/linux/Thread.i: __/__/__/utils/Base/linux/Thread.cpp.i
@@ -527,7 +527,7 @@ __/__/__/utils/Base/linux/Thread.i: __/__/__/utils/Base/linux/Thread.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Base/linux/Thread.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Thread.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Thread.cpp.i
 .PHONY : __/__/__/utils/Base/linux/Thread.cpp.i
 
 __/__/__/utils/Base/linux/Thread.s: __/__/__/utils/Base/linux/Thread.cpp.s
@@ -535,7 +535,7 @@ __/__/__/utils/Base/linux/Thread.s: __/__/__/utils/Base/linux/Thread.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Base/linux/Thread.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Thread.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Base/linux/Thread.cpp.s
 .PHONY : __/__/__/utils/Base/linux/Thread.cpp.s
 
 __/__/__/utils/TcpLibrary/Clock.o: __/__/__/utils/TcpLibrary/Clock.cpp.o
@@ -543,7 +543,7 @@ __/__/__/utils/TcpLibrary/Clock.o: __/__/__/utils/TcpLibrary/Clock.cpp.o
 
 # target to build an object file
 __/__/__/utils/TcpLibrary/Clock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/Clock.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/Clock.cpp.o
 .PHONY : __/__/__/utils/TcpLibrary/Clock.cpp.o
 
 __/__/__/utils/TcpLibrary/Clock.i: __/__/__/utils/TcpLibrary/Clock.cpp.i
@@ -551,7 +551,7 @@ __/__/__/utils/TcpLibrary/Clock.i: __/__/__/utils/TcpLibrary/Clock.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/TcpLibrary/Clock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/Clock.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/Clock.cpp.i
 .PHONY : __/__/__/utils/TcpLibrary/Clock.cpp.i
 
 __/__/__/utils/TcpLibrary/Clock.s: __/__/__/utils/TcpLibrary/Clock.cpp.s
@@ -559,7 +559,7 @@ __/__/__/utils/TcpLibrary/Clock.s: __/__/__/utils/TcpLibrary/Clock.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/TcpLibrary/Clock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/Clock.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/Clock.cpp.s
 .PHONY : __/__/__/utils/TcpLibrary/Clock.cpp.s
 
 __/__/__/utils/TcpLibrary/IPAddress.o: __/__/__/utils/TcpLibrary/IPAddress.cpp.o
@@ -567,7 +567,7 @@ __/__/__/utils/TcpLibrary/IPAddress.o: __/__/__/utils/TcpLibrary/IPAddress.cpp.o
 
 # target to build an object file
 __/__/__/utils/TcpLibrary/IPAddress.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/IPAddress.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/IPAddress.cpp.o
 .PHONY : __/__/__/utils/TcpLibrary/IPAddress.cpp.o
 
 __/__/__/utils/TcpLibrary/IPAddress.i: __/__/__/utils/TcpLibrary/IPAddress.cpp.i
@@ -575,7 +575,7 @@ __/__/__/utils/TcpLibrary/IPAddress.i: __/__/__/utils/TcpLibrary/IPAddress.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/TcpLibrary/IPAddress.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/IPAddress.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/IPAddress.cpp.i
 .PHONY : __/__/__/utils/TcpLibrary/IPAddress.cpp.i
 
 __/__/__/utils/TcpLibrary/IPAddress.s: __/__/__/utils/TcpLibrary/IPAddress.cpp.s
@@ -583,7 +583,7 @@ __/__/__/utils/TcpLibrary/IPAddress.s: __/__/__/utils/TcpLibrary/IPAddress.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/TcpLibrary/IPAddress.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/IPAddress.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/IPAddress.cpp.s
 .PHONY : __/__/__/utils/TcpLibrary/IPAddress.cpp.s
 
 __/__/__/utils/TcpLibrary/TcpBlockAllocator.o: __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.o
@@ -591,7 +591,7 @@ __/__/__/utils/TcpLibrary/TcpBlockAllocator.o: __/__/__/utils/TcpLibrary/TcpBloc
 
 # target to build an object file
 __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.o
 .PHONY : __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.o
 
 __/__/__/utils/TcpLibrary/TcpBlockAllocator.i: __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.i
@@ -599,7 +599,7 @@ __/__/__/utils/TcpLibrary/TcpBlockAllocator.i: __/__/__/utils/TcpLibrary/TcpBloc
 
 # target to preprocess a source file
 __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.i
 .PHONY : __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.i
 
 __/__/__/utils/TcpLibrary/TcpBlockAllocator.s: __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.s
@@ -607,7 +607,7 @@ __/__/__/utils/TcpLibrary/TcpBlockAllocator.s: __/__/__/utils/TcpLibrary/TcpBloc
 
 # target to generate assembly for a file
 __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.s
 .PHONY : __/__/__/utils/TcpLibrary/TcpBlockAllocator.cpp.s
 
 __/__/__/utils/TcpLibrary/TcpConnection.o: __/__/__/utils/TcpLibrary/TcpConnection.cpp.o
@@ -615,7 +615,7 @@ __/__/__/utils/TcpLibrary/TcpConnection.o: __/__/__/utils/TcpLibrary/TcpConnecti
 
 # target to build an object file
 __/__/__/utils/TcpLibrary/TcpConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpConnection.cpp.o
 .PHONY : __/__/__/utils/TcpLibrary/TcpConnection.cpp.o
 
 __/__/__/utils/TcpLibrary/TcpConnection.i: __/__/__/utils/TcpLibrary/TcpConnection.cpp.i
@@ -623,7 +623,7 @@ __/__/__/utils/TcpLibrary/TcpConnection.i: __/__/__/utils/TcpLibrary/TcpConnecti
 
 # target to preprocess a source file
 __/__/__/utils/TcpLibrary/TcpConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpConnection.cpp.i
 .PHONY : __/__/__/utils/TcpLibrary/TcpConnection.cpp.i
 
 __/__/__/utils/TcpLibrary/TcpConnection.s: __/__/__/utils/TcpLibrary/TcpConnection.cpp.s
@@ -631,7 +631,7 @@ __/__/__/utils/TcpLibrary/TcpConnection.s: __/__/__/utils/TcpLibrary/TcpConnecti
 
 # target to generate assembly for a file
 __/__/__/utils/TcpLibrary/TcpConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpConnection.cpp.s
 .PHONY : __/__/__/utils/TcpLibrary/TcpConnection.cpp.s
 
 __/__/__/utils/TcpLibrary/TcpManager.o: __/__/__/utils/TcpLibrary/TcpManager.cpp.o
@@ -639,7 +639,7 @@ __/__/__/utils/TcpLibrary/TcpManager.o: __/__/__/utils/TcpLibrary/TcpManager.cpp
 
 # target to build an object file
 __/__/__/utils/TcpLibrary/TcpManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpManager.cpp.o
 .PHONY : __/__/__/utils/TcpLibrary/TcpManager.cpp.o
 
 __/__/__/utils/TcpLibrary/TcpManager.i: __/__/__/utils/TcpLibrary/TcpManager.cpp.i
@@ -647,7 +647,7 @@ __/__/__/utils/TcpLibrary/TcpManager.i: __/__/__/utils/TcpLibrary/TcpManager.cpp
 
 # target to preprocess a source file
 __/__/__/utils/TcpLibrary/TcpManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpManager.cpp.i
 .PHONY : __/__/__/utils/TcpLibrary/TcpManager.cpp.i
 
 __/__/__/utils/TcpLibrary/TcpManager.s: __/__/__/utils/TcpLibrary/TcpManager.cpp.s
@@ -655,7 +655,7 @@ __/__/__/utils/TcpLibrary/TcpManager.s: __/__/__/utils/TcpLibrary/TcpManager.cpp
 
 # target to generate assembly for a file
 __/__/__/utils/TcpLibrary/TcpManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/TcpManager.cpp.s
 .PHONY : __/__/__/utils/TcpLibrary/TcpManager.cpp.s
 
 __/__/__/utils/Unicode/FirstUnicode.o: __/__/__/utils/Unicode/FirstUnicode.cpp.o
@@ -663,7 +663,7 @@ __/__/__/utils/Unicode/FirstUnicode.o: __/__/__/utils/Unicode/FirstUnicode.cpp.o
 
 # target to build an object file
 __/__/__/utils/Unicode/FirstUnicode.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/FirstUnicode.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/FirstUnicode.cpp.o
 .PHONY : __/__/__/utils/Unicode/FirstUnicode.cpp.o
 
 __/__/__/utils/Unicode/FirstUnicode.i: __/__/__/utils/Unicode/FirstUnicode.cpp.i
@@ -671,7 +671,7 @@ __/__/__/utils/Unicode/FirstUnicode.i: __/__/__/utils/Unicode/FirstUnicode.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Unicode/FirstUnicode.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/FirstUnicode.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/FirstUnicode.cpp.i
 .PHONY : __/__/__/utils/Unicode/FirstUnicode.cpp.i
 
 __/__/__/utils/Unicode/FirstUnicode.s: __/__/__/utils/Unicode/FirstUnicode.cpp.s
@@ -679,7 +679,7 @@ __/__/__/utils/Unicode/FirstUnicode.s: __/__/__/utils/Unicode/FirstUnicode.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Unicode/FirstUnicode.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/FirstUnicode.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/FirstUnicode.cpp.s
 .PHONY : __/__/__/utils/Unicode/FirstUnicode.cpp.s
 
 __/__/__/utils/Unicode/Unicode.o: __/__/__/utils/Unicode/Unicode.cpp.o
@@ -687,7 +687,7 @@ __/__/__/utils/Unicode/Unicode.o: __/__/__/utils/Unicode/Unicode.cpp.o
 
 # target to build an object file
 __/__/__/utils/Unicode/Unicode.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/Unicode.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/Unicode.cpp.o
 .PHONY : __/__/__/utils/Unicode/Unicode.cpp.o
 
 __/__/__/utils/Unicode/Unicode.i: __/__/__/utils/Unicode/Unicode.cpp.i
@@ -695,7 +695,7 @@ __/__/__/utils/Unicode/Unicode.i: __/__/__/utils/Unicode/Unicode.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Unicode/Unicode.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/Unicode.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/Unicode.cpp.i
 .PHONY : __/__/__/utils/Unicode/Unicode.cpp.i
 
 __/__/__/utils/Unicode/Unicode.s: __/__/__/utils/Unicode/Unicode.cpp.s
@@ -703,7 +703,7 @@ __/__/__/utils/Unicode/Unicode.s: __/__/__/utils/Unicode/Unicode.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Unicode/Unicode.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/Unicode.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/Unicode.cpp.s
 .PHONY : __/__/__/utils/Unicode/Unicode.cpp.s
 
 __/__/__/utils/Unicode/UnicodeBlocks.o: __/__/__/utils/Unicode/UnicodeBlocks.cpp.o
@@ -711,7 +711,7 @@ __/__/__/utils/Unicode/UnicodeBlocks.o: __/__/__/utils/Unicode/UnicodeBlocks.cpp
 
 # target to build an object file
 __/__/__/utils/Unicode/UnicodeBlocks.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeBlocks.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeBlocks.cpp.o
 .PHONY : __/__/__/utils/Unicode/UnicodeBlocks.cpp.o
 
 __/__/__/utils/Unicode/UnicodeBlocks.i: __/__/__/utils/Unicode/UnicodeBlocks.cpp.i
@@ -719,7 +719,7 @@ __/__/__/utils/Unicode/UnicodeBlocks.i: __/__/__/utils/Unicode/UnicodeBlocks.cpp
 
 # target to preprocess a source file
 __/__/__/utils/Unicode/UnicodeBlocks.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeBlocks.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeBlocks.cpp.i
 .PHONY : __/__/__/utils/Unicode/UnicodeBlocks.cpp.i
 
 __/__/__/utils/Unicode/UnicodeBlocks.s: __/__/__/utils/Unicode/UnicodeBlocks.cpp.s
@@ -727,7 +727,7 @@ __/__/__/utils/Unicode/UnicodeBlocks.s: __/__/__/utils/Unicode/UnicodeBlocks.cpp
 
 # target to generate assembly for a file
 __/__/__/utils/Unicode/UnicodeBlocks.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeBlocks.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeBlocks.cpp.s
 .PHONY : __/__/__/utils/Unicode/UnicodeBlocks.cpp.s
 
 __/__/__/utils/Unicode/UnicodeCharacterData.o: __/__/__/utils/Unicode/UnicodeCharacterData.cpp.o
@@ -735,7 +735,7 @@ __/__/__/utils/Unicode/UnicodeCharacterData.o: __/__/__/utils/Unicode/UnicodeCha
 
 # target to build an object file
 __/__/__/utils/Unicode/UnicodeCharacterData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterData.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterData.cpp.o
 .PHONY : __/__/__/utils/Unicode/UnicodeCharacterData.cpp.o
 
 __/__/__/utils/Unicode/UnicodeCharacterData.i: __/__/__/utils/Unicode/UnicodeCharacterData.cpp.i
@@ -743,7 +743,7 @@ __/__/__/utils/Unicode/UnicodeCharacterData.i: __/__/__/utils/Unicode/UnicodeCha
 
 # target to preprocess a source file
 __/__/__/utils/Unicode/UnicodeCharacterData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterData.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterData.cpp.i
 .PHONY : __/__/__/utils/Unicode/UnicodeCharacterData.cpp.i
 
 __/__/__/utils/Unicode/UnicodeCharacterData.s: __/__/__/utils/Unicode/UnicodeCharacterData.cpp.s
@@ -751,7 +751,7 @@ __/__/__/utils/Unicode/UnicodeCharacterData.s: __/__/__/utils/Unicode/UnicodeCha
 
 # target to generate assembly for a file
 __/__/__/utils/Unicode/UnicodeCharacterData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterData.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterData.cpp.s
 .PHONY : __/__/__/utils/Unicode/UnicodeCharacterData.cpp.s
 
 __/__/__/utils/Unicode/UnicodeCharacterDataMap.o: __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
@@ -759,7 +759,7 @@ __/__/__/utils/Unicode/UnicodeCharacterDataMap.o: __/__/__/utils/Unicode/Unicode
 
 # target to build an object file
 __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
 .PHONY : __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o
 
 __/__/__/utils/Unicode/UnicodeCharacterDataMap.i: __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i
@@ -767,7 +767,7 @@ __/__/__/utils/Unicode/UnicodeCharacterDataMap.i: __/__/__/utils/Unicode/Unicode
 
 # target to preprocess a source file
 __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i
 .PHONY : __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.i
 
 __/__/__/utils/Unicode/UnicodeCharacterDataMap.s: __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s
@@ -775,7 +775,7 @@ __/__/__/utils/Unicode/UnicodeCharacterDataMap.s: __/__/__/utils/Unicode/Unicode
 
 # target to generate assembly for a file
 __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s
 .PHONY : __/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.s
 
 __/__/__/utils/Unicode/UnicodeUtils.o: __/__/__/utils/Unicode/UnicodeUtils.cpp.o
@@ -783,7 +783,7 @@ __/__/__/utils/Unicode/UnicodeUtils.o: __/__/__/utils/Unicode/UnicodeUtils.cpp.o
 
 # target to build an object file
 __/__/__/utils/Unicode/UnicodeUtils.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeUtils.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeUtils.cpp.o
 .PHONY : __/__/__/utils/Unicode/UnicodeUtils.cpp.o
 
 __/__/__/utils/Unicode/UnicodeUtils.i: __/__/__/utils/Unicode/UnicodeUtils.cpp.i
@@ -791,7 +791,7 @@ __/__/__/utils/Unicode/UnicodeUtils.i: __/__/__/utils/Unicode/UnicodeUtils.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Unicode/UnicodeUtils.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeUtils.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeUtils.cpp.i
 .PHONY : __/__/__/utils/Unicode/UnicodeUtils.cpp.i
 
 __/__/__/utils/Unicode/UnicodeUtils.s: __/__/__/utils/Unicode/UnicodeUtils.cpp.s
@@ -799,7 +799,7 @@ __/__/__/utils/Unicode/UnicodeUtils.s: __/__/__/utils/Unicode/UnicodeUtils.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Unicode/UnicodeUtils.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeUtils.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/UnicodeUtils.cpp.s
 .PHONY : __/__/__/utils/Unicode/UnicodeUtils.cpp.s
 
 __/__/__/utils/Unicode/utf8.o: __/__/__/utils/Unicode/utf8.cpp.o
@@ -807,7 +807,7 @@ __/__/__/utils/Unicode/utf8.o: __/__/__/utils/Unicode/utf8.cpp.o
 
 # target to build an object file
 __/__/__/utils/Unicode/utf8.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/utf8.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/utf8.cpp.o
 .PHONY : __/__/__/utils/Unicode/utf8.cpp.o
 
 __/__/__/utils/Unicode/utf8.i: __/__/__/utils/Unicode/utf8.cpp.i
@@ -815,7 +815,7 @@ __/__/__/utils/Unicode/utf8.i: __/__/__/utils/Unicode/utf8.cpp.i
 
 # target to preprocess a source file
 __/__/__/utils/Unicode/utf8.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/utf8.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/utf8.cpp.i
 .PHONY : __/__/__/utils/Unicode/utf8.cpp.i
 
 __/__/__/utils/Unicode/utf8.s: __/__/__/utils/Unicode/utf8.cpp.s
@@ -823,7 +823,7 @@ __/__/__/utils/Unicode/utf8.s: __/__/__/utils/Unicode/utf8.cpp.s
 
 # target to generate assembly for a file
 __/__/__/utils/Unicode/utf8.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/utf8.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/utf8.cpp.s
 .PHONY : __/__/__/utils/Unicode/utf8.cpp.s
 
 packdata.o: packdata.cpp.o
@@ -831,7 +831,7 @@ packdata.o: packdata.cpp.o
 
 # target to build an object file
 packdata.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/packdata.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/packdata.cpp.o
 .PHONY : packdata.cpp.o
 
 packdata.i: packdata.cpp.i
@@ -839,7 +839,7 @@ packdata.i: packdata.cpp.i
 
 # target to preprocess a source file
 packdata.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/packdata.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/packdata.cpp.i
 .PHONY : packdata.cpp.i
 
 packdata.s: packdata.cpp.s
@@ -847,7 +847,7 @@ packdata.s: packdata.cpp.s
 
 # target to generate assembly for a file
 packdata.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/packdata.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/packdata.cpp.s
 .PHONY : packdata.cpp.s
 
 request.o: request.cpp.o
@@ -855,7 +855,7 @@ request.o: request.cpp.o
 
 # target to build an object file
 request.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/request.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/request.cpp.o
 .PHONY : request.cpp.o
 
 request.i: request.cpp.i
@@ -863,7 +863,7 @@ request.i: request.cpp.i
 
 # target to preprocess a source file
 request.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/request.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/request.cpp.i
 .PHONY : request.cpp.i
 
 request.s: request.cpp.s
@@ -871,7 +871,7 @@ request.s: request.cpp.s
 
 # target to generate assembly for a file
 request.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/request.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/request.cpp.s
 .PHONY : request.cpp.s
 
 response.o: response.cpp.o
@@ -879,7 +879,7 @@ response.o: response.cpp.o
 
 # target to build an object file
 response.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/response.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/response.cpp.o
 .PHONY : response.cpp.o
 
 response.i: response.cpp.i
@@ -887,7 +887,7 @@ response.i: response.cpp.i
 
 # target to preprocess a source file
 response.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/response.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/response.cpp.i
 .PHONY : response.cpp.i
 
 response.s: response.cpp.s
@@ -895,7 +895,7 @@ response.s: response.cpp.s
 
 # target to generate assembly for a file
 response.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/response.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/build.make external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/response.cpp.s
 .PHONY : response.cpp.s
 
 # Help Target
@@ -1014,6 +1014,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

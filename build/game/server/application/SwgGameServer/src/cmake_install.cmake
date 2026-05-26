@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/game/server/application/SwgGameServer/src
+# Install script for directory: /home/swg/swg-main/src/game/server/application/SwgGameServer/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,6 +39,6 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 

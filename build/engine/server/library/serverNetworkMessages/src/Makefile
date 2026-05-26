@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/library/serverNetworkMessages/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles /home/swg/swg-main/build/engine/server/library/serverNetworkMessages/src//CMakeFiles/progress.marks
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/clean
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/rule
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/rule
 .PHONY : engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ serverNetworkMessages: engine/server/library/serverNetworkMessages/src/CMakeFile
 
 # fast build rule for target.
 serverNetworkMessages/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build
 .PHONY : serverNetworkMessages/fast
 
 shared/AvatarList.o: shared/AvatarList.cpp.o
@@ -135,7 +135,7 @@ shared/AvatarList.o: shared/AvatarList.cpp.o
 
 # target to build an object file
 shared/AvatarList.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarList.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarList.cpp.o
 .PHONY : shared/AvatarList.cpp.o
 
 shared/AvatarList.i: shared/AvatarList.cpp.i
@@ -143,7 +143,7 @@ shared/AvatarList.i: shared/AvatarList.cpp.i
 
 # target to preprocess a source file
 shared/AvatarList.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarList.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarList.cpp.i
 .PHONY : shared/AvatarList.cpp.i
 
 shared/AvatarList.s: shared/AvatarList.cpp.s
@@ -151,7 +151,7 @@ shared/AvatarList.s: shared/AvatarList.cpp.s
 
 # target to generate assembly for a file
 shared/AvatarList.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarList.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarList.cpp.s
 .PHONY : shared/AvatarList.cpp.s
 
 shared/AvatarListArchive.o: shared/AvatarListArchive.cpp.o
@@ -159,7 +159,7 @@ shared/AvatarListArchive.o: shared/AvatarListArchive.cpp.o
 
 # target to build an object file
 shared/AvatarListArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarListArchive.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarListArchive.cpp.o
 .PHONY : shared/AvatarListArchive.cpp.o
 
 shared/AvatarListArchive.i: shared/AvatarListArchive.cpp.i
@@ -167,7 +167,7 @@ shared/AvatarListArchive.i: shared/AvatarListArchive.cpp.i
 
 # target to preprocess a source file
 shared/AvatarListArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarListArchive.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarListArchive.cpp.i
 .PHONY : shared/AvatarListArchive.cpp.i
 
 shared/AvatarListArchive.s: shared/AvatarListArchive.cpp.s
@@ -175,7 +175,7 @@ shared/AvatarListArchive.s: shared/AvatarListArchive.cpp.s
 
 # target to generate assembly for a file
 shared/AvatarListArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarListArchive.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/AvatarListArchive.cpp.s
 .PHONY : shared/AvatarListArchive.cpp.s
 
 shared/ChatConnectAvatar.o: shared/ChatConnectAvatar.cpp.o
@@ -183,7 +183,7 @@ shared/ChatConnectAvatar.o: shared/ChatConnectAvatar.cpp.o
 
 # target to build an object file
 shared/ChatConnectAvatar.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatConnectAvatar.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatConnectAvatar.cpp.o
 .PHONY : shared/ChatConnectAvatar.cpp.o
 
 shared/ChatConnectAvatar.i: shared/ChatConnectAvatar.cpp.i
@@ -191,7 +191,7 @@ shared/ChatConnectAvatar.i: shared/ChatConnectAvatar.cpp.i
 
 # target to preprocess a source file
 shared/ChatConnectAvatar.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatConnectAvatar.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatConnectAvatar.cpp.i
 .PHONY : shared/ChatConnectAvatar.cpp.i
 
 shared/ChatConnectAvatar.s: shared/ChatConnectAvatar.cpp.s
@@ -199,7 +199,7 @@ shared/ChatConnectAvatar.s: shared/ChatConnectAvatar.cpp.s
 
 # target to generate assembly for a file
 shared/ChatConnectAvatar.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatConnectAvatar.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatConnectAvatar.cpp.s
 .PHONY : shared/ChatConnectAvatar.cpp.s
 
 shared/ChatDisconnectAvatar.o: shared/ChatDisconnectAvatar.cpp.o
@@ -207,7 +207,7 @@ shared/ChatDisconnectAvatar.o: shared/ChatDisconnectAvatar.cpp.o
 
 # target to build an object file
 shared/ChatDisconnectAvatar.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatDisconnectAvatar.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatDisconnectAvatar.cpp.o
 .PHONY : shared/ChatDisconnectAvatar.cpp.o
 
 shared/ChatDisconnectAvatar.i: shared/ChatDisconnectAvatar.cpp.i
@@ -215,7 +215,7 @@ shared/ChatDisconnectAvatar.i: shared/ChatDisconnectAvatar.cpp.i
 
 # target to preprocess a source file
 shared/ChatDisconnectAvatar.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatDisconnectAvatar.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatDisconnectAvatar.cpp.i
 .PHONY : shared/ChatDisconnectAvatar.cpp.i
 
 shared/ChatDisconnectAvatar.s: shared/ChatDisconnectAvatar.cpp.s
@@ -223,7 +223,7 @@ shared/ChatDisconnectAvatar.s: shared/ChatDisconnectAvatar.cpp.s
 
 # target to generate assembly for a file
 shared/ChatDisconnectAvatar.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatDisconnectAvatar.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatDisconnectAvatar.cpp.s
 .PHONY : shared/ChatDisconnectAvatar.cpp.s
 
 shared/ChatServerOnline.o: shared/ChatServerOnline.cpp.o
@@ -231,7 +231,7 @@ shared/ChatServerOnline.o: shared/ChatServerOnline.cpp.o
 
 # target to build an object file
 shared/ChatServerOnline.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatServerOnline.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatServerOnline.cpp.o
 .PHONY : shared/ChatServerOnline.cpp.o
 
 shared/ChatServerOnline.i: shared/ChatServerOnline.cpp.i
@@ -239,7 +239,7 @@ shared/ChatServerOnline.i: shared/ChatServerOnline.cpp.i
 
 # target to preprocess a source file
 shared/ChatServerOnline.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatServerOnline.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatServerOnline.cpp.i
 .PHONY : shared/ChatServerOnline.cpp.i
 
 shared/ChatServerOnline.s: shared/ChatServerOnline.cpp.s
@@ -247,7 +247,7 @@ shared/ChatServerOnline.s: shared/ChatServerOnline.cpp.s
 
 # target to generate assembly for a file
 shared/ChatServerOnline.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatServerOnline.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/ChatServerOnline.cpp.s
 .PHONY : shared/ChatServerOnline.cpp.s
 
 shared/EnumerateServers.o: shared/EnumerateServers.cpp.o
@@ -255,7 +255,7 @@ shared/EnumerateServers.o: shared/EnumerateServers.cpp.o
 
 # target to build an object file
 shared/EnumerateServers.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/EnumerateServers.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/EnumerateServers.cpp.o
 .PHONY : shared/EnumerateServers.cpp.o
 
 shared/EnumerateServers.i: shared/EnumerateServers.cpp.i
@@ -263,7 +263,7 @@ shared/EnumerateServers.i: shared/EnumerateServers.cpp.i
 
 # target to preprocess a source file
 shared/EnumerateServers.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/EnumerateServers.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/EnumerateServers.cpp.i
 .PHONY : shared/EnumerateServers.cpp.i
 
 shared/EnumerateServers.s: shared/EnumerateServers.cpp.s
@@ -271,7 +271,7 @@ shared/EnumerateServers.s: shared/EnumerateServers.cpp.s
 
 # target to generate assembly for a file
 shared/EnumerateServers.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/EnumerateServers.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/EnumerateServers.cpp.s
 .PHONY : shared/EnumerateServers.cpp.s
 
 shared/RandomName.o: shared/RandomName.cpp.o
@@ -279,7 +279,7 @@ shared/RandomName.o: shared/RandomName.cpp.o
 
 # target to build an object file
 shared/RandomName.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/RandomName.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/RandomName.cpp.o
 .PHONY : shared/RandomName.cpp.o
 
 shared/RandomName.i: shared/RandomName.cpp.i
@@ -287,7 +287,7 @@ shared/RandomName.i: shared/RandomName.cpp.i
 
 # target to preprocess a source file
 shared/RandomName.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/RandomName.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/RandomName.cpp.i
 .PHONY : shared/RandomName.cpp.i
 
 shared/RandomName.s: shared/RandomName.cpp.s
@@ -295,7 +295,7 @@ shared/RandomName.s: shared/RandomName.cpp.s
 
 # target to generate assembly for a file
 shared/RandomName.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/RandomName.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/RandomName.cpp.s
 .PHONY : shared/RandomName.cpp.s
 
 shared/TaskConnectionIdMessage.o: shared/TaskConnectionIdMessage.cpp.o
@@ -303,7 +303,7 @@ shared/TaskConnectionIdMessage.o: shared/TaskConnectionIdMessage.cpp.o
 
 # target to build an object file
 shared/TaskConnectionIdMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskConnectionIdMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskConnectionIdMessage.cpp.o
 .PHONY : shared/TaskConnectionIdMessage.cpp.o
 
 shared/TaskConnectionIdMessage.i: shared/TaskConnectionIdMessage.cpp.i
@@ -311,7 +311,7 @@ shared/TaskConnectionIdMessage.i: shared/TaskConnectionIdMessage.cpp.i
 
 # target to preprocess a source file
 shared/TaskConnectionIdMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskConnectionIdMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskConnectionIdMessage.cpp.i
 .PHONY : shared/TaskConnectionIdMessage.cpp.i
 
 shared/TaskConnectionIdMessage.s: shared/TaskConnectionIdMessage.cpp.s
@@ -319,7 +319,7 @@ shared/TaskConnectionIdMessage.s: shared/TaskConnectionIdMessage.cpp.s
 
 # target to generate assembly for a file
 shared/TaskConnectionIdMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskConnectionIdMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskConnectionIdMessage.cpp.s
 .PHONY : shared/TaskConnectionIdMessage.cpp.s
 
 shared/TaskEnumCluster.o: shared/TaskEnumCluster.cpp.o
@@ -327,7 +327,7 @@ shared/TaskEnumCluster.o: shared/TaskEnumCluster.cpp.o
 
 # target to build an object file
 shared/TaskEnumCluster.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumCluster.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumCluster.cpp.o
 .PHONY : shared/TaskEnumCluster.cpp.o
 
 shared/TaskEnumCluster.i: shared/TaskEnumCluster.cpp.i
@@ -335,7 +335,7 @@ shared/TaskEnumCluster.i: shared/TaskEnumCluster.cpp.i
 
 # target to preprocess a source file
 shared/TaskEnumCluster.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumCluster.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumCluster.cpp.i
 .PHONY : shared/TaskEnumCluster.cpp.i
 
 shared/TaskEnumCluster.s: shared/TaskEnumCluster.cpp.s
@@ -343,7 +343,7 @@ shared/TaskEnumCluster.s: shared/TaskEnumCluster.cpp.s
 
 # target to generate assembly for a file
 shared/TaskEnumCluster.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumCluster.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumCluster.cpp.s
 .PHONY : shared/TaskEnumCluster.cpp.s
 
 shared/TaskEnumProcesses.o: shared/TaskEnumProcesses.cpp.o
@@ -351,7 +351,7 @@ shared/TaskEnumProcesses.o: shared/TaskEnumProcesses.cpp.o
 
 # target to build an object file
 shared/TaskEnumProcesses.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumProcesses.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumProcesses.cpp.o
 .PHONY : shared/TaskEnumProcesses.cpp.o
 
 shared/TaskEnumProcesses.i: shared/TaskEnumProcesses.cpp.i
@@ -359,7 +359,7 @@ shared/TaskEnumProcesses.i: shared/TaskEnumProcesses.cpp.i
 
 # target to preprocess a source file
 shared/TaskEnumProcesses.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumProcesses.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumProcesses.cpp.i
 .PHONY : shared/TaskEnumProcesses.cpp.i
 
 shared/TaskEnumProcesses.s: shared/TaskEnumProcesses.cpp.s
@@ -367,7 +367,7 @@ shared/TaskEnumProcesses.s: shared/TaskEnumProcesses.cpp.s
 
 # target to generate assembly for a file
 shared/TaskEnumProcesses.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumProcesses.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskEnumProcesses.cpp.s
 .PHONY : shared/TaskEnumProcesses.cpp.s
 
 shared/TaskKillProcess.o: shared/TaskKillProcess.cpp.o
@@ -375,7 +375,7 @@ shared/TaskKillProcess.o: shared/TaskKillProcess.cpp.o
 
 # target to build an object file
 shared/TaskKillProcess.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskKillProcess.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskKillProcess.cpp.o
 .PHONY : shared/TaskKillProcess.cpp.o
 
 shared/TaskKillProcess.i: shared/TaskKillProcess.cpp.i
@@ -383,7 +383,7 @@ shared/TaskKillProcess.i: shared/TaskKillProcess.cpp.i
 
 # target to preprocess a source file
 shared/TaskKillProcess.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskKillProcess.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskKillProcess.cpp.i
 .PHONY : shared/TaskKillProcess.cpp.i
 
 shared/TaskKillProcess.s: shared/TaskKillProcess.cpp.s
@@ -391,7 +391,7 @@ shared/TaskKillProcess.s: shared/TaskKillProcess.cpp.s
 
 # target to generate assembly for a file
 shared/TaskKillProcess.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskKillProcess.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskKillProcess.cpp.s
 .PHONY : shared/TaskKillProcess.cpp.s
 
 shared/TaskSpawnProcess.o: shared/TaskSpawnProcess.cpp.o
@@ -399,7 +399,7 @@ shared/TaskSpawnProcess.o: shared/TaskSpawnProcess.cpp.o
 
 # target to build an object file
 shared/TaskSpawnProcess.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcess.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcess.cpp.o
 .PHONY : shared/TaskSpawnProcess.cpp.o
 
 shared/TaskSpawnProcess.i: shared/TaskSpawnProcess.cpp.i
@@ -407,7 +407,7 @@ shared/TaskSpawnProcess.i: shared/TaskSpawnProcess.cpp.i
 
 # target to preprocess a source file
 shared/TaskSpawnProcess.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcess.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcess.cpp.i
 .PHONY : shared/TaskSpawnProcess.cpp.i
 
 shared/TaskSpawnProcess.s: shared/TaskSpawnProcess.cpp.s
@@ -415,7 +415,7 @@ shared/TaskSpawnProcess.s: shared/TaskSpawnProcess.cpp.s
 
 # target to generate assembly for a file
 shared/TaskSpawnProcess.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcess.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcess.cpp.s
 .PHONY : shared/TaskSpawnProcess.cpp.s
 
 shared/TaskSpawnProcessAck.o: shared/TaskSpawnProcessAck.cpp.o
@@ -423,7 +423,7 @@ shared/TaskSpawnProcessAck.o: shared/TaskSpawnProcessAck.cpp.o
 
 # target to build an object file
 shared/TaskSpawnProcessAck.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcessAck.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcessAck.cpp.o
 .PHONY : shared/TaskSpawnProcessAck.cpp.o
 
 shared/TaskSpawnProcessAck.i: shared/TaskSpawnProcessAck.cpp.i
@@ -431,7 +431,7 @@ shared/TaskSpawnProcessAck.i: shared/TaskSpawnProcessAck.cpp.i
 
 # target to preprocess a source file
 shared/TaskSpawnProcessAck.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcessAck.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcessAck.cpp.i
 .PHONY : shared/TaskSpawnProcessAck.cpp.i
 
 shared/TaskSpawnProcessAck.s: shared/TaskSpawnProcessAck.cpp.s
@@ -439,7 +439,7 @@ shared/TaskSpawnProcessAck.s: shared/TaskSpawnProcessAck.cpp.s
 
 # target to generate assembly for a file
 shared/TaskSpawnProcessAck.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcessAck.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskSpawnProcessAck.cpp.s
 .PHONY : shared/TaskSpawnProcessAck.cpp.s
 
 shared/TaskUtilization.o: shared/TaskUtilization.cpp.o
@@ -447,7 +447,7 @@ shared/TaskUtilization.o: shared/TaskUtilization.cpp.o
 
 # target to build an object file
 shared/TaskUtilization.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskUtilization.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskUtilization.cpp.o
 .PHONY : shared/TaskUtilization.cpp.o
 
 shared/TaskUtilization.i: shared/TaskUtilization.cpp.i
@@ -455,7 +455,7 @@ shared/TaskUtilization.i: shared/TaskUtilization.cpp.i
 
 # target to preprocess a source file
 shared/TaskUtilization.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskUtilization.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskUtilization.cpp.i
 .PHONY : shared/TaskUtilization.cpp.i
 
 shared/TaskUtilization.s: shared/TaskUtilization.cpp.s
@@ -463,7 +463,7 @@ shared/TaskUtilization.s: shared/TaskUtilization.cpp.s
 
 # target to generate assembly for a file
 shared/TaskUtilization.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskUtilization.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/TaskUtilization.cpp.s
 .PHONY : shared/TaskUtilization.cpp.s
 
 shared/VerifyAndLockName.o: shared/VerifyAndLockName.cpp.o
@@ -471,7 +471,7 @@ shared/VerifyAndLockName.o: shared/VerifyAndLockName.cpp.o
 
 # target to build an object file
 shared/VerifyAndLockName.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/VerifyAndLockName.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/VerifyAndLockName.cpp.o
 .PHONY : shared/VerifyAndLockName.cpp.o
 
 shared/VerifyAndLockName.i: shared/VerifyAndLockName.cpp.i
@@ -479,7 +479,7 @@ shared/VerifyAndLockName.i: shared/VerifyAndLockName.cpp.i
 
 # target to preprocess a source file
 shared/VerifyAndLockName.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/VerifyAndLockName.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/VerifyAndLockName.cpp.i
 .PHONY : shared/VerifyAndLockName.cpp.i
 
 shared/VerifyAndLockName.s: shared/VerifyAndLockName.cpp.s
@@ -487,7 +487,7 @@ shared/VerifyAndLockName.s: shared/VerifyAndLockName.cpp.s
 
 # target to generate assembly for a file
 shared/VerifyAndLockName.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/VerifyAndLockName.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/VerifyAndLockName.cpp.s
 .PHONY : shared/VerifyAndLockName.cpp.s
 
 shared/centralConnectionServer/CentralConnectionServerMessages.o: shared/centralConnectionServer/CentralConnectionServerMessages.cpp.o
@@ -495,7 +495,7 @@ shared/centralConnectionServer/CentralConnectionServerMessages.o: shared/central
 
 # target to build an object file
 shared/centralConnectionServer/CentralConnectionServerMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/CentralConnectionServerMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/CentralConnectionServerMessages.cpp.o
 .PHONY : shared/centralConnectionServer/CentralConnectionServerMessages.cpp.o
 
 shared/centralConnectionServer/CentralConnectionServerMessages.i: shared/centralConnectionServer/CentralConnectionServerMessages.cpp.i
@@ -503,7 +503,7 @@ shared/centralConnectionServer/CentralConnectionServerMessages.i: shared/central
 
 # target to preprocess a source file
 shared/centralConnectionServer/CentralConnectionServerMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/CentralConnectionServerMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/CentralConnectionServerMessages.cpp.i
 .PHONY : shared/centralConnectionServer/CentralConnectionServerMessages.cpp.i
 
 shared/centralConnectionServer/CentralConnectionServerMessages.s: shared/centralConnectionServer/CentralConnectionServerMessages.cpp.s
@@ -511,7 +511,7 @@ shared/centralConnectionServer/CentralConnectionServerMessages.s: shared/central
 
 # target to generate assembly for a file
 shared/centralConnectionServer/CentralConnectionServerMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/CentralConnectionServerMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/CentralConnectionServerMessages.cpp.s
 .PHONY : shared/centralConnectionServer/CentralConnectionServerMessages.cpp.s
 
 shared/centralConnectionServer/SetConnectionServerPublic.o: shared/centralConnectionServer/SetConnectionServerPublic.cpp.o
@@ -519,7 +519,7 @@ shared/centralConnectionServer/SetConnectionServerPublic.o: shared/centralConnec
 
 # target to build an object file
 shared/centralConnectionServer/SetConnectionServerPublic.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/SetConnectionServerPublic.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/SetConnectionServerPublic.cpp.o
 .PHONY : shared/centralConnectionServer/SetConnectionServerPublic.cpp.o
 
 shared/centralConnectionServer/SetConnectionServerPublic.i: shared/centralConnectionServer/SetConnectionServerPublic.cpp.i
@@ -527,7 +527,7 @@ shared/centralConnectionServer/SetConnectionServerPublic.i: shared/centralConnec
 
 # target to preprocess a source file
 shared/centralConnectionServer/SetConnectionServerPublic.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/SetConnectionServerPublic.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/SetConnectionServerPublic.cpp.i
 .PHONY : shared/centralConnectionServer/SetConnectionServerPublic.cpp.i
 
 shared/centralConnectionServer/SetConnectionServerPublic.s: shared/centralConnectionServer/SetConnectionServerPublic.cpp.s
@@ -535,7 +535,7 @@ shared/centralConnectionServer/SetConnectionServerPublic.s: shared/centralConnec
 
 # target to generate assembly for a file
 shared/centralConnectionServer/SetConnectionServerPublic.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/SetConnectionServerPublic.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/SetConnectionServerPublic.cpp.s
 .PHONY : shared/centralConnectionServer/SetConnectionServerPublic.cpp.s
 
 shared/centralConnectionServer/UpdateConnectionServerStatus.o: shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.o
@@ -543,7 +543,7 @@ shared/centralConnectionServer/UpdateConnectionServerStatus.o: shared/centralCon
 
 # target to build an object file
 shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.o
 .PHONY : shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.o
 
 shared/centralConnectionServer/UpdateConnectionServerStatus.i: shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.i
@@ -551,7 +551,7 @@ shared/centralConnectionServer/UpdateConnectionServerStatus.i: shared/centralCon
 
 # target to preprocess a source file
 shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.i
 .PHONY : shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.i
 
 shared/centralConnectionServer/UpdateConnectionServerStatus.s: shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.s
@@ -559,7 +559,7 @@ shared/centralConnectionServer/UpdateConnectionServerStatus.s: shared/centralCon
 
 # target to generate assembly for a file
 shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.s
 .PHONY : shared/centralConnectionServer/UpdateConnectionServerStatus.cpp.s
 
 shared/centralConnectionServer/UpdatePlayerCountMessage.o: shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.o
@@ -567,7 +567,7 @@ shared/centralConnectionServer/UpdatePlayerCountMessage.o: shared/centralConnect
 
 # target to build an object file
 shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.o
 .PHONY : shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.o
 
 shared/centralConnectionServer/UpdatePlayerCountMessage.i: shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.i
@@ -575,7 +575,7 @@ shared/centralConnectionServer/UpdatePlayerCountMessage.i: shared/centralConnect
 
 # target to preprocess a source file
 shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.i
 .PHONY : shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.i
 
 shared/centralConnectionServer/UpdatePlayerCountMessage.s: shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.s
@@ -583,7 +583,7 @@ shared/centralConnectionServer/UpdatePlayerCountMessage.s: shared/centralConnect
 
 # target to generate assembly for a file
 shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.s
 .PHONY : shared/centralConnectionServer/UpdatePlayerCountMessage.cpp.s
 
 shared/centralConnectionServer/ValidateCharacterForLoginMessage.o: shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.o
@@ -591,7 +591,7 @@ shared/centralConnectionServer/ValidateCharacterForLoginMessage.o: shared/centra
 
 # target to build an object file
 shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.o
 .PHONY : shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.o
 
 shared/centralConnectionServer/ValidateCharacterForLoginMessage.i: shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.i
@@ -599,7 +599,7 @@ shared/centralConnectionServer/ValidateCharacterForLoginMessage.i: shared/centra
 
 # target to preprocess a source file
 shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.i
 .PHONY : shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.i
 
 shared/centralConnectionServer/ValidateCharacterForLoginMessage.s: shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.s
@@ -607,7 +607,7 @@ shared/centralConnectionServer/ValidateCharacterForLoginMessage.s: shared/centra
 
 # target to generate assembly for a file
 shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.s
 .PHONY : shared/centralConnectionServer/ValidateCharacterForLoginMessage.cpp.s
 
 shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.o: shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.o
@@ -615,7 +615,7 @@ shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.o: shared/c
 
 # target to build an object file
 shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.o
 .PHONY : shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.o
 
 shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.i: shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.i
@@ -623,7 +623,7 @@ shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.i: shared/c
 
 # target to preprocess a source file
 shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.i
 .PHONY : shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.i
 
 shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.s: shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.s
@@ -631,7 +631,7 @@ shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.s: shared/c
 
 # target to generate assembly for a file
 shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.s
 .PHONY : shared/centralConnectionServer/ValidateCharacterForLoginReplyMessage.cpp.s
 
 shared/centralGameServer/AccountFeatureIdRequest.o: shared/centralGameServer/AccountFeatureIdRequest.cpp.o
@@ -639,7 +639,7 @@ shared/centralGameServer/AccountFeatureIdRequest.o: shared/centralGameServer/Acc
 
 # target to build an object file
 shared/centralGameServer/AccountFeatureIdRequest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdRequest.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdRequest.cpp.o
 .PHONY : shared/centralGameServer/AccountFeatureIdRequest.cpp.o
 
 shared/centralGameServer/AccountFeatureIdRequest.i: shared/centralGameServer/AccountFeatureIdRequest.cpp.i
@@ -647,7 +647,7 @@ shared/centralGameServer/AccountFeatureIdRequest.i: shared/centralGameServer/Acc
 
 # target to preprocess a source file
 shared/centralGameServer/AccountFeatureIdRequest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdRequest.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdRequest.cpp.i
 .PHONY : shared/centralGameServer/AccountFeatureIdRequest.cpp.i
 
 shared/centralGameServer/AccountFeatureIdRequest.s: shared/centralGameServer/AccountFeatureIdRequest.cpp.s
@@ -655,7 +655,7 @@ shared/centralGameServer/AccountFeatureIdRequest.s: shared/centralGameServer/Acc
 
 # target to generate assembly for a file
 shared/centralGameServer/AccountFeatureIdRequest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdRequest.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdRequest.cpp.s
 .PHONY : shared/centralGameServer/AccountFeatureIdRequest.cpp.s
 
 shared/centralGameServer/AccountFeatureIdResponse.o: shared/centralGameServer/AccountFeatureIdResponse.cpp.o
@@ -663,7 +663,7 @@ shared/centralGameServer/AccountFeatureIdResponse.o: shared/centralGameServer/Ac
 
 # target to build an object file
 shared/centralGameServer/AccountFeatureIdResponse.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdResponse.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdResponse.cpp.o
 .PHONY : shared/centralGameServer/AccountFeatureIdResponse.cpp.o
 
 shared/centralGameServer/AccountFeatureIdResponse.i: shared/centralGameServer/AccountFeatureIdResponse.cpp.i
@@ -671,7 +671,7 @@ shared/centralGameServer/AccountFeatureIdResponse.i: shared/centralGameServer/Ac
 
 # target to preprocess a source file
 shared/centralGameServer/AccountFeatureIdResponse.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdResponse.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdResponse.cpp.i
 .PHONY : shared/centralGameServer/AccountFeatureIdResponse.cpp.i
 
 shared/centralGameServer/AccountFeatureIdResponse.s: shared/centralGameServer/AccountFeatureIdResponse.cpp.s
@@ -679,7 +679,7 @@ shared/centralGameServer/AccountFeatureIdResponse.s: shared/centralGameServer/Ac
 
 # target to generate assembly for a file
 shared/centralGameServer/AccountFeatureIdResponse.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdResponse.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AccountFeatureIdResponse.cpp.s
 .PHONY : shared/centralGameServer/AccountFeatureIdResponse.cpp.s
 
 shared/centralGameServer/AddCharacterMessage.o: shared/centralGameServer/AddCharacterMessage.cpp.o
@@ -687,7 +687,7 @@ shared/centralGameServer/AddCharacterMessage.o: shared/centralGameServer/AddChar
 
 # target to build an object file
 shared/centralGameServer/AddCharacterMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddCharacterMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddCharacterMessage.cpp.o
 .PHONY : shared/centralGameServer/AddCharacterMessage.cpp.o
 
 shared/centralGameServer/AddCharacterMessage.i: shared/centralGameServer/AddCharacterMessage.cpp.i
@@ -695,7 +695,7 @@ shared/centralGameServer/AddCharacterMessage.i: shared/centralGameServer/AddChar
 
 # target to preprocess a source file
 shared/centralGameServer/AddCharacterMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddCharacterMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddCharacterMessage.cpp.i
 .PHONY : shared/centralGameServer/AddCharacterMessage.cpp.i
 
 shared/centralGameServer/AddCharacterMessage.s: shared/centralGameServer/AddCharacterMessage.cpp.s
@@ -703,7 +703,7 @@ shared/centralGameServer/AddCharacterMessage.s: shared/centralGameServer/AddChar
 
 # target to generate assembly for a file
 shared/centralGameServer/AddCharacterMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddCharacterMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddCharacterMessage.cpp.s
 .PHONY : shared/centralGameServer/AddCharacterMessage.cpp.s
 
 shared/centralGameServer/AddObjectIdBlockMessage.o: shared/centralGameServer/AddObjectIdBlockMessage.cpp.o
@@ -711,7 +711,7 @@ shared/centralGameServer/AddObjectIdBlockMessage.o: shared/centralGameServer/Add
 
 # target to build an object file
 shared/centralGameServer/AddObjectIdBlockMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddObjectIdBlockMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddObjectIdBlockMessage.cpp.o
 .PHONY : shared/centralGameServer/AddObjectIdBlockMessage.cpp.o
 
 shared/centralGameServer/AddObjectIdBlockMessage.i: shared/centralGameServer/AddObjectIdBlockMessage.cpp.i
@@ -719,7 +719,7 @@ shared/centralGameServer/AddObjectIdBlockMessage.i: shared/centralGameServer/Add
 
 # target to preprocess a source file
 shared/centralGameServer/AddObjectIdBlockMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddObjectIdBlockMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddObjectIdBlockMessage.cpp.i
 .PHONY : shared/centralGameServer/AddObjectIdBlockMessage.cpp.i
 
 shared/centralGameServer/AddObjectIdBlockMessage.s: shared/centralGameServer/AddObjectIdBlockMessage.cpp.s
@@ -727,7 +727,7 @@ shared/centralGameServer/AddObjectIdBlockMessage.s: shared/centralGameServer/Add
 
 # target to generate assembly for a file
 shared/centralGameServer/AddObjectIdBlockMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddObjectIdBlockMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AddObjectIdBlockMessage.cpp.s
 .PHONY : shared/centralGameServer/AddObjectIdBlockMessage.cpp.s
 
 shared/centralGameServer/AdjustAccountFeatureIdRequest.o: shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.o
@@ -735,7 +735,7 @@ shared/centralGameServer/AdjustAccountFeatureIdRequest.o: shared/centralGameServ
 
 # target to build an object file
 shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.o
 .PHONY : shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.o
 
 shared/centralGameServer/AdjustAccountFeatureIdRequest.i: shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.i
@@ -743,7 +743,7 @@ shared/centralGameServer/AdjustAccountFeatureIdRequest.i: shared/centralGameServ
 
 # target to preprocess a source file
 shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.i
 .PHONY : shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.i
 
 shared/centralGameServer/AdjustAccountFeatureIdRequest.s: shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.s
@@ -751,7 +751,7 @@ shared/centralGameServer/AdjustAccountFeatureIdRequest.s: shared/centralGameServ
 
 # target to generate assembly for a file
 shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.s
 .PHONY : shared/centralGameServer/AdjustAccountFeatureIdRequest.cpp.s
 
 shared/centralGameServer/AdjustAccountFeatureIdResponse.o: shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.o
@@ -759,7 +759,7 @@ shared/centralGameServer/AdjustAccountFeatureIdResponse.o: shared/centralGameSer
 
 # target to build an object file
 shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.o
 .PHONY : shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.o
 
 shared/centralGameServer/AdjustAccountFeatureIdResponse.i: shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.i
@@ -767,7 +767,7 @@ shared/centralGameServer/AdjustAccountFeatureIdResponse.i: shared/centralGameSer
 
 # target to preprocess a source file
 shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.i
 .PHONY : shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.i
 
 shared/centralGameServer/AdjustAccountFeatureIdResponse.s: shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.s
@@ -775,7 +775,7 @@ shared/centralGameServer/AdjustAccountFeatureIdResponse.s: shared/centralGameSer
 
 # target to generate assembly for a file
 shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.s
 .PHONY : shared/centralGameServer/AdjustAccountFeatureIdResponse.cpp.s
 
 shared/centralGameServer/CSDBNetMessages.o: shared/centralGameServer/CSDBNetMessages.cpp.o
@@ -783,7 +783,7 @@ shared/centralGameServer/CSDBNetMessages.o: shared/centralGameServer/CSDBNetMess
 
 # target to build an object file
 shared/centralGameServer/CSDBNetMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CSDBNetMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CSDBNetMessages.cpp.o
 .PHONY : shared/centralGameServer/CSDBNetMessages.cpp.o
 
 shared/centralGameServer/CSDBNetMessages.i: shared/centralGameServer/CSDBNetMessages.cpp.i
@@ -791,7 +791,7 @@ shared/centralGameServer/CSDBNetMessages.i: shared/centralGameServer/CSDBNetMess
 
 # target to preprocess a source file
 shared/centralGameServer/CSDBNetMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CSDBNetMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CSDBNetMessages.cpp.i
 .PHONY : shared/centralGameServer/CSDBNetMessages.cpp.i
 
 shared/centralGameServer/CSDBNetMessages.s: shared/centralGameServer/CSDBNetMessages.cpp.s
@@ -799,7 +799,7 @@ shared/centralGameServer/CSDBNetMessages.s: shared/centralGameServer/CSDBNetMess
 
 # target to generate assembly for a file
 shared/centralGameServer/CSDBNetMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CSDBNetMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CSDBNetMessages.cpp.s
 .PHONY : shared/centralGameServer/CSDBNetMessages.cpp.s
 
 shared/centralGameServer/CentralGameServerMessages.o: shared/centralGameServer/CentralGameServerMessages.cpp.o
@@ -807,7 +807,7 @@ shared/centralGameServer/CentralGameServerMessages.o: shared/centralGameServer/C
 
 # target to build an object file
 shared/centralGameServer/CentralGameServerMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralGameServerMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralGameServerMessages.cpp.o
 .PHONY : shared/centralGameServer/CentralGameServerMessages.cpp.o
 
 shared/centralGameServer/CentralGameServerMessages.i: shared/centralGameServer/CentralGameServerMessages.cpp.i
@@ -815,7 +815,7 @@ shared/centralGameServer/CentralGameServerMessages.i: shared/centralGameServer/C
 
 # target to preprocess a source file
 shared/centralGameServer/CentralGameServerMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralGameServerMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralGameServerMessages.cpp.i
 .PHONY : shared/centralGameServer/CentralGameServerMessages.cpp.i
 
 shared/centralGameServer/CentralGameServerMessages.s: shared/centralGameServer/CentralGameServerMessages.cpp.s
@@ -823,7 +823,7 @@ shared/centralGameServer/CentralGameServerMessages.s: shared/centralGameServer/C
 
 # target to generate assembly for a file
 shared/centralGameServer/CentralGameServerMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralGameServerMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralGameServerMessages.cpp.s
 .PHONY : shared/centralGameServer/CentralGameServerMessages.cpp.s
 
 shared/centralGameServer/CentralPingMessage.o: shared/centralGameServer/CentralPingMessage.cpp.o
@@ -831,7 +831,7 @@ shared/centralGameServer/CentralPingMessage.o: shared/centralGameServer/CentralP
 
 # target to build an object file
 shared/centralGameServer/CentralPingMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralPingMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralPingMessage.cpp.o
 .PHONY : shared/centralGameServer/CentralPingMessage.cpp.o
 
 shared/centralGameServer/CentralPingMessage.i: shared/centralGameServer/CentralPingMessage.cpp.i
@@ -839,7 +839,7 @@ shared/centralGameServer/CentralPingMessage.i: shared/centralGameServer/CentralP
 
 # target to preprocess a source file
 shared/centralGameServer/CentralPingMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralPingMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralPingMessage.cpp.i
 .PHONY : shared/centralGameServer/CentralPingMessage.cpp.i
 
 shared/centralGameServer/CentralPingMessage.s: shared/centralGameServer/CentralPingMessage.cpp.s
@@ -847,7 +847,7 @@ shared/centralGameServer/CentralPingMessage.s: shared/centralGameServer/CentralP
 
 # target to generate assembly for a file
 shared/centralGameServer/CentralPingMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralPingMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CentralPingMessage.cpp.s
 .PHONY : shared/centralGameServer/CentralPingMessage.cpp.s
 
 shared/centralGameServer/ChangeUniverseProcessMessage.o: shared/centralGameServer/ChangeUniverseProcessMessage.cpp.o
@@ -855,7 +855,7 @@ shared/centralGameServer/ChangeUniverseProcessMessage.o: shared/centralGameServe
 
 # target to build an object file
 shared/centralGameServer/ChangeUniverseProcessMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChangeUniverseProcessMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChangeUniverseProcessMessage.cpp.o
 .PHONY : shared/centralGameServer/ChangeUniverseProcessMessage.cpp.o
 
 shared/centralGameServer/ChangeUniverseProcessMessage.i: shared/centralGameServer/ChangeUniverseProcessMessage.cpp.i
@@ -863,7 +863,7 @@ shared/centralGameServer/ChangeUniverseProcessMessage.i: shared/centralGameServe
 
 # target to preprocess a source file
 shared/centralGameServer/ChangeUniverseProcessMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChangeUniverseProcessMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChangeUniverseProcessMessage.cpp.i
 .PHONY : shared/centralGameServer/ChangeUniverseProcessMessage.cpp.i
 
 shared/centralGameServer/ChangeUniverseProcessMessage.s: shared/centralGameServer/ChangeUniverseProcessMessage.cpp.s
@@ -871,7 +871,7 @@ shared/centralGameServer/ChangeUniverseProcessMessage.s: shared/centralGameServe
 
 # target to generate assembly for a file
 shared/centralGameServer/ChangeUniverseProcessMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChangeUniverseProcessMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChangeUniverseProcessMessage.cpp.s
 .PHONY : shared/centralGameServer/ChangeUniverseProcessMessage.cpp.s
 
 shared/centralGameServer/CharacterListMessage.o: shared/centralGameServer/CharacterListMessage.cpp.o
@@ -879,7 +879,7 @@ shared/centralGameServer/CharacterListMessage.o: shared/centralGameServer/Charac
 
 # target to build an object file
 shared/centralGameServer/CharacterListMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterListMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterListMessage.cpp.o
 .PHONY : shared/centralGameServer/CharacterListMessage.cpp.o
 
 shared/centralGameServer/CharacterListMessage.i: shared/centralGameServer/CharacterListMessage.cpp.i
@@ -887,7 +887,7 @@ shared/centralGameServer/CharacterListMessage.i: shared/centralGameServer/Charac
 
 # target to preprocess a source file
 shared/centralGameServer/CharacterListMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterListMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterListMessage.cpp.i
 .PHONY : shared/centralGameServer/CharacterListMessage.cpp.i
 
 shared/centralGameServer/CharacterListMessage.s: shared/centralGameServer/CharacterListMessage.cpp.s
@@ -895,7 +895,7 @@ shared/centralGameServer/CharacterListMessage.s: shared/centralGameServer/Charac
 
 # target to generate assembly for a file
 shared/centralGameServer/CharacterListMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterListMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterListMessage.cpp.s
 .PHONY : shared/centralGameServer/CharacterListMessage.cpp.s
 
 shared/centralGameServer/CharacterTransferStatusMessage.o: shared/centralGameServer/CharacterTransferStatusMessage.cpp.o
@@ -903,7 +903,7 @@ shared/centralGameServer/CharacterTransferStatusMessage.o: shared/centralGameSer
 
 # target to build an object file
 shared/centralGameServer/CharacterTransferStatusMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterTransferStatusMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterTransferStatusMessage.cpp.o
 .PHONY : shared/centralGameServer/CharacterTransferStatusMessage.cpp.o
 
 shared/centralGameServer/CharacterTransferStatusMessage.i: shared/centralGameServer/CharacterTransferStatusMessage.cpp.i
@@ -911,7 +911,7 @@ shared/centralGameServer/CharacterTransferStatusMessage.i: shared/centralGameSer
 
 # target to preprocess a source file
 shared/centralGameServer/CharacterTransferStatusMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterTransferStatusMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterTransferStatusMessage.cpp.i
 .PHONY : shared/centralGameServer/CharacterTransferStatusMessage.cpp.i
 
 shared/centralGameServer/CharacterTransferStatusMessage.s: shared/centralGameServer/CharacterTransferStatusMessage.cpp.s
@@ -919,7 +919,7 @@ shared/centralGameServer/CharacterTransferStatusMessage.s: shared/centralGameSer
 
 # target to generate assembly for a file
 shared/centralGameServer/CharacterTransferStatusMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterTransferStatusMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CharacterTransferStatusMessage.cpp.s
 .PHONY : shared/centralGameServer/CharacterTransferStatusMessage.cpp.s
 
 shared/centralGameServer/ChunkCompleteMessage.o: shared/centralGameServer/ChunkCompleteMessage.cpp.o
@@ -927,7 +927,7 @@ shared/centralGameServer/ChunkCompleteMessage.o: shared/centralGameServer/ChunkC
 
 # target to build an object file
 shared/centralGameServer/ChunkCompleteMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkCompleteMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkCompleteMessage.cpp.o
 .PHONY : shared/centralGameServer/ChunkCompleteMessage.cpp.o
 
 shared/centralGameServer/ChunkCompleteMessage.i: shared/centralGameServer/ChunkCompleteMessage.cpp.i
@@ -935,7 +935,7 @@ shared/centralGameServer/ChunkCompleteMessage.i: shared/centralGameServer/ChunkC
 
 # target to preprocess a source file
 shared/centralGameServer/ChunkCompleteMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkCompleteMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkCompleteMessage.cpp.i
 .PHONY : shared/centralGameServer/ChunkCompleteMessage.cpp.i
 
 shared/centralGameServer/ChunkCompleteMessage.s: shared/centralGameServer/ChunkCompleteMessage.cpp.s
@@ -943,7 +943,7 @@ shared/centralGameServer/ChunkCompleteMessage.s: shared/centralGameServer/ChunkC
 
 # target to generate assembly for a file
 shared/centralGameServer/ChunkCompleteMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkCompleteMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkCompleteMessage.cpp.s
 .PHONY : shared/centralGameServer/ChunkCompleteMessage.cpp.s
 
 shared/centralGameServer/ChunkObjectListMessage.o: shared/centralGameServer/ChunkObjectListMessage.cpp.o
@@ -951,7 +951,7 @@ shared/centralGameServer/ChunkObjectListMessage.o: shared/centralGameServer/Chun
 
 # target to build an object file
 shared/centralGameServer/ChunkObjectListMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkObjectListMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkObjectListMessage.cpp.o
 .PHONY : shared/centralGameServer/ChunkObjectListMessage.cpp.o
 
 shared/centralGameServer/ChunkObjectListMessage.i: shared/centralGameServer/ChunkObjectListMessage.cpp.i
@@ -959,7 +959,7 @@ shared/centralGameServer/ChunkObjectListMessage.i: shared/centralGameServer/Chun
 
 # target to preprocess a source file
 shared/centralGameServer/ChunkObjectListMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkObjectListMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkObjectListMessage.cpp.i
 .PHONY : shared/centralGameServer/ChunkObjectListMessage.cpp.i
 
 shared/centralGameServer/ChunkObjectListMessage.s: shared/centralGameServer/ChunkObjectListMessage.cpp.s
@@ -967,7 +967,7 @@ shared/centralGameServer/ChunkObjectListMessage.s: shared/centralGameServer/Chun
 
 # target to generate assembly for a file
 shared/centralGameServer/ChunkObjectListMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkObjectListMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ChunkObjectListMessage.cpp.s
 .PHONY : shared/centralGameServer/ChunkObjectListMessage.cpp.s
 
 shared/centralGameServer/ClaimRewardsMessage.o: shared/centralGameServer/ClaimRewardsMessage.cpp.o
@@ -975,7 +975,7 @@ shared/centralGameServer/ClaimRewardsMessage.o: shared/centralGameServer/ClaimRe
 
 # target to build an object file
 shared/centralGameServer/ClaimRewardsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsMessage.cpp.o
 .PHONY : shared/centralGameServer/ClaimRewardsMessage.cpp.o
 
 shared/centralGameServer/ClaimRewardsMessage.i: shared/centralGameServer/ClaimRewardsMessage.cpp.i
@@ -983,7 +983,7 @@ shared/centralGameServer/ClaimRewardsMessage.i: shared/centralGameServer/ClaimRe
 
 # target to preprocess a source file
 shared/centralGameServer/ClaimRewardsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsMessage.cpp.i
 .PHONY : shared/centralGameServer/ClaimRewardsMessage.cpp.i
 
 shared/centralGameServer/ClaimRewardsMessage.s: shared/centralGameServer/ClaimRewardsMessage.cpp.s
@@ -991,7 +991,7 @@ shared/centralGameServer/ClaimRewardsMessage.s: shared/centralGameServer/ClaimRe
 
 # target to generate assembly for a file
 shared/centralGameServer/ClaimRewardsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsMessage.cpp.s
 .PHONY : shared/centralGameServer/ClaimRewardsMessage.cpp.s
 
 shared/centralGameServer/ClaimRewardsReplyMessage.o: shared/centralGameServer/ClaimRewardsReplyMessage.cpp.o
@@ -999,7 +999,7 @@ shared/centralGameServer/ClaimRewardsReplyMessage.o: shared/centralGameServer/Cl
 
 # target to build an object file
 shared/centralGameServer/ClaimRewardsReplyMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsReplyMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsReplyMessage.cpp.o
 .PHONY : shared/centralGameServer/ClaimRewardsReplyMessage.cpp.o
 
 shared/centralGameServer/ClaimRewardsReplyMessage.i: shared/centralGameServer/ClaimRewardsReplyMessage.cpp.i
@@ -1007,7 +1007,7 @@ shared/centralGameServer/ClaimRewardsReplyMessage.i: shared/centralGameServer/Cl
 
 # target to preprocess a source file
 shared/centralGameServer/ClaimRewardsReplyMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsReplyMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsReplyMessage.cpp.i
 .PHONY : shared/centralGameServer/ClaimRewardsReplyMessage.cpp.i
 
 shared/centralGameServer/ClaimRewardsReplyMessage.s: shared/centralGameServer/ClaimRewardsReplyMessage.cpp.s
@@ -1015,7 +1015,7 @@ shared/centralGameServer/ClaimRewardsReplyMessage.s: shared/centralGameServer/Cl
 
 # target to generate assembly for a file
 shared/centralGameServer/ClaimRewardsReplyMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsReplyMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ClaimRewardsReplyMessage.cpp.s
 .PHONY : shared/centralGameServer/ClaimRewardsReplyMessage.cpp.s
 
 shared/centralGameServer/CreateNewObjectMessage.o: shared/centralGameServer/CreateNewObjectMessage.cpp.o
@@ -1023,7 +1023,7 @@ shared/centralGameServer/CreateNewObjectMessage.o: shared/centralGameServer/Crea
 
 # target to build an object file
 shared/centralGameServer/CreateNewObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CreateNewObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CreateNewObjectMessage.cpp.o
 .PHONY : shared/centralGameServer/CreateNewObjectMessage.cpp.o
 
 shared/centralGameServer/CreateNewObjectMessage.i: shared/centralGameServer/CreateNewObjectMessage.cpp.i
@@ -1031,7 +1031,7 @@ shared/centralGameServer/CreateNewObjectMessage.i: shared/centralGameServer/Crea
 
 # target to preprocess a source file
 shared/centralGameServer/CreateNewObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CreateNewObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CreateNewObjectMessage.cpp.i
 .PHONY : shared/centralGameServer/CreateNewObjectMessage.cpp.i
 
 shared/centralGameServer/CreateNewObjectMessage.s: shared/centralGameServer/CreateNewObjectMessage.cpp.s
@@ -1039,7 +1039,7 @@ shared/centralGameServer/CreateNewObjectMessage.s: shared/centralGameServer/Crea
 
 # target to generate assembly for a file
 shared/centralGameServer/CreateNewObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CreateNewObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/CreateNewObjectMessage.cpp.s
 .PHONY : shared/centralGameServer/CreateNewObjectMessage.cpp.s
 
 shared/centralGameServer/DownloadCharacterMessage.o: shared/centralGameServer/DownloadCharacterMessage.cpp.o
@@ -1047,7 +1047,7 @@ shared/centralGameServer/DownloadCharacterMessage.o: shared/centralGameServer/Do
 
 # target to build an object file
 shared/centralGameServer/DownloadCharacterMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/DownloadCharacterMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/DownloadCharacterMessage.cpp.o
 .PHONY : shared/centralGameServer/DownloadCharacterMessage.cpp.o
 
 shared/centralGameServer/DownloadCharacterMessage.i: shared/centralGameServer/DownloadCharacterMessage.cpp.i
@@ -1055,7 +1055,7 @@ shared/centralGameServer/DownloadCharacterMessage.i: shared/centralGameServer/Do
 
 # target to preprocess a source file
 shared/centralGameServer/DownloadCharacterMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/DownloadCharacterMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/DownloadCharacterMessage.cpp.i
 .PHONY : shared/centralGameServer/DownloadCharacterMessage.cpp.i
 
 shared/centralGameServer/DownloadCharacterMessage.s: shared/centralGameServer/DownloadCharacterMessage.cpp.s
@@ -1063,7 +1063,7 @@ shared/centralGameServer/DownloadCharacterMessage.s: shared/centralGameServer/Do
 
 # target to generate assembly for a file
 shared/centralGameServer/DownloadCharacterMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/DownloadCharacterMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/DownloadCharacterMessage.cpp.s
 .PHONY : shared/centralGameServer/DownloadCharacterMessage.cpp.s
 
 shared/centralGameServer/ExcommunicateGameServerMessage.o: shared/centralGameServer/ExcommunicateGameServerMessage.cpp.o
@@ -1071,7 +1071,7 @@ shared/centralGameServer/ExcommunicateGameServerMessage.o: shared/centralGameSer
 
 # target to build an object file
 shared/centralGameServer/ExcommunicateGameServerMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ExcommunicateGameServerMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ExcommunicateGameServerMessage.cpp.o
 .PHONY : shared/centralGameServer/ExcommunicateGameServerMessage.cpp.o
 
 shared/centralGameServer/ExcommunicateGameServerMessage.i: shared/centralGameServer/ExcommunicateGameServerMessage.cpp.i
@@ -1079,7 +1079,7 @@ shared/centralGameServer/ExcommunicateGameServerMessage.i: shared/centralGameSer
 
 # target to preprocess a source file
 shared/centralGameServer/ExcommunicateGameServerMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ExcommunicateGameServerMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ExcommunicateGameServerMessage.cpp.i
 .PHONY : shared/centralGameServer/ExcommunicateGameServerMessage.cpp.i
 
 shared/centralGameServer/ExcommunicateGameServerMessage.s: shared/centralGameServer/ExcommunicateGameServerMessage.cpp.s
@@ -1087,7 +1087,7 @@ shared/centralGameServer/ExcommunicateGameServerMessage.s: shared/centralGameSer
 
 # target to generate assembly for a file
 shared/centralGameServer/ExcommunicateGameServerMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ExcommunicateGameServerMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ExcommunicateGameServerMessage.cpp.s
 .PHONY : shared/centralGameServer/ExcommunicateGameServerMessage.cpp.s
 
 shared/centralGameServer/FailedToLoadObjectMessage.o: shared/centralGameServer/FailedToLoadObjectMessage.cpp.o
@@ -1095,7 +1095,7 @@ shared/centralGameServer/FailedToLoadObjectMessage.o: shared/centralGameServer/F
 
 # target to build an object file
 shared/centralGameServer/FailedToLoadObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FailedToLoadObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FailedToLoadObjectMessage.cpp.o
 .PHONY : shared/centralGameServer/FailedToLoadObjectMessage.cpp.o
 
 shared/centralGameServer/FailedToLoadObjectMessage.i: shared/centralGameServer/FailedToLoadObjectMessage.cpp.i
@@ -1103,7 +1103,7 @@ shared/centralGameServer/FailedToLoadObjectMessage.i: shared/centralGameServer/F
 
 # target to preprocess a source file
 shared/centralGameServer/FailedToLoadObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FailedToLoadObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FailedToLoadObjectMessage.cpp.i
 .PHONY : shared/centralGameServer/FailedToLoadObjectMessage.cpp.i
 
 shared/centralGameServer/FailedToLoadObjectMessage.s: shared/centralGameServer/FailedToLoadObjectMessage.cpp.s
@@ -1111,7 +1111,7 @@ shared/centralGameServer/FailedToLoadObjectMessage.s: shared/centralGameServer/F
 
 # target to generate assembly for a file
 shared/centralGameServer/FailedToLoadObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FailedToLoadObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FailedToLoadObjectMessage.cpp.s
 .PHONY : shared/centralGameServer/FailedToLoadObjectMessage.cpp.s
 
 shared/centralGameServer/FeatureIdTransactionRequest.o: shared/centralGameServer/FeatureIdTransactionRequest.cpp.o
@@ -1119,7 +1119,7 @@ shared/centralGameServer/FeatureIdTransactionRequest.o: shared/centralGameServer
 
 # target to build an object file
 shared/centralGameServer/FeatureIdTransactionRequest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionRequest.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionRequest.cpp.o
 .PHONY : shared/centralGameServer/FeatureIdTransactionRequest.cpp.o
 
 shared/centralGameServer/FeatureIdTransactionRequest.i: shared/centralGameServer/FeatureIdTransactionRequest.cpp.i
@@ -1127,7 +1127,7 @@ shared/centralGameServer/FeatureIdTransactionRequest.i: shared/centralGameServer
 
 # target to preprocess a source file
 shared/centralGameServer/FeatureIdTransactionRequest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionRequest.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionRequest.cpp.i
 .PHONY : shared/centralGameServer/FeatureIdTransactionRequest.cpp.i
 
 shared/centralGameServer/FeatureIdTransactionRequest.s: shared/centralGameServer/FeatureIdTransactionRequest.cpp.s
@@ -1135,7 +1135,7 @@ shared/centralGameServer/FeatureIdTransactionRequest.s: shared/centralGameServer
 
 # target to generate assembly for a file
 shared/centralGameServer/FeatureIdTransactionRequest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionRequest.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionRequest.cpp.s
 .PHONY : shared/centralGameServer/FeatureIdTransactionRequest.cpp.s
 
 shared/centralGameServer/FeatureIdTransactionResponse.o: shared/centralGameServer/FeatureIdTransactionResponse.cpp.o
@@ -1143,7 +1143,7 @@ shared/centralGameServer/FeatureIdTransactionResponse.o: shared/centralGameServe
 
 # target to build an object file
 shared/centralGameServer/FeatureIdTransactionResponse.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionResponse.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionResponse.cpp.o
 .PHONY : shared/centralGameServer/FeatureIdTransactionResponse.cpp.o
 
 shared/centralGameServer/FeatureIdTransactionResponse.i: shared/centralGameServer/FeatureIdTransactionResponse.cpp.i
@@ -1151,7 +1151,7 @@ shared/centralGameServer/FeatureIdTransactionResponse.i: shared/centralGameServe
 
 # target to preprocess a source file
 shared/centralGameServer/FeatureIdTransactionResponse.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionResponse.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionResponse.cpp.i
 .PHONY : shared/centralGameServer/FeatureIdTransactionResponse.cpp.i
 
 shared/centralGameServer/FeatureIdTransactionResponse.s: shared/centralGameServer/FeatureIdTransactionResponse.cpp.s
@@ -1159,7 +1159,7 @@ shared/centralGameServer/FeatureIdTransactionResponse.s: shared/centralGameServe
 
 # target to generate assembly for a file
 shared/centralGameServer/FeatureIdTransactionResponse.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionResponse.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionResponse.cpp.s
 .PHONY : shared/centralGameServer/FeatureIdTransactionResponse.cpp.s
 
 shared/centralGameServer/FeatureIdTransactionSyncUpdate.o: shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.o
@@ -1167,7 +1167,7 @@ shared/centralGameServer/FeatureIdTransactionSyncUpdate.o: shared/centralGameSer
 
 # target to build an object file
 shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.o
 .PHONY : shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.o
 
 shared/centralGameServer/FeatureIdTransactionSyncUpdate.i: shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.i
@@ -1175,7 +1175,7 @@ shared/centralGameServer/FeatureIdTransactionSyncUpdate.i: shared/centralGameSer
 
 # target to preprocess a source file
 shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.i
 .PHONY : shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.i
 
 shared/centralGameServer/FeatureIdTransactionSyncUpdate.s: shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.s
@@ -1183,7 +1183,7 @@ shared/centralGameServer/FeatureIdTransactionSyncUpdate.s: shared/centralGameSer
 
 # target to generate assembly for a file
 shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.s
 .PHONY : shared/centralGameServer/FeatureIdTransactionSyncUpdate.cpp.s
 
 shared/centralGameServer/FlagObjectForDeleteMessage.o: shared/centralGameServer/FlagObjectForDeleteMessage.cpp.o
@@ -1191,7 +1191,7 @@ shared/centralGameServer/FlagObjectForDeleteMessage.o: shared/centralGameServer/
 
 # target to build an object file
 shared/centralGameServer/FlagObjectForDeleteMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FlagObjectForDeleteMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FlagObjectForDeleteMessage.cpp.o
 .PHONY : shared/centralGameServer/FlagObjectForDeleteMessage.cpp.o
 
 shared/centralGameServer/FlagObjectForDeleteMessage.i: shared/centralGameServer/FlagObjectForDeleteMessage.cpp.i
@@ -1199,7 +1199,7 @@ shared/centralGameServer/FlagObjectForDeleteMessage.i: shared/centralGameServer/
 
 # target to preprocess a source file
 shared/centralGameServer/FlagObjectForDeleteMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FlagObjectForDeleteMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FlagObjectForDeleteMessage.cpp.i
 .PHONY : shared/centralGameServer/FlagObjectForDeleteMessage.cpp.i
 
 shared/centralGameServer/FlagObjectForDeleteMessage.s: shared/centralGameServer/FlagObjectForDeleteMessage.cpp.s
@@ -1207,7 +1207,7 @@ shared/centralGameServer/FlagObjectForDeleteMessage.s: shared/centralGameServer/
 
 # target to generate assembly for a file
 shared/centralGameServer/FlagObjectForDeleteMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FlagObjectForDeleteMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/FlagObjectForDeleteMessage.cpp.s
 .PHONY : shared/centralGameServer/FlagObjectForDeleteMessage.cpp.s
 
 shared/centralGameServer/ForceUnloadObjectMessage.o: shared/centralGameServer/ForceUnloadObjectMessage.cpp.o
@@ -1215,7 +1215,7 @@ shared/centralGameServer/ForceUnloadObjectMessage.o: shared/centralGameServer/Fo
 
 # target to build an object file
 shared/centralGameServer/ForceUnloadObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ForceUnloadObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ForceUnloadObjectMessage.cpp.o
 .PHONY : shared/centralGameServer/ForceUnloadObjectMessage.cpp.o
 
 shared/centralGameServer/ForceUnloadObjectMessage.i: shared/centralGameServer/ForceUnloadObjectMessage.cpp.i
@@ -1223,7 +1223,7 @@ shared/centralGameServer/ForceUnloadObjectMessage.i: shared/centralGameServer/Fo
 
 # target to preprocess a source file
 shared/centralGameServer/ForceUnloadObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ForceUnloadObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ForceUnloadObjectMessage.cpp.i
 .PHONY : shared/centralGameServer/ForceUnloadObjectMessage.cpp.i
 
 shared/centralGameServer/ForceUnloadObjectMessage.s: shared/centralGameServer/ForceUnloadObjectMessage.cpp.s
@@ -1231,7 +1231,7 @@ shared/centralGameServer/ForceUnloadObjectMessage.s: shared/centralGameServer/Fo
 
 # target to generate assembly for a file
 shared/centralGameServer/ForceUnloadObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ForceUnloadObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ForceUnloadObjectMessage.cpp.s
 .PHONY : shared/centralGameServer/ForceUnloadObjectMessage.cpp.s
 
 shared/centralGameServer/GameServerCSRequestMessage.o: shared/centralGameServer/GameServerCSRequestMessage.cpp.o
@@ -1239,7 +1239,7 @@ shared/centralGameServer/GameServerCSRequestMessage.o: shared/centralGameServer/
 
 # target to build an object file
 shared/centralGameServer/GameServerCSRequestMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSRequestMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSRequestMessage.cpp.o
 .PHONY : shared/centralGameServer/GameServerCSRequestMessage.cpp.o
 
 shared/centralGameServer/GameServerCSRequestMessage.i: shared/centralGameServer/GameServerCSRequestMessage.cpp.i
@@ -1247,7 +1247,7 @@ shared/centralGameServer/GameServerCSRequestMessage.i: shared/centralGameServer/
 
 # target to preprocess a source file
 shared/centralGameServer/GameServerCSRequestMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSRequestMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSRequestMessage.cpp.i
 .PHONY : shared/centralGameServer/GameServerCSRequestMessage.cpp.i
 
 shared/centralGameServer/GameServerCSRequestMessage.s: shared/centralGameServer/GameServerCSRequestMessage.cpp.s
@@ -1255,7 +1255,7 @@ shared/centralGameServer/GameServerCSRequestMessage.s: shared/centralGameServer/
 
 # target to generate assembly for a file
 shared/centralGameServer/GameServerCSRequestMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSRequestMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSRequestMessage.cpp.s
 .PHONY : shared/centralGameServer/GameServerCSRequestMessage.cpp.s
 
 shared/centralGameServer/GameServerCSResponseMessage.o: shared/centralGameServer/GameServerCSResponseMessage.cpp.o
@@ -1263,7 +1263,7 @@ shared/centralGameServer/GameServerCSResponseMessage.o: shared/centralGameServer
 
 # target to build an object file
 shared/centralGameServer/GameServerCSResponseMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSResponseMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSResponseMessage.cpp.o
 .PHONY : shared/centralGameServer/GameServerCSResponseMessage.cpp.o
 
 shared/centralGameServer/GameServerCSResponseMessage.i: shared/centralGameServer/GameServerCSResponseMessage.cpp.i
@@ -1271,7 +1271,7 @@ shared/centralGameServer/GameServerCSResponseMessage.i: shared/centralGameServer
 
 # target to preprocess a source file
 shared/centralGameServer/GameServerCSResponseMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSResponseMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSResponseMessage.cpp.i
 .PHONY : shared/centralGameServer/GameServerCSResponseMessage.cpp.i
 
 shared/centralGameServer/GameServerCSResponseMessage.s: shared/centralGameServer/GameServerCSResponseMessage.cpp.s
@@ -1279,7 +1279,7 @@ shared/centralGameServer/GameServerCSResponseMessage.s: shared/centralGameServer
 
 # target to generate assembly for a file
 shared/centralGameServer/GameServerCSResponseMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSResponseMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerCSResponseMessage.cpp.s
 .PHONY : shared/centralGameServer/GameServerCSResponseMessage.cpp.s
 
 shared/centralGameServer/GameServerReadyMessage.o: shared/centralGameServer/GameServerReadyMessage.cpp.o
@@ -1287,7 +1287,7 @@ shared/centralGameServer/GameServerReadyMessage.o: shared/centralGameServer/Game
 
 # target to build an object file
 shared/centralGameServer/GameServerReadyMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerReadyMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerReadyMessage.cpp.o
 .PHONY : shared/centralGameServer/GameServerReadyMessage.cpp.o
 
 shared/centralGameServer/GameServerReadyMessage.i: shared/centralGameServer/GameServerReadyMessage.cpp.i
@@ -1295,7 +1295,7 @@ shared/centralGameServer/GameServerReadyMessage.i: shared/centralGameServer/Game
 
 # target to preprocess a source file
 shared/centralGameServer/GameServerReadyMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerReadyMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerReadyMessage.cpp.i
 .PHONY : shared/centralGameServer/GameServerReadyMessage.cpp.i
 
 shared/centralGameServer/GameServerReadyMessage.s: shared/centralGameServer/GameServerReadyMessage.cpp.s
@@ -1303,7 +1303,7 @@ shared/centralGameServer/GameServerReadyMessage.s: shared/centralGameServer/Game
 
 # target to generate assembly for a file
 shared/centralGameServer/GameServerReadyMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerReadyMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerReadyMessage.cpp.s
 .PHONY : shared/centralGameServer/GameServerReadyMessage.cpp.s
 
 shared/centralGameServer/GameServerUniverseLoadedMessage.o: shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.o
@@ -1311,7 +1311,7 @@ shared/centralGameServer/GameServerUniverseLoadedMessage.o: shared/centralGameSe
 
 # target to build an object file
 shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.o
 .PHONY : shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.o
 
 shared/centralGameServer/GameServerUniverseLoadedMessage.i: shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.i
@@ -1319,7 +1319,7 @@ shared/centralGameServer/GameServerUniverseLoadedMessage.i: shared/centralGameSe
 
 # target to preprocess a source file
 shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.i
 .PHONY : shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.i
 
 shared/centralGameServer/GameServerUniverseLoadedMessage.s: shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.s
@@ -1327,7 +1327,7 @@ shared/centralGameServer/GameServerUniverseLoadedMessage.s: shared/centralGameSe
 
 # target to generate assembly for a file
 shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.s
 .PHONY : shared/centralGameServer/GameServerUniverseLoadedMessage.cpp.s
 
 shared/centralGameServer/LoadObjectMessage.o: shared/centralGameServer/LoadObjectMessage.cpp.o
@@ -1335,7 +1335,7 @@ shared/centralGameServer/LoadObjectMessage.o: shared/centralGameServer/LoadObjec
 
 # target to build an object file
 shared/centralGameServer/LoadObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadObjectMessage.cpp.o
 .PHONY : shared/centralGameServer/LoadObjectMessage.cpp.o
 
 shared/centralGameServer/LoadObjectMessage.i: shared/centralGameServer/LoadObjectMessage.cpp.i
@@ -1343,7 +1343,7 @@ shared/centralGameServer/LoadObjectMessage.i: shared/centralGameServer/LoadObjec
 
 # target to preprocess a source file
 shared/centralGameServer/LoadObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadObjectMessage.cpp.i
 .PHONY : shared/centralGameServer/LoadObjectMessage.cpp.i
 
 shared/centralGameServer/LoadObjectMessage.s: shared/centralGameServer/LoadObjectMessage.cpp.s
@@ -1351,7 +1351,7 @@ shared/centralGameServer/LoadObjectMessage.s: shared/centralGameServer/LoadObjec
 
 # target to generate assembly for a file
 shared/centralGameServer/LoadObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadObjectMessage.cpp.s
 .PHONY : shared/centralGameServer/LoadObjectMessage.cpp.s
 
 shared/centralGameServer/LoadUniverseMessage.o: shared/centralGameServer/LoadUniverseMessage.cpp.o
@@ -1359,7 +1359,7 @@ shared/centralGameServer/LoadUniverseMessage.o: shared/centralGameServer/LoadUni
 
 # target to build an object file
 shared/centralGameServer/LoadUniverseMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadUniverseMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadUniverseMessage.cpp.o
 .PHONY : shared/centralGameServer/LoadUniverseMessage.cpp.o
 
 shared/centralGameServer/LoadUniverseMessage.i: shared/centralGameServer/LoadUniverseMessage.cpp.i
@@ -1367,7 +1367,7 @@ shared/centralGameServer/LoadUniverseMessage.i: shared/centralGameServer/LoadUni
 
 # target to preprocess a source file
 shared/centralGameServer/LoadUniverseMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadUniverseMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadUniverseMessage.cpp.i
 .PHONY : shared/centralGameServer/LoadUniverseMessage.cpp.i
 
 shared/centralGameServer/LoadUniverseMessage.s: shared/centralGameServer/LoadUniverseMessage.cpp.s
@@ -1375,7 +1375,7 @@ shared/centralGameServer/LoadUniverseMessage.s: shared/centralGameServer/LoadUni
 
 # target to generate assembly for a file
 shared/centralGameServer/LoadUniverseMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadUniverseMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/LoadUniverseMessage.cpp.s
 .PHONY : shared/centralGameServer/LoadUniverseMessage.cpp.s
 
 shared/centralGameServer/MessageToAckMessage.o: shared/centralGameServer/MessageToAckMessage.cpp.o
@@ -1383,7 +1383,7 @@ shared/centralGameServer/MessageToAckMessage.o: shared/centralGameServer/Message
 
 # target to build an object file
 shared/centralGameServer/MessageToAckMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToAckMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToAckMessage.cpp.o
 .PHONY : shared/centralGameServer/MessageToAckMessage.cpp.o
 
 shared/centralGameServer/MessageToAckMessage.i: shared/centralGameServer/MessageToAckMessage.cpp.i
@@ -1391,7 +1391,7 @@ shared/centralGameServer/MessageToAckMessage.i: shared/centralGameServer/Message
 
 # target to preprocess a source file
 shared/centralGameServer/MessageToAckMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToAckMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToAckMessage.cpp.i
 .PHONY : shared/centralGameServer/MessageToAckMessage.cpp.i
 
 shared/centralGameServer/MessageToAckMessage.s: shared/centralGameServer/MessageToAckMessage.cpp.s
@@ -1399,7 +1399,7 @@ shared/centralGameServer/MessageToAckMessage.s: shared/centralGameServer/Message
 
 # target to generate assembly for a file
 shared/centralGameServer/MessageToAckMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToAckMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToAckMessage.cpp.s
 .PHONY : shared/centralGameServer/MessageToAckMessage.cpp.s
 
 shared/centralGameServer/MessageToMessage.o: shared/centralGameServer/MessageToMessage.cpp.o
@@ -1407,7 +1407,7 @@ shared/centralGameServer/MessageToMessage.o: shared/centralGameServer/MessageToM
 
 # target to build an object file
 shared/centralGameServer/MessageToMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToMessage.cpp.o
 .PHONY : shared/centralGameServer/MessageToMessage.cpp.o
 
 shared/centralGameServer/MessageToMessage.i: shared/centralGameServer/MessageToMessage.cpp.i
@@ -1415,7 +1415,7 @@ shared/centralGameServer/MessageToMessage.i: shared/centralGameServer/MessageToM
 
 # target to preprocess a source file
 shared/centralGameServer/MessageToMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToMessage.cpp.i
 .PHONY : shared/centralGameServer/MessageToMessage.cpp.i
 
 shared/centralGameServer/MessageToMessage.s: shared/centralGameServer/MessageToMessage.cpp.s
@@ -1423,7 +1423,7 @@ shared/centralGameServer/MessageToMessage.s: shared/centralGameServer/MessageToM
 
 # target to generate assembly for a file
 shared/centralGameServer/MessageToMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToMessage.cpp.s
 .PHONY : shared/centralGameServer/MessageToMessage.cpp.s
 
 shared/centralGameServer/MessageToPayload.o: shared/centralGameServer/MessageToPayload.cpp.o
@@ -1431,7 +1431,7 @@ shared/centralGameServer/MessageToPayload.o: shared/centralGameServer/MessageToP
 
 # target to build an object file
 shared/centralGameServer/MessageToPayload.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayload.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayload.cpp.o
 .PHONY : shared/centralGameServer/MessageToPayload.cpp.o
 
 shared/centralGameServer/MessageToPayload.i: shared/centralGameServer/MessageToPayload.cpp.i
@@ -1439,7 +1439,7 @@ shared/centralGameServer/MessageToPayload.i: shared/centralGameServer/MessageToP
 
 # target to preprocess a source file
 shared/centralGameServer/MessageToPayload.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayload.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayload.cpp.i
 .PHONY : shared/centralGameServer/MessageToPayload.cpp.i
 
 shared/centralGameServer/MessageToPayload.s: shared/centralGameServer/MessageToPayload.cpp.s
@@ -1447,7 +1447,7 @@ shared/centralGameServer/MessageToPayload.s: shared/centralGameServer/MessageToP
 
 # target to generate assembly for a file
 shared/centralGameServer/MessageToPayload.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayload.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayload.cpp.s
 .PHONY : shared/centralGameServer/MessageToPayload.cpp.s
 
 shared/centralGameServer/MessageToPayloadImpl.o: shared/centralGameServer/MessageToPayloadImpl.cpp.o
@@ -1455,7 +1455,7 @@ shared/centralGameServer/MessageToPayloadImpl.o: shared/centralGameServer/Messag
 
 # target to build an object file
 shared/centralGameServer/MessageToPayloadImpl.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayloadImpl.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayloadImpl.cpp.o
 .PHONY : shared/centralGameServer/MessageToPayloadImpl.cpp.o
 
 shared/centralGameServer/MessageToPayloadImpl.i: shared/centralGameServer/MessageToPayloadImpl.cpp.i
@@ -1463,7 +1463,7 @@ shared/centralGameServer/MessageToPayloadImpl.i: shared/centralGameServer/Messag
 
 # target to preprocess a source file
 shared/centralGameServer/MessageToPayloadImpl.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayloadImpl.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayloadImpl.cpp.i
 .PHONY : shared/centralGameServer/MessageToPayloadImpl.cpp.i
 
 shared/centralGameServer/MessageToPayloadImpl.s: shared/centralGameServer/MessageToPayloadImpl.cpp.s
@@ -1471,7 +1471,7 @@ shared/centralGameServer/MessageToPayloadImpl.s: shared/centralGameServer/Messag
 
 # target to generate assembly for a file
 shared/centralGameServer/MessageToPayloadImpl.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayloadImpl.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/MessageToPayloadImpl.cpp.s
 .PHONY : shared/centralGameServer/MessageToPayloadImpl.cpp.s
 
 shared/centralGameServer/PlanetObjectIdMessage.o: shared/centralGameServer/PlanetObjectIdMessage.cpp.o
@@ -1479,7 +1479,7 @@ shared/centralGameServer/PlanetObjectIdMessage.o: shared/centralGameServer/Plane
 
 # target to build an object file
 shared/centralGameServer/PlanetObjectIdMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PlanetObjectIdMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PlanetObjectIdMessage.cpp.o
 .PHONY : shared/centralGameServer/PlanetObjectIdMessage.cpp.o
 
 shared/centralGameServer/PlanetObjectIdMessage.i: shared/centralGameServer/PlanetObjectIdMessage.cpp.i
@@ -1487,7 +1487,7 @@ shared/centralGameServer/PlanetObjectIdMessage.i: shared/centralGameServer/Plane
 
 # target to preprocess a source file
 shared/centralGameServer/PlanetObjectIdMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PlanetObjectIdMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PlanetObjectIdMessage.cpp.i
 .PHONY : shared/centralGameServer/PlanetObjectIdMessage.cpp.i
 
 shared/centralGameServer/PlanetObjectIdMessage.s: shared/centralGameServer/PlanetObjectIdMessage.cpp.s
@@ -1495,7 +1495,7 @@ shared/centralGameServer/PlanetObjectIdMessage.s: shared/centralGameServer/Plane
 
 # target to generate assembly for a file
 shared/centralGameServer/PlanetObjectIdMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PlanetObjectIdMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PlanetObjectIdMessage.cpp.s
 .PHONY : shared/centralGameServer/PlanetObjectIdMessage.cpp.s
 
 shared/centralGameServer/PopulationListMessage.o: shared/centralGameServer/PopulationListMessage.cpp.o
@@ -1503,7 +1503,7 @@ shared/centralGameServer/PopulationListMessage.o: shared/centralGameServer/Popul
 
 # target to build an object file
 shared/centralGameServer/PopulationListMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PopulationListMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PopulationListMessage.cpp.o
 .PHONY : shared/centralGameServer/PopulationListMessage.cpp.o
 
 shared/centralGameServer/PopulationListMessage.i: shared/centralGameServer/PopulationListMessage.cpp.i
@@ -1511,7 +1511,7 @@ shared/centralGameServer/PopulationListMessage.i: shared/centralGameServer/Popul
 
 # target to preprocess a source file
 shared/centralGameServer/PopulationListMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PopulationListMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PopulationListMessage.cpp.i
 .PHONY : shared/centralGameServer/PopulationListMessage.cpp.i
 
 shared/centralGameServer/PopulationListMessage.s: shared/centralGameServer/PopulationListMessage.cpp.s
@@ -1519,7 +1519,7 @@ shared/centralGameServer/PopulationListMessage.s: shared/centralGameServer/Popul
 
 # target to generate assembly for a file
 shared/centralGameServer/PopulationListMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PopulationListMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PopulationListMessage.cpp.s
 .PHONY : shared/centralGameServer/PopulationListMessage.cpp.s
 
 shared/centralGameServer/PreloadFinishedMessage.o: shared/centralGameServer/PreloadFinishedMessage.cpp.o
@@ -1527,7 +1527,7 @@ shared/centralGameServer/PreloadFinishedMessage.o: shared/centralGameServer/Prel
 
 # target to build an object file
 shared/centralGameServer/PreloadFinishedMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadFinishedMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadFinishedMessage.cpp.o
 .PHONY : shared/centralGameServer/PreloadFinishedMessage.cpp.o
 
 shared/centralGameServer/PreloadFinishedMessage.i: shared/centralGameServer/PreloadFinishedMessage.cpp.i
@@ -1535,7 +1535,7 @@ shared/centralGameServer/PreloadFinishedMessage.i: shared/centralGameServer/Prel
 
 # target to preprocess a source file
 shared/centralGameServer/PreloadFinishedMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadFinishedMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadFinishedMessage.cpp.i
 .PHONY : shared/centralGameServer/PreloadFinishedMessage.cpp.i
 
 shared/centralGameServer/PreloadFinishedMessage.s: shared/centralGameServer/PreloadFinishedMessage.cpp.s
@@ -1543,7 +1543,7 @@ shared/centralGameServer/PreloadFinishedMessage.s: shared/centralGameServer/Prel
 
 # target to generate assembly for a file
 shared/centralGameServer/PreloadFinishedMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadFinishedMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadFinishedMessage.cpp.s
 .PHONY : shared/centralGameServer/PreloadFinishedMessage.cpp.s
 
 shared/centralGameServer/PreloadRequestCompleteMessage.o: shared/centralGameServer/PreloadRequestCompleteMessage.cpp.o
@@ -1551,7 +1551,7 @@ shared/centralGameServer/PreloadRequestCompleteMessage.o: shared/centralGameServ
 
 # target to build an object file
 shared/centralGameServer/PreloadRequestCompleteMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadRequestCompleteMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadRequestCompleteMessage.cpp.o
 .PHONY : shared/centralGameServer/PreloadRequestCompleteMessage.cpp.o
 
 shared/centralGameServer/PreloadRequestCompleteMessage.i: shared/centralGameServer/PreloadRequestCompleteMessage.cpp.i
@@ -1559,7 +1559,7 @@ shared/centralGameServer/PreloadRequestCompleteMessage.i: shared/centralGameServ
 
 # target to preprocess a source file
 shared/centralGameServer/PreloadRequestCompleteMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadRequestCompleteMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadRequestCompleteMessage.cpp.i
 .PHONY : shared/centralGameServer/PreloadRequestCompleteMessage.cpp.i
 
 shared/centralGameServer/PreloadRequestCompleteMessage.s: shared/centralGameServer/PreloadRequestCompleteMessage.cpp.s
@@ -1567,7 +1567,7 @@ shared/centralGameServer/PreloadRequestCompleteMessage.s: shared/centralGameServ
 
 # target to generate assembly for a file
 shared/centralGameServer/PreloadRequestCompleteMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadRequestCompleteMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/PreloadRequestCompleteMessage.cpp.s
 .PHONY : shared/centralGameServer/PreloadRequestCompleteMessage.cpp.s
 
 shared/centralGameServer/ReleaseAuthoritativeMessage.o: shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.o
@@ -1575,7 +1575,7 @@ shared/centralGameServer/ReleaseAuthoritativeMessage.o: shared/centralGameServer
 
 # target to build an object file
 shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.o
 .PHONY : shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.o
 
 shared/centralGameServer/ReleaseAuthoritativeMessage.i: shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.i
@@ -1583,7 +1583,7 @@ shared/centralGameServer/ReleaseAuthoritativeMessage.i: shared/centralGameServer
 
 # target to preprocess a source file
 shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.i
 .PHONY : shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.i
 
 shared/centralGameServer/ReleaseAuthoritativeMessage.s: shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.s
@@ -1591,7 +1591,7 @@ shared/centralGameServer/ReleaseAuthoritativeMessage.s: shared/centralGameServer
 
 # target to generate assembly for a file
 shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.s
 .PHONY : shared/centralGameServer/ReleaseAuthoritativeMessage.cpp.s
 
 shared/centralGameServer/RequestChunkMessage.o: shared/centralGameServer/RequestChunkMessage.cpp.o
@@ -1599,7 +1599,7 @@ shared/centralGameServer/RequestChunkMessage.o: shared/centralGameServer/Request
 
 # target to build an object file
 shared/centralGameServer/RequestChunkMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestChunkMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestChunkMessage.cpp.o
 .PHONY : shared/centralGameServer/RequestChunkMessage.cpp.o
 
 shared/centralGameServer/RequestChunkMessage.i: shared/centralGameServer/RequestChunkMessage.cpp.i
@@ -1607,7 +1607,7 @@ shared/centralGameServer/RequestChunkMessage.i: shared/centralGameServer/Request
 
 # target to preprocess a source file
 shared/centralGameServer/RequestChunkMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestChunkMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestChunkMessage.cpp.i
 .PHONY : shared/centralGameServer/RequestChunkMessage.cpp.i
 
 shared/centralGameServer/RequestChunkMessage.s: shared/centralGameServer/RequestChunkMessage.cpp.s
@@ -1615,7 +1615,7 @@ shared/centralGameServer/RequestChunkMessage.s: shared/centralGameServer/Request
 
 # target to generate assembly for a file
 shared/centralGameServer/RequestChunkMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestChunkMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestChunkMessage.cpp.s
 .PHONY : shared/centralGameServer/RequestChunkMessage.cpp.s
 
 shared/centralGameServer/RequestObjectIdsMessage.o: shared/centralGameServer/RequestObjectIdsMessage.cpp.o
@@ -1623,7 +1623,7 @@ shared/centralGameServer/RequestObjectIdsMessage.o: shared/centralGameServer/Req
 
 # target to build an object file
 shared/centralGameServer/RequestObjectIdsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectIdsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectIdsMessage.cpp.o
 .PHONY : shared/centralGameServer/RequestObjectIdsMessage.cpp.o
 
 shared/centralGameServer/RequestObjectIdsMessage.i: shared/centralGameServer/RequestObjectIdsMessage.cpp.i
@@ -1631,7 +1631,7 @@ shared/centralGameServer/RequestObjectIdsMessage.i: shared/centralGameServer/Req
 
 # target to preprocess a source file
 shared/centralGameServer/RequestObjectIdsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectIdsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectIdsMessage.cpp.i
 .PHONY : shared/centralGameServer/RequestObjectIdsMessage.cpp.i
 
 shared/centralGameServer/RequestObjectIdsMessage.s: shared/centralGameServer/RequestObjectIdsMessage.cpp.s
@@ -1639,7 +1639,7 @@ shared/centralGameServer/RequestObjectIdsMessage.s: shared/centralGameServer/Req
 
 # target to generate assembly for a file
 shared/centralGameServer/RequestObjectIdsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectIdsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectIdsMessage.cpp.s
 .PHONY : shared/centralGameServer/RequestObjectIdsMessage.cpp.s
 
 shared/centralGameServer/RequestObjectMessage.o: shared/centralGameServer/RequestObjectMessage.cpp.o
@@ -1647,7 +1647,7 @@ shared/centralGameServer/RequestObjectMessage.o: shared/centralGameServer/Reques
 
 # target to build an object file
 shared/centralGameServer/RequestObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectMessage.cpp.o
 .PHONY : shared/centralGameServer/RequestObjectMessage.cpp.o
 
 shared/centralGameServer/RequestObjectMessage.i: shared/centralGameServer/RequestObjectMessage.cpp.i
@@ -1655,7 +1655,7 @@ shared/centralGameServer/RequestObjectMessage.i: shared/centralGameServer/Reques
 
 # target to preprocess a source file
 shared/centralGameServer/RequestObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectMessage.cpp.i
 .PHONY : shared/centralGameServer/RequestObjectMessage.cpp.i
 
 shared/centralGameServer/RequestObjectMessage.s: shared/centralGameServer/RequestObjectMessage.cpp.s
@@ -1663,7 +1663,7 @@ shared/centralGameServer/RequestObjectMessage.s: shared/centralGameServer/Reques
 
 # target to generate assembly for a file
 shared/centralGameServer/RequestObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestObjectMessage.cpp.s
 .PHONY : shared/centralGameServer/RequestObjectMessage.cpp.s
 
 shared/centralGameServer/RequestPlanetObjectIdMessage.o: shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.o
@@ -1671,7 +1671,7 @@ shared/centralGameServer/RequestPlanetObjectIdMessage.o: shared/centralGameServe
 
 # target to build an object file
 shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.o
 .PHONY : shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.o
 
 shared/centralGameServer/RequestPlanetObjectIdMessage.i: shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.i
@@ -1679,7 +1679,7 @@ shared/centralGameServer/RequestPlanetObjectIdMessage.i: shared/centralGameServe
 
 # target to preprocess a source file
 shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.i
 .PHONY : shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.i
 
 shared/centralGameServer/RequestPlanetObjectIdMessage.s: shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.s
@@ -1687,7 +1687,7 @@ shared/centralGameServer/RequestPlanetObjectIdMessage.s: shared/centralGameServe
 
 # target to generate assembly for a file
 shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.s
 .PHONY : shared/centralGameServer/RequestPlanetObjectIdMessage.cpp.s
 
 shared/centralGameServer/RequestUnloadObjectMessage.o: shared/centralGameServer/RequestUnloadObjectMessage.cpp.o
@@ -1695,7 +1695,7 @@ shared/centralGameServer/RequestUnloadObjectMessage.o: shared/centralGameServer/
 
 # target to build an object file
 shared/centralGameServer/RequestUnloadObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestUnloadObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestUnloadObjectMessage.cpp.o
 .PHONY : shared/centralGameServer/RequestUnloadObjectMessage.cpp.o
 
 shared/centralGameServer/RequestUnloadObjectMessage.i: shared/centralGameServer/RequestUnloadObjectMessage.cpp.i
@@ -1703,7 +1703,7 @@ shared/centralGameServer/RequestUnloadObjectMessage.i: shared/centralGameServer/
 
 # target to preprocess a source file
 shared/centralGameServer/RequestUnloadObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestUnloadObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestUnloadObjectMessage.cpp.i
 .PHONY : shared/centralGameServer/RequestUnloadObjectMessage.cpp.i
 
 shared/centralGameServer/RequestUnloadObjectMessage.s: shared/centralGameServer/RequestUnloadObjectMessage.cpp.s
@@ -1711,7 +1711,7 @@ shared/centralGameServer/RequestUnloadObjectMessage.s: shared/centralGameServer/
 
 # target to generate assembly for a file
 shared/centralGameServer/RequestUnloadObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestUnloadObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/RequestUnloadObjectMessage.cpp.s
 .PHONY : shared/centralGameServer/RequestUnloadObjectMessage.cpp.s
 
 shared/centralGameServer/SceneTransferMessages.o: shared/centralGameServer/SceneTransferMessages.cpp.o
@@ -1719,7 +1719,7 @@ shared/centralGameServer/SceneTransferMessages.o: shared/centralGameServer/Scene
 
 # target to build an object file
 shared/centralGameServer/SceneTransferMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SceneTransferMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SceneTransferMessages.cpp.o
 .PHONY : shared/centralGameServer/SceneTransferMessages.cpp.o
 
 shared/centralGameServer/SceneTransferMessages.i: shared/centralGameServer/SceneTransferMessages.cpp.i
@@ -1727,7 +1727,7 @@ shared/centralGameServer/SceneTransferMessages.i: shared/centralGameServer/Scene
 
 # target to preprocess a source file
 shared/centralGameServer/SceneTransferMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SceneTransferMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SceneTransferMessages.cpp.i
 .PHONY : shared/centralGameServer/SceneTransferMessages.cpp.i
 
 shared/centralGameServer/SceneTransferMessages.s: shared/centralGameServer/SceneTransferMessages.cpp.s
@@ -1735,7 +1735,7 @@ shared/centralGameServer/SceneTransferMessages.s: shared/centralGameServer/Scene
 
 # target to generate assembly for a file
 shared/centralGameServer/SceneTransferMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SceneTransferMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SceneTransferMessages.cpp.s
 .PHONY : shared/centralGameServer/SceneTransferMessages.cpp.s
 
 shared/centralGameServer/SetAuthoritativeMessage.o: shared/centralGameServer/SetAuthoritativeMessage.cpp.o
@@ -1743,7 +1743,7 @@ shared/centralGameServer/SetAuthoritativeMessage.o: shared/centralGameServer/Set
 
 # target to build an object file
 shared/centralGameServer/SetAuthoritativeMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetAuthoritativeMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetAuthoritativeMessage.cpp.o
 .PHONY : shared/centralGameServer/SetAuthoritativeMessage.cpp.o
 
 shared/centralGameServer/SetAuthoritativeMessage.i: shared/centralGameServer/SetAuthoritativeMessage.cpp.i
@@ -1751,7 +1751,7 @@ shared/centralGameServer/SetAuthoritativeMessage.i: shared/centralGameServer/Set
 
 # target to preprocess a source file
 shared/centralGameServer/SetAuthoritativeMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetAuthoritativeMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetAuthoritativeMessage.cpp.i
 .PHONY : shared/centralGameServer/SetAuthoritativeMessage.cpp.i
 
 shared/centralGameServer/SetAuthoritativeMessage.s: shared/centralGameServer/SetAuthoritativeMessage.cpp.s
@@ -1759,7 +1759,7 @@ shared/centralGameServer/SetAuthoritativeMessage.s: shared/centralGameServer/Set
 
 # target to generate assembly for a file
 shared/centralGameServer/SetAuthoritativeMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetAuthoritativeMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetAuthoritativeMessage.cpp.s
 .PHONY : shared/centralGameServer/SetAuthoritativeMessage.cpp.s
 
 shared/centralGameServer/SetObjectPositionMessage.o: shared/centralGameServer/SetObjectPositionMessage.cpp.o
@@ -1767,7 +1767,7 @@ shared/centralGameServer/SetObjectPositionMessage.o: shared/centralGameServer/Se
 
 # target to build an object file
 shared/centralGameServer/SetObjectPositionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetObjectPositionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetObjectPositionMessage.cpp.o
 .PHONY : shared/centralGameServer/SetObjectPositionMessage.cpp.o
 
 shared/centralGameServer/SetObjectPositionMessage.i: shared/centralGameServer/SetObjectPositionMessage.cpp.i
@@ -1775,7 +1775,7 @@ shared/centralGameServer/SetObjectPositionMessage.i: shared/centralGameServer/Se
 
 # target to preprocess a source file
 shared/centralGameServer/SetObjectPositionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetObjectPositionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetObjectPositionMessage.cpp.i
 .PHONY : shared/centralGameServer/SetObjectPositionMessage.cpp.i
 
 shared/centralGameServer/SetObjectPositionMessage.s: shared/centralGameServer/SetObjectPositionMessage.cpp.s
@@ -1783,7 +1783,7 @@ shared/centralGameServer/SetObjectPositionMessage.s: shared/centralGameServer/Se
 
 # target to generate assembly for a file
 shared/centralGameServer/SetObjectPositionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetObjectPositionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetObjectPositionMessage.cpp.s
 .PHONY : shared/centralGameServer/SetObjectPositionMessage.cpp.s
 
 shared/centralGameServer/SetPlanetServerMessage.o: shared/centralGameServer/SetPlanetServerMessage.cpp.o
@@ -1791,7 +1791,7 @@ shared/centralGameServer/SetPlanetServerMessage.o: shared/centralGameServer/SetP
 
 # target to build an object file
 shared/centralGameServer/SetPlanetServerMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetPlanetServerMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetPlanetServerMessage.cpp.o
 .PHONY : shared/centralGameServer/SetPlanetServerMessage.cpp.o
 
 shared/centralGameServer/SetPlanetServerMessage.i: shared/centralGameServer/SetPlanetServerMessage.cpp.i
@@ -1799,7 +1799,7 @@ shared/centralGameServer/SetPlanetServerMessage.i: shared/centralGameServer/SetP
 
 # target to preprocess a source file
 shared/centralGameServer/SetPlanetServerMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetPlanetServerMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetPlanetServerMessage.cpp.i
 .PHONY : shared/centralGameServer/SetPlanetServerMessage.cpp.i
 
 shared/centralGameServer/SetPlanetServerMessage.s: shared/centralGameServer/SetPlanetServerMessage.cpp.s
@@ -1807,7 +1807,7 @@ shared/centralGameServer/SetPlanetServerMessage.s: shared/centralGameServer/SetP
 
 # target to generate assembly for a file
 shared/centralGameServer/SetPlanetServerMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetPlanetServerMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetPlanetServerMessage.cpp.s
 .PHONY : shared/centralGameServer/SetPlanetServerMessage.cpp.s
 
 shared/centralGameServer/SetUniverseAuthoritativeMessage.o: shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.o
@@ -1815,7 +1815,7 @@ shared/centralGameServer/SetUniverseAuthoritativeMessage.o: shared/centralGameSe
 
 # target to build an object file
 shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.o
 .PHONY : shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.o
 
 shared/centralGameServer/SetUniverseAuthoritativeMessage.i: shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.i
@@ -1823,7 +1823,7 @@ shared/centralGameServer/SetUniverseAuthoritativeMessage.i: shared/centralGameSe
 
 # target to preprocess a source file
 shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.i
 .PHONY : shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.i
 
 shared/centralGameServer/SetUniverseAuthoritativeMessage.s: shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.s
@@ -1831,7 +1831,7 @@ shared/centralGameServer/SetUniverseAuthoritativeMessage.s: shared/centralGameSe
 
 # target to generate assembly for a file
 shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.s
 .PHONY : shared/centralGameServer/SetUniverseAuthoritativeMessage.cpp.s
 
 shared/centralGameServer/StructureListMessage.o: shared/centralGameServer/StructureListMessage.cpp.o
@@ -1839,7 +1839,7 @@ shared/centralGameServer/StructureListMessage.o: shared/centralGameServer/Struct
 
 # target to build an object file
 shared/centralGameServer/StructureListMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/StructureListMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/StructureListMessage.cpp.o
 .PHONY : shared/centralGameServer/StructureListMessage.cpp.o
 
 shared/centralGameServer/StructureListMessage.i: shared/centralGameServer/StructureListMessage.cpp.i
@@ -1847,7 +1847,7 @@ shared/centralGameServer/StructureListMessage.i: shared/centralGameServer/Struct
 
 # target to preprocess a source file
 shared/centralGameServer/StructureListMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/StructureListMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/StructureListMessage.cpp.i
 .PHONY : shared/centralGameServer/StructureListMessage.cpp.i
 
 shared/centralGameServer/StructureListMessage.s: shared/centralGameServer/StructureListMessage.cpp.s
@@ -1855,7 +1855,7 @@ shared/centralGameServer/StructureListMessage.s: shared/centralGameServer/Struct
 
 # target to generate assembly for a file
 shared/centralGameServer/StructureListMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/StructureListMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/StructureListMessage.cpp.s
 .PHONY : shared/centralGameServer/StructureListMessage.cpp.s
 
 shared/centralGameServer/ToggleAvatarLoginStatus.o: shared/centralGameServer/ToggleAvatarLoginStatus.cpp.o
@@ -1863,7 +1863,7 @@ shared/centralGameServer/ToggleAvatarLoginStatus.o: shared/centralGameServer/Tog
 
 # target to build an object file
 shared/centralGameServer/ToggleAvatarLoginStatus.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ToggleAvatarLoginStatus.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ToggleAvatarLoginStatus.cpp.o
 .PHONY : shared/centralGameServer/ToggleAvatarLoginStatus.cpp.o
 
 shared/centralGameServer/ToggleAvatarLoginStatus.i: shared/centralGameServer/ToggleAvatarLoginStatus.cpp.i
@@ -1871,7 +1871,7 @@ shared/centralGameServer/ToggleAvatarLoginStatus.i: shared/centralGameServer/Tog
 
 # target to preprocess a source file
 shared/centralGameServer/ToggleAvatarLoginStatus.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ToggleAvatarLoginStatus.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ToggleAvatarLoginStatus.cpp.i
 .PHONY : shared/centralGameServer/ToggleAvatarLoginStatus.cpp.i
 
 shared/centralGameServer/ToggleAvatarLoginStatus.s: shared/centralGameServer/ToggleAvatarLoginStatus.cpp.s
@@ -1879,7 +1879,7 @@ shared/centralGameServer/ToggleAvatarLoginStatus.s: shared/centralGameServer/Tog
 
 # target to generate assembly for a file
 shared/centralGameServer/ToggleAvatarLoginStatus.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ToggleAvatarLoginStatus.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/ToggleAvatarLoginStatus.cpp.s
 .PHONY : shared/centralGameServer/ToggleAvatarLoginStatus.cpp.s
 
 shared/centralGameServer/UnloadObjectMessage.o: shared/centralGameServer/UnloadObjectMessage.cpp.o
@@ -1887,7 +1887,7 @@ shared/centralGameServer/UnloadObjectMessage.o: shared/centralGameServer/UnloadO
 
 # target to build an object file
 shared/centralGameServer/UnloadObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UnloadObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UnloadObjectMessage.cpp.o
 .PHONY : shared/centralGameServer/UnloadObjectMessage.cpp.o
 
 shared/centralGameServer/UnloadObjectMessage.i: shared/centralGameServer/UnloadObjectMessage.cpp.i
@@ -1895,7 +1895,7 @@ shared/centralGameServer/UnloadObjectMessage.i: shared/centralGameServer/UnloadO
 
 # target to preprocess a source file
 shared/centralGameServer/UnloadObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UnloadObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UnloadObjectMessage.cpp.i
 .PHONY : shared/centralGameServer/UnloadObjectMessage.cpp.i
 
 shared/centralGameServer/UnloadObjectMessage.s: shared/centralGameServer/UnloadObjectMessage.cpp.s
@@ -1903,7 +1903,7 @@ shared/centralGameServer/UnloadObjectMessage.s: shared/centralGameServer/UnloadO
 
 # target to generate assembly for a file
 shared/centralGameServer/UnloadObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UnloadObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UnloadObjectMessage.cpp.s
 .PHONY : shared/centralGameServer/UnloadObjectMessage.cpp.s
 
 shared/centralGameServer/UploadCharacterMessage.o: shared/centralGameServer/UploadCharacterMessage.cpp.o
@@ -1911,7 +1911,7 @@ shared/centralGameServer/UploadCharacterMessage.o: shared/centralGameServer/Uplo
 
 # target to build an object file
 shared/centralGameServer/UploadCharacterMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UploadCharacterMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UploadCharacterMessage.cpp.o
 .PHONY : shared/centralGameServer/UploadCharacterMessage.cpp.o
 
 shared/centralGameServer/UploadCharacterMessage.i: shared/centralGameServer/UploadCharacterMessage.cpp.i
@@ -1919,7 +1919,7 @@ shared/centralGameServer/UploadCharacterMessage.i: shared/centralGameServer/Uplo
 
 # target to preprocess a source file
 shared/centralGameServer/UploadCharacterMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UploadCharacterMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UploadCharacterMessage.cpp.i
 .PHONY : shared/centralGameServer/UploadCharacterMessage.cpp.i
 
 shared/centralGameServer/UploadCharacterMessage.s: shared/centralGameServer/UploadCharacterMessage.cpp.s
@@ -1927,7 +1927,7 @@ shared/centralGameServer/UploadCharacterMessage.s: shared/centralGameServer/Uplo
 
 # target to generate assembly for a file
 shared/centralGameServer/UploadCharacterMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UploadCharacterMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralGameServer/UploadCharacterMessage.cpp.s
 .PHONY : shared/centralGameServer/UploadCharacterMessage.cpp.s
 
 shared/centralPlanetServer/CentralPlanetServerConnect.o: shared/centralPlanetServer/CentralPlanetServerConnect.cpp.o
@@ -1935,7 +1935,7 @@ shared/centralPlanetServer/CentralPlanetServerConnect.o: shared/centralPlanetSer
 
 # target to build an object file
 shared/centralPlanetServer/CentralPlanetServerConnect.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/CentralPlanetServerConnect.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/CentralPlanetServerConnect.cpp.o
 .PHONY : shared/centralPlanetServer/CentralPlanetServerConnect.cpp.o
 
 shared/centralPlanetServer/CentralPlanetServerConnect.i: shared/centralPlanetServer/CentralPlanetServerConnect.cpp.i
@@ -1943,7 +1943,7 @@ shared/centralPlanetServer/CentralPlanetServerConnect.i: shared/centralPlanetSer
 
 # target to preprocess a source file
 shared/centralPlanetServer/CentralPlanetServerConnect.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/CentralPlanetServerConnect.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/CentralPlanetServerConnect.cpp.i
 .PHONY : shared/centralPlanetServer/CentralPlanetServerConnect.cpp.i
 
 shared/centralPlanetServer/CentralPlanetServerConnect.s: shared/centralPlanetServer/CentralPlanetServerConnect.cpp.s
@@ -1951,7 +1951,7 @@ shared/centralPlanetServer/CentralPlanetServerConnect.s: shared/centralPlanetSer
 
 # target to generate assembly for a file
 shared/centralPlanetServer/CentralPlanetServerConnect.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/CentralPlanetServerConnect.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/CentralPlanetServerConnect.cpp.s
 .PHONY : shared/centralPlanetServer/CentralPlanetServerConnect.cpp.s
 
 shared/centralPlanetServer/GameServerForLoginMessage.o: shared/centralPlanetServer/GameServerForLoginMessage.cpp.o
@@ -1959,7 +1959,7 @@ shared/centralPlanetServer/GameServerForLoginMessage.o: shared/centralPlanetServ
 
 # target to build an object file
 shared/centralPlanetServer/GameServerForLoginMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/GameServerForLoginMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/GameServerForLoginMessage.cpp.o
 .PHONY : shared/centralPlanetServer/GameServerForLoginMessage.cpp.o
 
 shared/centralPlanetServer/GameServerForLoginMessage.i: shared/centralPlanetServer/GameServerForLoginMessage.cpp.i
@@ -1967,7 +1967,7 @@ shared/centralPlanetServer/GameServerForLoginMessage.i: shared/centralPlanetServ
 
 # target to preprocess a source file
 shared/centralPlanetServer/GameServerForLoginMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/GameServerForLoginMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/GameServerForLoginMessage.cpp.i
 .PHONY : shared/centralPlanetServer/GameServerForLoginMessage.cpp.i
 
 shared/centralPlanetServer/GameServerForLoginMessage.s: shared/centralPlanetServer/GameServerForLoginMessage.cpp.s
@@ -1975,7 +1975,7 @@ shared/centralPlanetServer/GameServerForLoginMessage.s: shared/centralPlanetServ
 
 # target to generate assembly for a file
 shared/centralPlanetServer/GameServerForLoginMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/GameServerForLoginMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/GameServerForLoginMessage.cpp.s
 .PHONY : shared/centralPlanetServer/GameServerForLoginMessage.cpp.s
 
 shared/centralPlanetServer/RequestGameServerForLoginMessage.o: shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.o
@@ -1983,7 +1983,7 @@ shared/centralPlanetServer/RequestGameServerForLoginMessage.o: shared/centralPla
 
 # target to build an object file
 shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.o
 .PHONY : shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.o
 
 shared/centralPlanetServer/RequestGameServerForLoginMessage.i: shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.i
@@ -1991,7 +1991,7 @@ shared/centralPlanetServer/RequestGameServerForLoginMessage.i: shared/centralPla
 
 # target to preprocess a source file
 shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.i
 .PHONY : shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.i
 
 shared/centralPlanetServer/RequestGameServerForLoginMessage.s: shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.s
@@ -1999,7 +1999,7 @@ shared/centralPlanetServer/RequestGameServerForLoginMessage.s: shared/centralPla
 
 # target to generate assembly for a file
 shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.s
 .PHONY : shared/centralPlanetServer/RequestGameServerForLoginMessage.cpp.s
 
 shared/centralTaskManager/CentralTaskMessages.o: shared/centralTaskManager/CentralTaskMessages.cpp.o
@@ -2007,7 +2007,7 @@ shared/centralTaskManager/CentralTaskMessages.o: shared/centralTaskManager/Centr
 
 # target to build an object file
 shared/centralTaskManager/CentralTaskMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/CentralTaskMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/CentralTaskMessages.cpp.o
 .PHONY : shared/centralTaskManager/CentralTaskMessages.cpp.o
 
 shared/centralTaskManager/CentralTaskMessages.i: shared/centralTaskManager/CentralTaskMessages.cpp.i
@@ -2015,7 +2015,7 @@ shared/centralTaskManager/CentralTaskMessages.i: shared/centralTaskManager/Centr
 
 # target to preprocess a source file
 shared/centralTaskManager/CentralTaskMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/CentralTaskMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/CentralTaskMessages.cpp.i
 .PHONY : shared/centralTaskManager/CentralTaskMessages.cpp.i
 
 shared/centralTaskManager/CentralTaskMessages.s: shared/centralTaskManager/CentralTaskMessages.cpp.s
@@ -2023,7 +2023,7 @@ shared/centralTaskManager/CentralTaskMessages.s: shared/centralTaskManager/Centr
 
 # target to generate assembly for a file
 shared/centralTaskManager/CentralTaskMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/CentralTaskMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/CentralTaskMessages.cpp.s
 .PHONY : shared/centralTaskManager/CentralTaskMessages.cpp.s
 
 shared/centralTaskManager/TaskProcessDiedMessage.o: shared/centralTaskManager/TaskProcessDiedMessage.cpp.o
@@ -2031,7 +2031,7 @@ shared/centralTaskManager/TaskProcessDiedMessage.o: shared/centralTaskManager/Ta
 
 # target to build an object file
 shared/centralTaskManager/TaskProcessDiedMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/TaskProcessDiedMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/TaskProcessDiedMessage.cpp.o
 .PHONY : shared/centralTaskManager/TaskProcessDiedMessage.cpp.o
 
 shared/centralTaskManager/TaskProcessDiedMessage.i: shared/centralTaskManager/TaskProcessDiedMessage.cpp.i
@@ -2039,7 +2039,7 @@ shared/centralTaskManager/TaskProcessDiedMessage.i: shared/centralTaskManager/Ta
 
 # target to preprocess a source file
 shared/centralTaskManager/TaskProcessDiedMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/TaskProcessDiedMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/TaskProcessDiedMessage.cpp.i
 .PHONY : shared/centralTaskManager/TaskProcessDiedMessage.cpp.i
 
 shared/centralTaskManager/TaskProcessDiedMessage.s: shared/centralTaskManager/TaskProcessDiedMessage.cpp.s
@@ -2047,7 +2047,7 @@ shared/centralTaskManager/TaskProcessDiedMessage.s: shared/centralTaskManager/Ta
 
 # target to generate assembly for a file
 shared/centralTaskManager/TaskProcessDiedMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/TaskProcessDiedMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/centralTaskManager/TaskProcessDiedMessage.cpp.s
 .PHONY : shared/centralTaskManager/TaskProcessDiedMessage.cpp.s
 
 shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.o: shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.o
@@ -2055,7 +2055,7 @@ shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.o: shared/commoditiesSwg
 
 # target to build an object file
 shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.o
 
 shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.i: shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.i
@@ -2063,7 +2063,7 @@ shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.i: shared/commoditiesSwg
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.i
 
 shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.s: shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.s
@@ -2071,7 +2071,7 @@ shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.s: shared/commoditiesSwg
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/CMCreateAuctionBidMessage.cpp.s
 
 shared/commoditiesSwgDatabase/CMCreateAuctionMessage.o: shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.o
@@ -2079,7 +2079,7 @@ shared/commoditiesSwgDatabase/CMCreateAuctionMessage.o: shared/commoditiesSwgDat
 
 # target to build an object file
 shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.o
 
 shared/commoditiesSwgDatabase/CMCreateAuctionMessage.i: shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.i
@@ -2087,7 +2087,7 @@ shared/commoditiesSwgDatabase/CMCreateAuctionMessage.i: shared/commoditiesSwgDat
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.i
 
 shared/commoditiesSwgDatabase/CMCreateAuctionMessage.s: shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.s
@@ -2095,7 +2095,7 @@ shared/commoditiesSwgDatabase/CMCreateAuctionMessage.s: shared/commoditiesSwgDat
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/CMCreateAuctionMessage.cpp.s
 
 shared/commoditiesSwgDatabase/CMCreateLocationMessage.o: shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.o
@@ -2103,7 +2103,7 @@ shared/commoditiesSwgDatabase/CMCreateLocationMessage.o: shared/commoditiesSwgDa
 
 # target to build an object file
 shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.o
 
 shared/commoditiesSwgDatabase/CMCreateLocationMessage.i: shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.i
@@ -2111,7 +2111,7 @@ shared/commoditiesSwgDatabase/CMCreateLocationMessage.i: shared/commoditiesSwgDa
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.i
 
 shared/commoditiesSwgDatabase/CMCreateLocationMessage.s: shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.s
@@ -2119,7 +2119,7 @@ shared/commoditiesSwgDatabase/CMCreateLocationMessage.s: shared/commoditiesSwgDa
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/CMCreateLocationMessage.cpp.s
 
 shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.o: shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.o
@@ -2127,7 +2127,7 @@ shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.o: shared/commoditiesSwgDat
 
 # target to build an object file
 shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.o
 
 shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.i: shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.i
@@ -2135,7 +2135,7 @@ shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.i: shared/commoditiesSwgDat
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.i
 
 shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.s: shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.s
@@ -2143,7 +2143,7 @@ shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.s: shared/commoditiesSwgDat
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/CMDeleteAuctionMessage.cpp.s
 
 shared/commoditiesSwgDatabase/CMDeleteLocationMessage.o: shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.o
@@ -2151,7 +2151,7 @@ shared/commoditiesSwgDatabase/CMDeleteLocationMessage.o: shared/commoditiesSwgDa
 
 # target to build an object file
 shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.o
 
 shared/commoditiesSwgDatabase/CMDeleteLocationMessage.i: shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.i
@@ -2159,7 +2159,7 @@ shared/commoditiesSwgDatabase/CMDeleteLocationMessage.i: shared/commoditiesSwgDa
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.i
 
 shared/commoditiesSwgDatabase/CMDeleteLocationMessage.s: shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.s
@@ -2167,7 +2167,7 @@ shared/commoditiesSwgDatabase/CMDeleteLocationMessage.s: shared/commoditiesSwgDa
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/CMDeleteLocationMessage.cpp.s
 
 shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.o: shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.o
@@ -2175,7 +2175,7 @@ shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.o: shared/commoditiesSwgDat
 
 # target to build an object file
 shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.o
 
 shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.i: shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.i
@@ -2183,7 +2183,7 @@ shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.i: shared/commoditiesSwgDat
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.i
 
 shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.s: shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.s
@@ -2191,7 +2191,7 @@ shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.s: shared/commoditiesSwgDat
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/CMUpdateAuctionMessage.cpp.s
 
 shared/commoditiesSwgDatabase/CMUpdateLocationMessage.o: shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.o
@@ -2199,7 +2199,7 @@ shared/commoditiesSwgDatabase/CMUpdateLocationMessage.o: shared/commoditiesSwgDa
 
 # target to build an object file
 shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.o
 
 shared/commoditiesSwgDatabase/CMUpdateLocationMessage.i: shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.i
@@ -2207,7 +2207,7 @@ shared/commoditiesSwgDatabase/CMUpdateLocationMessage.i: shared/commoditiesSwgDa
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.i
 
 shared/commoditiesSwgDatabase/CMUpdateLocationMessage.s: shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.s
@@ -2215,7 +2215,7 @@ shared/commoditiesSwgDatabase/CMUpdateLocationMessage.s: shared/commoditiesSwgDa
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/CMUpdateLocationMessage.cpp.s
 
 shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.o: shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.o
@@ -2223,7 +2223,7 @@ shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.o: shared/commoditiesSw
 
 # target to build an object file
 shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.o
 
 shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.i: shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.i
@@ -2231,7 +2231,7 @@ shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.i: shared/commoditiesSw
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.i
 
 shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.s: shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.s
@@ -2239,7 +2239,7 @@ shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.s: shared/commoditiesSw
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/CommoditiesLoadDoneMessage.cpp.s
 
 shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.o: shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.o
@@ -2247,7 +2247,7 @@ shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.o: shared/commoditiesSw
 
 # target to build an object file
 shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.o
 
 shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.i: shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.i
@@ -2255,7 +2255,7 @@ shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.i: shared/commoditiesSw
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.i
 
 shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.s: shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.s
@@ -2263,7 +2263,7 @@ shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.s: shared/commoditiesSw
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/GetAuctionLocationsMessage.cpp.s
 
 shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.o: shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.o
@@ -2271,7 +2271,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.o: shared/commod
 
 # target to build an object file
 shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.o
 
 shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.i: shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.i
@@ -2279,7 +2279,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.i: shared/commod
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.i
 
 shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.s: shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.s
@@ -2287,7 +2287,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.s: shared/commod
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionAttributesMessage.cpp.s
 
 shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.o: shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.o
@@ -2295,7 +2295,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.o: shared/commoditiesS
 
 # target to build an object file
 shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.o
 
 shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.i: shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.i
@@ -2303,7 +2303,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.i: shared/commoditiesS
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.i
 
 shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.s: shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.s
@@ -2311,7 +2311,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.s: shared/commoditiesS
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionBidsMessage.cpp.s
 
 shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.o: shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.o
@@ -2319,7 +2319,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.o: shared/commoditiesSwgD
 
 # target to build an object file
 shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.o
 
 shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.i: shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.i
@@ -2327,7 +2327,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.i: shared/commoditiesSwgD
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.i
 
 shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.s: shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.s
@@ -2335,7 +2335,7 @@ shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.s: shared/commoditiesSwgD
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/GetMarketAuctionsMessage.cpp.s
 
 shared/commoditiesSwgDatabase/LoadCommoditiesMessage.o: shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.o
@@ -2343,7 +2343,7 @@ shared/commoditiesSwgDatabase/LoadCommoditiesMessage.o: shared/commoditiesSwgDat
 
 # target to build an object file
 shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.o
 .PHONY : shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.o
 
 shared/commoditiesSwgDatabase/LoadCommoditiesMessage.i: shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.i
@@ -2351,7 +2351,7 @@ shared/commoditiesSwgDatabase/LoadCommoditiesMessage.i: shared/commoditiesSwgDat
 
 # target to preprocess a source file
 shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.i
 .PHONY : shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.i
 
 shared/commoditiesSwgDatabase/LoadCommoditiesMessage.s: shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.s
@@ -2359,7 +2359,7 @@ shared/commoditiesSwgDatabase/LoadCommoditiesMessage.s: shared/commoditiesSwgDat
 
 # target to generate assembly for a file
 shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.s
 .PHONY : shared/commoditiesSwgDatabase/LoadCommoditiesMessage.cpp.s
 
 shared/core/SetupServerNetworkMessages.o: shared/core/SetupServerNetworkMessages.cpp.o
@@ -2367,7 +2367,7 @@ shared/core/SetupServerNetworkMessages.o: shared/core/SetupServerNetworkMessages
 
 # target to build an object file
 shared/core/SetupServerNetworkMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/SetupServerNetworkMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/SetupServerNetworkMessages.cpp.o
 .PHONY : shared/core/SetupServerNetworkMessages.cpp.o
 
 shared/core/SetupServerNetworkMessages.i: shared/core/SetupServerNetworkMessages.cpp.i
@@ -2375,7 +2375,7 @@ shared/core/SetupServerNetworkMessages.i: shared/core/SetupServerNetworkMessages
 
 # target to preprocess a source file
 shared/core/SetupServerNetworkMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/SetupServerNetworkMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/SetupServerNetworkMessages.cpp.i
 .PHONY : shared/core/SetupServerNetworkMessages.cpp.i
 
 shared/core/SetupServerNetworkMessages.s: shared/core/SetupServerNetworkMessages.cpp.s
@@ -2383,7 +2383,7 @@ shared/core/SetupServerNetworkMessages.s: shared/core/SetupServerNetworkMessages
 
 # target to generate assembly for a file
 shared/core/SetupServerNetworkMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/SetupServerNetworkMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/SetupServerNetworkMessages.cpp.s
 .PHONY : shared/core/SetupServerNetworkMessages.cpp.s
 
 shared/core/TaskConsoleCommand.o: shared/core/TaskConsoleCommand.cpp.o
@@ -2391,7 +2391,7 @@ shared/core/TaskConsoleCommand.o: shared/core/TaskConsoleCommand.cpp.o
 
 # target to build an object file
 shared/core/TaskConsoleCommand.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/TaskConsoleCommand.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/TaskConsoleCommand.cpp.o
 .PHONY : shared/core/TaskConsoleCommand.cpp.o
 
 shared/core/TaskConsoleCommand.i: shared/core/TaskConsoleCommand.cpp.i
@@ -2399,7 +2399,7 @@ shared/core/TaskConsoleCommand.i: shared/core/TaskConsoleCommand.cpp.i
 
 # target to preprocess a source file
 shared/core/TaskConsoleCommand.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/TaskConsoleCommand.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/TaskConsoleCommand.cpp.i
 .PHONY : shared/core/TaskConsoleCommand.cpp.i
 
 shared/core/TaskConsoleCommand.s: shared/core/TaskConsoleCommand.cpp.s
@@ -2407,7 +2407,7 @@ shared/core/TaskConsoleCommand.s: shared/core/TaskConsoleCommand.cpp.s
 
 # target to generate assembly for a file
 shared/core/TaskConsoleCommand.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/TaskConsoleCommand.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/core/TaskConsoleCommand.cpp.s
 .PHONY : shared/core/TaskConsoleCommand.cpp.s
 
 shared/gameCommoditiesServer/AcceptHighBidMessage.o: shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.o
@@ -2415,7 +2415,7 @@ shared/gameCommoditiesServer/AcceptHighBidMessage.o: shared/gameCommoditiesServe
 
 # target to build an object file
 shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.o
 
 shared/gameCommoditiesServer/AcceptHighBidMessage.i: shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.i
@@ -2423,7 +2423,7 @@ shared/gameCommoditiesServer/AcceptHighBidMessage.i: shared/gameCommoditiesServe
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.i
 
 shared/gameCommoditiesServer/AcceptHighBidMessage.s: shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.s
@@ -2431,7 +2431,7 @@ shared/gameCommoditiesServer/AcceptHighBidMessage.s: shared/gameCommoditiesServe
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/AcceptHighBidMessage.cpp.s
 
 shared/gameCommoditiesServer/AddAuctionMessage.o: shared/gameCommoditiesServer/AddAuctionMessage.cpp.o
@@ -2439,7 +2439,7 @@ shared/gameCommoditiesServer/AddAuctionMessage.o: shared/gameCommoditiesServer/A
 
 # target to build an object file
 shared/gameCommoditiesServer/AddAuctionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddAuctionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddAuctionMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/AddAuctionMessage.cpp.o
 
 shared/gameCommoditiesServer/AddAuctionMessage.i: shared/gameCommoditiesServer/AddAuctionMessage.cpp.i
@@ -2447,7 +2447,7 @@ shared/gameCommoditiesServer/AddAuctionMessage.i: shared/gameCommoditiesServer/A
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/AddAuctionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddAuctionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddAuctionMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/AddAuctionMessage.cpp.i
 
 shared/gameCommoditiesServer/AddAuctionMessage.s: shared/gameCommoditiesServer/AddAuctionMessage.cpp.s
@@ -2455,7 +2455,7 @@ shared/gameCommoditiesServer/AddAuctionMessage.s: shared/gameCommoditiesServer/A
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/AddAuctionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddAuctionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddAuctionMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/AddAuctionMessage.cpp.s
 
 shared/gameCommoditiesServer/AddBidMessage.o: shared/gameCommoditiesServer/AddBidMessage.cpp.o
@@ -2463,7 +2463,7 @@ shared/gameCommoditiesServer/AddBidMessage.o: shared/gameCommoditiesServer/AddBi
 
 # target to build an object file
 shared/gameCommoditiesServer/AddBidMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddBidMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddBidMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/AddBidMessage.cpp.o
 
 shared/gameCommoditiesServer/AddBidMessage.i: shared/gameCommoditiesServer/AddBidMessage.cpp.i
@@ -2471,7 +2471,7 @@ shared/gameCommoditiesServer/AddBidMessage.i: shared/gameCommoditiesServer/AddBi
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/AddBidMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddBidMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddBidMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/AddBidMessage.cpp.i
 
 shared/gameCommoditiesServer/AddBidMessage.s: shared/gameCommoditiesServer/AddBidMessage.cpp.s
@@ -2479,7 +2479,7 @@ shared/gameCommoditiesServer/AddBidMessage.s: shared/gameCommoditiesServer/AddBi
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/AddBidMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddBidMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddBidMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/AddBidMessage.cpp.s
 
 shared/gameCommoditiesServer/AddImmediateAuctionMessage.o: shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.o
@@ -2487,7 +2487,7 @@ shared/gameCommoditiesServer/AddImmediateAuctionMessage.o: shared/gameCommoditie
 
 # target to build an object file
 shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.o
 
 shared/gameCommoditiesServer/AddImmediateAuctionMessage.i: shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.i
@@ -2495,7 +2495,7 @@ shared/gameCommoditiesServer/AddImmediateAuctionMessage.i: shared/gameCommoditie
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.i
 
 shared/gameCommoditiesServer/AddImmediateAuctionMessage.s: shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.s
@@ -2503,7 +2503,7 @@ shared/gameCommoditiesServer/AddImmediateAuctionMessage.s: shared/gameCommoditie
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/AddImmediateAuctionMessage.cpp.s
 
 shared/gameCommoditiesServer/AuctionData.o: shared/gameCommoditiesServer/AuctionData.cpp.o
@@ -2511,7 +2511,7 @@ shared/gameCommoditiesServer/AuctionData.o: shared/gameCommoditiesServer/Auction
 
 # target to build an object file
 shared/gameCommoditiesServer/AuctionData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AuctionData.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AuctionData.cpp.o
 .PHONY : shared/gameCommoditiesServer/AuctionData.cpp.o
 
 shared/gameCommoditiesServer/AuctionData.i: shared/gameCommoditiesServer/AuctionData.cpp.i
@@ -2519,7 +2519,7 @@ shared/gameCommoditiesServer/AuctionData.i: shared/gameCommoditiesServer/Auction
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/AuctionData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AuctionData.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AuctionData.cpp.i
 .PHONY : shared/gameCommoditiesServer/AuctionData.cpp.i
 
 shared/gameCommoditiesServer/AuctionData.s: shared/gameCommoditiesServer/AuctionData.cpp.s
@@ -2527,7 +2527,7 @@ shared/gameCommoditiesServer/AuctionData.s: shared/gameCommoditiesServer/Auction
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/AuctionData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AuctionData.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/AuctionData.cpp.s
 .PHONY : shared/gameCommoditiesServer/AuctionData.cpp.s
 
 shared/gameCommoditiesServer/CancelAuctionMessage.o: shared/gameCommoditiesServer/CancelAuctionMessage.cpp.o
@@ -2535,7 +2535,7 @@ shared/gameCommoditiesServer/CancelAuctionMessage.o: shared/gameCommoditiesServe
 
 # target to build an object file
 shared/gameCommoditiesServer/CancelAuctionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CancelAuctionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CancelAuctionMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/CancelAuctionMessage.cpp.o
 
 shared/gameCommoditiesServer/CancelAuctionMessage.i: shared/gameCommoditiesServer/CancelAuctionMessage.cpp.i
@@ -2543,7 +2543,7 @@ shared/gameCommoditiesServer/CancelAuctionMessage.i: shared/gameCommoditiesServe
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/CancelAuctionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CancelAuctionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CancelAuctionMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/CancelAuctionMessage.cpp.i
 
 shared/gameCommoditiesServer/CancelAuctionMessage.s: shared/gameCommoditiesServer/CancelAuctionMessage.cpp.s
@@ -2551,7 +2551,7 @@ shared/gameCommoditiesServer/CancelAuctionMessage.s: shared/gameCommoditiesServe
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/CancelAuctionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CancelAuctionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CancelAuctionMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/CancelAuctionMessage.cpp.s
 
 shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.o: shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.o
@@ -2559,7 +2559,7 @@ shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.o: shared/gameCo
 
 # target to build an object file
 shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.o
 
 shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.i: shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.i
@@ -2567,7 +2567,7 @@ shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.i: shared/gameCo
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.i
 
 shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.s: shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.s
@@ -2575,7 +2575,7 @@ shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.s: shared/gameCo
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/CleanupInvalidItemRetrievalMessage.cpp.s
 
 shared/gameCommoditiesServer/CreateVendorMarketMessage.o: shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.o
@@ -2583,7 +2583,7 @@ shared/gameCommoditiesServer/CreateVendorMarketMessage.o: shared/gameCommodities
 
 # target to build an object file
 shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.o
 
 shared/gameCommoditiesServer/CreateVendorMarketMessage.i: shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.i
@@ -2591,7 +2591,7 @@ shared/gameCommoditiesServer/CreateVendorMarketMessage.i: shared/gameCommodities
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.i
 
 shared/gameCommoditiesServer/CreateVendorMarketMessage.s: shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.s
@@ -2599,7 +2599,7 @@ shared/gameCommoditiesServer/CreateVendorMarketMessage.s: shared/gameCommodities
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/CreateVendorMarketMessage.cpp.s
 
 shared/gameCommoditiesServer/DeleteAuctionLocationMessage.o: shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.o
@@ -2607,7 +2607,7 @@ shared/gameCommoditiesServer/DeleteAuctionLocationMessage.o: shared/gameCommodit
 
 # target to build an object file
 shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.o
 
 shared/gameCommoditiesServer/DeleteAuctionLocationMessage.i: shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.i
@@ -2615,7 +2615,7 @@ shared/gameCommoditiesServer/DeleteAuctionLocationMessage.i: shared/gameCommodit
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.i
 
 shared/gameCommoditiesServer/DeleteAuctionLocationMessage.s: shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.s
@@ -2623,7 +2623,7 @@ shared/gameCommoditiesServer/DeleteAuctionLocationMessage.s: shared/gameCommodit
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/DeleteAuctionLocationMessage.cpp.s
 
 shared/gameCommoditiesServer/DestroyVendorMarketMessage.o: shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.o
@@ -2631,7 +2631,7 @@ shared/gameCommoditiesServer/DestroyVendorMarketMessage.o: shared/gameCommoditie
 
 # target to build an object file
 shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.o
 
 shared/gameCommoditiesServer/DestroyVendorMarketMessage.i: shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.i
@@ -2639,7 +2639,7 @@ shared/gameCommoditiesServer/DestroyVendorMarketMessage.i: shared/gameCommoditie
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.i
 
 shared/gameCommoditiesServer/DestroyVendorMarketMessage.s: shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.s
@@ -2647,7 +2647,7 @@ shared/gameCommoditiesServer/DestroyVendorMarketMessage.s: shared/gameCommoditie
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/DestroyVendorMarketMessage.cpp.s
 
 shared/gameCommoditiesServer/GetItemDetailsMessage.o: shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.o
@@ -2655,7 +2655,7 @@ shared/gameCommoditiesServer/GetItemDetailsMessage.o: shared/gameCommoditiesServ
 
 # target to build an object file
 shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.o
 
 shared/gameCommoditiesServer/GetItemDetailsMessage.i: shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.i
@@ -2663,7 +2663,7 @@ shared/gameCommoditiesServer/GetItemDetailsMessage.i: shared/gameCommoditiesServ
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.i
 
 shared/gameCommoditiesServer/GetItemDetailsMessage.s: shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.s
@@ -2671,7 +2671,7 @@ shared/gameCommoditiesServer/GetItemDetailsMessage.s: shared/gameCommoditiesServ
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/GetItemDetailsMessage.cpp.s
 
 shared/gameCommoditiesServer/GetItemMessage.o: shared/gameCommoditiesServer/GetItemMessage.cpp.o
@@ -2679,7 +2679,7 @@ shared/gameCommoditiesServer/GetItemMessage.o: shared/gameCommoditiesServer/GetI
 
 # target to build an object file
 shared/gameCommoditiesServer/GetItemMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/GetItemMessage.cpp.o
 
 shared/gameCommoditiesServer/GetItemMessage.i: shared/gameCommoditiesServer/GetItemMessage.cpp.i
@@ -2687,7 +2687,7 @@ shared/gameCommoditiesServer/GetItemMessage.i: shared/gameCommoditiesServer/GetI
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/GetItemMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/GetItemMessage.cpp.i
 
 shared/gameCommoditiesServer/GetItemMessage.s: shared/gameCommoditiesServer/GetItemMessage.cpp.s
@@ -2695,7 +2695,7 @@ shared/gameCommoditiesServer/GetItemMessage.s: shared/gameCommoditiesServer/GetI
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/GetItemMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetItemMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/GetItemMessage.cpp.s
 
 shared/gameCommoditiesServer/GetPlayerVendorCountMessage.o: shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.o
@@ -2703,7 +2703,7 @@ shared/gameCommoditiesServer/GetPlayerVendorCountMessage.o: shared/gameCommoditi
 
 # target to build an object file
 shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.o
 
 shared/gameCommoditiesServer/GetPlayerVendorCountMessage.i: shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.i
@@ -2711,7 +2711,7 @@ shared/gameCommoditiesServer/GetPlayerVendorCountMessage.i: shared/gameCommoditi
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.i
 
 shared/gameCommoditiesServer/GetPlayerVendorCountMessage.s: shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.s
@@ -2719,7 +2719,7 @@ shared/gameCommoditiesServer/GetPlayerVendorCountMessage.s: shared/gameCommoditi
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/GetPlayerVendorCountMessage.cpp.s
 
 shared/gameCommoditiesServer/GetVendorOwnerMessage.o: shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.o
@@ -2727,7 +2727,7 @@ shared/gameCommoditiesServer/GetVendorOwnerMessage.o: shared/gameCommoditiesServ
 
 # target to build an object file
 shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.o
 
 shared/gameCommoditiesServer/GetVendorOwnerMessage.i: shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.i
@@ -2735,7 +2735,7 @@ shared/gameCommoditiesServer/GetVendorOwnerMessage.i: shared/gameCommoditiesServ
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.i
 
 shared/gameCommoditiesServer/GetVendorOwnerMessage.s: shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.s
@@ -2743,7 +2743,7 @@ shared/gameCommoditiesServer/GetVendorOwnerMessage.s: shared/gameCommoditiesServ
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/GetVendorOwnerMessage.cpp.s
 
 shared/gameCommoditiesServer/GetVendorValueMessage.o: shared/gameCommoditiesServer/GetVendorValueMessage.cpp.o
@@ -2751,7 +2751,7 @@ shared/gameCommoditiesServer/GetVendorValueMessage.o: shared/gameCommoditiesServ
 
 # target to build an object file
 shared/gameCommoditiesServer/GetVendorValueMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorValueMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorValueMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/GetVendorValueMessage.cpp.o
 
 shared/gameCommoditiesServer/GetVendorValueMessage.i: shared/gameCommoditiesServer/GetVendorValueMessage.cpp.i
@@ -2759,7 +2759,7 @@ shared/gameCommoditiesServer/GetVendorValueMessage.i: shared/gameCommoditiesServ
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/GetVendorValueMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorValueMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorValueMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/GetVendorValueMessage.cpp.i
 
 shared/gameCommoditiesServer/GetVendorValueMessage.s: shared/gameCommoditiesServer/GetVendorValueMessage.cpp.s
@@ -2767,7 +2767,7 @@ shared/gameCommoditiesServer/GetVendorValueMessage.s: shared/gameCommoditiesServ
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/GetVendorValueMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorValueMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/GetVendorValueMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/GetVendorValueMessage.cpp.s
 
 shared/gameCommoditiesServer/ItemMovedMessage.o: shared/gameCommoditiesServer/ItemMovedMessage.cpp.o
@@ -2775,7 +2775,7 @@ shared/gameCommoditiesServer/ItemMovedMessage.o: shared/gameCommoditiesServer/It
 
 # target to build an object file
 shared/gameCommoditiesServer/ItemMovedMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/ItemMovedMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/ItemMovedMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/ItemMovedMessage.cpp.o
 
 shared/gameCommoditiesServer/ItemMovedMessage.i: shared/gameCommoditiesServer/ItemMovedMessage.cpp.i
@@ -2783,7 +2783,7 @@ shared/gameCommoditiesServer/ItemMovedMessage.i: shared/gameCommoditiesServer/It
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/ItemMovedMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/ItemMovedMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/ItemMovedMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/ItemMovedMessage.cpp.i
 
 shared/gameCommoditiesServer/ItemMovedMessage.s: shared/gameCommoditiesServer/ItemMovedMessage.cpp.s
@@ -2791,7 +2791,7 @@ shared/gameCommoditiesServer/ItemMovedMessage.s: shared/gameCommoditiesServer/It
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/ItemMovedMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/ItemMovedMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/ItemMovedMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/ItemMovedMessage.cpp.s
 
 shared/gameCommoditiesServer/OnAcceptHighBidMessage.o: shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.o
@@ -2799,7 +2799,7 @@ shared/gameCommoditiesServer/OnAcceptHighBidMessage.o: shared/gameCommoditiesSer
 
 # target to build an object file
 shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.o
 
 shared/gameCommoditiesServer/OnAcceptHighBidMessage.i: shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.i
@@ -2807,7 +2807,7 @@ shared/gameCommoditiesServer/OnAcceptHighBidMessage.i: shared/gameCommoditiesSer
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.i
 
 shared/gameCommoditiesServer/OnAcceptHighBidMessage.s: shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.s
@@ -2815,7 +2815,7 @@ shared/gameCommoditiesServer/OnAcceptHighBidMessage.s: shared/gameCommoditiesSer
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnAcceptHighBidMessage.cpp.s
 
 shared/gameCommoditiesServer/OnAddAuctionMessage.o: shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.o
@@ -2823,7 +2823,7 @@ shared/gameCommoditiesServer/OnAddAuctionMessage.o: shared/gameCommoditiesServer
 
 # target to build an object file
 shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.o
 
 shared/gameCommoditiesServer/OnAddAuctionMessage.i: shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.i
@@ -2831,7 +2831,7 @@ shared/gameCommoditiesServer/OnAddAuctionMessage.i: shared/gameCommoditiesServer
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.i
 
 shared/gameCommoditiesServer/OnAddAuctionMessage.s: shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.s
@@ -2839,7 +2839,7 @@ shared/gameCommoditiesServer/OnAddAuctionMessage.s: shared/gameCommoditiesServer
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnAddAuctionMessage.cpp.s
 
 shared/gameCommoditiesServer/OnAddBidMessage.o: shared/gameCommoditiesServer/OnAddBidMessage.cpp.o
@@ -2847,7 +2847,7 @@ shared/gameCommoditiesServer/OnAddBidMessage.o: shared/gameCommoditiesServer/OnA
 
 # target to build an object file
 shared/gameCommoditiesServer/OnAddBidMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddBidMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddBidMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnAddBidMessage.cpp.o
 
 shared/gameCommoditiesServer/OnAddBidMessage.i: shared/gameCommoditiesServer/OnAddBidMessage.cpp.i
@@ -2855,7 +2855,7 @@ shared/gameCommoditiesServer/OnAddBidMessage.i: shared/gameCommoditiesServer/OnA
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnAddBidMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddBidMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddBidMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnAddBidMessage.cpp.i
 
 shared/gameCommoditiesServer/OnAddBidMessage.s: shared/gameCommoditiesServer/OnAddBidMessage.cpp.s
@@ -2863,7 +2863,7 @@ shared/gameCommoditiesServer/OnAddBidMessage.s: shared/gameCommoditiesServer/OnA
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnAddBidMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddBidMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAddBidMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnAddBidMessage.cpp.s
 
 shared/gameCommoditiesServer/OnAuctionExpiredMessage.o: shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.o
@@ -2871,7 +2871,7 @@ shared/gameCommoditiesServer/OnAuctionExpiredMessage.o: shared/gameCommoditiesSe
 
 # target to build an object file
 shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.o
 
 shared/gameCommoditiesServer/OnAuctionExpiredMessage.i: shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.i
@@ -2879,7 +2879,7 @@ shared/gameCommoditiesServer/OnAuctionExpiredMessage.i: shared/gameCommoditiesSe
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.i
 
 shared/gameCommoditiesServer/OnAuctionExpiredMessage.s: shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.s
@@ -2887,7 +2887,7 @@ shared/gameCommoditiesServer/OnAuctionExpiredMessage.s: shared/gameCommoditiesSe
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnAuctionExpiredMessage.cpp.s
 
 shared/gameCommoditiesServer/OnCancelAuctionMessage.o: shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.o
@@ -2895,7 +2895,7 @@ shared/gameCommoditiesServer/OnCancelAuctionMessage.o: shared/gameCommoditiesSer
 
 # target to build an object file
 shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.o
 
 shared/gameCommoditiesServer/OnCancelAuctionMessage.i: shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.i
@@ -2903,7 +2903,7 @@ shared/gameCommoditiesServer/OnCancelAuctionMessage.i: shared/gameCommoditiesSer
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.i
 
 shared/gameCommoditiesServer/OnCancelAuctionMessage.s: shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.s
@@ -2911,7 +2911,7 @@ shared/gameCommoditiesServer/OnCancelAuctionMessage.s: shared/gameCommoditiesSer
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnCancelAuctionMessage.cpp.s
 
 shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.o: shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.o
@@ -2919,7 +2919,7 @@ shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.o: shared/game
 
 # target to build an object file
 shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.o
 
 shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.i: shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.i
@@ -2927,7 +2927,7 @@ shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.i: shared/game
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.i
 
 shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.s: shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.s
@@ -2935,7 +2935,7 @@ shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.s: shared/game
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnCleanupInvalidItemRetrievalMessage.cpp.s
 
 shared/gameCommoditiesServer/OnCreateVendorMarketMessage.o: shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.o
@@ -2943,7 +2943,7 @@ shared/gameCommoditiesServer/OnCreateVendorMarketMessage.o: shared/gameCommoditi
 
 # target to build an object file
 shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.o
 
 shared/gameCommoditiesServer/OnCreateVendorMarketMessage.i: shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.i
@@ -2951,7 +2951,7 @@ shared/gameCommoditiesServer/OnCreateVendorMarketMessage.i: shared/gameCommoditi
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.i
 
 shared/gameCommoditiesServer/OnCreateVendorMarketMessage.s: shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.s
@@ -2959,7 +2959,7 @@ shared/gameCommoditiesServer/OnCreateVendorMarketMessage.s: shared/gameCommoditi
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnCreateVendorMarketMessage.cpp.s
 
 shared/gameCommoditiesServer/OnGetItemDetailsMessage.o: shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.o
@@ -2967,7 +2967,7 @@ shared/gameCommoditiesServer/OnGetItemDetailsMessage.o: shared/gameCommoditiesSe
 
 # target to build an object file
 shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.o
 
 shared/gameCommoditiesServer/OnGetItemDetailsMessage.i: shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.i
@@ -2975,7 +2975,7 @@ shared/gameCommoditiesServer/OnGetItemDetailsMessage.i: shared/gameCommoditiesSe
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.i
 
 shared/gameCommoditiesServer/OnGetItemDetailsMessage.s: shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.s
@@ -2983,7 +2983,7 @@ shared/gameCommoditiesServer/OnGetItemDetailsMessage.s: shared/gameCommoditiesSe
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnGetItemDetailsMessage.cpp.s
 
 shared/gameCommoditiesServer/OnGetItemMessage.o: shared/gameCommoditiesServer/OnGetItemMessage.cpp.o
@@ -2991,7 +2991,7 @@ shared/gameCommoditiesServer/OnGetItemMessage.o: shared/gameCommoditiesServer/On
 
 # target to build an object file
 shared/gameCommoditiesServer/OnGetItemMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnGetItemMessage.cpp.o
 
 shared/gameCommoditiesServer/OnGetItemMessage.i: shared/gameCommoditiesServer/OnGetItemMessage.cpp.i
@@ -2999,7 +2999,7 @@ shared/gameCommoditiesServer/OnGetItemMessage.i: shared/gameCommoditiesServer/On
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnGetItemMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnGetItemMessage.cpp.i
 
 shared/gameCommoditiesServer/OnGetItemMessage.s: shared/gameCommoditiesServer/OnGetItemMessage.cpp.s
@@ -3007,7 +3007,7 @@ shared/gameCommoditiesServer/OnGetItemMessage.s: shared/gameCommoditiesServer/On
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnGetItemMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetItemMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnGetItemMessage.cpp.s
 
 shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.o: shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.o
@@ -3015,7 +3015,7 @@ shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.o: shared/gameCommodi
 
 # target to build an object file
 shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.o
 
 shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.i: shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.i
@@ -3023,7 +3023,7 @@ shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.i: shared/gameCommodi
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.i
 
 shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.s: shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.s
@@ -3031,7 +3031,7 @@ shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.s: shared/gameCommodi
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnGetPlayerVendorCountMessage.cpp.s
 
 shared/gameCommoditiesServer/OnGetVendorOwnerMessage.o: shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.o
@@ -3039,7 +3039,7 @@ shared/gameCommoditiesServer/OnGetVendorOwnerMessage.o: shared/gameCommoditiesSe
 
 # target to build an object file
 shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.o
 
 shared/gameCommoditiesServer/OnGetVendorOwnerMessage.i: shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.i
@@ -3047,7 +3047,7 @@ shared/gameCommoditiesServer/OnGetVendorOwnerMessage.i: shared/gameCommoditiesSe
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.i
 
 shared/gameCommoditiesServer/OnGetVendorOwnerMessage.s: shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.s
@@ -3055,7 +3055,7 @@ shared/gameCommoditiesServer/OnGetVendorOwnerMessage.s: shared/gameCommoditiesSe
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnGetVendorOwnerMessage.cpp.s
 
 shared/gameCommoditiesServer/OnGetVendorValueMessage.o: shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.o
@@ -3063,7 +3063,7 @@ shared/gameCommoditiesServer/OnGetVendorValueMessage.o: shared/gameCommoditiesSe
 
 # target to build an object file
 shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.o
 
 shared/gameCommoditiesServer/OnGetVendorValueMessage.i: shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.i
@@ -3071,7 +3071,7 @@ shared/gameCommoditiesServer/OnGetVendorValueMessage.i: shared/gameCommoditiesSe
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.i
 
 shared/gameCommoditiesServer/OnGetVendorValueMessage.s: shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.s
@@ -3079,7 +3079,7 @@ shared/gameCommoditiesServer/OnGetVendorValueMessage.s: shared/gameCommoditiesSe
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnGetVendorValueMessage.cpp.s
 
 shared/gameCommoditiesServer/OnItemExpiredMessage.o: shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.o
@@ -3087,7 +3087,7 @@ shared/gameCommoditiesServer/OnItemExpiredMessage.o: shared/gameCommoditiesServe
 
 # target to build an object file
 shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.o
 
 shared/gameCommoditiesServer/OnItemExpiredMessage.i: shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.i
@@ -3095,7 +3095,7 @@ shared/gameCommoditiesServer/OnItemExpiredMessage.i: shared/gameCommoditiesServe
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.i
 
 shared/gameCommoditiesServer/OnItemExpiredMessage.s: shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.s
@@ -3103,7 +3103,7 @@ shared/gameCommoditiesServer/OnItemExpiredMessage.s: shared/gameCommoditiesServe
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnItemExpiredMessage.cpp.s
 
 shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.o: shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.o
@@ -3111,7 +3111,7 @@ shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.o: shared/gameCo
 
 # target to build an object file
 shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.o
 
 shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.i: shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.i
@@ -3119,7 +3119,7 @@ shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.i: shared/gameCo
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.i
 
 shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.s: shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.s
@@ -3127,7 +3127,7 @@ shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.s: shared/gameCo
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnPermanentAuctionPurchasedMessage.cpp.s
 
 shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.o: shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.o
@@ -3135,7 +3135,7 @@ shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.o: shared/gameCommodit
 
 # target to build an object file
 shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.o
 
 shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.i: shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.i
@@ -3143,7 +3143,7 @@ shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.i: shared/gameCommodit
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.i
 
 shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.s: shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.s
@@ -3151,7 +3151,7 @@ shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.s: shared/gameCommodit
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnQueryAuctionHeadersMessage.cpp.s
 
 shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.o: shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.o
@@ -3159,7 +3159,7 @@ shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.o: shared/gameCo
 
 # target to build an object file
 shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.o
 
 shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.i: shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.i
@@ -3167,7 +3167,7 @@ shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.i: shared/gameCo
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.i
 
 shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.s: shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.s
@@ -3175,7 +3175,7 @@ shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.s: shared/gameCo
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnQueryVendorItemCountReplyMessage.cpp.s
 
 shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.o: shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.o
@@ -3183,7 +3183,7 @@ shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.o: shared/gameCom
 
 # target to build an object file
 shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.o
 
 shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.i: shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.i
@@ -3191,7 +3191,7 @@ shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.i: shared/gameCom
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.i
 
 shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.s: shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.s
@@ -3199,7 +3199,7 @@ shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.s: shared/gameCom
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnUpdateVendorSearchOptionMessage.cpp.s
 
 shared/gameCommoditiesServer/OnVendorRefuseItemMessage.o: shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.o
@@ -3207,7 +3207,7 @@ shared/gameCommoditiesServer/OnVendorRefuseItemMessage.o: shared/gameCommodities
 
 # target to build an object file
 shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.o
 
 shared/gameCommoditiesServer/OnVendorRefuseItemMessage.i: shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.i
@@ -3215,7 +3215,7 @@ shared/gameCommoditiesServer/OnVendorRefuseItemMessage.i: shared/gameCommodities
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.i
 
 shared/gameCommoditiesServer/OnVendorRefuseItemMessage.s: shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.s
@@ -3223,7 +3223,7 @@ shared/gameCommoditiesServer/OnVendorRefuseItemMessage.s: shared/gameCommodities
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/OnVendorRefuseItemMessage.cpp.s
 
 shared/gameCommoditiesServer/QueryAuctionHeadersMessage.o: shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.o
@@ -3231,7 +3231,7 @@ shared/gameCommoditiesServer/QueryAuctionHeadersMessage.o: shared/gameCommoditie
 
 # target to build an object file
 shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.o
 
 shared/gameCommoditiesServer/QueryAuctionHeadersMessage.i: shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.i
@@ -3239,7 +3239,7 @@ shared/gameCommoditiesServer/QueryAuctionHeadersMessage.i: shared/gameCommoditie
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.i
 
 shared/gameCommoditiesServer/QueryAuctionHeadersMessage.s: shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.s
@@ -3247,7 +3247,7 @@ shared/gameCommoditiesServer/QueryAuctionHeadersMessage.s: shared/gameCommoditie
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/QueryAuctionHeadersMessage.cpp.s
 
 shared/gameCommoditiesServer/QueryVendorItemCountMessage.o: shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.o
@@ -3255,7 +3255,7 @@ shared/gameCommoditiesServer/QueryVendorItemCountMessage.o: shared/gameCommoditi
 
 # target to build an object file
 shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.o
 
 shared/gameCommoditiesServer/QueryVendorItemCountMessage.i: shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.i
@@ -3263,7 +3263,7 @@ shared/gameCommoditiesServer/QueryVendorItemCountMessage.i: shared/gameCommoditi
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.i
 
 shared/gameCommoditiesServer/QueryVendorItemCountMessage.s: shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.s
@@ -3271,7 +3271,7 @@ shared/gameCommoditiesServer/QueryVendorItemCountMessage.s: shared/gameCommoditi
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/QueryVendorItemCountMessage.cpp.s
 
 shared/gameCommoditiesServer/SetEntranceChargeMessage.o: shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.o
@@ -3279,7 +3279,7 @@ shared/gameCommoditiesServer/SetEntranceChargeMessage.o: shared/gameCommoditiesS
 
 # target to build an object file
 shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.o
 
 shared/gameCommoditiesServer/SetEntranceChargeMessage.i: shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.i
@@ -3287,7 +3287,7 @@ shared/gameCommoditiesServer/SetEntranceChargeMessage.i: shared/gameCommoditiesS
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.i
 
 shared/gameCommoditiesServer/SetEntranceChargeMessage.s: shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.s
@@ -3295,7 +3295,7 @@ shared/gameCommoditiesServer/SetEntranceChargeMessage.s: shared/gameCommoditiesS
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/SetEntranceChargeMessage.cpp.s
 
 shared/gameCommoditiesServer/SetGameTimeMessage.o: shared/gameCommoditiesServer/SetGameTimeMessage.cpp.o
@@ -3303,7 +3303,7 @@ shared/gameCommoditiesServer/SetGameTimeMessage.o: shared/gameCommoditiesServer/
 
 # target to build an object file
 shared/gameCommoditiesServer/SetGameTimeMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetGameTimeMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetGameTimeMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/SetGameTimeMessage.cpp.o
 
 shared/gameCommoditiesServer/SetGameTimeMessage.i: shared/gameCommoditiesServer/SetGameTimeMessage.cpp.i
@@ -3311,7 +3311,7 @@ shared/gameCommoditiesServer/SetGameTimeMessage.i: shared/gameCommoditiesServer/
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/SetGameTimeMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetGameTimeMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetGameTimeMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/SetGameTimeMessage.cpp.i
 
 shared/gameCommoditiesServer/SetGameTimeMessage.s: shared/gameCommoditiesServer/SetGameTimeMessage.cpp.s
@@ -3319,7 +3319,7 @@ shared/gameCommoditiesServer/SetGameTimeMessage.s: shared/gameCommoditiesServer/
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/SetGameTimeMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetGameTimeMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetGameTimeMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/SetGameTimeMessage.cpp.s
 
 shared/gameCommoditiesServer/SetSalesTaxMessage.o: shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.o
@@ -3327,7 +3327,7 @@ shared/gameCommoditiesServer/SetSalesTaxMessage.o: shared/gameCommoditiesServer/
 
 # target to build an object file
 shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.o
 
 shared/gameCommoditiesServer/SetSalesTaxMessage.i: shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.i
@@ -3335,7 +3335,7 @@ shared/gameCommoditiesServer/SetSalesTaxMessage.i: shared/gameCommoditiesServer/
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.i
 
 shared/gameCommoditiesServer/SetSalesTaxMessage.s: shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.s
@@ -3343,7 +3343,7 @@ shared/gameCommoditiesServer/SetSalesTaxMessage.s: shared/gameCommoditiesServer/
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/SetSalesTaxMessage.cpp.s
 
 shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.o: shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.o
@@ -3351,7 +3351,7 @@ shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.o: shared/gameCommo
 
 # target to build an object file
 shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.o
 
 shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.i: shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.i
@@ -3359,7 +3359,7 @@ shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.i: shared/gameCommo
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.i
 
 shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.s: shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.s
@@ -3367,7 +3367,7 @@ shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.s: shared/gameCommo
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/UpdateVendorSearchOptionMessage.cpp.s
 
 shared/gameCommoditiesServer/UpdateVendorStatusMessage.o: shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.o
@@ -3375,7 +3375,7 @@ shared/gameCommoditiesServer/UpdateVendorStatusMessage.o: shared/gameCommodities
 
 # target to build an object file
 shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.o
 
 shared/gameCommoditiesServer/UpdateVendorStatusMessage.i: shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.i
@@ -3383,7 +3383,7 @@ shared/gameCommoditiesServer/UpdateVendorStatusMessage.i: shared/gameCommodities
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.i
 
 shared/gameCommoditiesServer/UpdateVendorStatusMessage.s: shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.s
@@ -3391,7 +3391,7 @@ shared/gameCommoditiesServer/UpdateVendorStatusMessage.s: shared/gameCommodities
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/UpdateVendorStatusMessage.cpp.s
 
 shared/gameCommoditiesServer/VendorStatusChangeMessage.o: shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.o
@@ -3399,7 +3399,7 @@ shared/gameCommoditiesServer/VendorStatusChangeMessage.o: shared/gameCommodities
 
 # target to build an object file
 shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.o
 .PHONY : shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.o
 
 shared/gameCommoditiesServer/VendorStatusChangeMessage.i: shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.i
@@ -3407,7 +3407,7 @@ shared/gameCommoditiesServer/VendorStatusChangeMessage.i: shared/gameCommodities
 
 # target to preprocess a source file
 shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.i
 .PHONY : shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.i
 
 shared/gameCommoditiesServer/VendorStatusChangeMessage.s: shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.s
@@ -3415,7 +3415,7 @@ shared/gameCommoditiesServer/VendorStatusChangeMessage.s: shared/gameCommodities
 
 # target to generate assembly for a file
 shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.s
 .PHONY : shared/gameCommoditiesServer/VendorStatusChangeMessage.cpp.s
 
 shared/gameConnectionServer/GameConnectionServerMessages.o: shared/gameConnectionServer/GameConnectionServerMessages.cpp.o
@@ -3423,7 +3423,7 @@ shared/gameConnectionServer/GameConnectionServerMessages.o: shared/gameConnectio
 
 # target to build an object file
 shared/gameConnectionServer/GameConnectionServerMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/GameConnectionServerMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/GameConnectionServerMessages.cpp.o
 .PHONY : shared/gameConnectionServer/GameConnectionServerMessages.cpp.o
 
 shared/gameConnectionServer/GameConnectionServerMessages.i: shared/gameConnectionServer/GameConnectionServerMessages.cpp.i
@@ -3431,7 +3431,7 @@ shared/gameConnectionServer/GameConnectionServerMessages.i: shared/gameConnectio
 
 # target to preprocess a source file
 shared/gameConnectionServer/GameConnectionServerMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/GameConnectionServerMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/GameConnectionServerMessages.cpp.i
 .PHONY : shared/gameConnectionServer/GameConnectionServerMessages.cpp.i
 
 shared/gameConnectionServer/GameConnectionServerMessages.s: shared/gameConnectionServer/GameConnectionServerMessages.cpp.s
@@ -3439,7 +3439,7 @@ shared/gameConnectionServer/GameConnectionServerMessages.s: shared/gameConnectio
 
 # target to generate assembly for a file
 shared/gameConnectionServer/GameConnectionServerMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/GameConnectionServerMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/GameConnectionServerMessages.cpp.s
 .PHONY : shared/gameConnectionServer/GameConnectionServerMessages.cpp.s
 
 shared/gameConnectionServer/NewClient.o: shared/gameConnectionServer/NewClient.cpp.o
@@ -3447,7 +3447,7 @@ shared/gameConnectionServer/NewClient.o: shared/gameConnectionServer/NewClient.c
 
 # target to build an object file
 shared/gameConnectionServer/NewClient.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/NewClient.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/NewClient.cpp.o
 .PHONY : shared/gameConnectionServer/NewClient.cpp.o
 
 shared/gameConnectionServer/NewClient.i: shared/gameConnectionServer/NewClient.cpp.i
@@ -3455,7 +3455,7 @@ shared/gameConnectionServer/NewClient.i: shared/gameConnectionServer/NewClient.c
 
 # target to preprocess a source file
 shared/gameConnectionServer/NewClient.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/NewClient.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/NewClient.cpp.i
 .PHONY : shared/gameConnectionServer/NewClient.cpp.i
 
 shared/gameConnectionServer/NewClient.s: shared/gameConnectionServer/NewClient.cpp.s
@@ -3463,7 +3463,7 @@ shared/gameConnectionServer/NewClient.s: shared/gameConnectionServer/NewClient.c
 
 # target to generate assembly for a file
 shared/gameConnectionServer/NewClient.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/NewClient.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameConnectionServer/NewClient.cpp.s
 .PHONY : shared/gameConnectionServer/NewClient.cpp.s
 
 shared/gameGameServer/AddResourceTypeMessage.o: shared/gameGameServer/AddResourceTypeMessage.cpp.o
@@ -3471,7 +3471,7 @@ shared/gameGameServer/AddResourceTypeMessage.o: shared/gameGameServer/AddResourc
 
 # target to build an object file
 shared/gameGameServer/AddResourceTypeMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AddResourceTypeMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AddResourceTypeMessage.cpp.o
 .PHONY : shared/gameGameServer/AddResourceTypeMessage.cpp.o
 
 shared/gameGameServer/AddResourceTypeMessage.i: shared/gameGameServer/AddResourceTypeMessage.cpp.i
@@ -3479,7 +3479,7 @@ shared/gameGameServer/AddResourceTypeMessage.i: shared/gameGameServer/AddResourc
 
 # target to preprocess a source file
 shared/gameGameServer/AddResourceTypeMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AddResourceTypeMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AddResourceTypeMessage.cpp.i
 .PHONY : shared/gameGameServer/AddResourceTypeMessage.cpp.i
 
 shared/gameGameServer/AddResourceTypeMessage.s: shared/gameGameServer/AddResourceTypeMessage.cpp.s
@@ -3487,7 +3487,7 @@ shared/gameGameServer/AddResourceTypeMessage.s: shared/gameGameServer/AddResourc
 
 # target to generate assembly for a file
 shared/gameGameServer/AddResourceTypeMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AddResourceTypeMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AddResourceTypeMessage.cpp.s
 .PHONY : shared/gameGameServer/AddResourceTypeMessage.cpp.s
 
 shared/gameGameServer/AiCreatureStateMessage.o: shared/gameGameServer/AiCreatureStateMessage.cpp.o
@@ -3495,7 +3495,7 @@ shared/gameGameServer/AiCreatureStateMessage.o: shared/gameGameServer/AiCreature
 
 # target to build an object file
 shared/gameGameServer/AiCreatureStateMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiCreatureStateMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiCreatureStateMessage.cpp.o
 .PHONY : shared/gameGameServer/AiCreatureStateMessage.cpp.o
 
 shared/gameGameServer/AiCreatureStateMessage.i: shared/gameGameServer/AiCreatureStateMessage.cpp.i
@@ -3503,7 +3503,7 @@ shared/gameGameServer/AiCreatureStateMessage.i: shared/gameGameServer/AiCreature
 
 # target to preprocess a source file
 shared/gameGameServer/AiCreatureStateMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiCreatureStateMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiCreatureStateMessage.cpp.i
 .PHONY : shared/gameGameServer/AiCreatureStateMessage.cpp.i
 
 shared/gameGameServer/AiCreatureStateMessage.s: shared/gameGameServer/AiCreatureStateMessage.cpp.s
@@ -3511,7 +3511,7 @@ shared/gameGameServer/AiCreatureStateMessage.s: shared/gameGameServer/AiCreature
 
 # target to generate assembly for a file
 shared/gameGameServer/AiCreatureStateMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiCreatureStateMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiCreatureStateMessage.cpp.s
 .PHONY : shared/gameGameServer/AiCreatureStateMessage.cpp.s
 
 shared/gameGameServer/AiMovementMessage.o: shared/gameGameServer/AiMovementMessage.cpp.o
@@ -3519,7 +3519,7 @@ shared/gameGameServer/AiMovementMessage.o: shared/gameGameServer/AiMovementMessa
 
 # target to build an object file
 shared/gameGameServer/AiMovementMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiMovementMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiMovementMessage.cpp.o
 .PHONY : shared/gameGameServer/AiMovementMessage.cpp.o
 
 shared/gameGameServer/AiMovementMessage.i: shared/gameGameServer/AiMovementMessage.cpp.i
@@ -3527,7 +3527,7 @@ shared/gameGameServer/AiMovementMessage.i: shared/gameGameServer/AiMovementMessa
 
 # target to preprocess a source file
 shared/gameGameServer/AiMovementMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiMovementMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiMovementMessage.cpp.i
 .PHONY : shared/gameGameServer/AiMovementMessage.cpp.i
 
 shared/gameGameServer/AiMovementMessage.s: shared/gameGameServer/AiMovementMessage.cpp.s
@@ -3535,7 +3535,7 @@ shared/gameGameServer/AiMovementMessage.s: shared/gameGameServer/AiMovementMessa
 
 # target to generate assembly for a file
 shared/gameGameServer/AiMovementMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiMovementMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AiMovementMessage.cpp.s
 .PHONY : shared/gameGameServer/AiMovementMessage.cpp.s
 
 shared/gameGameServer/AuthTransferClientMessage.o: shared/gameGameServer/AuthTransferClientMessage.cpp.o
@@ -3543,7 +3543,7 @@ shared/gameGameServer/AuthTransferClientMessage.o: shared/gameGameServer/AuthTra
 
 # target to build an object file
 shared/gameGameServer/AuthTransferClientMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AuthTransferClientMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AuthTransferClientMessage.cpp.o
 .PHONY : shared/gameGameServer/AuthTransferClientMessage.cpp.o
 
 shared/gameGameServer/AuthTransferClientMessage.i: shared/gameGameServer/AuthTransferClientMessage.cpp.i
@@ -3551,7 +3551,7 @@ shared/gameGameServer/AuthTransferClientMessage.i: shared/gameGameServer/AuthTra
 
 # target to preprocess a source file
 shared/gameGameServer/AuthTransferClientMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AuthTransferClientMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AuthTransferClientMessage.cpp.i
 .PHONY : shared/gameGameServer/AuthTransferClientMessage.cpp.i
 
 shared/gameGameServer/AuthTransferClientMessage.s: shared/gameGameServer/AuthTransferClientMessage.cpp.s
@@ -3559,7 +3559,7 @@ shared/gameGameServer/AuthTransferClientMessage.s: shared/gameGameServer/AuthTra
 
 # target to generate assembly for a file
 shared/gameGameServer/AuthTransferClientMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AuthTransferClientMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/AuthTransferClientMessage.cpp.s
 .PHONY : shared/gameGameServer/AuthTransferClientMessage.cpp.s
 
 shared/gameGameServer/BiographyMessage.o: shared/gameGameServer/BiographyMessage.cpp.o
@@ -3567,7 +3567,7 @@ shared/gameGameServer/BiographyMessage.o: shared/gameGameServer/BiographyMessage
 
 # target to build an object file
 shared/gameGameServer/BiographyMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BiographyMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BiographyMessage.cpp.o
 .PHONY : shared/gameGameServer/BiographyMessage.cpp.o
 
 shared/gameGameServer/BiographyMessage.i: shared/gameGameServer/BiographyMessage.cpp.i
@@ -3575,7 +3575,7 @@ shared/gameGameServer/BiographyMessage.i: shared/gameGameServer/BiographyMessage
 
 # target to preprocess a source file
 shared/gameGameServer/BiographyMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BiographyMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BiographyMessage.cpp.i
 .PHONY : shared/gameGameServer/BiographyMessage.cpp.i
 
 shared/gameGameServer/BiographyMessage.s: shared/gameGameServer/BiographyMessage.cpp.s
@@ -3583,7 +3583,7 @@ shared/gameGameServer/BiographyMessage.s: shared/gameGameServer/BiographyMessage
 
 # target to generate assembly for a file
 shared/gameGameServer/BiographyMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BiographyMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BiographyMessage.cpp.s
 .PHONY : shared/gameGameServer/BiographyMessage.cpp.s
 
 shared/gameGameServer/BountyHunterTargetListMessage.o: shared/gameGameServer/BountyHunterTargetListMessage.cpp.o
@@ -3591,7 +3591,7 @@ shared/gameGameServer/BountyHunterTargetListMessage.o: shared/gameGameServer/Bou
 
 # target to build an object file
 shared/gameGameServer/BountyHunterTargetListMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetListMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetListMessage.cpp.o
 .PHONY : shared/gameGameServer/BountyHunterTargetListMessage.cpp.o
 
 shared/gameGameServer/BountyHunterTargetListMessage.i: shared/gameGameServer/BountyHunterTargetListMessage.cpp.i
@@ -3599,7 +3599,7 @@ shared/gameGameServer/BountyHunterTargetListMessage.i: shared/gameGameServer/Bou
 
 # target to preprocess a source file
 shared/gameGameServer/BountyHunterTargetListMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetListMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetListMessage.cpp.i
 .PHONY : shared/gameGameServer/BountyHunterTargetListMessage.cpp.i
 
 shared/gameGameServer/BountyHunterTargetListMessage.s: shared/gameGameServer/BountyHunterTargetListMessage.cpp.s
@@ -3607,7 +3607,7 @@ shared/gameGameServer/BountyHunterTargetListMessage.s: shared/gameGameServer/Bou
 
 # target to generate assembly for a file
 shared/gameGameServer/BountyHunterTargetListMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetListMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetListMessage.cpp.s
 .PHONY : shared/gameGameServer/BountyHunterTargetListMessage.cpp.s
 
 shared/gameGameServer/BountyHunterTargetMessage.o: shared/gameGameServer/BountyHunterTargetMessage.cpp.o
@@ -3615,7 +3615,7 @@ shared/gameGameServer/BountyHunterTargetMessage.o: shared/gameGameServer/BountyH
 
 # target to build an object file
 shared/gameGameServer/BountyHunterTargetMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetMessage.cpp.o
 .PHONY : shared/gameGameServer/BountyHunterTargetMessage.cpp.o
 
 shared/gameGameServer/BountyHunterTargetMessage.i: shared/gameGameServer/BountyHunterTargetMessage.cpp.i
@@ -3623,7 +3623,7 @@ shared/gameGameServer/BountyHunterTargetMessage.i: shared/gameGameServer/BountyH
 
 # target to preprocess a source file
 shared/gameGameServer/BountyHunterTargetMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetMessage.cpp.i
 .PHONY : shared/gameGameServer/BountyHunterTargetMessage.cpp.i
 
 shared/gameGameServer/BountyHunterTargetMessage.s: shared/gameGameServer/BountyHunterTargetMessage.cpp.s
@@ -3631,7 +3631,7 @@ shared/gameGameServer/BountyHunterTargetMessage.s: shared/gameGameServer/BountyH
 
 # target to generate assembly for a file
 shared/gameGameServer/BountyHunterTargetMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/BountyHunterTargetMessage.cpp.s
 .PHONY : shared/gameGameServer/BountyHunterTargetMessage.cpp.s
 
 shared/gameGameServer/CharacterNamesMessage.o: shared/gameGameServer/CharacterNamesMessage.cpp.o
@@ -3639,7 +3639,7 @@ shared/gameGameServer/CharacterNamesMessage.o: shared/gameGameServer/CharacterNa
 
 # target to build an object file
 shared/gameGameServer/CharacterNamesMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CharacterNamesMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CharacterNamesMessage.cpp.o
 .PHONY : shared/gameGameServer/CharacterNamesMessage.cpp.o
 
 shared/gameGameServer/CharacterNamesMessage.i: shared/gameGameServer/CharacterNamesMessage.cpp.i
@@ -3647,7 +3647,7 @@ shared/gameGameServer/CharacterNamesMessage.i: shared/gameGameServer/CharacterNa
 
 # target to preprocess a source file
 shared/gameGameServer/CharacterNamesMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CharacterNamesMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CharacterNamesMessage.cpp.i
 .PHONY : shared/gameGameServer/CharacterNamesMessage.cpp.i
 
 shared/gameGameServer/CharacterNamesMessage.s: shared/gameGameServer/CharacterNamesMessage.cpp.s
@@ -3655,7 +3655,7 @@ shared/gameGameServer/CharacterNamesMessage.s: shared/gameGameServer/CharacterNa
 
 # target to generate assembly for a file
 shared/gameGameServer/CharacterNamesMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CharacterNamesMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CharacterNamesMessage.cpp.s
 .PHONY : shared/gameGameServer/CharacterNamesMessage.cpp.s
 
 shared/gameGameServer/CreateDynamicRegionCircleMessage.o: shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.o
@@ -3663,7 +3663,7 @@ shared/gameGameServer/CreateDynamicRegionCircleMessage.o: shared/gameGameServer/
 
 # target to build an object file
 shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.o
 .PHONY : shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.o
 
 shared/gameGameServer/CreateDynamicRegionCircleMessage.i: shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.i
@@ -3671,7 +3671,7 @@ shared/gameGameServer/CreateDynamicRegionCircleMessage.i: shared/gameGameServer/
 
 # target to preprocess a source file
 shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.i
 .PHONY : shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.i
 
 shared/gameGameServer/CreateDynamicRegionCircleMessage.s: shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.s
@@ -3679,7 +3679,7 @@ shared/gameGameServer/CreateDynamicRegionCircleMessage.s: shared/gameGameServer/
 
 # target to generate assembly for a file
 shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.s
 .PHONY : shared/gameGameServer/CreateDynamicRegionCircleMessage.cpp.s
 
 shared/gameGameServer/CreateDynamicRegionRectangleMessage.o: shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.o
@@ -3687,7 +3687,7 @@ shared/gameGameServer/CreateDynamicRegionRectangleMessage.o: shared/gameGameServ
 
 # target to build an object file
 shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.o
 .PHONY : shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.o
 
 shared/gameGameServer/CreateDynamicRegionRectangleMessage.i: shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.i
@@ -3695,7 +3695,7 @@ shared/gameGameServer/CreateDynamicRegionRectangleMessage.i: shared/gameGameServ
 
 # target to preprocess a source file
 shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.i
 .PHONY : shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.i
 
 shared/gameGameServer/CreateDynamicRegionRectangleMessage.s: shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.s
@@ -3703,7 +3703,7 @@ shared/gameGameServer/CreateDynamicRegionRectangleMessage.s: shared/gameGameServ
 
 # target to generate assembly for a file
 shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.s
 .PHONY : shared/gameGameServer/CreateDynamicRegionRectangleMessage.cpp.s
 
 shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.o: shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.o
@@ -3711,7 +3711,7 @@ shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.o: shared/gameGameSe
 
 # target to build an object file
 shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.o
 .PHONY : shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.o
 
 shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.i: shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.i
@@ -3719,7 +3719,7 @@ shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.i: shared/gameGameSe
 
 # target to preprocess a source file
 shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.i
 .PHONY : shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.i
 
 shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.s: shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.s
@@ -3727,7 +3727,7 @@ shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.s: shared/gameGameSe
 
 # target to generate assembly for a file
 shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.s
 .PHONY : shared/gameGameServer/CreateDynamicSpawnRegionCircleMessage.cpp.s
 
 shared/gameGameServer/CreateGroupMessage.o: shared/gameGameServer/CreateGroupMessage.cpp.o
@@ -3735,7 +3735,7 @@ shared/gameGameServer/CreateGroupMessage.o: shared/gameGameServer/CreateGroupMes
 
 # target to build an object file
 shared/gameGameServer/CreateGroupMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateGroupMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateGroupMessage.cpp.o
 .PHONY : shared/gameGameServer/CreateGroupMessage.cpp.o
 
 shared/gameGameServer/CreateGroupMessage.i: shared/gameGameServer/CreateGroupMessage.cpp.i
@@ -3743,7 +3743,7 @@ shared/gameGameServer/CreateGroupMessage.i: shared/gameGameServer/CreateGroupMes
 
 # target to preprocess a source file
 shared/gameGameServer/CreateGroupMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateGroupMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateGroupMessage.cpp.i
 .PHONY : shared/gameGameServer/CreateGroupMessage.cpp.i
 
 shared/gameGameServer/CreateGroupMessage.s: shared/gameGameServer/CreateGroupMessage.cpp.s
@@ -3751,7 +3751,7 @@ shared/gameGameServer/CreateGroupMessage.s: shared/gameGameServer/CreateGroupMes
 
 # target to generate assembly for a file
 shared/gameGameServer/CreateGroupMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateGroupMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateGroupMessage.cpp.s
 .PHONY : shared/gameGameServer/CreateGroupMessage.cpp.s
 
 shared/gameGameServer/CreateObjectMessage.o: shared/gameGameServer/CreateObjectMessage.cpp.o
@@ -3759,7 +3759,7 @@ shared/gameGameServer/CreateObjectMessage.o: shared/gameGameServer/CreateObjectM
 
 # target to build an object file
 shared/gameGameServer/CreateObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateObjectMessage.cpp.o
 .PHONY : shared/gameGameServer/CreateObjectMessage.cpp.o
 
 shared/gameGameServer/CreateObjectMessage.i: shared/gameGameServer/CreateObjectMessage.cpp.i
@@ -3767,7 +3767,7 @@ shared/gameGameServer/CreateObjectMessage.i: shared/gameGameServer/CreateObjectM
 
 # target to preprocess a source file
 shared/gameGameServer/CreateObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateObjectMessage.cpp.i
 .PHONY : shared/gameGameServer/CreateObjectMessage.cpp.i
 
 shared/gameGameServer/CreateObjectMessage.s: shared/gameGameServer/CreateObjectMessage.cpp.s
@@ -3775,7 +3775,7 @@ shared/gameGameServer/CreateObjectMessage.s: shared/gameGameServer/CreateObjectM
 
 # target to generate assembly for a file
 shared/gameGameServer/CreateObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateObjectMessage.cpp.s
 .PHONY : shared/gameGameServer/CreateObjectMessage.cpp.s
 
 shared/gameGameServer/CreateSyncUiMessage.o: shared/gameGameServer/CreateSyncUiMessage.cpp.o
@@ -3783,7 +3783,7 @@ shared/gameGameServer/CreateSyncUiMessage.o: shared/gameGameServer/CreateSyncUiM
 
 # target to build an object file
 shared/gameGameServer/CreateSyncUiMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateSyncUiMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateSyncUiMessage.cpp.o
 .PHONY : shared/gameGameServer/CreateSyncUiMessage.cpp.o
 
 shared/gameGameServer/CreateSyncUiMessage.i: shared/gameGameServer/CreateSyncUiMessage.cpp.i
@@ -3791,7 +3791,7 @@ shared/gameGameServer/CreateSyncUiMessage.i: shared/gameGameServer/CreateSyncUiM
 
 # target to preprocess a source file
 shared/gameGameServer/CreateSyncUiMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateSyncUiMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateSyncUiMessage.cpp.i
 .PHONY : shared/gameGameServer/CreateSyncUiMessage.cpp.i
 
 shared/gameGameServer/CreateSyncUiMessage.s: shared/gameGameServer/CreateSyncUiMessage.cpp.s
@@ -3799,7 +3799,7 @@ shared/gameGameServer/CreateSyncUiMessage.s: shared/gameGameServer/CreateSyncUiM
 
 # target to generate assembly for a file
 shared/gameGameServer/CreateSyncUiMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateSyncUiMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/CreateSyncUiMessage.cpp.s
 .PHONY : shared/gameGameServer/CreateSyncUiMessage.cpp.s
 
 shared/gameGameServer/EnableNewJediTrackingMessage.o: shared/gameGameServer/EnableNewJediTrackingMessage.cpp.o
@@ -3807,7 +3807,7 @@ shared/gameGameServer/EnableNewJediTrackingMessage.o: shared/gameGameServer/Enab
 
 # target to build an object file
 shared/gameGameServer/EnableNewJediTrackingMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EnableNewJediTrackingMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EnableNewJediTrackingMessage.cpp.o
 .PHONY : shared/gameGameServer/EnableNewJediTrackingMessage.cpp.o
 
 shared/gameGameServer/EnableNewJediTrackingMessage.i: shared/gameGameServer/EnableNewJediTrackingMessage.cpp.i
@@ -3815,7 +3815,7 @@ shared/gameGameServer/EnableNewJediTrackingMessage.i: shared/gameGameServer/Enab
 
 # target to preprocess a source file
 shared/gameGameServer/EnableNewJediTrackingMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EnableNewJediTrackingMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EnableNewJediTrackingMessage.cpp.i
 .PHONY : shared/gameGameServer/EnableNewJediTrackingMessage.cpp.i
 
 shared/gameGameServer/EnableNewJediTrackingMessage.s: shared/gameGameServer/EnableNewJediTrackingMessage.cpp.s
@@ -3823,7 +3823,7 @@ shared/gameGameServer/EnableNewJediTrackingMessage.s: shared/gameGameServer/Enab
 
 # target to generate assembly for a file
 shared/gameGameServer/EnableNewJediTrackingMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EnableNewJediTrackingMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EnableNewJediTrackingMessage.cpp.s
 .PHONY : shared/gameGameServer/EnableNewJediTrackingMessage.cpp.s
 
 shared/gameGameServer/EndBaselinesMessage.o: shared/gameGameServer/EndBaselinesMessage.cpp.o
@@ -3831,7 +3831,7 @@ shared/gameGameServer/EndBaselinesMessage.o: shared/gameGameServer/EndBaselinesM
 
 # target to build an object file
 shared/gameGameServer/EndBaselinesMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EndBaselinesMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EndBaselinesMessage.cpp.o
 .PHONY : shared/gameGameServer/EndBaselinesMessage.cpp.o
 
 shared/gameGameServer/EndBaselinesMessage.i: shared/gameGameServer/EndBaselinesMessage.cpp.i
@@ -3839,7 +3839,7 @@ shared/gameGameServer/EndBaselinesMessage.i: shared/gameGameServer/EndBaselinesM
 
 # target to preprocess a source file
 shared/gameGameServer/EndBaselinesMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EndBaselinesMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EndBaselinesMessage.cpp.i
 .PHONY : shared/gameGameServer/EndBaselinesMessage.cpp.i
 
 shared/gameGameServer/EndBaselinesMessage.s: shared/gameGameServer/EndBaselinesMessage.cpp.s
@@ -3847,7 +3847,7 @@ shared/gameGameServer/EndBaselinesMessage.s: shared/gameGameServer/EndBaselinesM
 
 # target to generate assembly for a file
 shared/gameGameServer/EndBaselinesMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EndBaselinesMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/EndBaselinesMessage.cpp.s
 .PHONY : shared/gameGameServer/EndBaselinesMessage.cpp.s
 
 shared/gameGameServer/ExchangeListCreditsMessage.o: shared/gameGameServer/ExchangeListCreditsMessage.cpp.o
@@ -3855,7 +3855,7 @@ shared/gameGameServer/ExchangeListCreditsMessage.o: shared/gameGameServer/Exchan
 
 # target to build an object file
 shared/gameGameServer/ExchangeListCreditsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ExchangeListCreditsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ExchangeListCreditsMessage.cpp.o
 .PHONY : shared/gameGameServer/ExchangeListCreditsMessage.cpp.o
 
 shared/gameGameServer/ExchangeListCreditsMessage.i: shared/gameGameServer/ExchangeListCreditsMessage.cpp.i
@@ -3863,7 +3863,7 @@ shared/gameGameServer/ExchangeListCreditsMessage.i: shared/gameGameServer/Exchan
 
 # target to preprocess a source file
 shared/gameGameServer/ExchangeListCreditsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ExchangeListCreditsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ExchangeListCreditsMessage.cpp.i
 .PHONY : shared/gameGameServer/ExchangeListCreditsMessage.cpp.i
 
 shared/gameGameServer/ExchangeListCreditsMessage.s: shared/gameGameServer/ExchangeListCreditsMessage.cpp.s
@@ -3871,7 +3871,7 @@ shared/gameGameServer/ExchangeListCreditsMessage.s: shared/gameGameServer/Exchan
 
 # target to generate assembly for a file
 shared/gameGameServer/ExchangeListCreditsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ExchangeListCreditsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ExchangeListCreditsMessage.cpp.s
 .PHONY : shared/gameGameServer/ExchangeListCreditsMessage.cpp.s
 
 shared/gameGameServer/GameGameServerMessages.o: shared/gameGameServer/GameGameServerMessages.cpp.o
@@ -3879,7 +3879,7 @@ shared/gameGameServer/GameGameServerMessages.o: shared/gameGameServer/GameGameSe
 
 # target to build an object file
 shared/gameGameServer/GameGameServerMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameGameServerMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameGameServerMessages.cpp.o
 .PHONY : shared/gameGameServer/GameGameServerMessages.cpp.o
 
 shared/gameGameServer/GameGameServerMessages.i: shared/gameGameServer/GameGameServerMessages.cpp.i
@@ -3887,7 +3887,7 @@ shared/gameGameServer/GameGameServerMessages.i: shared/gameGameServer/GameGameSe
 
 # target to preprocess a source file
 shared/gameGameServer/GameGameServerMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameGameServerMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameGameServerMessages.cpp.i
 .PHONY : shared/gameGameServer/GameGameServerMessages.cpp.i
 
 shared/gameGameServer/GameGameServerMessages.s: shared/gameGameServer/GameGameServerMessages.cpp.s
@@ -3895,7 +3895,7 @@ shared/gameGameServer/GameGameServerMessages.s: shared/gameGameServer/GameGameSe
 
 # target to generate assembly for a file
 shared/gameGameServer/GameGameServerMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameGameServerMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameGameServerMessages.cpp.s
 .PHONY : shared/gameGameServer/GameGameServerMessages.cpp.s
 
 shared/gameGameServer/GameServerConnectAck.o: shared/gameGameServer/GameServerConnectAck.cpp.o
@@ -3903,7 +3903,7 @@ shared/gameGameServer/GameServerConnectAck.o: shared/gameGameServer/GameServerCo
 
 # target to build an object file
 shared/gameGameServer/GameServerConnectAck.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerConnectAck.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerConnectAck.cpp.o
 .PHONY : shared/gameGameServer/GameServerConnectAck.cpp.o
 
 shared/gameGameServer/GameServerConnectAck.i: shared/gameGameServer/GameServerConnectAck.cpp.i
@@ -3911,7 +3911,7 @@ shared/gameGameServer/GameServerConnectAck.i: shared/gameGameServer/GameServerCo
 
 # target to preprocess a source file
 shared/gameGameServer/GameServerConnectAck.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerConnectAck.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerConnectAck.cpp.i
 .PHONY : shared/gameGameServer/GameServerConnectAck.cpp.i
 
 shared/gameGameServer/GameServerConnectAck.s: shared/gameGameServer/GameServerConnectAck.cpp.s
@@ -3919,7 +3919,7 @@ shared/gameGameServer/GameServerConnectAck.s: shared/gameGameServer/GameServerCo
 
 # target to generate assembly for a file
 shared/gameGameServer/GameServerConnectAck.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerConnectAck.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerConnectAck.cpp.s
 .PHONY : shared/gameGameServer/GameServerConnectAck.cpp.s
 
 shared/gameGameServer/GameServerMessageInterface.o: shared/gameGameServer/GameServerMessageInterface.cpp.o
@@ -3927,7 +3927,7 @@ shared/gameGameServer/GameServerMessageInterface.o: shared/gameGameServer/GameSe
 
 # target to build an object file
 shared/gameGameServer/GameServerMessageInterface.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerMessageInterface.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerMessageInterface.cpp.o
 .PHONY : shared/gameGameServer/GameServerMessageInterface.cpp.o
 
 shared/gameGameServer/GameServerMessageInterface.i: shared/gameGameServer/GameServerMessageInterface.cpp.i
@@ -3935,7 +3935,7 @@ shared/gameGameServer/GameServerMessageInterface.i: shared/gameGameServer/GameSe
 
 # target to preprocess a source file
 shared/gameGameServer/GameServerMessageInterface.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerMessageInterface.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerMessageInterface.cpp.i
 .PHONY : shared/gameGameServer/GameServerMessageInterface.cpp.i
 
 shared/gameGameServer/GameServerMessageInterface.s: shared/gameGameServer/GameServerMessageInterface.cpp.s
@@ -3943,7 +3943,7 @@ shared/gameGameServer/GameServerMessageInterface.s: shared/gameGameServer/GameSe
 
 # target to generate assembly for a file
 shared/gameGameServer/GameServerMessageInterface.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerMessageInterface.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GameServerMessageInterface.cpp.s
 .PHONY : shared/gameGameServer/GameServerMessageInterface.cpp.s
 
 shared/gameGameServer/GetMoneyFromOfflineObjectMessage.o: shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.o
@@ -3951,7 +3951,7 @@ shared/gameGameServer/GetMoneyFromOfflineObjectMessage.o: shared/gameGameServer/
 
 # target to build an object file
 shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.o
 .PHONY : shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.o
 
 shared/gameGameServer/GetMoneyFromOfflineObjectMessage.i: shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.i
@@ -3959,7 +3959,7 @@ shared/gameGameServer/GetMoneyFromOfflineObjectMessage.i: shared/gameGameServer/
 
 # target to preprocess a source file
 shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.i
 .PHONY : shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.i
 
 shared/gameGameServer/GetMoneyFromOfflineObjectMessage.s: shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.s
@@ -3967,7 +3967,7 @@ shared/gameGameServer/GetMoneyFromOfflineObjectMessage.s: shared/gameGameServer/
 
 # target to generate assembly for a file
 shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.s
 .PHONY : shared/gameGameServer/GetMoneyFromOfflineObjectMessage.cpp.s
 
 shared/gameGameServer/GroupMemberParam.o: shared/gameGameServer/GroupMemberParam.cpp.o
@@ -3975,7 +3975,7 @@ shared/gameGameServer/GroupMemberParam.o: shared/gameGameServer/GroupMemberParam
 
 # target to build an object file
 shared/gameGameServer/GroupMemberParam.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParam.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParam.cpp.o
 .PHONY : shared/gameGameServer/GroupMemberParam.cpp.o
 
 shared/gameGameServer/GroupMemberParam.i: shared/gameGameServer/GroupMemberParam.cpp.i
@@ -3983,7 +3983,7 @@ shared/gameGameServer/GroupMemberParam.i: shared/gameGameServer/GroupMemberParam
 
 # target to preprocess a source file
 shared/gameGameServer/GroupMemberParam.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParam.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParam.cpp.i
 .PHONY : shared/gameGameServer/GroupMemberParam.cpp.i
 
 shared/gameGameServer/GroupMemberParam.s: shared/gameGameServer/GroupMemberParam.cpp.s
@@ -3991,7 +3991,7 @@ shared/gameGameServer/GroupMemberParam.s: shared/gameGameServer/GroupMemberParam
 
 # target to generate assembly for a file
 shared/gameGameServer/GroupMemberParam.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParam.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParam.cpp.s
 .PHONY : shared/gameGameServer/GroupMemberParam.cpp.s
 
 shared/gameGameServer/GroupMemberParamArchive.o: shared/gameGameServer/GroupMemberParamArchive.cpp.o
@@ -3999,7 +3999,7 @@ shared/gameGameServer/GroupMemberParamArchive.o: shared/gameGameServer/GroupMemb
 
 # target to build an object file
 shared/gameGameServer/GroupMemberParamArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParamArchive.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParamArchive.cpp.o
 .PHONY : shared/gameGameServer/GroupMemberParamArchive.cpp.o
 
 shared/gameGameServer/GroupMemberParamArchive.i: shared/gameGameServer/GroupMemberParamArchive.cpp.i
@@ -4007,7 +4007,7 @@ shared/gameGameServer/GroupMemberParamArchive.i: shared/gameGameServer/GroupMemb
 
 # target to preprocess a source file
 shared/gameGameServer/GroupMemberParamArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParamArchive.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParamArchive.cpp.i
 .PHONY : shared/gameGameServer/GroupMemberParamArchive.cpp.i
 
 shared/gameGameServer/GroupMemberParamArchive.s: shared/gameGameServer/GroupMemberParamArchive.cpp.s
@@ -4015,7 +4015,7 @@ shared/gameGameServer/GroupMemberParamArchive.s: shared/gameGameServer/GroupMemb
 
 # target to generate assembly for a file
 shared/gameGameServer/GroupMemberParamArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParamArchive.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/GroupMemberParamArchive.cpp.s
 .PHONY : shared/gameGameServer/GroupMemberParamArchive.cpp.s
 
 shared/gameGameServer/LoadContainedObjectMessage.o: shared/gameGameServer/LoadContainedObjectMessage.cpp.o
@@ -4023,7 +4023,7 @@ shared/gameGameServer/LoadContainedObjectMessage.o: shared/gameGameServer/LoadCo
 
 # target to build an object file
 shared/gameGameServer/LoadContainedObjectMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContainedObjectMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContainedObjectMessage.cpp.o
 .PHONY : shared/gameGameServer/LoadContainedObjectMessage.cpp.o
 
 shared/gameGameServer/LoadContainedObjectMessage.i: shared/gameGameServer/LoadContainedObjectMessage.cpp.i
@@ -4031,7 +4031,7 @@ shared/gameGameServer/LoadContainedObjectMessage.i: shared/gameGameServer/LoadCo
 
 # target to preprocess a source file
 shared/gameGameServer/LoadContainedObjectMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContainedObjectMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContainedObjectMessage.cpp.i
 .PHONY : shared/gameGameServer/LoadContainedObjectMessage.cpp.i
 
 shared/gameGameServer/LoadContainedObjectMessage.s: shared/gameGameServer/LoadContainedObjectMessage.cpp.s
@@ -4039,7 +4039,7 @@ shared/gameGameServer/LoadContainedObjectMessage.s: shared/gameGameServer/LoadCo
 
 # target to generate assembly for a file
 shared/gameGameServer/LoadContainedObjectMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContainedObjectMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContainedObjectMessage.cpp.s
 .PHONY : shared/gameGameServer/LoadContainedObjectMessage.cpp.s
 
 shared/gameGameServer/LoadContentsMessage.o: shared/gameGameServer/LoadContentsMessage.cpp.o
@@ -4047,7 +4047,7 @@ shared/gameGameServer/LoadContentsMessage.o: shared/gameGameServer/LoadContentsM
 
 # target to build an object file
 shared/gameGameServer/LoadContentsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContentsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContentsMessage.cpp.o
 .PHONY : shared/gameGameServer/LoadContentsMessage.cpp.o
 
 shared/gameGameServer/LoadContentsMessage.i: shared/gameGameServer/LoadContentsMessage.cpp.i
@@ -4055,7 +4055,7 @@ shared/gameGameServer/LoadContentsMessage.i: shared/gameGameServer/LoadContentsM
 
 # target to preprocess a source file
 shared/gameGameServer/LoadContentsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContentsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContentsMessage.cpp.i
 .PHONY : shared/gameGameServer/LoadContentsMessage.cpp.i
 
 shared/gameGameServer/LoadContentsMessage.s: shared/gameGameServer/LoadContentsMessage.cpp.s
@@ -4063,7 +4063,7 @@ shared/gameGameServer/LoadContentsMessage.s: shared/gameGameServer/LoadContentsM
 
 # target to generate assembly for a file
 shared/gameGameServer/LoadContentsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContentsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadContentsMessage.cpp.s
 .PHONY : shared/gameGameServer/LoadContentsMessage.cpp.s
 
 shared/gameGameServer/LoadStructureMessage.o: shared/gameGameServer/LoadStructureMessage.cpp.o
@@ -4071,7 +4071,7 @@ shared/gameGameServer/LoadStructureMessage.o: shared/gameGameServer/LoadStructur
 
 # target to build an object file
 shared/gameGameServer/LoadStructureMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadStructureMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadStructureMessage.cpp.o
 .PHONY : shared/gameGameServer/LoadStructureMessage.cpp.o
 
 shared/gameGameServer/LoadStructureMessage.i: shared/gameGameServer/LoadStructureMessage.cpp.i
@@ -4079,7 +4079,7 @@ shared/gameGameServer/LoadStructureMessage.i: shared/gameGameServer/LoadStructur
 
 # target to preprocess a source file
 shared/gameGameServer/LoadStructureMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadStructureMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadStructureMessage.cpp.i
 .PHONY : shared/gameGameServer/LoadStructureMessage.cpp.i
 
 shared/gameGameServer/LoadStructureMessage.s: shared/gameGameServer/LoadStructureMessage.cpp.s
@@ -4087,7 +4087,7 @@ shared/gameGameServer/LoadStructureMessage.s: shared/gameGameServer/LoadStructur
 
 # target to generate assembly for a file
 shared/gameGameServer/LoadStructureMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadStructureMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LoadStructureMessage.cpp.s
 .PHONY : shared/gameGameServer/LoadStructureMessage.cpp.s
 
 shared/gameGameServer/LocateObjectResponseMessage.o: shared/gameGameServer/LocateObjectResponseMessage.cpp.o
@@ -4095,7 +4095,7 @@ shared/gameGameServer/LocateObjectResponseMessage.o: shared/gameGameServer/Locat
 
 # target to build an object file
 shared/gameGameServer/LocateObjectResponseMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateObjectResponseMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateObjectResponseMessage.cpp.o
 .PHONY : shared/gameGameServer/LocateObjectResponseMessage.cpp.o
 
 shared/gameGameServer/LocateObjectResponseMessage.i: shared/gameGameServer/LocateObjectResponseMessage.cpp.i
@@ -4103,7 +4103,7 @@ shared/gameGameServer/LocateObjectResponseMessage.i: shared/gameGameServer/Locat
 
 # target to preprocess a source file
 shared/gameGameServer/LocateObjectResponseMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateObjectResponseMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateObjectResponseMessage.cpp.i
 .PHONY : shared/gameGameServer/LocateObjectResponseMessage.cpp.i
 
 shared/gameGameServer/LocateObjectResponseMessage.s: shared/gameGameServer/LocateObjectResponseMessage.cpp.s
@@ -4111,7 +4111,7 @@ shared/gameGameServer/LocateObjectResponseMessage.s: shared/gameGameServer/Locat
 
 # target to generate assembly for a file
 shared/gameGameServer/LocateObjectResponseMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateObjectResponseMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateObjectResponseMessage.cpp.s
 .PHONY : shared/gameGameServer/LocateObjectResponseMessage.cpp.s
 
 shared/gameGameServer/LocatePlayerResponseMessage.o: shared/gameGameServer/LocatePlayerResponseMessage.cpp.o
@@ -4119,7 +4119,7 @@ shared/gameGameServer/LocatePlayerResponseMessage.o: shared/gameGameServer/Locat
 
 # target to build an object file
 shared/gameGameServer/LocatePlayerResponseMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocatePlayerResponseMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocatePlayerResponseMessage.cpp.o
 .PHONY : shared/gameGameServer/LocatePlayerResponseMessage.cpp.o
 
 shared/gameGameServer/LocatePlayerResponseMessage.i: shared/gameGameServer/LocatePlayerResponseMessage.cpp.i
@@ -4127,7 +4127,7 @@ shared/gameGameServer/LocatePlayerResponseMessage.i: shared/gameGameServer/Locat
 
 # target to preprocess a source file
 shared/gameGameServer/LocatePlayerResponseMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocatePlayerResponseMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocatePlayerResponseMessage.cpp.i
 .PHONY : shared/gameGameServer/LocatePlayerResponseMessage.cpp.i
 
 shared/gameGameServer/LocatePlayerResponseMessage.s: shared/gameGameServer/LocatePlayerResponseMessage.cpp.s
@@ -4135,7 +4135,7 @@ shared/gameGameServer/LocatePlayerResponseMessage.s: shared/gameGameServer/Locat
 
 # target to generate assembly for a file
 shared/gameGameServer/LocatePlayerResponseMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocatePlayerResponseMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocatePlayerResponseMessage.cpp.s
 .PHONY : shared/gameGameServer/LocatePlayerResponseMessage.cpp.s
 
 shared/gameGameServer/LocateStructureMessage.o: shared/gameGameServer/LocateStructureMessage.cpp.o
@@ -4143,7 +4143,7 @@ shared/gameGameServer/LocateStructureMessage.o: shared/gameGameServer/LocateStru
 
 # target to build an object file
 shared/gameGameServer/LocateStructureMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateStructureMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateStructureMessage.cpp.o
 .PHONY : shared/gameGameServer/LocateStructureMessage.cpp.o
 
 shared/gameGameServer/LocateStructureMessage.i: shared/gameGameServer/LocateStructureMessage.cpp.i
@@ -4151,7 +4151,7 @@ shared/gameGameServer/LocateStructureMessage.i: shared/gameGameServer/LocateStru
 
 # target to preprocess a source file
 shared/gameGameServer/LocateStructureMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateStructureMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateStructureMessage.cpp.i
 .PHONY : shared/gameGameServer/LocateStructureMessage.cpp.i
 
 shared/gameGameServer/LocateStructureMessage.s: shared/gameGameServer/LocateStructureMessage.cpp.s
@@ -4159,7 +4159,7 @@ shared/gameGameServer/LocateStructureMessage.s: shared/gameGameServer/LocateStru
 
 # target to generate assembly for a file
 shared/gameGameServer/LocateStructureMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateStructureMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/LocateStructureMessage.cpp.s
 .PHONY : shared/gameGameServer/LocateStructureMessage.cpp.s
 
 shared/gameGameServer/MessageQueueAlterAttribute.o: shared/gameGameServer/MessageQueueAlterAttribute.cpp.o
@@ -4167,7 +4167,7 @@ shared/gameGameServer/MessageQueueAlterAttribute.o: shared/gameGameServer/Messag
 
 # target to build an object file
 shared/gameGameServer/MessageQueueAlterAttribute.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueAlterAttribute.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueAlterAttribute.cpp.o
 .PHONY : shared/gameGameServer/MessageQueueAlterAttribute.cpp.o
 
 shared/gameGameServer/MessageQueueAlterAttribute.i: shared/gameGameServer/MessageQueueAlterAttribute.cpp.i
@@ -4175,7 +4175,7 @@ shared/gameGameServer/MessageQueueAlterAttribute.i: shared/gameGameServer/Messag
 
 # target to preprocess a source file
 shared/gameGameServer/MessageQueueAlterAttribute.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueAlterAttribute.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueAlterAttribute.cpp.i
 .PHONY : shared/gameGameServer/MessageQueueAlterAttribute.cpp.i
 
 shared/gameGameServer/MessageQueueAlterAttribute.s: shared/gameGameServer/MessageQueueAlterAttribute.cpp.s
@@ -4183,7 +4183,7 @@ shared/gameGameServer/MessageQueueAlterAttribute.s: shared/gameGameServer/Messag
 
 # target to generate assembly for a file
 shared/gameGameServer/MessageQueueAlterAttribute.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueAlterAttribute.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueAlterAttribute.cpp.s
 .PHONY : shared/gameGameServer/MessageQueueAlterAttribute.cpp.s
 
 shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.o: shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.o
@@ -4191,7 +4191,7 @@ shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.o: shared/gameGameServe
 
 # target to build an object file
 shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.o
 .PHONY : shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.o
 
 shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.i: shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.i
@@ -4199,7 +4199,7 @@ shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.i: shared/gameGameServe
 
 # target to preprocess a source file
 shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.i
 .PHONY : shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.i
 
 shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.s: shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.s
@@ -4207,7 +4207,7 @@ shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.s: shared/gameGameServe
 
 # target to generate assembly for a file
 shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.s
 .PHONY : shared/gameGameServer/MessageQueueCommandQueueEnqueueFwd.cpp.s
 
 shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.o: shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.o
@@ -4215,7 +4215,7 @@ shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.o: shared/g
 
 # target to build an object file
 shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.o
 .PHONY : shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.o
 
 shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.i: shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.i
@@ -4223,7 +4223,7 @@ shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.i: shared/g
 
 # target to preprocess a source file
 shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.i
 .PHONY : shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.i
 
 shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.s: shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.s
@@ -4231,7 +4231,7 @@ shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.s: shared/g
 
 # target to generate assembly for a file
 shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.s
 .PHONY : shared/gameGameServer/MessageQueueCommandQueueForceExecuteCommandFwd.cpp.s
 
 shared/gameGameServer/MessageQueueGrantOfflineXp.o: shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.o
@@ -4239,7 +4239,7 @@ shared/gameGameServer/MessageQueueGrantOfflineXp.o: shared/gameGameServer/Messag
 
 # target to build an object file
 shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.o
 .PHONY : shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.o
 
 shared/gameGameServer/MessageQueueGrantOfflineXp.i: shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.i
@@ -4247,7 +4247,7 @@ shared/gameGameServer/MessageQueueGrantOfflineXp.i: shared/gameGameServer/Messag
 
 # target to preprocess a source file
 shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.i
 .PHONY : shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.i
 
 shared/gameGameServer/MessageQueueGrantOfflineXp.s: shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.s
@@ -4255,7 +4255,7 @@ shared/gameGameServer/MessageQueueGrantOfflineXp.s: shared/gameGameServer/Messag
 
 # target to generate assembly for a file
 shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.s
 .PHONY : shared/gameGameServer/MessageQueueGrantOfflineXp.cpp.s
 
 shared/gameGameServer/MessageQueuePvpCommand.o: shared/gameGameServer/MessageQueuePvpCommand.cpp.o
@@ -4263,7 +4263,7 @@ shared/gameGameServer/MessageQueuePvpCommand.o: shared/gameGameServer/MessageQue
 
 # target to build an object file
 shared/gameGameServer/MessageQueuePvpCommand.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueuePvpCommand.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueuePvpCommand.cpp.o
 .PHONY : shared/gameGameServer/MessageQueuePvpCommand.cpp.o
 
 shared/gameGameServer/MessageQueuePvpCommand.i: shared/gameGameServer/MessageQueuePvpCommand.cpp.i
@@ -4271,7 +4271,7 @@ shared/gameGameServer/MessageQueuePvpCommand.i: shared/gameGameServer/MessageQue
 
 # target to preprocess a source file
 shared/gameGameServer/MessageQueuePvpCommand.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueuePvpCommand.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueuePvpCommand.cpp.i
 .PHONY : shared/gameGameServer/MessageQueuePvpCommand.cpp.i
 
 shared/gameGameServer/MessageQueuePvpCommand.s: shared/gameGameServer/MessageQueuePvpCommand.cpp.s
@@ -4279,7 +4279,7 @@ shared/gameGameServer/MessageQueuePvpCommand.s: shared/gameGameServer/MessageQue
 
 # target to generate assembly for a file
 shared/gameGameServer/MessageQueuePvpCommand.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueuePvpCommand.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueuePvpCommand.cpp.s
 .PHONY : shared/gameGameServer/MessageQueuePvpCommand.cpp.s
 
 shared/gameGameServer/MessageQueueScriptTrigger.o: shared/gameGameServer/MessageQueueScriptTrigger.cpp.o
@@ -4287,7 +4287,7 @@ shared/gameGameServer/MessageQueueScriptTrigger.o: shared/gameGameServer/Message
 
 # target to build an object file
 shared/gameGameServer/MessageQueueScriptTrigger.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueScriptTrigger.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueScriptTrigger.cpp.o
 .PHONY : shared/gameGameServer/MessageQueueScriptTrigger.cpp.o
 
 shared/gameGameServer/MessageQueueScriptTrigger.i: shared/gameGameServer/MessageQueueScriptTrigger.cpp.i
@@ -4295,7 +4295,7 @@ shared/gameGameServer/MessageQueueScriptTrigger.i: shared/gameGameServer/Message
 
 # target to preprocess a source file
 shared/gameGameServer/MessageQueueScriptTrigger.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueScriptTrigger.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueScriptTrigger.cpp.i
 .PHONY : shared/gameGameServer/MessageQueueScriptTrigger.cpp.i
 
 shared/gameGameServer/MessageQueueScriptTrigger.s: shared/gameGameServer/MessageQueueScriptTrigger.cpp.s
@@ -4303,7 +4303,7 @@ shared/gameGameServer/MessageQueueScriptTrigger.s: shared/gameGameServer/Message
 
 # target to generate assembly for a file
 shared/gameGameServer/MessageQueueScriptTrigger.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueScriptTrigger.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueScriptTrigger.cpp.s
 .PHONY : shared/gameGameServer/MessageQueueScriptTrigger.cpp.s
 
 shared/gameGameServer/MessageQueueSetState.o: shared/gameGameServer/MessageQueueSetState.cpp.o
@@ -4311,7 +4311,7 @@ shared/gameGameServer/MessageQueueSetState.o: shared/gameGameServer/MessageQueue
 
 # target to build an object file
 shared/gameGameServer/MessageQueueSetState.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueSetState.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueSetState.cpp.o
 .PHONY : shared/gameGameServer/MessageQueueSetState.cpp.o
 
 shared/gameGameServer/MessageQueueSetState.i: shared/gameGameServer/MessageQueueSetState.cpp.i
@@ -4319,7 +4319,7 @@ shared/gameGameServer/MessageQueueSetState.i: shared/gameGameServer/MessageQueue
 
 # target to preprocess a source file
 shared/gameGameServer/MessageQueueSetState.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueSetState.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueSetState.cpp.i
 .PHONY : shared/gameGameServer/MessageQueueSetState.cpp.i
 
 shared/gameGameServer/MessageQueueSetState.s: shared/gameGameServer/MessageQueueSetState.cpp.s
@@ -4327,7 +4327,7 @@ shared/gameGameServer/MessageQueueSetState.s: shared/gameGameServer/MessageQueue
 
 # target to generate assembly for a file
 shared/gameGameServer/MessageQueueSetState.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueSetState.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueSetState.cpp.s
 .PHONY : shared/gameGameServer/MessageQueueSetState.cpp.s
 
 shared/gameGameServer/MessageQueueTeleportObject.o: shared/gameGameServer/MessageQueueTeleportObject.cpp.o
@@ -4335,7 +4335,7 @@ shared/gameGameServer/MessageQueueTeleportObject.o: shared/gameGameServer/Messag
 
 # target to build an object file
 shared/gameGameServer/MessageQueueTeleportObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueTeleportObject.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueTeleportObject.cpp.o
 .PHONY : shared/gameGameServer/MessageQueueTeleportObject.cpp.o
 
 shared/gameGameServer/MessageQueueTeleportObject.i: shared/gameGameServer/MessageQueueTeleportObject.cpp.i
@@ -4343,7 +4343,7 @@ shared/gameGameServer/MessageQueueTeleportObject.i: shared/gameGameServer/Messag
 
 # target to preprocess a source file
 shared/gameGameServer/MessageQueueTeleportObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueTeleportObject.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueTeleportObject.cpp.i
 .PHONY : shared/gameGameServer/MessageQueueTeleportObject.cpp.i
 
 shared/gameGameServer/MessageQueueTeleportObject.s: shared/gameGameServer/MessageQueueTeleportObject.cpp.s
@@ -4351,7 +4351,7 @@ shared/gameGameServer/MessageQueueTeleportObject.s: shared/gameGameServer/Messag
 
 # target to generate assembly for a file
 shared/gameGameServer/MessageQueueTeleportObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueTeleportObject.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/MessageQueueTeleportObject.cpp.s
 .PHONY : shared/gameGameServer/MessageQueueTeleportObject.cpp.s
 
 shared/gameGameServer/PersistedPlayerMessage.o: shared/gameGameServer/PersistedPlayerMessage.cpp.o
@@ -4359,7 +4359,7 @@ shared/gameGameServer/PersistedPlayerMessage.o: shared/gameGameServer/PersistedP
 
 # target to build an object file
 shared/gameGameServer/PersistedPlayerMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PersistedPlayerMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PersistedPlayerMessage.cpp.o
 .PHONY : shared/gameGameServer/PersistedPlayerMessage.cpp.o
 
 shared/gameGameServer/PersistedPlayerMessage.i: shared/gameGameServer/PersistedPlayerMessage.cpp.i
@@ -4367,7 +4367,7 @@ shared/gameGameServer/PersistedPlayerMessage.i: shared/gameGameServer/PersistedP
 
 # target to preprocess a source file
 shared/gameGameServer/PersistedPlayerMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PersistedPlayerMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PersistedPlayerMessage.cpp.i
 .PHONY : shared/gameGameServer/PersistedPlayerMessage.cpp.i
 
 shared/gameGameServer/PersistedPlayerMessage.s: shared/gameGameServer/PersistedPlayerMessage.cpp.s
@@ -4375,7 +4375,7 @@ shared/gameGameServer/PersistedPlayerMessage.s: shared/gameGameServer/PersistedP
 
 # target to generate assembly for a file
 shared/gameGameServer/PersistedPlayerMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PersistedPlayerMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PersistedPlayerMessage.cpp.s
 .PHONY : shared/gameGameServer/PersistedPlayerMessage.cpp.s
 
 shared/gameGameServer/PlayedTimeAccumMessage.o: shared/gameGameServer/PlayedTimeAccumMessage.cpp.o
@@ -4383,7 +4383,7 @@ shared/gameGameServer/PlayedTimeAccumMessage.o: shared/gameGameServer/PlayedTime
 
 # target to build an object file
 shared/gameGameServer/PlayedTimeAccumMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PlayedTimeAccumMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PlayedTimeAccumMessage.cpp.o
 .PHONY : shared/gameGameServer/PlayedTimeAccumMessage.cpp.o
 
 shared/gameGameServer/PlayedTimeAccumMessage.i: shared/gameGameServer/PlayedTimeAccumMessage.cpp.i
@@ -4391,7 +4391,7 @@ shared/gameGameServer/PlayedTimeAccumMessage.i: shared/gameGameServer/PlayedTime
 
 # target to preprocess a source file
 shared/gameGameServer/PlayedTimeAccumMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PlayedTimeAccumMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PlayedTimeAccumMessage.cpp.i
 .PHONY : shared/gameGameServer/PlayedTimeAccumMessage.cpp.i
 
 shared/gameGameServer/PlayedTimeAccumMessage.s: shared/gameGameServer/PlayedTimeAccumMessage.cpp.s
@@ -4399,7 +4399,7 @@ shared/gameGameServer/PlayedTimeAccumMessage.s: shared/gameGameServer/PlayedTime
 
 # target to generate assembly for a file
 shared/gameGameServer/PlayedTimeAccumMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PlayedTimeAccumMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/PlayedTimeAccumMessage.cpp.s
 .PHONY : shared/gameGameServer/PlayedTimeAccumMessage.cpp.s
 
 shared/gameGameServer/ProfilerOperationMessage.o: shared/gameGameServer/ProfilerOperationMessage.cpp.o
@@ -4407,7 +4407,7 @@ shared/gameGameServer/ProfilerOperationMessage.o: shared/gameGameServer/Profiler
 
 # target to build an object file
 shared/gameGameServer/ProfilerOperationMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ProfilerOperationMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ProfilerOperationMessage.cpp.o
 .PHONY : shared/gameGameServer/ProfilerOperationMessage.cpp.o
 
 shared/gameGameServer/ProfilerOperationMessage.i: shared/gameGameServer/ProfilerOperationMessage.cpp.i
@@ -4415,7 +4415,7 @@ shared/gameGameServer/ProfilerOperationMessage.i: shared/gameGameServer/Profiler
 
 # target to preprocess a source file
 shared/gameGameServer/ProfilerOperationMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ProfilerOperationMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ProfilerOperationMessage.cpp.i
 .PHONY : shared/gameGameServer/ProfilerOperationMessage.cpp.i
 
 shared/gameGameServer/ProfilerOperationMessage.s: shared/gameGameServer/ProfilerOperationMessage.cpp.s
@@ -4423,7 +4423,7 @@ shared/gameGameServer/ProfilerOperationMessage.s: shared/gameGameServer/Profiler
 
 # target to generate assembly for a file
 shared/gameGameServer/ProfilerOperationMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ProfilerOperationMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ProfilerOperationMessage.cpp.s
 .PHONY : shared/gameGameServer/ProfilerOperationMessage.cpp.s
 
 shared/gameGameServer/ReloadAdminTableMessage.o: shared/gameGameServer/ReloadAdminTableMessage.cpp.o
@@ -4431,7 +4431,7 @@ shared/gameGameServer/ReloadAdminTableMessage.o: shared/gameGameServer/ReloadAdm
 
 # target to build an object file
 shared/gameGameServer/ReloadAdminTableMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadAdminTableMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadAdminTableMessage.cpp.o
 .PHONY : shared/gameGameServer/ReloadAdminTableMessage.cpp.o
 
 shared/gameGameServer/ReloadAdminTableMessage.i: shared/gameGameServer/ReloadAdminTableMessage.cpp.i
@@ -4439,7 +4439,7 @@ shared/gameGameServer/ReloadAdminTableMessage.i: shared/gameGameServer/ReloadAdm
 
 # target to preprocess a source file
 shared/gameGameServer/ReloadAdminTableMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadAdminTableMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadAdminTableMessage.cpp.i
 .PHONY : shared/gameGameServer/ReloadAdminTableMessage.cpp.i
 
 shared/gameGameServer/ReloadAdminTableMessage.s: shared/gameGameServer/ReloadAdminTableMessage.cpp.s
@@ -4447,7 +4447,7 @@ shared/gameGameServer/ReloadAdminTableMessage.s: shared/gameGameServer/ReloadAdm
 
 # target to generate assembly for a file
 shared/gameGameServer/ReloadAdminTableMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadAdminTableMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadAdminTableMessage.cpp.s
 .PHONY : shared/gameGameServer/ReloadAdminTableMessage.cpp.s
 
 shared/gameGameServer/ReloadCommandTableMessage.o: shared/gameGameServer/ReloadCommandTableMessage.cpp.o
@@ -4455,7 +4455,7 @@ shared/gameGameServer/ReloadCommandTableMessage.o: shared/gameGameServer/ReloadC
 
 # target to build an object file
 shared/gameGameServer/ReloadCommandTableMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadCommandTableMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadCommandTableMessage.cpp.o
 .PHONY : shared/gameGameServer/ReloadCommandTableMessage.cpp.o
 
 shared/gameGameServer/ReloadCommandTableMessage.i: shared/gameGameServer/ReloadCommandTableMessage.cpp.i
@@ -4463,7 +4463,7 @@ shared/gameGameServer/ReloadCommandTableMessage.i: shared/gameGameServer/ReloadC
 
 # target to preprocess a source file
 shared/gameGameServer/ReloadCommandTableMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadCommandTableMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadCommandTableMessage.cpp.i
 .PHONY : shared/gameGameServer/ReloadCommandTableMessage.cpp.i
 
 shared/gameGameServer/ReloadCommandTableMessage.s: shared/gameGameServer/ReloadCommandTableMessage.cpp.s
@@ -4471,7 +4471,7 @@ shared/gameGameServer/ReloadCommandTableMessage.s: shared/gameGameServer/ReloadC
 
 # target to generate assembly for a file
 shared/gameGameServer/ReloadCommandTableMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadCommandTableMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadCommandTableMessage.cpp.s
 .PHONY : shared/gameGameServer/ReloadCommandTableMessage.cpp.s
 
 shared/gameGameServer/ReloadDatatableMessage.o: shared/gameGameServer/ReloadDatatableMessage.cpp.o
@@ -4479,7 +4479,7 @@ shared/gameGameServer/ReloadDatatableMessage.o: shared/gameGameServer/ReloadData
 
 # target to build an object file
 shared/gameGameServer/ReloadDatatableMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadDatatableMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadDatatableMessage.cpp.o
 .PHONY : shared/gameGameServer/ReloadDatatableMessage.cpp.o
 
 shared/gameGameServer/ReloadDatatableMessage.i: shared/gameGameServer/ReloadDatatableMessage.cpp.i
@@ -4487,7 +4487,7 @@ shared/gameGameServer/ReloadDatatableMessage.i: shared/gameGameServer/ReloadData
 
 # target to preprocess a source file
 shared/gameGameServer/ReloadDatatableMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadDatatableMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadDatatableMessage.cpp.i
 .PHONY : shared/gameGameServer/ReloadDatatableMessage.cpp.i
 
 shared/gameGameServer/ReloadDatatableMessage.s: shared/gameGameServer/ReloadDatatableMessage.cpp.s
@@ -4495,7 +4495,7 @@ shared/gameGameServer/ReloadDatatableMessage.s: shared/gameGameServer/ReloadData
 
 # target to generate assembly for a file
 shared/gameGameServer/ReloadDatatableMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadDatatableMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadDatatableMessage.cpp.s
 .PHONY : shared/gameGameServer/ReloadDatatableMessage.cpp.s
 
 shared/gameGameServer/ReloadScriptMessage.o: shared/gameGameServer/ReloadScriptMessage.cpp.o
@@ -4503,7 +4503,7 @@ shared/gameGameServer/ReloadScriptMessage.o: shared/gameGameServer/ReloadScriptM
 
 # target to build an object file
 shared/gameGameServer/ReloadScriptMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadScriptMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadScriptMessage.cpp.o
 .PHONY : shared/gameGameServer/ReloadScriptMessage.cpp.o
 
 shared/gameGameServer/ReloadScriptMessage.i: shared/gameGameServer/ReloadScriptMessage.cpp.i
@@ -4511,7 +4511,7 @@ shared/gameGameServer/ReloadScriptMessage.i: shared/gameGameServer/ReloadScriptM
 
 # target to preprocess a source file
 shared/gameGameServer/ReloadScriptMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadScriptMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadScriptMessage.cpp.i
 .PHONY : shared/gameGameServer/ReloadScriptMessage.cpp.i
 
 shared/gameGameServer/ReloadScriptMessage.s: shared/gameGameServer/ReloadScriptMessage.cpp.s
@@ -4519,7 +4519,7 @@ shared/gameGameServer/ReloadScriptMessage.s: shared/gameGameServer/ReloadScriptM
 
 # target to generate assembly for a file
 shared/gameGameServer/ReloadScriptMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadScriptMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadScriptMessage.cpp.s
 .PHONY : shared/gameGameServer/ReloadScriptMessage.cpp.s
 
 shared/gameGameServer/ReloadTemplateMessage.o: shared/gameGameServer/ReloadTemplateMessage.cpp.o
@@ -4527,7 +4527,7 @@ shared/gameGameServer/ReloadTemplateMessage.o: shared/gameGameServer/ReloadTempl
 
 # target to build an object file
 shared/gameGameServer/ReloadTemplateMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadTemplateMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadTemplateMessage.cpp.o
 .PHONY : shared/gameGameServer/ReloadTemplateMessage.cpp.o
 
 shared/gameGameServer/ReloadTemplateMessage.i: shared/gameGameServer/ReloadTemplateMessage.cpp.i
@@ -4535,7 +4535,7 @@ shared/gameGameServer/ReloadTemplateMessage.i: shared/gameGameServer/ReloadTempl
 
 # target to preprocess a source file
 shared/gameGameServer/ReloadTemplateMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadTemplateMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadTemplateMessage.cpp.i
 .PHONY : shared/gameGameServer/ReloadTemplateMessage.cpp.i
 
 shared/gameGameServer/ReloadTemplateMessage.s: shared/gameGameServer/ReloadTemplateMessage.cpp.s
@@ -4543,7 +4543,7 @@ shared/gameGameServer/ReloadTemplateMessage.s: shared/gameGameServer/ReloadTempl
 
 # target to generate assembly for a file
 shared/gameGameServer/ReloadTemplateMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadTemplateMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/ReloadTemplateMessage.cpp.s
 .PHONY : shared/gameGameServer/ReloadTemplateMessage.cpp.s
 
 shared/gameGameServer/RenameCharacterMessage.o: shared/gameGameServer/RenameCharacterMessage.cpp.o
@@ -4551,7 +4551,7 @@ shared/gameGameServer/RenameCharacterMessage.o: shared/gameGameServer/RenameChar
 
 # target to build an object file
 shared/gameGameServer/RenameCharacterMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RenameCharacterMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RenameCharacterMessage.cpp.o
 .PHONY : shared/gameGameServer/RenameCharacterMessage.cpp.o
 
 shared/gameGameServer/RenameCharacterMessage.i: shared/gameGameServer/RenameCharacterMessage.cpp.i
@@ -4559,7 +4559,7 @@ shared/gameGameServer/RenameCharacterMessage.i: shared/gameGameServer/RenameChar
 
 # target to preprocess a source file
 shared/gameGameServer/RenameCharacterMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RenameCharacterMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RenameCharacterMessage.cpp.i
 .PHONY : shared/gameGameServer/RenameCharacterMessage.cpp.i
 
 shared/gameGameServer/RenameCharacterMessage.s: shared/gameGameServer/RenameCharacterMessage.cpp.s
@@ -4567,7 +4567,7 @@ shared/gameGameServer/RenameCharacterMessage.s: shared/gameGameServer/RenameChar
 
 # target to generate assembly for a file
 shared/gameGameServer/RenameCharacterMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RenameCharacterMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RenameCharacterMessage.cpp.s
 .PHONY : shared/gameGameServer/RenameCharacterMessage.cpp.s
 
 shared/gameGameServer/RequestBiographyMessage.o: shared/gameGameServer/RequestBiographyMessage.cpp.o
@@ -4575,7 +4575,7 @@ shared/gameGameServer/RequestBiographyMessage.o: shared/gameGameServer/RequestBi
 
 # target to build an object file
 shared/gameGameServer/RequestBiographyMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RequestBiographyMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RequestBiographyMessage.cpp.o
 .PHONY : shared/gameGameServer/RequestBiographyMessage.cpp.o
 
 shared/gameGameServer/RequestBiographyMessage.i: shared/gameGameServer/RequestBiographyMessage.cpp.i
@@ -4583,7 +4583,7 @@ shared/gameGameServer/RequestBiographyMessage.i: shared/gameGameServer/RequestBi
 
 # target to preprocess a source file
 shared/gameGameServer/RequestBiographyMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RequestBiographyMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RequestBiographyMessage.cpp.i
 .PHONY : shared/gameGameServer/RequestBiographyMessage.cpp.i
 
 shared/gameGameServer/RequestBiographyMessage.s: shared/gameGameServer/RequestBiographyMessage.cpp.s
@@ -4591,7 +4591,7 @@ shared/gameGameServer/RequestBiographyMessage.s: shared/gameGameServer/RequestBi
 
 # target to generate assembly for a file
 shared/gameGameServer/RequestBiographyMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RequestBiographyMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RequestBiographyMessage.cpp.s
 .PHONY : shared/gameGameServer/RequestBiographyMessage.cpp.s
 
 shared/gameGameServer/RestartServerMessage.o: shared/gameGameServer/RestartServerMessage.cpp.o
@@ -4599,7 +4599,7 @@ shared/gameGameServer/RestartServerMessage.o: shared/gameGameServer/RestartServe
 
 # target to build an object file
 shared/gameGameServer/RestartServerMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RestartServerMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RestartServerMessage.cpp.o
 .PHONY : shared/gameGameServer/RestartServerMessage.cpp.o
 
 shared/gameGameServer/RestartServerMessage.i: shared/gameGameServer/RestartServerMessage.cpp.i
@@ -4607,7 +4607,7 @@ shared/gameGameServer/RestartServerMessage.i: shared/gameGameServer/RestartServe
 
 # target to preprocess a source file
 shared/gameGameServer/RestartServerMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RestartServerMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RestartServerMessage.cpp.i
 .PHONY : shared/gameGameServer/RestartServerMessage.cpp.i
 
 shared/gameGameServer/RestartServerMessage.s: shared/gameGameServer/RestartServerMessage.cpp.s
@@ -4615,7 +4615,7 @@ shared/gameGameServer/RestartServerMessage.s: shared/gameGameServer/RestartServe
 
 # target to generate assembly for a file
 shared/gameGameServer/RestartServerMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RestartServerMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RestartServerMessage.cpp.s
 .PHONY : shared/gameGameServer/RestartServerMessage.cpp.s
 
 shared/gameGameServer/RetrievedItemLoadMessage.o: shared/gameGameServer/RetrievedItemLoadMessage.cpp.o
@@ -4623,7 +4623,7 @@ shared/gameGameServer/RetrievedItemLoadMessage.o: shared/gameGameServer/Retrieve
 
 # target to build an object file
 shared/gameGameServer/RetrievedItemLoadMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RetrievedItemLoadMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RetrievedItemLoadMessage.cpp.o
 .PHONY : shared/gameGameServer/RetrievedItemLoadMessage.cpp.o
 
 shared/gameGameServer/RetrievedItemLoadMessage.i: shared/gameGameServer/RetrievedItemLoadMessage.cpp.i
@@ -4631,7 +4631,7 @@ shared/gameGameServer/RetrievedItemLoadMessage.i: shared/gameGameServer/Retrieve
 
 # target to preprocess a source file
 shared/gameGameServer/RetrievedItemLoadMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RetrievedItemLoadMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RetrievedItemLoadMessage.cpp.i
 .PHONY : shared/gameGameServer/RetrievedItemLoadMessage.cpp.i
 
 shared/gameGameServer/RetrievedItemLoadMessage.s: shared/gameGameServer/RetrievedItemLoadMessage.cpp.s
@@ -4639,7 +4639,7 @@ shared/gameGameServer/RetrievedItemLoadMessage.s: shared/gameGameServer/Retrieve
 
 # target to generate assembly for a file
 shared/gameGameServer/RetrievedItemLoadMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RetrievedItemLoadMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/RetrievedItemLoadMessage.cpp.s
 .PHONY : shared/gameGameServer/RetrievedItemLoadMessage.cpp.s
 
 shared/gameGameServer/StructuresForPurgeMessage.o: shared/gameGameServer/StructuresForPurgeMessage.cpp.o
@@ -4647,7 +4647,7 @@ shared/gameGameServer/StructuresForPurgeMessage.o: shared/gameGameServer/Structu
 
 # target to build an object file
 shared/gameGameServer/StructuresForPurgeMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/StructuresForPurgeMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/StructuresForPurgeMessage.cpp.o
 .PHONY : shared/gameGameServer/StructuresForPurgeMessage.cpp.o
 
 shared/gameGameServer/StructuresForPurgeMessage.i: shared/gameGameServer/StructuresForPurgeMessage.cpp.i
@@ -4655,7 +4655,7 @@ shared/gameGameServer/StructuresForPurgeMessage.i: shared/gameGameServer/Structu
 
 # target to preprocess a source file
 shared/gameGameServer/StructuresForPurgeMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/StructuresForPurgeMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/StructuresForPurgeMessage.cpp.i
 .PHONY : shared/gameGameServer/StructuresForPurgeMessage.cpp.i
 
 shared/gameGameServer/StructuresForPurgeMessage.s: shared/gameGameServer/StructuresForPurgeMessage.cpp.s
@@ -4663,7 +4663,7 @@ shared/gameGameServer/StructuresForPurgeMessage.s: shared/gameGameServer/Structu
 
 # target to generate assembly for a file
 shared/gameGameServer/StructuresForPurgeMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/StructuresForPurgeMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/StructuresForPurgeMessage.cpp.s
 .PHONY : shared/gameGameServer/StructuresForPurgeMessage.cpp.s
 
 shared/gameGameServer/SynchronizeScriptVarDeltasMessage.o: shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.o
@@ -4671,7 +4671,7 @@ shared/gameGameServer/SynchronizeScriptVarDeltasMessage.o: shared/gameGameServer
 
 # target to build an object file
 shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.o
 .PHONY : shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.o
 
 shared/gameGameServer/SynchronizeScriptVarDeltasMessage.i: shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.i
@@ -4679,7 +4679,7 @@ shared/gameGameServer/SynchronizeScriptVarDeltasMessage.i: shared/gameGameServer
 
 # target to preprocess a source file
 shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.i
 .PHONY : shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.i
 
 shared/gameGameServer/SynchronizeScriptVarDeltasMessage.s: shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.s
@@ -4687,7 +4687,7 @@ shared/gameGameServer/SynchronizeScriptVarDeltasMessage.s: shared/gameGameServer
 
 # target to generate assembly for a file
 shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.s
 .PHONY : shared/gameGameServer/SynchronizeScriptVarDeltasMessage.cpp.s
 
 shared/gameGameServer/SynchronizeScriptVarsMessage.o: shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.o
@@ -4695,7 +4695,7 @@ shared/gameGameServer/SynchronizeScriptVarsMessage.o: shared/gameGameServer/Sync
 
 # target to build an object file
 shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.o
 .PHONY : shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.o
 
 shared/gameGameServer/SynchronizeScriptVarsMessage.i: shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.i
@@ -4703,7 +4703,7 @@ shared/gameGameServer/SynchronizeScriptVarsMessage.i: shared/gameGameServer/Sync
 
 # target to preprocess a source file
 shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.i
 .PHONY : shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.i
 
 shared/gameGameServer/SynchronizeScriptVarsMessage.s: shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.s
@@ -4711,7 +4711,7 @@ shared/gameGameServer/SynchronizeScriptVarsMessage.s: shared/gameGameServer/Sync
 
 # target to generate assembly for a file
 shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.s
 .PHONY : shared/gameGameServer/SynchronizeScriptVarsMessage.cpp.s
 
 shared/gameGameServer/TeleportMessage.o: shared/gameGameServer/TeleportMessage.cpp.o
@@ -4719,7 +4719,7 @@ shared/gameGameServer/TeleportMessage.o: shared/gameGameServer/TeleportMessage.c
 
 # target to build an object file
 shared/gameGameServer/TeleportMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportMessage.cpp.o
 .PHONY : shared/gameGameServer/TeleportMessage.cpp.o
 
 shared/gameGameServer/TeleportMessage.i: shared/gameGameServer/TeleportMessage.cpp.i
@@ -4727,7 +4727,7 @@ shared/gameGameServer/TeleportMessage.i: shared/gameGameServer/TeleportMessage.c
 
 # target to preprocess a source file
 shared/gameGameServer/TeleportMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportMessage.cpp.i
 .PHONY : shared/gameGameServer/TeleportMessage.cpp.i
 
 shared/gameGameServer/TeleportMessage.s: shared/gameGameServer/TeleportMessage.cpp.s
@@ -4735,7 +4735,7 @@ shared/gameGameServer/TeleportMessage.s: shared/gameGameServer/TeleportMessage.c
 
 # target to generate assembly for a file
 shared/gameGameServer/TeleportMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportMessage.cpp.s
 .PHONY : shared/gameGameServer/TeleportMessage.cpp.s
 
 shared/gameGameServer/TeleportToMessage.o: shared/gameGameServer/TeleportToMessage.cpp.o
@@ -4743,7 +4743,7 @@ shared/gameGameServer/TeleportToMessage.o: shared/gameGameServer/TeleportToMessa
 
 # target to build an object file
 shared/gameGameServer/TeleportToMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportToMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportToMessage.cpp.o
 .PHONY : shared/gameGameServer/TeleportToMessage.cpp.o
 
 shared/gameGameServer/TeleportToMessage.i: shared/gameGameServer/TeleportToMessage.cpp.i
@@ -4751,7 +4751,7 @@ shared/gameGameServer/TeleportToMessage.i: shared/gameGameServer/TeleportToMessa
 
 # target to preprocess a source file
 shared/gameGameServer/TeleportToMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportToMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportToMessage.cpp.i
 .PHONY : shared/gameGameServer/TeleportToMessage.cpp.i
 
 shared/gameGameServer/TeleportToMessage.s: shared/gameGameServer/TeleportToMessage.cpp.s
@@ -4759,7 +4759,7 @@ shared/gameGameServer/TeleportToMessage.s: shared/gameGameServer/TeleportToMessa
 
 # target to generate assembly for a file
 shared/gameGameServer/TeleportToMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportToMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/TeleportToMessage.cpp.s
 .PHONY : shared/gameGameServer/TeleportToMessage.cpp.s
 
 shared/gameGameServer/UnloadedPlayerMessage.o: shared/gameGameServer/UnloadedPlayerMessage.cpp.o
@@ -4767,7 +4767,7 @@ shared/gameGameServer/UnloadedPlayerMessage.o: shared/gameGameServer/UnloadedPla
 
 # target to build an object file
 shared/gameGameServer/UnloadedPlayerMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UnloadedPlayerMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UnloadedPlayerMessage.cpp.o
 .PHONY : shared/gameGameServer/UnloadedPlayerMessage.cpp.o
 
 shared/gameGameServer/UnloadedPlayerMessage.i: shared/gameGameServer/UnloadedPlayerMessage.cpp.i
@@ -4775,7 +4775,7 @@ shared/gameGameServer/UnloadedPlayerMessage.i: shared/gameGameServer/UnloadedPla
 
 # target to preprocess a source file
 shared/gameGameServer/UnloadedPlayerMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UnloadedPlayerMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UnloadedPlayerMessage.cpp.i
 .PHONY : shared/gameGameServer/UnloadedPlayerMessage.cpp.i
 
 shared/gameGameServer/UnloadedPlayerMessage.s: shared/gameGameServer/UnloadedPlayerMessage.cpp.s
@@ -4783,7 +4783,7 @@ shared/gameGameServer/UnloadedPlayerMessage.s: shared/gameGameServer/UnloadedPla
 
 # target to generate assembly for a file
 shared/gameGameServer/UnloadedPlayerMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UnloadedPlayerMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UnloadedPlayerMessage.cpp.s
 .PHONY : shared/gameGameServer/UnloadedPlayerMessage.cpp.s
 
 shared/gameGameServer/UpdateObjectPositionMessage.o: shared/gameGameServer/UpdateObjectPositionMessage.cpp.o
@@ -4791,7 +4791,7 @@ shared/gameGameServer/UpdateObjectPositionMessage.o: shared/gameGameServer/Updat
 
 # target to build an object file
 shared/gameGameServer/UpdateObjectPositionMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UpdateObjectPositionMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UpdateObjectPositionMessage.cpp.o
 .PHONY : shared/gameGameServer/UpdateObjectPositionMessage.cpp.o
 
 shared/gameGameServer/UpdateObjectPositionMessage.i: shared/gameGameServer/UpdateObjectPositionMessage.cpp.i
@@ -4799,7 +4799,7 @@ shared/gameGameServer/UpdateObjectPositionMessage.i: shared/gameGameServer/Updat
 
 # target to preprocess a source file
 shared/gameGameServer/UpdateObjectPositionMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UpdateObjectPositionMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UpdateObjectPositionMessage.cpp.i
 .PHONY : shared/gameGameServer/UpdateObjectPositionMessage.cpp.i
 
 shared/gameGameServer/UpdateObjectPositionMessage.s: shared/gameGameServer/UpdateObjectPositionMessage.cpp.s
@@ -4807,7 +4807,7 @@ shared/gameGameServer/UpdateObjectPositionMessage.s: shared/gameGameServer/Updat
 
 # target to generate assembly for a file
 shared/gameGameServer/UpdateObjectPositionMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UpdateObjectPositionMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameGameServer/UpdateObjectPositionMessage.cpp.s
 .PHONY : shared/gameGameServer/UpdateObjectPositionMessage.cpp.s
 
 shared/gamePlanetServer/FactionalSystemMessage.o: shared/gamePlanetServer/FactionalSystemMessage.cpp.o
@@ -4815,7 +4815,7 @@ shared/gamePlanetServer/FactionalSystemMessage.o: shared/gamePlanetServer/Factio
 
 # target to build an object file
 shared/gamePlanetServer/FactionalSystemMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FactionalSystemMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FactionalSystemMessage.cpp.o
 .PHONY : shared/gamePlanetServer/FactionalSystemMessage.cpp.o
 
 shared/gamePlanetServer/FactionalSystemMessage.i: shared/gamePlanetServer/FactionalSystemMessage.cpp.i
@@ -4823,7 +4823,7 @@ shared/gamePlanetServer/FactionalSystemMessage.i: shared/gamePlanetServer/Factio
 
 # target to preprocess a source file
 shared/gamePlanetServer/FactionalSystemMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FactionalSystemMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FactionalSystemMessage.cpp.i
 .PHONY : shared/gamePlanetServer/FactionalSystemMessage.cpp.i
 
 shared/gamePlanetServer/FactionalSystemMessage.s: shared/gamePlanetServer/FactionalSystemMessage.cpp.s
@@ -4831,7 +4831,7 @@ shared/gamePlanetServer/FactionalSystemMessage.s: shared/gamePlanetServer/Factio
 
 # target to generate assembly for a file
 shared/gamePlanetServer/FactionalSystemMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FactionalSystemMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FactionalSystemMessage.cpp.s
 .PHONY : shared/gamePlanetServer/FactionalSystemMessage.cpp.s
 
 shared/gamePlanetServer/FirstPlanetGameServerIdMessage.o: shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.o
@@ -4839,7 +4839,7 @@ shared/gamePlanetServer/FirstPlanetGameServerIdMessage.o: shared/gamePlanetServe
 
 # target to build an object file
 shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.o
 .PHONY : shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.o
 
 shared/gamePlanetServer/FirstPlanetGameServerIdMessage.i: shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.i
@@ -4847,7 +4847,7 @@ shared/gamePlanetServer/FirstPlanetGameServerIdMessage.i: shared/gamePlanetServe
 
 # target to preprocess a source file
 shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.i
 .PHONY : shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.i
 
 shared/gamePlanetServer/FirstPlanetGameServerIdMessage.s: shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.s
@@ -4855,7 +4855,7 @@ shared/gamePlanetServer/FirstPlanetGameServerIdMessage.s: shared/gamePlanetServe
 
 # target to generate assembly for a file
 shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.s
 .PHONY : shared/gamePlanetServer/FirstPlanetGameServerIdMessage.cpp.s
 
 shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.o: shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.o
@@ -4863,7 +4863,7 @@ shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.o: shared/gamePlan
 
 # target to build an object file
 shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.o
 .PHONY : shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.o
 
 shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.i: shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.i
@@ -4871,7 +4871,7 @@ shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.i: shared/gamePlan
 
 # target to preprocess a source file
 shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.i
 .PHONY : shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.i
 
 shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.s: shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.s
@@ -4879,7 +4879,7 @@ shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.s: shared/gamePlan
 
 # target to generate assembly for a file
 shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.s
 .PHONY : shared/gamePlanetServer/GameServerForceChangeAuthorityMessage.cpp.s
 
 shared/gamePlanetServer/LocationRequest.o: shared/gamePlanetServer/LocationRequest.cpp.o
@@ -4887,7 +4887,7 @@ shared/gamePlanetServer/LocationRequest.o: shared/gamePlanetServer/LocationReque
 
 # target to build an object file
 shared/gamePlanetServer/LocationRequest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationRequest.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationRequest.cpp.o
 .PHONY : shared/gamePlanetServer/LocationRequest.cpp.o
 
 shared/gamePlanetServer/LocationRequest.i: shared/gamePlanetServer/LocationRequest.cpp.i
@@ -4895,7 +4895,7 @@ shared/gamePlanetServer/LocationRequest.i: shared/gamePlanetServer/LocationReque
 
 # target to preprocess a source file
 shared/gamePlanetServer/LocationRequest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationRequest.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationRequest.cpp.i
 .PHONY : shared/gamePlanetServer/LocationRequest.cpp.i
 
 shared/gamePlanetServer/LocationRequest.s: shared/gamePlanetServer/LocationRequest.cpp.s
@@ -4903,7 +4903,7 @@ shared/gamePlanetServer/LocationRequest.s: shared/gamePlanetServer/LocationReque
 
 # target to generate assembly for a file
 shared/gamePlanetServer/LocationRequest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationRequest.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationRequest.cpp.s
 .PHONY : shared/gamePlanetServer/LocationRequest.cpp.s
 
 shared/gamePlanetServer/LocationResponse.o: shared/gamePlanetServer/LocationResponse.cpp.o
@@ -4911,7 +4911,7 @@ shared/gamePlanetServer/LocationResponse.o: shared/gamePlanetServer/LocationResp
 
 # target to build an object file
 shared/gamePlanetServer/LocationResponse.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationResponse.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationResponse.cpp.o
 .PHONY : shared/gamePlanetServer/LocationResponse.cpp.o
 
 shared/gamePlanetServer/LocationResponse.i: shared/gamePlanetServer/LocationResponse.cpp.i
@@ -4919,7 +4919,7 @@ shared/gamePlanetServer/LocationResponse.i: shared/gamePlanetServer/LocationResp
 
 # target to preprocess a source file
 shared/gamePlanetServer/LocationResponse.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationResponse.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationResponse.cpp.i
 .PHONY : shared/gamePlanetServer/LocationResponse.cpp.i
 
 shared/gamePlanetServer/LocationResponse.s: shared/gamePlanetServer/LocationResponse.cpp.s
@@ -4927,7 +4927,7 @@ shared/gamePlanetServer/LocationResponse.s: shared/gamePlanetServer/LocationResp
 
 # target to generate assembly for a file
 shared/gamePlanetServer/LocationResponse.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationResponse.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/LocationResponse.cpp.s
 .PHONY : shared/gamePlanetServer/LocationResponse.cpp.s
 
 shared/gamePlanetServer/PlanetLoadCharacterMessage.o: shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.o
@@ -4935,7 +4935,7 @@ shared/gamePlanetServer/PlanetLoadCharacterMessage.o: shared/gamePlanetServer/Pl
 
 # target to build an object file
 shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.o
 .PHONY : shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.o
 
 shared/gamePlanetServer/PlanetLoadCharacterMessage.i: shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.i
@@ -4943,7 +4943,7 @@ shared/gamePlanetServer/PlanetLoadCharacterMessage.i: shared/gamePlanetServer/Pl
 
 # target to preprocess a source file
 shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.i
 .PHONY : shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.i
 
 shared/gamePlanetServer/PlanetLoadCharacterMessage.s: shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.s
@@ -4951,7 +4951,7 @@ shared/gamePlanetServer/PlanetLoadCharacterMessage.s: shared/gamePlanetServer/Pl
 
 # target to generate assembly for a file
 shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.s
 .PHONY : shared/gamePlanetServer/PlanetLoadCharacterMessage.cpp.s
 
 shared/gamePlanetServer/PlanetRemoveObject.o: shared/gamePlanetServer/PlanetRemoveObject.cpp.o
@@ -4959,7 +4959,7 @@ shared/gamePlanetServer/PlanetRemoveObject.o: shared/gamePlanetServer/PlanetRemo
 
 # target to build an object file
 shared/gamePlanetServer/PlanetRemoveObject.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetRemoveObject.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetRemoveObject.cpp.o
 .PHONY : shared/gamePlanetServer/PlanetRemoveObject.cpp.o
 
 shared/gamePlanetServer/PlanetRemoveObject.i: shared/gamePlanetServer/PlanetRemoveObject.cpp.i
@@ -4967,7 +4967,7 @@ shared/gamePlanetServer/PlanetRemoveObject.i: shared/gamePlanetServer/PlanetRemo
 
 # target to preprocess a source file
 shared/gamePlanetServer/PlanetRemoveObject.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetRemoveObject.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetRemoveObject.cpp.i
 .PHONY : shared/gamePlanetServer/PlanetRemoveObject.cpp.i
 
 shared/gamePlanetServer/PlanetRemoveObject.s: shared/gamePlanetServer/PlanetRemoveObject.cpp.s
@@ -4975,7 +4975,7 @@ shared/gamePlanetServer/PlanetRemoveObject.s: shared/gamePlanetServer/PlanetRemo
 
 # target to generate assembly for a file
 shared/gamePlanetServer/PlanetRemoveObject.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetRemoveObject.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/PlanetRemoveObject.cpp.s
 .PHONY : shared/gamePlanetServer/PlanetRemoveObject.cpp.s
 
 shared/gamePlanetServer/UnloadProxyMessage.o: shared/gamePlanetServer/UnloadProxyMessage.cpp.o
@@ -4983,7 +4983,7 @@ shared/gamePlanetServer/UnloadProxyMessage.o: shared/gamePlanetServer/UnloadProx
 
 # target to build an object file
 shared/gamePlanetServer/UnloadProxyMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UnloadProxyMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UnloadProxyMessage.cpp.o
 .PHONY : shared/gamePlanetServer/UnloadProxyMessage.cpp.o
 
 shared/gamePlanetServer/UnloadProxyMessage.i: shared/gamePlanetServer/UnloadProxyMessage.cpp.i
@@ -4991,7 +4991,7 @@ shared/gamePlanetServer/UnloadProxyMessage.i: shared/gamePlanetServer/UnloadProx
 
 # target to preprocess a source file
 shared/gamePlanetServer/UnloadProxyMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UnloadProxyMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UnloadProxyMessage.cpp.i
 .PHONY : shared/gamePlanetServer/UnloadProxyMessage.cpp.i
 
 shared/gamePlanetServer/UnloadProxyMessage.s: shared/gamePlanetServer/UnloadProxyMessage.cpp.s
@@ -4999,7 +4999,7 @@ shared/gamePlanetServer/UnloadProxyMessage.s: shared/gamePlanetServer/UnloadProx
 
 # target to generate assembly for a file
 shared/gamePlanetServer/UnloadProxyMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UnloadProxyMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UnloadProxyMessage.cpp.s
 .PHONY : shared/gamePlanetServer/UnloadProxyMessage.cpp.s
 
 shared/gamePlanetServer/UpdateObjectOnPlanetMessage.o: shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.o
@@ -5007,7 +5007,7 @@ shared/gamePlanetServer/UpdateObjectOnPlanetMessage.o: shared/gamePlanetServer/U
 
 # target to build an object file
 shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.o
 .PHONY : shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.o
 
 shared/gamePlanetServer/UpdateObjectOnPlanetMessage.i: shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.i
@@ -5015,7 +5015,7 @@ shared/gamePlanetServer/UpdateObjectOnPlanetMessage.i: shared/gamePlanetServer/U
 
 # target to preprocess a source file
 shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.i
 .PHONY : shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.i
 
 shared/gamePlanetServer/UpdateObjectOnPlanetMessage.s: shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.s
@@ -5023,7 +5023,7 @@ shared/gamePlanetServer/UpdateObjectOnPlanetMessage.s: shared/gamePlanetServer/U
 
 # target to generate assembly for a file
 shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.s
 .PHONY : shared/gamePlanetServer/UpdateObjectOnPlanetMessage.cpp.s
 
 shared/gameStationPlayersCollector/SPCharacterProfileMessage.o: shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.o
@@ -5031,7 +5031,7 @@ shared/gameStationPlayersCollector/SPCharacterProfileMessage.o: shared/gameStati
 
 # target to build an object file
 shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.o
 .PHONY : shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.o
 
 shared/gameStationPlayersCollector/SPCharacterProfileMessage.i: shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.i
@@ -5039,7 +5039,7 @@ shared/gameStationPlayersCollector/SPCharacterProfileMessage.i: shared/gameStati
 
 # target to preprocess a source file
 shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.i
 .PHONY : shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.i
 
 shared/gameStationPlayersCollector/SPCharacterProfileMessage.s: shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.s
@@ -5047,7 +5047,7 @@ shared/gameStationPlayersCollector/SPCharacterProfileMessage.s: shared/gameStati
 
 # target to generate assembly for a file
 shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.s
 .PHONY : shared/gameStationPlayersCollector/SPCharacterProfileMessage.cpp.s
 
 shared/gameTaskManager/GameTaskManagerMessages.o: shared/gameTaskManager/GameTaskManagerMessages.cpp.o
@@ -5055,7 +5055,7 @@ shared/gameTaskManager/GameTaskManagerMessages.o: shared/gameTaskManager/GameTas
 
 # target to build an object file
 shared/gameTaskManager/GameTaskManagerMessages.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameTaskManager/GameTaskManagerMessages.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameTaskManager/GameTaskManagerMessages.cpp.o
 .PHONY : shared/gameTaskManager/GameTaskManagerMessages.cpp.o
 
 shared/gameTaskManager/GameTaskManagerMessages.i: shared/gameTaskManager/GameTaskManagerMessages.cpp.i
@@ -5063,7 +5063,7 @@ shared/gameTaskManager/GameTaskManagerMessages.i: shared/gameTaskManager/GameTas
 
 # target to preprocess a source file
 shared/gameTaskManager/GameTaskManagerMessages.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameTaskManager/GameTaskManagerMessages.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameTaskManager/GameTaskManagerMessages.cpp.i
 .PHONY : shared/gameTaskManager/GameTaskManagerMessages.cpp.i
 
 shared/gameTaskManager/GameTaskManagerMessages.s: shared/gameTaskManager/GameTaskManagerMessages.cpp.s
@@ -5071,7 +5071,7 @@ shared/gameTaskManager/GameTaskManagerMessages.s: shared/gameTaskManager/GameTas
 
 # target to generate assembly for a file
 shared/gameTaskManager/GameTaskManagerMessages.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameTaskManager/GameTaskManagerMessages.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/gameTaskManager/GameTaskManagerMessages.cpp.s
 .PHONY : shared/gameTaskManager/GameTaskManagerMessages.cpp.s
 
 shared/loginCentralServer/CSToolRequest.o: shared/loginCentralServer/CSToolRequest.cpp.o
@@ -5079,7 +5079,7 @@ shared/loginCentralServer/CSToolRequest.o: shared/loginCentralServer/CSToolReque
 
 # target to build an object file
 shared/loginCentralServer/CSToolRequest.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolRequest.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolRequest.cpp.o
 .PHONY : shared/loginCentralServer/CSToolRequest.cpp.o
 
 shared/loginCentralServer/CSToolRequest.i: shared/loginCentralServer/CSToolRequest.cpp.i
@@ -5087,7 +5087,7 @@ shared/loginCentralServer/CSToolRequest.i: shared/loginCentralServer/CSToolReque
 
 # target to preprocess a source file
 shared/loginCentralServer/CSToolRequest.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolRequest.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolRequest.cpp.i
 .PHONY : shared/loginCentralServer/CSToolRequest.cpp.i
 
 shared/loginCentralServer/CSToolRequest.s: shared/loginCentralServer/CSToolRequest.cpp.s
@@ -5095,7 +5095,7 @@ shared/loginCentralServer/CSToolRequest.s: shared/loginCentralServer/CSToolReque
 
 # target to generate assembly for a file
 shared/loginCentralServer/CSToolRequest.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolRequest.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolRequest.cpp.s
 .PHONY : shared/loginCentralServer/CSToolRequest.cpp.s
 
 shared/loginCentralServer/CSToolResponse.o: shared/loginCentralServer/CSToolResponse.cpp.o
@@ -5103,7 +5103,7 @@ shared/loginCentralServer/CSToolResponse.o: shared/loginCentralServer/CSToolResp
 
 # target to build an object file
 shared/loginCentralServer/CSToolResponse.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolResponse.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolResponse.cpp.o
 .PHONY : shared/loginCentralServer/CSToolResponse.cpp.o
 
 shared/loginCentralServer/CSToolResponse.i: shared/loginCentralServer/CSToolResponse.cpp.i
@@ -5111,7 +5111,7 @@ shared/loginCentralServer/CSToolResponse.i: shared/loginCentralServer/CSToolResp
 
 # target to preprocess a source file
 shared/loginCentralServer/CSToolResponse.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolResponse.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolResponse.cpp.i
 .PHONY : shared/loginCentralServer/CSToolResponse.cpp.i
 
 shared/loginCentralServer/CSToolResponse.s: shared/loginCentralServer/CSToolResponse.cpp.s
@@ -5119,7 +5119,7 @@ shared/loginCentralServer/CSToolResponse.s: shared/loginCentralServer/CSToolResp
 
 # target to generate assembly for a file
 shared/loginCentralServer/CSToolResponse.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolResponse.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/CSToolResponse.cpp.s
 .PHONY : shared/loginCentralServer/CSToolResponse.cpp.s
 
 shared/loginCentralServer/ConnectionServerDown.o: shared/loginCentralServer/ConnectionServerDown.cpp.o
@@ -5127,7 +5127,7 @@ shared/loginCentralServer/ConnectionServerDown.o: shared/loginCentralServer/Conn
 
 # target to build an object file
 shared/loginCentralServer/ConnectionServerDown.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ConnectionServerDown.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ConnectionServerDown.cpp.o
 .PHONY : shared/loginCentralServer/ConnectionServerDown.cpp.o
 
 shared/loginCentralServer/ConnectionServerDown.i: shared/loginCentralServer/ConnectionServerDown.cpp.i
@@ -5135,7 +5135,7 @@ shared/loginCentralServer/ConnectionServerDown.i: shared/loginCentralServer/Conn
 
 # target to preprocess a source file
 shared/loginCentralServer/ConnectionServerDown.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ConnectionServerDown.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ConnectionServerDown.cpp.i
 .PHONY : shared/loginCentralServer/ConnectionServerDown.cpp.i
 
 shared/loginCentralServer/ConnectionServerDown.s: shared/loginCentralServer/ConnectionServerDown.cpp.s
@@ -5143,7 +5143,7 @@ shared/loginCentralServer/ConnectionServerDown.s: shared/loginCentralServer/Conn
 
 # target to generate assembly for a file
 shared/loginCentralServer/ConnectionServerDown.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ConnectionServerDown.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ConnectionServerDown.cpp.s
 .PHONY : shared/loginCentralServer/ConnectionServerDown.cpp.s
 
 shared/loginCentralServer/LoginClusterName.o: shared/loginCentralServer/LoginClusterName.cpp.o
@@ -5151,7 +5151,7 @@ shared/loginCentralServer/LoginClusterName.o: shared/loginCentralServer/LoginClu
 
 # target to build an object file
 shared/loginCentralServer/LoginClusterName.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName.cpp.o
 .PHONY : shared/loginCentralServer/LoginClusterName.cpp.o
 
 shared/loginCentralServer/LoginClusterName.i: shared/loginCentralServer/LoginClusterName.cpp.i
@@ -5159,7 +5159,7 @@ shared/loginCentralServer/LoginClusterName.i: shared/loginCentralServer/LoginClu
 
 # target to preprocess a source file
 shared/loginCentralServer/LoginClusterName.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName.cpp.i
 .PHONY : shared/loginCentralServer/LoginClusterName.cpp.i
 
 shared/loginCentralServer/LoginClusterName.s: shared/loginCentralServer/LoginClusterName.cpp.s
@@ -5167,7 +5167,7 @@ shared/loginCentralServer/LoginClusterName.s: shared/loginCentralServer/LoginClu
 
 # target to generate assembly for a file
 shared/loginCentralServer/LoginClusterName.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName.cpp.s
 .PHONY : shared/loginCentralServer/LoginClusterName.cpp.s
 
 shared/loginCentralServer/LoginClusterName2.o: shared/loginCentralServer/LoginClusterName2.cpp.o
@@ -5175,7 +5175,7 @@ shared/loginCentralServer/LoginClusterName2.o: shared/loginCentralServer/LoginCl
 
 # target to build an object file
 shared/loginCentralServer/LoginClusterName2.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName2.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName2.cpp.o
 .PHONY : shared/loginCentralServer/LoginClusterName2.cpp.o
 
 shared/loginCentralServer/LoginClusterName2.i: shared/loginCentralServer/LoginClusterName2.cpp.i
@@ -5183,7 +5183,7 @@ shared/loginCentralServer/LoginClusterName2.i: shared/loginCentralServer/LoginCl
 
 # target to preprocess a source file
 shared/loginCentralServer/LoginClusterName2.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName2.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName2.cpp.i
 .PHONY : shared/loginCentralServer/LoginClusterName2.cpp.i
 
 shared/loginCentralServer/LoginClusterName2.s: shared/loginCentralServer/LoginClusterName2.cpp.s
@@ -5191,7 +5191,7 @@ shared/loginCentralServer/LoginClusterName2.s: shared/loginCentralServer/LoginCl
 
 # target to generate assembly for a file
 shared/loginCentralServer/LoginClusterName2.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName2.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginClusterName2.cpp.s
 .PHONY : shared/loginCentralServer/LoginClusterName2.cpp.s
 
 shared/loginCentralServer/LoginConnectionServerAddress.o: shared/loginCentralServer/LoginConnectionServerAddress.cpp.o
@@ -5199,7 +5199,7 @@ shared/loginCentralServer/LoginConnectionServerAddress.o: shared/loginCentralSer
 
 # target to build an object file
 shared/loginCentralServer/LoginConnectionServerAddress.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginConnectionServerAddress.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginConnectionServerAddress.cpp.o
 .PHONY : shared/loginCentralServer/LoginConnectionServerAddress.cpp.o
 
 shared/loginCentralServer/LoginConnectionServerAddress.i: shared/loginCentralServer/LoginConnectionServerAddress.cpp.i
@@ -5207,7 +5207,7 @@ shared/loginCentralServer/LoginConnectionServerAddress.i: shared/loginCentralSer
 
 # target to preprocess a source file
 shared/loginCentralServer/LoginConnectionServerAddress.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginConnectionServerAddress.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginConnectionServerAddress.cpp.i
 .PHONY : shared/loginCentralServer/LoginConnectionServerAddress.cpp.i
 
 shared/loginCentralServer/LoginConnectionServerAddress.s: shared/loginCentralServer/LoginConnectionServerAddress.cpp.s
@@ -5215,7 +5215,7 @@ shared/loginCentralServer/LoginConnectionServerAddress.s: shared/loginCentralSer
 
 # target to generate assembly for a file
 shared/loginCentralServer/LoginConnectionServerAddress.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginConnectionServerAddress.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginConnectionServerAddress.cpp.s
 .PHONY : shared/loginCentralServer/LoginConnectionServerAddress.cpp.s
 
 shared/loginCentralServer/LoginCreateCharacterAckMessage.o: shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.o
@@ -5223,7 +5223,7 @@ shared/loginCentralServer/LoginCreateCharacterAckMessage.o: shared/loginCentralS
 
 # target to build an object file
 shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.o
 .PHONY : shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.o
 
 shared/loginCentralServer/LoginCreateCharacterAckMessage.i: shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.i
@@ -5231,7 +5231,7 @@ shared/loginCentralServer/LoginCreateCharacterAckMessage.i: shared/loginCentralS
 
 # target to preprocess a source file
 shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.i
 .PHONY : shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.i
 
 shared/loginCentralServer/LoginCreateCharacterAckMessage.s: shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.s
@@ -5239,7 +5239,7 @@ shared/loginCentralServer/LoginCreateCharacterAckMessage.s: shared/loginCentralS
 
 # target to generate assembly for a file
 shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.s
 .PHONY : shared/loginCentralServer/LoginCreateCharacterAckMessage.cpp.s
 
 shared/loginCentralServer/LoginCreateCharacterMessage.o: shared/loginCentralServer/LoginCreateCharacterMessage.cpp.o
@@ -5247,7 +5247,7 @@ shared/loginCentralServer/LoginCreateCharacterMessage.o: shared/loginCentralServ
 
 # target to build an object file
 shared/loginCentralServer/LoginCreateCharacterMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterMessage.cpp.o
 .PHONY : shared/loginCentralServer/LoginCreateCharacterMessage.cpp.o
 
 shared/loginCentralServer/LoginCreateCharacterMessage.i: shared/loginCentralServer/LoginCreateCharacterMessage.cpp.i
@@ -5255,7 +5255,7 @@ shared/loginCentralServer/LoginCreateCharacterMessage.i: shared/loginCentralServ
 
 # target to preprocess a source file
 shared/loginCentralServer/LoginCreateCharacterMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterMessage.cpp.i
 .PHONY : shared/loginCentralServer/LoginCreateCharacterMessage.cpp.i
 
 shared/loginCentralServer/LoginCreateCharacterMessage.s: shared/loginCentralServer/LoginCreateCharacterMessage.cpp.s
@@ -5263,7 +5263,7 @@ shared/loginCentralServer/LoginCreateCharacterMessage.s: shared/loginCentralServ
 
 # target to generate assembly for a file
 shared/loginCentralServer/LoginCreateCharacterMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginCreateCharacterMessage.cpp.s
 .PHONY : shared/loginCentralServer/LoginCreateCharacterMessage.cpp.s
 
 shared/loginCentralServer/LoginKeyPush.o: shared/loginCentralServer/LoginKeyPush.cpp.o
@@ -5271,7 +5271,7 @@ shared/loginCentralServer/LoginKeyPush.o: shared/loginCentralServer/LoginKeyPush
 
 # target to build an object file
 shared/loginCentralServer/LoginKeyPush.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginKeyPush.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginKeyPush.cpp.o
 .PHONY : shared/loginCentralServer/LoginKeyPush.cpp.o
 
 shared/loginCentralServer/LoginKeyPush.i: shared/loginCentralServer/LoginKeyPush.cpp.i
@@ -5279,7 +5279,7 @@ shared/loginCentralServer/LoginKeyPush.i: shared/loginCentralServer/LoginKeyPush
 
 # target to preprocess a source file
 shared/loginCentralServer/LoginKeyPush.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginKeyPush.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginKeyPush.cpp.i
 .PHONY : shared/loginCentralServer/LoginKeyPush.cpp.i
 
 shared/loginCentralServer/LoginKeyPush.s: shared/loginCentralServer/LoginKeyPush.cpp.s
@@ -5287,7 +5287,7 @@ shared/loginCentralServer/LoginKeyPush.s: shared/loginCentralServer/LoginKeyPush
 
 # target to generate assembly for a file
 shared/loginCentralServer/LoginKeyPush.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginKeyPush.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginKeyPush.cpp.s
 .PHONY : shared/loginCentralServer/LoginKeyPush.cpp.s
 
 shared/loginCentralServer/LoginRestoreCharacterMessage.o: shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.o
@@ -5295,7 +5295,7 @@ shared/loginCentralServer/LoginRestoreCharacterMessage.o: shared/loginCentralSer
 
 # target to build an object file
 shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.o
 .PHONY : shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.o
 
 shared/loginCentralServer/LoginRestoreCharacterMessage.i: shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.i
@@ -5303,7 +5303,7 @@ shared/loginCentralServer/LoginRestoreCharacterMessage.i: shared/loginCentralSer
 
 # target to preprocess a source file
 shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.i
 .PHONY : shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.i
 
 shared/loginCentralServer/LoginRestoreCharacterMessage.s: shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.s
@@ -5311,7 +5311,7 @@ shared/loginCentralServer/LoginRestoreCharacterMessage.s: shared/loginCentralSer
 
 # target to generate assembly for a file
 shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.s
 .PHONY : shared/loginCentralServer/LoginRestoreCharacterMessage.cpp.s
 
 shared/loginCentralServer/LoginUpgradeAccountMessage.o: shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.o
@@ -5319,7 +5319,7 @@ shared/loginCentralServer/LoginUpgradeAccountMessage.o: shared/loginCentralServe
 
 # target to build an object file
 shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.o
 .PHONY : shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.o
 
 shared/loginCentralServer/LoginUpgradeAccountMessage.i: shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.i
@@ -5327,7 +5327,7 @@ shared/loginCentralServer/LoginUpgradeAccountMessage.i: shared/loginCentralServe
 
 # target to preprocess a source file
 shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.i
 .PHONY : shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.i
 
 shared/loginCentralServer/LoginUpgradeAccountMessage.s: shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.s
@@ -5335,7 +5335,7 @@ shared/loginCentralServer/LoginUpgradeAccountMessage.s: shared/loginCentralServe
 
 # target to generate assembly for a file
 shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.s
 .PHONY : shared/loginCentralServer/LoginUpgradeAccountMessage.cpp.s
 
 shared/loginCentralServer/ServerDeleteCharacterMessage.o: shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.o
@@ -5343,7 +5343,7 @@ shared/loginCentralServer/ServerDeleteCharacterMessage.o: shared/loginCentralSer
 
 # target to build an object file
 shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.o
 .PHONY : shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.o
 
 shared/loginCentralServer/ServerDeleteCharacterMessage.i: shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.i
@@ -5351,7 +5351,7 @@ shared/loginCentralServer/ServerDeleteCharacterMessage.i: shared/loginCentralSer
 
 # target to preprocess a source file
 shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.i
 .PHONY : shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.i
 
 shared/loginCentralServer/ServerDeleteCharacterMessage.s: shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.s
@@ -5359,7 +5359,7 @@ shared/loginCentralServer/ServerDeleteCharacterMessage.s: shared/loginCentralSer
 
 # target to generate assembly for a file
 shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.s
 .PHONY : shared/loginCentralServer/ServerDeleteCharacterMessage.cpp.s
 
 shared/loginCentralServer/UpdateLoginConnectionServerStatus.o: shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.o
@@ -5367,7 +5367,7 @@ shared/loginCentralServer/UpdateLoginConnectionServerStatus.o: shared/loginCentr
 
 # target to build an object file
 shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.o
 .PHONY : shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.o
 
 shared/loginCentralServer/UpdateLoginConnectionServerStatus.i: shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.i
@@ -5375,7 +5375,7 @@ shared/loginCentralServer/UpdateLoginConnectionServerStatus.i: shared/loginCentr
 
 # target to preprocess a source file
 shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.i
 .PHONY : shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.i
 
 shared/loginCentralServer/UpdateLoginConnectionServerStatus.s: shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.s
@@ -5383,7 +5383,7 @@ shared/loginCentralServer/UpdateLoginConnectionServerStatus.s: shared/loginCentr
 
 # target to generate assembly for a file
 shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.s
 .PHONY : shared/loginCentralServer/UpdateLoginConnectionServerStatus.cpp.s
 
 shared/loginCentralServer/ValidateAccountMessage.o: shared/loginCentralServer/ValidateAccountMessage.cpp.o
@@ -5391,7 +5391,7 @@ shared/loginCentralServer/ValidateAccountMessage.o: shared/loginCentralServer/Va
 
 # target to build an object file
 shared/loginCentralServer/ValidateAccountMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountMessage.cpp.o
 .PHONY : shared/loginCentralServer/ValidateAccountMessage.cpp.o
 
 shared/loginCentralServer/ValidateAccountMessage.i: shared/loginCentralServer/ValidateAccountMessage.cpp.i
@@ -5399,7 +5399,7 @@ shared/loginCentralServer/ValidateAccountMessage.i: shared/loginCentralServer/Va
 
 # target to preprocess a source file
 shared/loginCentralServer/ValidateAccountMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountMessage.cpp.i
 .PHONY : shared/loginCentralServer/ValidateAccountMessage.cpp.i
 
 shared/loginCentralServer/ValidateAccountMessage.s: shared/loginCentralServer/ValidateAccountMessage.cpp.s
@@ -5407,7 +5407,7 @@ shared/loginCentralServer/ValidateAccountMessage.s: shared/loginCentralServer/Va
 
 # target to generate assembly for a file
 shared/loginCentralServer/ValidateAccountMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountMessage.cpp.s
 .PHONY : shared/loginCentralServer/ValidateAccountMessage.cpp.s
 
 shared/loginCentralServer/ValidateAccountReplyMessage.o: shared/loginCentralServer/ValidateAccountReplyMessage.cpp.o
@@ -5415,7 +5415,7 @@ shared/loginCentralServer/ValidateAccountReplyMessage.o: shared/loginCentralServ
 
 # target to build an object file
 shared/loginCentralServer/ValidateAccountReplyMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountReplyMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountReplyMessage.cpp.o
 .PHONY : shared/loginCentralServer/ValidateAccountReplyMessage.cpp.o
 
 shared/loginCentralServer/ValidateAccountReplyMessage.i: shared/loginCentralServer/ValidateAccountReplyMessage.cpp.i
@@ -5423,7 +5423,7 @@ shared/loginCentralServer/ValidateAccountReplyMessage.i: shared/loginCentralServ
 
 # target to preprocess a source file
 shared/loginCentralServer/ValidateAccountReplyMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountReplyMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountReplyMessage.cpp.i
 .PHONY : shared/loginCentralServer/ValidateAccountReplyMessage.cpp.i
 
 shared/loginCentralServer/ValidateAccountReplyMessage.s: shared/loginCentralServer/ValidateAccountReplyMessage.cpp.s
@@ -5431,7 +5431,7 @@ shared/loginCentralServer/ValidateAccountReplyMessage.s: shared/loginCentralServ
 
 # target to generate assembly for a file
 shared/loginCentralServer/ValidateAccountReplyMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountReplyMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/loginCentralServer/ValidateAccountReplyMessage.cpp.s
 .PHONY : shared/loginCentralServer/ValidateAccountReplyMessage.cpp.s
 
 shared/metricsMessages/MetricsDataMessage.o: shared/metricsMessages/MetricsDataMessage.cpp.o
@@ -5439,7 +5439,7 @@ shared/metricsMessages/MetricsDataMessage.o: shared/metricsMessages/MetricsDataM
 
 # target to build an object file
 shared/metricsMessages/MetricsDataMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsDataMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsDataMessage.cpp.o
 .PHONY : shared/metricsMessages/MetricsDataMessage.cpp.o
 
 shared/metricsMessages/MetricsDataMessage.i: shared/metricsMessages/MetricsDataMessage.cpp.i
@@ -5447,7 +5447,7 @@ shared/metricsMessages/MetricsDataMessage.i: shared/metricsMessages/MetricsDataM
 
 # target to preprocess a source file
 shared/metricsMessages/MetricsDataMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsDataMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsDataMessage.cpp.i
 .PHONY : shared/metricsMessages/MetricsDataMessage.cpp.i
 
 shared/metricsMessages/MetricsDataMessage.s: shared/metricsMessages/MetricsDataMessage.cpp.s
@@ -5455,7 +5455,7 @@ shared/metricsMessages/MetricsDataMessage.s: shared/metricsMessages/MetricsDataM
 
 # target to generate assembly for a file
 shared/metricsMessages/MetricsDataMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsDataMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsDataMessage.cpp.s
 .PHONY : shared/metricsMessages/MetricsDataMessage.cpp.s
 
 shared/metricsMessages/MetricsInitiationMessage.o: shared/metricsMessages/MetricsInitiationMessage.cpp.o
@@ -5463,7 +5463,7 @@ shared/metricsMessages/MetricsInitiationMessage.o: shared/metricsMessages/Metric
 
 # target to build an object file
 shared/metricsMessages/MetricsInitiationMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsInitiationMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsInitiationMessage.cpp.o
 .PHONY : shared/metricsMessages/MetricsInitiationMessage.cpp.o
 
 shared/metricsMessages/MetricsInitiationMessage.i: shared/metricsMessages/MetricsInitiationMessage.cpp.i
@@ -5471,7 +5471,7 @@ shared/metricsMessages/MetricsInitiationMessage.i: shared/metricsMessages/Metric
 
 # target to preprocess a source file
 shared/metricsMessages/MetricsInitiationMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsInitiationMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsInitiationMessage.cpp.i
 .PHONY : shared/metricsMessages/MetricsInitiationMessage.cpp.i
 
 shared/metricsMessages/MetricsInitiationMessage.s: shared/metricsMessages/MetricsInitiationMessage.cpp.s
@@ -5479,7 +5479,7 @@ shared/metricsMessages/MetricsInitiationMessage.s: shared/metricsMessages/Metric
 
 # target to generate assembly for a file
 shared/metricsMessages/MetricsInitiationMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsInitiationMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/metricsMessages/MetricsInitiationMessage.cpp.s
 .PHONY : shared/metricsMessages/MetricsInitiationMessage.cpp.s
 
 shared/transferServer/TransferAccountData.o: shared/transferServer/TransferAccountData.cpp.o
@@ -5487,7 +5487,7 @@ shared/transferServer/TransferAccountData.o: shared/transferServer/TransferAccou
 
 # target to build an object file
 shared/transferServer/TransferAccountData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountData.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountData.cpp.o
 .PHONY : shared/transferServer/TransferAccountData.cpp.o
 
 shared/transferServer/TransferAccountData.i: shared/transferServer/TransferAccountData.cpp.i
@@ -5495,7 +5495,7 @@ shared/transferServer/TransferAccountData.i: shared/transferServer/TransferAccou
 
 # target to preprocess a source file
 shared/transferServer/TransferAccountData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountData.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountData.cpp.i
 .PHONY : shared/transferServer/TransferAccountData.cpp.i
 
 shared/transferServer/TransferAccountData.s: shared/transferServer/TransferAccountData.cpp.s
@@ -5503,7 +5503,7 @@ shared/transferServer/TransferAccountData.s: shared/transferServer/TransferAccou
 
 # target to generate assembly for a file
 shared/transferServer/TransferAccountData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountData.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountData.cpp.s
 .PHONY : shared/transferServer/TransferAccountData.cpp.s
 
 shared/transferServer/TransferAccountDataArchive.o: shared/transferServer/TransferAccountDataArchive.cpp.o
@@ -5511,7 +5511,7 @@ shared/transferServer/TransferAccountDataArchive.o: shared/transferServer/Transf
 
 # target to build an object file
 shared/transferServer/TransferAccountDataArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountDataArchive.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountDataArchive.cpp.o
 .PHONY : shared/transferServer/TransferAccountDataArchive.cpp.o
 
 shared/transferServer/TransferAccountDataArchive.i: shared/transferServer/TransferAccountDataArchive.cpp.i
@@ -5519,7 +5519,7 @@ shared/transferServer/TransferAccountDataArchive.i: shared/transferServer/Transf
 
 # target to preprocess a source file
 shared/transferServer/TransferAccountDataArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountDataArchive.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountDataArchive.cpp.i
 .PHONY : shared/transferServer/TransferAccountDataArchive.cpp.i
 
 shared/transferServer/TransferAccountDataArchive.s: shared/transferServer/TransferAccountDataArchive.cpp.s
@@ -5527,7 +5527,7 @@ shared/transferServer/TransferAccountDataArchive.s: shared/transferServer/Transf
 
 # target to generate assembly for a file
 shared/transferServer/TransferAccountDataArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountDataArchive.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferAccountDataArchive.cpp.s
 .PHONY : shared/transferServer/TransferAccountDataArchive.cpp.s
 
 shared/transferServer/TransferCharacterData.o: shared/transferServer/TransferCharacterData.cpp.o
@@ -5535,7 +5535,7 @@ shared/transferServer/TransferCharacterData.o: shared/transferServer/TransferCha
 
 # target to build an object file
 shared/transferServer/TransferCharacterData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterData.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterData.cpp.o
 .PHONY : shared/transferServer/TransferCharacterData.cpp.o
 
 shared/transferServer/TransferCharacterData.i: shared/transferServer/TransferCharacterData.cpp.i
@@ -5543,7 +5543,7 @@ shared/transferServer/TransferCharacterData.i: shared/transferServer/TransferCha
 
 # target to preprocess a source file
 shared/transferServer/TransferCharacterData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterData.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterData.cpp.i
 .PHONY : shared/transferServer/TransferCharacterData.cpp.i
 
 shared/transferServer/TransferCharacterData.s: shared/transferServer/TransferCharacterData.cpp.s
@@ -5551,7 +5551,7 @@ shared/transferServer/TransferCharacterData.s: shared/transferServer/TransferCha
 
 # target to generate assembly for a file
 shared/transferServer/TransferCharacterData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterData.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterData.cpp.s
 .PHONY : shared/transferServer/TransferCharacterData.cpp.s
 
 shared/transferServer/TransferCharacterDataArchive.o: shared/transferServer/TransferCharacterDataArchive.cpp.o
@@ -5559,7 +5559,7 @@ shared/transferServer/TransferCharacterDataArchive.o: shared/transferServer/Tran
 
 # target to build an object file
 shared/transferServer/TransferCharacterDataArchive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterDataArchive.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterDataArchive.cpp.o
 .PHONY : shared/transferServer/TransferCharacterDataArchive.cpp.o
 
 shared/transferServer/TransferCharacterDataArchive.i: shared/transferServer/TransferCharacterDataArchive.cpp.i
@@ -5567,7 +5567,7 @@ shared/transferServer/TransferCharacterDataArchive.i: shared/transferServer/Tran
 
 # target to preprocess a source file
 shared/transferServer/TransferCharacterDataArchive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterDataArchive.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterDataArchive.cpp.i
 .PHONY : shared/transferServer/TransferCharacterDataArchive.cpp.i
 
 shared/transferServer/TransferCharacterDataArchive.s: shared/transferServer/TransferCharacterDataArchive.cpp.s
@@ -5575,7 +5575,7 @@ shared/transferServer/TransferCharacterDataArchive.s: shared/transferServer/Tran
 
 # target to generate assembly for a file
 shared/transferServer/TransferCharacterDataArchive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterDataArchive.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferCharacterDataArchive.cpp.s
 .PHONY : shared/transferServer/TransferCharacterDataArchive.cpp.s
 
 shared/transferServer/TransferReplyCharacterList.o: shared/transferServer/TransferReplyCharacterList.cpp.o
@@ -5583,7 +5583,7 @@ shared/transferServer/TransferReplyCharacterList.o: shared/transferServer/Transf
 
 # target to build an object file
 shared/transferServer/TransferReplyCharacterList.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyCharacterList.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyCharacterList.cpp.o
 .PHONY : shared/transferServer/TransferReplyCharacterList.cpp.o
 
 shared/transferServer/TransferReplyCharacterList.i: shared/transferServer/TransferReplyCharacterList.cpp.i
@@ -5591,7 +5591,7 @@ shared/transferServer/TransferReplyCharacterList.i: shared/transferServer/Transf
 
 # target to preprocess a source file
 shared/transferServer/TransferReplyCharacterList.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyCharacterList.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyCharacterList.cpp.i
 .PHONY : shared/transferServer/TransferReplyCharacterList.cpp.i
 
 shared/transferServer/TransferReplyCharacterList.s: shared/transferServer/TransferReplyCharacterList.cpp.s
@@ -5599,7 +5599,7 @@ shared/transferServer/TransferReplyCharacterList.s: shared/transferServer/Transf
 
 # target to generate assembly for a file
 shared/transferServer/TransferReplyCharacterList.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyCharacterList.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyCharacterList.cpp.s
 .PHONY : shared/transferServer/TransferReplyCharacterList.cpp.s
 
 shared/transferServer/TransferReplyMoveValidation.o: shared/transferServer/TransferReplyMoveValidation.cpp.o
@@ -5607,7 +5607,7 @@ shared/transferServer/TransferReplyMoveValidation.o: shared/transferServer/Trans
 
 # target to build an object file
 shared/transferServer/TransferReplyMoveValidation.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyMoveValidation.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyMoveValidation.cpp.o
 .PHONY : shared/transferServer/TransferReplyMoveValidation.cpp.o
 
 shared/transferServer/TransferReplyMoveValidation.i: shared/transferServer/TransferReplyMoveValidation.cpp.i
@@ -5615,7 +5615,7 @@ shared/transferServer/TransferReplyMoveValidation.i: shared/transferServer/Trans
 
 # target to preprocess a source file
 shared/transferServer/TransferReplyMoveValidation.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyMoveValidation.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyMoveValidation.cpp.i
 .PHONY : shared/transferServer/TransferReplyMoveValidation.cpp.i
 
 shared/transferServer/TransferReplyMoveValidation.s: shared/transferServer/TransferReplyMoveValidation.cpp.s
@@ -5623,7 +5623,7 @@ shared/transferServer/TransferReplyMoveValidation.s: shared/transferServer/Trans
 
 # target to generate assembly for a file
 shared/transferServer/TransferReplyMoveValidation.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyMoveValidation.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferReplyMoveValidation.cpp.s
 .PHONY : shared/transferServer/TransferReplyMoveValidation.cpp.s
 
 shared/transferServer/TransferRequestMoveValidation.o: shared/transferServer/TransferRequestMoveValidation.cpp.o
@@ -5631,7 +5631,7 @@ shared/transferServer/TransferRequestMoveValidation.o: shared/transferServer/Tra
 
 # target to build an object file
 shared/transferServer/TransferRequestMoveValidation.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferRequestMoveValidation.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferRequestMoveValidation.cpp.o
 .PHONY : shared/transferServer/TransferRequestMoveValidation.cpp.o
 
 shared/transferServer/TransferRequestMoveValidation.i: shared/transferServer/TransferRequestMoveValidation.cpp.i
@@ -5639,7 +5639,7 @@ shared/transferServer/TransferRequestMoveValidation.i: shared/transferServer/Tra
 
 # target to preprocess a source file
 shared/transferServer/TransferRequestMoveValidation.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferRequestMoveValidation.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferRequestMoveValidation.cpp.i
 .PHONY : shared/transferServer/TransferRequestMoveValidation.cpp.i
 
 shared/transferServer/TransferRequestMoveValidation.s: shared/transferServer/TransferRequestMoveValidation.cpp.s
@@ -5647,7 +5647,7 @@ shared/transferServer/TransferRequestMoveValidation.s: shared/transferServer/Tra
 
 # target to generate assembly for a file
 shared/transferServer/TransferRequestMoveValidation.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferRequestMoveValidation.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/build.make engine/server/library/serverNetworkMessages/src/CMakeFiles/serverNetworkMessages.dir/shared/transferServer/TransferRequestMoveValidation.cpp.s
 .PHONY : shared/transferServer/TransferRequestMoveValidation.cpp.s
 
 # Help Target
@@ -6360,6 +6360,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/ServerConsole/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles /home/swg/swg-main/build/engine/server/application/ServerConsole/src//CMakeFiles/progress.marks
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/clean
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/rule
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/rule
 .PHONY : engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ ServerConsole: engine/server/application/ServerConsole/src/CMakeFiles/ServerCons
 
 # fast build rule for target.
 ServerConsole/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build
 .PHONY : ServerConsole/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/ConfigServerConsole.o: shared/ConfigServerConsole.cpp.o
@@ -159,7 +159,7 @@ shared/ConfigServerConsole.o: shared/ConfigServerConsole.cpp.o
 
 # target to build an object file
 shared/ConfigServerConsole.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.o
 .PHONY : shared/ConfigServerConsole.cpp.o
 
 shared/ConfigServerConsole.i: shared/ConfigServerConsole.cpp.i
@@ -167,7 +167,7 @@ shared/ConfigServerConsole.i: shared/ConfigServerConsole.cpp.i
 
 # target to preprocess a source file
 shared/ConfigServerConsole.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.i
 .PHONY : shared/ConfigServerConsole.cpp.i
 
 shared/ConfigServerConsole.s: shared/ConfigServerConsole.cpp.s
@@ -175,7 +175,7 @@ shared/ConfigServerConsole.s: shared/ConfigServerConsole.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigServerConsole.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ConfigServerConsole.cpp.s
 .PHONY : shared/ConfigServerConsole.cpp.s
 
 shared/FirstServerConsole.o: shared/FirstServerConsole.cpp.o
@@ -183,7 +183,7 @@ shared/FirstServerConsole.o: shared/FirstServerConsole.cpp.o
 
 # target to build an object file
 shared/FirstServerConsole.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.o
 .PHONY : shared/FirstServerConsole.cpp.o
 
 shared/FirstServerConsole.i: shared/FirstServerConsole.cpp.i
@@ -191,7 +191,7 @@ shared/FirstServerConsole.i: shared/FirstServerConsole.cpp.i
 
 # target to preprocess a source file
 shared/FirstServerConsole.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.i
 .PHONY : shared/FirstServerConsole.cpp.i
 
 shared/FirstServerConsole.s: shared/FirstServerConsole.cpp.s
@@ -199,7 +199,7 @@ shared/FirstServerConsole.s: shared/FirstServerConsole.cpp.s
 
 # target to generate assembly for a file
 shared/FirstServerConsole.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/FirstServerConsole.cpp.s
 .PHONY : shared/FirstServerConsole.cpp.s
 
 shared/ServerConsole.o: shared/ServerConsole.cpp.o
@@ -207,7 +207,7 @@ shared/ServerConsole.o: shared/ServerConsole.cpp.o
 
 # target to build an object file
 shared/ServerConsole.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.o
 .PHONY : shared/ServerConsole.cpp.o
 
 shared/ServerConsole.i: shared/ServerConsole.cpp.i
@@ -215,7 +215,7 @@ shared/ServerConsole.i: shared/ServerConsole.cpp.i
 
 # target to preprocess a source file
 shared/ServerConsole.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.i
 .PHONY : shared/ServerConsole.cpp.i
 
 shared/ServerConsole.s: shared/ServerConsole.cpp.s
@@ -223,7 +223,7 @@ shared/ServerConsole.s: shared/ServerConsole.cpp.s
 
 # target to generate assembly for a file
 shared/ServerConsole.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsole.cpp.s
 .PHONY : shared/ServerConsole.cpp.s
 
 shared/ServerConsoleConnection.o: shared/ServerConsoleConnection.cpp.o
@@ -231,7 +231,7 @@ shared/ServerConsoleConnection.o: shared/ServerConsoleConnection.cpp.o
 
 # target to build an object file
 shared/ServerConsoleConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.o
 .PHONY : shared/ServerConsoleConnection.cpp.o
 
 shared/ServerConsoleConnection.i: shared/ServerConsoleConnection.cpp.i
@@ -239,7 +239,7 @@ shared/ServerConsoleConnection.i: shared/ServerConsoleConnection.cpp.i
 
 # target to preprocess a source file
 shared/ServerConsoleConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.i
 .PHONY : shared/ServerConsoleConnection.cpp.i
 
 shared/ServerConsoleConnection.s: shared/ServerConsoleConnection.cpp.s
@@ -247,7 +247,7 @@ shared/ServerConsoleConnection.s: shared/ServerConsoleConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ServerConsoleConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/build.make engine/server/application/ServerConsole/src/CMakeFiles/ServerConsole.dir/shared/ServerConsoleConnection.cpp.s
 .PHONY : shared/ServerConsoleConnection.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

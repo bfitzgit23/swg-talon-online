@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/depend.make
@@ -70,46 +70,46 @@ include engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemot
 include engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/flags.make
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/flags.make
-engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/FirstSharedRemoteDebugServer.cpp
+engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o: /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/FirstSharedRemoteDebugServer.cpp
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o -MF CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o.d -o CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/FirstSharedRemoteDebugServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o"
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o -MF CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o.d -o CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.o -c /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/FirstSharedRemoteDebugServer.cpp
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/FirstSharedRemoteDebugServer.cpp > CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.i
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/FirstSharedRemoteDebugServer.cpp > CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.i
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/FirstSharedRemoteDebugServer.cpp -o CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.s
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/FirstSharedRemoteDebugServer.cpp -o CMakeFiles/sharedRemoteDebugServer.dir/shared/FirstSharedRemoteDebugServer.cpp.s
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/flags.make
-engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServerConnection.cpp
+engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o: /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServerConnection.cpp
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o -MF CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o.d -o CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServerConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o"
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o -MF CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o.d -o CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.o -c /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServerConnection.cpp
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServerConnection.cpp > CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.i
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServerConnection.cpp > CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.i
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServerConnection.cpp -o CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.s
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServerConnection.cpp -o CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServerConnection.cpp.s
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/flags.make
-engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServer.cpp
+engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o: /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServer.cpp
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o -MF CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o.d -o CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o"
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o -MF CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o.d -o CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o -c /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServer.cpp
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServer.cpp > CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.i
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServer.cpp > CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.i
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServer.cpp -o CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.s
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src/shared/SharedRemoteDebugServer.cpp -o CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.s
 
 # Object files for target sharedRemoteDebugServer
 sharedRemoteDebugServer_OBJECTS = \
@@ -125,19 +125,19 @@ engine/shared/library/sharedRemoteDebugServer/src/libsharedRemoteDebugServer.a: 
 engine/shared/library/sharedRemoteDebugServer/src/libsharedRemoteDebugServer.a: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/shared/SharedRemoteDebugServer.cpp.o
 engine/shared/library/sharedRemoteDebugServer/src/libsharedRemoteDebugServer.a: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build.make
 engine/shared/library/sharedRemoteDebugServer/src/libsharedRemoteDebugServer.a: engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libsharedRemoteDebugServer.a"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedRemoteDebugServer.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedRemoteDebugServer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX static library libsharedRemoteDebugServer.a"
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedRemoteDebugServer.dir/cmake_clean_target.cmake
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedRemoteDebugServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build: engine/shared/library/sharedRemoteDebugServer/src/libsharedRemoteDebugServer.a
 .PHONY : engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/build
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedRemoteDebugServer.dir/cmake_clean.cmake
+	cd /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedRemoteDebugServer.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/clean
 
 engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedRemoteDebugServer/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src /home/almalinux/swg-talon-online/build/engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg/swg-main/src /home/swg/swg-main/src/engine/shared/library/sharedRemoteDebugServer/src /home/swg/swg-main/build /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src /home/swg/swg-main/build/engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedRemoteDebugServer/src/CMakeFiles/sharedRemoteDebugServer.dir/depend
 

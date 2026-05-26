@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects
+# Install script for directory: /home/swg/swg-main/src/external/3rd/library/platform/projects
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,13 +39,13 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/MonAPI2/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/external/3rd/library/platform/projects/Session/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/3rd/library/platform/projects/MonAPI2/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/3rd/library/platform/projects/Session/cmake_install.cmake")
 
 endif()
 

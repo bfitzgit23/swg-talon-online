@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/depend.make
@@ -70,74 +70,74 @@ include engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/progres
 include engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/flags.make
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/flags.make
-engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/ConfigLoginPing.cpp
+engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o: /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/ConfigLoginPing.cpp
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o -MF CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o.d -o CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/ConfigLoginPing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o -MF CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o.d -o CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.o -c /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/ConfigLoginPing.cpp
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/ConfigLoginPing.cpp > CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/ConfigLoginPing.cpp > CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.i
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/ConfigLoginPing.cpp -o CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/ConfigLoginPing.cpp -o CMakeFiles/LoginPing.dir/shared/ConfigLoginPing.cpp.s
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/flags.make
-engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/FirstLoginPing.cpp
+engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o: /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/FirstLoginPing.cpp
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o -MF CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o.d -o CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/FirstLoginPing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o -MF CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o.d -o CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.o -c /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/FirstLoginPing.cpp
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/FirstLoginPing.cpp > CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/FirstLoginPing.cpp > CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.i
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/FirstLoginPing.cpp -o CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/FirstLoginPing.cpp -o CMakeFiles/LoginPing.dir/shared/FirstLoginPing.cpp.s
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/flags.make
-engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/LoginConnection.cpp
+engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o: /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/LoginConnection.cpp
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o -MF CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o.d -o CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/LoginConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o -MF CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o.d -o CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.o -c /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/LoginConnection.cpp
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/LoginConnection.cpp > CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/LoginConnection.cpp > CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.i
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/LoginConnection.cpp -o CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/LoginConnection.cpp -o CMakeFiles/LoginPing.dir/shared/LoginConnection.cpp.s
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/flags.make
-engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/LoginPing.cpp
+engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o: /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/LoginPing.cpp
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o -MF CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o.d -o CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/LoginPing.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o -MF CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o.d -o CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.o -c /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/LoginPing.cpp
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/LoginPing.cpp > CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/LoginPing.cpp > CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.i
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/shared/LoginPing.cpp -o CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/LoginPing/src/shared/LoginPing.cpp -o CMakeFiles/LoginPing.dir/shared/LoginPing.cpp.s
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/flags.make
-engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/linux/main.cpp
+engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o: /home/swg/swg-main/src/engine/server/application/LoginPing/src/linux/main.cpp
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o -MF CMakeFiles/LoginPing.dir/linux/main.cpp.o.d -o CMakeFiles/LoginPing.dir/linux/main.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/linux/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.o -MF CMakeFiles/LoginPing.dir/linux/main.cpp.o.d -o CMakeFiles/LoginPing.dir/linux/main.cpp.o -c /home/swg/swg-main/src/engine/server/application/LoginPing/src/linux/main.cpp
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/LoginPing.dir/linux/main.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/linux/main.cpp > CMakeFiles/LoginPing.dir/linux/main.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/LoginPing/src/linux/main.cpp > CMakeFiles/LoginPing.dir/linux/main.cpp.i
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/linux/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/LoginPing.dir/linux/main.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src/linux/main.cpp -o CMakeFiles/LoginPing.dir/linux/main.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/LoginPing/src/linux/main.cpp -o CMakeFiles/LoginPing.dir/linux/main.cpp.s
 
 # Object files for target LoginPing
 LoginPing_OBJECTS = \
@@ -192,18 +192,18 @@ bin/LoginPing: external/ours/library/localizationArchive/src/liblocalizationArch
 bin/LoginPing: external/ours/library/unicode/src/libunicode.a
 bin/LoginPing: external/ours/library/unicodeArchive/src/libunicodeArchive.a
 bin/LoginPing: engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../../../bin/LoginPing"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LoginPing.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable ../../../../../bin/LoginPing"
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/LoginPing.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build: bin/LoginPing
 .PHONY : engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/build
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src && $(CMAKE_COMMAND) -P CMakeFiles/LoginPing.dir/cmake_clean.cmake
+	cd /home/swg/swg-main/build/engine/server/application/LoginPing/src && $(CMAKE_COMMAND) -P CMakeFiles/LoginPing.dir/cmake_clean.cmake
 .PHONY : engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/clean
 
 engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/server/application/LoginPing/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src /home/almalinux/swg-talon-online/build/engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg/swg-main/src /home/swg/swg-main/src/engine/server/application/LoginPing/src /home/swg/swg-main/build /home/swg/swg-main/build/engine/server/application/LoginPing/src /home/swg/swg-main/build/engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/server/application/LoginPing/src/CMakeFiles/LoginPing.dir/depend
 

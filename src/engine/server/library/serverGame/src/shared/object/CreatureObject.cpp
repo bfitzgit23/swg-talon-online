@@ -193,9 +193,6 @@ const SharedObjectTemplate * CreatureObject::m_defaultSharedTemplate = nullptr;
 
 //----------------------------------------------------------------------
 
-// The max number of lots available to a player.  This value is also defined in base_class.java
-static const int HOUSING_MAX_LOTS = 10;
-
 // Slot names
 static const ConstCharCrcLowerString DATAPAD_SLOT_NAME("datapad");
 
@@ -869,6 +866,8 @@ CreatureObject::CreatureObject(const ServerCreatureObjectTemplate* newTemplate) 
 	IGNORE_RETURN(g_creatureList.insert(this));
 
 	ObjectTracker::addCreature();
+
+	m_maxHousingLots = ConfigServerGame::getMaxHousingLots();
 }
 
 //-----------------------------------------------------------------------
@@ -11915,7 +11914,7 @@ void CreatureObject::runMissionCreationQueue()
 
 int CreatureObject::getMaxNumberOfLots() const
 {
-	return HOUSING_MAX_LOTS;
+	return m_maxHousingLots;
 }
 
 //----------------------------------------------------------------------
@@ -14449,29 +14448,17 @@ bool CreatureObject::getUseLookAtYaw() const
 
 int CreatureObject::getExpertiseRankForPlayer(std::string const & expertiseName)
 {
-	int result = 0;
-
-	int rankMax = ExpertiseManager::getExpertiseRankMax(expertiseName);
-
 	int tree = ExpertiseManager::getExpertiseTree(expertiseName);
 	int tier = ExpertiseManager::getExpertiseTier(expertiseName);
 	int grid = ExpertiseManager::getExpertiseGrid(expertiseName);
-	int rank = 1;
+	int rank = ExpertiseManager::getExpertiseRank(expertiseName);
+	SkillObject const * skill = ExpertiseManager::getExpertiseSkillAt(tree, tier, grid, rank);
 
-	while (rank <= rankMax)
+	if (skill && hasSkill(*skill))
 	{
-		SkillObject const * skill = ExpertiseManager::getExpertiseSkillAt(tree, tier, grid, rank);
-		if (skill && hasSkill(*skill))
-		{
-			result = rank;
-			rank++;
-		}
-		else
-		{
-			break;
-		}
+		return 1;
 	}
-	return result;
+	return 0;
 }
 
 //-----------------------------------------------------------------------
@@ -14535,12 +14522,31 @@ int CreatureObject::getRemainingExpertisePoints() const
 
 bool CreatureObject::processExpertiseRequest(std::vector<std::string> const &addExpertisesNamesList, bool clearAllExpertisesFirst)
 {
+	
+	// if you are in god mode, grant the expertise without permission checks
+	if(getClient()->isGod()) {
+		for(std::vector<std::string>::const_iterator i = addExpertisesNamesList.begin(); i != addExpertisesNamesList.end(); ++i) {
+			std::string const &s = *i;
+			const SkillObject *skill = SkillManager::getInstance().getSkill(s);
+			grantSkill(*skill);
+			Chat::sendSystemMessage(*this, Unicode::narrowToWide(FormattedString<256>().sprintf("GOD MODE: Granting you expertise skill %s without regard for points, requisites, or permissions, because you are in God Mode.", skill->getSkillName().c_str())), Unicode::emptyString);
+		}
+		return true;
+	}
+	for(int z = 1; z < 6; z++)
+	{
+	//this for loop goes through the tiers so we try to add by level rather than by the order we received the skill list.
 	for(std::vector<std::string>::const_iterator i = addExpertisesNamesList.begin(); i != addExpertisesNamesList.end(); ++i)
 	{
 		std::string const &s = *i;
 		const SkillObject *skill = SkillManager::getInstance().getSkill(s);
 		if(skill)
 		{
+			int tier = ExpertiseManager::getExpertiseTier(s); // this should be only dec/inst
+			if(tier != z)
+			{
+				continue; //skip over this skill - we didn't match the tier level. we'll catch it next loop through.
+			}
 			//Check prerequisites
 			SkillObject::SkillVector const prereqs = skill->getPrerequisiteSkills();
 			for (SkillObject::SkillVector::const_iterator i = prereqs.begin(); i != prereqs.end(); ++i)
@@ -14548,8 +14554,7 @@ bool CreatureObject::processExpertiseRequest(std::vector<std::string> const &add
 				SkillObject const * prereq = (*i);
 				if (!prereq || !hasSkill(*prereq))
 				{
-					DEBUG_WARNING(true, ("player %s tried to get expertise %s but doesn't have expertise %s", getNetworkId().getValueString().c_str(),
-						skill->getSkillName().c_str(), prereq->getSkillName().c_str()));
+					LOG("CustomerService", ("SuspectedCheaterChannel: %s tried to get expertise %s but doesn't have expertise %s", PlayerObject::getAccountDescription(this).c_str(), skill->getSkillName().c_str(), prereq->getSkillName().c_str()));
 					return false;
 				}
 			}
@@ -14557,12 +14562,9 @@ bool CreatureObject::processExpertiseRequest(std::vector<std::string> const &add
 			//Check if the player has enough points for a skill of this tier
 			int tree = ExpertiseManager::getExpertiseTree(s);
 			int pointsInTree = getExpertisePointsSpentForPlayerInTree(tree);
-			int tier = ExpertiseManager::getExpertiseTier(s);
 			if (pointsInTree < (tier - 1) * POINTS_PER_TIER)
 			{
-				DEBUG_WARNING(true, ("player %s tried to get expertise %s but only has %d points in tree %d, needs %d", getNetworkId().getValueString().c_str(),
-					s.c_str(), pointsInTree, tree, (tier - 1) * POINTS_PER_TIER
-					));
+				LOG("CustomerService", ("SuspectedCheaterChannel: %s tried to get expertise %s but only has %d points in tree %d, needs %d", PlayerObject::getAccountDescription(this).c_str(), s.c_str(), pointsInTree, tree, (tier - 1) * POINTS_PER_TIER));
 				return false;
 			}
 
@@ -14581,6 +14583,7 @@ bool CreatureObject::processExpertiseRequest(std::vector<std::string> const &add
 			//Grant skill
 			grantSkill(*skill);
 		}
+	}
 	}
 	return true;
 }

@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/TcpLibrary/IPAddress.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/IPAddress.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/IPAddress.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/IPAddress.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/TcpLibrary/IPAddress.h \
  /usr/include/arpa/inet.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \

@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/depend.make
@@ -70,32 +70,32 @@ include engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir
 include engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/flags.make
 
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o: engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/flags.make
-engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src/shared/DataTableTool.cpp
+engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o: /home/swg/swg-main/src/engine/shared/application/DataTableTool/src/shared/DataTableTool.cpp
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o: engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o -MF CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o.d -o CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src/shared/DataTableTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o"
+	cd /home/swg/swg-main/build/engine/shared/application/DataTableTool/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o -MF CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o.d -o CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.o -c /home/swg/swg-main/src/engine/shared/application/DataTableTool/src/shared/DataTableTool.cpp
 
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src/shared/DataTableTool.cpp > CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.i
+	cd /home/swg/swg-main/build/engine/shared/application/DataTableTool/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/shared/application/DataTableTool/src/shared/DataTableTool.cpp > CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.i
 
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src/shared/DataTableTool.cpp -o CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.s
+	cd /home/swg/swg-main/build/engine/shared/application/DataTableTool/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/shared/application/DataTableTool/src/shared/DataTableTool.cpp -o CMakeFiles/DataTableTool.dir/shared/DataTableTool.cpp.s
 
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o: engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/flags.make
-engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src/shared/FirstDataTableTool.cpp
+engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o: /home/swg/swg-main/src/engine/shared/application/DataTableTool/src/shared/FirstDataTableTool.cpp
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o: engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o -MF CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o.d -o CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src/shared/FirstDataTableTool.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o"
+	cd /home/swg/swg-main/build/engine/shared/application/DataTableTool/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o -MF CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o.d -o CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.o -c /home/swg/swg-main/src/engine/shared/application/DataTableTool/src/shared/FirstDataTableTool.cpp
 
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src/shared/FirstDataTableTool.cpp > CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.i
+	cd /home/swg/swg-main/build/engine/shared/application/DataTableTool/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/shared/application/DataTableTool/src/shared/FirstDataTableTool.cpp > CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.i
 
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src/shared/FirstDataTableTool.cpp -o CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.s
+	cd /home/swg/swg-main/build/engine/shared/application/DataTableTool/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/shared/application/DataTableTool/src/shared/FirstDataTableTool.cpp -o CMakeFiles/DataTableTool.dir/shared/FirstDataTableTool.cpp.s
 
 # Object files for target DataTableTool
 DataTableTool_OBJECTS = \
@@ -160,18 +160,18 @@ bin/DataTableTool: /usr/lib/libpcre.so
 bin/DataTableTool: engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a
 bin/DataTableTool: /usr/lib/libxml2.so
 bin/DataTableTool: engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../../../bin/DataTableTool"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataTableTool.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable ../../../../../bin/DataTableTool"
+	cd /home/swg/swg-main/build/engine/shared/application/DataTableTool/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/DataTableTool.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/build: bin/DataTableTool
 .PHONY : engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/build
 
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src && $(CMAKE_COMMAND) -P CMakeFiles/DataTableTool.dir/cmake_clean.cmake
+	cd /home/swg/swg-main/build/engine/shared/application/DataTableTool/src && $(CMAKE_COMMAND) -P CMakeFiles/DataTableTool.dir/cmake_clean.cmake
 .PHONY : engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/clean
 
 engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/application/DataTableTool/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src /home/almalinux/swg-talon-online/build/engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg/swg-main/src /home/swg/swg-main/src/engine/shared/application/DataTableTool/src /home/swg/swg-main/build /home/swg/swg-main/build/engine/shared/application/DataTableTool/src /home/swg/swg-main/build/engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/application/DataTableTool/src/CMakeFiles/DataTableTool.dir/depend
 

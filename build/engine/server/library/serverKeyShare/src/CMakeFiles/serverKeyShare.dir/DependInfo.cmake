@@ -8,8 +8,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp" "engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o" "gcc" "engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp" "engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o" "gcc" "engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o.d"
+  "/home/swg/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyServer.cpp" "engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o" "gcc" "engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyServer.cpp.o.d"
+  "/home/swg/swg-main/src/engine/server/library/serverKeyShare/src/shared/KeyShare.cpp" "engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o" "gcc" "engine/server/library/serverKeyShare/src/CMakeFiles/serverKeyShare.dir/shared/KeyShare.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

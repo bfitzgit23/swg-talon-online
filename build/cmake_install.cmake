@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src
+# Install script for directory: /home/swg/swg-main/src
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-talon-online/build/external/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/game/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/cmake_install.cmake")
+  include("/home/swg/swg-main/build/game/cmake_install.cmake")
 
 endif()
 
@@ -58,5 +58,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/almalinux/swg-talon-online/build/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/swg/swg-main/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

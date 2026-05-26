@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 # Include any dependencies generated for this target.
 include external/ours/library/archive/src/CMakeFiles/archive.dir/depend.make
@@ -70,74 +70,74 @@ include external/ours/library/archive/src/CMakeFiles/archive.dir/progress.make
 include external/ours/library/archive/src/CMakeFiles/archive.dir/flags.make
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/flags.make
-external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoByteStream.cpp
+external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o: /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoByteStream.cpp
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o -MF CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o.d -o CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoByteStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o"
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o -MF CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o.d -o CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o -c /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoByteStream.cpp
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archive.dir/shared/AutoByteStream.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoByteStream.cpp > CMakeFiles/archive.dir/shared/AutoByteStream.cpp.i
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoByteStream.cpp > CMakeFiles/archive.dir/shared/AutoByteStream.cpp.i
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archive.dir/shared/AutoByteStream.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoByteStream.cpp -o CMakeFiles/archive.dir/shared/AutoByteStream.cpp.s
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoByteStream.cpp -o CMakeFiles/archive.dir/shared/AutoByteStream.cpp.s
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/flags.make
-external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoDeltaByteStream.cpp
+external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o: /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoDeltaByteStream.cpp
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o -MF CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o.d -o CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoDeltaByteStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o"
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o -MF CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o.d -o CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.o -c /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoDeltaByteStream.cpp
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoDeltaByteStream.cpp > CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.i
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoDeltaByteStream.cpp > CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.i
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoDeltaByteStream.cpp -o CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.s
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoDeltaByteStream.cpp -o CMakeFiles/archive.dir/shared/AutoDeltaByteStream.cpp.s
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/flags.make
-external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoDeltaPackedMap.cpp
+external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o: /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoDeltaPackedMap.cpp
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o -MF CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o.d -o CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoDeltaPackedMap.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o"
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o -MF CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o.d -o CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.o -c /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoDeltaPackedMap.cpp
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoDeltaPackedMap.cpp > CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.i
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoDeltaPackedMap.cpp > CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.i
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoDeltaPackedMap.cpp -o CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.s
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoDeltaPackedMap.cpp -o CMakeFiles/archive.dir/shared/AutoDeltaPackedMap.cpp.s
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/flags.make
-external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/ByteStream.cpp
+external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o: /home/swg/swg-main/src/external/ours/library/archive/src/shared/ByteStream.cpp
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o -MF CMakeFiles/archive.dir/shared/ByteStream.cpp.o.d -o CMakeFiles/archive.dir/shared/ByteStream.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/ByteStream.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o"
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o -MF CMakeFiles/archive.dir/shared/ByteStream.cpp.o.d -o CMakeFiles/archive.dir/shared/ByteStream.cpp.o -c /home/swg/swg-main/src/external/ours/library/archive/src/shared/ByteStream.cpp
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archive.dir/shared/ByteStream.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/ByteStream.cpp > CMakeFiles/archive.dir/shared/ByteStream.cpp.i
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/external/ours/library/archive/src/shared/ByteStream.cpp > CMakeFiles/archive.dir/shared/ByteStream.cpp.i
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archive.dir/shared/ByteStream.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/ByteStream.cpp -o CMakeFiles/archive.dir/shared/ByteStream.cpp.s
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/external/ours/library/archive/src/shared/ByteStream.cpp -o CMakeFiles/archive.dir/shared/ByteStream.cpp.s
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/flags.make
-external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp
+external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o: /home/swg/swg-main/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp
 external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o: external/ours/library/archive/src/CMakeFiles/archive.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o -MF CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o.d -o CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o"
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o -MF CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o.d -o CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o -c /home/swg/swg-main/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp > CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.i
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp > CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.i
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp -o CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.s
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/external/ours/library/archive/src/linux/ArchiveMutex.cpp -o CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.s
 
 # Object files for target archive
 archive_OBJECTS = \
@@ -157,19 +157,19 @@ external/ours/library/archive/src/libarchive.a: external/ours/library/archive/sr
 external/ours/library/archive/src/libarchive.a: external/ours/library/archive/src/CMakeFiles/archive.dir/linux/ArchiveMutex.cpp.o
 external/ours/library/archive/src/libarchive.a: external/ours/library/archive/src/CMakeFiles/archive.dir/build.make
 external/ours/library/archive/src/libarchive.a: external/ours/library/archive/src/CMakeFiles/archive.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libarchive.a"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && $(CMAKE_COMMAND) -P CMakeFiles/archive.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/archive.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX static library libarchive.a"
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && $(CMAKE_COMMAND) -P CMakeFiles/archive.dir/cmake_clean_target.cmake
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/archive.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/ours/library/archive/src/CMakeFiles/archive.dir/build: external/ours/library/archive/src/libarchive.a
 .PHONY : external/ours/library/archive/src/CMakeFiles/archive.dir/build
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/archive/src && $(CMAKE_COMMAND) -P CMakeFiles/archive.dir/cmake_clean.cmake
+	cd /home/swg/swg-main/build/external/ours/library/archive/src && $(CMAKE_COMMAND) -P CMakeFiles/archive.dir/cmake_clean.cmake
 .PHONY : external/ours/library/archive/src/CMakeFiles/archive.dir/clean
 
 external/ours/library/archive/src/CMakeFiles/archive.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/ours/library/archive/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/ours/library/archive/src /home/almalinux/swg-talon-online/build/external/ours/library/archive/src/CMakeFiles/archive.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg/swg-main/src /home/swg/swg-main/src/external/ours/library/archive/src /home/swg/swg-main/build /home/swg/swg-main/build/external/ours/library/archive/src /home/swg/swg-main/build/external/ours/library/archive/src/CMakeFiles/archive.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/ours/library/archive/src/CMakeFiles/archive.dir/depend
 

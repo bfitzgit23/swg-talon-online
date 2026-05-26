@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/Base/cmdLine.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/cmdLine.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/cmdLine.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/cmdLine.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/Base/cmdLine.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \

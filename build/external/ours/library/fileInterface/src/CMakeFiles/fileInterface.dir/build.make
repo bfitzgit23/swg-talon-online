@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 # Include any dependencies generated for this target.
 include external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/depend.make
@@ -70,32 +70,32 @@ include external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/pro
 include external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/flags.make
 
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o: external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/flags.make
-external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp
+external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o: /home/swg/swg-main/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o: external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o -MF CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o.d -o CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o"
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o -MF CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o.d -o CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.o -c /home/swg/swg-main/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp
 
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp > CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.i
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp > CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.i
 
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp -o CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.s
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/external/ours/library/fileInterface/src/shared/AbstractFile.cpp -o CMakeFiles/fileInterface.dir/shared/AbstractFile.cpp.s
 
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o: external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/flags.make
-external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o: /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/StdioFile.cpp
+external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o: /home/swg/swg-main/src/external/ours/library/fileInterface/src/shared/StdioFile.cpp
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o: external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o -MF CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o.d -o CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o -c /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/StdioFile.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o"
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o -MF CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o.d -o CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o -c /home/swg/swg-main/src/external/ours/library/fileInterface/src/shared/StdioFile.cpp
 
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/StdioFile.cpp > CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.i
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/external/ours/library/fileInterface/src/shared/StdioFile.cpp > CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.i
 
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src/shared/StdioFile.cpp -o CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.s
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/external/ours/library/fileInterface/src/shared/StdioFile.cpp -o CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.s
 
 # Object files for target fileInterface
 fileInterface_OBJECTS = \
@@ -109,19 +109,19 @@ external/ours/library/fileInterface/src/libfileInterface.a: external/ours/librar
 external/ours/library/fileInterface/src/libfileInterface.a: external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/shared/StdioFile.cpp.o
 external/ours/library/fileInterface/src/libfileInterface.a: external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/build.make
 external/ours/library/fileInterface/src/libfileInterface.a: external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libfileInterface.a"
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && $(CMAKE_COMMAND) -P CMakeFiles/fileInterface.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fileInterface.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libfileInterface.a"
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && $(CMAKE_COMMAND) -P CMakeFiles/fileInterface.dir/cmake_clean_target.cmake
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/fileInterface.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/build: external/ours/library/fileInterface/src/libfileInterface.a
 .PHONY : external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/build
 
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src && $(CMAKE_COMMAND) -P CMakeFiles/fileInterface.dir/cmake_clean.cmake
+	cd /home/swg/swg-main/build/external/ours/library/fileInterface/src && $(CMAKE_COMMAND) -P CMakeFiles/fileInterface.dir/cmake_clean.cmake
 .PHONY : external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/clean
 
 external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/external/ours/library/fileInterface/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src /home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg/swg-main/src /home/swg/swg-main/src/external/ours/library/fileInterface/src /home/swg/swg-main/build /home/swg/swg-main/build/external/ours/library/fileInterface/src /home/swg/swg-main/build/external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : external/ours/library/fileInterface/src/CMakeFiles/fileInterface.dir/depend
 

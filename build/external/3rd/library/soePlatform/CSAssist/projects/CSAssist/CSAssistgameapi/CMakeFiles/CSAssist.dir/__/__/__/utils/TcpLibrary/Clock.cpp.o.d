@@ -1,7 +1,7 @@
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/TcpLibrary/Clock.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/TcpLibrary/Clock.h \
  /usr/include/time.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \

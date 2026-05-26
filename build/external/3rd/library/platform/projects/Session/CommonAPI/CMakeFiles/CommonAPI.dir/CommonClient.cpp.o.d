@@ -1,5 +1,5 @@
 external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.dir/CommonClient.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonClient.cpp \
+ /home/swg/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonClient.cpp \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -37,7 +37,7 @@ external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.di
  /usr/include/bits/pthreadtypes-arch.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
  /usr/include/c++/8/bits/std_abs.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonClient.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonClient.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/bits/functexcept.h \
  /usr/include/c++/8/bits/exception_defines.h \
@@ -110,14 +110,14 @@ external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.di
  /usr/include/c++/8/tuple /usr/include/c++/8/array \
  /usr/include/c++/8/bits/uses_allocator.h \
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Archive.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/Archive.h \
  /usr/include/assert.h /usr/include/c++/8/vector \
  /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Platform.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
  /usr/include/sys/errno.h /usr/include/resolv.h /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -161,20 +161,20 @@ external/3rd/library/platform/projects/Session/CommonAPI/CMakeFiles/CommonAPI.di
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Types.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Mutex.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Mutex.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/linux/Archive.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpHandler.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/priority.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/hashtable.hpp \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/Mutex.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/linux/Mutex.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/linux/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/linux/Archive.h \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/UdpLibrary.hpp \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/UdpHandler.hpp \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/priority.hpp \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/hashtable.hpp \
  /usr/include/memory.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/platform/utils/Base/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonAPI.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/projects/Session/CommonAPI/CommonMessages.h \
+ /home/swg/swg-main/src/external/3rd/library/platform/utils/Base/Platform.h \
  /usr/include/c++/8/algorithm /usr/include/c++/8/bits/stl_algo.h \
  /usr/include/c++/8/bits/algorithmfwd.h \
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_tempbuf.h \

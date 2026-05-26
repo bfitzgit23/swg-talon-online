@@ -1,5 +1,5 @@
 external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VChatAPI.dir/__/__/__/utils2.0/utils/UdpLibrary/UdpLibrary.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/UdpLibrary/UdpLibrary.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/UdpLibrary/UdpLibrary.cpp \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
@@ -37,10 +37,10 @@ external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/CMakeFiles/VCh
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h /usr/include/string.h /usr/include/strings.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/UdpLibrary/UdpLibrary.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/UdpLibrary/UdpHandler.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/priority.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/hashtable.hpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/UdpLibrary/UdpLibrary.hpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/utils2.0/utils/UdpLibrary/UdpHandler.hpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/priority.hpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/VChatAPI/projects/VChat/VChatAPI/../../../utils2.0/utils/Base/hashtable.hpp \
  /usr/include/memory.h /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/bits/stdint-uintn.h /usr/include/sys/socket.h \
  /usr/include/bits/types/struct_iovec.h /usr/include/bits/socket.h \

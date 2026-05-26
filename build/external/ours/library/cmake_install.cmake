@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/external/ours/library
+# Install script for directory: /home/swg/swg-main/src/external/ours/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,19 +39,19 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-talon-online/build/external/ours/library/archive/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/external/ours/library/crypto/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/external/ours/library/fileInterface/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/external/ours/library/localization/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/external/ours/library/localizationArchive/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/external/ours/library/singleton/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/external/ours/library/unicode/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/external/ours/library/unicodeArchive/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/ours/library/archive/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/ours/library/crypto/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/ours/library/fileInterface/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/ours/library/localization/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/ours/library/localizationArchive/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/ours/library/singleton/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/ours/library/unicode/cmake_install.cmake")
+  include("/home/swg/swg-main/build/external/ours/library/unicodeArchive/cmake_install.cmake")
 
 endif()
 

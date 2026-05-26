@@ -1,12 +1,12 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpDriverLinux.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpDriverLinux.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpDriverLinux.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpDriver.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpTypes.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpDriver.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpTypes.h \
  /usr/include/assert.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHelper.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHelper.h \
  /usr/include/memory.h /usr/include/string.h \
  /usr/include/bits/libc-header-start.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \

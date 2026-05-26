@@ -1,12 +1,12 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Base/Logger.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Logger.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Logger.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Logger.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Logger.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
  /usr/include/assert.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
  /usr/include/errno.h /usr/include/bits/errno.h \
  /usr/include/linux/errno.h /usr/include/asm/errno.h \
  /usr/include/asm-generic/errno.h /usr/include/asm-generic/errno-base.h \
@@ -91,7 +91,7 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h /usr/include/c++/8/string \
  /usr/include/c++/8/bits/stringfwd.h /usr/include/c++/8/bits/memoryfwd.h \
  /usr/include/c++/8/bits/char_traits.h \
@@ -151,8 +151,8 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/c++/8/bits/stl_map.h /usr/include/c++/8/tuple \
  /usr/include/c++/8/array /usr/include/c++/8/bits/uses_allocator.h \
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
  /usr/include/syslog.h /usr/include/sys/syslog.h \
  /usr/include/bits/syslog-path.h

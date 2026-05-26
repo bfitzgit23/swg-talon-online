@@ -1,12 +1,12 @@
 external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/shared/UnicodeAutoDeltaPackedMap.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/src/shared/UnicodeAutoDeltaPackedMap.cpp \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/src/shared/UnicodeAutoDeltaPackedMap.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/FirstUnicodeArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/../../src/shared/FirstUnicodeArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/UnicodeAutoDeltaPackedMap.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/../../src/shared/UnicodeAutoDeltaPackedMap.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/AutoDeltaPackedMap.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaPackedMap.h \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/FirstUnicodeArchive.h \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/include/public/../../src/shared/FirstUnicodeArchive.h \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/UnicodeAutoDeltaPackedMap.h \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/include/public/../../src/shared/UnicodeAutoDeltaPackedMap.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/AutoDeltaPackedMap.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaPackedMap.h \
  /usr/include/stdio.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -20,8 +20,8 @@ external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/shared/Un
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaMap.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaMap.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/AutoDeltaByteStream.h \
  /usr/include/c++/8/cmath \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -75,9 +75,9 @@ external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/shared/Un
  /usr/include/c++/8/tr1/poly_hermite.tcc \
  /usr/include/c++/8/tr1/poly_laguerre.tcc \
  /usr/include/c++/8/tr1/riemann_zeta.tcc \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/AutoByteStream.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/Archive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/AutoByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/Archive.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
  /usr/include/c++/8/exception /usr/include/c++/8/bits/exception.h \
  /usr/include/c++/8/bits/exception_ptr.h \
  /usr/include/c++/8/bits/cxxabi_init_exception.h \
@@ -144,15 +144,15 @@ external/ours/library/unicodeArchive/src/CMakeFiles/unicodeArchive.dir/shared/Un
  /usr/include/c++/8/cassert /usr/include/assert.h /usr/include/c++/8/list \
  /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h /usr/include/c++/8/bits/list.tcc \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/Unicode.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
  /usr/include/c++/8/unordered_map /usr/include/c++/8/bits/hashtable.h \
  /usr/include/c++/8/bits/hashtable_policy.h \
  /usr/include/c++/8/bits/unordered_map.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/UnicodeUtils.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/UnicodeUtils.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
  /usr/include/c++/8/cstring /usr/include/string.h /usr/include/strings.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/utf8.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/UnicodeArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/../../src/shared/UnicodeArchive.h
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/utf8.h \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/UnicodeArchive.h \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/include/public/../../src/shared/UnicodeArchive.h

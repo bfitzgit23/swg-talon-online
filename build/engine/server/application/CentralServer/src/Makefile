@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/application/CentralServer/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles /home/swg/swg-main/build/engine/server/application/CentralServer/src//CMakeFiles/progress.marks
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/clean
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/rule
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/rule
 .PHONY : engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ CentralServer: engine/server/application/CentralServer/src/CMakeFiles/CentralSer
 
 # fast build rule for target.
 CentralServer/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build
 .PHONY : CentralServer/fast
 
 linux/main.o: linux/main.cpp.o
@@ -135,7 +135,7 @@ linux/main.o: linux/main.cpp.o
 
 # target to build an object file
 linux/main.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/linux/main.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/linux/main.cpp.o
 .PHONY : linux/main.cpp.o
 
 linux/main.i: linux/main.cpp.i
@@ -143,7 +143,7 @@ linux/main.i: linux/main.cpp.i
 
 # target to preprocess a source file
 linux/main.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/linux/main.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/linux/main.cpp.i
 .PHONY : linux/main.cpp.i
 
 linux/main.s: linux/main.cpp.s
@@ -151,7 +151,7 @@ linux/main.s: linux/main.cpp.s
 
 # target to generate assembly for a file
 linux/main.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/linux/main.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/linux/main.cpp.s
 .PHONY : linux/main.cpp.s
 
 shared/AuctionTransferClient.o: shared/AuctionTransferClient.cpp.o
@@ -159,7 +159,7 @@ shared/AuctionTransferClient.o: shared/AuctionTransferClient.cpp.o
 
 # target to build an object file
 shared/AuctionTransferClient.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferClient.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferClient.cpp.o
 .PHONY : shared/AuctionTransferClient.cpp.o
 
 shared/AuctionTransferClient.i: shared/AuctionTransferClient.cpp.i
@@ -167,7 +167,7 @@ shared/AuctionTransferClient.i: shared/AuctionTransferClient.cpp.i
 
 # target to preprocess a source file
 shared/AuctionTransferClient.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferClient.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferClient.cpp.i
 .PHONY : shared/AuctionTransferClient.cpp.i
 
 shared/AuctionTransferClient.s: shared/AuctionTransferClient.cpp.s
@@ -175,7 +175,7 @@ shared/AuctionTransferClient.s: shared/AuctionTransferClient.cpp.s
 
 # target to generate assembly for a file
 shared/AuctionTransferClient.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferClient.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferClient.cpp.s
 .PHONY : shared/AuctionTransferClient.cpp.s
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.o: shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.o
@@ -183,7 +183,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.o: shared/AuctionTrans
 
 # target to build an object file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.o
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.i: shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.i
@@ -191,7 +191,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.i: shared/AuctionTrans
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.i
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.s: shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.s
@@ -199,7 +199,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.s: shared/AuctionTrans
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericApiCore.cpp.s
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.o: shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.o
@@ -207,7 +207,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.o: shared/AuctionTr
 
 # target to build an object file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.o
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.i: shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.i
@@ -215,7 +215,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.i: shared/AuctionTr
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.i
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.s: shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.s
@@ -223,7 +223,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.s: shared/AuctionTr
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericConnection.cpp.s
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.o: shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.o
@@ -231,7 +231,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.o: shared/AuctionTrans
 
 # target to build an object file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.o
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.i: shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.i
@@ -239,7 +239,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.i: shared/AuctionTrans
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.i
 
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.s: shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.s
@@ -247,7 +247,7 @@ shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.s: shared/AuctionTrans
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/ATGenericAPI/GenericMessage.cpp.s
 
 shared/AuctionTransferGameAPI/AuctionTransferAPI.o: shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.o
@@ -255,7 +255,7 @@ shared/AuctionTransferGameAPI/AuctionTransferAPI.o: shared/AuctionTransferGameAP
 
 # target to build an object file
 shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.o
 
 shared/AuctionTransferGameAPI/AuctionTransferAPI.i: shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.i
@@ -263,7 +263,7 @@ shared/AuctionTransferGameAPI/AuctionTransferAPI.i: shared/AuctionTransferGameAP
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.i
 
 shared/AuctionTransferGameAPI/AuctionTransferAPI.s: shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.s
@@ -271,7 +271,7 @@ shared/AuctionTransferGameAPI/AuctionTransferAPI.s: shared/AuctionTransferGameAP
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/AuctionTransferAPI.cpp.s
 
 shared/AuctionTransferGameAPI/AuctionTransferAPICore.o: shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.o
@@ -279,7 +279,7 @@ shared/AuctionTransferGameAPI/AuctionTransferAPICore.o: shared/AuctionTransferGa
 
 # target to build an object file
 shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.o
 
 shared/AuctionTransferGameAPI/AuctionTransferAPICore.i: shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.i
@@ -287,7 +287,7 @@ shared/AuctionTransferGameAPI/AuctionTransferAPICore.i: shared/AuctionTransferGa
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.i
 
 shared/AuctionTransferGameAPI/AuctionTransferAPICore.s: shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.s
@@ -295,7 +295,7 @@ shared/AuctionTransferGameAPI/AuctionTransferAPICore.s: shared/AuctionTransferGa
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/AuctionTransferAPICore.cpp.s
 
 shared/AuctionTransferGameAPI/Base/Archive.o: shared/AuctionTransferGameAPI/Base/Archive.cpp.o
@@ -303,7 +303,7 @@ shared/AuctionTransferGameAPI/Base/Archive.o: shared/AuctionTransferGameAPI/Base
 
 # target to build an object file
 shared/AuctionTransferGameAPI/Base/Archive.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/Archive.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/Archive.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/Base/Archive.cpp.o
 
 shared/AuctionTransferGameAPI/Base/Archive.i: shared/AuctionTransferGameAPI/Base/Archive.cpp.i
@@ -311,7 +311,7 @@ shared/AuctionTransferGameAPI/Base/Archive.i: shared/AuctionTransferGameAPI/Base
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/Base/Archive.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/Archive.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/Archive.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/Base/Archive.cpp.i
 
 shared/AuctionTransferGameAPI/Base/Archive.s: shared/AuctionTransferGameAPI/Base/Archive.cpp.s
@@ -319,7 +319,7 @@ shared/AuctionTransferGameAPI/Base/Archive.s: shared/AuctionTransferGameAPI/Base
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/Base/Archive.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/Archive.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/Archive.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/Base/Archive.cpp.s
 
 shared/AuctionTransferGameAPI/Base/linux/Mutex.o: shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.o
@@ -327,7 +327,7 @@ shared/AuctionTransferGameAPI/Base/linux/Mutex.o: shared/AuctionTransferGameAPI/
 
 # target to build an object file
 shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.o
 
 shared/AuctionTransferGameAPI/Base/linux/Mutex.i: shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.i
@@ -335,7 +335,7 @@ shared/AuctionTransferGameAPI/Base/linux/Mutex.i: shared/AuctionTransferGameAPI/
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.i
 
 shared/AuctionTransferGameAPI/Base/linux/Mutex.s: shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.s
@@ -343,7 +343,7 @@ shared/AuctionTransferGameAPI/Base/linux/Mutex.s: shared/AuctionTransferGameAPI/
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/Base/linux/Mutex.cpp.s
 
 shared/AuctionTransferGameAPI/Base/linux/Platform.o: shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.o
@@ -351,7 +351,7 @@ shared/AuctionTransferGameAPI/Base/linux/Platform.o: shared/AuctionTransferGameA
 
 # target to build an object file
 shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.o
 
 shared/AuctionTransferGameAPI/Base/linux/Platform.i: shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.i
@@ -359,7 +359,7 @@ shared/AuctionTransferGameAPI/Base/linux/Platform.i: shared/AuctionTransferGameA
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.i
 
 shared/AuctionTransferGameAPI/Base/linux/Platform.s: shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.s
@@ -367,7 +367,7 @@ shared/AuctionTransferGameAPI/Base/linux/Platform.s: shared/AuctionTransferGameA
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/Base/linux/Platform.cpp.s
 
 shared/AuctionTransferGameAPI/Character.o: shared/AuctionTransferGameAPI/Character.cpp.o
@@ -375,7 +375,7 @@ shared/AuctionTransferGameAPI/Character.o: shared/AuctionTransferGameAPI/Charact
 
 # target to build an object file
 shared/AuctionTransferGameAPI/Character.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Character.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Character.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/Character.cpp.o
 
 shared/AuctionTransferGameAPI/Character.i: shared/AuctionTransferGameAPI/Character.cpp.i
@@ -383,7 +383,7 @@ shared/AuctionTransferGameAPI/Character.i: shared/AuctionTransferGameAPI/Charact
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/Character.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Character.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Character.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/Character.cpp.i
 
 shared/AuctionTransferGameAPI/Character.s: shared/AuctionTransferGameAPI/Character.cpp.s
@@ -391,7 +391,7 @@ shared/AuctionTransferGameAPI/Character.s: shared/AuctionTransferGameAPI/Charact
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/Character.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Character.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Character.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/Character.cpp.s
 
 shared/AuctionTransferGameAPI/Request.o: shared/AuctionTransferGameAPI/Request.cpp.o
@@ -399,7 +399,7 @@ shared/AuctionTransferGameAPI/Request.o: shared/AuctionTransferGameAPI/Request.c
 
 # target to build an object file
 shared/AuctionTransferGameAPI/Request.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Request.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Request.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/Request.cpp.o
 
 shared/AuctionTransferGameAPI/Request.i: shared/AuctionTransferGameAPI/Request.cpp.i
@@ -407,7 +407,7 @@ shared/AuctionTransferGameAPI/Request.i: shared/AuctionTransferGameAPI/Request.c
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/Request.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Request.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Request.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/Request.cpp.i
 
 shared/AuctionTransferGameAPI/Request.s: shared/AuctionTransferGameAPI/Request.cpp.s
@@ -415,7 +415,7 @@ shared/AuctionTransferGameAPI/Request.s: shared/AuctionTransferGameAPI/Request.c
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/Request.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Request.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Request.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/Request.cpp.s
 
 shared/AuctionTransferGameAPI/Response.o: shared/AuctionTransferGameAPI/Response.cpp.o
@@ -423,7 +423,7 @@ shared/AuctionTransferGameAPI/Response.o: shared/AuctionTransferGameAPI/Response
 
 # target to build an object file
 shared/AuctionTransferGameAPI/Response.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Response.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Response.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/Response.cpp.o
 
 shared/AuctionTransferGameAPI/Response.i: shared/AuctionTransferGameAPI/Response.cpp.i
@@ -431,7 +431,7 @@ shared/AuctionTransferGameAPI/Response.i: shared/AuctionTransferGameAPI/Response
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/Response.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Response.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Response.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/Response.cpp.i
 
 shared/AuctionTransferGameAPI/Response.s: shared/AuctionTransferGameAPI/Response.cpp.s
@@ -439,7 +439,7 @@ shared/AuctionTransferGameAPI/Response.s: shared/AuctionTransferGameAPI/Response
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/Response.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Response.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/Response.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/Response.cpp.s
 
 shared/AuctionTransferGameAPI/TcpLibrary/Clock.o: shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.o
@@ -447,7 +447,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/Clock.o: shared/AuctionTransferGameAPI/
 
 # target to build an object file
 shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.o
 
 shared/AuctionTransferGameAPI/TcpLibrary/Clock.i: shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.i
@@ -455,7 +455,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/Clock.i: shared/AuctionTransferGameAPI/
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.i
 
 shared/AuctionTransferGameAPI/TcpLibrary/Clock.s: shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.s
@@ -463,7 +463,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/Clock.s: shared/AuctionTransferGameAPI/
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/Clock.cpp.s
 
 shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.o: shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.o
@@ -471,7 +471,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.o: shared/AuctionTransferGame
 
 # target to build an object file
 shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.o
 
 shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.i: shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.i
@@ -479,7 +479,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.i: shared/AuctionTransferGame
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.i
 
 shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.s: shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.s
@@ -487,7 +487,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.s: shared/AuctionTransferGame
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/IPAddress.cpp.s
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.o: shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.o
@@ -495,7 +495,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.o: shared/AuctionTran
 
 # target to build an object file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.o
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.i: shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.i
@@ -503,7 +503,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.i: shared/AuctionTran
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.i
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.s: shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.s
@@ -511,7 +511,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.s: shared/AuctionTran
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpBlockAllocator.cpp.s
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.o: shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.o
@@ -519,7 +519,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.o: shared/AuctionTransfer
 
 # target to build an object file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.o
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.i: shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.i
@@ -527,7 +527,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.i: shared/AuctionTransfer
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.i
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.s: shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.s
@@ -535,7 +535,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.s: shared/AuctionTransfer
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpConnection.cpp.s
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.o: shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.o
@@ -543,7 +543,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.o: shared/AuctionTransferGam
 
 # target to build an object file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.o
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.o
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.i: shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.i
@@ -551,7 +551,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.i: shared/AuctionTransferGam
 
 # target to preprocess a source file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.i
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.i
 
 shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.s: shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.s
@@ -559,7 +559,7 @@ shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.s: shared/AuctionTransferGam
 
 # target to generate assembly for a file
 shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.s
 .PHONY : shared/AuctionTransferGameAPI/TcpLibrary/TcpManager.cpp.s
 
 shared/CentralCSHandler.o: shared/CentralCSHandler.cpp.o
@@ -567,7 +567,7 @@ shared/CentralCSHandler.o: shared/CentralCSHandler.cpp.o
 
 # target to build an object file
 shared/CentralCSHandler.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralCSHandler.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralCSHandler.cpp.o
 .PHONY : shared/CentralCSHandler.cpp.o
 
 shared/CentralCSHandler.i: shared/CentralCSHandler.cpp.i
@@ -575,7 +575,7 @@ shared/CentralCSHandler.i: shared/CentralCSHandler.cpp.i
 
 # target to preprocess a source file
 shared/CentralCSHandler.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralCSHandler.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralCSHandler.cpp.i
 .PHONY : shared/CentralCSHandler.cpp.i
 
 shared/CentralCSHandler.s: shared/CentralCSHandler.cpp.s
@@ -583,7 +583,7 @@ shared/CentralCSHandler.s: shared/CentralCSHandler.cpp.s
 
 # target to generate assembly for a file
 shared/CentralCSHandler.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralCSHandler.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralCSHandler.cpp.s
 .PHONY : shared/CentralCSHandler.cpp.s
 
 shared/CentralServer.o: shared/CentralServer.cpp.o
@@ -591,7 +591,7 @@ shared/CentralServer.o: shared/CentralServer.cpp.o
 
 # target to build an object file
 shared/CentralServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServer.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServer.cpp.o
 .PHONY : shared/CentralServer.cpp.o
 
 shared/CentralServer.i: shared/CentralServer.cpp.i
@@ -599,7 +599,7 @@ shared/CentralServer.i: shared/CentralServer.cpp.i
 
 # target to preprocess a source file
 shared/CentralServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServer.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServer.cpp.i
 .PHONY : shared/CentralServer.cpp.i
 
 shared/CentralServer.s: shared/CentralServer.cpp.s
@@ -607,7 +607,7 @@ shared/CentralServer.s: shared/CentralServer.cpp.s
 
 # target to generate assembly for a file
 shared/CentralServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServer.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServer.cpp.s
 .PHONY : shared/CentralServer.cpp.s
 
 shared/CentralServerMetricsData.o: shared/CentralServerMetricsData.cpp.o
@@ -615,7 +615,7 @@ shared/CentralServerMetricsData.o: shared/CentralServerMetricsData.cpp.o
 
 # target to build an object file
 shared/CentralServerMetricsData.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServerMetricsData.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServerMetricsData.cpp.o
 .PHONY : shared/CentralServerMetricsData.cpp.o
 
 shared/CentralServerMetricsData.i: shared/CentralServerMetricsData.cpp.i
@@ -623,7 +623,7 @@ shared/CentralServerMetricsData.i: shared/CentralServerMetricsData.cpp.i
 
 # target to preprocess a source file
 shared/CentralServerMetricsData.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServerMetricsData.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServerMetricsData.cpp.i
 .PHONY : shared/CentralServerMetricsData.cpp.i
 
 shared/CentralServerMetricsData.s: shared/CentralServerMetricsData.cpp.s
@@ -631,7 +631,7 @@ shared/CentralServerMetricsData.s: shared/CentralServerMetricsData.cpp.s
 
 # target to generate assembly for a file
 shared/CentralServerMetricsData.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServerMetricsData.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CentralServerMetricsData.cpp.s
 .PHONY : shared/CentralServerMetricsData.cpp.s
 
 shared/CharacterCreationTracker.o: shared/CharacterCreationTracker.cpp.o
@@ -639,7 +639,7 @@ shared/CharacterCreationTracker.o: shared/CharacterCreationTracker.cpp.o
 
 # target to build an object file
 shared/CharacterCreationTracker.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CharacterCreationTracker.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CharacterCreationTracker.cpp.o
 .PHONY : shared/CharacterCreationTracker.cpp.o
 
 shared/CharacterCreationTracker.i: shared/CharacterCreationTracker.cpp.i
@@ -647,7 +647,7 @@ shared/CharacterCreationTracker.i: shared/CharacterCreationTracker.cpp.i
 
 # target to preprocess a source file
 shared/CharacterCreationTracker.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CharacterCreationTracker.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CharacterCreationTracker.cpp.i
 .PHONY : shared/CharacterCreationTracker.cpp.i
 
 shared/CharacterCreationTracker.s: shared/CharacterCreationTracker.cpp.s
@@ -655,7 +655,7 @@ shared/CharacterCreationTracker.s: shared/CharacterCreationTracker.cpp.s
 
 # target to generate assembly for a file
 shared/CharacterCreationTracker.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CharacterCreationTracker.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CharacterCreationTracker.cpp.s
 .PHONY : shared/CharacterCreationTracker.cpp.s
 
 shared/ChatServerConnection.o: shared/ChatServerConnection.cpp.o
@@ -663,7 +663,7 @@ shared/ChatServerConnection.o: shared/ChatServerConnection.cpp.o
 
 # target to build an object file
 shared/ChatServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ChatServerConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ChatServerConnection.cpp.o
 .PHONY : shared/ChatServerConnection.cpp.o
 
 shared/ChatServerConnection.i: shared/ChatServerConnection.cpp.i
@@ -671,7 +671,7 @@ shared/ChatServerConnection.i: shared/ChatServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/ChatServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ChatServerConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ChatServerConnection.cpp.i
 .PHONY : shared/ChatServerConnection.cpp.i
 
 shared/ChatServerConnection.s: shared/ChatServerConnection.cpp.s
@@ -679,7 +679,7 @@ shared/ChatServerConnection.s: shared/ChatServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ChatServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ChatServerConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ChatServerConnection.cpp.s
 .PHONY : shared/ChatServerConnection.cpp.s
 
 shared/ConfigCentralServer.o: shared/ConfigCentralServer.cpp.o
@@ -687,7 +687,7 @@ shared/ConfigCentralServer.o: shared/ConfigCentralServer.cpp.o
 
 # target to build an object file
 shared/ConfigCentralServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConfigCentralServer.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConfigCentralServer.cpp.o
 .PHONY : shared/ConfigCentralServer.cpp.o
 
 shared/ConfigCentralServer.i: shared/ConfigCentralServer.cpp.i
@@ -695,7 +695,7 @@ shared/ConfigCentralServer.i: shared/ConfigCentralServer.cpp.i
 
 # target to preprocess a source file
 shared/ConfigCentralServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConfigCentralServer.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConfigCentralServer.cpp.i
 .PHONY : shared/ConfigCentralServer.cpp.i
 
 shared/ConfigCentralServer.s: shared/ConfigCentralServer.cpp.s
@@ -703,7 +703,7 @@ shared/ConfigCentralServer.s: shared/ConfigCentralServer.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigCentralServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConfigCentralServer.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConfigCentralServer.cpp.s
 .PHONY : shared/ConfigCentralServer.cpp.s
 
 shared/ConnectionServerConnection.o: shared/ConnectionServerConnection.cpp.o
@@ -711,7 +711,7 @@ shared/ConnectionServerConnection.o: shared/ConnectionServerConnection.cpp.o
 
 # target to build an object file
 shared/ConnectionServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConnectionServerConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConnectionServerConnection.cpp.o
 .PHONY : shared/ConnectionServerConnection.cpp.o
 
 shared/ConnectionServerConnection.i: shared/ConnectionServerConnection.cpp.i
@@ -719,7 +719,7 @@ shared/ConnectionServerConnection.i: shared/ConnectionServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/ConnectionServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConnectionServerConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConnectionServerConnection.cpp.i
 .PHONY : shared/ConnectionServerConnection.cpp.i
 
 shared/ConnectionServerConnection.s: shared/ConnectionServerConnection.cpp.s
@@ -727,7 +727,7 @@ shared/ConnectionServerConnection.s: shared/ConnectionServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ConnectionServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConnectionServerConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConnectionServerConnection.cpp.s
 .PHONY : shared/ConnectionServerConnection.cpp.s
 
 shared/ConsoleCommandParser.o: shared/ConsoleCommandParser.cpp.o
@@ -735,7 +735,7 @@ shared/ConsoleCommandParser.o: shared/ConsoleCommandParser.cpp.o
 
 # target to build an object file
 shared/ConsoleCommandParser.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParser.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParser.cpp.o
 .PHONY : shared/ConsoleCommandParser.cpp.o
 
 shared/ConsoleCommandParser.i: shared/ConsoleCommandParser.cpp.i
@@ -743,7 +743,7 @@ shared/ConsoleCommandParser.i: shared/ConsoleCommandParser.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleCommandParser.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParser.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParser.cpp.i
 .PHONY : shared/ConsoleCommandParser.cpp.i
 
 shared/ConsoleCommandParser.s: shared/ConsoleCommandParser.cpp.s
@@ -751,7 +751,7 @@ shared/ConsoleCommandParser.s: shared/ConsoleCommandParser.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleCommandParser.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParser.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParser.cpp.s
 .PHONY : shared/ConsoleCommandParser.cpp.s
 
 shared/ConsoleCommandParserDatabase.o: shared/ConsoleCommandParserDatabase.cpp.o
@@ -759,7 +759,7 @@ shared/ConsoleCommandParserDatabase.o: shared/ConsoleCommandParserDatabase.cpp.o
 
 # target to build an object file
 shared/ConsoleCommandParserDatabase.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserDatabase.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserDatabase.cpp.o
 .PHONY : shared/ConsoleCommandParserDatabase.cpp.o
 
 shared/ConsoleCommandParserDatabase.i: shared/ConsoleCommandParserDatabase.cpp.i
@@ -767,7 +767,7 @@ shared/ConsoleCommandParserDatabase.i: shared/ConsoleCommandParserDatabase.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleCommandParserDatabase.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserDatabase.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserDatabase.cpp.i
 .PHONY : shared/ConsoleCommandParserDatabase.cpp.i
 
 shared/ConsoleCommandParserDatabase.s: shared/ConsoleCommandParserDatabase.cpp.s
@@ -775,7 +775,7 @@ shared/ConsoleCommandParserDatabase.s: shared/ConsoleCommandParserDatabase.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleCommandParserDatabase.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserDatabase.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserDatabase.cpp.s
 .PHONY : shared/ConsoleCommandParserDatabase.cpp.s
 
 shared/ConsoleCommandParserGame.o: shared/ConsoleCommandParserGame.cpp.o
@@ -783,7 +783,7 @@ shared/ConsoleCommandParserGame.o: shared/ConsoleCommandParserGame.cpp.o
 
 # target to build an object file
 shared/ConsoleCommandParserGame.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserGame.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserGame.cpp.o
 .PHONY : shared/ConsoleCommandParserGame.cpp.o
 
 shared/ConsoleCommandParserGame.i: shared/ConsoleCommandParserGame.cpp.i
@@ -791,7 +791,7 @@ shared/ConsoleCommandParserGame.i: shared/ConsoleCommandParserGame.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleCommandParserGame.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserGame.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserGame.cpp.i
 .PHONY : shared/ConsoleCommandParserGame.cpp.i
 
 shared/ConsoleCommandParserGame.s: shared/ConsoleCommandParserGame.cpp.s
@@ -799,7 +799,7 @@ shared/ConsoleCommandParserGame.s: shared/ConsoleCommandParserGame.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleCommandParserGame.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserGame.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserGame.cpp.s
 .PHONY : shared/ConsoleCommandParserGame.cpp.s
 
 shared/ConsoleCommandParserLoginServer.o: shared/ConsoleCommandParserLoginServer.cpp.o
@@ -807,7 +807,7 @@ shared/ConsoleCommandParserLoginServer.o: shared/ConsoleCommandParserLoginServer
 
 # target to build an object file
 shared/ConsoleCommandParserLoginServer.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserLoginServer.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserLoginServer.cpp.o
 .PHONY : shared/ConsoleCommandParserLoginServer.cpp.o
 
 shared/ConsoleCommandParserLoginServer.i: shared/ConsoleCommandParserLoginServer.cpp.i
@@ -815,7 +815,7 @@ shared/ConsoleCommandParserLoginServer.i: shared/ConsoleCommandParserLoginServer
 
 # target to preprocess a source file
 shared/ConsoleCommandParserLoginServer.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserLoginServer.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserLoginServer.cpp.i
 .PHONY : shared/ConsoleCommandParserLoginServer.cpp.i
 
 shared/ConsoleCommandParserLoginServer.s: shared/ConsoleCommandParserLoginServer.cpp.s
@@ -823,7 +823,7 @@ shared/ConsoleCommandParserLoginServer.s: shared/ConsoleCommandParserLoginServer
 
 # target to generate assembly for a file
 shared/ConsoleCommandParserLoginServer.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserLoginServer.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleCommandParserLoginServer.cpp.s
 .PHONY : shared/ConsoleCommandParserLoginServer.cpp.s
 
 shared/ConsoleConnection.o: shared/ConsoleConnection.cpp.o
@@ -831,7 +831,7 @@ shared/ConsoleConnection.o: shared/ConsoleConnection.cpp.o
 
 # target to build an object file
 shared/ConsoleConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleConnection.cpp.o
 .PHONY : shared/ConsoleConnection.cpp.o
 
 shared/ConsoleConnection.i: shared/ConsoleConnection.cpp.i
@@ -839,7 +839,7 @@ shared/ConsoleConnection.i: shared/ConsoleConnection.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleConnection.cpp.i
 .PHONY : shared/ConsoleConnection.cpp.i
 
 shared/ConsoleConnection.s: shared/ConsoleConnection.cpp.s
@@ -847,7 +847,7 @@ shared/ConsoleConnection.s: shared/ConsoleConnection.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleConnection.cpp.s
 .PHONY : shared/ConsoleConnection.cpp.s
 
 shared/ConsoleManager.o: shared/ConsoleManager.cpp.o
@@ -855,7 +855,7 @@ shared/ConsoleManager.o: shared/ConsoleManager.cpp.o
 
 # target to build an object file
 shared/ConsoleManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleManager.cpp.o
 .PHONY : shared/ConsoleManager.cpp.o
 
 shared/ConsoleManager.i: shared/ConsoleManager.cpp.i
@@ -863,7 +863,7 @@ shared/ConsoleManager.i: shared/ConsoleManager.cpp.i
 
 # target to preprocess a source file
 shared/ConsoleManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleManager.cpp.i
 .PHONY : shared/ConsoleManager.cpp.i
 
 shared/ConsoleManager.s: shared/ConsoleManager.cpp.s
@@ -871,7 +871,7 @@ shared/ConsoleManager.s: shared/ConsoleManager.cpp.s
 
 # target to generate assembly for a file
 shared/ConsoleManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/ConsoleManager.cpp.s
 .PHONY : shared/ConsoleManager.cpp.s
 
 shared/CustomerServiceConnection.o: shared/CustomerServiceConnection.cpp.o
@@ -879,7 +879,7 @@ shared/CustomerServiceConnection.o: shared/CustomerServiceConnection.cpp.o
 
 # target to build an object file
 shared/CustomerServiceConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CustomerServiceConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CustomerServiceConnection.cpp.o
 .PHONY : shared/CustomerServiceConnection.cpp.o
 
 shared/CustomerServiceConnection.i: shared/CustomerServiceConnection.cpp.i
@@ -887,7 +887,7 @@ shared/CustomerServiceConnection.i: shared/CustomerServiceConnection.cpp.i
 
 # target to preprocess a source file
 shared/CustomerServiceConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CustomerServiceConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CustomerServiceConnection.cpp.i
 .PHONY : shared/CustomerServiceConnection.cpp.i
 
 shared/CustomerServiceConnection.s: shared/CustomerServiceConnection.cpp.s
@@ -895,7 +895,7 @@ shared/CustomerServiceConnection.s: shared/CustomerServiceConnection.cpp.s
 
 # target to generate assembly for a file
 shared/CustomerServiceConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CustomerServiceConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/CustomerServiceConnection.cpp.s
 .PHONY : shared/CustomerServiceConnection.cpp.s
 
 shared/GameServerConnection.o: shared/GameServerConnection.cpp.o
@@ -903,7 +903,7 @@ shared/GameServerConnection.o: shared/GameServerConnection.cpp.o
 
 # target to build an object file
 shared/GameServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/GameServerConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/GameServerConnection.cpp.o
 .PHONY : shared/GameServerConnection.cpp.o
 
 shared/GameServerConnection.i: shared/GameServerConnection.cpp.i
@@ -911,7 +911,7 @@ shared/GameServerConnection.i: shared/GameServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/GameServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/GameServerConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/GameServerConnection.cpp.i
 .PHONY : shared/GameServerConnection.cpp.i
 
 shared/GameServerConnection.s: shared/GameServerConnection.cpp.s
@@ -919,7 +919,7 @@ shared/GameServerConnection.s: shared/GameServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/GameServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/GameServerConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/GameServerConnection.cpp.s
 .PHONY : shared/GameServerConnection.cpp.s
 
 shared/LoginServerConnection.o: shared/LoginServerConnection.cpp.o
@@ -927,7 +927,7 @@ shared/LoginServerConnection.o: shared/LoginServerConnection.cpp.o
 
 # target to build an object file
 shared/LoginServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/LoginServerConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/LoginServerConnection.cpp.o
 .PHONY : shared/LoginServerConnection.cpp.o
 
 shared/LoginServerConnection.i: shared/LoginServerConnection.cpp.i
@@ -935,7 +935,7 @@ shared/LoginServerConnection.i: shared/LoginServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/LoginServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/LoginServerConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/LoginServerConnection.cpp.i
 .PHONY : shared/LoginServerConnection.cpp.i
 
 shared/LoginServerConnection.s: shared/LoginServerConnection.cpp.s
@@ -943,7 +943,7 @@ shared/LoginServerConnection.s: shared/LoginServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/LoginServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/LoginServerConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/LoginServerConnection.cpp.s
 .PHONY : shared/LoginServerConnection.cpp.s
 
 shared/PlanetManager.o: shared/PlanetManager.cpp.o
@@ -951,7 +951,7 @@ shared/PlanetManager.o: shared/PlanetManager.cpp.o
 
 # target to build an object file
 shared/PlanetManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetManager.cpp.o
 .PHONY : shared/PlanetManager.cpp.o
 
 shared/PlanetManager.i: shared/PlanetManager.cpp.i
@@ -959,7 +959,7 @@ shared/PlanetManager.i: shared/PlanetManager.cpp.i
 
 # target to preprocess a source file
 shared/PlanetManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetManager.cpp.i
 .PHONY : shared/PlanetManager.cpp.i
 
 shared/PlanetManager.s: shared/PlanetManager.cpp.s
@@ -967,7 +967,7 @@ shared/PlanetManager.s: shared/PlanetManager.cpp.s
 
 # target to generate assembly for a file
 shared/PlanetManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetManager.cpp.s
 .PHONY : shared/PlanetManager.cpp.s
 
 shared/PlanetServerConnection.o: shared/PlanetServerConnection.cpp.o
@@ -975,7 +975,7 @@ shared/PlanetServerConnection.o: shared/PlanetServerConnection.cpp.o
 
 # target to build an object file
 shared/PlanetServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetServerConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetServerConnection.cpp.o
 .PHONY : shared/PlanetServerConnection.cpp.o
 
 shared/PlanetServerConnection.i: shared/PlanetServerConnection.cpp.i
@@ -983,7 +983,7 @@ shared/PlanetServerConnection.i: shared/PlanetServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/PlanetServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetServerConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetServerConnection.cpp.i
 .PHONY : shared/PlanetServerConnection.cpp.i
 
 shared/PlanetServerConnection.s: shared/PlanetServerConnection.cpp.s
@@ -991,7 +991,7 @@ shared/PlanetServerConnection.s: shared/PlanetServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/PlanetServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetServerConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/PlanetServerConnection.cpp.s
 .PHONY : shared/PlanetServerConnection.cpp.s
 
 shared/StationPlayersCollectorConnection.o: shared/StationPlayersCollectorConnection.cpp.o
@@ -999,7 +999,7 @@ shared/StationPlayersCollectorConnection.o: shared/StationPlayersCollectorConnec
 
 # target to build an object file
 shared/StationPlayersCollectorConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/StationPlayersCollectorConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/StationPlayersCollectorConnection.cpp.o
 .PHONY : shared/StationPlayersCollectorConnection.cpp.o
 
 shared/StationPlayersCollectorConnection.i: shared/StationPlayersCollectorConnection.cpp.i
@@ -1007,7 +1007,7 @@ shared/StationPlayersCollectorConnection.i: shared/StationPlayersCollectorConnec
 
 # target to preprocess a source file
 shared/StationPlayersCollectorConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/StationPlayersCollectorConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/StationPlayersCollectorConnection.cpp.i
 .PHONY : shared/StationPlayersCollectorConnection.cpp.i
 
 shared/StationPlayersCollectorConnection.s: shared/StationPlayersCollectorConnection.cpp.s
@@ -1015,7 +1015,7 @@ shared/StationPlayersCollectorConnection.s: shared/StationPlayersCollectorConnec
 
 # target to generate assembly for a file
 shared/StationPlayersCollectorConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/StationPlayersCollectorConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/StationPlayersCollectorConnection.cpp.s
 .PHONY : shared/StationPlayersCollectorConnection.cpp.s
 
 shared/TaskConnection.o: shared/TaskConnection.cpp.o
@@ -1023,7 +1023,7 @@ shared/TaskConnection.o: shared/TaskConnection.cpp.o
 
 # target to build an object file
 shared/TaskConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TaskConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TaskConnection.cpp.o
 .PHONY : shared/TaskConnection.cpp.o
 
 shared/TaskConnection.i: shared/TaskConnection.cpp.i
@@ -1031,7 +1031,7 @@ shared/TaskConnection.i: shared/TaskConnection.cpp.i
 
 # target to preprocess a source file
 shared/TaskConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TaskConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TaskConnection.cpp.i
 .PHONY : shared/TaskConnection.cpp.i
 
 shared/TaskConnection.s: shared/TaskConnection.cpp.s
@@ -1039,7 +1039,7 @@ shared/TaskConnection.s: shared/TaskConnection.cpp.s
 
 # target to generate assembly for a file
 shared/TaskConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TaskConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TaskConnection.cpp.s
 .PHONY : shared/TaskConnection.cpp.s
 
 shared/TransferServerConnection.o: shared/TransferServerConnection.cpp.o
@@ -1047,7 +1047,7 @@ shared/TransferServerConnection.o: shared/TransferServerConnection.cpp.o
 
 # target to build an object file
 shared/TransferServerConnection.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TransferServerConnection.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TransferServerConnection.cpp.o
 .PHONY : shared/TransferServerConnection.cpp.o
 
 shared/TransferServerConnection.i: shared/TransferServerConnection.cpp.i
@@ -1055,7 +1055,7 @@ shared/TransferServerConnection.i: shared/TransferServerConnection.cpp.i
 
 # target to preprocess a source file
 shared/TransferServerConnection.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TransferServerConnection.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TransferServerConnection.cpp.i
 .PHONY : shared/TransferServerConnection.cpp.i
 
 shared/TransferServerConnection.s: shared/TransferServerConnection.cpp.s
@@ -1063,7 +1063,7 @@ shared/TransferServerConnection.s: shared/TransferServerConnection.cpp.s
 
 # target to generate assembly for a file
 shared/TransferServerConnection.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TransferServerConnection.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/TransferServerConnection.cpp.s
 .PHONY : shared/TransferServerConnection.cpp.s
 
 shared/UniverseManager.o: shared/UniverseManager.cpp.o
@@ -1071,7 +1071,7 @@ shared/UniverseManager.o: shared/UniverseManager.cpp.o
 
 # target to build an object file
 shared/UniverseManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/UniverseManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/UniverseManager.cpp.o
 .PHONY : shared/UniverseManager.cpp.o
 
 shared/UniverseManager.i: shared/UniverseManager.cpp.i
@@ -1079,7 +1079,7 @@ shared/UniverseManager.i: shared/UniverseManager.cpp.i
 
 # target to preprocess a source file
 shared/UniverseManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/UniverseManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/UniverseManager.cpp.i
 .PHONY : shared/UniverseManager.cpp.i
 
 shared/UniverseManager.s: shared/UniverseManager.cpp.s
@@ -1087,7 +1087,7 @@ shared/UniverseManager.s: shared/UniverseManager.cpp.s
 
 # target to generate assembly for a file
 shared/UniverseManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/UniverseManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/build.make engine/server/application/CentralServer/src/CMakeFiles/CentralServer.dir/shared/UniverseManager.cpp.s
 .PHONY : shared/UniverseManager.cpp.s
 
 # Help Target
@@ -1230,6 +1230,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

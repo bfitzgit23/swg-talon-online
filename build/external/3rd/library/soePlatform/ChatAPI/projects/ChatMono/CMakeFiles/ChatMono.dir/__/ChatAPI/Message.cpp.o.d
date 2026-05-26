@@ -1,8 +1,8 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/ChatAPI/Message.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/Message.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/Message.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/Message.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/GenericAPI/GenericMessage.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/Message.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/GenericAPI/GenericMessage.h \
  /usr/include/time.h /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
  /usr/include/gnu/stubs.h /usr/include/gnu/stubs-32.h \
@@ -16,7 +16,7 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/bits/types/clockid_t.h /usr/include/bits/types/timer_t.h \
  /usr/include/bits/types/struct_itimerspec.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Archive.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Archive.h \
  /usr/include/assert.h /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -103,8 +103,8 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/c++/8/bits/stl_relops.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
  /usr/include/sys/errno.h /usr/include/resolv.h /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -149,14 +149,14 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/fcntl.h /usr/include/bits/fcntl.h \
  /usr/include/bits/fcntl-linux.h /usr/include/linux/falloc.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Archive.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoomCore.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Archive.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoomCore.h \
  /usr/include/c++/8/set /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/ext/aligned_buffer.h \
  /usr/include/c++/8/bits/node_handle.h /usr/include/c++/8/optional \
@@ -167,12 +167,12 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/c++/8/tuple /usr/include/c++/8/array \
  /usr/include/c++/8/bits/uses_allocator.h \
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeUtils.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoom.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatEnum.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAvatarCore.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeUtils.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoom.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatEnum.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAvatarCore.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h /usr/include/c++/8/bits/list.tcc \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/PersistentMessage.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/PersistentMessageCore.h
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/PersistentMessage.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/PersistentMessageCore.h

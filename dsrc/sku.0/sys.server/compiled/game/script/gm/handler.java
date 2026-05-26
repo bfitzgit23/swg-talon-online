@@ -238,20 +238,6 @@ public class handler extends script.base_script
         gm.decrementMessageCount(self);
         return SCRIPT_CONTINUE;
     }
-    public int onObjectLocateResponseForCmdGoto(obj_id self, dictionary params) throws InterruptedException
-    {
-        location l = params.getLocation("location");
-        if (l != null)
-        {
-            setLocation(self, l);
-        }
-        else
-        {
-            sendSystemMessageTestingOnly(self, "[goto] Could not locate the specified object.");
-        }
-        gm.decrementMessageCount(self);
-        return SCRIPT_CONTINUE;
-    }
     public int foundObject(obj_id self, dictionary params) throws InterruptedException
     {
         obj_id target = params.getObjId("target");

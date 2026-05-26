@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/depend.make
@@ -70,32 +70,32 @@ include engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/pro
 include engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/flags.make
 
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o: engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/flags.make
-engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src/shared/MultiFractal.cpp
+engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o: /home/swg/swg-main/src/engine/shared/library/sharedFractal/src/shared/MultiFractal.cpp
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o: engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o -MF CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o.d -o CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src/shared/MultiFractal.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o"
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o -MF CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o.d -o CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.o -c /home/swg/swg-main/src/engine/shared/library/sharedFractal/src/shared/MultiFractal.cpp
 
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src/shared/MultiFractal.cpp > CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.i
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/shared/library/sharedFractal/src/shared/MultiFractal.cpp > CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.i
 
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src/shared/MultiFractal.cpp -o CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.s
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/shared/library/sharedFractal/src/shared/MultiFractal.cpp -o CMakeFiles/sharedFractal.dir/shared/MultiFractal.cpp.s
 
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o: engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/flags.make
-engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o: /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src/shared/MultiFractalReaderWriter.cpp
+engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o: /home/swg/swg-main/src/engine/shared/library/sharedFractal/src/shared/MultiFractalReaderWriter.cpp
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o: engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o -MF CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o.d -o CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o -c /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src/shared/MultiFractalReaderWriter.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o"
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o -MF CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o.d -o CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o -c /home/swg/swg-main/src/engine/shared/library/sharedFractal/src/shared/MultiFractalReaderWriter.cpp
 
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src/shared/MultiFractalReaderWriter.cpp > CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.i
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/shared/library/sharedFractal/src/shared/MultiFractalReaderWriter.cpp > CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.i
 
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src/shared/MultiFractalReaderWriter.cpp -o CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.s
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/shared/library/sharedFractal/src/shared/MultiFractalReaderWriter.cpp -o CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.s
 
 # Object files for target sharedFractal
 sharedFractal_OBJECTS = \
@@ -109,19 +109,19 @@ engine/shared/library/sharedFractal/src/libsharedFractal.a: engine/shared/librar
 engine/shared/library/sharedFractal/src/libsharedFractal.a: engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/shared/MultiFractalReaderWriter.cpp.o
 engine/shared/library/sharedFractal/src/libsharedFractal.a: engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build.make
 engine/shared/library/sharedFractal/src/libsharedFractal.a: engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsharedFractal.a"
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedFractal.dir/cmake_clean_target.cmake
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedFractal.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX static library libsharedFractal.a"
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedFractal.dir/cmake_clean_target.cmake
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/sharedFractal.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build: engine/shared/library/sharedFractal/src/libsharedFractal.a
 .PHONY : engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/build
 
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedFractal.dir/cmake_clean.cmake
+	cd /home/swg/swg-main/build/engine/shared/library/sharedFractal/src && $(CMAKE_COMMAND) -P CMakeFiles/sharedFractal.dir/cmake_clean.cmake
 .PHONY : engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/clean
 
 engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFractal/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src /home/almalinux/swg-talon-online/build/engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg/swg-main/src /home/swg/swg-main/src/engine/shared/library/sharedFractal/src /home/swg/swg-main/build /home/swg/swg-main/build/engine/shared/library/sharedFractal/src /home/swg/swg-main/build/engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/shared/library/sharedFractal/src/CMakeFiles/sharedFractal.dir/depend
 

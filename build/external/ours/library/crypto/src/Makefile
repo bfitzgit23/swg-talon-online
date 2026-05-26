@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/ours/library/crypto/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles /home/swg/swg-main/build/external/ours/library/crypto/src//CMakeFiles/progress.marks
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/clean
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/ours/library/crypto/src/CMakeFiles/crypto.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/CMakeFiles/crypto.dir/rule
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/crypto/src/CMakeFiles/crypto.dir/rule
 .PHONY : external/ours/library/crypto/src/CMakeFiles/crypto.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ crypto: external/ours/library/crypto/src/CMakeFiles/crypto.dir/rule
 
 # fast build rule for target.
 crypto/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/build
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/build
 .PHONY : crypto/fast
 
 shared/original/cryptlib.o: shared/original/cryptlib.cpp.o
@@ -135,7 +135,7 @@ shared/original/cryptlib.o: shared/original/cryptlib.cpp.o
 
 # target to build an object file
 shared/original/cryptlib.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.o
 .PHONY : shared/original/cryptlib.cpp.o
 
 shared/original/cryptlib.i: shared/original/cryptlib.cpp.i
@@ -143,7 +143,7 @@ shared/original/cryptlib.i: shared/original/cryptlib.cpp.i
 
 # target to preprocess a source file
 shared/original/cryptlib.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.i
 .PHONY : shared/original/cryptlib.cpp.i
 
 shared/original/cryptlib.s: shared/original/cryptlib.cpp.s
@@ -151,7 +151,7 @@ shared/original/cryptlib.s: shared/original/cryptlib.cpp.s
 
 # target to generate assembly for a file
 shared/original/cryptlib.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/cryptlib.cpp.s
 .PHONY : shared/original/cryptlib.cpp.s
 
 shared/original/filters.o: shared/original/filters.cpp.o
@@ -159,7 +159,7 @@ shared/original/filters.o: shared/original/filters.cpp.o
 
 # target to build an object file
 shared/original/filters.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.o
 .PHONY : shared/original/filters.cpp.o
 
 shared/original/filters.i: shared/original/filters.cpp.i
@@ -167,7 +167,7 @@ shared/original/filters.i: shared/original/filters.cpp.i
 
 # target to preprocess a source file
 shared/original/filters.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.i
 .PHONY : shared/original/filters.cpp.i
 
 shared/original/filters.s: shared/original/filters.cpp.s
@@ -175,7 +175,7 @@ shared/original/filters.s: shared/original/filters.cpp.s
 
 # target to generate assembly for a file
 shared/original/filters.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/filters.cpp.s
 .PHONY : shared/original/filters.cpp.s
 
 shared/original/iterhash.o: shared/original/iterhash.cpp.o
@@ -183,7 +183,7 @@ shared/original/iterhash.o: shared/original/iterhash.cpp.o
 
 # target to build an object file
 shared/original/iterhash.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.o
 .PHONY : shared/original/iterhash.cpp.o
 
 shared/original/iterhash.i: shared/original/iterhash.cpp.i
@@ -191,7 +191,7 @@ shared/original/iterhash.i: shared/original/iterhash.cpp.i
 
 # target to preprocess a source file
 shared/original/iterhash.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.i
 .PHONY : shared/original/iterhash.cpp.i
 
 shared/original/iterhash.s: shared/original/iterhash.cpp.s
@@ -199,7 +199,7 @@ shared/original/iterhash.s: shared/original/iterhash.cpp.s
 
 # target to generate assembly for a file
 shared/original/iterhash.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/iterhash.cpp.s
 .PHONY : shared/original/iterhash.cpp.s
 
 shared/original/md5.o: shared/original/md5.cpp.o
@@ -207,7 +207,7 @@ shared/original/md5.o: shared/original/md5.cpp.o
 
 # target to build an object file
 shared/original/md5.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.o
 .PHONY : shared/original/md5.cpp.o
 
 shared/original/md5.i: shared/original/md5.cpp.i
@@ -215,7 +215,7 @@ shared/original/md5.i: shared/original/md5.cpp.i
 
 # target to preprocess a source file
 shared/original/md5.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.i
 .PHONY : shared/original/md5.cpp.i
 
 shared/original/md5.s: shared/original/md5.cpp.s
@@ -223,7 +223,7 @@ shared/original/md5.s: shared/original/md5.cpp.s
 
 # target to generate assembly for a file
 shared/original/md5.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/md5.cpp.s
 .PHONY : shared/original/md5.cpp.s
 
 shared/original/misc.o: shared/original/misc.cpp.o
@@ -231,7 +231,7 @@ shared/original/misc.o: shared/original/misc.cpp.o
 
 # target to build an object file
 shared/original/misc.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.o
 .PHONY : shared/original/misc.cpp.o
 
 shared/original/misc.i: shared/original/misc.cpp.i
@@ -239,7 +239,7 @@ shared/original/misc.i: shared/original/misc.cpp.i
 
 # target to preprocess a source file
 shared/original/misc.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.i
 .PHONY : shared/original/misc.cpp.i
 
 shared/original/misc.s: shared/original/misc.cpp.s
@@ -247,7 +247,7 @@ shared/original/misc.s: shared/original/misc.cpp.s
 
 # target to generate assembly for a file
 shared/original/misc.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/misc.cpp.s
 .PHONY : shared/original/misc.cpp.s
 
 shared/original/mqueue.o: shared/original/mqueue.cpp.o
@@ -255,7 +255,7 @@ shared/original/mqueue.o: shared/original/mqueue.cpp.o
 
 # target to build an object file
 shared/original/mqueue.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.o
 .PHONY : shared/original/mqueue.cpp.o
 
 shared/original/mqueue.i: shared/original/mqueue.cpp.i
@@ -263,7 +263,7 @@ shared/original/mqueue.i: shared/original/mqueue.cpp.i
 
 # target to preprocess a source file
 shared/original/mqueue.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.i
 .PHONY : shared/original/mqueue.cpp.i
 
 shared/original/mqueue.s: shared/original/mqueue.cpp.s
@@ -271,7 +271,7 @@ shared/original/mqueue.s: shared/original/mqueue.cpp.s
 
 # target to generate assembly for a file
 shared/original/mqueue.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/mqueue.cpp.s
 .PHONY : shared/original/mqueue.cpp.s
 
 shared/original/queue.o: shared/original/queue.cpp.o
@@ -279,7 +279,7 @@ shared/original/queue.o: shared/original/queue.cpp.o
 
 # target to build an object file
 shared/original/queue.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.o
 .PHONY : shared/original/queue.cpp.o
 
 shared/original/queue.i: shared/original/queue.cpp.i
@@ -287,7 +287,7 @@ shared/original/queue.i: shared/original/queue.cpp.i
 
 # target to preprocess a source file
 shared/original/queue.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.i
 .PHONY : shared/original/queue.cpp.i
 
 shared/original/queue.s: shared/original/queue.cpp.s
@@ -295,7 +295,7 @@ shared/original/queue.s: shared/original/queue.cpp.s
 
 # target to generate assembly for a file
 shared/original/queue.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/queue.cpp.s
 .PHONY : shared/original/queue.cpp.s
 
 shared/original/tftables.o: shared/original/tftables.cpp.o
@@ -303,7 +303,7 @@ shared/original/tftables.o: shared/original/tftables.cpp.o
 
 # target to build an object file
 shared/original/tftables.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.o
 .PHONY : shared/original/tftables.cpp.o
 
 shared/original/tftables.i: shared/original/tftables.cpp.i
@@ -311,7 +311,7 @@ shared/original/tftables.i: shared/original/tftables.cpp.i
 
 # target to preprocess a source file
 shared/original/tftables.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.i
 .PHONY : shared/original/tftables.cpp.i
 
 shared/original/tftables.s: shared/original/tftables.cpp.s
@@ -319,7 +319,7 @@ shared/original/tftables.s: shared/original/tftables.cpp.s
 
 # target to generate assembly for a file
 shared/original/tftables.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/tftables.cpp.s
 .PHONY : shared/original/tftables.cpp.s
 
 shared/original/twofish.o: shared/original/twofish.cpp.o
@@ -327,7 +327,7 @@ shared/original/twofish.o: shared/original/twofish.cpp.o
 
 # target to build an object file
 shared/original/twofish.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.o
 .PHONY : shared/original/twofish.cpp.o
 
 shared/original/twofish.i: shared/original/twofish.cpp.i
@@ -335,7 +335,7 @@ shared/original/twofish.i: shared/original/twofish.cpp.i
 
 # target to preprocess a source file
 shared/original/twofish.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.i
 .PHONY : shared/original/twofish.cpp.i
 
 shared/original/twofish.s: shared/original/twofish.cpp.s
@@ -343,7 +343,7 @@ shared/original/twofish.s: shared/original/twofish.cpp.s
 
 # target to generate assembly for a file
 shared/original/twofish.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/original/twofish.cpp.s
 .PHONY : shared/original/twofish.cpp.s
 
 shared/wrapper/Hash.o: shared/wrapper/Hash.cpp.o
@@ -351,7 +351,7 @@ shared/wrapper/Hash.o: shared/wrapper/Hash.cpp.o
 
 # target to build an object file
 shared/wrapper/Hash.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.o
 .PHONY : shared/wrapper/Hash.cpp.o
 
 shared/wrapper/Hash.i: shared/wrapper/Hash.cpp.i
@@ -359,7 +359,7 @@ shared/wrapper/Hash.i: shared/wrapper/Hash.cpp.i
 
 # target to preprocess a source file
 shared/wrapper/Hash.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.i
 .PHONY : shared/wrapper/Hash.cpp.i
 
 shared/wrapper/Hash.s: shared/wrapper/Hash.cpp.s
@@ -367,7 +367,7 @@ shared/wrapper/Hash.s: shared/wrapper/Hash.cpp.s
 
 # target to generate assembly for a file
 shared/wrapper/Hash.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/Hash.cpp.s
 .PHONY : shared/wrapper/Hash.cpp.s
 
 shared/wrapper/MD5Hash.o: shared/wrapper/MD5Hash.cpp.o
@@ -375,7 +375,7 @@ shared/wrapper/MD5Hash.o: shared/wrapper/MD5Hash.cpp.o
 
 # target to build an object file
 shared/wrapper/MD5Hash.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.o
 .PHONY : shared/wrapper/MD5Hash.cpp.o
 
 shared/wrapper/MD5Hash.i: shared/wrapper/MD5Hash.cpp.i
@@ -383,7 +383,7 @@ shared/wrapper/MD5Hash.i: shared/wrapper/MD5Hash.cpp.i
 
 # target to preprocess a source file
 shared/wrapper/MD5Hash.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.i
 .PHONY : shared/wrapper/MD5Hash.cpp.i
 
 shared/wrapper/MD5Hash.s: shared/wrapper/MD5Hash.cpp.s
@@ -391,7 +391,7 @@ shared/wrapper/MD5Hash.s: shared/wrapper/MD5Hash.cpp.s
 
 # target to generate assembly for a file
 shared/wrapper/MD5Hash.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/MD5Hash.cpp.s
 .PHONY : shared/wrapper/MD5Hash.cpp.s
 
 shared/wrapper/TwofishCrypt.o: shared/wrapper/TwofishCrypt.cpp.o
@@ -399,7 +399,7 @@ shared/wrapper/TwofishCrypt.o: shared/wrapper/TwofishCrypt.cpp.o
 
 # target to build an object file
 shared/wrapper/TwofishCrypt.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.o
 .PHONY : shared/wrapper/TwofishCrypt.cpp.o
 
 shared/wrapper/TwofishCrypt.i: shared/wrapper/TwofishCrypt.cpp.i
@@ -407,7 +407,7 @@ shared/wrapper/TwofishCrypt.i: shared/wrapper/TwofishCrypt.cpp.i
 
 # target to preprocess a source file
 shared/wrapper/TwofishCrypt.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.i
 .PHONY : shared/wrapper/TwofishCrypt.cpp.i
 
 shared/wrapper/TwofishCrypt.s: shared/wrapper/TwofishCrypt.cpp.s
@@ -415,7 +415,7 @@ shared/wrapper/TwofishCrypt.s: shared/wrapper/TwofishCrypt.cpp.s
 
 # target to generate assembly for a file
 shared/wrapper/TwofishCrypt.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishCrypt.cpp.s
 .PHONY : shared/wrapper/TwofishCrypt.cpp.s
 
 shared/wrapper/TwofishDecryptor.o: shared/wrapper/TwofishDecryptor.cpp.o
@@ -423,7 +423,7 @@ shared/wrapper/TwofishDecryptor.o: shared/wrapper/TwofishDecryptor.cpp.o
 
 # target to build an object file
 shared/wrapper/TwofishDecryptor.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.o
 .PHONY : shared/wrapper/TwofishDecryptor.cpp.o
 
 shared/wrapper/TwofishDecryptor.i: shared/wrapper/TwofishDecryptor.cpp.i
@@ -431,7 +431,7 @@ shared/wrapper/TwofishDecryptor.i: shared/wrapper/TwofishDecryptor.cpp.i
 
 # target to preprocess a source file
 shared/wrapper/TwofishDecryptor.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.i
 .PHONY : shared/wrapper/TwofishDecryptor.cpp.i
 
 shared/wrapper/TwofishDecryptor.s: shared/wrapper/TwofishDecryptor.cpp.s
@@ -439,7 +439,7 @@ shared/wrapper/TwofishDecryptor.s: shared/wrapper/TwofishDecryptor.cpp.s
 
 # target to generate assembly for a file
 shared/wrapper/TwofishDecryptor.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishDecryptor.cpp.s
 .PHONY : shared/wrapper/TwofishDecryptor.cpp.s
 
 shared/wrapper/TwofishEncryptor.o: shared/wrapper/TwofishEncryptor.cpp.o
@@ -447,7 +447,7 @@ shared/wrapper/TwofishEncryptor.o: shared/wrapper/TwofishEncryptor.cpp.o
 
 # target to build an object file
 shared/wrapper/TwofishEncryptor.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.o
 .PHONY : shared/wrapper/TwofishEncryptor.cpp.o
 
 shared/wrapper/TwofishEncryptor.i: shared/wrapper/TwofishEncryptor.cpp.i
@@ -455,7 +455,7 @@ shared/wrapper/TwofishEncryptor.i: shared/wrapper/TwofishEncryptor.cpp.i
 
 # target to preprocess a source file
 shared/wrapper/TwofishEncryptor.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.i
 .PHONY : shared/wrapper/TwofishEncryptor.cpp.i
 
 shared/wrapper/TwofishEncryptor.s: shared/wrapper/TwofishEncryptor.cpp.s
@@ -463,7 +463,7 @@ shared/wrapper/TwofishEncryptor.s: shared/wrapper/TwofishEncryptor.cpp.s
 
 # target to generate assembly for a file
 shared/wrapper/TwofishEncryptor.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/crypto/src/CMakeFiles/crypto.dir/build.make external/ours/library/crypto/src/CMakeFiles/crypto.dir/shared/wrapper/TwofishEncryptor.cpp.s
 .PHONY : shared/wrapper/TwofishEncryptor.cpp.s
 
 # Help Target
@@ -528,6 +528,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

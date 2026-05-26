@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/shared/library/sharedIoWin/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles /home/swg/swg-main/build/engine/shared/library/sharedIoWin/src//CMakeFiles/progress.marks
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/clean
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/rule
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/rule
 .PHONY : engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ sharedIoWin: engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/ru
 
 # fast build rule for target.
 sharedIoWin/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build
 .PHONY : sharedIoWin/fast
 
 shared/ConfigSharedIoWin.o: shared/ConfigSharedIoWin.cpp.o
@@ -135,7 +135,7 @@ shared/ConfigSharedIoWin.o: shared/ConfigSharedIoWin.cpp.o
 
 # target to build an object file
 shared/ConfigSharedIoWin.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/ConfigSharedIoWin.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/ConfigSharedIoWin.cpp.o
 .PHONY : shared/ConfigSharedIoWin.cpp.o
 
 shared/ConfigSharedIoWin.i: shared/ConfigSharedIoWin.cpp.i
@@ -143,7 +143,7 @@ shared/ConfigSharedIoWin.i: shared/ConfigSharedIoWin.cpp.i
 
 # target to preprocess a source file
 shared/ConfigSharedIoWin.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/ConfigSharedIoWin.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/ConfigSharedIoWin.cpp.i
 .PHONY : shared/ConfigSharedIoWin.cpp.i
 
 shared/ConfigSharedIoWin.s: shared/ConfigSharedIoWin.cpp.s
@@ -151,7 +151,7 @@ shared/ConfigSharedIoWin.s: shared/ConfigSharedIoWin.cpp.s
 
 # target to generate assembly for a file
 shared/ConfigSharedIoWin.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/ConfigSharedIoWin.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/ConfigSharedIoWin.cpp.s
 .PHONY : shared/ConfigSharedIoWin.cpp.s
 
 shared/IoWin.o: shared/IoWin.cpp.o
@@ -159,7 +159,7 @@ shared/IoWin.o: shared/IoWin.cpp.o
 
 # target to build an object file
 shared/IoWin.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWin.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWin.cpp.o
 .PHONY : shared/IoWin.cpp.o
 
 shared/IoWin.i: shared/IoWin.cpp.i
@@ -167,7 +167,7 @@ shared/IoWin.i: shared/IoWin.cpp.i
 
 # target to preprocess a source file
 shared/IoWin.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWin.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWin.cpp.i
 .PHONY : shared/IoWin.cpp.i
 
 shared/IoWin.s: shared/IoWin.cpp.s
@@ -175,7 +175,7 @@ shared/IoWin.s: shared/IoWin.cpp.s
 
 # target to generate assembly for a file
 shared/IoWin.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWin.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWin.cpp.s
 .PHONY : shared/IoWin.cpp.s
 
 shared/IoWinManager.o: shared/IoWinManager.cpp.o
@@ -183,7 +183,7 @@ shared/IoWinManager.o: shared/IoWinManager.cpp.o
 
 # target to build an object file
 shared/IoWinManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWinManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWinManager.cpp.o
 .PHONY : shared/IoWinManager.cpp.o
 
 shared/IoWinManager.i: shared/IoWinManager.cpp.i
@@ -191,7 +191,7 @@ shared/IoWinManager.i: shared/IoWinManager.cpp.i
 
 # target to preprocess a source file
 shared/IoWinManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWinManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWinManager.cpp.i
 .PHONY : shared/IoWinManager.cpp.i
 
 shared/IoWinManager.s: shared/IoWinManager.cpp.s
@@ -199,7 +199,7 @@ shared/IoWinManager.s: shared/IoWinManager.cpp.s
 
 # target to generate assembly for a file
 shared/IoWinManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWinManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/IoWinManager.cpp.s
 .PHONY : shared/IoWinManager.cpp.s
 
 shared/SetupSharedIoWin.o: shared/SetupSharedIoWin.cpp.o
@@ -207,7 +207,7 @@ shared/SetupSharedIoWin.o: shared/SetupSharedIoWin.cpp.o
 
 # target to build an object file
 shared/SetupSharedIoWin.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/SetupSharedIoWin.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/SetupSharedIoWin.cpp.o
 .PHONY : shared/SetupSharedIoWin.cpp.o
 
 shared/SetupSharedIoWin.i: shared/SetupSharedIoWin.cpp.i
@@ -215,7 +215,7 @@ shared/SetupSharedIoWin.i: shared/SetupSharedIoWin.cpp.i
 
 # target to preprocess a source file
 shared/SetupSharedIoWin.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/SetupSharedIoWin.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/SetupSharedIoWin.cpp.i
 .PHONY : shared/SetupSharedIoWin.cpp.i
 
 shared/SetupSharedIoWin.s: shared/SetupSharedIoWin.cpp.s
@@ -223,7 +223,7 @@ shared/SetupSharedIoWin.s: shared/SetupSharedIoWin.cpp.s
 
 # target to generate assembly for a file
 shared/SetupSharedIoWin.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/SetupSharedIoWin.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/build.make engine/shared/library/sharedIoWin/src/CMakeFiles/sharedIoWin.dir/shared/SetupSharedIoWin.cpp.s
 .PHONY : shared/SetupSharedIoWin.cpp.s
 
 # Help Target
@@ -258,6 +258,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

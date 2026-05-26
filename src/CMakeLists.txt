@@ -35,7 +35,6 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_CXX_EXTENSIONS OFF)
 
 # shame on you cmake for auto-setting optimization flags!
-set(CMAKE_CXX_FLAGS "")
 set(CMAKE_CXX_FLAGS_DEBUG "")
 set(CMAKE_CXX_FLAGS_RELEASE "")
 set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "")
@@ -99,13 +98,14 @@ elseif (UNIX)
         # RELWITHDEBINFO is used for building bins that produce profdata files
 	# we only need the basics of our heavy optimizations here, i think - that and one of these flags
 	# breaks JNI when we profile
-        set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "-Ofast -finline-hint-functions -fprofile-instr-generate")
+        set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "${CMAKE_CXX_FLAGS} -Ofast -finline-hint-functions -fprofile-instr-generate")
 
         # MINSIZEREL is used for profiled, flto builds
         set(CMAKE_CXX_FLAGS_MINSIZEREL "${CMAKE_CXX_FLAGS_RELEASE} -flto -fwhole-program-vtables")
     elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "GNU")
         # O3 and Ofast include one or more flags that cause java to crash when using gcc6
         set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O2 -fno-signed-zeros -freciprocal-math -fno-unroll-loops -fno-tree-loop-optimize -fno-plt")
+        set(CMAKE_CXX_FLAGS_RELWITHDEBINFO "${CMAKE_CXX_FLAGS_RELEASE} -Og")
         set(CMAKE_CXX_FLAGS_DEBUG "${CMAKE_CXX_FLAGS_DEBUG} -Og")
     elseif ("${CMAKE_CXX_COMPILER_ID}" STREQUAL "Intel")
         set(CMAKE_CXX_FLAGS_RELEASE "${CMAKE_CXX_FLAGS_RELEASE} -O3")
@@ -115,10 +115,9 @@ elseif (UNIX)
     set(CMAKE_CXX_FLAGS "-m32 -pipe -march=native -mtune=native \
 		-Wformat -Wno-overloaded-virtual -Wno-missing-braces -Wno-format \
 		-Wno-write-strings -Wno-unknown-pragmas \
-		-Wno-uninitialized -Wno-reorder -Wno-tautological-constant-out-of-range-compare")
+		-Wno-uninitialized -Wno-reorder -Wno-tautological-constant-out-of-range-compare -Wno-stringop-overflow -Wno-address-of-packed-member")
 
-    # if you'd like to opt in to our statistics, remove "-DSTELLA_INTERNAL" and your server will send us a heartbeat at startup
-    add_definitions(-DLINUX -D_REENTRANT -Dlinux -D_USING_STL -D_GNU_SOURCE -D_XOPEN_SOURCE=500 -U_FORTIFY_SOURCE -DSTELLA_INTERNAL)
+    add_definitions(-DLINUX -D_REENTRANT -Dlinux -D_USING_STL -D_GNU_SOURCE -D_XOPEN_SOURCE=500 -U_FORTIFY_SOURCE)
 
     # this is so some profile specific stuff is turned on in the code
     if (${CMAKE_BUILD_TYPE} STREQUAL "RELWITHDEBINFO")

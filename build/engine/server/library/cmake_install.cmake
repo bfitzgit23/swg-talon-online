@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/engine/server/library
+# Install script for directory: /home/swg/swg-main/src/engine/server/library
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,20 +39,20 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverBase/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverDatabase/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverGame/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverKeyShare/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverMetrics/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverNetworkMessages/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverPathfinding/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverScript/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/library/serverUtility/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverBase/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverDatabase/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverGame/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverKeyShare/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverMetrics/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverNetworkMessages/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverPathfinding/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverScript/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/library/serverUtility/cmake_install.cmake")
 
 endif()
 

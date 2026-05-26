@@ -1,5 +1,5 @@
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o: \
- /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/lex_yy.c \
+ /home/swg/swg-main/build/engine/client/application/Miff/src/lex_yy.c \
  /usr/include/stdc-predef.h /usr/include/stdio.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -37,7 +37,7 @@ engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o: \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stdint.h \
  /usr/include/stdint.h /usr/include/bits/wchar.h \
  /usr/include/bits/stdint-uintn.h \
- /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/parser.h \
+ /home/swg/swg-main/build/engine/client/application/Miff/src/parser.h \
  /usr/include/unistd.h /usr/include/bits/posix_opt.h \
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h

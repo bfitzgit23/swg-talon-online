@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/depend.make
@@ -70,214 +70,214 @@ include engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/p
 include engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/CentralServerConnection.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/CentralServerConnection.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/CentralServerConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/CentralServerConnection.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/CentralServerConnection.cpp > CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/CentralServerConnection.cpp > CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/CentralServerConnection.cpp -o CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/CentralServerConnection.cpp -o CMakeFiles/PlanetServer.dir/shared/CentralServerConnection.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConfigPlanetServer.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConfigPlanetServer.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConfigPlanetServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConfigPlanetServer.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConfigPlanetServer.cpp > CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConfigPlanetServer.cpp > CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConfigPlanetServer.cpp -o CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConfigPlanetServer.cpp -o CMakeFiles/PlanetServer.dir/shared/ConfigPlanetServer.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConsoleManager.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConsoleManager.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConsoleManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConsoleManager.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConsoleManager.cpp > CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConsoleManager.cpp > CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConsoleManager.cpp -o CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConsoleManager.cpp -o CMakeFiles/PlanetServer.dir/shared/ConsoleManager.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConsoleCommandParser.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConsoleCommandParser.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConsoleCommandParser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConsoleCommandParser.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConsoleCommandParser.cpp > CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConsoleCommandParser.cpp > CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/ConsoleCommandParser.cpp -o CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/ConsoleCommandParser.cpp -o CMakeFiles/PlanetServer.dir/shared/ConsoleCommandParser.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/GameServerConnection.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/GameServerConnection.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/GameServerConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/GameServerConnection.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/GameServerConnection.cpp > CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/GameServerConnection.cpp > CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/GameServerConnection.cpp -o CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/GameServerConnection.cpp -o CMakeFiles/PlanetServer.dir/shared/GameServerConnection.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/GameServerData.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/GameServerData.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/GameServerData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/GameServerData.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/GameServerData.cpp > CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/GameServerData.cpp > CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/GameServerData.cpp -o CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/GameServerData.cpp -o CMakeFiles/PlanetServer.dir/shared/GameServerData.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetProxyObject.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetProxyObject.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetProxyObject.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetProxyObject.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetProxyObject.cpp > CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetProxyObject.cpp > CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetProxyObject.cpp -o CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetProxyObject.cpp -o CMakeFiles/PlanetServer.dir/shared/PlanetProxyObject.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetServer.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetServer.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetServer.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetServer.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetServer.cpp > CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetServer.cpp > CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetServer.cpp -o CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetServer.cpp -o CMakeFiles/PlanetServer.dir/shared/PlanetServer.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetServerMetricsData.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetServerMetricsData.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetServerMetricsData.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetServerMetricsData.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetServerMetricsData.cpp > CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetServerMetricsData.cpp > CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PlanetServerMetricsData.cpp -o CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PlanetServerMetricsData.cpp -o CMakeFiles/PlanetServer.dir/shared/PlanetServerMetricsData.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PreloadManager.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PreloadManager.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PreloadManager.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PreloadManager.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PreloadManager.cpp > CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PreloadManager.cpp > CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/PreloadManager.cpp -o CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/PreloadManager.cpp -o CMakeFiles/PlanetServer.dir/shared/PreloadManager.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/QuadtreeNode.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/QuadtreeNode.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/QuadtreeNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/QuadtreeNode.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/QuadtreeNode.cpp > CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/QuadtreeNode.cpp > CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/QuadtreeNode.cpp -o CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/QuadtreeNode.cpp -o CMakeFiles/PlanetServer.dir/shared/QuadtreeNode.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/Scene.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/Scene.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/Scene.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/Scene.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/Scene.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/Scene.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/Scene.cpp > CMakeFiles/PlanetServer.dir/shared/Scene.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/Scene.cpp > CMakeFiles/PlanetServer.dir/shared/Scene.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/Scene.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/Scene.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/Scene.cpp -o CMakeFiles/PlanetServer.dir/shared/Scene.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/Scene.cpp -o CMakeFiles/PlanetServer.dir/shared/Scene.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/TaskConnection.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/TaskConnection.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/TaskConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/TaskConnection.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/TaskConnection.cpp > CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/TaskConnection.cpp > CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/TaskConnection.cpp -o CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/TaskConnection.cpp -o CMakeFiles/PlanetServer.dir/shared/TaskConnection.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/WatcherConnection.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/WatcherConnection.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/WatcherConnection.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o -MF CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o.d -o CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/WatcherConnection.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/WatcherConnection.cpp > CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/WatcherConnection.cpp > CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/shared/WatcherConnection.cpp -o CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/shared/WatcherConnection.cpp -o CMakeFiles/PlanetServer.dir/shared/WatcherConnection.cpp.s
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/flags.make
-engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.o: /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/linux/main.cpp
+engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.o: /home/swg/swg-main/src/engine/server/application/PlanetServer/src/linux/main.cpp
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.o: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.o -MF CMakeFiles/PlanetServer.dir/linux/main.cpp.o.d -o CMakeFiles/PlanetServer.dir/linux/main.cpp.o -c /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/linux/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Building CXX object engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.o"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.o -MF CMakeFiles/PlanetServer.dir/linux/main.cpp.o.d -o CMakeFiles/PlanetServer.dir/linux/main.cpp.o -c /home/swg/swg-main/src/engine/server/application/PlanetServer/src/linux/main.cpp
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/PlanetServer.dir/linux/main.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/linux/main.cpp > CMakeFiles/PlanetServer.dir/linux/main.cpp.i
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/server/application/PlanetServer/src/linux/main.cpp > CMakeFiles/PlanetServer.dir/linux/main.cpp.i
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/linux/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/PlanetServer.dir/linux/main.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src/linux/main.cpp -o CMakeFiles/PlanetServer.dir/linux/main.cpp.s
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/server/application/PlanetServer/src/linux/main.cpp -o CMakeFiles/PlanetServer.dir/linux/main.cpp.s
 
 # Object files for target PlanetServer
 PlanetServer_OBJECTS = \
@@ -366,18 +366,18 @@ bin/PlanetServer: external/ours/library/localizationArchive/src/liblocalizationA
 bin/PlanetServer: external/ours/library/unicode/src/libunicode.a
 bin/PlanetServer: external/ours/library/unicodeArchive/src/libunicodeArchive.a
 bin/PlanetServer: engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ../../../../../bin/PlanetServer"
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PlanetServer.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Linking CXX executable ../../../../../bin/PlanetServer"
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/PlanetServer.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/build: bin/PlanetServer
 .PHONY : engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/build
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src && $(CMAKE_COMMAND) -P CMakeFiles/PlanetServer.dir/cmake_clean.cmake
+	cd /home/swg/swg-main/build/engine/server/application/PlanetServer/src && $(CMAKE_COMMAND) -P CMakeFiles/PlanetServer.dir/cmake_clean.cmake
 .PHONY : engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/clean
 
 engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/server/application/PlanetServer/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src /home/almalinux/swg-talon-online/build/engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg/swg-main/src /home/swg/swg-main/src/engine/server/application/PlanetServer/src /home/swg/swg-main/build /home/swg/swg-main/build/engine/server/application/PlanetServer/src /home/swg/swg-main/build/engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/server/application/PlanetServer/src/CMakeFiles/PlanetServer.dir/depend
 

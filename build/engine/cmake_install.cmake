@@ -1,4 +1,4 @@
-# Install script for directory: /home/almalinux/swg-talon-online/src/engine
+# Install script for directory: /home/swg/swg-main/src/engine
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 # Set default install directory permissions.
 if(NOT DEFINED CMAKE_OBJDUMP)
-  set(CMAKE_OBJDUMP "/bin/objdump")
+  set(CMAKE_OBJDUMP "/usr/bin/objdump")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/almalinux/swg-talon-online/build/engine/client/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/server/cmake_install.cmake")
-  include("/home/almalinux/swg-talon-online/build/engine/shared/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/client/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/server/cmake_install.cmake")
+  include("/home/swg/swg-main/build/engine/shared/cmake_install.cmake")
 
 endif()
 

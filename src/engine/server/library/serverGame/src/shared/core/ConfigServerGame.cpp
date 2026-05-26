@@ -77,7 +77,7 @@ void ConfigServerGame::install(void)
 	KEY_BOOL    (disableCombat, false);
 	KEY_STRING  (combatConfigFile, "combat.cfg");
 	KEY_FLOAT   (combatDamageDelaySeconds,  0.0);
-	KEY_INT     (triggerVolumeSystem, 0);
+	KEY_INT     (triggerVolumeSystem, 2);
 	KEY_INT     (defaultAutoExpireTargetDuration, 6);
 	KEY_FLOAT   (interiorTargetDurationFactor, 1.0);
 	KEY_INT     (minPoolValue,  -100);
@@ -170,6 +170,9 @@ void ConfigServerGame::install(void)
 	KEY_STRING  (defaultVendorItemRestrictionFile, "datatables/commodity/vendor_item_restriction_default.iff");
 	KEY_STRING  (defaultVendorItemRestrictionRejectionMessage, "@ui_auc:reject_restricted_item");
 	KEY_INT     (weatherUpdateSeconds, 15*60);
+	KEY_INT		(entertainerCaptchaPercent, 40);
+	data->entertainerCaptchaPercent = std::max(0, std::min(100, data->entertainerCaptchaPercent));
+
 	KEY_STRING  (instrumentDataTableFilename, "datatables/tangible/instrument_datatable.iff");
 	KEY_STRING  (performanceDataTableFilename, "datatables/performance/performance.iff");
 	KEY_INT     (createQueueScheduleTime, 75);
@@ -329,9 +332,7 @@ void ConfigServerGame::install(void)
 	KEY_BOOL    (enableNewVeteranRewards, true);
 	KEY_FLOAT   (buddyPointTimeBonus, 30.0f/4.0f); // 4 buddy points = 30 days
 
-#ifdef _DEBUG
 	KEY_FLOAT   (manufactureTimeOverride, 0.0f);
-#endif
 
 	KEY_INT     (theaterCreationLimitMilliseconds, 25);
 	KEY_BOOL    (fatalOnGoldPobChange, false);
@@ -492,6 +493,8 @@ void ConfigServerGame::install(void)
 	KEY_BOOL    (useOldSuidGenerator, false);
 
 	KEY_STRING  (serverLoadLevel, "heavy");
+
+	KEY_INT     (maxHousingLots, 10);
 
 	if (data->baseDecayRate <= 1.0f)
 		data->baseDecayRate = 1.0f;

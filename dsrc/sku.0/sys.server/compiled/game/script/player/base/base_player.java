@@ -1378,56 +1378,6 @@ public class base_player extends script.base_script
                 }
             }
         }
-        if (getName(self).equalsIgnoreCase("Jess Tortie"))
-        {
-            final String arrivalMsg = "\\#FFD700Jess Tortie has arrived. The galaxy just got a little more interesting.\\#FFFFFF";
-            sendSystemMessageGalaxyTestingOnly("Jess Tortie has arrived. The galaxy just got a little more interesting.");
-            obj_id[] nearbyPlayers = getAllPlayers(getLocation(self), 999999.0f);
-            if (nearbyPlayers != null)
-            {
-                for (obj_id p : nearbyPlayers)
-                {
-                    if (isIdValid(p) && !p.equals(self))
-                        sendSystemMessage(p, arrivalMsg, null);
-                }
-            }
-            sendSystemMessage(self, arrivalMsg, null);
-        }
-        {
-            int nowTs = getCalendarTime();
-            int lastLoginTs = hasObjVar(self, "cx.streak.lastLogin") ? getIntObjVar(self, "cx.streak.lastLogin") : 0;
-            int streak = hasObjVar(self, "cx.streak.count") ? getIntObjVar(self, "cx.streak.count") : 0;
-            if (lastLoginTs > 0)
-            {
-                int daysSinceLast = (nowTs - lastLoginTs) / 86400;
-                if (daysSinceLast == 1)
-                    streak++;
-                else if (daysSinceLast > 1)
-                    streak = 1;
-            }
-            else
-            {
-                streak = 1;
-            }
-            setObjVar(self, "cx.streak.lastLogin", nowTs);
-            setObjVar(self, "cx.streak.count", streak);
-            String streakMsg = "\\#AAAAAA[Login Streak] \\#FFD700" + streak + (streak == 1 ? " day" : " days") + "\\#FFFFFF in a row!";
-            sendSystemMessage(self, streakMsg, null);
-            if (streak == 3 || streak == 7 || streak == 14 || streak == 30)
-            {
-                String milestone = "\\#FFD700" + getName(self) + "\\#FFFFFF has logged in for \\#00FF00" + streak + " days\\#FFFFFF in a row!";
-                obj_id[] streakAudience = getAllPlayers(getLocation(self), 999999.0f);
-                if (streakAudience != null)
-                {
-                    for (obj_id sa : streakAudience)
-                    {
-                        if (isIdValid(sa) && !sa.equals(self)) sendSystemMessage(sa, milestone, null);
-                    }
-                }
-                sendSystemMessage(self, milestone, null);
-            }
-        }
-        messageTo(self, "showLoginMOTD", null, 5.0f, false);
         removeObjVar(self, "noTrade");
         if (hasObjVar(self, "comingFromTutorial"))
         {
@@ -12519,41 +12469,6 @@ public class base_player extends script.base_script
         location loc = getWaypointLocation(waypoint);
         sendSystemMessageTestingOnly(self, "Teleporting you to the location of Waypoint: "+getWaypointName(waypoint)+" ("+waypoint+") at "+loc+"...");
         warpPlayer(self, loc.area, loc.x, loc.y, loc.z, loc.cell, 0, 0, 0, "noHandler", false);
-        return SCRIPT_CONTINUE;
-    }
-
-    public int showLoginMOTD(obj_id self, dictionary params) throws InterruptedException
-    {
-        String title = "SWG Talon - Server News";
-        String body =
-            "\\#FFD700== PATCH NOTES ==\\#FFFFFF\n" +
-            "\n" +
-            "\\#00FF00[NEW]\\#FFFFFF Custom server framework (CxsperCore) is live.\n" +
-            "\\#00FF00[NEW]\\#FFFFFF VIP chat display names with custom colours now supported.\n" +
-            "\\#00FF00[NEW]\\#FFFFFF Rainbow chat name support added.\n" +
-            "\\#00FF00[NEW]\\#FFFFFF Galaxy-wide arrival announcements for notable players.\n" +
-            "\\#00FF00[NEW]\\#FFFFFF PvP kill announcements now broadcast to nearby players.\n" +
-            "\\#00FF00[NEW]\\#FFFFFF Daily login streak tracker — log in every day to build your streak!\n" +
-            "\n" +
-            "\\#FFD700== COMING SOON ==\\#FFFFFF\n" +
-            "\n" +
-            "\\#FFAA00[WIP]\\#FFFFFF PvP Arena - open world ranked combat zone.\n" +
-            "\\#FFAA00[WIP]\\#FFFFFF Custom crafting overhaul.\n" +
-            "\\#FFAA00[WIP]\\#FFFFFF Player-run economy events.\n" +
-            "\n" +
-            "\\#AAAAAA== SERVER INFO ==\\#FFFFFF\n" +
-            "\n" +
-            "Developer:           \\#FFD700cxsperdev\\#FFFFFF\n" +
-            "Discord:             \\#00CCFFhttps://discord.gg/bZgh9bZbTy\\#FFFFFF\n" +
-            "\n" +
-            "\\#FF4444Thank you for playing. May the Force be with you.\\#FFFFFF";
-
-        int pid = sui.msgbox(self, self, body, sui.OK_ONLY, title, sui.MSG_NORMAL, "noHandler");
-        if (pid > 0)
-        {
-            sui.setSizeProperty(pid, 600, 580);
-            sui.setLocationProperty(pid, 626, 165);
-        }
         return SCRIPT_CONTINUE;
     }
 }

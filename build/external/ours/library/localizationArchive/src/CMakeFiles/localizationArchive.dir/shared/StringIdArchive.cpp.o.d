@@ -1,10 +1,10 @@
 external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir/shared/StringIdArchive.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp \
+ /home/swg/swg-main/src/external/ours/library/localizationArchive/src/shared/StringIdArchive.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/include/public/localizationArchive/FirstLocalizationArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/include/public/../../src/shared/FirstLocalizationArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/swg/swg-main/src/external/ours/library/localizationArchive/include/public/localizationArchive/FirstLocalizationArchive.h \
+ /home/swg/swg-main/src/external/ours/library/localizationArchive/include/public/../../src/shared/FirstLocalizationArchive.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/Unicode.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -109,9 +109,9 @@ external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir
  /usr/include/c++/8/optional \
  /usr/include/c++/8/bits/enable_special_members.h \
  /usr/include/c++/8/bits/unordered_map.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/Archive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/Archive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/Archive.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/Archive.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
@@ -121,9 +121,9 @@ external/ours/library/localizationArchive/src/CMakeFiles/localizationArchive.dir
  /usr/include/c++/8/deque /usr/include/c++/8/bits/stl_deque.h \
  /usr/include/c++/8/bits/deque.tcc /usr/include/c++/8/set \
  /usr/include/c++/8/bits/stl_set.h /usr/include/c++/8/bits/stl_multiset.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/include/public/localizationArchive/StringIdArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/localizationArchive/include/public/../../src/shared/StringIdArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/localization/include/StringId.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/localization/include/../src/shared/StringId.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/ByteStream.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h
+ /home/swg/swg-main/src/external/ours/library/localizationArchive/include/public/localizationArchive/StringIdArchive.h \
+ /home/swg/swg-main/src/external/ours/library/localizationArchive/include/public/../../src/shared/StringIdArchive.h \
+ /home/swg/swg-main/src/external/ours/library/localization/include/StringId.h \
+ /home/swg/swg-main/src/external/ours/library/localization/include/../src/shared/StringId.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/ByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h

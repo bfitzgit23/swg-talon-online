@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/external/ours/library/localization/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles /home/swg/swg-main/build/external/ours/library/localization/src//CMakeFiles/progress.marks
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/clean
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 external/ours/library/localization/src/CMakeFiles/localization.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/CMakeFiles/localization.dir/rule
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 external/ours/library/localization/src/CMakeFiles/localization.dir/rule
 .PHONY : external/ours/library/localization/src/CMakeFiles/localization.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ localization: external/ours/library/localization/src/CMakeFiles/localization.dir
 
 # fast build rule for target.
 localization/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/build
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/build
 .PHONY : localization/fast
 
 shared/LocalizationManager.o: shared/LocalizationManager.cpp.o
@@ -135,7 +135,7 @@ shared/LocalizationManager.o: shared/LocalizationManager.cpp.o
 
 # target to build an object file
 shared/LocalizationManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o
 .PHONY : shared/LocalizationManager.cpp.o
 
 shared/LocalizationManager.i: shared/LocalizationManager.cpp.i
@@ -143,7 +143,7 @@ shared/LocalizationManager.i: shared/LocalizationManager.cpp.i
 
 # target to preprocess a source file
 shared/LocalizationManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.i
 .PHONY : shared/LocalizationManager.cpp.i
 
 shared/LocalizationManager.s: shared/LocalizationManager.cpp.s
@@ -151,7 +151,7 @@ shared/LocalizationManager.s: shared/LocalizationManager.cpp.s
 
 # target to generate assembly for a file
 shared/LocalizationManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.s
 .PHONY : shared/LocalizationManager.cpp.s
 
 shared/LocalizedString.o: shared/LocalizedString.cpp.o
@@ -159,7 +159,7 @@ shared/LocalizedString.o: shared/LocalizedString.cpp.o
 
 # target to build an object file
 shared/LocalizedString.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o
 .PHONY : shared/LocalizedString.cpp.o
 
 shared/LocalizedString.i: shared/LocalizedString.cpp.i
@@ -167,7 +167,7 @@ shared/LocalizedString.i: shared/LocalizedString.cpp.i
 
 # target to preprocess a source file
 shared/LocalizedString.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.i
 .PHONY : shared/LocalizedString.cpp.i
 
 shared/LocalizedString.s: shared/LocalizedString.cpp.s
@@ -175,7 +175,7 @@ shared/LocalizedString.s: shared/LocalizedString.cpp.s
 
 # target to generate assembly for a file
 shared/LocalizedString.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.s
 .PHONY : shared/LocalizedString.cpp.s
 
 shared/LocalizedStringTable.o: shared/LocalizedStringTable.cpp.o
@@ -183,7 +183,7 @@ shared/LocalizedStringTable.o: shared/LocalizedStringTable.cpp.o
 
 # target to build an object file
 shared/LocalizedStringTable.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o
 .PHONY : shared/LocalizedStringTable.cpp.o
 
 shared/LocalizedStringTable.i: shared/LocalizedStringTable.cpp.i
@@ -191,7 +191,7 @@ shared/LocalizedStringTable.i: shared/LocalizedStringTable.cpp.i
 
 # target to preprocess a source file
 shared/LocalizedStringTable.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.i
 .PHONY : shared/LocalizedStringTable.cpp.i
 
 shared/LocalizedStringTable.s: shared/LocalizedStringTable.cpp.s
@@ -199,7 +199,7 @@ shared/LocalizedStringTable.s: shared/LocalizedStringTable.cpp.s
 
 # target to generate assembly for a file
 shared/LocalizedStringTable.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.s
 .PHONY : shared/LocalizedStringTable.cpp.s
 
 shared/LocalizedStringTableReaderWriter.o: shared/LocalizedStringTableReaderWriter.cpp.o
@@ -207,7 +207,7 @@ shared/LocalizedStringTableReaderWriter.o: shared/LocalizedStringTableReaderWrit
 
 # target to build an object file
 shared/LocalizedStringTableReaderWriter.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o
 .PHONY : shared/LocalizedStringTableReaderWriter.cpp.o
 
 shared/LocalizedStringTableReaderWriter.i: shared/LocalizedStringTableReaderWriter.cpp.i
@@ -215,7 +215,7 @@ shared/LocalizedStringTableReaderWriter.i: shared/LocalizedStringTableReaderWrit
 
 # target to preprocess a source file
 shared/LocalizedStringTableReaderWriter.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.i
 .PHONY : shared/LocalizedStringTableReaderWriter.cpp.i
 
 shared/LocalizedStringTableReaderWriter.s: shared/LocalizedStringTableReaderWriter.cpp.s
@@ -223,7 +223,7 @@ shared/LocalizedStringTableReaderWriter.s: shared/LocalizedStringTableReaderWrit
 
 # target to generate assembly for a file
 shared/LocalizedStringTableReaderWriter.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.s
 .PHONY : shared/LocalizedStringTableReaderWriter.cpp.s
 
 shared/StringId.o: shared/StringId.cpp.o
@@ -231,7 +231,7 @@ shared/StringId.o: shared/StringId.cpp.o
 
 # target to build an object file
 shared/StringId.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o
 .PHONY : shared/StringId.cpp.o
 
 shared/StringId.i: shared/StringId.cpp.i
@@ -239,7 +239,7 @@ shared/StringId.i: shared/StringId.cpp.i
 
 # target to preprocess a source file
 shared/StringId.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.i
 .PHONY : shared/StringId.cpp.i
 
 shared/StringId.s: shared/StringId.cpp.s
@@ -247,7 +247,7 @@ shared/StringId.s: shared/StringId.cpp.s
 
 # target to generate assembly for a file
 shared/StringId.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f external/ours/library/localization/src/CMakeFiles/localization.dir/build.make external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.s
 .PHONY : shared/StringId.cpp.s
 
 # Help Target
@@ -285,6 +285,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

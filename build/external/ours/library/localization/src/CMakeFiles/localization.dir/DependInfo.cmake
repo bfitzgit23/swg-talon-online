@@ -8,11 +8,11 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizationManager.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedString.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/external/ours/library/localization/src/shared/StringId.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o.d"
+  "/home/swg/swg-main/src/external/ours/library/localization/src/shared/LocalizationManager.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizationManager.cpp.o.d"
+  "/home/swg/swg-main/src/external/ours/library/localization/src/shared/LocalizedString.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedString.cpp.o.d"
+  "/home/swg/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTable.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTable.cpp.o.d"
+  "/home/swg/swg-main/src/external/ours/library/localization/src/shared/LocalizedStringTableReaderWriter.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/LocalizedStringTableReaderWriter.cpp.o.d"
+  "/home/swg/swg-main/src/external/ours/library/localization/src/shared/StringId.cpp" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o" "gcc" "external/ours/library/localization/src/CMakeFiles/localization.dir/shared/StringId.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

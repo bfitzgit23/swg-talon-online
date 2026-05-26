@@ -1,12 +1,12 @@
 engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatServerRoomOwner.cpp.o: \
- /home/almalinux/swg-talon-online/src/engine/server/application/ChatServer/src/shared/ChatServerRoomOwner.cpp \
+ /home/swg/swg-main/src/engine/server/application/ChatServer/src/shared/ChatServerRoomOwner.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/ChatServer/src/shared/FirstChatServer.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
+ /home/swg/swg-main/src/engine/server/application/ChatServer/src/shared/FirstChatServer.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstSharedFoundation.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FirstSharedFoundation.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/sharedFoundationTypes/FoundationTypes.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/FoundationTypes.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundationTypes/include/public/../../src/shared/../linux/FoundationTypesLinux.h \
  /usr/include/c++/8/cstdio \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -24,8 +24,8 @@ engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatSe
  /usr/include/bits/types/cookie_io_functions_t.h \
  /usr/include/bits/stdio_lim.h /usr/include/bits/sys_errlist.h \
  /usr/include/bits/stdio.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FirstPlatform.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/FirstPlatform.h \
  /usr/include/c++/8/cstdlib /usr/include/stdlib.h \
  /usr/include/bits/waitflags.h /usr/include/bits/waitstatus.h \
  /usr/include/bits/floatn.h /usr/include/bits/floatn-common.h \
@@ -87,8 +87,8 @@ engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatSe
  /usr/include/string.h /usr/include/strings.h /usr/include/wchar.h \
  /usr/include/bits/wchar.h /usr/include/bits/types/wint_t.h \
  /usr/include/bits/types/mbstate_t.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/PlatformGlue.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/linux/PlatformGlue.h \
  /usr/include/netinet/in.h /usr/include/bits/stdint-uintn.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \
@@ -115,14 +115,14 @@ engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatSe
  /usr/include/bits/statx-generic.h \
  /usr/include/bits/types/struct_statx_timestamp.h \
  /usr/include/bits/types/struct_statx.h /usr/include/c++/8/cfloat \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/MacroFoundation.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/MacroFoundation.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Binary.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Binary.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Fatal.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Fatal.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/StlForwardDeclaration.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/StlForwardDeclaration.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/allocator.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++allocator.h \
  /usr/include/c++/8/ext/new_allocator.h /usr/include/c++/8/new \
@@ -180,35 +180,35 @@ engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatSe
  /usr/include/c++/8/bits/stl_heap.h /usr/include/c++/8/bits/stl_queue.h \
  /usr/include/c++/8/list /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h /usr/include/c++/8/bits/list.tcc \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/ByteStream.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkId.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkId.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/Connection.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/Connection.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/NetworkHandler.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/NetworkHandler.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Watcher.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Watcher.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAPI.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatEnum.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeUtils.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Archive.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Misc.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Misc.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/RemoteDebug.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/RemoteDebug.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedDebug/include/public/sharedDebug/Report.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedDebug/include/public/../../src/shared/Report.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/FloatMath.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/FloatMath.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/SafeCast.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/SafeCast.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/ByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/include/Archive/../../src/shared/ByteStream.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/NetworkId.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/NetworkId.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/Connection.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/Connection.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedNetwork/include/public/sharedNetwork/NetworkHandler.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedNetwork/include/public/../../src/shared/NetworkHandler.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/sharedFoundation/Watcher.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedFoundation/include/public/../../src/shared/Watcher.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAPI.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatEnum.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeUtils.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Archive.h \
  /usr/include/assert.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
  /usr/include/sys/errno.h /usr/include/resolv.h /usr/include/sys/param.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/limits.h \
  /usr/lib/gcc/x86_64-redhat-linux/8/include/syslimits.h \
@@ -231,28 +231,28 @@ engine/server/application/ChatServer/src/CMakeFiles/ChatServer.dir/shared/ChatSe
  /usr/include/asm-generic/param.h /usr/include/arpa/nameser.h \
  /usr/include/arpa/nameser_compat.h /usr/include/bits/types/res_state.h \
  /usr/include/c++/8/stdlib.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Types.h \
  /usr/include/sys/bitypes.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Archive.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/ChatServer/src/shared/ChatServerRoomOwner.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoom.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ChatRoomData.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/chat/ChatRoomData.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ChatAvatarId.h \
- /home/almalinux/swg-talon-online/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/chat/ChatAvatarId.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/UnicodeArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicodeArchive/include/public/../../src/shared/UnicodeArchive.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/ChatServer/src/shared/ChatInterface.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/ChatServer/src/shared/ChatServerAvatarOwner.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAvatar.h \
- /home/almalinux/swg-talon-online/src/engine/server/application/ChatServer/src/shared/ChatServer.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/UnicodeUtils.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/Mutex.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Mutex.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Platform.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Base/linux/Archive.h \
+ /home/swg/swg-main/src/engine/server/application/ChatServer/src/shared/ChatServerRoomOwner.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatRoom.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ChatRoomData.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/chat/ChatRoomData.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/sharedNetworkMessages/ChatAvatarId.h \
+ /home/swg/swg-main/src/engine/shared/library/sharedNetworkMessages/include/public/../../src/shared/chat/ChatAvatarId.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/Unicode.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/include/public/unicodeArchive/UnicodeArchive.h \
+ /home/swg/swg-main/src/external/ours/library/unicodeArchive/include/public/../../src/shared/UnicodeArchive.h \
+ /home/swg/swg-main/src/engine/server/application/ChatServer/src/shared/ChatInterface.h \
+ /home/swg/swg-main/src/engine/server/application/ChatServer/src/shared/ChatServerAvatarOwner.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/projects/ChatAPI/ChatAvatar.h \
+ /home/swg/swg-main/src/engine/server/application/ChatServer/src/shared/ChatServer.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/UnicodeUtils.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/UnicodeUtils.h \
  /usr/include/c++/8/cstring \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/unicode/include/../src/shared/utf8.h
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/Unicode.h \
+ /home/swg/swg-main/src/external/ours/library/unicode/include/../src/shared/utf8.h

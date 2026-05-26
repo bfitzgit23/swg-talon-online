@@ -1,8 +1,8 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/Unicode/UnicodeCharacterDataMap.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeCharacterDataMap.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeCharacterDataMap.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/FirstUnicode.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeCharacterDataMap.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/FirstUnicode.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeCharacterDataMap.h \
  /usr/include/c++/8/map /usr/include/c++/8/bits/stl_tree.h \
  /usr/include/c++/8/bits/stl_algobase.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
@@ -108,11 +108,11 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/c++/8/bits/invoke.h /usr/include/c++/8/bits/stl_multimap.h \
  /usr/include/c++/8/set /usr/include/c++/8/bits/stl_set.h \
  /usr/include/c++/8/bits/stl_multiset.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeBlocks.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeBlocks.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/Unicode.h \
  /usr/include/c++/8/vector /usr/include/c++/8/bits/stl_construct.h \
  /usr/include/c++/8/bits/stl_uninitialized.h \
  /usr/include/c++/8/bits/stl_vector.h \
  /usr/include/c++/8/bits/stl_bvector.h /usr/include/c++/8/bits/vector.tcc \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeCharacterData.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/Unicode/UnicodeCharacterData.h \
  /usr/include/c++/8/cassert /usr/include/assert.h

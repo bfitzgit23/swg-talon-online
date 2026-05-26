@@ -1,5 +1,5 @@
 external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.dir/__/__/utils/UdpLibrary/UdpMisc.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpMisc.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpMisc.cpp \
  /usr/include/stdc-predef.h /usr/include/string.h \
  /usr/include/bits/libc-header-start.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
@@ -8,7 +8,7 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpMisc.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpMisc.h \
  /usr/include/c++/8/stdlib.h /usr/include/c++/8/cstdlib \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -30,9 +30,9 @@ external/3rd/library/soePlatform/ChatAPI/projects/ChatMono/CMakeFiles/ChatMono.d
  /usr/include/bits/pthreadtypes-arch.h /usr/include/alloca.h \
  /usr/include/bits/stdlib-bsearch.h /usr/include/bits/stdlib-float.h \
  /usr/include/c++/8/bits/std_abs.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpDriver.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpTypes.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpDriver.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpTypes.h \
  /usr/include/assert.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLogicalPacket.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHandler.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLinkedList.h
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLogicalPacket.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpHandler.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/ChatAPI/utils/UdpLibrary/UdpLinkedList.h

@@ -1,5 +1,5 @@
 external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.cpp \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/UdpLibrary.cpp \
  /usr/include/stdc-predef.h /usr/include/assert.h /usr/include/features.h \
  /usr/include/sys/cdefs.h /usr/include/bits/wordsize.h \
  /usr/include/bits/long-double.h /usr/include/gnu/stubs.h \
@@ -122,10 +122,10 @@ external/3rd/library/udplibrary/CMakeFiles/udplibrary.dir/UdpLibrary.cpp.o: \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/basic_file.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++io.h \
  /usr/include/c++/8/bits/fstream.tcc \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpLibrary.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/UdpHandler.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/priority.hpp \
- /home/almalinux/swg-talon-online/src/external/3rd/library/udplibrary/hashtable.hpp \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/UdpLibrary.hpp \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/UdpHandler.hpp \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/priority.hpp \
+ /home/swg/swg-main/src/external/3rd/library/udplibrary/hashtable.hpp \
  /usr/include/memory.h /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/sys/socket.h /usr/include/bits/types/struct_iovec.h \
  /usr/include/bits/socket.h /usr/include/bits/socket_type.h \

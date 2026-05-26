@@ -1,9 +1,9 @@
 external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.dir/TcpLibrary/TcpManager.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpManager.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpManager.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpManager.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpHandlers.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpBlockAllocator.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpManager.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpHandlers.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpBlockAllocator.h \
  /usr/include/string.h /usr/include/bits/libc-header-start.h \
  /usr/include/features.h /usr/include/sys/cdefs.h \
  /usr/include/bits/wordsize.h /usr/include/bits/long-double.h \
@@ -11,8 +11,8 @@ external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.di
  /usr/lib/gcc/x86_64-redhat-linux/8/include/stddef.h \
  /usr/include/bits/types/locale_t.h /usr/include/bits/types/__locale_t.h \
  /usr/include/strings.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/IPAddress.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/Clock.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/IPAddress.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/Clock.h \
  /usr/include/arpa/inet.h /usr/include/netinet/in.h \
  /usr/include/bits/stdint-uintn.h /usr/include/bits/types.h \
  /usr/include/bits/typesizes.h /usr/include/sys/socket.h \
@@ -44,5 +44,5 @@ external/3rd/library/soePlatform/CTServiceGameAPI/CMakeFiles/CTServiceGameAPI.di
  /usr/include/bits/environments.h /usr/include/bits/confname.h \
  /usr/include/bits/getopt_posix.h /usr/include/bits/getopt_core.h \
  /usr/include/assert.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpConnection.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CTServiceGameAPI/TcpLibrary/TcpConnection.h \
  /usr/include/sys/poll.h /usr/include/bits/poll.h

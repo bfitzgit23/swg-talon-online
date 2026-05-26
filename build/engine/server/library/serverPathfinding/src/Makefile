@@ -57,10 +57,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -87,14 +87,14 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles /home/almalinux/swg-talon-online/build/engine/server/library/serverPathfinding/src//CMakeFiles/progress.marks
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/almalinux/swg-talon-online/build/CMakeFiles 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles /home/swg/swg-main/build/engine/server/library/serverPathfinding/src//CMakeFiles/progress.marks
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/swg/swg-main/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/clean
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/clean
 .PHONY : clean
 
 # The main clean target
@@ -103,22 +103,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/preinstall
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/rule:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/rule
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/rule
 .PHONY : engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/rule
 
 # Convenience name for target.
@@ -127,7 +127,7 @@ serverPathfinding: engine/server/library/serverPathfinding/src/CMakeFiles/server
 
 # fast build rule for target.
 serverPathfinding/fast:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build
 .PHONY : serverPathfinding/fast
 
 shared/CityPathGraph.o: shared/CityPathGraph.cpp.o
@@ -135,7 +135,7 @@ shared/CityPathGraph.o: shared/CityPathGraph.cpp.o
 
 # target to build an object file
 shared/CityPathGraph.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraph.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraph.cpp.o
 .PHONY : shared/CityPathGraph.cpp.o
 
 shared/CityPathGraph.i: shared/CityPathGraph.cpp.i
@@ -143,7 +143,7 @@ shared/CityPathGraph.i: shared/CityPathGraph.cpp.i
 
 # target to preprocess a source file
 shared/CityPathGraph.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraph.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraph.cpp.i
 .PHONY : shared/CityPathGraph.cpp.i
 
 shared/CityPathGraph.s: shared/CityPathGraph.cpp.s
@@ -151,7 +151,7 @@ shared/CityPathGraph.s: shared/CityPathGraph.cpp.s
 
 # target to generate assembly for a file
 shared/CityPathGraph.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraph.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraph.cpp.s
 .PHONY : shared/CityPathGraph.cpp.s
 
 shared/CityPathGraphManager.o: shared/CityPathGraphManager.cpp.o
@@ -159,7 +159,7 @@ shared/CityPathGraphManager.o: shared/CityPathGraphManager.cpp.o
 
 # target to build an object file
 shared/CityPathGraphManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraphManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraphManager.cpp.o
 .PHONY : shared/CityPathGraphManager.cpp.o
 
 shared/CityPathGraphManager.i: shared/CityPathGraphManager.cpp.i
@@ -167,7 +167,7 @@ shared/CityPathGraphManager.i: shared/CityPathGraphManager.cpp.i
 
 # target to preprocess a source file
 shared/CityPathGraphManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraphManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraphManager.cpp.i
 .PHONY : shared/CityPathGraphManager.cpp.i
 
 shared/CityPathGraphManager.s: shared/CityPathGraphManager.cpp.s
@@ -175,7 +175,7 @@ shared/CityPathGraphManager.s: shared/CityPathGraphManager.cpp.s
 
 # target to generate assembly for a file
 shared/CityPathGraphManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraphManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathGraphManager.cpp.s
 .PHONY : shared/CityPathGraphManager.cpp.s
 
 shared/CityPathNode.o: shared/CityPathNode.cpp.o
@@ -183,7 +183,7 @@ shared/CityPathNode.o: shared/CityPathNode.cpp.o
 
 # target to build an object file
 shared/CityPathNode.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathNode.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathNode.cpp.o
 .PHONY : shared/CityPathNode.cpp.o
 
 shared/CityPathNode.i: shared/CityPathNode.cpp.i
@@ -191,7 +191,7 @@ shared/CityPathNode.i: shared/CityPathNode.cpp.i
 
 # target to preprocess a source file
 shared/CityPathNode.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathNode.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathNode.cpp.i
 .PHONY : shared/CityPathNode.cpp.i
 
 shared/CityPathNode.s: shared/CityPathNode.cpp.s
@@ -199,7 +199,7 @@ shared/CityPathNode.s: shared/CityPathNode.cpp.s
 
 # target to generate assembly for a file
 shared/CityPathNode.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathNode.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/CityPathNode.cpp.s
 .PHONY : shared/CityPathNode.cpp.s
 
 shared/PathAutoGenerator.o: shared/PathAutoGenerator.cpp.o
@@ -207,7 +207,7 @@ shared/PathAutoGenerator.o: shared/PathAutoGenerator.cpp.o
 
 # target to build an object file
 shared/PathAutoGenerator.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/PathAutoGenerator.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/PathAutoGenerator.cpp.o
 .PHONY : shared/PathAutoGenerator.cpp.o
 
 shared/PathAutoGenerator.i: shared/PathAutoGenerator.cpp.i
@@ -215,7 +215,7 @@ shared/PathAutoGenerator.i: shared/PathAutoGenerator.cpp.i
 
 # target to preprocess a source file
 shared/PathAutoGenerator.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/PathAutoGenerator.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/PathAutoGenerator.cpp.i
 .PHONY : shared/PathAutoGenerator.cpp.i
 
 shared/PathAutoGenerator.s: shared/PathAutoGenerator.cpp.s
@@ -223,7 +223,7 @@ shared/PathAutoGenerator.s: shared/PathAutoGenerator.cpp.s
 
 # target to generate assembly for a file
 shared/PathAutoGenerator.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/PathAutoGenerator.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/PathAutoGenerator.cpp.s
 .PHONY : shared/PathAutoGenerator.cpp.s
 
 shared/ServerPathBuildManager.o: shared/ServerPathBuildManager.cpp.o
@@ -231,7 +231,7 @@ shared/ServerPathBuildManager.o: shared/ServerPathBuildManager.cpp.o
 
 # target to build an object file
 shared/ServerPathBuildManager.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuildManager.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuildManager.cpp.o
 .PHONY : shared/ServerPathBuildManager.cpp.o
 
 shared/ServerPathBuildManager.i: shared/ServerPathBuildManager.cpp.i
@@ -239,7 +239,7 @@ shared/ServerPathBuildManager.i: shared/ServerPathBuildManager.cpp.i
 
 # target to preprocess a source file
 shared/ServerPathBuildManager.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuildManager.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuildManager.cpp.i
 .PHONY : shared/ServerPathBuildManager.cpp.i
 
 shared/ServerPathBuildManager.s: shared/ServerPathBuildManager.cpp.s
@@ -247,7 +247,7 @@ shared/ServerPathBuildManager.s: shared/ServerPathBuildManager.cpp.s
 
 # target to generate assembly for a file
 shared/ServerPathBuildManager.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuildManager.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuildManager.cpp.s
 .PHONY : shared/ServerPathBuildManager.cpp.s
 
 shared/ServerPathBuilder.o: shared/ServerPathBuilder.cpp.o
@@ -255,7 +255,7 @@ shared/ServerPathBuilder.o: shared/ServerPathBuilder.cpp.o
 
 # target to build an object file
 shared/ServerPathBuilder.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuilder.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuilder.cpp.o
 .PHONY : shared/ServerPathBuilder.cpp.o
 
 shared/ServerPathBuilder.i: shared/ServerPathBuilder.cpp.i
@@ -263,7 +263,7 @@ shared/ServerPathBuilder.i: shared/ServerPathBuilder.cpp.i
 
 # target to preprocess a source file
 shared/ServerPathBuilder.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuilder.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuilder.cpp.i
 .PHONY : shared/ServerPathBuilder.cpp.i
 
 shared/ServerPathBuilder.s: shared/ServerPathBuilder.cpp.s
@@ -271,7 +271,7 @@ shared/ServerPathBuilder.s: shared/ServerPathBuilder.cpp.s
 
 # target to generate assembly for a file
 shared/ServerPathBuilder.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuilder.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathBuilder.cpp.s
 .PHONY : shared/ServerPathBuilder.cpp.s
 
 shared/ServerPathfinding.o: shared/ServerPathfinding.cpp.o
@@ -279,7 +279,7 @@ shared/ServerPathfinding.o: shared/ServerPathfinding.cpp.o
 
 # target to build an object file
 shared/ServerPathfinding.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfinding.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfinding.cpp.o
 .PHONY : shared/ServerPathfinding.cpp.o
 
 shared/ServerPathfinding.i: shared/ServerPathfinding.cpp.i
@@ -287,7 +287,7 @@ shared/ServerPathfinding.i: shared/ServerPathfinding.cpp.i
 
 # target to preprocess a source file
 shared/ServerPathfinding.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfinding.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfinding.cpp.i
 .PHONY : shared/ServerPathfinding.cpp.i
 
 shared/ServerPathfinding.s: shared/ServerPathfinding.cpp.s
@@ -295,7 +295,7 @@ shared/ServerPathfinding.s: shared/ServerPathfinding.cpp.s
 
 # target to generate assembly for a file
 shared/ServerPathfinding.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfinding.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfinding.cpp.s
 .PHONY : shared/ServerPathfinding.cpp.s
 
 shared/ServerPathfindingConstants.o: shared/ServerPathfindingConstants.cpp.o
@@ -303,7 +303,7 @@ shared/ServerPathfindingConstants.o: shared/ServerPathfindingConstants.cpp.o
 
 # target to build an object file
 shared/ServerPathfindingConstants.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingConstants.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingConstants.cpp.o
 .PHONY : shared/ServerPathfindingConstants.cpp.o
 
 shared/ServerPathfindingConstants.i: shared/ServerPathfindingConstants.cpp.i
@@ -311,7 +311,7 @@ shared/ServerPathfindingConstants.i: shared/ServerPathfindingConstants.cpp.i
 
 # target to preprocess a source file
 shared/ServerPathfindingConstants.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingConstants.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingConstants.cpp.i
 .PHONY : shared/ServerPathfindingConstants.cpp.i
 
 shared/ServerPathfindingConstants.s: shared/ServerPathfindingConstants.cpp.s
@@ -319,7 +319,7 @@ shared/ServerPathfindingConstants.s: shared/ServerPathfindingConstants.cpp.s
 
 # target to generate assembly for a file
 shared/ServerPathfindingConstants.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingConstants.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingConstants.cpp.s
 .PHONY : shared/ServerPathfindingConstants.cpp.s
 
 shared/ServerPathfindingMessaging.o: shared/ServerPathfindingMessaging.cpp.o
@@ -327,7 +327,7 @@ shared/ServerPathfindingMessaging.o: shared/ServerPathfindingMessaging.cpp.o
 
 # target to build an object file
 shared/ServerPathfindingMessaging.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingMessaging.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingMessaging.cpp.o
 .PHONY : shared/ServerPathfindingMessaging.cpp.o
 
 shared/ServerPathfindingMessaging.i: shared/ServerPathfindingMessaging.cpp.i
@@ -335,7 +335,7 @@ shared/ServerPathfindingMessaging.i: shared/ServerPathfindingMessaging.cpp.i
 
 # target to preprocess a source file
 shared/ServerPathfindingMessaging.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingMessaging.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingMessaging.cpp.i
 .PHONY : shared/ServerPathfindingMessaging.cpp.i
 
 shared/ServerPathfindingMessaging.s: shared/ServerPathfindingMessaging.cpp.s
@@ -343,7 +343,7 @@ shared/ServerPathfindingMessaging.s: shared/ServerPathfindingMessaging.cpp.s
 
 # target to generate assembly for a file
 shared/ServerPathfindingMessaging.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingMessaging.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingMessaging.cpp.s
 .PHONY : shared/ServerPathfindingMessaging.cpp.s
 
 shared/ServerPathfindingNotification.o: shared/ServerPathfindingNotification.cpp.o
@@ -351,7 +351,7 @@ shared/ServerPathfindingNotification.o: shared/ServerPathfindingNotification.cpp
 
 # target to build an object file
 shared/ServerPathfindingNotification.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingNotification.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingNotification.cpp.o
 .PHONY : shared/ServerPathfindingNotification.cpp.o
 
 shared/ServerPathfindingNotification.i: shared/ServerPathfindingNotification.cpp.i
@@ -359,7 +359,7 @@ shared/ServerPathfindingNotification.i: shared/ServerPathfindingNotification.cpp
 
 # target to preprocess a source file
 shared/ServerPathfindingNotification.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingNotification.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingNotification.cpp.i
 .PHONY : shared/ServerPathfindingNotification.cpp.i
 
 shared/ServerPathfindingNotification.s: shared/ServerPathfindingNotification.cpp.s
@@ -367,7 +367,7 @@ shared/ServerPathfindingNotification.s: shared/ServerPathfindingNotification.cpp
 
 # target to generate assembly for a file
 shared/ServerPathfindingNotification.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingNotification.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/ServerPathfindingNotification.cpp.s
 .PHONY : shared/ServerPathfindingNotification.cpp.s
 
 shared/SetupServerPathfinding.o: shared/SetupServerPathfinding.cpp.o
@@ -375,7 +375,7 @@ shared/SetupServerPathfinding.o: shared/SetupServerPathfinding.cpp.o
 
 # target to build an object file
 shared/SetupServerPathfinding.cpp.o:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/SetupServerPathfinding.cpp.o
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/SetupServerPathfinding.cpp.o
 .PHONY : shared/SetupServerPathfinding.cpp.o
 
 shared/SetupServerPathfinding.i: shared/SetupServerPathfinding.cpp.i
@@ -383,7 +383,7 @@ shared/SetupServerPathfinding.i: shared/SetupServerPathfinding.cpp.i
 
 # target to preprocess a source file
 shared/SetupServerPathfinding.cpp.i:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/SetupServerPathfinding.cpp.i
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/SetupServerPathfinding.cpp.i
 .PHONY : shared/SetupServerPathfinding.cpp.i
 
 shared/SetupServerPathfinding.s: shared/SetupServerPathfinding.cpp.s
@@ -391,7 +391,7 @@ shared/SetupServerPathfinding.s: shared/SetupServerPathfinding.cpp.s
 
 # target to generate assembly for a file
 shared/SetupServerPathfinding.cpp.s:
-	cd /home/almalinux/swg-talon-online/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/SetupServerPathfinding.cpp.s
+	cd /home/swg/swg-main/build && $(MAKE) $(MAKESILENT) -f engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/build.make engine/server/library/serverPathfinding/src/CMakeFiles/serverPathfinding.dir/shared/SetupServerPathfinding.cpp.s
 .PHONY : shared/SetupServerPathfinding.cpp.s
 
 # Help Target
@@ -447,6 +447,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

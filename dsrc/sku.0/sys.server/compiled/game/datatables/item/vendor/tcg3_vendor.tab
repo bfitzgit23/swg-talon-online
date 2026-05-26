@@ -30,29 +30,29 @@ item_tcg_loot_reward_series3_greeter_toydarian	225000
 item_tcg_loot_reward_series3_greeter_tusken	225000								
 item_tcg_loot_reward_series3_nightsister_vendor	175000								
 item_tcg_loot_reward_series3_battle_droid_vendor	175000								
-item_jedi_robe_light_04_04	100000	0								
-item_jedi_robe_dark_04_04	100000	0							
-item_collection_jedi_holocron_01_01	60000	0								
-item_collection_jedi_holocron_01_02	60000	0								
-item_collection_jedi_holocron_01_03	60000	0								
-item_collection_jedi_holocron_01_04	150000	0								
-item_collection_jedi_holocron_01_05	150000	0								
-item_collection_jedi_holocron_02_01	60000	0								
-item_collection_jedi_holocron_02_02	60000	0								
-item_collection_jedi_holocron_02_03	60000	0								
-item_collection_jedi_holocron_02_04	150000	0								
-item_collection_jedi_holocron_02_05	150000	0								
-item_collection_sith_holocron_01_01	60000	0								
-item_collection_sith_holocron_01_02	60000	0								
-item_collection_sith_holocron_01_03	60000	0								
-item_collection_sith_holocron_01_04	60000	0								
-item_collection_sith_holocron_01_05	60000	0								
-item_collection_sith_holocron_02_01	60000	0								
-item_collection_sith_holocron_02_02	60000	0								
-item_collection_sith_holocron_02_03	60000	0								
-item_collection_sith_holocron_02_04	150000	0								
-item_collection_sith_holocron_02_05	60000	0	
-item_schematic_fifth_gen_saber_03_01	60000   0
-item_schematic_fifth_gen_saber_03_02	60000	0
-item_schematic_fifth_gen_saber_03_03	60000	0
-col_lightsaber_1h_01_03			60000   0
+item_jedi_robe_light_04_04	100000								
+item_jedi_robe_dark_04_04	100000								
+item_collection_jedi_holocron_01_01	60000								
+item_collection_jedi_holocron_01_02	60000								
+item_collection_jedi_holocron_01_03	60000								
+item_collection_jedi_holocron_01_04	150000								
+item_collection_jedi_holocron_01_05	150000								
+item_collection_jedi_holocron_02_01	60000								
+item_collection_jedi_holocron_02_02	60000								
+item_collection_jedi_holocron_02_03	60000								
+item_collection_jedi_holocron_02_04	150000								
+item_collection_jedi_holocron_02_05	150000								
+item_collection_sith_holocron_01_01	60000								
+item_collection_sith_holocron_01_02	60000								
+item_collection_sith_holocron_01_03	60000								
+item_collection_sith_holocron_01_04	60000								
+item_collection_sith_holocron_01_05	60000								
+item_collection_sith_holocron_02_01	60000								
+item_collection_sith_holocron_02_02	60000								
+item_collection_sith_holocron_02_03	60000								
+item_collection_sith_holocron_02_04	150000								
+item_collection_sith_holocron_02_05	60000								
+item_schematic_fifth_gen_saber_03_01	60000								
+item_schematic_fifth_gen_saber_03_02	60000								
+item_schematic_fifth_gen_saber_03_03	60000								
+col_lightsaber_1h_01_03	60000								

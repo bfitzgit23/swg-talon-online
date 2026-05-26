@@ -1,9 +1,9 @@
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoByteStream.cpp \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoByteStream.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/FirstArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/Archive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/ByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/FirstArchive.h \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/Archive.h \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/ByteStream.h \
  /usr/include/c++/8/exception \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -117,7 +117,7 @@ external/ours/library/archive/src/CMakeFiles/archive.dir/shared/AutoByteStream.c
  /usr/include/c++/8/deque /usr/include/c++/8/bits/stl_deque.h \
  /usr/include/c++/8/bits/deque.tcc /usr/include/c++/8/set \
  /usr/include/c++/8/bits/stl_set.h /usr/include/c++/8/bits/stl_multiset.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/AutoByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/AutoByteStream.h \
  /usr/include/c++/8/cassert /usr/include/assert.h /usr/include/c++/8/list \
  /usr/include/c++/8/bits/stl_list.h \
  /usr/include/c++/8/bits/allocated_ptr.h /usr/include/c++/8/bits/list.tcc

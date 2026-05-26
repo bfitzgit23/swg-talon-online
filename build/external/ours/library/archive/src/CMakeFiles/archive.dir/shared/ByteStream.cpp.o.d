@@ -1,9 +1,9 @@
 external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/ByteStream.cpp \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/ByteStream.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/FirstArchive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/Archive.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/shared/ByteStream.h \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/FirstArchive.h \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/Archive.h \
+ /home/swg/swg-main/src/external/ours/library/archive/src/shared/ByteStream.h \
  /usr/include/c++/8/exception \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \
@@ -117,6 +117,6 @@ external/ours/library/archive/src/CMakeFiles/archive.dir/shared/ByteStream.cpp.o
  /usr/include/c++/8/deque /usr/include/c++/8/bits/stl_deque.h \
  /usr/include/c++/8/bits/deque.tcc /usr/include/c++/8/set \
  /usr/include/c++/8/bits/stl_set.h /usr/include/c++/8/bits/stl_multiset.h \
- /home/almalinux/swg-talon-online/src/external/ours/library/archive/src/linux/ArchiveMutex.h \
+ /home/swg/swg-main/src/external/ours/library/archive/src/linux/ArchiveMutex.h \
  /usr/include/c++/8/cassert /usr/include/assert.h \
  /usr/include/c++/8/cstring /usr/include/string.h /usr/include/strings.h

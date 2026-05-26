@@ -1,8 +1,8 @@
 external/3rd/library/soePlatform/CSAssist/projects/CSAssist/CSAssistgameapi/CMakeFiles/CSAssist.dir/__/__/__/utils/Unicode/Unicode.cpp.o: \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.cpp \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.cpp \
  /usr/include/stdc-predef.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h \
- /home/almalinux/swg-talon-online/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/FirstUnicode.h \
+ /home/swg/swg-main/src/external/3rd/library/soePlatform/CSAssist/utils/Unicode/Unicode.h \
  /usr/include/c++/8/string \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/c++config.h \
  /usr/include/c++/8/x86_64-redhat-linux/32/bits/os_defines.h \

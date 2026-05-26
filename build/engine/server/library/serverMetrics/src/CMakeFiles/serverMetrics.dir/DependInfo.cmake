@@ -8,10 +8,10 @@ set(CMAKE_DEPENDS_LANGUAGES
 
 # The set of dependency files which are needed:
 set(CMAKE_DEPENDS_DEPENDENCY_FILES
-  "/home/almalinux/swg-talon-online/src/engine/server/library/serverMetrics/src/shared/ConfigServerMetrics.cpp" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/ConfigServerMetrics.cpp.o" "gcc" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/ConfigServerMetrics.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/engine/server/library/serverMetrics/src/shared/MetricsConnection.cpp" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsConnection.cpp.o" "gcc" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsConnection.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/engine/server/library/serverMetrics/src/shared/MetricsData.cpp" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsData.cpp.o" "gcc" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsData.cpp.o.d"
-  "/home/almalinux/swg-talon-online/src/engine/server/library/serverMetrics/src/shared/MetricsManager.cpp" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsManager.cpp.o" "gcc" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsManager.cpp.o.d"
+  "/home/swg/swg-main/src/engine/server/library/serverMetrics/src/shared/ConfigServerMetrics.cpp" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/ConfigServerMetrics.cpp.o" "gcc" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/ConfigServerMetrics.cpp.o.d"
+  "/home/swg/swg-main/src/engine/server/library/serverMetrics/src/shared/MetricsConnection.cpp" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsConnection.cpp.o" "gcc" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsConnection.cpp.o.d"
+  "/home/swg/swg-main/src/engine/server/library/serverMetrics/src/shared/MetricsData.cpp" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsData.cpp.o" "gcc" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsData.cpp.o.d"
+  "/home/swg/swg-main/src/engine/server/library/serverMetrics/src/shared/MetricsManager.cpp" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsManager.cpp.o" "gcc" "engine/server/library/serverMetrics/src/CMakeFiles/serverMetrics.dir/shared/MetricsManager.cpp.o.d"
   )
 
 # Targets to which this target links which contain Fortran sources.

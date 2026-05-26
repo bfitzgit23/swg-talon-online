@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/almalinux/swg-talon-online/src
+CMAKE_SOURCE_DIR = /home/swg/swg-main/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/almalinux/swg-talon-online/build
+CMAKE_BINARY_DIR = /home/swg/swg-main/build
 
 # Include any dependencies generated for this target.
 include engine/client/application/Miff/src/CMakeFiles/Miff.dir/depend.make
@@ -69,86 +69,86 @@ include engine/client/application/Miff/src/CMakeFiles/Miff.dir/progress.make
 # Include the compile flags for this target's objects.
 include engine/client/application/Miff/src/CMakeFiles/Miff.dir/flags.make
 
-engine/client/application/Miff/src/lex_yy.c: /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/parser.lex
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating lex_yy.c"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/flex -w -o/home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/lex_yy.c /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/parser.lex
+engine/client/application/Miff/src/lex_yy.c: /home/swg/swg-main/src/engine/client/application/Miff/src/linux/parser.lex
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating lex_yy.c"
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/flex -w -o/home/swg/swg-main/build/engine/client/application/Miff/src/lex_yy.c /home/swg/swg-main/src/engine/client/application/Miff/src/linux/parser.lex
 
-engine/client/application/Miff/src/parser.c: /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/parser.yac
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating parser.c, parser.h"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/bison -d -o /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/parser.c /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/parser.yac
+engine/client/application/Miff/src/parser.c: /home/swg/swg-main/src/engine/client/application/Miff/src/linux/parser.yac
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating parser.c, parser.h"
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/bison -d -o /home/swg/swg-main/build/engine/client/application/Miff/src/parser.c /home/swg/swg-main/src/engine/client/application/Miff/src/linux/parser.yac
 
 engine/client/application/Miff/src/parser.h: engine/client/application/Miff/src/parser.c
 	@$(CMAKE_COMMAND) -E touch_nocreate engine/client/application/Miff/src/parser.h
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/flags.make
-engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o: /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp
+engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o: /home/swg/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o -MF CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o.d -o CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o -c /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o"
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o -MF CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o.d -o CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.o -c /home/swg/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp > CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.i
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp > CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.i
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp -o CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.s
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/client/application/Miff/src/linux/InputFileHandler.cpp -o CMakeFiles/Miff.dir/linux/InputFileHandler.cpp.s
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/flags.make
-engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o: /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp
+engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o: /home/swg/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o -MF CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o.d -o CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o -c /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o"
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o -MF CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o.d -o CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.o -c /home/swg/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp > CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.i
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp > CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.i
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp -o CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.s
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/client/application/Miff/src/linux/OutputFileHandler.cpp -o CMakeFiles/Miff.dir/linux/OutputFileHandler.cpp.s
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/flags.make
-engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/miff.cpp
+engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: /home/swg/swg-main/src/engine/client/application/Miff/src/linux/miff.cpp
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o -MF CMakeFiles/Miff.dir/linux/miff.cpp.o.d -o CMakeFiles/Miff.dir/linux/miff.cpp.o -c /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/miff.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o"
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.o -MF CMakeFiles/Miff.dir/linux/miff.cpp.o.d -o CMakeFiles/Miff.dir/linux/miff.cpp.o -c /home/swg/swg-main/src/engine/client/application/Miff/src/linux/miff.cpp
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Miff.dir/linux/miff.cpp.i"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/miff.cpp > CMakeFiles/Miff.dir/linux/miff.cpp.i
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/swg/swg-main/src/engine/client/application/Miff/src/linux/miff.cpp > CMakeFiles/Miff.dir/linux/miff.cpp.i
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/linux/miff.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Miff.dir/linux/miff.cpp.s"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src/linux/miff.cpp -o CMakeFiles/Miff.dir/linux/miff.cpp.s
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/swg/swg-main/src/engine/client/application/Miff/src/linux/miff.cpp -o CMakeFiles/Miff.dir/linux/miff.cpp.s
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/flags.make
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o: engine/client/application/Miff/src/lex_yy.c
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o -MF CMakeFiles/Miff.dir/lex_yy.c.o.d -o CMakeFiles/Miff.dir/lex_yy.c.o -c /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/lex_yy.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o"
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.o -MF CMakeFiles/Miff.dir/lex_yy.c.o.d -o CMakeFiles/Miff.dir/lex_yy.c.o -c /home/swg/swg-main/build/engine/client/application/Miff/src/lex_yy.c
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Miff.dir/lex_yy.c.i"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/lex_yy.c > CMakeFiles/Miff.dir/lex_yy.c.i
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/swg/swg-main/build/engine/client/application/Miff/src/lex_yy.c > CMakeFiles/Miff.dir/lex_yy.c.i
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/lex_yy.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Miff.dir/lex_yy.c.s"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/lex_yy.c -o CMakeFiles/Miff.dir/lex_yy.c.s
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/swg/swg-main/build/engine/client/application/Miff/src/lex_yy.c -o CMakeFiles/Miff.dir/lex_yy.c.s
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/flags.make
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o: engine/client/application/Miff/src/parser.c
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o: engine/client/application/Miff/src/CMakeFiles/Miff.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o -MF CMakeFiles/Miff.dir/parser.c.o.d -o CMakeFiles/Miff.dir/parser.c.o -c /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/parser.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o"
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -MD -MT engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.o -MF CMakeFiles/Miff.dir/parser.c.o.d -o CMakeFiles/Miff.dir/parser.c.o -c /home/swg/swg-main/build/engine/client/application/Miff/src/parser.c
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/Miff.dir/parser.c.i"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/parser.c > CMakeFiles/Miff.dir/parser.c.i
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E /home/swg/swg-main/build/engine/client/application/Miff/src/parser.c > CMakeFiles/Miff.dir/parser.c.i
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/parser.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/Miff.dir/parser.c.s"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && /bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/parser.c -o CMakeFiles/Miff.dir/parser.c.s
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && /usr/bin/cc $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S /home/swg/swg-main/build/engine/client/application/Miff/src/parser.c -o CMakeFiles/Miff.dir/parser.c.s
 
 # Object files for target Miff
 Miff_OBJECTS = \
@@ -196,20 +196,20 @@ bin/Miff: external/ours/library/unicodeArchive/src/libunicodeArchive.a
 bin/Miff: engine/shared/library/sharedRandom/src/libsharedRandom.a
 bin/Miff: engine/shared/library/sharedSynchronization/src/libsharedSynchronization.a
 bin/Miff: engine/client/application/Miff/src/CMakeFiles/Miff.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/almalinux/swg-talon-online/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../../../bin/Miff"
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Miff.dir/link.txt --verbose=$(VERBOSE)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/swg/swg-main/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable ../../../../../bin/Miff"
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Miff.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/build: bin/Miff
 .PHONY : engine/client/application/Miff/src/CMakeFiles/Miff.dir/build
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/clean:
-	cd /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src && $(CMAKE_COMMAND) -P CMakeFiles/Miff.dir/cmake_clean.cmake
+	cd /home/swg/swg-main/build/engine/client/application/Miff/src && $(CMAKE_COMMAND) -P CMakeFiles/Miff.dir/cmake_clean.cmake
 .PHONY : engine/client/application/Miff/src/CMakeFiles/Miff.dir/clean
 
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/depend: engine/client/application/Miff/src/lex_yy.c
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/depend: engine/client/application/Miff/src/parser.c
 engine/client/application/Miff/src/CMakeFiles/Miff.dir/depend: engine/client/application/Miff/src/parser.h
-	cd /home/almalinux/swg-talon-online/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/almalinux/swg-talon-online/src /home/almalinux/swg-talon-online/src/engine/client/application/Miff/src /home/almalinux/swg-talon-online/build /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src /home/almalinux/swg-talon-online/build/engine/client/application/Miff/src/CMakeFiles/Miff.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/swg/swg-main/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/swg/swg-main/src /home/swg/swg-main/src/engine/client/application/Miff/src /home/swg/swg-main/build /home/swg/swg-main/build/engine/client/application/Miff/src /home/swg/swg-main/build/engine/client/application/Miff/src/CMakeFiles/Miff.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : engine/client/application/Miff/src/CMakeFiles/Miff.dir/depend
 
